@@ -1,0 +1,11 @@
+{
+    "title": {
+      "text": "General",
+      "bold": true,
+      "color": "red"
+    },
+    "tip": {
+      "text": "There are lots of different weapons in the modpack, each with unique stats and/or effects",
+      "color": "green"
+    }
+  }

@@ -1,0 +1,24 @@
+{
+  "defaultCycleTime": 5000,
+  "ignoredNamespaces": [
+    "tips",
+    "aether",
+    "deep_aether",
+    "aether_redux",
+    "redux_tips",
+    "ancient_aether",
+    "tipsmod"
+  ],
+  "ignoredTips": [
+    "aether:risk_taking",
+    "aether:check_surroundings"
+  ],
+  "hideUnlocalizedTips": false,
+  "tipRenderWidthPercent": 0.35,
+  "defaultTitle": {
+    "bold": true,
+    "underlined": true,
+    "color": "yellow",
+    "translate": "tipsmod.title.default"
+  }
+}

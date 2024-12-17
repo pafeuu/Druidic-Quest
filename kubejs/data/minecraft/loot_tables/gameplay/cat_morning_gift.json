@@ -1,0 +1,52 @@
+{
+    "type": "minecraft:gift",
+    "pools": [
+      {
+        "bonus_rolls": 0,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "kubejs:overworld_key",
+            "weight": 1
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:rabbit_foot",
+            "weight": 15
+          },
+          {
+            "type": "minecraft:item",
+            "name": "tide:crystalline_carp",
+            "weight": 15
+          },
+          {
+            "type": "minecraft:item",
+            "name": "immersive_weathering:golden_moss_clump",
+            "weight": 15
+          },
+          {
+            "type": "minecraft:item",
+            "name": "endrem:undead_soul",
+            "weight": 1
+          },
+          {
+            "type": "minecraft:item",
+            "name": "kubejs:shapeshifting_root",
+            "weight": 15
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:phantom_membrane",
+            "weight": 15
+          },
+          {
+            "type": "minecraft:item",
+            "name": "thermal:ruby",
+            "weight": 2
+          }
+        ],
+        "rolls": 3
+      }
+    ],
+    "random_sequence": "minecraft:gameplay/cat_morning_gift"
+  }

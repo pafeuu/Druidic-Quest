@@ -1,0 +1,11 @@
+{
+  "title": {
+    "text": "Worldgen",
+    "bold": true,
+    "color": "red"
+  },
+  "tip": {
+    "text": "Lots of structures in the modpack are changed to give you unique experience!",
+    "color": "green"
+  }
+}

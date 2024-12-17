@@ -1,0 +1,50 @@
+{
+  "armorSetName": "steel",
+  "performanceMode": true,
+  "head": {
+    "itemKey": "immersiveengineering:armor_steel_helmet"
+  },
+  "chest": {
+    "itemKey": "immersiveengineering:armor_steel_chestplate"
+  },
+  "legs": {
+    "itemKey": "immersiveengineering:armor_steel_leggings",
+    "mustBeEmpty": false
+  },
+  "boots": {
+    "itemKey": "immersiveengineering:armor_steel_boots"
+  },
+  "partialBonusRequiredAmount": 3,
+  "partialSetBonuses": [
+    {
+      "type": "effect",
+      "name": "minecraft:resistance",
+      "value": 0.0,
+      "interactionType": "self",
+      "interactionDuration": 300,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "effect",
+      "name": "minecraft:fire_resistance",
+      "value": 0.0,
+      "interactionType": "self",
+      "interactionDuration": 300,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "effect",
+      "name": "minecraft:strength",
+      "value": 1.0,
+      "interactionType": "self",
+      "interactionDuration": 300,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": false
+}

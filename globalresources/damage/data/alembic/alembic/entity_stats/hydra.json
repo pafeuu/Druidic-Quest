@@ -1,0 +1,19 @@
+{
+  "priority": 1,
+  "type": "twilightforest:hydra",
+  "resistances": {
+    "alchemical_damage": 1.5,
+    "physical_damage": 1.5,
+    "fire_damage": 2.0,
+    "arcane_damage": 1.5,
+    "true_damage": 1.5,
+    "ice_damage": 0.75,
+    "holy_damage": 1.0
+  },
+  "damage": {
+    "physical_damage": 0.25,
+    "fire_damage": 0.5,
+    "true_damage": 0.25
+  },
+  "ignored_sources": []
+}

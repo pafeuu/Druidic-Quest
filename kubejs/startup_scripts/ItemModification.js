@@ -1,0 +1,165 @@
+
+ItemEvents.modification(event => {
+  
+  let stacking16 = ['minecraft:potion','minecraft:saddle',"minecraft:writable_book","enigmaticlegacy:recall_potion","enigmaticlegacy:mending_mixture","minecraft:splash_potion","minecraft:lingering_potion","minecraft:cake",
+    "enigmaticlegacy:common_potion","enigmaticlegacy:common_potion_splash","enigmaticlegacy:common_potion_lingering","enigmaticlegacy:ultimate_potion","enigmaticlegacy:ultimate_potion_splash","enigmaticlegacy:ultimate_potion_lingering"]
+
+  let stacking64 = ["minecraft:snowball","ender_pearl"]
+ 
+  let tooltype =['pickaxe','shovel','hoe','axe']
+
+  stacking16.forEach((id)=>{
+
+    event.modify(id, item=>{
+      item.maxStackSize = 16
+    })
+  })
+
+  stacking64.forEach((id)=>{
+
+    event.modify(id, item=>{
+      item.maxStackSize = 64
+    })
+  })
+  //========================================Swords
+  event.modify('minecraft:iron_sword', item=>{
+    item.maxDamage = 512
+  })
+
+  event.modify('minecraft:golden_sword', item=>{
+    item.maxDamage = 512
+  })
+
+  event.modify('minecraft:wooden_sword', item=>{
+    item.maxDamage = 128
+  })
+
+  event.modify('minecraft:stone_sword', item=>{
+    item.maxDamage = 128
+  })
+
+  event.modify('create_sa:copper_sword', item=>{
+    item.maxDamage = 1024
+  })
+
+  event.modify('create_sa:zinc_sword', item=>{
+    item.maxDamage = 512
+  })
+
+  event.modify('create_sa:brass_sword', item=>{
+    item.maxDamage = 1024
+  })
+
+  event.modify('create_sa:experience_sword', item=>{
+    item.maxDamage = 256
+  })
+
+  event.modify('naturesaura:infused_iron_sword', item=>{
+    item.maxDamage = 1536
+  })
+
+  event.modify('minecraft:diamond_sword', item=>{
+    item.maxDamage = 2048
+  })
+  tooltype.forEach((id) => {
+    
+    event.modify('minecraft:wooden_'+id, item => {
+      item.digSpeed = 6,
+      item.maxDamage = 128
+    })
+
+    event.modify('minecraft:golden_'+id, item=>{
+        item.maxDamage = 512,
+        item.digSpeed = 8
+        // +1 Luck and +2 looting or fortune
+    })
+    event.modify('minecraft:stone_'+id, item => {
+      item.maxDamage = 128
+    })
+
+    event.modify('create_sa:copper_'+id, item=> {
+      item.digSpeed = 4,
+      item.maxDamage = 1024
+    })
+
+    event.modify('minecraft:iron_'+id, item=>{
+      item.maxDamage = 512
+      // +0.5 block range
+    })
+
+    event.modify('create_sa:zinc_'+id, item=>{
+      item.maxDamage = 512
+      // +20% movement speed
+    })
+
+    event.modify('create_sa:brass_'+id, item=>{
+      item.digSpeed = 7,
+      item.maxDamage = 1024
+      // +1 Luck and 50% knockback resistance
+    })
+
+    event.modify('naturesaura:infused_iron_'+id, item=>{
+      item.maxDamage = 1536,
+      item.digSpeed = 7
+      // +1 block range
+    })
+
+    event.modify('create_sa:experience_'+id, item=>{
+      item.maxDamage = 256
+      // +1 block range
+    })
+
+    event.modify('minecraft:diamond_'+id, item=>{
+      item.maxDamage = 2048
+      // ??+1 block range
+    })
+
+    event.modify('minecraft:netherite_'+id, item=>{
+      item.maxDamage = 4096
+      // ??+1 block range
+    })
+  })
+  
+ 
+
+  event.modify('immersiveengineering:glider', item=>{
+    item.maxDamage = 512
+  })
+
+  event.modify('minecraft:elytra', item=>{
+    item.maxDamage = 512
+   
+  })
+
+  event.modify('alexsmobs:tarantula_hawk_elytra', item=>{
+    item.maxDamage = 1024,
+    item.armorProtection = 8
+  })
+
+  event.modify("immersiveengineering:armor_steel_helmet", item=>{
+    item.armorKnockbackResistance = 0.1,
+    item.armorProtection = 4,
+    item.armorToughness = 3
+  })
+
+  event.modify("immersiveengineering:armor_steel_chestplate", item=>{
+    item.armorKnockbackResistance = 0.1,
+    item.armorProtection = 9,
+    item.armorToughness = 3
+  })
+
+  event.modify("immersiveengineering:armor_steel_leggings", item=>{
+    item.armorKnockbackResistance = 0.1,
+    item.armorProtection = 7,
+    item.armorToughness = 3
+  })
+
+  event.modify("immersiveengineering:armor_steel_boots", item=>{
+    item.armorKnockbackResistance = 0.1,
+    item.armorProtection = 4,
+    item.armorToughness = 3
+  })
+  
+  
+  
+})

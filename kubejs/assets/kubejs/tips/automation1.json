@@ -1,0 +1,11 @@
+{
+  "title": {
+    "text": "Automation",
+    "bold": true,
+    "color": "red"
+  },
+  "tip": {
+    "text": "Plates can be automated early with anvil and spring launcher!",
+    "color": "green"
+  }
+}

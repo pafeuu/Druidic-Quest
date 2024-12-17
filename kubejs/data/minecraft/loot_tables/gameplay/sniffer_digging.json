@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:gift",
+    "pools": [
+      {
+        "bonus_rolls": 0,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:torchflower_seeds"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:pitcher_pod"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "kubejs:shapeshifting_root"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "kubejs:underground_spice"
+          }
+        ],
+        "rolls": 1
+      }
+    ],
+    "random_sequence": "minecraft:gameplay/sniffer_digging"
+  }

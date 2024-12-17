@@ -1,0 +1,13 @@
+{
+  "id": "kubejs:roadrunner_totem",
+  "modifiers": [
+    {
+      "type": "append",
+      "attribute": "generic.movement_speed",
+      "value": 0.15,
+      "operation": "MULTIPLY_TOTAL",
+      "uuid": "f8c3223d-1fea-4d7c-a8b0-29f63c4c3454"
+    }
+  ],
+  "equipment_slot": "OFFHAND"
+}

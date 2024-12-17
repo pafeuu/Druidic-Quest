@@ -1,0 +1,522 @@
+{
+	icon: "minecraft:chest"
+	id: "3EFC06A707D2BDC2"
+	loot_size: 1
+	order_index: 3
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "supplementaries:sack"
+				tag: {
+					BlockEntityTag: {
+						Items: [
+							{
+								Count: 32b
+								Slot: 0b
+								id: "design_decor:arrow_right_sign"
+							}
+							{
+								Count: 32b
+								Slot: 1b
+								id: "design_decor:arrow_right_sign"
+							}
+							{
+								Count: 32b
+								Slot: 2b
+								id: "design_decor:arrow_down_sign"
+							}
+							{
+								Count: 32b
+								Slot: 3b
+								id: "design_decor:arrow_up_sign"
+							}
+							{
+								Count: 64b
+								Slot: 4b
+								id: "design_decor:letter_sign"
+							}
+							{
+								Count: 32b
+								Slot: 5b
+								id: "design_decor:arrow_down_sign"
+							}
+							{
+								Count: 32b
+								Slot: 6b
+								id: "design_decor:arrow_up_sign"
+							}
+							{
+								Count: 32b
+								Slot: 7b
+								id: "design_decor:arrow_left_sign"
+							}
+							{
+								Count: 32b
+								Slot: 8b
+								id: "design_decor:arrow_left_sign"
+							}
+						]
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "supplementaries:sack"
+				tag: {
+					BlockEntityTag: {
+						Items: [
+							{
+								Count: 32b
+								Slot: 0b
+								id: "twigs:allium_paper_lantern"
+							}
+							{
+								Count: 32b
+								Slot: 1b
+								id: "twigs:paper_lantern"
+							}
+							{
+								Count: 32b
+								Slot: 2b
+								id: "twigs:paper_lantern"
+							}
+							{
+								Count: 32b
+								Slot: 3b
+								id: "twigs:allium_paper_lantern"
+							}
+							{
+								Count: 64b
+								Slot: 4b
+								id: "architects_palette:nether_brass_lantern"
+							}
+							{
+								Count: 32b
+								Slot: 5b
+								id: "twigs:torchflower_paper_lantern"
+							}
+							{
+								Count: 32b
+								Slot: 6b
+								id: "minecraft:soul_torch"
+							}
+							{
+								Count: 32b
+								Slot: 7b
+								id: "minecraft:soul_torch"
+							}
+							{
+								Count: 32b
+								Slot: 8b
+								id: "twigs:torchflower_paper_lantern"
+							}
+						]
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "supplementaries:sack"
+				tag: {
+					BlockEntityTag: {
+						Items: [
+							{
+								Count: 16b
+								Slot: 0b
+								id: "minecraft:soul_lantern"
+							}
+							{
+								Count: 16b
+								Slot: 1b
+								id: "minecraft:soul_lantern"
+							}
+							{
+								Count: 16b
+								Slot: 2b
+								id: "minecraft:soul_lantern"
+							}
+							{
+								Count: 16b
+								Slot: 3b
+								id: "minecraft:lantern"
+							}
+							{
+								Count: 32b
+								Slot: 4b
+								id: "enigmaticlegacy:big_redstonelamp"
+							}
+							{
+								Count: 16b
+								Slot: 5b
+								id: "minecraft:soul_lantern"
+							}
+							{
+								Count: 16b
+								Slot: 6b
+								id: "minecraft:lantern"
+							}
+							{
+								Count: 16b
+								Slot: 7b
+								id: "minecraft:lantern"
+							}
+							{
+								Count: 16b
+								Slot: 8b
+								id: "minecraft:lantern"
+							}
+						]
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "supplementaries:sack"
+				tag: {
+					BlockEntityTag: {
+						Items: [
+							{
+								Count: 16b
+								Slot: 0b
+								id: "twigs:crimson_shroomlamp"
+							}
+							{
+								Count: 16b
+								Slot: 1b
+								id: "twigs:crimson_shroomlamp"
+							}
+							{
+								Count: 16b
+								Slot: 2b
+								id: "twigs:crimson_shroomlamp"
+							}
+							{
+								Count: 16b
+								Slot: 3b
+								id: "twigs:crimson_shroomlamp"
+							}
+							{
+								Count: 32b
+								Slot: 4b
+								id: "minecraft:shroomlight"
+							}
+							{
+								Count: 16b
+								Slot: 5b
+								id: "twigs:warped_shroomlamp"
+							}
+							{
+								Count: 16b
+								Slot: 6b
+								id: "twigs:warped_shroomlamp"
+							}
+							{
+								Count: 16b
+								Slot: 7b
+								id: "twigs:warped_shroomlamp"
+							}
+							{
+								Count: 16b
+								Slot: 8b
+								id: "twigs:warped_shroomlamp"
+							}
+						]
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "supplementaries:sack"
+				tag: {
+					BlockEntityTag: {
+						Items: [
+							{
+								Count: 32b
+								Slot: 0b
+								id: "immersive_weathering:frosty_glass"
+							}
+							{
+								Count: 32b
+								Slot: 1b
+								id: "minecraft:glass"
+							}
+							{
+								Count: 32b
+								Slot: 2b
+								id: "minecraft:glass"
+							}
+							{
+								Count: 32b
+								Slot: 3b
+								id: "minecraft:tinted_glass"
+							}
+							{
+								Count: 32b
+								Slot: 4b
+								id: "minecraft:glass_pane"
+							}
+							{
+								Count: 32b
+								Slot: 5b
+								id: "minecraft:glass_pane"
+							}
+							{
+								Count: 32b
+								Slot: 6b
+								id: "quark:dirty_glass"
+							}
+							{
+								Count: 8b
+								Slot: 7b
+								id: "create:framed_glass_trapdoor"
+							}
+							{
+								Count: 8b
+								Slot: 8b
+								id: "create:framed_glass_door"
+							}
+						]
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "supplementaries:sack"
+				tag: {
+					BlockEntityTag: {
+						Items: [
+							{
+								Count: 16b
+								Slot: 0b
+								id: "minecraft:scaffolding"
+							}
+							{
+								Count: 16b
+								Slot: 1b
+								id: "minecraft:scaffolding"
+							}
+							{
+								Count: 16b
+								Slot: 2b
+								id: "minecraft:scaffolding"
+							}
+							{
+								Count: 16b
+								Slot: 3b
+								id: "minecraft:scaffolding"
+							}
+							{
+								Count: 32b
+								Slot: 4b
+								id: "create:copper_scaffolding"
+							}
+							{
+								Count: 16b
+								Slot: 5b
+								id: "minecraft:scaffolding"
+							}
+							{
+								Count: 16b
+								Slot: 6b
+								id: "minecraft:scaffolding"
+							}
+							{
+								Count: 16b
+								Slot: 7b
+								id: "minecraft:scaffolding"
+							}
+							{
+								Count: 16b
+								Slot: 8b
+								id: "minecraft:scaffolding"
+							}
+						]
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "supplementaries:sack"
+				tag: {
+					BlockEntityTag: {
+						Items: [
+							{
+								Count: 16b
+								Slot: 0b
+								id: "farmersdelight:brown_hanging_canvas_sign"
+							}
+							{
+								Count: 16b
+								Slot: 1b
+								id: "farmersdelight:white_hanging_canvas_sign"
+							}
+							{
+								Count: 16b
+								Slot: 2b
+								id: "farmersdelight:light_gray_hanging_canvas_sign"
+							}
+							{
+								Count: 16b
+								Slot: 3b
+								id: "farmersdelight:hanging_canvas_sign"
+							}
+							{
+								Count: 16b
+								Slot: 4b
+								id: "farmersdelight:blue_hanging_canvas_sign"
+							}
+							{
+								Count: 16b
+								Slot: 5b
+								id: "farmersdelight:light_blue_hanging_canvas_sign"
+							}
+							{
+								Count: 16b
+								Slot: 6b
+								id: "farmersdelight:purple_hanging_canvas_sign"
+							}
+							{
+								Count: 16b
+								Slot: 7b
+								id: "farmersdelight:cyan_hanging_canvas_sign"
+							}
+							{
+								Count: 16b
+								Slot: 8b
+								id: "farmersdelight:orange_hanging_canvas_sign"
+							}
+						]
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "supplementaries:sack"
+				tag: {
+					BlockEntityTag: {
+						Items: [
+							{
+								Count: 16b
+								Slot: 0b
+								id: "farmersdelight:bamboo_cabinet"
+							}
+							{
+								Count: 16b
+								Slot: 1b
+								id: "farmersdelight:bamboo_cabinet"
+							}
+							{
+								Count: 16b
+								Slot: 2b
+								id: "farmersdelight:bamboo_cabinet"
+							}
+							{
+								Count: 16b
+								Slot: 3b
+								id: "farmersdelight:bamboo_cabinet"
+							}
+							{
+								Count: 64b
+								Slot: 4b
+								id: "farmersdelight:tatami"
+							}
+							{
+								Count: 16b
+								Slot: 5b
+								id: "farmersdelight:spruce_cabinet"
+							}
+							{
+								Count: 16b
+								Slot: 6b
+								id: "farmersdelight:spruce_cabinet"
+							}
+							{
+								Count: 16b
+								Slot: 7b
+								id: "farmersdelight:spruce_cabinet"
+							}
+							{
+								Count: 16b
+								Slot: 8b
+								id: "farmersdelight:spruce_cabinet"
+							}
+						]
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "supplementaries:sack"
+				tag: {
+					BlockEntityTag: {
+						Items: [
+							{
+								Count: 16b
+								Slot: 0b
+								id: "architects_palette:algal_lamp"
+							}
+							{
+								Count: 16b
+								Slot: 1b
+								id: "architects_palette:algal_lamp"
+							}
+							{
+								Count: 16b
+								Slot: 2b
+								id: "architects_palette:algal_lamp"
+							}
+							{
+								Count: 16b
+								Slot: 3b
+								id: "architects_palette:algal_lamp"
+							}
+							{
+								Count: 16b
+								Slot: 4b
+								id: "supplementaries:candle_holder"
+							}
+							{
+								Count: 16b
+								Slot: 5b
+								id: "minecraft:lime_candle"
+							}
+							{
+								Count: 16b
+								Slot: 6b
+								id: "minecraft:green_candle"
+							}
+							{
+								Count: 16b
+								Slot: 7b
+								id: "minecraft:green_candle"
+							}
+							{
+								Count: 16b
+								Slot: 8b
+								id: "minecraft:lime_candle"
+							}
+						]
+					}
+				}
+			}
+		}
+	]
+	title: "BuildingMisc"
+}

@@ -1,0 +1,11 @@
+{
+  "title": {
+    "text": "Farming",
+    "bold": true,
+    "color": "red"
+  },
+  "tip": {
+    "text": "straw is dropped when you break tall grass and similiar blocks",
+    "color": "green"
+  }
+}

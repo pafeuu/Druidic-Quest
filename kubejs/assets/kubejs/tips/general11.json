@@ -1,0 +1,11 @@
+{
+    "title": {
+      "text": "General",
+      "bold": true,
+      "color": "red"
+    },
+    "tip": {
+      "text": "Treat creators with respect. Most of us are doing it for free",
+      "color": "green"
+    }
+  }

@@ -1,0 +1,20 @@
+{
+    "priority": 1,
+    "type": "thermal:blizz",
+    "resistances": {
+      "alchemical_damage": 1.2,
+      "physical_damage": 1.0,
+      "fire_damage": 0.5,
+      "arcane_damage": 1.2,
+      "true_damage": 1.2,
+      "ice_damage": 2.0,
+      "holy_damage": 1.0
+    },
+    "damage": {
+      "ice_damage": 0.9,
+      "physical_damage": 0.1
+    },
+    "ignored_sources": [
+
+    ]
+  }

@@ -1,0 +1,560 @@
+{
+	icon: "minecraft:chest"
+	id: "4364580242FC943E"
+	loot_size: 1
+	order_index: 2
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "supplementaries:sack"
+				tag: {
+					BlockEntityTag: {
+						Items: [
+							{
+								Count: 8b
+								Slot: 0b
+								id: "minecraft:amethyst_shard"
+							}
+							{
+								Count: 8b
+								Slot: 1b
+								id: "minecraft:amethyst_shard"
+							}
+							{
+								Count: 8b
+								Slot: 2b
+								id: "minecraft:amethyst_shard"
+							}
+							{
+								Count: 8b
+								Slot: 3b
+								id: "minecraft:amethyst_shard"
+							}
+							{
+								Count: 1b
+								Slot: 4b
+								id: "minecraft:budding_amethyst"
+							}
+							{
+								Count: 8b
+								Slot: 5b
+								id: "minecraft:amethyst_shard"
+							}
+							{
+								Count: 8b
+								Slot: 6b
+								id: "minecraft:amethyst_shard"
+							}
+							{
+								Count: 8b
+								Slot: 7b
+								id: "minecraft:amethyst_shard"
+							}
+							{
+								Count: 8b
+								Slot: 8b
+								id: "minecraft:amethyst_shard"
+							}
+						]
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "supplementaries:sack"
+				tag: {
+					BlockEntityTag: {
+						Items: [
+							{
+								Count: 4b
+								Slot: 0b
+								id: "minecraft:lightning_rod"
+							}
+							{
+								Count: 4b
+								Slot: 1b
+								id: "minecraft:lightning_rod"
+							}
+							{
+								Count: 4b
+								Slot: 2b
+								id: "minecraft:lightning_rod"
+							}
+							{
+								Count: 4b
+								Slot: 3b
+								id: "minecraft:lightning_rod"
+							}
+							{
+								Count: 4b
+								Slot: 4b
+								id: "thermal:lightning_charge"
+							}
+							{
+								Count: 4b
+								Slot: 5b
+								id: "minecraft:lightning_rod"
+							}
+							{
+								Count: 4b
+								Slot: 6b
+								id: "minecraft:lightning_rod"
+							}
+							{
+								Count: 4b
+								Slot: 7b
+								id: "minecraft:lightning_rod"
+							}
+							{
+								Count: 4b
+								Slot: 8b
+								id: "minecraft:lightning_rod"
+							}
+						]
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "supplementaries:sack"
+				tag: {
+					BlockEntityTag: {
+						Items: [
+							{
+								Count: 8b
+								Slot: 0b
+								id: "minecraft:honeycomb"
+							}
+							{
+								Count: 8b
+								Slot: 1b
+								id: "minecraft:honeycomb"
+							}
+							{
+								Count: 8b
+								Slot: 2b
+								id: "minecraft:honeycomb"
+							}
+							{
+								Count: 8b
+								Slot: 3b
+								id: "minecraft:honeycomb"
+							}
+							{
+								Count: 16b
+								Slot: 4b
+								id: "farmersdelight:honey_glazed_ham"
+							}
+							{
+								Count: 8b
+								Slot: 5b
+								id: "minecraft:honeycomb"
+							}
+							{
+								Count: 8b
+								Slot: 6b
+								id: "minecraft:honeycomb"
+							}
+							{
+								Count: 8b
+								Slot: 7b
+								id: "minecraft:honeycomb"
+							}
+							{
+								Count: 8b
+								Slot: 8b
+								id: "minecraft:honeycomb"
+							}
+						]
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "supplementaries:sack"
+				tag: {
+					BlockEntityTag: {
+						Items: [
+							{
+								Count: 8b
+								Slot: 0b
+								id: "minecraft:honeycomb"
+							}
+							{
+								Count: 8b
+								Slot: 1b
+								id: "minecraft:honeycomb"
+							}
+							{
+								Count: 8b
+								Slot: 2b
+								id: "minecraft:honeycomb"
+							}
+							{
+								Count: 8b
+								Slot: 3b
+								id: "minecraft:honeycomb"
+							}
+							{
+								Count: 32b
+								Slot: 4b
+								id: "create:honeyed_apple"
+							}
+							{
+								Count: 8b
+								Slot: 5b
+								id: "minecraft:honeycomb"
+							}
+							{
+								Count: 8b
+								Slot: 6b
+								id: "minecraft:honeycomb"
+							}
+							{
+								Count: 8b
+								Slot: 7b
+								id: "minecraft:honeycomb"
+							}
+							{
+								Count: 8b
+								Slot: 8b
+								id: "minecraft:honeycomb"
+							}
+						]
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "supplementaries:sack"
+				tag: {
+					BlockEntityTag: {
+						Items: [
+							{
+								Count: 16b
+								Slot: 0b
+								id: "minecraft:copper_ingot"
+							}
+							{
+								Count: 16b
+								Slot: 1b
+								id: "minecraft:copper_ingot"
+							}
+							{
+								Count: 16b
+								Slot: 2b
+								id: "minecraft:copper_ingot"
+							}
+							{
+								Count: 16b
+								Slot: 3b
+								id: "minecraft:copper_ingot"
+							}
+							{
+								Count: 4b
+								Slot: 4b
+								id: "minecraft:diamond"
+							}
+							{
+								Count: 16b
+								Slot: 5b
+								id: "minecraft:iron_ingot"
+							}
+							{
+								Count: 16b
+								Slot: 6b
+								id: "minecraft:iron_ingot"
+							}
+							{
+								Count: 16b
+								Slot: 7b
+								id: "minecraft:iron_ingot"
+							}
+							{
+								Count: 16b
+								Slot: 8b
+								id: "minecraft:iron_ingot"
+							}
+						]
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "supplementaries:sack"
+				tag: {
+					BlockEntityTag: {
+						Items: [
+							{
+								Count: 8b
+								Slot: 0b
+								id: "farmersdelight:rich_soil"
+							}
+							{
+								Count: 8b
+								Slot: 1b
+								id: "farmersdelight:rich_soil"
+							}
+							{
+								Count: 8b
+								Slot: 2b
+								id: "farmersdelight:rich_soil"
+							}
+							{
+								Count: 32b
+								Slot: 3b
+								id: "farmersdelight:straw"
+							}
+							{
+								Count: 64b
+								Slot: 4b
+								id: "architects_palette:algal_blend"
+							}
+							{
+								Count: 32b
+								Slot: 5b
+								id: "farmersdelight:straw"
+							}
+							{
+								Count: 8b
+								Slot: 6b
+								id: "farmersdelight:rich_soil"
+							}
+							{
+								Count: 8b
+								Slot: 7b
+								id: "farmersdelight:rich_soil"
+							}
+							{
+								Count: 8b
+								Slot: 8b
+								id: "farmersdelight:rich_soil"
+							}
+						]
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "supplementaries:sack"
+				tag: {
+					BlockEntityTag: {
+						Items: [
+							{
+								Count: 8b
+								Slot: 0b
+								id: "minecraft:honeycomb"
+							}
+							{
+								Count: 8b
+								Slot: 1b
+								id: "minecraft:honeycomb"
+							}
+							{
+								Count: 8b
+								Slot: 2b
+								id: "minecraft:honeycomb"
+							}
+							{
+								Count: 8b
+								Slot: 3b
+								id: "minecraft:honeycomb"
+							}
+							{
+								Count: 32b
+								Slot: 4b
+								id: "minecraft:honey_block"
+							}
+							{
+								Count: 8b
+								Slot: 5b
+								id: "minecraft:honeycomb"
+							}
+							{
+								Count: 8b
+								Slot: 6b
+								id: "minecraft:honeycomb"
+							}
+							{
+								Count: 8b
+								Slot: 7b
+								id: "minecraft:honeycomb"
+							}
+							{
+								Count: 8b
+								Slot: 8b
+								id: "minecraft:honeycomb"
+							}
+						]
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "supplementaries:sack"
+				tag: {
+					BlockEntityTag: {
+						Items: [
+							{
+								Count: 10b
+								Slot: 0b
+								id: "minecraft:iron_ingot"
+							}
+							{
+								Count: 10b
+								Slot: 1b
+								id: "minecraft:iron_ingot"
+							}
+							{
+								Count: 10b
+								Slot: 2b
+								id: "minecraft:iron_ingot"
+							}
+							{
+								Count: 1b
+								Slot: 3b
+								id: "enigmaticlegacy:iron_ring"
+							}
+							{
+								Count: 1b
+								Slot: 4b
+								id: "minecraft:iron_chestplate"
+								tag: {
+									AttributeModifiers: [
+										{
+											Amount: 6.0d
+											AttributeName: "minecraft:generic.armor"
+											Name: "base_armor"
+											Operation: 0
+											Slot: "chest"
+											UUID: [I;
+												2101420760
+												2145796463
+												-1700034082
+												434836652
+											]
+										}
+										{
+											Amount: 0.1d
+											AttributeName: "minecraft:generic.attack_damage"
+											Name: "base_bonus"
+											Operation: 2
+											Slot: "chest"
+											UUID: [I;
+												-353092326
+												-1700442661
+												-2102513777
+												-1840929605
+											]
+										}
+									]
+									Damage: 0
+									Enchantments: [{
+										id: "minecraft:unbreaking"
+										lvl: 2s
+									}]
+									display: {
+										Name: "{\"translate\":\"set.aquamirae.dead_sea_chestplate\"}"
+									}
+								}
+							}
+							{
+								Count: 1b
+								Slot: 5b
+								id: "enigmaticlegacy:iron_ring"
+							}
+							{
+								Count: 10b
+								Slot: 6b
+								id: "minecraft:iron_ingot"
+							}
+							{
+								Count: 10b
+								Slot: 7b
+								id: "minecraft:iron_ingot"
+							}
+							{
+								Count: 10b
+								Slot: 8b
+								id: "minecraft:iron_ingot"
+							}
+						]
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "supplementaries:sack"
+				tag: {
+					BlockEntityTag: {
+						Items: [
+							{
+								Count: 1b
+								Slot: 0b
+								id: "minecraft:diamond_horse_armor"
+							}
+							{
+								Count: 1b
+								Slot: 1b
+								id: "minecraft:diamond_horse_armor"
+							}
+							{
+								Count: 1b
+								Slot: 2b
+								id: "minecraft:diamond_horse_armor"
+							}
+							{
+								Count: 1b
+								Slot: 3b
+								id: "minecraft:diamond_horse_armor"
+							}
+							{
+								Count: 1b
+								Slot: 4b
+								id: "minecraft:diamond"
+							}
+							{
+								Count: 1b
+								Slot: 5b
+								id: "minecraft:diamond_horse_armor"
+							}
+							{
+								Count: 1b
+								Slot: 6b
+								id: "minecraft:diamond_horse_armor"
+							}
+							{
+								Count: 1b
+								Slot: 7b
+								id: "minecraft:diamond_horse_armor"
+							}
+							{
+								Count: 1b
+								Slot: 8b
+								id: "minecraft:diamond_horse_armor"
+							}
+						]
+					}
+				}
+			}
+		}
+	]
+	title: "Tier1Treasure"
+}

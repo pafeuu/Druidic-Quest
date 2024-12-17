@@ -1,0 +1,326 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "welcome"
+	group: ""
+	icon: "minecraft:oak_sapling"
+	id: "3E5E80A2E082BA7C"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Welcome to &2Druidic Quest!&r"
+				""
+				"The modpack is focused on improving and balancing all aspects of the game!"
+				""
+				"For example many recipes are changed and requier you to setup automation for certain materials using a different mechanics from different mods."
+				""
+				"&eQuests&r will help guide you through progression so make sure to read them."
+			]
+			icon: "minecraft:grass_block"
+			id: "23878BB2C97470D0"
+			rewards: [
+				{
+					count: 3
+					id: "0718837C87B7E430"
+					item: "alexsdelight:bunfungus_sandwich"
+					type: "item"
+				}
+				{
+					count: 24
+					id: "27E0DA17B7722F2D"
+					item: "everycomp:ch/forbidden_arcanus/edelwood_torch"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "5DBEB97A2AC1C1B5"
+				title: "Idea behind the modpack"
+				type: "checkmark"
+			}]
+			title: "Welcome"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["23878BB2C97470D0"]
+			description: ["Progression chapter is essential to not get lost in all the new things this modpack implements and it will provide you with some nice rewards. To get started proceed to your first progression quests in the &2Tier 0 - Wood Age&r Tab"]
+			icon: "immersiveengineering:drillhead_iron"
+			id: "4FF8CB3EF0206C93"
+			rewards: [{
+				count: 5
+				id: "7E701B1B2BD539C1"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "2B82E041BDADF5CE"
+				type: "checkmark"
+			}]
+			title: "Progression chapter"
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["23878BB2C97470D0"]
+			description: [
+				"There are many chapters which have nothing to do with progression."
+				""
+				"For example there are quests to collect every music disk."
+			]
+			icon: "supplementaries:statue"
+			id: "4CCE1DF1DF0C35DB"
+			rewards: [{
+				count: 5
+				id: "0C48E2AD25BC2832"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "264EDCE9022AE608"
+				type: "checkmark"
+			}]
+			title: "Ultimate collector"
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["23878BB2C97470D0"]
+			description: [
+				"If this is somehow your first modpack you are really gonna need to read that."
+				""
+				"But even if you are a veteran you might not know everything there so make sure to check it out!"
+			]
+			icon: "tombstone:impregnated_diamond"
+			id: "6F5C7CA9C74F13E9"
+			rewards: [{
+				count: 5
+				id: "464C497AE0195548"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "76585DF65787623E"
+				type: "checkmark"
+			}]
+			title: "Random tips chapter"
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["23878BB2C97470D0"]
+			description: ["You can buy some usefull stuff in the market tab, they are overpriced but if you really need something..."]
+			icon: { Count: 64, id: "thermal:gold_coin" }
+			id: "4676E5CD619B4194"
+			rewards: [{
+				count: 5
+				id: "40C76F75B559B8E5"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "707119BF1D825C50"
+				type: "checkmark"
+			}]
+			title: "Market"
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["23878BB2C97470D0"]
+			description: [
+				"Quests are not required to progress but you can get some nice rewards from them."
+				"You can also consider completing all of them as one of your goals :)"
+				""
+				"Shapes of the invidual quests have a meaning:"
+				""
+				"Hexagon - Informantional Quests"
+				""
+				"Gear - Quests unlocking new chapters and/or new quests"
+				""
+				"Diamond - Repeteable quests usually giving some nice items for currency"
+			]
+			icon: "ftbquests:book"
+			id: "296394452736D250"
+			rewards: [{
+				id: "1BCF4966F4D832FE"
+				item: {
+					Count: 1
+					id: "eccentrictome:tome"
+					tag: {
+						"eccentrictome:mods": {
+							alexsmobs: {
+								0: {
+									Count: 1b
+									id: "alexsmobs:animal_dictionary"
+								}
+							}
+							ars_nouveau: {
+								0: {
+									Count: 1b
+									id: "ars_nouveau:worn_notebook"
+								}
+							}
+							irons_spellbooks: {
+								0: {
+									Count: 1b
+									id: "patchouli:guide_book"
+									tag: {
+										"patchouli:book": "irons_spellbooks:iss_guide_book"
+									}
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "You dont need a questbook, you can open quests by pressing X"
+			tasks: [{
+				id: "2C2AF4370BB5F99A"
+				type: "checkmark"
+			}]
+			title: "Questbook"
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["23878BB2C97470D0"]
+			description: [
+				"Remember to set your keybinds!"
+				""
+				"ESC => Options => Controls => Keybinds"
+			]
+			icon: "thermal:netherite_gear"
+			id: "622108B53EDE2AAB"
+			rewards: [{
+				count: 5
+				id: "6C62549B95F7DF62"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "61A27F32728D4E7E"
+				type: "checkmark"
+			}]
+			title: "Options and keybinds"
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["23878BB2C97470D0"]
+			description: ["As a thank you gift take those shoes. Those are really nice shoes"]
+			icon: {
+				Count: 1
+				id: "create_sa:copper_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "48BFFBF891F26E15"
+			rewards: [{
+				id: "0D9CFD77BD9BDD71"
+				item: {
+					Count: 1
+					id: "minecraft:leather_boots"
+					tag: {
+						AttributeModifiers: [{
+							Amount: 0.01d
+							AttributeName: "generic.movement_speed"
+							Name: "1722232346604"
+							Slot: "feet"
+							UUID: [I;
+								-124629
+								16710
+								75154
+								-33420
+							]
+						}]
+						Damage: 0
+						display: {
+							Lore: ["[\"\",{\"text\":\"Gotta go fast\",\"color\":\"dark_green\"}]"]
+							Name: "[\"\",{\"text\":\"Playtester's Boots\",\"italic\":false}]"
+							color: 8439583
+						}
+					}
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "5F284D7BA9296A55"
+				type: "checkmark"
+			}]
+			title: "Thank you for playtesting!"
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["23878BB2C97470D0"]
+			description: [
+				"As you probably noticed your character is quite nerfed at the start."
+				""
+				"To make sure you get strong you should invest in variety of good food."
+			]
+			icon: "farmersdelight:pasta_with_mutton_chop"
+			id: "236F52C9E0815D19"
+			rewards: [{
+				count: 3
+				id: "3B6A73715FB7337C"
+				item: "farmersdelight:mutton_wrap"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "7879815FC7D43373"
+				type: "checkmark"
+			}]
+			title: "Balanced Diet"
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["23878BB2C97470D0"]
+			description: [
+				"Equipping ring of seven curses comes with a lot of extra challanges. "
+				"- From now on everyone is mad at you so they will attack!"
+				"- You cant sleep anymore"
+				"- You take double the damage"
+				"- and more..."
+				""
+				"Oh and also you cant take the ring off,,,"
+			]
+			hide_dependency_lines: false
+			hide_until_deps_visible: true
+			icon: "enigmaticlegacy:cursed_ring"
+			id: "58E9D1489BF137FB"
+			optional: true
+			rewards: [{
+				id: "4068FB258D52E9BC"
+				item: "enigmaticlegacy:cursed_ring"
+				type: "item"
+			}]
+			shape: "heart"
+			size: 2.0d
+			subtitle: "Only for the bravest"
+			tasks: [{
+				id: "75914BB60016C7F8"
+				title: "I want to have a hard time!"
+				type: "checkmark"
+			}]
+			title: "Cursed Mode"
+			x: -5.5d
+			y: 0.0d
+		}
+	]
+	title: "Welcome"
+}

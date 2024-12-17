@@ -1,0 +1,11 @@
+{
+  "title": {
+    "text": "Automation",
+    "bold": true,
+    "color": "red"
+  },
+  "tip": {
+    "text": "Ars Nouveau is extremely powerfull! Spell turrets can automate a lot of different task like breaking and placing blocks!",
+    "color": "green"
+  }
+}

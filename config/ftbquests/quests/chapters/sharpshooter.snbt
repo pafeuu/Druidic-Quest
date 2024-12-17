@@ -1,0 +1,867 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "sharpshooter"
+	group: "6959C7C8592FBBA9"
+	hide_quest_until_deps_visible: true
+	icon: "minecraft:spectral_arrow"
+	id: "5B1DCD4A4A1EF571"
+	order_index: 6
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "07350B615E04364F"
+			rewards: [{
+				id: "6E6FD0931FD3BCCA"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "13F4B498A92A00B5"
+				item: {
+					Count: 1
+					id: "supplementaries:rope_arrow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "00F6ECE50C359F72"
+			rewards: [{
+				id: "66EFB32C7E57B43D"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "615E06AAF133F69D"
+				item: "archers_paradox:ender_arrow"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "79076E3B02D17C1C"
+			rewards: [{
+				id: "4E8731CBF4F39AD5"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "69DBBDE982A4CD9C"
+				item: "archers_paradox:shulker_arrow"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "07FB9C9BBA8B7B0B"
+			rewards: [{
+				id: "48C5183B36113119"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "43A5234956E8B1CD"
+				item: "archers_paradox:blaze_arrow"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "232A5A3943B17F86"
+			rewards: [{
+				id: "556353B24A207056"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6ADC65375BCD160D"
+				item: "archers_paradox:training_arrow"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "70F9AAE767F1DB09"
+			rewards: [{
+				id: "31FEB37BB0EE8091"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "417188640C47D4C0"
+				item: "archers_paradox:frost_arrow"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "4EC45A2F9BB4DBB6"
+			rewards: [{
+				id: "59FEE6CE53E333D1"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "71ADFEF3862623C6"
+				item: "archers_paradox:quartz_arrow"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "14AF2D7A199722F9"
+			rewards: [{
+				id: "027AD3F3E0088880"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5CACD0EE79449D6D"
+				item: "archers_paradox:explosive_arrow"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "489B1B0C44D3D975"
+			rewards: [{
+				id: "2DA7989229DDC9C9"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0457F8A20BA3A733"
+				item: "forbidden_arcanus:draco_arcanus_arrow"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "7CAE88FD7F507CBB"
+			rewards: [{
+				id: "7F9202B6EB9D892B"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1DE0CCEA58B535E9"
+				item: "forbidden_arcanus:boom_arrow"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "5F9E54406D44129D"
+			rewards: [{
+				id: "75326676A769885D"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "55D8EC39BA428ACF"
+				item: "archers_paradox:slime_arrow"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "63E4C9057BA57ABB"
+			rewards: [{
+				id: "3D1D7C597A537067"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3B7CE295D1AA4AA1"
+				item: "archers_paradox:phantasmal_arrow"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "2F2E98851FC14976"
+			rewards: [{
+				id: "48A7A62F8B604734"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "66EE6A00D50736E1"
+				item: "archers_paradox:lightning_arrow"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "25BBEF6CD3B275FD"
+			rewards: [{
+				id: "6FF3077AB7496129"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7F80EF2CB4B565CE"
+				item: "archers_paradox:challenge_arrow"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "7CA79422C0EE099A"
+			rewards: [{
+				id: "3780764850BE486F"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "22032148288C2876"
+				item: "archers_paradox:diamond_arrow"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "20B2B1583BC8DC69"
+			rewards: [{
+				id: "2FE2B7885701B898"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5DC512030C0F469B"
+				item: "archers_paradox:verdant_arrow"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "334E6DF64811B55C"
+			rewards: [{
+				id: "19C5D0DF06FA3ECD"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "27000F932405D060"
+				item: "archers_paradox:spore_arrow"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "7581ADB5F0A66C2B"
+			rewards: [{
+				id: "31FD123D0AE1200A"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "13670F1A91D17409"
+				item: "minecraft:spectral_arrow"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "3E633E9BFCB67D03"
+			rewards: [{
+				id: "3D8D8C20ED1836B0"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "66F1F432B61A5F16"
+				item: {
+					Count: 1
+					id: "minecraft:tipped_arrow"
+					tag: {
+						Potion: "minecraft:water"
+					}
+				}
+				match_nbt: false
+				title: "Any tipped Arrow"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "317CE7D837093B49"
+			rewards: [{
+				id: "3192F3B2AC2A4CD4"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2E5B9C9244F2A638"
+				item: "quark:torch_arrow"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "0E48C3A7787FF83B"
+			rewards: [{
+				id: "57D1E3A5E4698A75"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "39BE69D5946CAA9A"
+				item: "ars_nouveau:amplify_arrow"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "01BFFEBCE26333F0"
+			rewards: [{
+				id: "14A0E2D6C81D3A30"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "59C402316B4E058A"
+				item: "ars_nouveau:split_arrow"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "5E3B9449F4B056A3"
+			rewards: [{
+				id: "1C91A8F2C0B9B283"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4D7DCBDE35AC42DD"
+				item: "ars_nouveau:pierce_arrow"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "5D5C399A6AC946B4"
+			rewards: [{
+				id: "347712F957678417"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5FBF2F7E86D8BADA"
+				item: "alexsmobs:shark_tooth_arrow"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "4ACD676CF33E022D"
+			rewards: [{
+				count: 3
+				id: "18DD5C04F09C9A0A"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "60D7ECD178F72B68"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							Items: [ ]
+							SelectedSlot: 0
+							Size: 6
+						}
+					}
+					id: "supplementaries:quiver"
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "7BE7BA08754E1CE8"
+			rewards: [{
+				id: "237D1A5964C75623"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4C67FA31000DA750"
+				item: {
+					Count: 1
+					id: "thermal:potion_quiver"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "039824B7098E9F13"
+			rewards: [{
+				id: "7752E01100B39B4C"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "10F93405DBE72DBC"
+				item: {
+					Count: 1
+					id: "minecraft:bow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "73AE7000DD7E9694"
+			rewards: [{
+				id: "1EA29145CFFBB191"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "40D8E00C837ACE3F"
+				item: {
+					Count: 1
+					id: "minecraft:crossbow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "38222CDC1743BF50"
+			rewards: [{
+				id: "112478652F48393B"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "72403FF1F6F5243F"
+				item: {
+					Count: 1
+					id: "ars_nouveau:spell_crossbow"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "5DC739522F4C018C"
+			rewards: [{
+				id: "26BF0D7285D28ED7"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3BD339A3C70A2847"
+				item: {
+					Count: 1
+					id: "ars_nouveau:spell_bow"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "1DDD7F9243CEB447"
+			rewards: [{
+				count: 15
+				id: "06BFE34C133583BA"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7C24CA39C4831FAD"
+				item: {
+					Count: 1
+					id: "supplementaries:slingshot"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "61DBA5076E3607D0"
+			rewards: [{
+				id: "3E0DCE3CDA9FF052"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7CA6863285E966C5"
+				item: "minecraft:target"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "626B294CEDCE39D1"
+			rewards: [{
+				id: "7DED9BD25286213F"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "665E81521DEC2784"
+				item: "archers_paradox:prismarine_arrow"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "63FA4D4F06F948C7"
+			rewards: [{
+				id: "2817D1A1ACB60B34"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "13B94CF248099978"
+				item: {
+					Count: 1
+					id: "minecraft:crossbow"
+					tag: {
+						AttributeModifiers: [
+							{
+								Amount: 2
+								AttributeName: "attributeslib:draw_speed"
+								Name: "sa"
+								Operation: 1
+								Slot: "mainhand"
+								UUID: [I;
+									1092535222
+									-450213868
+									-2139553788
+									1708566011
+								]
+							}
+							{
+								Amount: -0.95d
+								AttributeName: "attributeslib:arrow_damage"
+								Name: "rea"
+								Operation: 1
+								Slot: "mainhand"
+								UUID: [I;
+									-1366993219
+									-935376953
+									-1925440782
+									-1055852673
+								]
+							}
+						]
+						Damage: 0
+						display: {
+							Name: "{\"text\":\"Utility Crossbow\",\"color\":\"green\"}"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: 2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "3B3A7C727F47ADE7"
+			rewards: [{
+				id: "7B9E9982B95460E7"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "239DC00ABAD1C7BB"
+				item: {
+					Count: 1
+					id: "minecraft:bow"
+					tag: {
+						AttributeModifiers: [
+							{
+								Amount: 2
+								AttributeName: "attributeslib:draw_speed"
+								Name: "sa"
+								Operation: 1
+								Slot: "mainhand"
+								UUID: [I;
+									1092535222
+									-450213868
+									-2139553788
+									1708566011
+								]
+							}
+							{
+								Amount: -0.95d
+								AttributeName: "attributeslib:arrow_damage"
+								Name: "rea"
+								Operation: 1
+								Slot: "mainhand"
+								UUID: [I;
+									-1366993219
+									-935376953
+									-1925440782
+									-1055852673
+								]
+							}
+						]
+						Damage: 0
+						display: {
+							Name: "{\"text\":\"Utility Bow\",\"color\":\"green\"}"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: 1.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "7AD1CDB357FB73B1"
+			rewards: [{
+				count: 2
+				id: "6C141D1661020D04"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3DE005E1577EBF00"
+				item: {
+					Count: 1
+					id: "aether:phoenix_bow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "2F74E73BB86C9EB6"
+			rewards: [{
+				count: 2
+				id: "612180603EEE762B"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7A11EB51DB91F073"
+				item: {
+					Count: 1
+					id: "twilightforest:triple_bow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "7016E988096FF5BC"
+			rewards: [{
+				count: 2
+				id: "36523A936716C274"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1D0901470DA2D906"
+				item: {
+					Count: 1
+					id: "twilightforest:seeker_bow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "29315BD7A3AE4FDC"
+			rewards: [{
+				count: 2
+				id: "59A7169C687F8FDD"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "28ACD4D5A0849D32"
+				item: {
+					Count: 1
+					id: "twilightforest:ice_bow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "25D368C4586A3B2A"
+			rewards: [{
+				count: 2
+				id: "6D5DCE09F4868F64"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "209E0AF35BFF7742"
+				item: {
+					Count: 1
+					id: "twilightforest:ender_bow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "431159E150D43742"
+			rewards: [{
+				id: "1B9256A32C30D7C7"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6049B1CFBA59D097"
+				item: {
+					Count: 1
+					id: "aether_redux:subzero_crossbow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "6029F510E2C1A9F0"
+			rewards: [{
+				count: 15
+				id: "585FB94E71CF6F37"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1CDEB44233224F68"
+				item: {
+					Count: 1
+					id: "create:potato_cannon"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: -4.0d
+		}
+	]
+	title: "Sharpshooter"
+}

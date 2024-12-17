@@ -1,0 +1,32 @@
+{
+  "armorSetName": "scarecrow",
+  "performanceMode": true,
+  "head": {
+    "itemKey": "irons_spellbooks:pumpkin_helmet",
+    "mustBeEmpty": false
+  },
+  "chest": {
+    "itemKey": "irons_spellbooks:pumpkin_chestplate",
+    "mustBeEmpty": false
+  },
+  "legs": {
+    "itemKey": "irons_spellbooks:pumpkin_leggings",
+    "mustBeEmpty": false
+  },
+  "boots": {
+    "itemKey": "irons_spellbooks:pumpkin_boots",
+    "mustBeEmpty": false
+  },
+  "fullSetBonuses": [
+    {
+      "type": "effect",
+      "name": "alexsmobs:fear",
+      "value": 1.0,
+      "interactionType": "attack",
+      "interactionDuration": 60,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": false
+}

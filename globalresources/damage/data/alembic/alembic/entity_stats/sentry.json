@@ -1,0 +1,18 @@
+{
+  "priority": 1,
+  "type": "aether:sentry",
+  "resistances": {
+    "alchemical_damage": 1.0,
+    "physical_damage": 1.75,
+    "fire_damage": 1.25,
+    "arcane_damage": 1.0,
+    "true_damage": 1.0,
+    "ice_damage": 1.0,
+    "holy_damage": 1.75
+  },
+  "damage": {
+    "physical_damage": 0.5,
+    "holy_damage": 0.5
+  },
+  "ignored_sources": []
+}

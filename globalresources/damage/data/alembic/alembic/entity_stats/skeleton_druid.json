@@ -1,0 +1,18 @@
+{
+  "priority": 1,
+  "type": "twilightforest:skeleton_druid",
+  "resistances": {
+    "alchemical_damage": 1.75,
+    "physical_damage": 1.0,
+    "fire_damage": 1.0,
+    "arcane_damage": 1.75,
+    "true_damage": 1.0,
+    "ice_damage": 1.0,
+    "holy_damage": 1.0
+  },
+  "damage": {
+    "physical_damage": 0.5,
+    "true_damage": 0.5
+  },
+  "ignored_sources": []
+}

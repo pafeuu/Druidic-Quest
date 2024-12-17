@@ -1,0 +1,2966 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "armor_specialist"
+	group: "6959C7C8592FBBA9"
+	hide_quest_until_deps_visible: true
+	icon: {
+		Count: 1
+		id: "forbidden_arcanus:tyr_chestplate"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "2D31A9CB6776879E"
+	order_index: 4
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			icon: {
+				Count: 1
+				id: "minecraft:leather_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "0161FAC45F2602C0"
+			rewards: [{
+				count: 2
+				id: "4AF038B61552DDA4"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "7E757DB2A748E6F7"
+					item: {
+						Count: 1
+						id: "minecraft:leather_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7792291F01160823"
+					item: {
+						Count: 1
+						id: "minecraft:leather_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "037CC38305EA53E2"
+					item: {
+						Count: 1
+						id: "minecraft:leather_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5817B3717E22A262"
+					item: {
+						Count: 1
+						id: "minecraft:leather_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Leather Set"
+			x: -6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			icon: {
+				Count: 1
+				id: "immersiveengineering:armor_faraday_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "66412E1E9575CCE6"
+			rewards: [{
+				count: 2
+				id: "06F7B17104F2D46A"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "6B479E750771DFFB"
+					item: {
+						Count: 1
+						id: "immersiveengineering:armor_faraday_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "29D179A404A14B8E"
+					item: {
+						Count: 1
+						id: "immersiveengineering:armor_faraday_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1BFB145CBC59015D"
+					item: {
+						Count: 1
+						id: "immersiveengineering:armor_faraday_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5CE17A7F5CD0F603"
+					item: {
+						Count: 1
+						id: "immersiveengineering:armor_faraday_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Engineer's Set"
+			x: -5.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			icon: {
+				Count: 1
+				id: "forbidden_arcanus:mortem_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "6605B32CA93F3A21"
+			rewards: [{
+				count: 2
+				id: "590504421247BF4E"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "25F788332F7C0BAA"
+					item: {
+						Count: 1
+						id: "forbidden_arcanus:mortem_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1228F7AFCE1B4C4A"
+					item: {
+						Count: 1
+						id: "forbidden_arcanus:mortem_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "75DFFD414086C4DD"
+					item: {
+						Count: 1
+						id: "forbidden_arcanus:mortem_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5617FFDD954E165A"
+					item: {
+						Count: 1
+						id: "forbidden_arcanus:mortem_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Mortem Set"
+			x: -2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			icon: {
+				Count: 1
+				id: "minecraft:iron_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "019D41076623B360"
+			rewards: [{
+				count: 2
+				id: "40E6E2207FB818AA"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "0C7727506A1AB2D7"
+					item: {
+						Count: 1
+						id: "minecraft:iron_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1A5C8D09CC13CF6A"
+					item: {
+						Count: 1
+						id: "minecraft:iron_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "69BEFC5049FACB4C"
+					item: {
+						Count: 1
+						id: "minecraft:iron_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3ED3B102FF37ED30"
+					item: {
+						Count: 1
+						id: "minecraft:iron_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Iron Set"
+			x: -6.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			icon: {
+				Count: 1
+				id: "minecraft:chainmail_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "7894EAC9BA59C3A5"
+			rewards: [{
+				count: 2
+				id: "4D4DC0D81FD77BFB"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "5C1224F24F655398"
+					item: {
+						Count: 1
+						id: "minecraft:chainmail_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0F8D534A24626C0F"
+					item: {
+						Count: 1
+						id: "minecraft:chainmail_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3EF19957031A0092"
+					item: {
+						Count: 1
+						id: "minecraft:chainmail_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "642C8E570AE0F886"
+					item: {
+						Count: 1
+						id: "minecraft:chainmail_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Chainmail Set"
+			x: -1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			icon: {
+				Count: 1
+				id: "naturesaura:infused_iron_chest"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "6B04297D58BCDDE0"
+			rewards: [{
+				count: 8
+				id: "3316739B5D8AA452"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "481242001A04F1F5"
+					item: {
+						Count: 1
+						id: "naturesaura:infused_iron_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "18181056E0C070E5"
+					item: {
+						Count: 1
+						id: "naturesaura:infused_iron_chest"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7664336CE4213B84"
+					item: {
+						Count: 1
+						id: "naturesaura:infused_iron_pants"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "15C4615AAD7479B6"
+					item: {
+						Count: 1
+						id: "naturesaura:infused_iron_shoes"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Botanist Set"
+			x: -4.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			icon: {
+				Count: 1
+				id: "minecraft:golden_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "49A842F76F839910"
+			rewards: [{
+				count: 8
+				id: "6277A66D7EE0E1FF"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "6AA422F600CCD3AC"
+					item: {
+						Count: 1
+						id: "minecraft:golden_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7340D0DCE72F7F85"
+					item: {
+						Count: 1
+						id: "minecraft:golden_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1CA8514B2F2DF1E0"
+					item: {
+						Count: 1
+						id: "minecraft:golden_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0DE361208C75EEE6"
+					item: {
+						Count: 1
+						id: "minecraft:golden_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Gold Set"
+			x: -3.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			icon: {
+				Count: 1
+				id: "minecraft:diamond_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "71A25B27A634A313"
+			rewards: [{
+				count: 8
+				id: "3F84BF91D8706563"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "63399E681305E94B"
+					item: {
+						Count: 1
+						id: "minecraft:diamond_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5F7D391EFD4C401E"
+					item: {
+						Count: 1
+						id: "minecraft:diamond_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "29E388FBE93AC8EB"
+					item: {
+						Count: 1
+						id: "minecraft:diamond_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "085868626BEC60CC"
+					item: {
+						Count: 1
+						id: "minecraft:diamond_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Diamond Set"
+			x: -2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			icon: {
+				Count: 1
+				id: "minecraft:netherite_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "386B877EEBFB3922"
+			rewards: [{
+				count: 2
+				id: "10A4134716A8577B"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "6E944A0171F1F67C"
+					item: {
+						Count: 1
+						id: "minecraft:netherite_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5011810E800A4E86"
+					item: {
+						Count: 1
+						id: "minecraft:netherite_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "07944A30C5D7CBB7"
+					item: {
+						Count: 1
+						id: "minecraft:netherite_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4668BDD0C2393211"
+					item: {
+						Count: 1
+						id: "minecraft:netherite_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Netherite Set"
+			x: -1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			icon: {
+				Count: 1
+				id: "immersiveengineering:armor_steel_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "6C01D955BBED2130"
+			rewards: [{
+				count: 2
+				id: "5F4C6B91476AFC70"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "5ADB3FBDD616E877"
+					item: {
+						Count: 1
+						id: "immersiveengineering:armor_steel_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7EA31EFA80FBE769"
+					item: {
+						Count: 1
+						id: "immersiveengineering:armor_steel_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "62F3421811F0BB8D"
+					item: {
+						Count: 1
+						id: "immersiveengineering:armor_steel_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5B7C5B796D728A87"
+					item: {
+						Count: 1
+						id: "immersiveengineering:armor_steel_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Steel Set"
+			x: -6.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			icon: {
+				Count: 1
+				id: "naturesaura:sky_chest"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "799D363758C887BF"
+			rewards: [{
+				count: 2
+				id: "2FE2AF0BC429AF25"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "667A40B98683FCE2"
+					item: {
+						Count: 1
+						id: "naturesaura:sky_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1815D5DFEBD6024B"
+					item: {
+						Count: 1
+						id: "naturesaura:sky_chest"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0B6F6EBF81C5BAAE"
+					item: {
+						Count: 1
+						id: "naturesaura:sky_pants"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "571F291D3D1FA2DF"
+					item: {
+						Count: 1
+						id: "naturesaura:sky_shoes"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Skyseeker Set"
+			x: -5.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "0036A138AF4B3988"
+			rewards: [{
+				count: 3
+				id: "2FE6D3E2827D44BF"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "209F5D88BD598030"
+				item: "kubejs:botanist_upgrade_smithing_template"
+				type: "item"
+			}]
+			x: -9.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "5C44BA3EAEA2262B"
+			rewards: [{
+				count: 3
+				id: "01F407952D87058F"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "25EDA2D5BBAD732F"
+				item: "kubejs:gold_upgrade_smithing_template"
+				type: "item"
+			}]
+			x: -9.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "5B4E8FFDA72584D1"
+			rewards: [{
+				count: 3
+				id: "41E28B0033DCCC82"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7EC3C10B7B1F2506"
+				item: "minecraft:netherite_upgrade_smithing_template"
+				type: "item"
+			}]
+			x: -9.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "660B491C5FBA4BF8"
+			rewards: [{
+				count: 3
+				id: "6025AD9747E41A2A"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "393A092655BE2C88"
+				item: "kubejs:skyseeker_upgrade_smithing_template"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "455130A159D89C4F"
+			rewards: [{
+				count: 3
+				id: "61EAC442BB3FC2DD"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "09AE0C01A4ECB18F"
+				item: "forbidden_arcanus:darkstone_upgrade_smithing_template"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "359AE3987801B95D"
+			rewards: [{
+				count: 3
+				id: "54FA82AB881FF862"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "422697AC59425EF7"
+				item: "kubejs:steel_upgrade_smithing_template"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "37FAAA874DBE347B"
+			rewards: [{
+				id: "799081A2AFC438BF"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "31231BCC33161CA0"
+				item: "minecraft:sentry_armor_trim_smithing_template"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "429F9BF56FAA898B"
+			rewards: [{
+				id: "79659F470D968AC4"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "009BF6B5897E5044"
+				item: "minecraft:vex_armor_trim_smithing_template"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "391B930B6DDA0FC3"
+			rewards: [{
+				id: "4A738F8C4785F985"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6C33960C8978AAE9"
+				item: "minecraft:wild_armor_trim_smithing_template"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "370B2E7FF5C22BFC"
+			rewards: [{
+				id: "4D330BC2F5D0CA88"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "37337A1C10A94D9D"
+				item: "minecraft:coast_armor_trim_smithing_template"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "0BE7C36AFF3106A1"
+			rewards: [{
+				id: "4CA62C0AF70927EB"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "331BABF81B044A53"
+				item: "minecraft:tide_armor_trim_smithing_template"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "0F0AC65B0197F2D6"
+			rewards: [{
+				id: "7FA7462EDA2A1579"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5EFBCAAB455F4D25"
+				item: "quark:smithing_template_rune"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "22A445F37C9CD96B"
+			rewards: [{
+				id: "3F592ACBC43EEE2D"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3D7E01C7E4170689"
+				item: "minecraft:wayfinder_armor_trim_smithing_template"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "5DBF383FB751A2F1"
+			rewards: [{
+				id: "01B325F6BC5F9E91"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "026754CF8816A152"
+				item: "minecraft:raiser_armor_trim_smithing_template"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "417A7B73A7827498"
+			rewards: [{
+				id: "771AC002514192DE"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "17527EE2D1DD221D"
+				item: "minecraft:shaper_armor_trim_smithing_template"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "6F591EB654A367CB"
+			rewards: [{
+				id: "0EA76B13E8B82765"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5803C09BE5B4B375"
+				item: "minecraft:host_armor_trim_smithing_template"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "5853B5BEA26EB9D3"
+			rewards: [{
+				id: "1C7DDAF84D56EB26"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "109347282E5DF620"
+				item: "minecraft:silence_armor_trim_smithing_template"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "3EC12A33F40FA715"
+			rewards: [{
+				id: "3412AE5A2783A9B8"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3AD4BA3571C11F7E"
+				item: "minecraft:snout_armor_trim_smithing_template"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "0900ECEA2937E8A4"
+			rewards: [{
+				id: "5E792100DDBB23F7"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1EDFE78C8850815A"
+				item: "minecraft:ward_armor_trim_smithing_template"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "3DDABCC9623C2498"
+			rewards: [{
+				id: "359C0E270BDB785B"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "74F8B7B6677F82C6"
+				item: "minecraft:rib_armor_trim_smithing_template"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "291D09473456BF5C"
+			rewards: [{
+				id: "3FAA852AE89DE5DB"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "21D88BFBB4C939D0"
+				item: "minecraft:eye_armor_trim_smithing_template"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "78FCB572199DFA70"
+			rewards: [{
+				id: "2A45C21D03B0DF43"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "20CCB878C5B84F4F"
+				item: "minecraft:dune_armor_trim_smithing_template"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "35C9A413BCCCA8CA"
+			rewards: [{
+				id: "643BACAF7F0877B0"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0EC2EC473B9A8D32"
+				item: "minecraft:spire_armor_trim_smithing_template"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			icon: {
+				Count: 1
+				id: "create_sa:copper_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "753A248F3415A6E5"
+			rewards: [{
+				count: 2
+				id: "1131040E6ED353F8"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "64AD1D0EE50643CB"
+					item: {
+						Count: 1
+						id: "create_sa:copper_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "214B63D1CBC37AEF"
+					item: {
+						Count: 1
+						id: "create_sa:copper_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1758BF7BA5D5A9B1"
+					item: {
+						Count: 1
+						id: "create_sa:copper_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "69D9CA892E6DD364"
+					item: {
+						Count: 1
+						id: "create_sa:copper_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Copper Set"
+			x: -4.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			icon: {
+				Count: 1
+				id: "create_sa:zinc_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "006F857B70A1FB57"
+			rewards: [{
+				count: 2
+				id: "372897A40794F8EC"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "17EBDE5490D6EDA5"
+					item: {
+						Count: 1
+						id: "create_sa:zinc_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6679C8918295FF21"
+					item: {
+						Count: 1
+						id: "create_sa:zinc_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6B1CE96D4B94B253"
+					item: {
+						Count: 1
+						id: "create_sa:zinc_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "399608E85E184E0F"
+					item: {
+						Count: 1
+						id: "create_sa:zinc_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Zinc Set"
+			x: -3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			icon: {
+				Count: 1
+				id: "create_sa:brass_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "5EF916190A0B155D"
+			rewards: [{
+				count: 2
+				id: "7D438B58323D8309"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "45BD999A07EDDA80"
+					item: {
+						Count: 1
+						id: "create_sa:brass_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6E5BCA974C4F8E83"
+					item: {
+						Count: 1
+						id: "create_sa:brass_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "394AFA37D8D35D47"
+					item: {
+						Count: 1
+						id: "create_sa:brass_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2D8834880E04B066"
+					item: {
+						Count: 1
+						id: "create_sa:brass_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Brass Set"
+			x: -5.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			icon: {
+				Count: 1
+				id: "forbidden_arcanus:draco_arcanus_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "5ABE10B925873252"
+			rewards: [{
+				count: 2
+				id: "3E7946217C3DA686"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "001D7DA99FDCA0E3"
+					item: {
+						Count: 1
+						id: "forbidden_arcanus:draco_arcanus_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "432AAF669D38918A"
+					item: {
+						Count: 1
+						id: "forbidden_arcanus:draco_arcanus_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "65AD15281EB42ABC"
+					item: {
+						Count: 1
+						id: "forbidden_arcanus:draco_arcanus_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "628998555031798D"
+					item: {
+						Count: 1
+						id: "forbidden_arcanus:draco_arcanus_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Draco Arcanus Set"
+			x: -2.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			icon: {
+				Count: 1
+				id: "forbidden_arcanus:tyr_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "6AEEE501FA35C3C6"
+			rewards: [{
+				count: 2
+				id: "78423A386EBEF83B"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "5036FD3751A39D9C"
+					item: {
+						Count: 1
+						id: "forbidden_arcanus:tyr_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "011B5B9D70B2690A"
+					item: {
+						Count: 1
+						id: "forbidden_arcanus:tyr_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0139A2436BFDF371"
+					item: {
+						Count: 1
+						id: "forbidden_arcanus:tyr_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "15764DC615CD475E"
+					item: {
+						Count: 1
+						id: "forbidden_arcanus:tyr_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Tyr Set"
+			x: -1.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			icon: {
+				Count: 1
+				id: "enigmaticlegacy:etherium_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "2CFD2F72A035AC47"
+			rewards: [{
+				count: 2
+				id: "6DA24EC04E8BD90B"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "535EB548BF9085A2"
+					item: {
+						Count: 1
+						id: "enigmaticlegacy:etherium_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "408C297E2AF63091"
+					item: {
+						Count: 1
+						id: "enigmaticlegacy:etherium_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5142248EBFCCFD66"
+					item: {
+						Count: 1
+						id: "enigmaticlegacy:etherium_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "01D5156CEEE9375E"
+					item: {
+						Count: 1
+						id: "enigmaticlegacy:etherium_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Etherium Set"
+			x: -3.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			icon: {
+				Count: 1
+				id: "naturesaura:depth_chest"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "1270CF4BD0AD82F7"
+			rewards: [{
+				count: 2
+				id: "1F1571703E431A77"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "07CF60FC36545F9A"
+					item: {
+						Count: 1
+						id: "naturesaura:depth_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "42BDBEE79043ECDC"
+					item: {
+						Count: 1
+						id: "naturesaura:depth_chest"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0CE2883F29338F47"
+					item: {
+						Count: 1
+						id: "naturesaura:depth_pants"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "05B2DFC8AECA58C2"
+					item: {
+						Count: 1
+						id: "naturesaura:depth_shoes"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Soulstrider Set"
+			x: -4.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "002E3C80492EE191"
+			rewards: [{
+				count: 3
+				id: "3B97E37899296B4A"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6D85F72526D546A6"
+				item: "deeperdarker:warden_upgrade_smithing_template"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "1B28DFF587981D90"
+			rewards: [{
+				id: "66C6CE51283C6830"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0A15FB8CED7A3AC5"
+				item: "ancient_aether:wynd_armor_trim_smithing_template"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "4061DD58F638AC6B"
+			rewards: [{
+				id: "558DE8F1EA755459"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2A01FEC2F2AB2533"
+				item: "ancient_aether:whale_armor_trim_smithing_template"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "5B18692A50FAA37C"
+			rewards: [{
+				id: "2DCC53D2E2EE7871"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7F3962D8E6F801AA"
+				item: "ancient_aether:ascended_armor_trim_smithing_template"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "0988A0F79DD6C6FF"
+			rewards: [{
+				id: "4475B5AB5E3CE04A"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0FAF9CCAC0FE373F"
+				item: "ancient_aether:mysterious_armor_trim_smithing_template"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "051CBA938A4C892D"
+			rewards: [{
+				id: "373CDA1E4C0B39A9"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "224201D32D69A4DD"
+				item: "ancient_aether:mechanical_armor_trim_smithing_template"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "3578DBF68C568076"
+			rewards: [{
+				id: "76B0E942070E5758"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "08B9589304117F35"
+				item: "ancient_aether:royal_armor_trim_smithing_template"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "5E2ECAC9B6E6E1E9"
+			rewards: [{
+				id: "08D644F9103B89C4"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "296B9423E82ED981"
+				item: "ancient_aether:mosaic_armor_trim_smithing_template"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "6568EDD56EEC790F"
+			rewards: [{
+				id: "5E83FC71CF5C6DFE"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "648B7C24D3C7CEF6"
+				item: "ancient_aether:solar_armor_trim_smithing_template"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "536FA00862F3E100"
+			rewards: [{
+				id: "655765522ACC1553"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5F2F69AD1A579D90"
+				item: "ancient_aether:ancient_armor_trim_smithing_template"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			icon: {
+				Count: 1
+				id: "twilightforest:naga_chestplate"
+				tag: {
+					Damage: 0
+					Enchantments: [{
+						id: "minecraft:fire_protection"
+						lvl: 3s
+					}]
+				}
+			}
+			id: "2B4A1699FBA9A3CF"
+			rewards: [{
+				count: 2
+				id: "2F7689524C2A247D"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "06664C4A2CCBB08D"
+					item: {
+						Count: 1
+						id: "twilightforest:naga_chestplate"
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								id: "minecraft:fire_protection"
+								lvl: 3s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1B6C19E0652DA969"
+					item: {
+						Count: 1
+						id: "twilightforest:naga_leggings"
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								id: "minecraft:protection"
+								lvl: 3s
+							}]
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Naga Set"
+			x: -6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			icon: {
+				Count: 1
+				id: "twilightforest:ironwood_chestplate"
+				tag: {
+					Damage: 0
+					Enchantments: [{
+						id: "minecraft:protection"
+						lvl: 1s
+					}]
+				}
+			}
+			id: "6A55D7CEE7DAC3E0"
+			rewards: [{
+				count: 2
+				id: "0C1E2AED907EF4E0"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "49DA4877FF9FDB72"
+					item: {
+						Count: 1
+						id: "twilightforest:ironwood_helmet"
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								id: "minecraft:aqua_affinity"
+								lvl: 1s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7C87C92A7C70A4DF"
+					item: {
+						Count: 1
+						id: "twilightforest:ironwood_chestplate"
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								id: "minecraft:protection"
+								lvl: 1s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7C302FC26F3B3477"
+					item: {
+						Count: 1
+						id: "twilightforest:ironwood_leggings"
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								id: "minecraft:protection"
+								lvl: 1s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2A00A97F4A125BC4"
+					item: {
+						Count: 1
+						id: "twilightforest:ironwood_boots"
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								id: "minecraft:feather_falling"
+								lvl: 1s
+							}]
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Ironwood Set"
+			x: -5.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			icon: {
+				Count: 1
+				id: "twilightforest:steeleaf_chestplate"
+				tag: {
+					Damage: 0
+					Enchantments: [{
+						id: "minecraft:blast_protection"
+						lvl: 2s
+					}]
+				}
+			}
+			id: "1308852F6DA444DA"
+			rewards: [{
+				count: 2
+				id: "5B6AC94B6B90C36C"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "0F8E06C8D2D16733"
+					item: {
+						Count: 1
+						id: "twilightforest:steeleaf_helmet"
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								id: "minecraft:projectile_protection"
+								lvl: 2s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0A97016FDB0F80AC"
+					item: {
+						Count: 1
+						id: "twilightforest:steeleaf_chestplate"
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								id: "minecraft:blast_protection"
+								lvl: 2s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "291878AA758D3007"
+					item: {
+						Count: 1
+						id: "twilightforest:steeleaf_leggings"
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								id: "minecraft:fire_protection"
+								lvl: 2s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "641FE4C71D6846E7"
+					item: {
+						Count: 1
+						id: "twilightforest:steeleaf_boots"
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								id: "minecraft:feather_falling"
+								lvl: 2s
+							}]
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Steeleaf Set"
+			x: -4.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			icon: {
+				Count: 1
+				id: "twilightforest:arctic_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "41A376B174D222EF"
+			rewards: [{
+				count: 2
+				id: "4B5FE9FCAADB0E95"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "135176AC70E4E74A"
+					item: {
+						Count: 1
+						id: "twilightforest:arctic_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6525D41A3374FBAE"
+					item: {
+						Count: 1
+						id: "twilightforest:arctic_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5D43DE4A0D628215"
+					item: {
+						Count: 1
+						id: "twilightforest:arctic_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "799BD5DE6D3B11F7"
+					item: {
+						Count: 1
+						id: "twilightforest:arctic_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Arctic Set"
+			x: -3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			icon: {
+				Count: 1
+				id: "twilightforest:yeti_chestplate"
+				tag: {
+					Damage: 0
+					Enchantments: [{
+						id: "minecraft:protection"
+						lvl: 2s
+					}]
+				}
+			}
+			id: "31F4396A136E036A"
+			rewards: [{
+				count: 2
+				id: "147E71667F7F0148"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "1A793028621040F1"
+					item: {
+						Count: 1
+						id: "twilightforest:yeti_helmet"
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								id: "minecraft:protection"
+								lvl: 2s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "287CEC929042846A"
+					item: {
+						Count: 1
+						id: "twilightforest:yeti_chestplate"
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								id: "minecraft:protection"
+								lvl: 2s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "593759FC3A423274"
+					item: {
+						Count: 1
+						id: "twilightforest:yeti_leggings"
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								id: "minecraft:protection"
+								lvl: 2s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "64AD2B26DE442625"
+					item: {
+						Count: 1
+						id: "twilightforest:yeti_boots"
+						tag: {
+							Damage: 0
+							Enchantments: [
+								{
+									id: "minecraft:protection"
+									lvl: 2s
+								}
+								{
+									id: "minecraft:feather_falling"
+									lvl: 4s
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Yeti Set"
+			x: -2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			icon: {
+				Count: 1
+				id: "twilightforest:fiery_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "29D88D0E49B1DCDC"
+			rewards: [{
+				count: 2
+				id: "14F9D401B0926A96"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "1620977DE3E11ED0"
+					item: {
+						Count: 1
+						id: "twilightforest:fiery_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "34905EAB3FFE58E4"
+					item: {
+						Count: 1
+						id: "twilightforest:fiery_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "70A5DA78E20ABF9D"
+					item: {
+						Count: 1
+						id: "twilightforest:fiery_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3766A7DFE6AE644D"
+					item: {
+						Count: 1
+						id: "twilightforest:fiery_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Fiery Set"
+			x: -1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			icon: {
+				Count: 1
+				id: "aether:neptune_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "246D7684A6C57756"
+			rewards: [{
+				count: 2
+				id: "0DCE9980BEF1196C"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "3F8E01F464258BD9"
+					item: {
+						Count: 1
+						id: "aether:neptune_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5C541EC6357F02DA"
+					item: {
+						Count: 1
+						id: "aether:neptune_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3DF2B5E5FC424BAB"
+					item: {
+						Count: 1
+						id: "aether:neptune_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "00BB9BAFE8D3CFC4"
+					item: {
+						Count: 1
+						id: "aether:neptune_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Neptune Set"
+			x: -1.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			icon: {
+				Count: 1
+				id: "aether:gravitite_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "247DB66FF64EF8F2"
+			rewards: [{
+				count: 2
+				id: "1FE0CE5222A1C812"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "6B2C4E13E84FAC79"
+					item: {
+						Count: 1
+						id: "aether:gravitite_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5901FE55FD2EB68C"
+					item: {
+						Count: 1
+						id: "aether:gravitite_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "39BA3E16F85ECAA5"
+					item: {
+						Count: 1
+						id: "aether:gravitite_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5952284ED9070D04"
+					item: {
+						Count: 1
+						id: "aether:gravitite_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Gravitite Set"
+			x: -2.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			icon: {
+				Count: 1
+				id: "twilightforest:knightmetal_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "7F88688CB9C1BC6D"
+			rewards: [{
+				count: 2
+				id: "2E7926394C843A1E"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "4A5F188489A75150"
+					item: {
+						Count: 1
+						id: "twilightforest:knightmetal_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4A19D15DC1FA8001"
+					item: {
+						Count: 1
+						id: "twilightforest:knightmetal_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "74673BDDBB14C130"
+					item: {
+						Count: 1
+						id: "twilightforest:knightmetal_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "35DB92BF06F21559"
+					item: {
+						Count: 1
+						id: "twilightforest:knightmetal_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Knightmetal Set"
+			x: -5.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			icon: {
+				Count: 1
+				id: "deep_aether:skyjade_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "54EF1BB21C008750"
+			rewards: [{
+				count: 2
+				id: "30BE9B3C95729A5A"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "50E9ED198DAD97CB"
+					item: {
+						Count: 1
+						id: "deep_aether:skyjade_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "04163C6BC408B153"
+					item: {
+						Count: 1
+						id: "deep_aether:skyjade_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6F1C28C0B5034412"
+					item: {
+						Count: 1
+						id: "deep_aether:skyjade_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2F44EFBF1312D4B0"
+					item: {
+						Count: 1
+						id: "deep_aether:skyjade_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Skyjade Set"
+			x: -4.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			icon: {
+				Count: 1
+				id: "aether:zanite_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "7A2910018FCF786D"
+			rewards: [{
+				count: 2
+				id: "476FC5DA2524AB8C"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "596B39622C5F0931"
+					item: {
+						Count: 1
+						id: "aether:zanite_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "13B39C8A2D7A53A4"
+					item: {
+						Count: 1
+						id: "aether:zanite_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "533538D86C588829"
+					item: {
+						Count: 1
+						id: "aether:zanite_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "46E4AAB52736C82C"
+					item: {
+						Count: 1
+						id: "aether:zanite_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Zanite Set"
+			x: -3.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			icon: {
+				Count: 1
+				id: "twilightforest:phantom_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "2C9EC732EC9EE901"
+			rewards: [{
+				count: 2
+				id: "3684A36A2BC4D09D"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "1A9CB3ACECFDB3FC"
+					item: {
+						Count: 1
+						id: "twilightforest:phantom_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "01EC4F03ED24D1F9"
+					item: {
+						Count: 1
+						id: "twilightforest:phantom_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Phantom Set"
+			x: -6.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			icon: {
+				Count: 1
+				id: "aether:phoenix_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "4B12F3118897F1EB"
+			rewards: [{
+				count: 2
+				id: "508413CEE6CF16D4"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "0CF2699F683FE406"
+					item: {
+						Count: 1
+						id: "aether:phoenix_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "547C1893C95E5BA8"
+					item: {
+						Count: 1
+						id: "aether:phoenix_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7472797FDDAE077C"
+					item: {
+						Count: 1
+						id: "aether:phoenix_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "44665E89F80F8F46"
+					item: {
+						Count: 1
+						id: "aether:phoenix_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Phoenix Set"
+			x: -6.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			icon: {
+				Count: 1
+				id: "deep_aether:stratus_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "6B8D31F8F2FCC095"
+			rewards: [{
+				count: 2
+				id: "159CA7652532EB4F"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "04E1F7E500789083"
+					item: {
+						Count: 1
+						id: "deep_aether:stratus_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "52A3916A875A46C7"
+					item: {
+						Count: 1
+						id: "deep_aether:stratus_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "58A7AF1D83086519"
+					item: {
+						Count: 1
+						id: "deep_aether:stratus_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "369C2266441CA3DB"
+					item: {
+						Count: 1
+						id: "deep_aether:stratus_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Stratus Set"
+			x: -5.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			icon: {
+				Count: 1
+				id: "aether:obsidian_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "5FAF9178FFB24A5B"
+			rewards: [{
+				count: 2
+				id: "7A53C927C85B97C2"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "299D38365B9A88DF"
+					item: {
+						Count: 1
+						id: "aether:obsidian_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "68D6BF9D33078027"
+					item: {
+						Count: 1
+						id: "aether:obsidian_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "649881537DA4180A"
+					item: {
+						Count: 1
+						id: "aether:obsidian_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "553C32163D99A9CC"
+					item: {
+						Count: 1
+						id: "aether:obsidian_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Obsidian Set"
+			x: -4.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			icon: {
+				Count: 1
+				id: "ancient_aether:valkyrum_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "31BC79DAFAD9D94E"
+			rewards: [{
+				count: 2
+				id: "650F6EDF3AB71D8C"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "394F3B1BC5492CB7"
+					item: {
+						Count: 1
+						id: "ancient_aether:valkyrum_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1E15BAB1B1E21BFF"
+					item: {
+						Count: 1
+						id: "ancient_aether:valkyrum_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "290261E819796176"
+					item: {
+						Count: 1
+						id: "ancient_aether:valkyrum_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0D0FACD1BE3C2FAE"
+					item: {
+						Count: 1
+						id: "ancient_aether:valkyrum_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Valkyrum Set"
+			x: -3.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			icon: {
+				Count: 1
+				id: "deeperdarker:resonarium_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "59174CF744EB76E7"
+			rewards: [{
+				count: 2
+				id: "7A7A34E9849D9288"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "5E1EBF319018E1C1"
+					item: {
+						Count: 1
+						id: "deeperdarker:resonarium_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "382E303F4BB8CE4A"
+					item: {
+						Count: 1
+						id: "deeperdarker:resonarium_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "350B3B1D7D722878"
+					item: {
+						Count: 1
+						id: "deeperdarker:resonarium_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6653DA8241AF2A01"
+					item: {
+						Count: 1
+						id: "deeperdarker:resonarium_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Resonarium Set"
+			x: -2.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			icon: {
+				Count: 1
+				id: "deeperdarker:warden_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "5F5831816A802685"
+			rewards: [{
+				count: 2
+				id: "20E8FD72056DB128"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "68B34BB859B3FCA6"
+					item: {
+						Count: 1
+						id: "deeperdarker:warden_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0CF860C3915FE92B"
+					item: {
+						Count: 1
+						id: "deeperdarker:warden_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4AA305615BA9A40D"
+					item: {
+						Count: 1
+						id: "deeperdarker:warden_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7D997654476BE559"
+					item: {
+						Count: 1
+						id: "deeperdarker:warden_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Warden Set"
+			x: -1.0d
+			y: 3.5d
+		}
+	]
+	title: "Armorsmith"
+}

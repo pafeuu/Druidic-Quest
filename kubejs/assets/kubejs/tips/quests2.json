@@ -1,0 +1,11 @@
+{
+  "title": {
+    "text": "Questbook",
+    "bold": true,
+    "color": "red"
+  },
+  "tip": {
+    "text": "Quests are not necessary for progression, but they can be very helpful. Reading their description might provide you with key information",
+    "color": "green"
+  }
+}

@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "tier_7__harnessing_electricity"
+	group: "23A1FEBD04C34E2E"
+	icon: "createdeco:decal_electrical"
+	id: "79733632F4AA2D82"
+	order_index: 7
+	quest_links: [ ]
+	quests: [ ]
+	title: "Tier 7 - Harnessing Electricity"
+}

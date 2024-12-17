@@ -1,0 +1,18 @@
+{
+  "priority": 1,
+  "type": "aether:sun_spirit",
+  "resistances": {
+    "alchemical_damage": 1.0,
+    "physical_damage": 1.25,
+    "fire_damage": 1.75,
+    "arcane_damage": 1.25,
+    "true_damage": 1.25,
+    "ice_damage": 0.5,
+    "holy_damage": 1.25
+  },
+  "damage": {
+    "fire_damage": 0.5,
+    "holy_damage": 0.5
+  },
+  "ignored_sources": []
+}

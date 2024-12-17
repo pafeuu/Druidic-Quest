@@ -1,0 +1,45 @@
+{
+  "armorSetName": "zinc",
+  "performanceMode": true,
+  "head": {
+    "itemKey": "create_sa:zinc_helmet",
+    "mustBeEmpty": false
+  },
+  "chest": {
+    "itemKey": "create_sa:zinc_chestplate",
+    "mustBeEmpty": false
+  },
+  "legs": {
+    "itemKey": "create_sa:zinc_leggings",
+    "mustBeEmpty": false
+  },
+  "boots": {
+    "itemKey": "create_sa:zinc_boots",
+    "mustBeEmpty": false
+  },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "attributeslib:mining_speed",
+      "value": 0.5,
+      "modifierUUID": "d5a7dc88-9435-4398-b1e5-250b4c6dd218",
+      "description": "50% faster movement speed",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "interactionDuration": 300,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "attribute",
+      "name": "forge:step_height_addition",
+      "value": 0.5,
+      "modifierUUID": "d5a7dc88-9405-4398-11e5-250b4c6dd218",
+      "description": "You can walk up 1 block",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "interactionDuration": 300
+    }
+  ],
+  "hideGeneratedTooltip": false
+}

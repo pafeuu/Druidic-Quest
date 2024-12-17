@@ -1,0 +1,522 @@
+{
+	icon: "minecraft:chest"
+	id: "1F5D1C334DDEBB2C"
+	loot_size: 1
+	order_index: 1
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "supplementaries:sack"
+				tag: {
+					BlockEntityTag: {
+						Items: [
+							{
+								Count: 8b
+								Slot: 0b
+								id: "regions_unexplored:socotra_sapling"
+							}
+							{
+								Count: 16b
+								Slot: 1b
+								id: "regions_unexplored:socotra_log"
+							}
+							{
+								Count: 16b
+								Slot: 2b
+								id: "regions_unexplored:socotra_log"
+							}
+							{
+								Count: 64b
+								Slot: 3b
+								id: "everycomp:q/regions_unexplored/socotra_ladder"
+							}
+							{
+								Count: 16b
+								Slot: 4b
+								id: "regions_unexplored:socotra_log"
+							}
+							{
+								Count: 16b
+								Slot: 5b
+								id: "regions_unexplored:socotra_log"
+							}
+							{
+								Count: 16b
+								Slot: 6b
+								id: "regions_unexplored:socotra_trapdoor"
+							}
+							{
+								Count: 16b
+								Slot: 7b
+								id: "regions_unexplored:socotra_sign"
+							}
+							{
+								Count: 16b
+								Slot: 8b
+								id: "supplementaries:regions_unexplored/sign_post_socotra"
+							}
+						]
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "supplementaries:sack"
+				tag: {
+					BlockEntityTag: {
+						Items: [
+							{
+								Count: 8b
+								Slot: 0b
+								id: "regions_unexplored:mauve_sapling"
+							}
+							{
+								Count: 16b
+								Slot: 1b
+								id: "regions_unexplored:mauve_log"
+							}
+							{
+								Count: 16b
+								Slot: 2b
+								id: "regions_unexplored:mauve_log"
+							}
+							{
+								Count: 64b
+								Slot: 3b
+								id: "everycomp:q/regions_unexplored/mauve_ladder"
+							}
+							{
+								Count: 16b
+								Slot: 4b
+								id: "regions_unexplored:mauve_log"
+							}
+							{
+								Count: 16b
+								Slot: 5b
+								id: "regions_unexplored:mauve_log"
+							}
+							{
+								Count: 16b
+								Slot: 6b
+								id: "regions_unexplored:mauve_trapdoor"
+							}
+							{
+								Count: 16b
+								Slot: 7b
+								id: "regions_unexplored:mauve_sign"
+							}
+							{
+								Count: 16b
+								Slot: 8b
+								id: "supplementaries:regions_unexplored/sign_post_mauve"
+							}
+						]
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "supplementaries:sack"
+				tag: {
+					BlockEntityTag: {
+						Items: [
+							{
+								Count: 8b
+								Slot: 0b
+								id: "minecraft:spruce_sapling"
+							}
+							{
+								Count: 16b
+								Slot: 1b
+								id: "minecraft:spruce_log"
+							}
+							{
+								Count: 16b
+								Slot: 2b
+								id: "minecraft:spruce_log"
+							}
+							{
+								Count: 64b
+								Slot: 3b
+								id: "quark:spruce_ladder"
+							}
+							{
+								Count: 16b
+								Slot: 4b
+								id: "minecraft:spruce_log"
+							}
+							{
+								Count: 16b
+								Slot: 5b
+								id: "minecraft:spruce_log"
+							}
+							{
+								Count: 16b
+								Slot: 6b
+								id: "minecraft:spruce_trapdoor"
+							}
+							{
+								Count: 16b
+								Slot: 7b
+								id: "minecraft:spruce_sign"
+							}
+							{
+								Count: 16b
+								Slot: 8b
+								id: "supplementaries:sign_post_spruce"
+							}
+						]
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "supplementaries:sack"
+				tag: {
+					BlockEntityTag: {
+						Items: [
+							{
+								Count: 8b
+								Slot: 0b
+								id: "minecraft:cherry_sapling"
+							}
+							{
+								Count: 16b
+								Slot: 1b
+								id: "minecraft:cherry_log"
+							}
+							{
+								Count: 16b
+								Slot: 2b
+								id: "minecraft:cherry_log"
+							}
+							{
+								Count: 64b
+								Slot: 3b
+								id: "quark:cherry_ladder"
+							}
+							{
+								Count: 16b
+								Slot: 4b
+								id: "minecraft:cherry_log"
+							}
+							{
+								Count: 16b
+								Slot: 5b
+								id: "minecraft:cherry_log"
+							}
+							{
+								Count: 16b
+								Slot: 6b
+								id: "supplementaries:sign_post_cherry"
+							}
+							{
+								Count: 16b
+								Slot: 7b
+								id: "minecraft:cherry_trapdoor"
+							}
+							{
+								Count: 16b
+								Slot: 8b
+								id: "minecraft:cherry_sign"
+							}
+						]
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "supplementaries:sack"
+				tag: {
+					BlockEntityTag: {
+						Items: [
+							{
+								Count: 8b
+								Slot: 0b
+								id: "regions_unexplored:cobalt_sapling"
+							}
+							{
+								Count: 16b
+								Slot: 1b
+								id: "regions_unexplored:cobalt_log"
+							}
+							{
+								Count: 16b
+								Slot: 2b
+								id: "regions_unexplored:cobalt_log"
+							}
+							{
+								Count: 64b
+								Slot: 3b
+								id: "everycomp:q/regions_unexplored/cobalt_ladder"
+							}
+							{
+								Count: 16b
+								Slot: 4b
+								id: "regions_unexplored:cobalt_log"
+							}
+							{
+								Count: 16b
+								Slot: 5b
+								id: "regions_unexplored:cobalt_log"
+							}
+							{
+								Count: 16b
+								Slot: 6b
+								id: "supplementaries:regions_unexplored/sign_post_cobalt"
+							}
+							{
+								Count: 16b
+								Slot: 7b
+								id: "regions_unexplored:cobalt_sign"
+							}
+							{
+								Count: 16b
+								Slot: 8b
+								id: "regions_unexplored:cobalt_trapdoor"
+							}
+						]
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "supplementaries:sack"
+				tag: {
+					BlockEntityTag: {
+						Items: [
+							{
+								Count: 8b
+								Slot: 0b
+								id: "regions_unexplored:blackwood_sapling"
+							}
+							{
+								Count: 16b
+								Slot: 1b
+								id: "regions_unexplored:blackwood_log"
+							}
+							{
+								Count: 16b
+								Slot: 2b
+								id: "regions_unexplored:blackwood_log"
+							}
+							{
+								Count: 64b
+								Slot: 3b
+								id: "everycomp:q/regions_unexplored/blackwood_ladder"
+							}
+							{
+								Count: 16b
+								Slot: 4b
+								id: "regions_unexplored:blackwood_log"
+							}
+							{
+								Count: 16b
+								Slot: 5b
+								id: "regions_unexplored:blackwood_log"
+							}
+							{
+								Count: 16b
+								Slot: 6b
+								id: "regions_unexplored:blackwood_trapdoor"
+							}
+							{
+								Count: 16b
+								Slot: 7b
+								id: "regions_unexplored:blackwood_sign"
+							}
+							{
+								Count: 16b
+								Slot: 8b
+								id: "supplementaries:regions_unexplored/sign_post_blackwood"
+							}
+						]
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "supplementaries:sack"
+				tag: {
+					BlockEntityTag: {
+						Items: [
+							{
+								Count: 8b
+								Slot: 0b
+								id: "regions_unexplored:eucalyptus_sapling"
+							}
+							{
+								Count: 16b
+								Slot: 1b
+								id: "regions_unexplored:eucalyptus_log"
+							}
+							{
+								Count: 16b
+								Slot: 2b
+								id: "regions_unexplored:eucalyptus_log"
+							}
+							{
+								Count: 64b
+								Slot: 3b
+								id: "everycomp:q/regions_unexplored/eucalyptus_ladder"
+							}
+							{
+								Count: 16b
+								Slot: 4b
+								id: "regions_unexplored:eucalyptus_log"
+							}
+							{
+								Count: 16b
+								Slot: 5b
+								id: "regions_unexplored:eucalyptus_log"
+							}
+							{
+								Count: 16b
+								Slot: 6b
+								id: "regions_unexplored:eucalyptus_trapdoor"
+							}
+							{
+								Count: 16b
+								Slot: 7b
+								id: "regions_unexplored:eucalyptus_sign"
+							}
+							{
+								Count: 16b
+								Slot: 8b
+								id: "supplementaries:regions_unexplored/sign_post_eucalyptus"
+							}
+						]
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "supplementaries:sack"
+				tag: {
+					BlockEntityTag: {
+						Items: [
+							{
+								Count: 8b
+								Slot: 0b
+								id: "minecraft:birch_sapling"
+							}
+							{
+								Count: 16b
+								Slot: 1b
+								id: "minecraft:birch_log"
+							}
+							{
+								Count: 16b
+								Slot: 2b
+								id: "minecraft:birch_log"
+							}
+							{
+								Count: 64b
+								Slot: 3b
+								id: "quark:birch_ladder"
+							}
+							{
+								Count: 16b
+								Slot: 4b
+								id: "minecraft:birch_log"
+							}
+							{
+								Count: 16b
+								Slot: 5b
+								id: "minecraft:birch_log"
+							}
+							{
+								Count: 16b
+								Slot: 6b
+								id: "minecraft:birch_trapdoor"
+							}
+							{
+								Count: 16b
+								Slot: 7b
+								id: "minecraft:birch_sign"
+							}
+							{
+								Count: 16b
+								Slot: 8b
+								id: "supplementaries:sign_post_birch"
+							}
+						]
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "supplementaries:sack"
+				tag: {
+					BlockEntityTag: {
+						Items: [
+							{
+								Count: 8b
+								Slot: 0b
+								id: "minecraft:dark_oak_sapling"
+							}
+							{
+								Count: 16b
+								Slot: 1b
+								id: "minecraft:dark_oak_log"
+							}
+							{
+								Count: 16b
+								Slot: 2b
+								id: "minecraft:dark_oak_log"
+							}
+							{
+								Count: 64b
+								Slot: 3b
+								id: "quark:dark_oak_ladder"
+							}
+							{
+								Count: 16b
+								Slot: 4b
+								id: "minecraft:dark_oak_log"
+							}
+							{
+								Count: 16b
+								Slot: 5b
+								id: "minecraft:dark_oak_log"
+							}
+							{
+								Count: 16b
+								Slot: 6b
+								id: "minecraft:dark_oak_trapdoor"
+							}
+							{
+								Count: 16b
+								Slot: 7b
+								id: "minecraft:dark_oak_sign"
+							}
+							{
+								Count: 16b
+								Slot: 8b
+								id: "supplementaries:sign_post_dark_oak"
+							}
+						]
+					}
+				}
+			}
+		}
+	]
+	title: "Wood"
+}

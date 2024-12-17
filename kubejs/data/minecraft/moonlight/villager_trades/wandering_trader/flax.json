@@ -1,0 +1,19 @@
+{
+  "global_conditions": [
+    {
+      "flag": "flax",
+      "type": "supplementaries:flag"
+    }
+  ],
+  "type": "simple",
+  "max_trades": 8,
+  "price": {
+    "id": "thermal:silver_coin",
+    "Count": 1
+  },
+  "offer": {
+    "id": "supplementaries:flax_seeds",
+    "Count": 1
+  },
+  "level": 1
+}

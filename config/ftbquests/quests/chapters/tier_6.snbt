@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "tier_6"
+	group: "23A1FEBD04C34E2E"
+	icon: "botania:rune_fire"
+	id: "05F5860157CB2215"
+	order_index: 6
+	quest_links: [ ]
+	quests: [ ]
+	title: "Tier 6 - Mastering the Elements"
+}

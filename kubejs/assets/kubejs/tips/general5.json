@@ -1,0 +1,11 @@
+{
+    "title": {
+      "text": "General",
+      "bold": true,
+      "color": "red"
+    },
+    "tip": {
+      "text": "Low reach sucks, use blocks in your offhand while holding a tool for further placement",
+      "color": "green"
+    }
+  }

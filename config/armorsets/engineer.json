@@ -1,0 +1,44 @@
+{
+  "armorSetName": "engineer",
+  "performanceMode": true,
+  "head": {
+    "itemKey": "immersiveengineering:armor_faraday_helmet",
+    "mustBeEmpty": false
+  },
+  "chest": {
+    "itemKey": "immersiveengineering:armor_faraday_chestplate",
+    
+    "mustBeEmpty": false
+  },
+  "legs": {
+    "itemKey": "immersiveengineering:armor_faraday_leggings",
+    "mustBeEmpty": false
+  },
+  "boots": {
+    "itemKey": "immersiveengineering:armor_faraday_boots",
+    "mustBeEmpty": false
+  },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "forge:block_reach",
+      "value": 1.5,
+      "modifierUUID": "d5a7dc88-9405-4398-b1e5-250b2c2d2218",
+      "description": "Extra block reach",
+      "interactionType": "self",
+      "interactionDuration": 300,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "effect",
+      "name": "minecraft:glowing",
+      "value": 0.0,
+      "interactionType": "self",
+      "interactionDuration": 300,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": false
+}

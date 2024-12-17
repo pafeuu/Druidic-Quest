@@ -1,0 +1,17 @@
+{
+  "priority": 1,
+  "type": "irons_spellbooks:spectral_steed",
+  "resistances": {
+    "alchemical_damage": 0.85,
+    "physical_damage": 1.0,
+    "fire_damage": 0.9,
+    "arcane_damage": 1.0,
+    "true_damage": 0.0,
+    "ice_damage": 1.0,
+    "holy_damage": 1.5
+  },
+  "damage": {
+    "physical_damage": 1.0
+  },
+  "ignored_sources": []
+}

@@ -1,0 +1,12 @@
+{
+  "title": {
+    "text": "Glitch",
+    "bold": true,
+    "color": "green"
+  },
+  "tip": {
+    "text": "I just want to leave this place.",
+    "italic": true,
+    "color": "red"
+  }
+}

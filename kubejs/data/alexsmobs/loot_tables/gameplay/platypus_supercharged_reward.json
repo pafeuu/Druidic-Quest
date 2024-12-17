@@ -1,0 +1,54 @@
+{
+  "type": "minecraft:barter",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 20,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 8.0,
+                "max": 24.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "name": "minecraft:clay_ball"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1.0,
+                "max": 3.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "name": "kubejs:aquatic_spice"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "functions": [
+          ],
+          "name": "alexsmobs:fedora"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "functions": [
+          ],
+          "name": "thermal:sapphire"
+        }
+      ]
+    }
+  ]
+}

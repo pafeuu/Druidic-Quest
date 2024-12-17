@@ -1,0 +1,1204 @@
+{
+  "__comment": [
+    "Mobs will be able to equip items declared here",
+    "The first number is the weight while the second number is the quality",
+    "Weight is the weight of an item. Higher weight means that the item is more likely to get choosen",
+    "Quality is a modifier applied to the weight. The final weight used is weight + quality * current difficulty"
+  ],
+  "MAINHAND": {
+    "alexsmobs:skelewag_sword": [
+      4643,
+      0.7804518
+    ],
+    "alexsmobs:tendon_whip": [
+      4940,
+      0.0469
+    ],
+    "ars_nouveau:enchanters_sword": [
+      1838,
+      6.632802
+    ],
+    "ars_nouveau:spell_bow": [
+      3609,
+      2.1195521
+    ],
+    "ars_nouveau:spell_crossbow": [
+      4065,
+      1.5245426
+    ],
+    "create_sa:blazing_axe": [
+      4509,
+      0.95369714
+    ],
+    "create_sa:blazing_cleaver": [
+      4567,
+      0.8790464
+    ],
+    "create_sa:brass_axe": [
+      4492,
+      0.9755281
+    ],
+    "create_sa:brass_sword": [
+      4554,
+      0.89580816
+    ],
+    "create_sa:copper_axe": [
+      5097,
+      0.031199997
+    ],
+    "create_sa:copper_sword": [
+      5122,
+      0.028699998
+    ],
+    "create_sa:experience_axe": [
+      4860,
+      0.46648473
+    ],
+    "create_sa:experience_sword": [
+      4896,
+      0.36782715
+    ],
+    "create_sa:rose_quartz_axe": [
+      2463,
+      5.322494
+    ],
+    "create_sa:rose_quartz_sword": [
+      2496,
+      5.2525306
+    ],
+    "create_sa:zinc_axe": [
+      4832,
+      0.51635593
+    ],
+    "create_sa:zinc_sword": [
+      4919,
+      0.049
+    ],
+    "create_things_and_misc:brass_knife": [
+      5195,
+      0.021399999
+    ],
+    "create_things_and_misc:copper_knife": [
+      5212,
+      0.019699998
+    ],
+    "create_things_and_misc:zinc_knife": [
+      5212,
+      0.019699998
+    ],
+    "dungeonnowloading:life_stealer": [
+      2664,
+      4.8937836
+    ],
+    "dungeonnowloading:spawner_sword": [
+      2664,
+      4.8937836
+    ],
+    "enemyexpansion:deathstick": [
+      3481,
+      2.2883818
+    ],
+    "enigmaticlegacy:ender_slayer": [
+      1890,
+      6.5243726
+    ],
+    "enigmaticlegacy:etherium_axe": [
+      17,
+      10.430168
+    ],
+    "enigmaticlegacy:etherium_scythe": [
+      157,
+      10.137218
+    ],
+    "enigmaticlegacy:etherium_sword": [
+      73,
+      10.312961
+    ],
+    "enigmaticlegacy:forbidden_axe": [
+      1820,
+      6.670325
+    ],
+    "forbidden_arcanus:draco_arcanus_axe": [
+      628,
+      9.153307
+    ],
+    "forbidden_arcanus:draco_arcanus_sword": [
+      650,
+      9.107409
+    ],
+    "forbidden_arcanus:mystical_dagger": [
+      4429,
+      1.0563377
+    ],
+    "forbidden_arcanus:reinforced_deorum_axe": [
+      886,
+      8.615326
+    ],
+    "forbidden_arcanus:reinforced_deorum_sword": [
+      952,
+      8.477796
+    ],
+    "immersive_weathering:ice_sickle": [
+      5314,
+      0.0095
+    ],
+    "immersiveengineering:axe_steel": [
+      4150,
+      1.41476
+    ],
+    "immersiveengineering:sword_steel": [
+      4230,
+      1.3117309
+    ],
+    "irons_spellbooks:amethyst_rapier": [
+      2637,
+      4.951788
+    ],
+    "irons_spellbooks:autoloader_crossbow": [
+      3135,
+      3.826627
+    ],
+    "irons_spellbooks:claymore": [
+      3520,
+      2.236861
+    ],
+    "irons_spellbooks:keeper_flamberge": [
+      3479,
+      2.2910256
+    ],
+    "irons_spellbooks:magehunter": [
+      2666,
+      4.889481
+    ],
+    "irons_spellbooks:misery": [
+      3487,
+      2.280451
+    ],
+    "irons_spellbooks:spellbreaker": [
+      2567,
+      5.1015
+    ],
+    "minecraft:bow": [
+      2841,
+      4.508568
+    ],
+    "minecraft:crossbow": [
+      3135,
+      3.826627
+    ],
+    "minecraft:diamond_axe": [
+      2604,
+      5.022479
+    ],
+    "minecraft:diamond_sword": [
+      2666,
+      4.889481
+    ],
+    "minecraft:enchanted_book": [
+      3809,
+      1.8573177
+    ],
+    "minecraft:golden_axe": [
+      5265,
+      0.014399999
+    ],
+    "minecraft:golden_sword": [
+      5328,
+      0.0081
+    ],
+    "minecraft:iron_axe": [
+      4832,
+      0.51635593
+    ],
+    "minecraft:iron_sword": [
+      4919,
+      0.049
+    ],
+    "minecraft:lingering_potion{Potion:\"minecraft:harming\"}": [
+      3909,
+      1.7269388
+    ],
+    "minecraft:netherite_axe": [
+      1768,
+      6.778693
+    ],
+    "minecraft:netherite_sword": [
+      1838,
+      6.632802
+    ],
+    "minecraft:snowball": [
+      4859,
+      0.46844563
+    ],
+    "minecraft:splash_potion{Potion:\"minecraft:harming\"}": [
+      3909,
+      1.7269388
+    ],
+    "minecraft:stone_axe": [
+      5035,
+      0.0374
+    ],
+    "minecraft:stone_sword": [
+      5143,
+      0.026599998
+    ],
+    "minecraft:tnt": [
+      3709,
+      1.9881918
+    ],
+    "minecraft:trident": [
+      2909,
+      4.357304
+    ],
+    "minecraft:wooden_axe": [
+      5219,
+      0.019
+    ],
+    "minecraft:wooden_sword": [
+      5282,
+      0.0127
+    ],
+    "monsterplus:crystal_sword": [
+      2691,
+      4.8356147
+    ],
+    "monsterplus:darkstar": [
+      2498,
+      5.248286
+    ],
+    "monsterplus:gnawing_jaw": [
+      2520,
+      5.201559
+    ],
+    "naturesaura:depth_axe": [
+      929,
+      8.525718
+    ],
+    "naturesaura:depth_sword": [
+      1007,
+      8.363213
+    ],
+    "naturesaura:infused_iron_axe": [
+      4832,
+      0.51635593
+    ],
+    "naturesaura:infused_iron_sword": [
+      4919,
+      0.049
+    ],
+    "naturesaura:sky_axe": [
+      2707,
+      4.8010597
+    ],
+    "naturesaura:sky_sword": [
+      2769,
+      4.666484
+    ],
+    "nethersdelight:diamond_machete": [
+      2691,
+      4.8356147
+    ],
+    "nethersdelight:golden_machete": [
+      5341,
+      0.0068
+    ],
+    "nethersdelight:iron_machete": [
+      4940,
+      0.0469
+    ],
+    "nethersdelight:netherite_machete": [
+      1867,
+      6.5723376
+    ],
+    "seadwellers:depth_axe": [
+      3224,
+      3.5910394
+    ],
+    "seadwellers:depth_sword": [
+      3285,
+      3.4058104
+    ]
+  },
+  "OFFHAND": {
+    "ars_nouveau:enchanters_shield": [
+      275,
+      2.053812
+    ],
+    "minecraft:ender_pearl": [
+      925,
+      1.2102311
+    ],
+    "minecraft:flint_and_steel": [
+      897,
+      1.2461817
+    ],
+    "minecraft:lava_bucket": [
+      525,
+      1.7269388
+    ],
+    "minecraft:shield": [
+      603,
+      1.6255897
+    ]
+  },
+  "FEET": {
+    "alexsmobs:flying_fish_boots": [
+      6420,
+      0.014099999
+    ],
+    "alexsmobs:roadrunner_boots": [
+      5858,
+      0.6972618
+    ],
+    "ars_nouveau:arcanist_boots": [
+      5336,
+      1.3709393
+    ],
+    "ars_nouveau:battlemage_boots": [
+      4576,
+      2.3638055
+    ],
+    "ars_nouveau:sorcerer_boots": [
+      5752,
+      0.8363856
+    ],
+    "create:copper_diving_boots": [
+      5987,
+      0.5113901
+    ],
+    "create:netherite_diving_boots": [
+      4926,
+      1.9030677
+    ],
+    "create_sa:brass_boots": [
+      5255,
+      1.4754212
+    ],
+    "create_sa:copper_boots": [
+      5627,
+      0.9973453
+    ],
+    "create_sa:slime_boots": [
+      5581,
+      1.0563377
+    ],
+    "create_sa:zinc_boots": [
+      5476,
+      1.1909808
+    ],
+    "create_things_and_misc:sticky_boots_boots": [
+      4932,
+      1.8952204
+    ],
+    "dungeonnowloading:spawner_boots": [
+      4803,
+      2.0643225
+    ],
+    "enemyexpansion:phantasm_boots": [
+      5400,
+      1.288585
+    ],
+    "enigmaticlegacy:etherium_boots": [
+      3324,
+      5.935056
+    ],
+    "forbidden_arcanus:draco_arcanus_boots": [
+      2395,
+      7.871759
+    ],
+    "forbidden_arcanus:mortem_boots": [
+      5767,
+      0.8169267
+    ],
+    "forbidden_arcanus:tyr_boots": [
+      35,
+      12.8119755
+    ],
+    "immersiveengineering:armor_faraday_boots": [
+      6358,
+      0.020299999
+    ],
+    "immersiveengineering:armor_steel_boots": [
+      5208,
+      1.5361866
+    ],
+    "irons_spellbooks:archevoker_boots": [
+      4620,
+      2.3055708
+    ],
+    "irons_spellbooks:cryomancer_boots": [
+      4620,
+      2.3055708
+    ],
+    "irons_spellbooks:cultist_boots": [
+      4620,
+      2.3055708
+    ],
+    "irons_spellbooks:electromancer_boots": [
+      4620,
+      2.3055708
+    ],
+    "irons_spellbooks:netherite_mage_boots": [
+      4607,
+      2.3227675
+    ],
+    "irons_spellbooks:plagued_boots": [
+      4620,
+      2.3055708
+    ],
+    "irons_spellbooks:priest_boots": [
+      4620,
+      2.3055708
+    ],
+    "irons_spellbooks:pumpkin_boots": [
+      4655,
+      2.2593102
+    ],
+    "irons_spellbooks:pyromancer_boots": [
+      4620,
+      2.3055708
+    ],
+    "irons_spellbooks:shadowwalker_boots": [
+      4620,
+      2.3055708
+    ],
+    "irons_spellbooks:wandering_magician_boots": [
+      5516,
+      1.1396724
+    ],
+    "minecraft:chainmail_boots": [
+      5969,
+      0.540316
+    ],
+    "minecraft:diamond_boots": [
+      5053,
+      1.7373508
+    ],
+    "minecraft:golden_boots": [
+      6035,
+      0.4136078
+    ],
+    "minecraft:iron_boots": [
+      5721,
+      0.8764657
+    ],
+    "minecraft:leather_boots": [
+      6317,
+      0.0244
+    ],
+    "minecraft:netherite_boots": [
+      4926,
+      1.9030677
+    ],
+    "monsterplus:crystal_boots": [
+      4676,
+      2.231581
+    ],
+    "naturesaura:depth_shoes": [
+      3618,
+      5.316139
+    ],
+    "naturesaura:infused_iron_shoes": [
+      5448,
+      1.2269194
+    ],
+    "naturesaura:sky_shoes": [
+      4666,
+      2.2447827
+    ],
+    "seadwellers:depth_boots": [
+      5023,
+      1.776424
+    ],
+    "thermal:beekeeper_boots": [
+      6262,
+      0.0299
+    ],
+    "thermal:diving_boots": [
+      5814,
+      0.7555575
+    ],
+    "thermal:hazmat_boots": [
+      5875,
+      0.67440087
+    ]
+  },
+  "LEGS": {
+    "alexsmobs:centipede_leggings": [
+      4270,
+      3.9059477
+    ],
+    "alexsmobs:emu_leggings": [
+      5505,
+      1.173019
+    ],
+    "ars_nouveau:arcanist_leggings": [
+      5351,
+      1.3709393
+    ],
+    "ars_nouveau:battlemage_leggings": [
+      4591,
+      2.3638055
+    ],
+    "ars_nouveau:sorcerer_leggings": [
+      5767,
+      0.8363856
+    ],
+    "create_sa:brass_leggings": [
+      5270,
+      1.4754212
+    ],
+    "create_sa:copper_leggings": [
+      5642,
+      0.9973453
+    ],
+    "create_sa:zinc_leggings": [
+      5491,
+      1.1909808
+    ],
+    "dungeonnowloading:spawner_leggings": [
+      4778,
+      2.1169202
+    ],
+    "enemyexpansion:phantasm_leggings": [
+      5415,
+      1.288585
+    ],
+    "enigmaticlegacy:etherium_leggings": [
+      3135,
+      6.361618
+    ],
+    "forbidden_arcanus:draco_arcanus_leggings": [
+      2410,
+      7.871759
+    ],
+    "forbidden_arcanus:mortem_leggings": [
+      5782,
+      0.8169267
+    ],
+    "forbidden_arcanus:tyr_leggings": [
+      50,
+      12.8119755
+    ],
+    "immersiveengineering:armor_faraday_leggings": [
+      6373,
+      0.020299999
+    ],
+    "immersiveengineering:armor_steel_leggings": [
+      5223,
+      1.5361866
+    ],
+    "irons_spellbooks:archevoker_leggings": [
+      4635,
+      2.3055708
+    ],
+    "irons_spellbooks:cryomancer_leggings": [
+      4635,
+      2.3055708
+    ],
+    "irons_spellbooks:cultist_leggings": [
+      4635,
+      2.3055708
+    ],
+    "irons_spellbooks:electromancer_leggings": [
+      4635,
+      2.3055708
+    ],
+    "irons_spellbooks:netherite_mage_leggings": [
+      4622,
+      2.3227675
+    ],
+    "irons_spellbooks:plagued_leggings": [
+      4635,
+      2.3055708
+    ],
+    "irons_spellbooks:priest_leggings": [
+      4635,
+      2.3055708
+    ],
+    "irons_spellbooks:pumpkin_leggings": [
+      4670,
+      2.2593102
+    ],
+    "irons_spellbooks:pyromancer_leggings": [
+      4635,
+      2.3055708
+    ],
+    "irons_spellbooks:shadowwalker_leggings": [
+      4635,
+      2.3055708
+    ],
+    "irons_spellbooks:wandering_magician_leggings": [
+      5531,
+      1.1396724
+    ],
+    "minecraft:chainmail_leggings": [
+      5984,
+      0.540316
+    ],
+    "minecraft:diamond_leggings": [
+      5068,
+      1.7373508
+    ],
+    "minecraft:golden_leggings": [
+      6050,
+      0.4136078
+    ],
+    "minecraft:iron_leggings": [
+      5736,
+      0.8764657
+    ],
+    "minecraft:leather_leggings": [
+      6332,
+      0.0244
+    ],
+    "minecraft:netherite_leggings": [
+      4941,
+      1.9030677
+    ],
+    "monsterplus:crystal_leggings": [
+      4691,
+      2.231581
+    ],
+    "naturesaura:depth_pants": [
+      3633,
+      5.316139
+    ],
+    "naturesaura:infused_iron_pants": [
+      5463,
+      1.2269194
+    ],
+    "naturesaura:sky_pants": [
+      4681,
+      2.2447827
+    ],
+    "seadwellers:depth_leggings": [
+      5038,
+      1.776424
+    ],
+    "thermal:beekeeper_leggings": [
+      6271,
+      0.030499998
+    ],
+    "thermal:diving_leggings": [
+      5811,
+      0.7791448
+    ],
+    "thermal:hazmat_leggings": [
+      5881,
+      0.6865328
+    ]
+  },
+  "CHEST": {
+    "alexsmobs:crocodile_chestplate": [
+      5294,
+      1.4444326
+    ],
+    "alexsmobs:rocky_chestplate": [
+      5373,
+      1.3426114
+    ],
+    "alexsmobs:tarantula_hawk_elytra": [
+      5721,
+      0.89580816
+    ],
+    "alexsmobs:unsettling_kimono": [
+      5944,
+      0.59963983
+    ],
+    "ars_nouveau:arcanist_robes": [
+      5351,
+      1.3709393
+    ],
+    "ars_nouveau:battlemage_robes": [
+      4591,
+      2.3638055
+    ],
+    "ars_nouveau:sorcerer_robes": [
+      5767,
+      0.8363856
+    ],
+    "create:copper_backtank": [
+      6002,
+      0.5113901
+    ],
+    "create:netherite_backtank": [
+      4941,
+      1.9030677
+    ],
+    "create_sa:andesite_exoskeleton_chestplate": [
+      5367,
+      1.3503351
+    ],
+    "create_sa:andesite_jetpack_chestplate": [
+      5491,
+      1.1909808
+    ],
+    "create_sa:brass_chestplate": [
+      5270,
+      1.4754212
+    ],
+    "create_sa:brass_exoskeleton_chestplate": [
+      5132,
+      1.6541448
+    ],
+    "create_sa:brass_jetpack_chestplate": [
+      5400,
+      1.3078723
+    ],
+    "create_sa:copper_chestplate": [
+      5642,
+      0.9973453
+    ],
+    "create_sa:copper_exoskeleton_chestplate": [
+      5526,
+      1.1460843
+    ],
+    "create_sa:copper_jetpack_chestplate": [
+      5526,
+      1.1460843
+    ],
+    "create_sa:zinc_chestplate": [
+      5491,
+      1.1909808
+    ],
+    "dungeonnowloading:spawner_chestplate": [
+      4802,
+      2.0853524
+    ],
+    "enemyexpansion:phantasm_chestplate": [
+      5415,
+      1.288585
+    ],
+    "enigmaticlegacy:etherium_chestplate": [
+      3254,
+      6.1129804
+    ],
+    "forbidden_arcanus:draco_arcanus_chestplate": [
+      2410,
+      7.871759
+    ],
+    "forbidden_arcanus:mortem_chestplate": [
+      5782,
+      0.8169267
+    ],
+    "forbidden_arcanus:tyr_chestplate": [
+      50,
+      12.8119755
+    ],
+    "immersiveengineering:armor_faraday_chestplate": [
+      6373,
+      0.020299999
+    ],
+    "immersiveengineering:armor_steel_chestplate": [
+      5223,
+      1.5361866
+    ],
+    "irons_spellbooks:archevoker_chestplate": [
+      4635,
+      2.3055708
+    ],
+    "irons_spellbooks:cryomancer_chestplate": [
+      4635,
+      2.3055708
+    ],
+    "irons_spellbooks:cultist_chestplate": [
+      4635,
+      2.3055708
+    ],
+    "irons_spellbooks:electromancer_chestplate": [
+      4635,
+      2.3055708
+    ],
+    "irons_spellbooks:netherite_mage_chestplate": [
+      4622,
+      2.3227675
+    ],
+    "irons_spellbooks:plagued_chestplate": [
+      4635,
+      2.3055708
+    ],
+    "irons_spellbooks:priest_chestplate": [
+      4635,
+      2.3055708
+    ],
+    "irons_spellbooks:pumpkin_chestplate": [
+      4670,
+      2.2593102
+    ],
+    "irons_spellbooks:pyromancer_chestplate": [
+      4635,
+      2.3055708
+    ],
+    "irons_spellbooks:shadowwalker_chestplate": [
+      4635,
+      2.3055708
+    ],
+    "irons_spellbooks:wandering_magician_chestplate": [
+      5531,
+      1.1396724
+    ],
+    "minecraft:chainmail_chestplate": [
+      5984,
+      0.540316
+    ],
+    "minecraft:diamond_chestplate": [
+      5068,
+      1.7373508
+    ],
+    "minecraft:golden_chestplate": [
+      6050,
+      0.4136078
+    ],
+    "minecraft:iron_chestplate": [
+      5736,
+      0.8764657
+    ],
+    "minecraft:leather_chestplate": [
+      6332,
+      0.0244
+    ],
+    "minecraft:netherite_chestplate": [
+      4941,
+      1.9030677
+    ],
+    "monsterplus:crystal_chestplate": [
+      4691,
+      2.231581
+    ],
+    "naturesaura:depth_chest": [
+      3633,
+      5.316139
+    ],
+    "naturesaura:infused_iron_chest": [
+      5463,
+      1.2269194
+    ],
+    "naturesaura:sky_chest": [
+      4681,
+      2.2447827
+    ],
+    "quark:backpack": [
+      6332,
+      0.0244
+    ],
+    "seadwellers:depth_chestplate": [
+      5038,
+      1.776424
+    ],
+    "thermal:beekeeper_chestplate": [
+      6274,
+      0.030199999
+    ],
+    "thermal:diving_chestplate": [
+      5822,
+      0.7647448
+    ],
+    "thermal:hazmat_chestplate": [
+      5886,
+      0.67980134
+    ]
+  },
+  "HEAD": {
+    "alexsmobs:fedora": [
+      6107,
+      0.043899998
+    ],
+    "alexsmobs:frontier_cap": [
+      5801,
+      0.75292885
+    ],
+    "alexsmobs:froststalker_helmet": [
+      5894,
+      0.62781405
+    ],
+    "alexsmobs:moose_headgear": [
+      5792,
+      0.7647448
+    ],
+    "alexsmobs:novelty_hat": [
+      6107,
+      0.043899998
+    ],
+    "alexsmobs:sombrero": [
+      6078,
+      0.0468
+    ],
+    "alexsmobs:spiked_turtle_shell": [
+      5542,
+      1.0871058
+    ],
+    "ars_nouveau:arcanist_hood": [
+      5321,
+      1.3709393
+    ],
+    "ars_nouveau:battlemage_hood": [
+      4561,
+      2.3638055
+    ],
+    "ars_nouveau:sorcerer_hood": [
+      5737,
+      0.8363856
+    ],
+    "create:copper_diving_helmet": [
+      5972,
+      0.5113901
+    ],
+    "create:netherite_diving_helmet": [
+      4911,
+      1.9030677
+    ],
+    "create_sa:brass_helmet": [
+      5240,
+      1.4754212
+    ],
+    "create_sa:copper_helmet": [
+      5612,
+      0.9973453
+    ],
+    "create_sa:slime_helmet": [
+      5566,
+      1.0563377
+    ],
+    "create_sa:zinc_helmet": [
+      5461,
+      1.1909808
+    ],
+    "dungeonnowloading:spawner_helmet": [
+      4727,
+      2.1445646
+    ],
+    "enemyexpansion:headbiter_helmet": [
+      5385,
+      1.288585
+    ],
+    "enemyexpansion:horsehead_helmet": [
+      5385,
+      1.288585
+    ],
+    "enemyexpansion:meathead_helmet": [
+      5385,
+      1.288585
+    ],
+    "enemyexpansion:phantasm_helmet": [
+      5385,
+      1.288585
+    ],
+    "enemyexpansion:silverhead_helmet": [
+      5385,
+      1.288585
+    ],
+    "enigmaticlegacy:etherium_helmet": [
+      2998,
+      6.584849
+    ],
+    "forbidden_arcanus:draco_arcanus_helmet": [
+      2380,
+      7.871759
+    ],
+    "forbidden_arcanus:mortem_helmet": [
+      5752,
+      0.8169267
+    ],
+    "forbidden_arcanus:tyr_helmet": [
+      20,
+      12.8119755
+    ],
+    "immersive_weathering:flower_crown": [
+      6186,
+      0.036
+    ],
+    "immersiveengineering:armor_faraday_helmet": [
+      6343,
+      0.020299999
+    ],
+    "immersiveengineering:armor_steel_helmet": [
+      5193,
+      1.5361866
+    ],
+    "irons_spellbooks:archevoker_helmet": [
+      4605,
+      2.3055708
+    ],
+    "irons_spellbooks:cryomancer_helmet": [
+      4605,
+      2.3055708
+    ],
+    "irons_spellbooks:cultist_helmet": [
+      4605,
+      2.3055708
+    ],
+    "irons_spellbooks:electromancer_helmet": [
+      4605,
+      2.3055708
+    ],
+    "irons_spellbooks:gold_crown": [
+      4696,
+      2.1854107
+    ],
+    "irons_spellbooks:netherite_mage_helmet": [
+      4592,
+      2.3227675
+    ],
+    "irons_spellbooks:plagued_helmet": [
+      4605,
+      2.3055708
+    ],
+    "irons_spellbooks:priest_helmet": [
+      4605,
+      2.3055708
+    ],
+    "irons_spellbooks:pumpkin_helmet": [
+      4640,
+      2.2593102
+    ],
+    "irons_spellbooks:pyromancer_helmet": [
+      4605,
+      2.3055708
+    ],
+    "irons_spellbooks:shadowwalker_helmet": [
+      4605,
+      2.3055708
+    ],
+    "irons_spellbooks:tarnished_helmet": [
+      6296,
+      0.024999999
+    ],
+    "irons_spellbooks:wandering_magician_helmet": [
+      5501,
+      1.1396724
+    ],
+    "minecraft:chainmail_helmet": [
+      5954,
+      0.540316
+    ],
+    "minecraft:diamond_helmet": [
+      5038,
+      1.7373508
+    ],
+    "minecraft:golden_helmet": [
+      6020,
+      0.4136078
+    ],
+    "minecraft:iron_helmet": [
+      5706,
+      0.8764657
+    ],
+    "minecraft:leather_helmet": [
+      6302,
+      0.0244
+    ],
+    "minecraft:netherite_helmet": [
+      4911,
+      1.9030677
+    ],
+    "minecraft:shulker_shell": [
+      6465,
+      0.0081
+    ],
+    "minecraft:turtle_helmet": [
+      5650,
+      0.948558
+    ],
+    "monsterplus:crystal_helmet": [
+      4661,
+      2.231581
+    ],
+    "naturesaura:depth_helmet": [
+      3603,
+      5.316139
+    ],
+    "naturesaura:infused_iron_helmet": [
+      5433,
+      1.2269194
+    ],
+    "naturesaura:sky_helmet": [
+      4651,
+      2.2447827
+    ],
+    "quark:forgotten_hat": [
+      6302,
+      0.0244
+    ],
+    "railways:black_conductor_cap": [
+      5916,
+      0.59678036
+    ],
+    "railways:blue_conductor_cap": [
+      5916,
+      0.59678036
+    ],
+    "railways:brown_conductor_cap": [
+      5916,
+      0.59678036
+    ],
+    "railways:cyan_conductor_cap": [
+      5916,
+      0.59678036
+    ],
+    "railways:gray_conductor_cap": [
+      5916,
+      0.59678036
+    ],
+    "railways:green_conductor_cap": [
+      5916,
+      0.59678036
+    ],
+    "railways:light_blue_conductor_cap": [
+      5916,
+      0.59678036
+    ],
+    "railways:light_gray_conductor_cap": [
+      5916,
+      0.59678036
+    ],
+    "railways:lime_conductor_cap": [
+      5916,
+      0.59678036
+    ],
+    "railways:magenta_conductor_cap": [
+      5916,
+      0.59678036
+    ],
+    "railways:orange_conductor_cap": [
+      5916,
+      0.59678036
+    ],
+    "railways:pink_conductor_cap": [
+      5916,
+      0.59678036
+    ],
+    "railways:purple_conductor_cap": [
+      5916,
+      0.59678036
+    ],
+    "railways:red_conductor_cap": [
+      5916,
+      0.59678036
+    ],
+    "railways:white_conductor_cap": [
+      5916,
+      0.59678036
+    ],
+    "railways:yellow_conductor_cap": [
+      5916,
+      0.59678036
+    ],
+    "seadwellers:depth_helmet": [
+      5008,
+      1.776424
+    ],
+    "thermal:beekeeper_helmet": [
+      6237,
+      0.030899998
+    ],
+    "thermal:diving_helmet": [
+      5771,
+      0.79220045
+    ],
+    "thermal:hazmat_helmet": [
+      5846,
+      0.6932441
+    ]
+  }
+}

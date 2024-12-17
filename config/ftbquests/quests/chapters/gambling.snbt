@@ -1,0 +1,142 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "gambling"
+	group: ""
+	hide_quest_details_until_startable: true
+	hide_quest_until_deps_complete: true
+	hide_quest_until_deps_visible: true
+	icon: "create_things_and_misc:empty_card"
+	id: "75AF8F3C27884D46"
+	images: [
+		{
+			height: 2.0d
+			image: "quark:item/trowel"
+			rotation: 0.0d
+			width: 2.0d
+			x: -3.0d
+			y: -2.0d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:item/item_shelf"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:item/item_shelf"
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:item/item_shelf"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.5d
+			y: 0.0d
+		}
+	]
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["5B05D16DC73F943E"]
+			description: ["&4&lMost of the quests here are not implemented yet :(&r&r"]
+			id: "552F01B008A748AF"
+			size: 2.0d
+			subtitle: "Yes, we came up with the name ourselves"
+			tasks: [{
+				id: "62A4387CCE7F7DD9"
+				title: "Welcome to Amazing Digital Casino"
+				type: "checkmark"
+			}]
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["62A4387CCE7F7DD9"]
+			icon: "minecraft:cobblestone"
+			id: "6ABD193B4AD4BE13"
+			rewards: [{
+				icon: "minecraft:cobblestone"
+				id: "33F73FC29B4AC03D"
+				table_id: 5679688801934745409L
+				type: "random"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					id: "5C67E80FDBEDB11D"
+					item: "thermal:gold_coin"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "1D564201BEC3EA78"
+					item: "supplementaries:sack"
+					type: "item"
+				}
+			]
+			title: "Stone building materials"
+			x: -4.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["62A4387CCE7F7DD9"]
+			icon: "minecraft:stripped_oak_log"
+			id: "5DBE7E139C917877"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6E5C5DD0092B31E2"
+				table_id: 2259993594685209388L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "398FDEF702E8F1D3"
+					item: "thermal:gold_coin"
+					type: "item"
+				}
+				{
+					id: "4E4211A65B7D4A70"
+					item: "supplementaries:sack"
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["62A4387CCE7F7DD9"]
+			icon: "minecraft:soul_lantern"
+			id: "416372088BAACD13"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "593AFEB7767AD9C5"
+				table_id: 4538509838943174082L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "3A6E9BC6686E0E15"
+					item: "thermal:gold_coin"
+					type: "item"
+				}
+				{
+					id: "75D2805027E6A9D3"
+					item: "supplementaries:sack"
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: -0.5d
+		}
+	]
+	title: "Gambling"
+}

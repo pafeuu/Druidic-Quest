@@ -1,0 +1,11 @@
+{
+  "title": {
+    "text": "Automation",
+    "bold": true,
+    "color": "red"
+  },
+  "tip": {
+    "text": "Dispensers can now place blocks! That include planting seeds,saplings as well as placing gold powder",
+    "color": "green"
+  }
+}

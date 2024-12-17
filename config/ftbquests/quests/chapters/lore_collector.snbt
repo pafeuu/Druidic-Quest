@@ -1,0 +1,305 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "lore_collector"
+	group: "6959C7C8592FBBA9"
+	hide_quest_until_deps_visible: true
+	icon: {
+		Count: 1
+		id: "minecraft:written_book"
+		tag: {
+			author: "CraisinLord"
+			filtered_title: "Super Strength"
+			pages: [
+				"{\"text\":\"Super Strength\\n~~~~~~~~\\nI have been working on a potion to give me strength even beyond that of the well-known potion made from the powder of blaze. It should be more than tenfold the power level. \"}"
+				"{\"text\":\"It's a few weeks later and I'm happy to report that it's finished! I will be testing it on a local villager later tonight. If something goes wrong and I don't make it, remember me and what I stood for. \\n-Alfonse\\n\"}"
+			]
+			resolved: 1b
+			title: "Super Strength"
+		}
+	}
+	id: "3334AB67293EC547"
+	order_index: 7
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			icon: "minecraft:nether_wart"
+			id: "1B27820BA74291B8"
+			rewards: [{
+				id: "55F0F436183E5A26"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7E5D1B41BD4D38D7"
+				item: {
+					Count: 1
+					id: "minecraft:written_book"
+					tag: {
+						author: "CraisinLord"
+						filtered_title: "Super Strength"
+						pages: [
+							"{\"text\":\"Super Strength\\n~~~~~~~~\\nI have been working on a potion to give me strength even beyond that of the well-known potion made from the powder of blaze. It should be more than tenfold the power level. \"}"
+							"{\"text\":\"It's a few weeks later and I'm happy to report that it's finished! I will be testing it on a local villager later tonight. If something goes wrong and I don't make it, remember me and what I stood for. \\n-Alfonse\\n\"}"
+						]
+						resolved: 1b
+						title: "Super Strength"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			icon: "minecraft:poppy"
+			id: "4AECC8C42B01AE04"
+			rewards: [{
+				id: "0EF17DCC2335E62D"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "70B6DEB1F1005249"
+				item: {
+					Count: 1
+					id: "minecraft:written_book"
+					tag: {
+						author: "CraisinLord"
+						pages: ["{\"text\":\"Outside I have developed a rather nice garden. Watching life bloom is incredible. It really make this place feel alive.\"}"]
+						title: "Botany"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -5.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			icon: "quark:yellow_corundum_cluster"
+			id: "3BC8A8906F0E3A5F"
+			rewards: [{
+				id: "02BD61CEC0E7E36E"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "764411C88488603E"
+				item: {
+					Count: 1
+					id: "minecraft:written_book"
+					tag: {
+						author: "CraisinLord"
+						filtered_title: "Crystalarium"
+						pages: ["{\"text\":\"Crystalarium Journal\\n~~~~~~~\\nCorundum Crystals grow rather rapidly. I brough in a fragment from within the caves and they're now taking over this level of the tower!\"}"]
+						title: "Crystalarium"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			icon: "minecraft:spyglass"
+			id: "62C218F8C0727F60"
+			rewards: [{
+				id: "06D43A57BE5A7047"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "04D2BC95EBDE93BA"
+				item: {
+					Count: 1
+					id: "minecraft:written_book"
+					tag: {
+						author: "CraisinLord"
+						pages: ["{\"text\":\"I have been observing the night sky every night through my telescope and journalling about it. It seems like this place I'm on, let's call it earth, is a cube. This is rather odd as I can't make out why this would be.  Hopefully further studies will be fruitful in solving this.\"}"]
+						resolved: 1b
+						title: "Cube?"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			icon: "minecraft:carved_pumpkin"
+			id: "437F61D61E515887"
+			rewards: [{
+				id: "7E64408F6696954B"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "181D32C920554D90"
+				item: {
+					Count: 1
+					id: "minecraft:written_book"
+					tag: {
+						author: "CraisinLord"
+						pages: ["{\"text\":\"Journal Day 59\\n~~~~~~~~~~~\\nI made a tremendous \\ndiscovery today! A Carved Pumpkin stacked above 2 snow blocks made a living snow golem! It walks around spreading snow and wintery cheer!\"}"]
+						title: "It's alive!"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			icon: "minecraft:red_carpet"
+			id: "03BC4F89E780514E"
+			rewards: [{
+				id: "14B622CCEE3F4E41"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1E11A7B72101EBFC"
+				item: {
+					Count: 1
+					id: "minecraft:written_book"
+					tag: {
+						author: "CraisinLord"
+						pages: ["{\"text\":\"Journal Day 34\\n~~~~~~~~~~~\\nI've been rolling ye' old wagon around gifting presents to villagers during this snowfall. It's truly a wonderful time of the year.\"}"]
+						title: "Ye' Old Wagon"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			icon: {
+				Count: 1
+				id: "irons_spellbooks:archevoker_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "3A72D7D58A18D32E"
+			rewards: [{
+				id: "733A5C4D95AFA89B"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "minecraft:written_book"
+					tag: {
+						author: "Archevoker"
+						display: {
+							Name: "{\"translate\":\"item.irons_spellbooks.archevoker_log\"}"
+						}
+						pages: [
+							"[{\"translate\":\"item.irons_spellbooks.archevoker_log.header\",\"font\":\"illageralt\"},{\"text\":\"2:\\n\\n\",\"font\":\"default\"},{\"translate\":\"item.irons_spellbooks.archevoker_log.page_1\",\"font\":\"illageralt\"}]"
+							"[{\"translate\":\"item.irons_spellbooks.archevoker_log.header\",\"font\":\"illageralt\"},{\"text\":\"14:\\n\\n\",\"font\":\"default\"},{\"translate\":\"item.irons_spellbooks.archevoker_log.page_2\",\"font\":\"illageralt\"}]"
+							"[{\"translate\":\"item.irons_spellbooks.archevoker_log.header\",\"font\":\"illageralt\"},{\"text\":\"31:\\n\\n\",\"font\":\"default\"},{\"translate\":\"item.irons_spellbooks.archevoker_log.page_3\",\"font\":\"illageralt\"}]"
+							"[{\"translate\":\"item.irons_spellbooks.archevoker_log.header\",\"font\":\"illageralt\"},{\"text\":\"73:\\n\\n\",\"font\":\"default\"},{\"translate\":\"item.irons_spellbooks.archevoker_log.page_4\",\"font\":\"illageralt\"}]"
+						]
+						resolved: 1b
+						title: ""
+						untranslatedLogbook: 1b
+					}
+				}
+				id: "7621E77579E23152"
+				item: {
+					Count: 1
+					id: "minecraft:written_book"
+					tag: {
+						author: "Archevoker"
+						display: {
+							Name: "{\"translate\":\"item.irons_spellbooks.archevoker_log\"}"
+						}
+						pages: [
+							"[{\"translate\":\"item.irons_spellbooks.archevoker_log.header\",\"font\":\"illageralt\"},{\"text\":\"2:\\n\\n\",\"font\":\"default\"},{\"translate\":\"item.irons_spellbooks.archevoker_log.page_1\",\"font\":\"illageralt\"}]"
+							"[{\"translate\":\"item.irons_spellbooks.archevoker_log.header\",\"font\":\"illageralt\"},{\"text\":\"14:\\n\\n\",\"font\":\"default\"},{\"translate\":\"item.irons_spellbooks.archevoker_log.page_2\",\"font\":\"illageralt\"}]"
+							"[{\"translate\":\"item.irons_spellbooks.archevoker_log.header\",\"font\":\"illageralt\"},{\"text\":\"31:\\n\\n\",\"font\":\"default\"},{\"translate\":\"item.irons_spellbooks.archevoker_log.page_3\",\"font\":\"illageralt\"}]"
+							"[{\"translate\":\"item.irons_spellbooks.archevoker_log.header\",\"font\":\"illageralt\"},{\"text\":\"73:\\n\\n\",\"font\":\"default\"},{\"translate\":\"item.irons_spellbooks.archevoker_log.page_4\",\"font\":\"illageralt\"}]"
+						]
+						resolved: 1b
+						title: ""
+						untranslatedLogbook: 1b
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -5.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			icon: "minecraft:skeleton_skull"
+			id: "3DBAE1A05F1B796A"
+			rewards: [{
+				id: "18A230DC653CEA20"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6BBE9C2E715210BB"
+				item: {
+					Count: 1
+					id: "minecraft:written_book"
+					tag: {
+						author: "CraisinLord"
+						pages: ["{\"text\":\"There’s nothing like the laughter of a baby. \\n\\nUnless it’s 1 a.m. and you’re home alone.\"}"]
+						title: "Alone"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			icon: "tide:white_fishing_bobber"
+			id: "15825A5A34652137"
+			rewards: [{
+				id: "00E9789B084BECBB"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7D77C2880F910D04"
+				item: {
+					Count: 1
+					id: "minecraft:written_book"
+					tag: {
+						author: "a fisherman"
+						filtered_title: "Note"
+						pages: ["{\"text\":\"Went out to go fishing, I'll be back later.\\n\\nDon't take my stuff.\"}"]
+						resolved: 1b
+						title: "Note"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -1.0d
+			y: 4.0d
+		}
+	]
+	title: "Lore Collector"
+}

@@ -1,0 +1,11 @@
+{
+  "title": {
+    "text": "Farming",
+    "bold": true,
+    "color": "red"
+  },
+  "tip": {
+    "text": "Feeding through is a block that automatically feeds nearby animals, it is available in early tier2",
+    "color": "green"
+  }
+}

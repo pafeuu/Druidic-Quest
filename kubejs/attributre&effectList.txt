@@ -1,0 +1,82 @@
+
+Regular dmg:
+    -alembic:holy_damage
+    -alembic:fire_damage
+    -alembic:alchemical_damage
+    -alembic:arcane_damage
+    -alembic:nature_damage
+    -alembic:blood_damage
+    -alembic:ice_damage
+    -alembic:lightning_damage
+    -alembic:ender_damage
+    -alembic:true_damage
+    -minecraft:generic.attack_damage
+    
+
+other dmg:
+    -attributeslib:crit_chance
+    -attributeslib:crit_damage
+    -attributeslib:current_hp_damage
+    -attributeslib:armor_pierce
+    -attributeslib:armor_shred
+    -attributeslib:arrow_damage
+    -minecraft:generic.attack_speed
+    -puffish_attributes:player.melee_damage
+    -puffish_attributes:player.ranged_damage
+    -attributeslib:draw_speed
+    -attributeslib:arrow_damage
+    -attributeslib:arrow_velocity
+
+Spells:
+    -ars_nouveau:perk.max_mana
+    -ars_nouveau:perk.mana_regen
+    -irons_spellbooks:cast_time_reduction
+    -irons_spellbooks:cooldown_reduction
+    -irons_spellbooks:mana_regen
+    -irons_spellbooks:max_mana
+
+    -irons_spellbooks:spell_power
+    -irons_spellbooks:lightning_spell_power
+    -irons_spellbooks:blood_spell_power
+    -irons_spellbooks:fire_spell_power
+    -irons_spellbooks:ice_spell_power
+    -irons_spellbooks:nature_spell_power
+    -irons_spellbooks:eldritch_spell_power
+    -irons_spellbooks:ender_spell_power
+    -irons_spellbooks:holy_spell_power
+
+Survivability:
+    -puffish_attributes.player_healing (natural regen)
+    -puffish_attributes.player.resistance
+    -minecraft:generic.max_health
+    -minecraft:generic.armor
+    -minecraft:generic.armor_toughness
+    -alembic:alchemical_damage.resistance
+    -alembic:fire_damage.resistance
+    -alembic:arcane_damage.resistance
+    -alembic:true_damage.resistance
+    -alembic:nature_damage.resistance
+    -alembic:ice_damage.resistance
+    -alembic:lightning_damage.resistance
+    -alembic:ender_damage.resistance
+    -alembic:blood_damage.resistance
+    -ars_nouveau:ars_nouveau.perk.feather
+
+Utility:
+    -puffish_attributes:player.knockback
+    -puffish_attributes:player.axe_speed
+    -puffish_attributes:player.shovel_speed
+    -puffish_attributes:player.axe_speed
+    -puffish_attributes:player.fortune
+    -puffish_attributes:player.mining_speed
+    -puffish_attributes:player.stamina
+    -minecraft:generic.luck
+
+Movement:
+    -combatroll:distance
+    -combatroll:count
+    -combatroll:recharge
+    -minecraft:generic.movement_speed
+    -puffish_attributes:player.jump
+    -puffish_attributes:player.sprinting_speed
+    -forge:step_height_addition

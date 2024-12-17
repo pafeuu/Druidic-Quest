@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "conditions": [
+    {
+      "type": "sophisticatedcore:item_enabled",
+      "itemRegistryName": "sophisticatedbackpacks:feeding_upgrade"
+    }
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:apple"
+    },
+    "B": {
+      "item": "sophisticatedbackpacks:upgrade_base"
+    },
+    "C": {
+      "item": "minecraft:carrot"
+    }
+  },
+  "pattern": [
+    "AAA",
+    "ABC",
+    "CCC"
+  ],
+  "result": {
+    "item": "sophisticatedbackpacks:feeding_upgrade"
+  }
+}

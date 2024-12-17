@@ -1,0 +1,19 @@
+{
+  "priority": 1,
+  "type": "minecraft:ender_dragon",
+  "resistances": {
+    "alchemical_damage": 0.7,
+    "physical_damage": 1.5,
+    "fire_damage": 1.4,
+    "arcane_damage": 1.5,
+    "true_damage": 1.4,
+    "ice_damage": 0.5,
+    "holy_damage": 0.8
+  },
+  "damage": {
+    "physical_damage": 0.2,
+    "true_damage": 0.4,
+    "arcane_damage": 0.4
+  },
+  "ignored_sources": []
+}

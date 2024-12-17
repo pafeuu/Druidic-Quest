@@ -1,0 +1,17 @@
+{
+  "priority": 1,
+  "type": "alexsmobs:soul_vulture",
+  "resistances": {
+    "alchemical_damage": 1.0,
+    "physical_damage": 1.0,
+    "fire_damage": 1.0,
+    "arcane_damage": 1.0,
+    "true_damage": 1.0,
+    "ice_damage": 1.0,
+    "holy_damage": 1.0
+  },
+  "damage": {
+    "physical_damage": 1.0
+  },
+  "ignored_sources": []
+}

@@ -1,0 +1,65 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "gameplay_tools_and_tips"
+	group: ""
+	hide_quest_until_deps_complete: true
+	hide_quest_until_deps_visible: true
+	icon: {
+		Count: 1
+		id: "minecraft:diamond_sword"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "17B276004C58B80C"
+	order_index: 2
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["6F5C7CA9C74F13E9"]
+			icon: "handcrafted:stackable_book"
+			id: "0D9BE29FAE146910"
+			shape: "octagon"
+			size: 2.0d
+			subtitle: "Better recipe book"
+			tasks: [{
+				id: "480467DCCF9BDD25"
+				title: "REI tips"
+				type: "checkmark"
+			}]
+			title: "EMI tips"
+			x: -4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6F5C7CA9C74F13E9"]
+			description: [
+				"FTB utilities introduces a few commands:"
+				""
+				"&l/back&r - teleports you to your last death location(10minutes cooldown and 30sec preparation)"
+				""
+				"&l/home&r - teleports you to your set home(10minutes cooldown and 5 second preparation)"
+				""
+				"&l/sethome&r - sets your home location(only one home available)"
+				""
+				"&l/rtp&r - teleports you to random place in the world(10minutes cooldown and 30 sec preparation)"
+			]
+			icon: "minecraft:end_portal_frame"
+			id: "2B2A738687BD9E78"
+			shape: "octagon"
+			size: 2.0d
+			subtitle: "limited teleportation"
+			tasks: [{
+				id: "39574B6D4D520939"
+				title: "REI tips"
+				type: "checkmark"
+			}]
+			title: "FTB commands"
+			x: -6.0d
+			y: -1.0d
+		}
+	]
+	title: "Gameplay tools and tips"
+}

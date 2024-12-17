@@ -1,0 +1,389 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "weaponry_owner"
+	group: "6959C7C8592FBBA9"
+	hide_quest_until_deps_visible: true
+	icon: {
+		Count: 1
+		id: "forbidden_arcanus:draco_arcanus_sword"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "113DEDB1E120906F"
+	order_index: 3
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "7A9E3E9898E3EBE0"
+			rewards: [{
+				count: 4
+				id: "4E10C4DA0BD7BB83"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "24194AE7FDFF09C5"
+				item: {
+					Count: 1
+					id: "minecraft:wooden_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "1AA4BE7DECFE87BF"
+			rewards: [{
+				count: 4
+				id: "33E3CCD2130B9D5A"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0B2145CFF8BAAAAE"
+				item: {
+					Count: 1
+					id: "minecraft:stone_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "0D87A2F28D7EE7AE"
+			rewards: [{
+				count: 4
+				id: "4F772ED6CCC9C77F"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7221DB9E19CEF881"
+				item: {
+					Count: 1
+					id: "create_sa:copper_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "5F6C67A721C80FAD"
+			rewards: [{
+				count: 4
+				id: "4800C8E28BF27A86"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "118E166D8550B65A"
+				item: {
+					Count: 1
+					id: "create_sa:zinc_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "1640CE5FAD0DD72B"
+			rewards: [{
+				count: 4
+				id: "1E21146F57764030"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "174775BDE89E4F64"
+				item: {
+					Count: 1
+					id: "minecraft:iron_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "5A1CD942EB88BC55"
+			rewards: [{
+				count: 4
+				id: "4C5C3DE5FD3A1E08"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "323A8E5C46C4DFEE"
+				item: {
+					Count: 1
+					id: "kubejs:royal_guard_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "0D8D3C08C9EF08A7"
+			rewards: [{
+				count: 4
+				id: "3B050F1EB3F28C1C"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "78B8E8DB4DA8EC42"
+				item: {
+					Count: 1
+					id: "create_sa:brass_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "3CD55EC86487C152"
+			rewards: [{
+				count: 4
+				id: "50F9DDAF25E74A10"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "26020F8E9E039175"
+				item: {
+					Count: 1
+					id: "minecraft:golden_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "50FEE060885F8945"
+			rewards: [{
+				count: 4
+				id: "55A3C67DED45BD83"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "275EDB6AB62743E7"
+				item: {
+					Count: 1
+					id: "ars_nouveau:enchanters_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "712B3D0F1DE2D534"
+			rewards: [{
+				count: 4
+				id: "1D2C3E2749DCAD95"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5E170681D5E0919F"
+				item: {
+					Count: 1
+					id: "minecraft:diamond_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "2506CBC63B3C5292"
+			rewards: [{
+				count: 4
+				id: "1A89EAC9370E2400"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "378395E45E9C215D"
+				item: {
+					Count: 1
+					id: "create_sa:experience_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "1EA5D3E0C009B0CC"
+			rewards: [{
+				count: 4
+				id: "55BB130F93626D49"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4619ECC4F1E198D8"
+				item: {
+					Count: 1
+					id: "forbidden_arcanus:reinforced_deorum_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "1D523A2FBC1A9AC1"
+			rewards: [{
+				count: 4
+				id: "091BAF4B5EE63CC5"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6ECF3CCDA55FD4CD"
+				item: {
+					Count: 1
+					id: "create_sa:rose_quartz_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "1482F1EDAC107B9B"
+			rewards: [{
+				count: 4
+				id: "32F9D4841F87F78B"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3E62D36FBEAF09DC"
+				item: {
+					Count: 1
+					id: "minecraft:netherite_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "452C582BC38D18CA"
+			rewards: [{
+				count: 4
+				id: "243EA71CBA4D2267"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "075F00DF544CCFD9"
+				item: {
+					Count: 1
+					id: "enigmaticlegacy:etherium_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "4F2C614174EABC9E"
+			rewards: [{
+				count: 4
+				id: "010EE74E3AE7926C"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "394AEC9C1E0DCE43"
+				item: {
+					Count: 1
+					id: "forbidden_arcanus:draco_arcanus_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 4.0d
+		}
+	]
+	title: "Bladesmith"
+}

@@ -1,0 +1,20 @@
+{
+    "priority": 1,
+    "type": "twilightforest:slime_beetle",
+    "resistances": {
+      "alchemical_damage": 1.5,
+      "physical_damage": 1.25,
+      "fire_damage": 0.75,
+      "arcane_damage": 0.9,
+      "true_damage": 1.0,
+      "ice_damage": 0.9,
+      "holy_damage": 1.0
+    },
+    "damage": {
+      "physical_damage": 0.6,
+      "alchemical_damage": 0.4
+    },
+    "ignored_sources": [
+
+    ]
+  }

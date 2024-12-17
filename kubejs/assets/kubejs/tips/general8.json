@@ -1,0 +1,11 @@
+{
+    "title": {
+      "text": "General",
+      "bold": true,
+      "color": "red"
+    },
+    "tip": {
+      "text": "Lots of items have more than one recipe, be sure to check EMI carefuly. You might find an easier way ",
+      "color": "green"
+    }
+  }

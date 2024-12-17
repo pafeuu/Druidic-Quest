@@ -1,0 +1,21 @@
+{
+    "priority": 1,
+    "type": "ars_nouveau:wilden_boss",
+    "resistances": {
+      "alchemical_damage": 1.9,
+      "physical_damage": 1.25,
+      "fire_damage": 1.0,
+      "arcane_damage": 1.5,
+      "true_damage": 1.25,
+      "ice_damage": 1.0,
+      "holy_damage": 1.25
+    },
+    "damage": {
+      "physical_damage": 0.4,
+      "arcane_damage": 0.2,
+      "alchemical_damage": 0.4
+    },
+    "ignored_sources": [
+
+    ]
+  }

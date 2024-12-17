@@ -1,0 +1,18 @@
+{
+  "priority": 1,
+  "type": "twilightforest:lich",
+  "resistances": {
+    "alchemical_damage": 0.9,
+    "physical_damage": 1.25,
+    "fire_damage": 0.75,
+    "arcane_damage": 1.75,
+    "true_damage": 1.75,
+    "ice_damage": 1.2,
+    "holy_damage": 0.5
+  },
+  "damage": {
+    "arcane_damage": 0.5,
+    "true_damage": 0.5
+  },
+  "ignored_sources": []
+}

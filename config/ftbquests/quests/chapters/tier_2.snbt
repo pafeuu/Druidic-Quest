@@ -1,0 +1,879 @@
+{
+	autofocus_id: "7462DA3796BC659A"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "tier_2"
+	group: "23A1FEBD04C34E2E"
+	hide_quest_details_until_startable: true
+	hide_quest_until_deps_complete: true
+	hide_quest_until_deps_visible: true
+	icon: "create:andesite_alloy"
+	id: "26ACFF6014336FD7"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["769C5B75D85F81FC"]
+			id: "4E33A6524A987E23"
+			rewards: [{
+				id: "4FBC16708C07D75D"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			size: 2.0d
+			tasks: [{
+				id: "3AD0E0A9B87DBD1E"
+				item: "kubejs:arcane_alloy_ingot"
+				type: "item"
+			}]
+			x: -11.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4E33A6524A987E23"]
+			icon: "ars_nouveau:arcane_core"
+			id: "72FB95A11B31AFEC"
+			rewards: [{
+				count: 5
+				id: "4225F3CA67B890FA"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "3A79883BE5E4FB6A"
+					item: "ars_nouveau:arcane_pedestal"
+					type: "item"
+				}
+				{
+					id: "435BF12BC18D9FE4"
+					item: "ars_nouveau:enchanting_apparatus"
+					type: "item"
+				}
+				{
+					id: "7E0B4410288C8D31"
+					item: "ars_nouveau:arcane_core"
+					type: "item"
+				}
+			]
+			title: "Arcane crafting"
+			x: -8.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["72FB95A11B31AFEC"]
+			id: "4E1801454590B2B2"
+			rewards: [{
+				count: 8
+				id: "20180AB5DF7F4A5C"
+				item: "create:zinc_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				count: 3L
+				id: "667FFA0BC9E955D8"
+				item: "create_sa:zinc_handle"
+				type: "item"
+			}]
+			title: "New equipment opportunity"
+			x: -8.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["4E1801454590B2B2"]
+			icon: "crafting_on_a_stick:crafting_table"
+			id: "694245F07E3CAA48"
+			rewards: [{
+				count: 6
+				id: "48795A42E11DCFAB"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "08D3705C7011AD22"
+					item: "crafting_on_a_stick:crafting_table"
+					type: "item"
+				}
+				{
+					id: "64262D82BE77AFCD"
+					item: "crafting_on_a_stick:anvil"
+					type: "item"
+				}
+				{
+					id: "0048241170D7A515"
+					item: "crafting_on_a_stick:stonecutter"
+					type: "item"
+				}
+			]
+			title: "Workstations on a stick!"
+			x: -9.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"72FB95A11B31AFEC"
+				"4E1801454590B2B2"
+			]
+			icon: "elementalcraft:artificial_fire_source_seed"
+			id: "5CB418E959BA9BC4"
+			rewards: [{
+				count: 2
+				id: "72235FFF9E75C8E7"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "6E40E434C5496E4B"
+					item: "elementalcraft:extractor"
+					type: "item"
+				}
+				{
+					id: "0022BEBB10A64B0B"
+					item: "elementalcraft:evaporator"
+					type: "item"
+				}
+			]
+			title: "Means of getting the elements"
+			x: -5.5d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"7EBD23E275E837F2"
+				"5CB418E959BA9BC4"
+			]
+			icon: "chipped:nether_carved_pumpkin"
+			id: "23D3902848A335F6"
+			rewards: [{
+				count: 2
+				id: "3897A22B4C6DD658"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				id: "2AC64EE997DE809B"
+				type: "dimension"
+			}]
+			title: "Visit The Nether!"
+			x: -5.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["5CB418E959BA9BC4"]
+			icon: "elementalcraft:firecrystal"
+			id: "6B18370E82275EED"
+			rewards: [{
+				count: 8
+				id: "3C1A481F21BC3647"
+				item: "elementalcraft:inert_crystal"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "6C2B986956CBDCCF"
+					item: "elementalcraft:firecrystal"
+					type: "item"
+				}
+				{
+					id: "4D6353AC030503CD"
+					item: "elementalcraft:aircrystal"
+					type: "item"
+				}
+				{
+					id: "6CAB2995574AD7A6"
+					item: "elementalcraft:watercrystal"
+					type: "item"
+				}
+				{
+					id: "04C4600221F273E7"
+					item: "elementalcraft:earthcrystal"
+					type: "item"
+				}
+			]
+			title: "Elemental Crystal"
+			x: -3.5d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"4E1801454590B2B2"
+				"23D3902848A335F6"
+			]
+			icon: {
+				Count: 1
+				id: "minecraft:golden_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "5489E55D327444EE"
+			rewards: [
+				{
+					count: 9
+					id: "1EFEF5D8C9A4318B"
+					item: "thermal:ruby"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "3242AB6E9D0D5DAD"
+					item: "thermal:gold_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "533BE87C871CC53E"
+					item: {
+						Count: 1
+						id: "minecraft:golden_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7C79A6FB08F66B6B"
+					item: {
+						Count: 1
+						id: "minecraft:golden_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4EA42C40C21320D2"
+					item: {
+						Count: 1
+						id: "minecraft:golden_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5253EB4829F2ED93"
+					item: {
+						Count: 1
+						id: "minecraft:golden_hoe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3C83718617647C99"
+					item: {
+						Count: 1
+						id: "minecraft:golden_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Golden Equipment new and improved"
+			x: -7.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"4E1801454590B2B2"
+				"23D3902848A335F6"
+			]
+			icon: {
+				Count: 1
+				id: "minecraft:diamond_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "7C6028C637BFF1B2"
+			rewards: [
+				{
+					count: 9
+					id: "2C67FD1DA683C58C"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "32F6D6B731B06128"
+					item: "thermal:gold_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "56B2A77CFD0C54A0"
+					item: {
+						Count: 1
+						id: "minecraft:diamond_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6540766A2896A7A9"
+					item: {
+						Count: 1
+						id: "minecraft:diamond_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4A5E15E64392C4DD"
+					item: {
+						Count: 1
+						id: "minecraft:diamond_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3886E80832E9515A"
+					item: {
+						Count: 1
+						id: "minecraft:diamond_hoe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6D1E9D636C27DD37"
+					item: {
+						Count: 1
+						id: "minecraft:diamond_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Diamond Equipment"
+			x: -8.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["6B18370E82275EED"]
+			id: "7E516240E967045E"
+			rewards: [{
+				id: "4D5F12ED2DF49585"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "787A814B94A8CAE0"
+				item: "ars_nouveau:air_essence"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["6B18370E82275EED"]
+			id: "00AEA38F60CAAE90"
+			rewards: [{
+				id: "689AB8EE6191A7B2"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "417B4566447B3670"
+				item: "ars_nouveau:water_essence"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["769C5B75D85F81FC"]
+			hide_until_deps_complete: true
+			id: "7EBD23E275E837F2"
+			rewards: [
+				{
+					id: "2B44D24A8D87DC88"
+					item: "kubejs:nature_essence"
+					type: "item"
+				}
+				{
+					id: "2A83CB24AB8C2BD7"
+					item: "thermal:gold_coin"
+					type: "item"
+				}
+			]
+			size: 2.0d
+			tasks: [{
+				id: "42BC429CB79BA598"
+				item: "kubejs:nature_essence"
+				type: "item"
+			}]
+			x: -11.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["6B18370E82275EED"]
+			id: "0F250E08450A1BEC"
+			rewards: [{
+				id: "38F331457A1797E1"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6371EE60750416A0"
+				item: "ars_nouveau:earth_essence"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["6B18370E82275EED"]
+			id: "5E56A7D68E33C68B"
+			rewards: [{
+				id: "1F2E814B317A2081"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5E2DEB87FECEDA36"
+				item: "ars_nouveau:fire_essence"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5E56A7D68E33C68B"]
+			id: "4701D8064C9A7A3A"
+			rewards: [
+				{
+					count: 5
+					id: "168C8FB9F327B264"
+					item: "quark:gunpowder_sack"
+					type: "item"
+				}
+				{
+					id: "30B018B540EA74E5"
+					item: "create:schematic_table"
+					type: "item"
+				}
+				{
+					id: "321166CCD4C07580"
+					item: "create:empty_schematic"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "268118BB819C7C01"
+				item: "create:schematicannon"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["23D3902848A335F6"]
+			id: "400EBA15A5B82A93"
+			rewards: [{
+				count: 2
+				id: "7AF9F6A5B76D1577"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "70397E312E0608A6"
+				item: "naturesaura:nature_altar"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["400EBA15A5B82A93"]
+			id: "4F3750AF3A13EB91"
+			rewards: [{
+				id: "483B56F9CE36C1A7"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5AFC4262C8C49756"
+				item: "naturesaura:tainted_gold"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["4F3750AF3A13EB91"]
+			id: "70640C75EB97C35A"
+			rewards: [{
+				id: "63692FDD349C16A9"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2283B9EDCC489362"
+				item: "sophisticatedstorage:iron_to_gold_tier_upgrade"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["400EBA15A5B82A93"]
+			id: "67D119691018BD6C"
+			rewards: [{
+				count: 8
+				id: "331883BCBC73EFFC"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1059ECBCB79BBF2C"
+				item: "naturesaura:infused_iron"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 13.0d
+		}
+		{
+			dependencies: [
+				"38ADADE5E8F17847"
+				"4F3750AF3A13EB91"
+				"0F250E08450A1BEC"
+				"7E516240E967045E"
+				"5E56A7D68E33C68B"
+				"00AEA38F60CAAE90"
+			]
+			id: "0628C1A97EB1A5DB"
+			rewards: [{
+				count: 2
+				id: "3196E5B713538FA1"
+				item: "thermal:netherite_coin"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "4BB570DEC2587D62"
+				item: "immersiveengineering:alloybrick"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["67D119691018BD6C"]
+			id: "38ADADE5E8F17847"
+			rewards: [{
+				count: 2
+				id: "2A4CDCB40EAF2C96"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "368740144F9AA064"
+				item: "kubejs:magic_machine"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 13.0d
+		}
+		{
+			dependencies: ["7E516240E967045E"]
+			id: "0C2AD3445015D9C0"
+			rewards: [{
+				id: "531A10E5B02E4E24"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "37CE65F61A82ACBF"
+				item: {
+					Count: 1
+					id: "immersiveengineering:glider"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["7E516240E967045E"]
+			id: "77F2DB343B15A33B"
+			rewards: [{
+				id: "1A51CAD2D6C0A180"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5A5B8E715FBEF574"
+				item: "forbidden_arcanus:quantum_catcher"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["00AEA38F60CAAE90"]
+			id: "2A5CFF660594EEA3"
+			rewards: [{
+				id: "41AAC76A9D3D5581"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "30CC463EE66F3D18"
+				item: {
+					Count: 1
+					id: "ars_nouveau:warp_scroll"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["00AEA38F60CAAE90"]
+			id: "757242D72869D9B3"
+			rewards: [{
+				id: "7116CA88E0B1B595"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5F7C87BDBF5B1AD3"
+				item: "elementalcraft:water_mill_grindstone"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["0F250E08450A1BEC"]
+			icon: {
+				Count: 1
+				id: "create_sa:copper_pickaxe"
+				tag: {
+					Damage: 0
+					Enchantments: [{
+						id: "minecraft:unbreaking"
+						lvl: 3
+					}]
+					Modifier: "forbidden_arcanus:demolishing"
+				}
+			}
+			id: "03BD12785316A601"
+			rewards: [
+				{
+					count: 3
+					id: "12DD09B75A4D53FB"
+					item: "ars_nouveau:earth_essence"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "6A582627436879CD"
+					item: "thermal:gold_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "5238C3AF0C7BA5E1"
+					item: {
+						Count: 1
+						id: "create_sa:copper_pickaxe"
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								id: "minecraft:unbreaking"
+								lvl: 3
+							}]
+							Modifier: "forbidden_arcanus:demolishing"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "296AD1556277FADF"
+					item: {
+						Count: 1
+						id: "create_sa:copper_shovel"
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								id: "minecraft:unbreaking"
+								lvl: 3
+							}]
+							Modifier: "forbidden_arcanus:demolishing"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "29517F7BF40ACC31"
+					item: {
+						Count: 1
+						id: "create_sa:copper_hoe"
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								id: "minecraft:unbreaking"
+								lvl: 3
+							}]
+							Modifier: "forbidden_arcanus:demolishing"
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "AOE tools"
+			x: 0.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["38ADADE5E8F17847"]
+			id: "4BD46D40EE2A0EAE"
+			rewards: [{
+				id: "0AD77B136B6A7CB9"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "202D4B8C121D9599"
+				item: "minecraft:enchanting_table"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 15.0d
+		}
+		{
+			dependencies: ["38ADADE5E8F17847"]
+			id: "47DF387661061B96"
+			rewards: [{
+				id: "222A87341F2B565C"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "502279F3D5A85875"
+				item: "irons_spellbooks:arcane_anvil"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["7EBD23E275E837F2"]
+			description: ["Automatically feeds the animals around it when supplied with their prefered food. Not as efficient as feeding them yourself!"]
+			id: "6F5F12972F0E25D2"
+			rewards: [{
+				count: 2
+				id: "1D998471D4A5FC27"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "68E8EF4DAA2A6D00"
+				item: "quark:feeding_trough"
+				type: "item"
+			}]
+			x: -11.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["0F250E08450A1BEC"]
+			id: "6FDF956447A362ED"
+			rewards: [{
+				id: "4743A218CA3C5CFD"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "61FF61485057ABFB"
+				item: {
+					Count: 1
+					id: "kubejs:the_terraformer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["5E56A7D68E33C68B"]
+			id: "5E6BD7260C3A119F"
+			rewards: [{
+				id: "37B529D7D49CBF45"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1923337D93202B19"
+				item: {
+					Count: 1
+					id: "kubejs:very_sharp_feather"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7EBD23E275E837F2"]
+			id: "2E527B86FB2AE87D"
+			rewards: [{
+				id: "3624748F1BF55ECC"
+				item: "alexsmobs:mosquito_repellent_stew"
+				type: "item"
+			}]
+			subtitle: "This might be helpfull making a nether portal"
+			tasks: [{
+				id: "74805E94D6333EB9"
+				item: {
+					Count: 1
+					id: "kubejs:sharp_feather"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -8.0d
+			y: 10.0d
+		}
+	]
+	title: "Tier 2 - Basic Elemental Infusion"
+}

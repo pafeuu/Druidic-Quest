@@ -1,0 +1,11 @@
+{
+  "title": {
+    "text": "Automation",
+    "bold": true,
+    "color": "red"
+  },
+  "tip": {
+    "text": "Wooden hoppers can act like a primitive filter as they only have one slot",
+    "color": "green"
+  }
+}

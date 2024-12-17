@@ -1,0 +1,11 @@
+{
+  "title": {
+    "text": "Automation",
+    "bold": true,
+    "color": "red"
+  },
+  "tip": {
+    "text": "First way of collecting items is wooden hopper available in early tier1. You can also craft basket out of it which can pick items from the side",
+    "color": "green"
+  }
+}

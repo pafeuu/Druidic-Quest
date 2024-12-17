@@ -1,0 +1,65 @@
+{
+  "armorSetName": "hunter",
+  "performanceMode": true,
+  "head": {
+    "itemKey": "alexsmobs:frontier_cap",
+    "mixAndMatch": [
+      "alexsmobs:fedora"
+    ],
+    "mustBeEmpty": false
+  },
+  "chest": {
+    "itemKey": "alexsmobs:crocodile_chestplate",
+    "mixAndMatch": [
+      "alexsmobs:tarantula_hawk_elytra"
+    ],
+    "mustBeEmpty": false
+  },
+  "legs": {
+    "itemKey": "alexsmobs:centipede_leggings",
+    "mixAndMatch": [
+      "alexsmobs:emu_leggings"
+    ],
+    "mustBeEmpty": false
+  },
+  "boots": {
+    "itemKey": "alexsmobs:roadrunner_boots",
+    "mixAndMatch": [
+      "alexsmobs:flying_fish_boots"
+    ],
+    "mustBeEmpty": false
+  },
+  "fullSetBonuses": [
+    {
+      "type": "effect",
+      "name": "minecraft:poison",
+      "interactionType": "immunity",
+      "description": "Poison immunity"
+    },
+    {
+      "type": "effect",
+      "name": "alexsmobs:mosquito_repellent",
+      "value": 1.0,
+      "interactionType": "self",
+      "interactionDuration": 300,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "attribute",
+      "name": "combatroll:count",
+      "value": 1,
+      "modifierUUID": "d5a7dc28-9405-4398-b1e5-233b4c6dd218",
+      "description": "+1 combat roll"
+    },
+    {
+      "type": "attribute",
+      "name": "alembic:alchemical_damage.resistance",
+      "value": 6,
+      "modifierUUID": "d5a7dc88-9405-4398-b1e5-233b4c6dd218",
+      "description": "+6 nature resistance"
+    }
+    
+  ],
+  "hideGeneratedTooltip": false
+}

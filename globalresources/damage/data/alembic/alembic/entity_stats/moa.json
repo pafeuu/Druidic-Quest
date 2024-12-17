@@ -1,0 +1,17 @@
+{
+  "priority": 1,
+  "type": "aether:moa",
+  "resistances": {
+    "alchemical_damage": 1.25,
+    "physical_damage": 1.25,
+    "fire_damage": 1.25,
+    "arcane_damage": 1.25,
+    "true_damage": 1.25,
+    "ice_damage": 0.9,
+    "holy_damage": 1.75
+  },
+  "damage": {
+    "physical_damage": 1.0
+  },
+  "ignored_sources": []
+}

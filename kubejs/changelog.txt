@@ -1,0 +1,962 @@
+Patch 0.6 Beta part 1
+
+-Maximum time_for_phantom_spawn increased to 144000
+-Added alembic mod
+-Removed extra entity reach on swords
+-changed copper ingots to copper plates in flimsy journal recipe
+-changed extra fire dmg of flint sword to alembic fire dmg
+-changed extra fire dmg of golden sword to alembic arcane dmg
+-added crushing recipe to every ore
+-all the potions stack to 16 now
+-removed entity culling
+-removed enders delight
+-removed fastload
+-added fix gpu memory leak mod
+-changed recipe for feeding upgrade
+-replaced horse armor in chests with golden and iron plates
+-changed durability of swords to match durability buff of other tools
+-halved durability for diamond and netherite tools
+-Added 6 more damage types with alembic
+-Changed most of the vanilla damage sources to alembic damage types
+-Changed bushier flowers mod to the resource pack counterpart
+-Gladiator perk is now disabled
+-increased structure spawning
+-Increased range now applies to every tool in #forge:tools tag instead of #minecraft:tools
+-Added Quark trowel and abacus to the #forge:tools tag
+-Every item in the #forge:tools tag can now go into immersive engineering toolbox
+-Added Shears, Flint and Steel, supplementaries wrench, immersiveengineering hammer to the #forge:tools tag
+-Added more descriptions to quests
+
+Patch 0.6 Beta part 2
+
+-Added sharpshooter chapter in Ultimate Collector chapter group
+-Increased amount of caged animals in loot chests
+-Adjusted loottable of elemental craft loot chests to replace loot with infused iron nugget instead of just removing the items
+-Added mending mixture and recall potions to all the dungeons arise loot chests
+-Changed recipe for extradimensional eye
+-Added recipe for rooted dirt with dirt and mangrove roots or hanging roots
+-Cake now stacks to 16
+-Fixed villager trades added by supplementaries and sawmill to use coins instead of emeralds
+-Nerfed spectral hammer spell by increasing cooldown by 1 second and doubling mana cost
+-Spectral hammer spell can now mine twigs schist and rhyolite
+-Spectral hammer spell can now mine immersiveweathering mossy stone
+-Fixed armor sets tooltips
+-Added recipe to 6 enigmatic amulets
+-Changed locate command to pathfinders quil in "buy a location of the lush caves" quest
+-Changed recipe of the enchanting table
+-Added a bunch of quests in Armorsmith chapter in Ultimate collector chapter group
+-Added gold smithing upgrade template
+-Added a way to duplicate custom smithing upgrade templates
+-Removed old recipes for botanist and skyseeker armor
+-Added back corail tombstone items(recipes to be changed later)
+-Added extra fire dmg to flint axe
+-Added extra arcane dmg to golden axe
+-Replaced more junk in chests with more usefull loot
+-Added recipe for infused iron from infused iron nuggets
+-Changed recipe for enigmatic legacy charm of the treasure hunter
+-Added steel smithing upgrade template and duplicating recipe for it
+-Changed recipe for steel armor
+
+Patch 0.6.1
+
+-Added tooltip to lunchbag and lunchbox
+-enigmatic legacy potions now stack to 16
+-Added FallingTree mod
+-Added recipe to turn any potato crate into farmers delight crate
+-Primitive machine can now use any potato crate
+-Changed place of Quickstack button
+-9 potatos now always craft farmersdelight potato crate
+
+Patch 0.6.2
+-Added new accesories
+    1. Cross necklace adds +1 holy damage when worn as a necklace
+    2. Roadrunner totem adds +20% sprinting speed when held in the offhand
+-Changed a few structures
+    1. Ars red enchanting tower
+    2. Ars blue enchanting tower
+    3. blue enchanting tower
+    4. orange enchanting tower
+    5. red enchanting tower
+    6. red wizard tower
+    7. yellow wizard tower 
+    8. purple wizard tower 
+    9. winter wagon
+-More junk replaced in loot chests
+-Added trades to the fletcher
+-Added a few missing trades to the shephard
+-Changed the way falling tree mod works
+-Added trades to the leatherworker finishing all the custom vanilla villagers trades
+-Overhauled spruce village
+-Removed Immortality and magic protection enchantment
+-Added resource packs: Farmer's 3D and Farmer's Delight crops 3D
+
+Patch 0.7
+New Tooltips for:
+    -elementalcraft:water_mill_wood_saw
+    -immersiveengineering:jump_cushion
+    -quark:seed_pouch
+
+Changed recipes:
+    -Pretty pipes:
+        -Blank module
+        -Low Crafting module
+        -Low filter module
+    -Ars Nouveau:
+        -glyph wololo
+    -Thermal:
+        -alchemical quiver
+    -Natures Aura:
+        -infused rock
+    -Elementalcraft:
+        -white rock
+    -Forbidden and Arcanus:
+        -quantum catcher
+    -Sophisticated Storage:
+        -Storage controller
+New Custom Items:
+    -Mittens
+    -Cross Necklace
+    -Wooden Crucifix
+    -Metal Crucifix
+    -Bejeweled Crucifix
+    -Lesser Ender Magic Ring
+    -Lesser Fire Magic Ring
+    -Lesser Ice Magic Ring
+    -Lesser Holy Magic Ring
+    -Lesser Nature Magic Ring
+    -Lesser Blood Magic Ring
+    -Lesser Lightning Magic Ring
+Loot:
+    -large fern replaced by nugget of infused ingot
+    -ash replaced by fire shard
+    -spruce sign replaced by earth shard
+
+New mods:
+    -Ponder for kubejs
+    -Kubejs Create
+    -Kubejs Ars nouveau
+    -Kubejs Delight
+    -Vintage Kubejs
+    -HT's TreeChop
+    -Connectible chains
+
+Updated mods:
+    -Irons spells'n'spellbooks
+    -EMI
+    -End Remastered
+    -Balm
+    -Corail Tombstone
+    -ImmedietalyFast
+    -JEI
+    -Create:Vintage Improvements
+    -ModernFix
+    -Citadel
+    -Collective
+    -Noisium
+    -Embeddium
+    -Enchantment Description
+    -Lootr
+    -Every Compat
+    -ProbeJS
+    -MoonlightLib
+    -CreativeCore
+    -ArsNouveau
+    -ApotheoticAttributes
+    -CraftingTweaks
+    -
+
+Other stuff:
+    -Added tons of custom stats to mobs via alembic
+    -Reworked tinkers citadel 
+    -Changed the starter axe to 9 durability
+    -Changed all desert IE Houses
+    -Seed pouches now grant extra reach when held
+    -Added missing copper, zinc, brass sets to the quests
+    -Fixed caged cows in loot chests
+    -Added rewards to quests in chapter 3
+    -Added mechanical mixer quest
+    -Added 4 more quests to the Armorsmith chapter
+    -Added new Bladesmith chapter to the Ultimate Collector chapter group
+
+Patch 0.7.1
+
+Armor Sets:
+    -Leather
+        -less movement speed
+        -extra combat roll
+        -extra ice resistance
+        -extra nature resistance
+    -Copper
+        -less mining speed
+        -extra lightning resistance
+    -Mechanical
+        -extra lightning resistance
+    -Hunter
+        -extra nature resistance
+        -extra combat roll
+    -Mortem
+        -removed extra attack speed and movement speed
+        -extra combat roll
+        -extra blood resistance
+Changed Textures:
+    -Copper Axe
+    -Copper Pickaxe
+    -Copper Hoe
+    -Copper Sword
+    -Copper Shovel
+    -Zinc Axe
+    -Zinc Pickaxe
+    -Zinc Hoe
+    -Zinc Sword
+    -Zinc Shovel
+    -Brass Axe
+    -Brass Pickaxe
+    -Brass Hoe
+    -Brass Sword
+    -Brass Shovel
+
+
+Recipes:
+    -Added recipe for the terraformer
+    -Added recipe for 3x3 copper hoe and 3x3 copper shovel
+
+Loot:
+    -all the zombies now have a tiny chance to drop blood ring or crucifix on death
+    -Lowered the chance of evil eye appearing in village chests
+    -Skeletons now have a tiny chance to drop custom shield
+
+Worldgen:
+    -
+Other:
+    -Axe speed lowered significally to counter balance ht treechop mod
+New Mods:
+    -Simple weapons for better combat
+    -Combat roll
+    -Dramatic Doors
+Removed Mods:
+    -Entangled
+Updated Mods:
+    -CreativeCore
+    -Xaero's Minimap
+    -Sophisticated Backpacks
+    -Spice of Life Onion
+    -Fruits Delight
+    -Noisium
+    -JEI
+    -Sophisticated Core
+    -Balm
+    -Every Compat
+    -Vintage Delight
+    -Rhino
+    -Better Combat
+    -Sophisticated Storage
+    -Moonlight Lib
+    -Create Design n' Decor
+    -Forge
+
+Patch 0.7.2 Beta
+Quests:
+    -Adjusted Altar of Birthing Quest
+    -Added a few new descriptions to the quests
+    -Changed visibility of the quests leading to the next chapter
+    -New quest in tier1 about automation of plates
+    -Changed reward in "buy direction to the nether fortress quest" to cartographers quill
+
+Recipes:
+    -Changed recipe for mechanical mixer
+    -Added recipe for fiery clay blend
+    -Changed recipe for blast bricks
+    -Fixed Inert Crystal recipe
+    -Added tier 1 brass ingot recipe
+    -Changed recipe for the rose quartz
+    -Changed recipe for mundabitur dust
+    -Changed recipe for corrupti dust
+    -Changed recipe for golden tools and armor
+    -Added recipe for gold upgrade parts
+    -Changed recipe for golden apple
+    -Changed recipe for golden moss clump
+    -Added alternative recipe for golden moss clump
+    -Changed recipe for enchanted golden apple
+    -Changed recipe for gold carrot
+    -Added recipe for heart of the sea
+    -Buffed recipe for rooted dirt from mangrove roots
+    -Changed recipe for the anvil
+
+Other:
+    -Fixed tooltips on crucifixes and roadrunner totem
+    -Fixed alembic attribute names
+    -Added tooltip to the supplementaries sack
+    -Added tooltip to the steel upgrade smithing template
+    -Adjusted gold upgrade smithing template texture and tooltip
+    -Buffed the durability of golden tools to 512
+    -Buffed the durability of botanist tools to 1536
+    -All the types of grass now drop straw when destroyed by knife now looting also affects drop rate
+
+New mods:
+    -Colorful hearts
+Removed mods:
+    -Stylish effects
+    -EMiffect
+
+    
+New Items:
+    -Fiery Clay Blend
+    -Gold Upgrade Parts
+    -Pressing Catalyst
+
+Patch 0.1 Release
+
+New mods:
+    -Twilight Forest
+    -Twilight Tweaks
+    -Aether
+    -Deep Aether
+    -The Aether Redux
+    -Aether Delight
+    -Ancient Aether
+    -Twilight Aether
+    -Deeper Darker
+    -Spice of Life Carrot Edition
+    -Game Stages
+    -Restricted Portals
+    -Twilight's Flavors and Delight
+    -Gilded Sherds
+    -Aether Lootr Compat
+    -Cogs of Carminite
+    -Tips
+    -Chat heads
+    -Nbt Autocomplete
+    -Suggestion tweaker
+    -#Structure Credits
+    -Rubinated Nether
+    -NERB
+
+Updated mods:
+    -BiomeMusic
+    -Alembic
+    -JustEnoughBreeding
+    -Create crafts and additions
+    -BetterAdvancements
+    -CorailTombstone
+    -Waystones
+    -Curios
+    -ImmedietelyFast
+    -MoonlightLib
+    -PuzzlesLib
+    -Xaero Worlds Map
+    -ModernFix
+    -GeckoLib
+    -Create Vintage Improvements
+    -JEI
+    -Embeddium
+    -Supplementaries
+    -SuperMartinCoreLib
+    -JadeAdditions
+    -CT Overhauled village
+    -PuzzlesLib
+    -MoonlightLib
+    -EMI
+    -Alexs mobs
+    -Create
+    -Steam'n'Rails
+    -Deeper and Darker
+    -Amendments
+    -immersiveweathering
+    -EveryCompat
+    -DramaticDoors
+    -Xaero Minimap
+    -Chat heads
+    -Sophisticated Backpacks
+    -Constant music
+    -immersiveweathering
+    -BetterFPS
+    -Sophisticated Storage
+    -JEI
+    -Jade
+    -DramaticDoors
+    -AdvancmentPlaque
+    -ResourcefulLib
+    -CreativeCore
+    -CTOV
+    -SolOnion
+    -EveryCompat
+    -SophisticatedCore
+    -LithoStitched
+    -CorailTombstone
+    -ToolStats
+    -MoonlightLib
+    -CreateSlice&Dice
+    -IronsSPells
+    -EmiLoot
+    -VintageDelight
+    -Cloth
+    -CopyCats+
+
+Removed mods:
+    -FoodEffectsTooltip
+    -Mobtimization
+    -Colorful Hearts
+
+Food stats system:
+    -You can now only gain 5 hearts from diversity system
+    -You can now gain up to 5 ice, fire, blood, arcane resistances from the diversity system
+    -You can now gain up to 10 hearts from trying out new foods, first heart is granted at 5 foods tasted and then you gain new heart every 25 new foods
+
+Recipes:
+    -Removed corinthium weapons recipe
+    -Changed sapling to the twisted sapling in the pressing catalyst recipe
+    -Changed recipe for blitz mote
+    -Changed recipe for Staff of Baldur
+    -Changed recipe for feral flare torch
+    -Added recipe for the dimension ripper
+    -Added recipe for golden leaf block as well as golden leaf block to golden leaves
+    -Added recipe for ivy block as well as ivy block to ivy
+    -Removed recipes of aether gloves for now
+    -Added recipe for Sulfuric Quartz Blend
+    -Added recipe for sulfur dust and quartz dust in the millstone
+    -Changed recipe for rose quartz
+    -Added recipe for salmon quartz
+    -Added recipe for ivy quartz
+    -Added recipe for salmon quartz
+    -Changed recipe for the watermill grindstone
+    -Changed recipe for fiery cooking pot
+    -Changed recipe for drenched iron ingot
+    -Changed recipe for fiery ingots
+    -Added recipe for duplicating fiery vials from twilightforest
+    -Changed recipe for elemental extractor
+    -Changed recipe for elemental evaporator
+    -Changed recipe for elemental infuser
+    -Added recipe for sturdy deepslate as well as recipe for deepslate from sturdy deepslate
+    -Added recipe for blizz cube
+    -Changed recipe for beds
+    -Changed recipe for handcrafted cushions
+    -Changed recipe for handcrafted sheets
+    -Changed recipe for immersiveengineering cushion block
+    -Added recipe for the new planks blocks
+    -Changed recipe for the composter
+    -Added recipe for the immersiveweathering snowy and frosty blocks
+    -Changed recipe for emblem of the monster slayer
+
+Loot:
+    -Gold equipment replaced with gold plates in loot chests
+    -Netherite smithing template replaced with gold smithing template in loot chests
+    -Added some custom items in loot chests
+
+New Tooltips:
+    ars_nouveau:
+        -added tooltip to experience gem
+        -added tooltip to greater experience gem
+    Create:
+        -added tooltip to experience nugget
+        -added tooltip to heap of experience
+
+Quests:
+    -Added quests for new smithing templates
+    -Added quests for new music discs
+    -Added quests for other mob heads
+    -Added twilight forest related quests for tier 1
+    -Added Dimensions chapter group
+    -Added quests for various seeds in the shop chapter
+    -Completely reworked tier 2 quests
+
+Custom items:
+    -Added functionality to all the lesser magic rings
+    -Added functionality to the mittens
+    -Added dimension ripper
+    -Added Golden leaf block
+    -Added Sulfuric Quartz Blend
+    -Added Lemon Quartz
+    -Added Salmon Quartz
+    -Added Ivy Quartz
+    -Added Berry Quartz
+    -Added Ivy Block
+    -Added Carbon infused sturdy handle
+    -Added sturdy deepslate
+    -Added Fiery Feather
+    -Added Rainbow Feather
+    -Added different keys (functionality later)
+    -Added polished planks, packed planks, stacked planks
+
+Worldgen:
+    -Adjusted Forbidden&Arcanus floating island
+
+Other:
+    -Disabled Uncrafting Table
+    -Changed twilight forest portal activator to the dimension ripper
+    -Disabled Aether acessory slots
+    -Disabled default tips from all the mods
+    -Added a lot of custom tips
+    -Cleaned up tons of code
+    -Leaves no longer spawn leaf piles
+    -Added a way of automating silver
+    -Changed texture and name of the ars_nouveau xp crystals
+    -Changed thermal rubies to infused rubies
+    
+    
+Patch 0.1.1 Recipe conflicts cleanup
+    
+    Changed Recipes:
+        -Adcanced magnet upgrade
+        -every wooden pillar trim
+        -Slag glass
+        -cracked bricks
+        -twilightforest's chests
+        -packed and stacked planks
+        -supplementaries shelf
+        -Aether Iron ring
+        -wirecutters
+        -Tons of other building blocks
+    Quests:
+    New mods:
+        -Polymorph(in case I missed a recipe conflict please report it)
+    Removed mods:
+        -Dark Utilities(You can achieve most of its functionality through different mods)
+
+Patch 0.1.2
+
+    Added mods:
+        -JustZoom
+        
+    Removed mods:
+        -DarkZoom
+
+    Updated mods:
+        -SophisticatedStorage
+        -SophisticatedCore
+        -FzzyConfig
+        -VintageDelight
+        -JEI
+        -EMI
+        -IronsSPellsNSpellbooks
+        -SophisticatedBackpacks
+        -NBTAutocomplete
+        -AdvancmentPlaque
+        -CorailTombstone
+        -ChoiceTheoremOverhauledVillage
+        -Torchmaster
+
+    Resource/Data Packs Added:
+        -Banner Pattern clarity
+        -Better Mana Bar for IronsSPellsNSpellbooks
+
+    Quests:
+        -Fixed description of the first progression quest
+
+    New Textures:
+        -Archer's glove by Qwerty
+        -Inert Alloy Ingot by MalcomRiley
+        -Arcane Alloy Ingot by Farland1ng
+    
+    Other:
+        -Fixed infused ruby name
+        -Fixed infused ruby and infused ruby block recipe
+        -Fixed infused ruby tags
+        -Removed ImprovedMobs difficulty display
+        -Enabled modernfix experimental config (Should allow for faster load times)
+        -Golden leaves are now easier to mine with a hoe
+        -Added tons of stuff including all the redstone components to the immersiveengineering:toolbox/wiring tag so they can now go into the wiring slots in toolbox
+        -Fixed cushion recipe
+
+Patch 0.1.3.1 Bug Fixes 
+
+    Important:
+        -If someone downloaded a 0.1.3 version and got his health doubled I'am very sorry and it is fixed here but you will keep the health.You can try using this command /attribute @p minecraft:generic.max_health modifier add 12d84641-aa0a-4b26-96e1-359ca033e1e3 -10 add
+        Just replace -10 with whatever amount of health you got
+        -Doubled health of all entities on spawn(This is a bandaid fix since all dmg is doubled due to a bug I cant currently fix)
+
+    Updated Mods:
+        -PuzzlesLib
+        -CreativeCore
+        -Yung's API
+        -Xaero Minimap
+        -Quark
+        -Zeta
+        -MoonlightLib
+        -EveryCompat
+        -ItemPhysicsLite
+        -Alembic
+        
+    New Mods:
+        -EntityJS
+    
+    Quests:
+        -Fixed welcome message requiring cheats on to display
+        -Fixed cursed ring quest
+
+    Loot:
+        -Adjusted Lumberjack's shirt chance
+    
+Patch 0.2 Minor Village rework and gloves balance
+
+    Updated Mods:
+        -FancyMenu
+        -Spice of Life Onion
+        -EveryCompat 
+        -Twilight Flavors and delight
+        -SophisticatedCore
+        -SophisticatedStorage
+        -Fzzy config
+        -LithoStitched
+        -Steam'n'Rails
+        -Effortless building
+        -Create
+        -MoonlightLib
+        -Pufferfish attribute
+        -Chipped
+        -LootJournal
+        -VintageDelight
+
+    New Mods:
+        -Umbral skies
+
+    Removed Mods:
+        -Twilight Aether
+
+    Worldgen:
+        -Reworked every immersiveengineering House
+        -Reworked every desert House
+
+    Loot:
+        -Fixed custom items not dropping from mobs and appearing in every chest in specific biome
+    
+    Recipes:
+        -Added recipes to a lot of gloves
+
+    Item balance:
+        -Aether gloves now also give various resistances
+
+    Other:
+        -Adjusted location of buttons in pause menu 
+        -Adjusted location of darkmode button in the inventory
+        -Fixed a script doubling hp of every mob(For good this time I hope)
+
+Patch 0.3
+
+    Recipes:
+        -Fixed infused ruby block to infused ruby recipe
+        -Changed recipes of a lot of create machinery
+        -Changed recipe for thermal gunpowder block (it now serves the purpose of double compressed gunpowder)
+        -Changed recipes for create filters
+        -Changed recipe for immersiveengineering sorter
+ 
+    New Mods:
+        -e4mc
+        -Iris
+        -My nether delight
+        -tide
+        -swampier swamps
+
+    Removed Mods:
+        -Better Lilly pads (already a part of Amendments)
+        -Just Enough Resources (Unecessary clutter, EMI Loot is still in the pack)
+
+    Other:
+        -Glass panes are now mined faster with a pickaxe
+        -Burnt glass is now mined faster with a pickaxe
+    
+    Loot:
+        -Added custom item to pillager loottable
+        -Added custom item to skeleton druid loottable
+        -Adjusted Iron Golem loottable
+        -Changed and buffed cat morning gift loottable by a lot
+        -Overworld key is now very rare drop from any mob in overworld when killed by a player
+        -Overworld key is now very rare drop from dungeon loot chests
+        -Same goes for twilight and nether keys but for the their own dimensions
+    
+    Quests:
+        -Added 18 new quests in Armorsmith chapter
+    
+    Other:
+        -Removed minimap display of dropped items
+        -Adjusted functionality of the golden feather as well as added new tiers of it with different functionality 
+        -Added Dimensional Keys! right click monster spawner to get some cool loot
+
+Patch 0.3.1 
+
+    Important:
+        -Fixed the double damage bug
+        -Removed the script that doubles health of all the mobs
+    
+    Quests:
+        -Fixed the knightmetal set quest
+
+    Other:
+        -Quark bonded leather block is now mined faster with an axe and a knife
+
+Patch 0.3.2
+
+    Updated mods:
+        -Fruits Delight
+        -FTB Quests
+        -VintageDelight
+        -Waystones
+        -Torchmaster
+        -Kubejs
+        -ImprovedMobs
+        -JEI
+        -JustEnoughBreeding
+        -IronsSPellsNSpellbooks
+        -EveryCompat
+        -EntityJS
+        -EnchantmentDescription
+        -Amendments
+        -FancyMenu
+        -CorailTombstone
+        -EMI
+        -EntityJS
+        -Xaero Minimap
+        -Tide
+        -SophisticatedMods
+        -More Mobs
+        -farmersdelight
+        -ChatHeads
+        -Collective
+        -CreativeCore
+        -CuriosAPI
+        -PufferfishAttributes
+        -Moonlight
+        -ModernFix
+        -LithoStitched
+        -ImmedietelyFast
+        -Iceberg
+        -FzzyConfig
+        -FTB Chunks
+        -FTB Library
+        -Create
+        -Create Stuff'n'additions
+        -Create Steam'n'Rails
+        -Forge Endertech
+    
+    New mods:
+        -Pin tooltips
+        -Block Gradients
+
+    Recipes:
+        -Changed for grinder belt
+        -Changed for mechanical crafter
+        -Changed for belt grinder
+        -Changed for white sail
+        -Added for spawner scrap
+
+    Quests:
+        -Fixed utility bow quest
+        -Removed book reward from ancient sapling quest
+        -Added Description to visit twilight forest quest
+        -Added Archeologist chapter to the Ultimate Collector group
+        -Added 3 more quests in market chapter
+        -Added new fishing quest to the tier 0
+        -Added a lot of new descriptions in tier 1 quests
+        -Added extra reward to the twilight forest quest
+    
+    Loot:
+        -Spawners now drop broken spawners instead of spawner scraps
+        -
+    
+    Textures:
+        -Added missing texture for the alchemical dust
+        -Changed texture for wooden and stone plate
+    
+    Others:
+        -Spawners are now mined 4 times slower
+        -Hidden functionality of custom tools in JEI
+        -Fixed functionality of the twilight key
+        -New tooltips for the overworld and twilightforest keys
+
+Patch 0.3.2.1
+
+    Updated mods:
+        -Supplementaries
+        -DramaticDoors
+
+    Other:
+        -Entity stats for different types od damage resistances as well as damage dealt by them are removed for now as it made mobs unable to deal contact damage
+    
+    The stats will return in future update! This is just a quick fix I was able to make.
+
+# Patch 0.4 Damage types rework
+
+### New Mods:
+        -Enchanting System Overhaul
+        -Legendary Creatures
+    
+### New ResourcePack:
+        -Updated Engineering
+
+### Removed Mods:
+        -Twilight Tweaks
+        -Falling Tree (Ht treechop has the same function)
+        -Simple Weapons for better combat (Too much to balance for now, might come back later)
+        -Pin Tooltips (Might be too annoying if you dont understand its functionality which is pretty limited)
+        -Panoramica (Used to create panorama in the menu, Unecessary in the playable version)
+        -Chipped express
+        -Realm RPG Pots and mimics
+        -Realm RPG Fallen Adventurers
+        -Easy Magic (useless with Enchanting System Overhaul)
+    
+### Upated Mods:
+        -Ars Nouveau
+        -ImmedietalyFast
+        -ChoiceTheoremOverhauledVillage
+        -DarkModeEverywhere
+        -Corail Tombstone
+        -PuzzlesLib
+        -SophisticatedMods
+        -Chat heads
+        -FzzyConfig
+        -Supplementaries
+        -RubinatedNether
+        -DeeperAndDarker
+        -EveryCompat
+        -NBTAutocomplete
+        -LithoStitched
+        -MoonlightLib
+        -PufferfishAttributes
+        -FTBLibrary
+        -FTBChunks
+    
+### Updated shaders and resource packs:
+        -Revived Farmers Delight 3D crops
+        -Better Mana Bar
+        -Solas shader
+        -Complementary Reimagined shader
+        -Complementary Unbound shader
+        
+### Quests:
+        -Added 2 more Quests in the Melomaniac Quest Chapter
+        -Fixed Heart of the sea Quest in the Market Chapter
+        -New Quest Chapter "Dendrologist" in the Ultimate Collector Chapter Group
+        -Added a bunch of quests to the sharpshooter chapter
+        
+### Recipes:
+        -Fixed recipe for supplementaries gravel bricks
+        -Added Recipes for all the quark saplings from shapeshifting root
+        -Added Recipes for all regions unexplored bioshrooms from shapeshifting root
+        -Added Recipe for quark glow shroom
+        -New Recipe for Capsid block
+        -Changed recipe for ring of wisdom and shroom ring
+    
+### Loot:
+        -Added Underground Spice and Shapeshifting Root to the sniffer sniffing loot table
+        -Replaced Nautilus Shell with Shapeshifting Root in cat morning gifts loot table
+        -Updated twilight key loottable
+        -Buffed trader elephant chest
+        -Buffed seal barter reward
+        -Buffed sugar glider reward
+        -Buffed anteater reward
+        -Buffed platypus reward and supercharged reward 
+
+### New items:
+        -Nether Spice
+        -Aquatic Spice
+        -Heavenly Spice
+        -Underground Spice
+        -Cosmic Spice
+        -Broken Key
+        -Shapeshifting Root
+        -Greater Shapeshifting Root
+
+### Other:
+        -Reduced the amount of damage types to: Physical, Arcane, Holy, Unholy, Fire, Cold, Nature
+        -Entity resistance stats are back as well as their damage types!
+        -Disabled scribe perk
+        -Reduced max lvl of Jailer perk to 1
+        -Enabled exact coordinates in natures compass
+        -Fixed darkening of the GUI
+        -Added forge:insect tag to the alexsmobs maggot
+        -tide guide book is no longer granted on world join
+        -Fixed Food diversity giving huge amount of resistances
+
+# Patch 0.4.1
+
+### Updated mods:
+
+    -ChatHeads
+    -CreativeCore
+    -EntityJS
+    -EveryCompat
+    -FruitsDelight
+    -FzzyConfig
+    -ImprovedMobs
+    -IronsSPellsNSpellbooks
+    -Jade
+    -LycheeTweaker
+    -MoonlightLib
+    -SophisticatedCore
+    -Supplementaries
+
+### Added mods:
+
+    -Smooth Boot(Reloaded)
+    -Modern UI
+    -Drippy Loading Screen
+
+### Removed mods (functionality replaced by Modern UI):
+
+    -Borderless Window
+    -JustZoom
+    -FPS Reducer
+
+### Loot:
+
+    -Slightly adjusted loot chests in mushroom village
+    -Slightly adjusted loot chests in tinkers workshop 
+    -Replaced create cogwheels with wooden gears in all loot chests
+    -Slightly adjusted loot chests in Abandoned temple
+
+### New Items:
+
+    -Builder's belt
+    -Frog totem
+    -Tiger totem
+    -Penguin totem
+
+### Item balance:
+
+    -Removed extra penetration from axes
+    -Nerfed Inscrutable eye
+
+### Textures:
+
+    -Added missing textures for custom items
+
+### Other:
+
+    -Hidden some items in the JEI/EMI
+    -Changed loading screen and main menu a bit
+
+# Patch 0.4.2
+
+### Updated Mods:
+
+    -CreativeCore
+    -EntityJS
+    -farmersdelight
+    -FruitsDelight
+    -FTBChunks
+    -FzzyConfig
+    -InventorySorter
+    -ImmedietalyFast
+    -JustEnoughBreeding
+    -LegendaryCreatures
+    -LithoStitched
+    -Lootr
+    -ModernUI
+    -ModernFix
+    -MoreMobs
+    -NBTAutocomplete
+    -Polymorph
+    -RubinatedNether
+    -sawmill
+    -SophisticatedMods
+    -Tide
+    -XaeroWorldMap
+
+### New Items:
+
+    -Chill blade
+    -Ice blade
+    -Mining Hammer
+    -Blade of Grass
+    -Arcane Alloy block
+    -Inert Alloy block
+    -Magical generator block

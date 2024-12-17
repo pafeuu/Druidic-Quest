@@ -1,0 +1,522 @@
+{
+	icon: "minecraft:chest"
+	id: "40F8123128BAD16F"
+	loot_size: 1
+	order_index: 4
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "supplementaries:sack"
+				tag: {
+					BlockEntityTag: {
+						Items: [
+							{
+								Count: 16b
+								Slot: 0b
+								id: "farmersdelight:salmon_slice"
+							}
+							{
+								Count: 16b
+								Slot: 1b
+								id: "farmersdelight:cod_slice"
+							}
+							{
+								Count: 16b
+								Slot: 2b
+								id: "farmersdelight:cod_slice"
+							}
+							{
+								Count: 16b
+								Slot: 3b
+								id: "farmersdelight:salmon_slice"
+							}
+							{
+								Count: 16b
+								Slot: 4b
+								id: "farmersdelight:minced_beef"
+							}
+							{
+								Count: 16b
+								Slot: 5b
+								id: "farmersdelight:chicken_cuts"
+							}
+							{
+								Count: 16b
+								Slot: 6b
+								id: "farmersdelight:bacon"
+							}
+							{
+								Count: 16b
+								Slot: 7b
+								id: "farmersdelight:mutton_chops"
+							}
+							{
+								Count: 16b
+								Slot: 8b
+								id: "farmersdelight:chicken_cuts"
+							}
+						]
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "supplementaries:sack"
+				tag: {
+					BlockEntityTag: {
+						Items: [
+							{
+								Count: 8b
+								Slot: 0b
+								id: "minecraft:carrot"
+							}
+							{
+								Count: 8b
+								Slot: 1b
+								id: "minecraft:carrot"
+							}
+							{
+								Count: 8b
+								Slot: 2b
+								id: "minecraft:carrot"
+							}
+							{
+								Count: 8b
+								Slot: 3b
+								id: "minecraft:carrot"
+							}
+							{
+								Count: 16b
+								Slot: 4b
+								id: "minecraft:golden_carrot"
+							}
+							{
+								Count: 8b
+								Slot: 5b
+								id: "minecraft:carrot"
+							}
+							{
+								Count: 8b
+								Slot: 6b
+								id: "minecraft:carrot"
+							}
+							{
+								Count: 8b
+								Slot: 7b
+								id: "minecraft:carrot"
+							}
+							{
+								Count: 8b
+								Slot: 8b
+								id: "minecraft:carrot"
+							}
+						]
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "supplementaries:sack"
+				tag: {
+					BlockEntityTag: {
+						Items: [
+							{
+								Count: 2b
+								Slot: 0b
+								id: "minecraft:cooked_beef"
+							}
+							{
+								Count: 2b
+								Slot: 1b
+								id: "minecraft:cooked_beef"
+							}
+							{
+								Count: 2b
+								Slot: 2b
+								id: "minecraft:cooked_beef"
+							}
+							{
+								Count: 2b
+								Slot: 3b
+								id: "minecraft:cooked_beef"
+							}
+							{
+								Count: 8b
+								Slot: 4b
+								id: "alexsmobs:cooked_kangaroo_meat"
+							}
+							{
+								Count: 2b
+								Slot: 5b
+								id: "minecraft:cooked_beef"
+							}
+							{
+								Count: 2b
+								Slot: 6b
+								id: "minecraft:cooked_beef"
+							}
+							{
+								Count: 2b
+								Slot: 7b
+								id: "minecraft:cooked_beef"
+							}
+							{
+								Count: 2b
+								Slot: 8b
+								id: "minecraft:cooked_beef"
+							}
+						]
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "supplementaries:sack"
+				tag: {
+					BlockEntityTag: {
+						Items: [
+							{
+								Count: 8b
+								Slot: 0b
+								id: "farmersdelight:cooked_rice"
+							}
+							{
+								Count: 8b
+								Slot: 1b
+								id: "farmersdelight:cooked_rice"
+							}
+							{
+								Count: 8b
+								Slot: 2b
+								id: "farmersdelight:cod_roll"
+							}
+							{
+								Count: 16b
+								Slot: 3b
+								id: "farmersdelight:kelp_roll_slice"
+							}
+							{
+								Count: 4b
+								Slot: 4b
+								id: "farmersdelight:kelp_roll"
+							}
+							{
+								Count: 8b
+								Slot: 5b
+								id: "farmersdelight:cod_roll"
+							}
+							{
+								Count: 16b
+								Slot: 6b
+								id: "farmersdelight:kelp_roll_slice"
+							}
+							{
+								Count: 8b
+								Slot: 7b
+								id: "farmersdelight:salmon_roll"
+							}
+							{
+								Count: 8b
+								Slot: 8b
+								id: "farmersdelight:salmon_roll"
+							}
+						]
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "supplementaries:sack"
+				tag: {
+					BlockEntityTag: {
+						Items: [
+							{
+								Count: 16b
+								Slot: 0b
+								id: "farmersdelight:tomato"
+							}
+							{
+								Count: 16b
+								Slot: 1b
+								id: "farmersdelight:tomato"
+							}
+							{
+								Count: 8b
+								Slot: 2b
+								id: "farmersdelight:tomato_sauce"
+							}
+							{
+								Count: 16b
+								Slot: 3b
+								id: "farmersdelight:tomato"
+							}
+							{
+								Count: 8b
+								Slot: 4b
+								id: "farmersdelight:pasta_with_meatballs"
+							}
+							{
+								Count: 8b
+								Slot: 5b
+								id: "farmersdelight:tomato_sauce"
+							}
+							{
+								Count: 16b
+								Slot: 6b
+								id: "farmersdelight:tomato"
+							}
+							{
+								Count: 8b
+								Slot: 7b
+								id: "farmersdelight:tomato_sauce"
+							}
+							{
+								Count: 8b
+								Slot: 8b
+								id: "farmersdelight:tomato_sauce"
+							}
+						]
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "supplementaries:sack"
+				tag: {
+					BlockEntityTag: {
+						Items: [
+							{
+								Count: 16b
+								Slot: 0b
+								id: "farmersdelight:cabbage_leaf"
+							}
+							{
+								Count: 16b
+								Slot: 1b
+								id: "farmersdelight:cabbage_leaf"
+							}
+							{
+								Count: 16b
+								Slot: 2b
+								id: "farmersdelight:cabbage_leaf"
+							}
+							{
+								Count: 16b
+								Slot: 3b
+								id: "farmersdelight:cabbage_leaf"
+							}
+							{
+								Count: 16b
+								Slot: 4b
+								id: "oceansdelight:cabbage_wrapped_elder_guardian"
+							}
+							{
+								Count: 8b
+								Slot: 5b
+								id: "farmersdelight:cabbage_rolls"
+							}
+							{
+								Count: 8b
+								Slot: 6b
+								id: "farmersdelight:cabbage_rolls"
+							}
+							{
+								Count: 8b
+								Slot: 7b
+								id: "farmersdelight:cabbage_rolls"
+							}
+							{
+								Count: 8b
+								Slot: 8b
+								id: "farmersdelight:cabbage_rolls"
+							}
+						]
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "supplementaries:sack"
+				tag: {
+					BlockEntityTag: {
+						Items: [
+							{
+								Count: 16b
+								Slot: 0b
+								id: "minecraft:apple"
+							}
+							{
+								Count: 8b
+								Slot: 1b
+								id: "create:honeyed_apple"
+							}
+							{
+								Count: 8b
+								Slot: 2b
+								id: "create:honeyed_apple"
+							}
+							{
+								Count: 16b
+								Slot: 3b
+								id: "minecraft:apple"
+							}
+							{
+								Count: 4b
+								Slot: 4b
+								id: "minecraft:golden_apple"
+							}
+							{
+								Count: 8b
+								Slot: 5b
+								id: "create:honeyed_apple"
+							}
+							{
+								Count: 16b
+								Slot: 6b
+								id: "farmersdelight:apple_pie_slice"
+							}
+							{
+								Count: 16b
+								Slot: 7b
+								id: "farmersdelight:apple_pie_slice"
+							}
+							{
+								Count: 8b
+								Slot: 8b
+								id: "create:honeyed_apple"
+							}
+						]
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "supplementaries:sack"
+				tag: {
+					BlockEntityTag: {
+						Items: [
+							{
+								Count: 4b
+								Slot: 0b
+								id: "ars_nouveau:source_berry_roll"
+							}
+							{
+								Count: 16b
+								Slot: 1b
+								id: "ars_nouveau:sourceberry_bush"
+							}
+							{
+								Count: 16b
+								Slot: 2b
+								id: "ars_nouveau:sourceberry_bush"
+							}
+							{
+								Count: 4b
+								Slot: 3b
+								id: "ars_nouveau:source_berry_roll"
+							}
+							{
+								Count: 8b
+								Slot: 4b
+								id: "ars_nouveau:source_berry_pie"
+							}
+							{
+								Count: 16b
+								Slot: 5b
+								id: "ars_nouveau:sourceberry_bush"
+							}
+							{
+								Count: 4b
+								Slot: 6b
+								id: "ars_nouveau:source_berry_roll"
+							}
+							{
+								Count: 4b
+								Slot: 7b
+								id: "ars_nouveau:source_berry_roll"
+							}
+							{
+								Count: 16b
+								Slot: 8b
+								id: "ars_nouveau:sourceberry_bush"
+							}
+						]
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "supplementaries:sack"
+				tag: {
+					BlockEntityTag: {
+						Items: [
+							{
+								Count: 16b
+								Slot: 0b
+								id: "minecraft:sugar"
+							}
+							{
+								Count: 16b
+								Slot: 1b
+								id: "minecraft:sugar"
+							}
+							{
+								Count: 16b
+								Slot: 2b
+								id: "minecraft:sugar"
+							}
+							{
+								Count: 16b
+								Slot: 3b
+								id: "minecraft:sugar"
+							}
+							{
+								Count: 16b
+								Slot: 4b
+								id: "minecraft:egg"
+							}
+							{
+								Count: 16b
+								Slot: 5b
+								id: "minecraft:egg"
+							}
+							{
+								Count: 10b
+								Slot: 6b
+								id: "create:dough"
+							}
+							{
+								Count: 10b
+								Slot: 7b
+								id: "create:dough"
+							}
+							{
+								Count: 10b
+								Slot: 8b
+								id: "create:dough"
+							}
+						]
+					}
+				}
+			}
+		}
+	]
+	title: "Food"
+}

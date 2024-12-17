@@ -1,0 +1,522 @@
+{
+	icon: "minecraft:chest"
+	id: "4ED24EDF82159F41"
+	loot_size: 1
+	order_index: 0
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "supplementaries:sack"
+				tag: {
+					BlockEntityTag: {
+						Items: [
+							{
+								Count: 21b
+								Slot: 0b
+								id: "minecraft:granite"
+							}
+							{
+								Count: 21b
+								Slot: 1b
+								id: "minecraft:polished_granite"
+							}
+							{
+								Count: 22b
+								Slot: 2b
+								id: "quark:granite_bricks"
+							}
+							{
+								Count: 21b
+								Slot: 3b
+								id: "minecraft:granite"
+							}
+							{
+								Count: 22b
+								Slot: 4b
+								id: "minecraft:polished_granite"
+							}
+							{
+								Count: 21b
+								Slot: 5b
+								id: "quark:granite_bricks"
+							}
+							{
+								Count: 22b
+								Slot: 6b
+								id: "minecraft:granite"
+							}
+							{
+								Count: 21b
+								Slot: 7b
+								id: "minecraft:polished_granite"
+							}
+							{
+								Count: 21b
+								Slot: 8b
+								id: "quark:granite_bricks"
+							}
+						]
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "supplementaries:sack"
+				tag: {
+					BlockEntityTag: {
+						Items: [
+							{
+								Count: 21b
+								Slot: 0b
+								id: "minecraft:diorite"
+							}
+							{
+								Count: 21b
+								Slot: 1b
+								id: "minecraft:polished_diorite"
+							}
+							{
+								Count: 22b
+								Slot: 2b
+								id: "quark:diorite_bricks"
+							}
+							{
+								Count: 21b
+								Slot: 3b
+								id: "minecraft:diorite"
+							}
+							{
+								Count: 22b
+								Slot: 4b
+								id: "minecraft:polished_diorite"
+							}
+							{
+								Count: 21b
+								Slot: 5b
+								id: "quark:diorite_bricks"
+							}
+							{
+								Count: 22b
+								Slot: 6b
+								id: "minecraft:diorite"
+							}
+							{
+								Count: 21b
+								Slot: 7b
+								id: "minecraft:polished_diorite"
+							}
+							{
+								Count: 21b
+								Slot: 8b
+								id: "quark:diorite_bricks"
+							}
+						]
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "supplementaries:sack"
+				tag: {
+					BlockEntityTag: {
+						Items: [
+							{
+								Count: 32b
+								Slot: 0b
+								id: "twigs:magenta_silt_shingles"
+							}
+							{
+								Count: 32b
+								Slot: 1b
+								id: "twigs:magenta_silt_shingles"
+							}
+							{
+								Count: 32b
+								Slot: 2b
+								id: "twigs:red_silt_shingles"
+							}
+							{
+								Count: 32b
+								Slot: 3b
+								id: "twigs:green_silt_shingles"
+							}
+							{
+								Count: 32b
+								Slot: 4b
+								id: "twigs:green_silt_shingles"
+							}
+							{
+								Count: 32b
+								Slot: 5b
+								id: "twigs:red_silt_shingles"
+							}
+							{
+								Count: 32b
+								Slot: 6b
+								id: "twigs:blue_silt_shingles"
+							}
+							{
+								Count: 32b
+								Slot: 7b
+								id: "twigs:blue_silt_shingles"
+							}
+							{
+								Count: 64b
+								Slot: 8b
+								id: "twigs:purple_silt_shingles"
+							}
+						]
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "supplementaries:sack"
+				tag: {
+					BlockEntityTag: {
+						Items: [
+							{
+								Count: 22b
+								Slot: 0b
+								id: "minecraft:cobbled_deepslate"
+							}
+							{
+								Count: 21b
+								Slot: 1b
+								id: "minecraft:deepslate"
+							}
+							{
+								Count: 21b
+								Slot: 2b
+								id: "minecraft:polished_deepslate"
+							}
+							{
+								Count: 21b
+								Slot: 3b
+								id: "minecraft:cobbled_deepslate"
+							}
+							{
+								Count: 22b
+								Slot: 4b
+								id: "minecraft:deepslate"
+							}
+							{
+								Count: 21b
+								Slot: 5b
+								id: "minecraft:polished_deepslate"
+							}
+							{
+								Count: 21b
+								Slot: 6b
+								id: "minecraft:cobbled_deepslate"
+							}
+							{
+								Count: 21b
+								Slot: 7b
+								id: "minecraft:deepslate"
+							}
+							{
+								Count: 22b
+								Slot: 8b
+								id: "minecraft:polished_deepslate"
+							}
+						]
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "supplementaries:sack"
+				tag: {
+					BlockEntityTag: {
+						Items: [
+							{
+								Count: 32b
+								Slot: 0b
+								id: "twigs:silt_shingles"
+							}
+							{
+								Count: 32b
+								Slot: 1b
+								id: "twigs:silt_shingles"
+							}
+							{
+								Count: 32b
+								Slot: 2b
+								id: "twigs:gray_silt_shingles"
+							}
+							{
+								Count: 32b
+								Slot: 3b
+								id: "twigs:silt_bricks"
+							}
+							{
+								Count: 8b
+								Slot: 4b
+								id: "twigs:silt_pot"
+							}
+							{
+								Count: 32b
+								Slot: 5b
+								id: "twigs:gray_silt_shingles"
+							}
+							{
+								Count: 32b
+								Slot: 6b
+								id: "twigs:silt_bricks"
+							}
+							{
+								Count: 32b
+								Slot: 7b
+								id: "twigs:black_silt_shingles"
+							}
+							{
+								Count: 32b
+								Slot: 8b
+								id: "twigs:black_silt_shingles"
+							}
+						]
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "supplementaries:sack"
+				tag: {
+					BlockEntityTag: {
+						Items: [
+							{
+								Count: 21b
+								Slot: 0b
+								id: "minecraft:blackstone"
+							}
+							{
+								Count: 21b
+								Slot: 1b
+								id: "minecraft:polished_blackstone"
+							}
+							{
+								Count: 22b
+								Slot: 2b
+								id: "minecraft:polished_blackstone_bricks"
+							}
+							{
+								Count: 21b
+								Slot: 3b
+								id: "minecraft:blackstone"
+							}
+							{
+								Count: 22b
+								Slot: 4b
+								id: "minecraft:polished_blackstone"
+							}
+							{
+								Count: 21b
+								Slot: 5b
+								id: "minecraft:polished_blackstone_bricks"
+							}
+							{
+								Count: 22b
+								Slot: 6b
+								id: "minecraft:blackstone"
+							}
+							{
+								Count: 21b
+								Slot: 7b
+								id: "minecraft:polished_blackstone"
+							}
+							{
+								Count: 21b
+								Slot: 8b
+								id: "minecraft:polished_blackstone_bricks"
+							}
+						]
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "supplementaries:sack"
+				tag: {
+					BlockEntityTag: {
+						Items: [
+							{
+								Count: 21b
+								Slot: 0b
+								id: "minecraft:calcite"
+							}
+							{
+								Count: 21b
+								Slot: 1b
+								id: "minecraft:calcite"
+							}
+							{
+								Count: 22b
+								Slot: 2b
+								id: "minecraft:calcite"
+							}
+							{
+								Count: 21b
+								Slot: 3b
+								id: "minecraft:calcite"
+							}
+							{
+								Count: 22b
+								Slot: 4b
+								id: "minecraft:calcite"
+							}
+							{
+								Count: 21b
+								Slot: 5b
+								id: "minecraft:calcite"
+							}
+							{
+								Count: 22b
+								Slot: 6b
+								id: "minecraft:calcite"
+							}
+							{
+								Count: 21b
+								Slot: 7b
+								id: "minecraft:calcite"
+							}
+							{
+								Count: 21b
+								Slot: 8b
+								id: "minecraft:calcite"
+							}
+						]
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "supplementaries:sack"
+				tag: {
+					BlockEntityTag: {
+						Items: [
+							{
+								Count: 21b
+								Slot: 0b
+								id: "minecraft:tuff"
+							}
+							{
+								Count: 21b
+								Slot: 1b
+								id: "minecraft:tuff"
+							}
+							{
+								Count: 22b
+								Slot: 2b
+								id: "minecraft:tuff"
+							}
+							{
+								Count: 21b
+								Slot: 3b
+								id: "minecraft:tuff"
+							}
+							{
+								Count: 22b
+								Slot: 4b
+								id: "minecraft:tuff"
+							}
+							{
+								Count: 21b
+								Slot: 5b
+								id: "minecraft:tuff"
+							}
+							{
+								Count: 22b
+								Slot: 6b
+								id: "minecraft:tuff"
+							}
+							{
+								Count: 21b
+								Slot: 7b
+								id: "minecraft:tuff"
+							}
+							{
+								Count: 21b
+								Slot: 8b
+								id: "minecraft:tuff"
+							}
+						]
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "supplementaries:sack"
+				tag: {
+					BlockEntityTag: {
+						Items: [
+							{
+								Count: 32b
+								Slot: 0b
+								id: "quark:permafrost_bricks_vertical_slab"
+							}
+							{
+								Count: 32b
+								Slot: 1b
+								id: "quark:permafrost_vertical_slab"
+							}
+							{
+								Count: 32b
+								Slot: 2b
+								id: "quark:permafrost_bricks"
+							}
+							{
+								Count: 32b
+								Slot: 3b
+								id: "quark:permafrost_bricks_vertical_slab"
+							}
+							{
+								Count: 32b
+								Slot: 4b
+								id: "quark:permafrost_vertical_slab"
+							}
+							{
+								Count: 32b
+								Slot: 5b
+								id: "quark:permafrost_bricks"
+							}
+							{
+								Count: 32b
+								Slot: 6b
+								id: "quark:permafrost"
+							}
+							{
+								Count: 32b
+								Slot: 7b
+								id: "quark:permafrost"
+							}
+							{
+								Count: 32b
+								Slot: 8b
+								id: "quark:permafrost"
+							}
+						]
+					}
+				}
+			}
+		}
+	]
+	title: "Stoneish"
+}

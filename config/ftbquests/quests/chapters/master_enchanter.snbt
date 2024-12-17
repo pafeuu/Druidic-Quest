@@ -1,0 +1,22 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "master_enchanter"
+	group: "6959C7C8592FBBA9"
+	icon: {
+		Count: 1
+		id: "quark:ancient_tome"
+		tag: {
+			StoredEnchantments: [{
+				id: "minecraft:piercing"
+				lvl: 4s
+			}]
+		}
+	}
+	id: "77D529275FF82217"
+	order_index: 2
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [ ]
+	title: "Master Enchanter"
+}

@@ -1,0 +1,293 @@
+{   
+    "type": "chest",
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+            {
+                "type": "empty",
+                "weight": 9
+            },
+            {
+                "type": "item",
+                "weight": 1,
+                "name": "aether:leather_gloves",
+                "functions": [
+                  {
+                    "function": "set_count",
+                    "count": 1
+                  }
+                ]
+              },
+              {
+                "type": "item",
+                "weight": 1,
+                "name": "kubejs:travelers_belt",
+                "functions": [
+                  {
+                    "function": "set_count",
+                    "count": 1
+                  }
+                ]
+              },
+              {
+                "type": "item",
+                "weight": 1,
+                "name": "create_sa:brass_sword",
+                "functions": [
+                  {
+                    "function": "set_count",
+                    "count": 1
+                  },
+                  {
+                    "function": "set_nbt",
+                    "tag": "{Enchantments:[{id:\"minecraft:unbreaking\",lvl:3s}]}"
+                  }
+                ]
+              },
+              {
+                "type": "item",
+                "weight": 1,
+                "name": "kubejs:ring_travel",
+                "functions": [
+                  {
+                    "function": "set_count",
+                    "count": 1
+                  }
+                ]
+              },
+              {
+                "type": "item",
+                "weight": 1,
+                "name": "ancient_aether:growth_ring",
+                "functions": [
+                  {
+                    "function": "set_count",
+                    "count": 1
+                  }
+                ]
+              },
+              {
+                "type": "item",
+                "weight": 1,
+                "name": "ancient_aether:warrior_ring",
+                "functions": [
+                  {
+                    "function": "set_count",
+                    "count": 1
+                  }
+                ]
+              },
+              {
+                "type": "item",
+                "weight": 1,
+                "name": "ancient_aether:hermes_ring",
+                "functions": [
+                  {
+                    "function": "set_count",
+                    "count": 1
+                  }
+                ]
+              },
+              {
+                "type": "item",
+                "weight": 1,
+                "name": "ancient_aether:valkyrum_ring",
+                "functions": [
+                  {
+                    "function": "set_count",
+                    "count": 1
+                  }
+                ]
+              },
+              {
+                "type": "item",
+                "weight": 1,
+                "name": "irons_spellbooks:silver_ring",
+                "functions": [
+                  {
+                    "function": "set_count",
+                    "count": 1
+                  }
+                ]
+              }
+        ]
+      },
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "item",
+            "weight": 1,
+            "name": "quark:diamond_heart",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 1
+              }
+            ]
+          },
+          {
+            "type": "item",
+            "weight": 1,
+            "name": "thermal:ruby",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 1
+              }
+            ]
+          },
+          {
+            "type": "item",
+            "weight": 1,
+            "name": "minecraft:heart_of_the_sea",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 1
+              }
+            ]
+          },
+          {
+            "type": "item",
+            "weight": 3,
+            "name": "minecraft:redstone_block",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": {
+                  "min": 2,
+                  "max": 8
+                }
+              }
+            ]
+          },
+          {
+            "type": "item",
+            "weight": 3,
+            "name": "minecraft:diamond",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": {
+                  "min": 1,
+                  "max": 3
+                }
+              }
+            ]
+          },
+          {
+            "type": "item",
+            "weight": 3,
+            "name": "minecraft:iron_ingot",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": {
+                  "min": 12,
+                  "max": 24
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rolls":{
+            "min":1,
+            "max":4
+        }, 
+        "entries": [
+          {
+            "type": "item",
+            "weight": 1,
+            "name": "farmersdelight:smoked_ham",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 3
+              }
+            ]
+          },
+          {
+            "type": "item",
+            "weight": 1,
+            "name": "farmersdelight:dumplings",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 3
+              }
+            ]
+          },
+          {
+            "type": "item",
+            "weight": 1,
+            "name": "farmersdelight:chicken_sandwich",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 3
+              }
+            ]
+          },
+          {
+            "type": "item",
+            "weight": 1,
+            "name": "farmersdelight:bacon_sandwich",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 3
+              }
+            ]
+          },
+          {
+            "type": "item",
+            "weight": 1,
+            "name": "minecraft:cooked_beef",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 6
+              }
+            ]
+          },
+          {
+            "type": "item",
+            "weight": 1,
+            "name": "thermal:compost",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 32
+              }
+            ]
+          },
+          {
+            "type": "item",
+            "weight": 1,
+            "name": "naturesaura:gold_leaf",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 32
+              }
+            ]
+          },
+          {
+            "type": "item",
+            "weight": 1,
+            "name": "everycomp:ch/forbidden_arcanus/edelwood_torch",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 32
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

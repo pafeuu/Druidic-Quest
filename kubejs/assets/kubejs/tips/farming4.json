@@ -1,0 +1,11 @@
+{
+  "title": {
+    "text": "Farming",
+    "bold": true,
+    "color": "red"
+  },
+  "tip": {
+    "text": "You can right click to instantly harvest and replant crops, use hoes for greater area of effect!",
+    "color": "green"
+  }
+}

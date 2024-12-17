@@ -1,0 +1,21 @@
+{
+  "priority": 1,
+  "type": "minecraft:wither",
+  "resistances": {
+    "alchemical_damage": 1.0,
+    "physical_damage": 1.5,
+    "fire_damage": 1.75,
+    "arcane_damage": 1.5,
+    "true_damage": 1.5,
+    "ice_damage": 0.9,
+    "holy_damage": 0.75
+  },
+  "damage": {
+    "physical_damage": 0.6,
+    "arcane_damage": 0.3,
+	  "true_damage": 0.1
+  },
+  "ignored_sources": [
+    "lava"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "title": {
+    "text": "Farming",
+    "bold": true,
+    "color": "red"
+  },
+  "tip": {
+    "text": "Anaconda can shed their skin after eating 3 small animals",
+    "color": "green"
+  }
+}

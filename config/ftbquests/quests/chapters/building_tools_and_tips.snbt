@@ -1,0 +1,186 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "building_tools_and_tips"
+	group: ""
+	hide_quest_details_until_startable: true
+	hide_quest_until_deps_complete: true
+	hide_quest_until_deps_visible: true
+	icon: "quark:trowel"
+	id: "111C4017718D7F20"
+	order_index: 3
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["6F5C7CA9C74F13E9"]
+			id: "534D152BE1790DD2"
+			rewards: [
+				{
+					id: "5E27203D7E0309F8"
+					item: "thermal:silver_coin"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "06D548767BE28DE4"
+					item: "minecraft:coarse_dirt"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "2B94A342F22C0E5F"
+					item: "minecraft:rooted_dirt"
+					type: "item"
+				}
+			]
+			size: 2.0d
+			tasks: [{
+				id: "00A1F8AF3219C840"
+				item: "quark:trowel"
+				type: "item"
+			}]
+			title: "randomized building"
+			x: -3.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["6F5C7CA9C74F13E9"]
+			id: "17A9893D5FDD3F5B"
+			rewards: [{
+				id: "4D60F250F23D5D49"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			shape: "octagon"
+			size: 2.0d
+			subtitle: "Press alt to check all the options!"
+			tasks: [{
+				id: "6E306F7B4E745B87"
+				type: "checkmark"
+			}]
+			title: "Effortless building!"
+			x: -3.0d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"17A9893D5FDD3F5B"
+				"534D152BE1790DD2"
+			]
+			id: "04F83F3CC3854027"
+			rewards: [
+				{
+					id: "575BA3E2815FD939"
+					item: "thermal:silver_coin"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "28CF01DA7300CCBC"
+					table_id: 2259993594685209388L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "195F2778C52AFB7A"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							Items: [ ]
+							Size: 5
+						}
+					}
+					id: "effortlessbuilding:randomizer_bag"
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["04F83F3CC3854027"]
+			id: "08CA7F8F750C9741"
+			tasks: [{
+				id: "52A4011219671EE8"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							Items: [ ]
+							Size: 9
+						}
+					}
+					id: "effortlessbuilding:golden_randomizer_bag"
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["08CA7F8F750C9741"]
+			id: "6DF2CA32E107937D"
+			tasks: [{
+				id: "615094B02D6F5288"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							Items: [ ]
+							Size: 27
+						}
+					}
+					id: "effortlessbuilding:diamond_randomizer_bag"
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6F5C7CA9C74F13E9"]
+			description: [
+				"Schematicannon is already an extremely usefull tool in Create arsenal but did you know it has a \"hidden\" trait?"
+				"Blocks placed by this machine doesn't cause update which makes gives you a mountain of possibilites like:"
+				""
+				"-Changing obsidian in the nether portal"
+				"-Placing blocks that need a special environment like azelea bushes on top of stone etc."
+			]
+			icon: "create:schematicannon"
+			id: "300CF3200A5E73D7"
+			shape: "octagon"
+			size: 2.0d
+			tasks: [{
+				id: "1275C7095203C3E8"
+				title: "Building with schematicannon!"
+				type: "checkmark"
+			}]
+			x: -5.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["6F5C7CA9C74F13E9"]
+			description: ["You can place carpets(including moss carpet) on stairs and slabs now!"]
+			icon: "minecraft:red_carpet"
+			id: "38F291101EE9F367"
+			rewards: [{
+				count: 8
+				id: "53F1122505EBBBCB"
+				item: "minecraft:white_carpet"
+				type: "item"
+			}]
+			shape: "octagon"
+			size: 2.0d
+			tasks: [{
+				id: "64729BD84CD7C565"
+				type: "checkmark"
+			}]
+			title: "Carpeted blocks"
+			x: -5.5d
+			y: 3.5d
+		}
+	]
+	title: "Building tools and tips"
+}

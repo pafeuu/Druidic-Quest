@@ -1,0 +1,19 @@
+{
+  "priority": 1,
+  "type": "irons_spellbooks:necromancer",
+  "resistances": {
+    "alchemical_damage": 0.9,
+    "physical_damage": 1.2,
+    "fire_damage": 0.75,
+    "arcane_damage": 1.5,
+    "true_damage": 1.75,
+    "ice_damage": 1.0,
+    "holy_damage": 0.5
+  },
+  "damage": {
+    "physical_damage": 0.5,
+    "arcane_damage": 0.5
+  },
+  "ignored_sources": [
+  ]
+}

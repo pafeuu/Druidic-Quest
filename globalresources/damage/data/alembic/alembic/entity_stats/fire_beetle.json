@@ -1,0 +1,18 @@
+{
+  "priority": 1,
+  "type": "twilightforest:fire_beetle",
+  "resistances": {
+    "alchemical_damage": 1.2,
+    "physical_damage": 1.2,
+    "fire_damage": 1.5,
+    "arcane_damage": 1.0,
+    "true_damage": 1.0,
+    "ice_damage": 0.5,
+    "holy_damage": 1.0
+  },
+  "damage": {
+    "physical_damage": 0.25,
+    "fire_damage": 0.75
+  },
+  "ignored_sources": []
+}

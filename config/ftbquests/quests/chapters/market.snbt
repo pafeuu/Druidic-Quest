@@ -1,0 +1,1673 @@
+{
+	consume_items: true
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	default_repeatable_quest: true
+	filename: "market"
+	group: ""
+	hide_quest_details_until_startable: true
+	hide_quest_until_deps_complete: true
+	hide_quest_until_deps_visible: true
+	icon: "createdeco:netherite_coinstack"
+	id: "37D0225A9D849EF0"
+	images: [
+		{
+			height: 1.5d
+			image: "chipped:block/gold_block/ancient_gold_block"
+			rotation: 0.0d
+			width: 1.5d
+			x: 1.0d
+			y: -4.5d
+		}
+		{
+			height: 1.5d
+			image: "chipped:block/gold_block/ancient_gold_block"
+			rotation: 0.0d
+			width: 1.5d
+			x: 2.5d
+			y: -4.5d
+		}
+		{
+			height: 1.5d
+			image: "chipped:block/gold_block/ancient_gold_block"
+			rotation: 0.0d
+			width: 1.5d
+			x: 4.0d
+			y: -4.5d
+		}
+		{
+			height: 1.5d
+			image: "chipped:block/gold_block/ancient_gold_block"
+			rotation: 0.0d
+			width: 1.5d
+			x: 5.5d
+			y: -4.5d
+		}
+		{
+			height: 1.5d
+			image: "chipped:block/gold_block/ancient_gold_block"
+			rotation: 0.0d
+			width: 1.5d
+			x: 5.5d
+			y: -3.0d
+		}
+		{
+			height: 1.5d
+			image: "chipped:block/gold_block/ancient_gold_block"
+			rotation: 0.0d
+			width: 1.5d
+			x: 4.0d
+			y: -3.0d
+		}
+		{
+			height: 1.5d
+			image: "chipped:block/gold_block/ancient_gold_block"
+			rotation: 0.0d
+			width: 1.5d
+			x: 2.5d
+			y: -3.0d
+		}
+		{
+			height: 1.5d
+			image: "chipped:block/gold_block/ancient_gold_block"
+			rotation: 0.0d
+			width: 1.5d
+			x: 1.0d
+			y: -3.0d
+		}
+		{
+			height: 1.5d
+			image: "chipped:block/gold_block/ancient_gold_block"
+			rotation: 0.0d
+			width: 1.5d
+			x: 1.0d
+			y: -1.5d
+		}
+		{
+			height: 1.5d
+			image: "chipped:block/gold_block/ancient_gold_block"
+			rotation: 0.0d
+			width: 1.5d
+			x: 2.5d
+			y: -1.5d
+		}
+		{
+			height: 1.5d
+			image: "chipped:block/gold_block/ancient_gold_block"
+			rotation: 0.0d
+			width: 1.5d
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			height: 1.5d
+			image: "chipped:block/gold_block/ancient_gold_block"
+			rotation: 0.0d
+			width: 1.5d
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			height: 1.5d
+			image: "chipped:block/gold_block/ancient_gold_block"
+			rotation: 0.0d
+			width: 1.5d
+			x: 4.0d
+			y: -1.5d
+		}
+		{
+			height: 1.5d
+			image: "chipped:block/gold_block/ancient_gold_block"
+			rotation: 0.0d
+			width: 1.5d
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			height: 1.5d
+			image: "chipped:block/gold_block/ancient_gold_block"
+			rotation: 0.0d
+			width: 1.5d
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			height: 1.5d
+			image: "chipped:block/gold_block/ancient_gold_block"
+			rotation: 0.0d
+			width: 1.5d
+			x: 5.5d
+			y: -1.5d
+		}
+		{
+			height: 1.5d
+			image: "chipped:block/netherite_block/polished_netherite_block"
+			rotation: 0.0d
+			width: 1.5d
+			x: 7.0d
+			y: -3.0d
+		}
+		{
+			height: 1.5d
+			image: "chipped:block/netherite_block/polished_netherite_block"
+			rotation: 0.0d
+			width: 1.5d
+			x: 7.0d
+			y: -4.5d
+		}
+		{
+			height: 1.5d
+			image: "railways:block/palettes/white/slashed"
+			rotation: 0.0d
+			width: 1.5d
+			x: -3.0d
+			y: -4.5d
+		}
+		{
+			height: 1.5d
+			image: "railways:block/palettes/white/slashed"
+			rotation: 0.0d
+			width: 1.5d
+			x: -4.5d
+			y: -4.5d
+		}
+		{
+			height: 1.5d
+			image: "railways:block/palettes/white/slashed"
+			rotation: 0.0d
+			width: 1.5d
+			x: -6.0d
+			y: -4.5d
+		}
+		{
+			height: 1.5d
+			image: "railways:block/palettes/white/slashed"
+			rotation: 0.0d
+			width: 1.5d
+			x: -7.5d
+			y: -4.5d
+		}
+		{
+			height: 1.5d
+			image: "railways:block/palettes/white/slashed"
+			rotation: 0.0d
+			width: 1.5d
+			x: -7.5d
+			y: -3.0d
+		}
+		{
+			height: 1.5d
+			image: "railways:block/palettes/white/slashed"
+			rotation: 0.0d
+			width: 1.5d
+			x: -6.0d
+			y: -3.0d
+		}
+		{
+			height: 1.5d
+			image: "railways:block/palettes/white/slashed"
+			rotation: 0.0d
+			width: 1.5d
+			x: -4.5d
+			y: -3.0d
+		}
+		{
+			height: 1.5d
+			image: "railways:block/palettes/white/slashed"
+			rotation: 0.0d
+			width: 1.5d
+			x: -3.0d
+			y: -3.0d
+		}
+		{
+			height: 1.5d
+			image: "railways:block/palettes/white/slashed"
+			rotation: 0.0d
+			width: 1.5d
+			x: -7.5d
+			y: -1.5d
+		}
+		{
+			height: 1.5d
+			image: "railways:block/palettes/white/slashed"
+			rotation: 0.0d
+			width: 1.5d
+			x: -6.0d
+			y: -1.5d
+		}
+		{
+			height: 1.5d
+			image: "railways:block/palettes/white/slashed"
+			rotation: 0.0d
+			width: 1.5d
+			x: -4.5d
+			y: -1.5d
+		}
+		{
+			height: 1.5d
+			image: "chipped:block/netherite_block/polished_netherite_block"
+			rotation: 0.0d
+			width: 1.5d
+			x: 7.0d
+			y: -1.5d
+		}
+		{
+			height: 1.5d
+			image: "railways:block/palettes/white/slashed"
+			rotation: 0.0d
+			width: 1.5d
+			x: -3.0d
+			y: -1.5d
+		}
+		{
+			height: 1.5d
+			image: "railways:block/palettes/white/slashed"
+			rotation: 0.0d
+			width: 1.5d
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			height: 1.5d
+			image: "railways:block/palettes/white/slashed"
+			rotation: 0.0d
+			width: 1.5d
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			height: 1.5d
+			image: "railways:block/palettes/white/slashed"
+			rotation: 0.0d
+			width: 1.5d
+			x: -6.0d
+			y: 0.0d
+		}
+		{
+			height: 1.5d
+			image: "railways:block/palettes/white/slashed"
+			rotation: 0.0d
+			width: 1.5d
+			x: -7.5d
+			y: 0.0d
+		}
+		{
+			height: 1.5d
+			image: "chipped:block/netherite_block/polished_netherite_block"
+			rotation: 0.0d
+			width: 1.5d
+			x: 7.0d
+			y: 0.0d
+		}
+		{
+			height: 1.5d
+			image: "chipped:block/gold_block/ancient_gold_block"
+			rotation: 0.0d
+			width: 1.5d
+			x: 1.0d
+			y: 1.5d
+		}
+		{
+			height: 1.5d
+			image: "chipped:block/gold_block/ancient_gold_block"
+			rotation: 0.0d
+			width: 1.5d
+			x: 2.5d
+			y: 1.5d
+		}
+		{
+			height: 1.5d
+			image: "chipped:block/gold_block/ancient_gold_block"
+			rotation: 0.0d
+			width: 1.5d
+			x: 4.0d
+			y: 1.5d
+		}
+		{
+			height: 1.5d
+			image: "chipped:block/gold_block/ancient_gold_block"
+			rotation: 0.0d
+			width: 1.5d
+			x: 5.5d
+			y: 1.5d
+		}
+		{
+			height: 1.5d
+			image: "chipped:block/gold_block/ancient_gold_block"
+			rotation: 0.0d
+			width: 1.5d
+			x: 7.0d
+			y: 1.5d
+		}
+		{
+			height: 1.5d
+			image: "chipped:block/gold_block/ancient_gold_block"
+			rotation: 0.0d
+			width: 1.5d
+			x: 2.5d
+			y: 1.5d
+		}
+		{
+			height: 1.5d
+			image: "chipped:block/gold_block/ancient_gold_block"
+			rotation: 0.0d
+			width: 1.5d
+			x: 2.5d
+			y: 1.5d
+		}
+		{
+			height: 1.5d
+			image: "chipped:block/netherite_block/polished_netherite_block"
+			rotation: 0.0d
+			width: 1.5d
+			x: 8.5d
+			y: -4.5d
+		}
+		{
+			height: 1.5d
+			image: "chipped:block/gold_block/ancient_gold_block"
+			rotation: 0.0d
+			width: 1.5d
+			x: 8.5d
+			y: 1.5d
+		}
+		{
+			height: 1.5d
+			image: "railways:block/palettes/white/slashed"
+			rotation: 0.0d
+			width: 1.5d
+			x: -7.5d
+			y: 1.5d
+		}
+		{
+			height: 1.5d
+			image: "railways:block/palettes/white/slashed"
+			rotation: 0.0d
+			width: 1.5d
+			x: -6.0d
+			y: 1.5d
+		}
+		{
+			height: 1.5d
+			image: "railways:block/palettes/white/slashed"
+			rotation: 0.0d
+			width: 1.5d
+			x: -4.5d
+			y: 1.5d
+		}
+		{
+			height: 1.5d
+			image: "railways:block/palettes/white/slashed"
+			rotation: 0.0d
+			width: 1.5d
+			x: -3.0d
+			y: 1.5d
+		}
+		{
+			height: 1.5d
+			image: "railways:block/palettes/white/slashed"
+			rotation: 0.0d
+			width: 1.5d
+			x: -1.0d
+			y: 1.5d
+		}
+		{
+			height: 1.5d
+			image: "chipped:block/netherite_block/polished_netherite_block"
+			rotation: 0.0d
+			width: 1.5d
+			x: 8.5d
+			y: -3.0d
+		}
+		{
+			height: 1.5d
+			image: "chipped:block/netherite_block/polished_netherite_block"
+			rotation: 0.0d
+			width: 1.5d
+			x: 8.5d
+			y: -1.5d
+		}
+		{
+			height: 1.5d
+			image: "chipped:block/netherite_block/polished_netherite_block"
+			rotation: 0.0d
+			width: 1.5d
+			x: 8.5d
+			y: 0.0d
+		}
+	]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			can_repeat: false
+			dependencies: ["4676E5CD619B4194"]
+			description: [
+				"We got everything you would ever want!"
+				"or anything that would make us profit"
+				""
+				"&2&lMore stuff in stock soon!&r&r"
+			]
+			icon: "createdeco:netherite_coinstack"
+			id: "72A4177F6B3E06F9"
+			size: 2.0d
+			subtitle: "Welcome to the Amazing Digital Market"
+			tasks: [{
+				id: "682CA83814F08244"
+				title: "Market"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["682CA83814F08244"]
+			icon: "minecraft:oak_sapling"
+			id: "5392C3F6E6B30DA1"
+			rewards: [{
+				id: "6ECFF1670AD22C20"
+				item: "minecraft:oak_sapling"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "1776E66E009B16EC"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"682CA83814F08244"
+				"6AAA0D896526226E"
+			]
+			icon: {
+				Count: 1
+				id: "irons_spellbooks:cultist_chestplate"
+				tag: {
+					Damage: 0
+					ISB_Spells: {
+						data: [ ]
+						maxSpells: 1
+						mustEquip: 1b
+						spellWheel: 1b
+					}
+				}
+			}
+			id: "3A82DE6F467994B1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "67D4B5AC63EE966C"
+				table_id: 8160716774924117242L
+				type: "choice"
+			}]
+			tasks: [{
+				count: 3L
+				id: "69430A23F226223A"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			title: "Buy an Armor set"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"682CA83814F08244"
+				"769C5B75D85F81FC"
+			]
+			icon: { Count: 16, id: "elementalcraft:inert_crystal" }
+			id: "2F2A00482EC0526A"
+			rewards: [{
+				count: 16
+				id: "29B355BE831FFFB3"
+				item: "elementalcraft:inert_crystal"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0ED02EC443E7B322"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["682CA83814F08244"]
+			icon: { Count: 18, id: "minecraft:bamboo" }
+			id: "187C4798A85AD74C"
+			rewards: [
+				{
+					count: 18
+					id: "72EB7E87D9D28173"
+					item: "minecraft:bamboo"
+					type: "item"
+				}
+				{
+					id: "38BF7429ED115335"
+					item: "regions_unexplored:bamboo_sapling"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "680195377BEACCA2"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["682CA83814F08244"]
+			icon: "supplementaries:sack"
+			id: "27CACD842E0DFD20"
+			rewards: [{
+				id: "5666BF8F28456E70"
+				item: "supplementaries:sack"
+				type: "item"
+			}]
+			tasks: [{
+				id: "262C76991DE6B747"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["682CA83814F08244"]
+			icon: { Count: 16, id: "minecraft:cocoa_beans" }
+			id: "62C94FA7ABC592B2"
+			rewards: [{
+				count: 16
+				id: "0BF4A3F33E0900D8"
+				item: "minecraft:cocoa_beans"
+				type: "item"
+			}]
+			tasks: [{
+				id: "42CFC4C2751FE000"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["682CA83814F08244"]
+			icon: { Count: 2, id: "minecraft:blaze_rod" }
+			id: "45093A9956B74B90"
+			rewards: [{
+				count: 2
+				id: "7EC919CDB1954B75"
+				item: "minecraft:blaze_rod"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2D1B6048F679038C"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["682CA83814F08244"]
+			icon: { Count: 8, id: "farmersdelight:organic_compost" }
+			id: "0D6D8F242CC00355"
+			rewards: [{
+				count: 8
+				id: "27F043B4FF1F42DB"
+				item: "farmersdelight:organic_compost"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6DDC64F2FBD39B5B"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"682CA83814F08244"
+				"4BE9468347CCD7B1"
+			]
+			icon: "immersiveengineering:crate"
+			id: "1C4B6868BD9B4510"
+			rewards: [{
+				id: "4386A6C7337CA839"
+				item: "immersiveengineering:crate"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "5EF0A9D8DB904717"
+					item: "thermal:gold_coin"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "20AF8AE10618F00D"
+					item: { Count: 2, id: "thermal:silver_coin" }
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"682CA83814F08244"
+				"118CF02B3B3C899C"
+			]
+			icon: { Count: 64, id: "immersiveengineering:treated_wood_horizontal" }
+			id: "5BE7FF2B2D088B6D"
+			rewards: [{
+				count: 64
+				id: "0DF67295E3AB5B3F"
+				item: "immersiveengineering:treated_wood_horizontal"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6B8B9BA968194773"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"682CA83814F08244"
+				"0FC4FA79D5AB30AE"
+			]
+			icon: { Count: 4, id: "alexsdelight:bunfungus_sandwich" }
+			id: "6A79B93F3DD0D744"
+			rewards: [{
+				count: 4
+				id: "38E71F1099B58DB9"
+				item: "alexsdelight:bunfungus_sandwich"
+				type: "item"
+			}]
+			tasks: [{
+				id: "341185228574FCC0"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["682CA83814F08244"]
+			icon: "minecraft:dispenser"
+			id: "7C3D3847863D93EE"
+			rewards: [{
+				id: "52FA05C26580737B"
+				item: "minecraft:dispenser"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2739E8D5963C6720"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"682CA83814F08244"
+				"51966AE20559FFA0"
+			]
+			icon: { Count: 16, id: "immersiveengineering:conveyor_basic" }
+			id: "4645C85B2E78545C"
+			rewards: [{
+				count: 16
+				id: "755CBC89A7FE3670"
+				item: "immersiveengineering:conveyor_basic"
+				type: "item"
+			}]
+			tasks: [{
+				count: 2L
+				id: "07051447DA879A5F"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"682CA83814F08244"
+				"3795DEE8A3FE6814"
+			]
+			icon: { Count: 64, id: "naturesaura:gold_powder" }
+			id: "3B37BADFD13BEE82"
+			rewards: [{
+				count: 64
+				id: "16B083DE81C23B47"
+				item: "naturesaura:gold_powder"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4B29CC90A7C6E48D"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["682CA83814F08244"]
+			icon: "minecraft:beehive"
+			id: "5563D096120103CD"
+			rewards: [
+				{
+					count: 3
+					id: "0B2DED80543E4580"
+					item: "minecraft:beehive"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "616DE8277E0D814D"
+					item: "minecraft:campfire"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7149CC4054B95481"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["682CA83814F08244"]
+			icon: "minecraft:bee_spawn_egg"
+			id: "0473ACFFD0AA5E1D"
+			rewards: [{
+				command: "/summon minecraft:bee"
+				elevate_perms: true
+				icon: "minecraft:bee_spawn_egg"
+				id: "447FABDF3655B328"
+				silent: true
+				title: "Summon a Bee at your position"
+				type: "command"
+			}]
+			tasks: [{
+				id: "588E2793889F27B9"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"682CA83814F08244"
+				"23D3902848A335F6"
+			]
+			icon: "minecraft:wither_skeleton_skull"
+			id: "788B7CD2FE782AAF"
+			rewards: [{
+				id: "715B182279031253"
+				item: "minecraft:wither_skeleton_skull"
+				type: "item"
+			}]
+			tasks: [{
+				count: 3L
+				id: "783C2ECD35D5E6CB"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			can_repeat: false
+			dependencies: [
+				"72A4177F6B3E06F9"
+				"23302F77050C32C5"
+			]
+			icon: "createdeco:gold_coinstack"
+			id: "5B05D16DC73F943E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "42036924FB008BF3"
+				table_id: 4856103064949265470L
+				type: "random"
+			}]
+			shape: "gear"
+			size: 2.0d
+			subtitle: "No risk! trust me bro..."
+			tasks: [
+				{
+					consume_items: true
+					id: "5AAFD444779D8307"
+					item: "supplementaries:sack"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 3L
+					id: "6EA2C4FC9C85F481"
+					item: "thermal:gold_coin"
+					type: "item"
+				}
+			]
+			title: "Hey kid! Want to make a quick buck?"
+			x: -1.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["682CA83814F08244"]
+			icon: "minecraft:birch_sapling"
+			id: "57939C3A08420C7B"
+			rewards: [{
+				auto: "enabled"
+				id: "699DC06EBFE66340"
+				item: "minecraft:birch_sapling"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "2F29A0DAD129D0F2"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["682CA83814F08244"]
+			icon: "minecraft:spruce_sapling"
+			id: "79F6EFF9271705D9"
+			rewards: [{
+				id: "32BC9C72445C7A1D"
+				item: "minecraft:spruce_sapling"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "349CCCD2AB22E522"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["682CA83814F08244"]
+			icon: "minecraft:acacia_sapling"
+			id: "240336F6F8B65AA8"
+			rewards: [{
+				id: "124A23D5A24A242C"
+				item: "minecraft:oak_sapling"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "790DED3F77F3A858"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["682CA83814F08244"]
+			icon: "quark:ancient_sapling"
+			id: "0F7A580BCFDD74BD"
+			rewards: [{
+				id: "4E386D48843FF674"
+				item: "quark:ancient_sapling"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 4L
+				id: "1ECF6E6276ECB1AA"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			title: "4x Silver Coin"
+			x: -3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["682CA83814F08244"]
+			icon: "minecraft:cherry_sapling"
+			id: "0BD3148137AA113D"
+			rewards: [{
+				id: "434EDCD6022C15C5"
+				item: "minecraft:cherry_sapling"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 4L
+				id: "167244B226D0F27C"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			title: "4x Silver Coin"
+			x: -4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["682CA83814F08244"]
+			icon: "minecraft:mangrove_propagule"
+			id: "07DDBECE1BEC3442"
+			rewards: [{
+				id: "5AFAB4290D424D37"
+				item: "minecraft:mangrove_propagule"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 4L
+				id: "2CB404E88F8B7145"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			title: "4x Silver Coin"
+			x: -6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["682CA83814F08244"]
+			icon: { Count: 4, id: "minecraft:dark_oak_sapling" }
+			id: "605818352B468C50"
+			rewards: [{
+				count: 4
+				id: "681BF38D4C4AD2B8"
+				item: "minecraft:dark_oak_sapling"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 4L
+				id: "12393726D7FE800A"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			title: "4x Silver Coin"
+			x: -7.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"682CA83814F08244"
+				"6AAA0D896526226E"
+			]
+			icon: { Count: 32, id: "minecraft:arrow" }
+			id: "4BB9DE2F803292B8"
+			rewards: [{
+				count: 32
+				id: "2719B6A106F33C5A"
+				item: "minecraft:arrow"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "43E6547E54B3AE31"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"682CA83814F08244"
+				"6AAA0D896526226E"
+			]
+			icon: { Count: 32, id: "quark:torch_arrow" }
+			id: "34FC013BA67B8344"
+			rewards: [{
+				count: 32
+				id: "2510311CCF3A60B6"
+				item: "quark:torch_arrow"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 3L
+				id: "004BA72893A2F9DD"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"682CA83814F08244"
+				"6AAA0D896526226E"
+			]
+			icon: {
+				Count: 2
+				id: "supplementaries:rope_arrow"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "4A9A142698EC8380"
+			rewards: [{
+				count: 2
+				id: "28C7221BACB00660"
+				item: {
+					Count: 1
+					id: "supplementaries:rope_arrow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "331CE130FDA2F2CF"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"682CA83814F08244"
+				"4995F4B02484AECC"
+			]
+			icon: { Count: 2, id: "farmersdelight:potato_crate" }
+			id: "4BC05D29C2C57280"
+			rewards: [{
+				count: 2
+				id: "5A8654C4D70E3897"
+				item: "farmersdelight:potato_crate"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 3L
+				id: "225847B7420F08A1"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"682CA83814F08244"
+				"3C2909A41E93F910"
+			]
+			icon: {
+				Count: 1
+				id: "irons_spellbooks:scroll"
+				tag: {
+					ISB_Spells: {
+						data: [{
+							id: "irons_spellbooks:recall"
+							index: 0
+							level: 1
+							locked: 1b
+						}]
+						maxSpells: 1
+						mustEquip: 0b
+						spellWheel: 0b
+					}
+				}
+			}
+			id: "423AD67270BCBF85"
+			rewards: [{
+				id: "7746892C25B55FE3"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:recall"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 8L
+				id: "43D46C2AE3D8863B"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"682CA83814F08244"
+				"3C2909A41E93F910"
+			]
+			icon: {
+				Count: 1
+				id: "irons_spellbooks:scroll"
+				tag: {
+					ISB_Spells: {
+						data: [{
+							id: "irons_spellbooks:teleport"
+							index: 0
+							level: 1
+							locked: 1b
+						}]
+						maxSpells: 1
+						mustEquip: 0b
+						spellWheel: 0b
+					}
+				}
+			}
+			id: "4E551FF2E604CD52"
+			rewards: [{
+				id: "46CE412E80B01293"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:teleport"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 6L
+				id: "38304D1CE7FF9D2B"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["682CA83814F08244"]
+			icon: "woodenhopper:wooden_hopper"
+			id: "0454B8B653EABFF4"
+			rewards: [{
+				id: "38C1C9E2AA9280B1"
+				item: "woodenhopper:wooden_hopper"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 5L
+				id: "1FD3D7FFBDE3B881"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["682CA83814F08244"]
+			icon: { Count: 4, id: "minecraft:raw_iron" }
+			id: "62BF25D5E1590283"
+			rewards: [{
+				count: 4
+				id: "3860194EDE0F8CDF"
+				item: "minecraft:raw_iron"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 5L
+				id: "0E5418C72923904D"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 0.0d
+		}
+		{
+			can_repeat: false
+			dependencies: [
+				"37E717454A7E8792"
+				"682CA83814F08244"
+			]
+			hide_until_deps_visible: true
+			icon: "minecraft:budding_amethyst"
+			id: "64B56173EADBA88D"
+			rewards: [{
+				id: "11FA5F7813C0E801"
+				item: "minecraft:budding_amethyst"
+				type: "item"
+			}]
+			subtitle: "One time offer!"
+			tasks: [{
+				id: "4E820316F88B140E"
+				item: "thermal:netherite_coin"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["682CA83814F08244"]
+			icon: "thermal:device_rock_gen"
+			id: "3A273128BB75F004"
+			rewards: [{
+				id: "630797CFBD9092A7"
+				item: "thermal:device_rock_gen"
+				type: "item"
+			}]
+			tasks: [{
+				id: "41CEC9A206EB068C"
+				item: "thermal:netherite_coin"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["682CA83814F08244"]
+			icon: "waystones:waystone"
+			id: "29E1BA7E7C50F113"
+			rewards: [{
+				id: "341FD7BC0128F560"
+				item: "waystones:waystone"
+				type: "item"
+			}]
+			tasks: [{
+				count: 2L
+				id: "4FFC1E673923941E"
+				item: "thermal:netherite_coin"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["682CA83814F08244"]
+			icon: "enigmaticlegacy:mending_mixture"
+			id: "369F2CA9B00535CD"
+			rewards: [{
+				count: 16
+				id: "713C1E3C327AF3C8"
+				item: "enigmaticlegacy:mending_mixture"
+				type: "item"
+			}]
+			tasks: [{
+				id: "338E3C5F951BCA46"
+				item: "thermal:netherite_coin"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"682CA83814F08244"
+				"32A61115C0AD8C45"
+			]
+			icon: "quark:blue_blossom_sapling"
+			id: "53F39B4876F4327C"
+			rewards: [{
+				id: "686A2D86262981B4"
+				item: "quark:blue_blossom_sapling"
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "53D68AEF8CDC8B97"
+				item: { Count: 4, id: "thermal:gold_coin" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"682CA83814F08244"
+				"32A61115C0AD8C45"
+			]
+			icon: "quark:lavender_blossom_sapling"
+			id: "65EAEFD522658128"
+			rewards: [{
+				icon: "quark:lavender_blossom_sapling"
+				id: "6379E55330C5F847"
+				item: "quark:lavender_blossom_sapling"
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "3453076D6D727462"
+				item: { Count: 4, id: "thermal:gold_coin" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"682CA83814F08244"
+				"32A61115C0AD8C45"
+			]
+			icon: "quark:orange_blossom_sapling"
+			id: "78F35BF913108136"
+			rewards: [{
+				id: "6EFEDE03DACCC42D"
+				item: "quark:orange_blossom_sapling"
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "50EB176FB3C0A6BB"
+				item: { Count: 4, id: "thermal:gold_coin" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"682CA83814F08244"
+				"32A61115C0AD8C45"
+			]
+			icon: "quark:yellow_blossom_sapling"
+			id: "4DDB2EFFC0A81872"
+			rewards: [{
+				id: "3C222044B7F7261A"
+				item: "quark:yellow_blossom_sapling"
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "49DFFEDE9D388CB7"
+				item: { Count: 4, id: "thermal:gold_coin" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"682CA83814F08244"
+				"32A61115C0AD8C45"
+			]
+			icon: "quark:red_blossom_sapling"
+			id: "653FBB634DD7C9A1"
+			rewards: [{
+				id: "01C65DA8CFCA6659"
+				item: "quark:red_blossom_sapling"
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "1FD0B5B8DDBECF73"
+				item: { Count: 4, id: "thermal:gold_coin" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"682CA83814F08244"
+				"32A61115C0AD8C45"
+			]
+			icon: "minecraft:sunflower"
+			id: "6D58F8323029870C"
+			rewards: [{
+				id: "14954BE5B886373D"
+				item: "minecraft:sunflower"
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "05B19B804D9834B2"
+				item: { Count: 4, id: "thermal:gold_coin" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["682CA83814F08244"]
+			icon: "fruitsdelight:lemon"
+			id: "74F8B900E5060185"
+			rewards: [{
+				auto: "enabled"
+				count: 4
+				id: "62DE2D5C0A70C9E9"
+				item: "fruitsdelight:lemon_seeds"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 5L
+				id: "1E1ABD70CE1AFEB3"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["682CA83814F08244"]
+			icon: "regions_unexplored:salmonberry"
+			id: "3D4DD93D7719FD2F"
+			rewards: [{
+				auto: "disabled"
+				count: 4
+				id: "6C76A24FFC24B312"
+				item: "regions_unexplored:salmonberry"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 5L
+				id: "78C240745D585FCD"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["682CA83814F08244"]
+			icon: "vintagedelight:cucumber"
+			id: "55C27EFCE2A6EDD8"
+			rewards: [{
+				count: 4
+				id: "246331405A39A99C"
+				item: "vintagedelight:cucumber_seeds"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 5L
+				id: "6D015CC1E183DCA7"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["682CA83814F08244"]
+			icon: "farmersdelight:tomato"
+			id: "0D22106A45E1F471"
+			rewards: [{
+				count: 4
+				id: "5F909523B4C69657"
+				item: "farmersdelight:tomato_seeds"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 5L
+				id: "2AF89C0A114EAE58"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"682CA83814F08244"
+				"69B93BA4460E5F95"
+			]
+			description: ["Emergency tools, if you don't want to hold money for the emergencies you can deposit it here earlier and claim your rewards when you need them!"]
+			icon: {
+				Count: 1
+				id: "minecraft:wooden_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "647F47E7C0A202B4"
+			rewards: [
+				{
+					id: "0230955EC93D9152"
+					item: {
+						Count: 1
+						id: "minecraft:wooden_axe"
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								id: "minecraft:unbreaking"
+								lvl: 3s
+							}]
+							display: {
+								Name: "{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#FFFFFF\",\"text\":\"Emergency Axe\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6EEAE264C53C5514"
+					item: {
+						Count: 1
+						id: "minecraft:wooden_pickaxe"
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								id: "minecraft:unbreaking"
+								lvl: 3s
+							}]
+							display: {
+								Name: "{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#FFFFFF\",\"text\":\"Emergency Pickaxe\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				count: 5L
+				id: "39C3A9A2AB133C50"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["682CA83814F08244"]
+			icon: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:mending"
+						lvl: 1s
+					}]
+				}
+			}
+			id: "137B7A25A795034A"
+			rewards: [{
+				id: "0E7107FEABCDF163"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:mending"
+							lvl: 1s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 2L
+				id: "30BDD8AB2026A4CB"
+				item: "thermal:netherite_coin"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["682CA83814F08244"]
+			icon: "quark:diamond_heart"
+			id: "2F3E40A06A23B1C9"
+			rewards: [{
+				id: "1FFBFDB8EF6B2376"
+				item: "quark:diamond_heart"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6E7DA18141447874"
+				item: "thermal:netherite_coin"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["682CA83814F08244"]
+			icon: "minecraft:heart_of_the_sea"
+			id: "67BB390D52C6B959"
+			rewards: [{
+				id: "7A6FCEA7F6C0555E"
+				item: "minecraft:heart_of_the_sea"
+				type: "item"
+			}]
+			tasks: [{
+				id: "498AA0BF1BE332EF"
+				item: "thermal:netherite_coin"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -1.5d
+		}
+	]
+	title: "Market"
+}

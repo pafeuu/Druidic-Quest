@@ -1,0 +1,2415 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "dendrologist"
+	group: "6959C7C8592FBBA9"
+	icon: "kubejs:shapeshifting_root"
+	id: "33E4C7A78562CF4C"
+	order_index: 11
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "5099EFEC325CEE0A"
+			rewards: [
+				{
+					id: "2D175F03126B5E60"
+					item: "kubejs:greater_shapeshifting_root"
+					type: "item"
+				}
+				{
+					id: "4CDD5676E8D6074A"
+					item: "thermal:gold_coin"
+					type: "item"
+				}
+			]
+			size: 2.0d
+			tasks: [{
+				id: "0AAC44DCD0031F9D"
+				item: "kubejs:greater_shapeshifting_root"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "136C5174690A643A"
+			rewards: [
+				{
+					id: "2EFF5CAC2B0933AB"
+					item: "kubejs:shapeshifting_root"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "4B89587FFBA5539A"
+					item: "thermal:silver_coin"
+					type: "item"
+				}
+			]
+			size: 2.0d
+			tasks: [{
+				id: "60C88287E8027292"
+				item: "kubejs:shapeshifting_root"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "37E7503709C805AC"
+			rewards: [
+				{
+					count: 6
+					id: "30DDBD67FEE72A69"
+					item: "thermal:copper_coin"
+					type: "item"
+				}
+				{
+					id: "32FEB1666AA3C57C"
+					item: "minecraft:coarse_dirt"
+					type: "item"
+				}
+			]
+			subtitle: "Can you believe its used to be the only one?"
+			tasks: [{
+				id: "40633C4656F78AAE"
+				item: "minecraft:oak_sapling"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "2FB6EA03F76F86DE"
+			rewards: [
+				{
+					count: 6
+					id: "4CF5AA034852D42D"
+					item: "thermal:copper_coin"
+					type: "item"
+				}
+				{
+					id: "44019DC67EB4F79F"
+					item: "minecraft:coarse_dirt"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1E8CBBD0135EF6C0"
+				item: "minecraft:cherry_sapling"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "3D8B1C025ACF3D13"
+			rewards: [
+				{
+					count: 6
+					id: "6CF8DD8C70CEB16D"
+					item: "thermal:copper_coin"
+					type: "item"
+				}
+				{
+					id: "68E07FC00C27FACE"
+					item: "minecraft:coarse_dirt"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4555E2763B769892"
+				item: "minecraft:jungle_sapling"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "02892BA5ACF0F3D3"
+			rewards: [
+				{
+					count: 6
+					id: "6B76BFCC3084B225"
+					item: "thermal:copper_coin"
+					type: "item"
+				}
+				{
+					id: "67610DAE7F20D69B"
+					item: "minecraft:coarse_dirt"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "32A89D185C0A377E"
+				item: "minecraft:acacia_sapling"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "2AE3D9FCBD2D9A96"
+			rewards: [
+				{
+					count: 6
+					id: "146A4A74D2F74040"
+					item: "thermal:copper_coin"
+					type: "item"
+				}
+				{
+					id: "770C80180A02B828"
+					item: "minecraft:coarse_dirt"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2A3E8A3992767ACF"
+				item: "minecraft:birch_sapling"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "0D91809C9F7C8C3C"
+			rewards: [
+				{
+					count: 6
+					id: "17B70D891FEA42DC"
+					item: "thermal:copper_coin"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "393F1B3151B13FBB"
+					item: "minecraft:coarse_dirt"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "05FCE7A2B95C82C6"
+				item: "minecraft:dark_oak_sapling"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "6D49DDABF21D0653"
+			rewards: [
+				{
+					count: 6
+					id: "6B8E67A01C0EEF06"
+					item: "thermal:copper_coin"
+					type: "item"
+				}
+				{
+					id: "255D7B4AC0E396C7"
+					item: "minecraft:coarse_dirt"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3F772BF2C2786E3E"
+				item: "minecraft:spruce_sapling"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "6E77D27933D39952"
+			rewards: [
+				{
+					count: 6
+					id: "277A258B873C7F4E"
+					item: "thermal:copper_coin"
+					type: "item"
+				}
+				{
+					id: "76933E3181495B84"
+					item: "minecraft:coarse_dirt"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4BEE8392784F6833"
+				item: "architects_palette:twisted_sapling"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "4C0EA78AF521C698"
+			rewards: [
+				{
+					count: 6
+					id: "67B673D6A69105BA"
+					item: "thermal:copper_coin"
+					type: "item"
+				}
+				{
+					id: "0D5E8EADB6DC33DB"
+					item: "minecraft:coarse_dirt"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2CAE63ECDF55B06C"
+				item: "quark:ancient_sapling"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "0AC3C33D28ACEB50"
+			rewards: [
+				{
+					id: "57300FACBA7D0255"
+					item: "minecraft:coarse_dirt"
+					type: "item"
+				}
+				{
+					id: "65EE97A9D89B0D01"
+					item: "kubejs:shapeshifting_root"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3007305D32F290A3"
+				item: "naturesaura:ancient_sapling"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "63F6664E18340881"
+			rewards: [
+				{
+					count: 6
+					id: "306D4D846E7A6B69"
+					item: "thermal:copper_coin"
+					type: "item"
+				}
+				{
+					id: "3083F79349AE4207"
+					item: "minecraft:coarse_dirt"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "49DBB0880857F1B2"
+				item: "quark:red_blossom_sapling"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "22A3B9197D84ABB9"
+			rewards: [
+				{
+					count: 6
+					id: "7F5EFA94D90F5920"
+					item: "thermal:copper_coin"
+					type: "item"
+				}
+				{
+					id: "1999893B15DCFFC1"
+					item: "minecraft:coarse_dirt"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0C15051D5208E444"
+				item: "quark:yellow_blossom_sapling"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "100A0B5D5A036F8A"
+			rewards: [
+				{
+					count: 6
+					id: "7BD877E425E32E01"
+					item: "thermal:copper_coin"
+					type: "item"
+				}
+				{
+					id: "79E82A942D3F3127"
+					item: "minecraft:coarse_dirt"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7E82C24FC7399778"
+				item: "quark:orange_blossom_sapling"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "3DE2A1B5EF253169"
+			rewards: [
+				{
+					count: 6
+					id: "247536334B543376"
+					item: "thermal:copper_coin"
+					type: "item"
+				}
+				{
+					id: "0855212C6AB6A47B"
+					item: "minecraft:coarse_dirt"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "757711300B5E05C6"
+				item: "quark:lavender_blossom_sapling"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "505F9866419E4CA5"
+			rewards: [
+				{
+					count: 6
+					id: "140F82F7188DDAAD"
+					item: "thermal:copper_coin"
+					type: "item"
+				}
+				{
+					id: "120C4A3614A110D5"
+					item: "minecraft:coarse_dirt"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "78A6A4151EA6F924"
+				item: "quark:blue_blossom_sapling"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "29AA51C7033A0F92"
+			rewards: [
+				{
+					count: 6
+					id: "47E898F781821901"
+					item: "thermal:copper_coin"
+					type: "item"
+				}
+				{
+					id: "1DCA14F96B6B235E"
+					item: "minecraft:warped_nylium"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "305F17E97EAE2744"
+				item: "minecraft:warped_fungus"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "430357FE993A4DC2"
+			rewards: [
+				{
+					count: 6
+					id: "699D5DF3FEB13387"
+					item: "thermal:copper_coin"
+					type: "item"
+				}
+				{
+					id: "5099EE66697FCBDF"
+					item: "minecraft:crimson_nylium"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6E9D39B4BFD94714"
+				item: "minecraft:crimson_fungus"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "1C03D418D59A5673"
+			rewards: [
+				{
+					count: 6
+					id: "0CBBE8D51BF449A1"
+					item: "thermal:copper_coin"
+					type: "item"
+				}
+				{
+					id: "29987AF2E4DB901B"
+					item: "minecraft:coarse_dirt"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "69813602F963B404"
+				item: "ars_nouveau:blue_archwood_sapling"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "1EAC59E868A4C43F"
+			rewards: [
+				{
+					count: 6
+					id: "785339945D04B9A8"
+					item: "thermal:copper_coin"
+					type: "item"
+				}
+				{
+					id: "43BBB9DE30D834AA"
+					item: "minecraft:coarse_dirt"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5B651E1F327DF433"
+				item: "ars_nouveau:red_archwood_sapling"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "2888548CAE0891E1"
+			rewards: [
+				{
+					count: 6
+					id: "40FB7708A1692883"
+					item: "thermal:copper_coin"
+					type: "item"
+				}
+				{
+					id: "4BAD9FBF25376B2F"
+					item: "minecraft:coarse_dirt"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6EC1EA9BAC45A045"
+				item: "ars_nouveau:purple_archwood_sapling"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "25270E6626765A26"
+			rewards: [
+				{
+					count: 6
+					id: "62251E098F01CFBE"
+					item: "thermal:copper_coin"
+					type: "item"
+				}
+				{
+					id: "5BDA3891B90C4BFF"
+					item: "minecraft:coarse_dirt"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5BF505075D26788F"
+				item: "ars_nouveau:green_archwood_sapling"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "2042D3743724BE1B"
+			rewards: [
+				{
+					count: 6
+					id: "3674B8FB0ACA3C83"
+					item: "thermal:copper_coin"
+					type: "item"
+				}
+				{
+					id: "3B8D0DDCEDA0F0AF"
+					item: "minecraft:coarse_dirt"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3A12E113AB1D1AC2"
+				item: "fruitsdelight:persimmon_sapling"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "73A935AD3494527F"
+			rewards: [
+				{
+					count: 6
+					id: "3B8E3424F3C2A780"
+					item: "thermal:copper_coin"
+					type: "item"
+				}
+				{
+					id: "64F49F5E98D648F1"
+					item: "minecraft:coarse_dirt"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3787FAAA9DA96AA0"
+				item: "fruitsdelight:mango_sapling"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "0FE184CCF03F2669"
+			rewards: [
+				{
+					count: 6
+					id: "1FE94BD399AC793D"
+					item: "thermal:copper_coin"
+					type: "item"
+				}
+				{
+					id: "16272B95995AF82F"
+					item: "minecraft:coarse_dirt"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "076F798B1CE35F29"
+				item: "fruitsdelight:lychee_sapling"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "4FE389BA1B8C8F66"
+			rewards: [
+				{
+					count: 6
+					id: "495B00DF195F94F4"
+					item: "thermal:copper_coin"
+					type: "item"
+				}
+				{
+					id: "2525121705F23230"
+					item: "minecraft:coarse_dirt"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "38E6D14569EF8EFF"
+				item: "fruitsdelight:hawberry_sapling"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "57C3DE3916732FE7"
+			rewards: [
+				{
+					count: 6
+					id: "39686478A104EF0A"
+					item: "thermal:copper_coin"
+					type: "item"
+				}
+				{
+					id: "265CC55A270392BE"
+					item: "minecraft:coarse_dirt"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1571EA73C8A1C95B"
+				item: "fruitsdelight:pear_sapling"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "79C4322241037058"
+			rewards: [
+				{
+					count: 6
+					id: "43F44C9338FCBF7B"
+					item: "thermal:copper_coin"
+					type: "item"
+				}
+				{
+					id: "61436C1764B58521"
+					item: "minecraft:coarse_dirt"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7547E17E2D5C6632"
+				item: "fruitsdelight:peach_sapling"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "5F80BAA6782E3F88"
+			rewards: [
+				{
+					count: 6
+					id: "11876B5B69FE798A"
+					item: "thermal:copper_coin"
+					type: "item"
+				}
+				{
+					id: "4BC104EA63E8A99E"
+					item: "minecraft:coarse_dirt"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "460160C748D9B0F8"
+				item: "fruitsdelight:orange_sapling"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "1A91822699CBEB20"
+			rewards: [
+				{
+					count: 6
+					id: "35DB529D21C85469"
+					item: "thermal:copper_coin"
+					type: "item"
+				}
+				{
+					id: "5055AD2C2E5E3294"
+					item: "minecraft:coarse_dirt"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3D406771AFBEF913"
+				item: "fruitsdelight:apple_sapling"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "79C4A9D6DAD71F57"
+			rewards: [
+				{
+					count: 6
+					id: "5F802961566A4643"
+					item: "thermal:copper_coin"
+					type: "item"
+				}
+				{
+					id: "4200336F5A537712"
+					item: "minecraft:coarse_dirt"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "632C0FD36D14AD4C"
+				item: "fruitsdelight:mangosteen_sapling"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "390B9605C4BF0624"
+			rewards: [
+				{
+					count: 6
+					id: "0C31EE74E139F9D3"
+					item: "thermal:copper_coin"
+					type: "item"
+				}
+				{
+					id: "645D5336C9FE1C28"
+					item: "minecraft:coarse_dirt"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1F93B0011D7F4765"
+				item: "fruitsdelight:bayberry_sapling"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "3B3BD9E8477297D3"
+			rewards: [
+				{
+					count: 6
+					id: "6075DA3C21FF0014"
+					item: "thermal:copper_coin"
+					type: "item"
+				}
+				{
+					id: "3D5C59F5E0B09022"
+					item: "minecraft:coarse_dirt"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6E8C82C9670BD935"
+				item: "fruitsdelight:kiwi_sapling"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "15741605CEE22455"
+			rewards: [
+				{
+					count: 6
+					id: "7D0D896B9B0DFC3B"
+					item: "thermal:copper_coin"
+					type: "item"
+				}
+				{
+					id: "4EB06FAE4CED0174"
+					item: "minecraft:coarse_dirt"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "75B255381FB19FE6"
+				item: "fruitsdelight:fig_sapling"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "6F6E3AEE5C5D23D9"
+			rewards: [
+				{
+					count: 6
+					id: "60E0BE2000A5CB1C"
+					item: "thermal:copper_coin"
+					type: "item"
+				}
+				{
+					id: "3E58DC4AE5042AC0"
+					item: "minecraft:coarse_dirt"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "28BCFFE83F871072"
+				item: "regions_unexplored:willow_sapling"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "0868858598175EC6"
+			rewards: [
+				{
+					count: 6
+					id: "7CB7F0C69C1BB242"
+					item: "thermal:copper_coin"
+					type: "item"
+				}
+				{
+					id: "363128EC94794EAB"
+					item: "minecraft:coarse_dirt"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "091C302DE01ACA01"
+				item: "regions_unexplored:socotra_sapling"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "39432BD5856605E1"
+			rewards: [
+				{
+					count: 6
+					id: "7E3087CADC030A2E"
+					item: "thermal:copper_coin"
+					type: "item"
+				}
+				{
+					id: "261FA3FD1BAF984C"
+					item: "minecraft:coarse_dirt"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "519BD2A57632D46F"
+				item: "regions_unexplored:small_oak_sapling"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "1ABF543F52DBF795"
+			rewards: [
+				{
+					count: 6
+					id: "5FA8DC5940C2CD5E"
+					item: "thermal:copper_coin"
+					type: "item"
+				}
+				{
+					id: "6EFD721CCED71995"
+					item: "minecraft:coarse_dirt"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "537A6E4DD7605386"
+				item: "regions_unexplored:enchanted_birch_sapling"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "7A113777A3315250"
+			rewards: [
+				{
+					count: 6
+					id: "6C2C381B3128AA16"
+					item: "thermal:copper_coin"
+					type: "item"
+				}
+				{
+					id: "6DDBC14429E6DFF7"
+					item: "minecraft:coarse_dirt"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7F5B627072EFC22D"
+				item: "regions_unexplored:silver_birch_sapling"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "073ADBBB829DC53F"
+			rewards: [
+				{
+					count: 6
+					id: "759E1CD230F94C6F"
+					item: "thermal:copper_coin"
+					type: "item"
+				}
+				{
+					id: "36A2B43D901C736F"
+					item: "minecraft:coarse_dirt"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "53D6B9076A070C9A"
+				item: "regions_unexplored:redwood_sapling"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "603B50ED255500CB"
+			rewards: [
+				{
+					count: 6
+					id: "34FDE726AB9367A7"
+					item: "thermal:copper_coin"
+					type: "item"
+				}
+				{
+					id: "563FCE5D243F1607"
+					item: "minecraft:coarse_dirt"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "53705E89B7CCDE5A"
+				item: "regions_unexplored:pine_sapling"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "54FC38404B872DFC"
+			rewards: [
+				{
+					count: 6
+					id: "557B76061A3E59F6"
+					item: "thermal:copper_coin"
+					type: "item"
+				}
+				{
+					id: "2333BDFA472DB63A"
+					item: "minecraft:coarse_dirt"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0DE819F96036E7F0"
+				item: "regions_unexplored:palm_sapling"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "001B638EA3983C37"
+			rewards: [
+				{
+					count: 6
+					id: "4E0AED077BC26EAB"
+					item: "thermal:copper_coin"
+					type: "item"
+				}
+				{
+					id: "426A7BE0CF5A25A0"
+					item: "minecraft:coarse_dirt"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7F4DC8746707B2E4"
+				item: "regions_unexplored:mauve_sapling"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "0AE423D35576801E"
+			rewards: [
+				{
+					count: 6
+					id: "19BD802446D2DFFD"
+					item: "thermal:copper_coin"
+					type: "item"
+				}
+				{
+					id: "6D0601C2B748A63E"
+					item: "minecraft:coarse_dirt"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "22B8BF7D0AEA1505"
+				item: "regions_unexplored:red_maple_sapling"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "3CB0E2F585A6B2B9"
+			rewards: [
+				{
+					count: 6
+					id: "24D52A6F17AC8C51"
+					item: "thermal:copper_coin"
+					type: "item"
+				}
+				{
+					id: "76DD089E9B5B93BF"
+					item: "minecraft:coarse_dirt"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "059E03EF0CB81EF6"
+				item: "regions_unexplored:orange_maple_sapling"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "7EE44F438437B221"
+			rewards: [
+				{
+					count: 6
+					id: "14DE913FCF51E090"
+					item: "thermal:copper_coin"
+					type: "item"
+				}
+				{
+					id: "1691F47C543EBEC8"
+					item: "minecraft:coarse_dirt"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4C2371C311725DF0"
+				item: "regions_unexplored:maple_sapling"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "79135AFB3E37E5B5"
+			rewards: [
+				{
+					count: 6
+					id: "5D642FA2F6499C04"
+					item: "thermal:copper_coin"
+					type: "item"
+				}
+				{
+					id: "319A09AA6AF61EA2"
+					item: "minecraft:coarse_dirt"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7BDFE6FC6B1026FF"
+				item: "regions_unexplored:white_magnolia_sapling"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "546111018CDE2E3B"
+			rewards: [
+				{
+					count: 6
+					id: "1E4494D23F61875A"
+					item: "thermal:copper_coin"
+					type: "item"
+				}
+				{
+					id: "615B66E708C74E27"
+					item: "minecraft:coarse_dirt"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3EEC8766BAA70441"
+				item: "regions_unexplored:pink_magnolia_sapling"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "345700492155862E"
+			rewards: [
+				{
+					count: 6
+					id: "590CDF3E65D2EA62"
+					item: "thermal:copper_coin"
+					type: "item"
+				}
+				{
+					id: "22277A5246AC8DC5"
+					item: "minecraft:coarse_dirt"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2D67C9DB162FC4AB"
+				item: "regions_unexplored:blue_magnolia_sapling"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "188F066D3C696CEC"
+			rewards: [
+				{
+					count: 6
+					id: "0493420F420640C6"
+					item: "thermal:copper_coin"
+					type: "item"
+				}
+				{
+					id: "1397F60FCEDB9E03"
+					item: "minecraft:coarse_dirt"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "030295A41397221D"
+				item: "regions_unexplored:magnolia_sapling"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "53DEC27BF7EC790C"
+			rewards: [
+				{
+					count: 6
+					id: "21F6722A7AE908A1"
+					item: "thermal:copper_coin"
+					type: "item"
+				}
+				{
+					id: "2634CC27A1E681E5"
+					item: "minecraft:coarse_dirt"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "40C4970EEC8CB6E6"
+				item: "regions_unexplored:golden_larch_sapling"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "7BE05282FDC1BA6E"
+			rewards: [
+				{
+					count: 6
+					id: "2BB68BEE8CB46A00"
+					item: "thermal:copper_coin"
+					type: "item"
+				}
+				{
+					id: "442C6FB95727EA59"
+					item: "minecraft:coarse_dirt"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "52396F41E229017C"
+				item: "regions_unexplored:larch_sapling"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "553348FA7EC1E840"
+			rewards: [
+				{
+					count: 6
+					id: "3BE3D26FA088C0CC"
+					item: "thermal:copper_coin"
+					type: "item"
+				}
+				{
+					id: "441B0902B126BB00"
+					item: "minecraft:coarse_dirt"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4088DB56B8EE51DF"
+				item: "regions_unexplored:kapok_sapling"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "7E10D9751EB82404"
+			rewards: [
+				{
+					count: 6
+					id: "7D96EED68DD1FF0E"
+					item: "thermal:copper_coin"
+					type: "item"
+				}
+				{
+					id: "6A3FBADF764615C1"
+					item: "minecraft:coarse_dirt"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6A7CFE6D5D6C32F0"
+				item: "regions_unexplored:joshua_sapling"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "5320AEF1E5358C1A"
+			rewards: [
+				{
+					count: 6
+					id: "08970D27BC30222E"
+					item: "thermal:copper_coin"
+					type: "item"
+				}
+				{
+					id: "2543771C81BB65AE"
+					item: "minecraft:coarse_dirt"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "57882A4B7502B0FE"
+				item: "regions_unexplored:flowering_sapling"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "3D70938C4FD45B90"
+			rewards: [
+				{
+					count: 6
+					id: "59C973CB57D3ABB8"
+					item: "thermal:copper_coin"
+					type: "item"
+				}
+				{
+					id: "4B7468E6173A702A"
+					item: "minecraft:coarse_dirt"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2592718AFAD41535"
+				item: "regions_unexplored:eucalyptus_sapling"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "08041B7A9C753BD7"
+			rewards: [
+				{
+					count: 6
+					id: "38293053F0837491"
+					item: "thermal:copper_coin"
+					type: "item"
+				}
+				{
+					id: "2433B62968038E58"
+					item: "minecraft:coarse_dirt"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5816876A93679CFC"
+				item: "regions_unexplored:dead_sapling"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "2FABFA4E3F3237E5"
+			rewards: [
+				{
+					count: 6
+					id: "3305BCB8752A4C95"
+					item: "thermal:copper_coin"
+					type: "item"
+				}
+				{
+					id: "48DC582FC33B9C03"
+					item: "minecraft:coarse_dirt"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "27A78D87CA472361"
+				item: "regions_unexplored:dead_pine_sapling"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "514D28F2BFA66AB0"
+			rewards: [
+				{
+					count: 6
+					id: "3B6D720BD93D69C0"
+					item: "thermal:copper_coin"
+					type: "item"
+				}
+				{
+					id: "6313969D868EB930"
+					item: "minecraft:coarse_dirt"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0BA0C3F790982FBA"
+				item: "regions_unexplored:cypress_sapling"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "34AE7B563AA59477"
+			rewards: [
+				{
+					count: 6
+					id: "352687A61700E178"
+					item: "thermal:copper_coin"
+					type: "item"
+				}
+				{
+					id: "332E3CB38C9ACE68"
+					item: "minecraft:coarse_dirt"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "60789C2A845AD244"
+				item: "regions_unexplored:blackwood_sapling"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "65DD7C21B00907B6"
+			rewards: [
+				{
+					count: 6
+					id: "7F2343D9D9DB43BA"
+					item: "thermal:copper_coin"
+					type: "item"
+				}
+				{
+					id: "5F8C535E26A1D2B6"
+					item: "minecraft:coarse_dirt"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3C62411E1902D069"
+				item: "regions_unexplored:baobab_sapling"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "5CC59912A581967F"
+			rewards: [
+				{
+					count: 6
+					id: "4BB9D9222439F689"
+					item: "thermal:copper_coin"
+					type: "item"
+				}
+				{
+					id: "41E1554C7492EA98"
+					item: "minecraft:coarse_dirt"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "47A9928421F9EA59"
+				item: "regions_unexplored:bamboo_sapling"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "74AF9E62A0698942"
+			rewards: [
+				{
+					count: 6
+					id: "6395E3C652E02092"
+					item: "thermal:copper_coin"
+					type: "item"
+				}
+				{
+					id: "05C504D2449105B9"
+					item: "minecraft:coarse_dirt"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0973A6DD5003ED77"
+				item: "regions_unexplored:ashen_sapling"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "0772AD1A05B733FD"
+			rewards: [
+				{
+					count: 6
+					id: "1733EF172FADAD1A"
+					item: "thermal:copper_coin"
+					type: "item"
+				}
+				{
+					id: "0AC356001E8F41DA"
+					item: "regions_unexplored:cobalt_nylium"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0A6A45A4C8F80182"
+				item: "regions_unexplored:cobalt_sapling"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "51733D977FD0E10F"
+			rewards: [
+				{
+					count: 6
+					id: "32ACCC61176B50BE"
+					item: "thermal:copper_coin"
+					type: "item"
+				}
+				{
+					id: "67C3CE22C9590F00"
+					item: "regions_unexplored:brimsprout_nylium"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "09DB9F77D2546A8F"
+				item: "regions_unexplored:brimwood_sapling"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "60BDB25DE7605A59"
+			rewards: [
+				{
+					count: 6
+					id: "09FE708F47428B5B"
+					item: "thermal:copper_coin"
+					type: "item"
+				}
+				{
+					id: "0FB4D425B06DA485"
+					item: "minecraft:coarse_dirt"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7DC8CE98D4DE3F85"
+				item: "deeperdarker:echo_sapling"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "375B7E6A5608388C"
+			rewards: [
+				{
+					count: 6
+					id: "58ECA7698D14208E"
+					item: "thermal:copper_coin"
+					type: "item"
+				}
+				{
+					id: "2AA3D031F0C44461"
+					item: "deep_aether:aether_coarse_dirt"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2913E76EE711709F"
+				item: "aether:skyroot_sapling"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "08CC8BA474BC6D2F"
+			rewards: [
+				{
+					count: 6
+					id: "591FDEEACCDEE415"
+					item: "thermal:copper_coin"
+					type: "item"
+				}
+				{
+					id: "177A780341AA7C8D"
+					item: "deep_aether:aether_coarse_dirt"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2390C53F666D6C75"
+				item: "ancient_aether:crystal_skyroot_sapling"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "15CE1EC2ED85E91E"
+			rewards: [
+				{
+					count: 6
+					id: "1FA4EB544368567A"
+					item: "thermal:copper_coin"
+					type: "item"
+				}
+				{
+					id: "64C35CCB0C2B25C1"
+					item: "deep_aether:aether_coarse_dirt"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2C09ED4C198A0A64"
+				item: "ancient_aether:enchanted_skyroot_sapling"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "1330676AFFE25E43"
+			rewards: [
+				{
+					count: 6
+					id: "6634A33A28DCE491"
+					item: "thermal:copper_coin"
+					type: "item"
+				}
+				{
+					id: "4EA1727466195278"
+					item: "deep_aether:aether_coarse_dirt"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "47627C0B56081B98"
+				item: "aether:golden_oak_sapling"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "27A976D18FA4EE3C"
+			rewards: [
+				{
+					count: 6
+					id: "66D808610667B06F"
+					item: "thermal:copper_coin"
+					type: "item"
+				}
+				{
+					id: "6A02B1810954B902"
+					item: "deep_aether:aether_coarse_dirt"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7D07A5BC0F548F5D"
+				item: "aether_redux:blightwillow_sapling"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "088F05D548BB730F"
+			rewards: [
+				{
+					count: 6
+					id: "429A03B6B5D0F8CD"
+					item: "thermal:copper_coin"
+					type: "item"
+				}
+				{
+					id: "42EE95B0EA1BD84A"
+					item: "deep_aether:aether_coarse_dirt"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0D2770FF54C48E2C"
+				item: "aether_redux:blighted_skyroot_sapling"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "1C3EC1DC0B1081E7"
+			rewards: [
+				{
+					count: 6
+					id: "669F04506CCDC978"
+					item: "thermal:copper_coin"
+					type: "item"
+				}
+				{
+					id: "65DAC4540BBF986B"
+					item: "deep_aether:aether_coarse_dirt"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2941D9B45E850CD6"
+				item: "aether_redux:glacia_sapling"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "5D252268B88102B4"
+			rewards: [
+				{
+					count: 6
+					id: "7C80CA0E9BFC9226"
+					item: "thermal:copper_coin"
+					type: "item"
+				}
+				{
+					id: "7F9D22BBB6EE795C"
+					item: "deep_aether:aether_coarse_dirt"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "75122F79BEF375A7"
+				item: "aether_redux:purple_glacia_sapling"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "64BF02DF2590C970"
+			rewards: [
+				{
+					count: 6
+					id: "6A89F2E6085C56B0"
+					item: "thermal:copper_coin"
+					type: "item"
+				}
+				{
+					id: "11894724D0232081"
+					item: "deep_aether:aether_coarse_dirt"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "360398C518C67D61"
+				item: "aether_redux:gilded_oak_sapling"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "74846E6E30871DC6"
+			rewards: [
+				{
+					count: 6
+					id: "15CA27BD72B953AA"
+					item: "thermal:copper_coin"
+					type: "item"
+				}
+				{
+					id: "5E82E8BB677CB522"
+					item: "deep_aether:aether_coarse_dirt"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "47E52763D16F39C6"
+				item: "aether_redux:crystal_sapling"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "500CDC1005F31DC4"
+			rewards: [
+				{
+					count: 6
+					id: "60DB2835CF050212"
+					item: "thermal:copper_coin"
+					type: "item"
+				}
+				{
+					id: "72F9E9F9C7884401"
+					item: "deep_aether:aether_coarse_dirt"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2A341177D0EA9AB3"
+				item: "aether_redux:crystal_fruit_sapling"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "02F28C4039964122"
+			rewards: [
+				{
+					count: 6
+					id: "49EC4E5C12220D6D"
+					item: "thermal:copper_coin"
+					type: "item"
+				}
+				{
+					id: "0519BD7E03928EBD"
+					item: "deep_aether:aether_coarse_dirt"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "206FECBB84661928"
+				item: "aether_redux:fieldsproot_sapling"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "03358588B84AD788"
+			rewards: [
+				{
+					count: 6
+					id: "5A924C5A2ECC22D9"
+					item: "thermal:copper_coin"
+					type: "item"
+				}
+				{
+					id: "39F3FC830DDE526F"
+					item: "deep_aether:aether_coarse_dirt"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "59D0400E7E373278"
+				item: "ancient_aether:skyroot_pine_sapling"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "6946B9A6F6488485"
+			rewards: [
+				{
+					count: 6
+					id: "09101F90A6BCADD6"
+					item: "thermal:copper_coin"
+					type: "item"
+				}
+				{
+					id: "6CC88891A9DF1812"
+					item: "deep_aether:aether_coarse_dirt"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "22C3FC103E4FE135"
+				item: "ancient_aether:skyroot_pine_sapling"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "33A7905D81093D5F"
+			rewards: [
+				{
+					count: 6
+					id: "06780361FD587990"
+					item: "thermal:copper_coin"
+					type: "item"
+				}
+				{
+					id: "4E0116C2F38CEE11"
+					item: "deep_aether:aether_coarse_dirt"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "407F4CF8789B2863"
+				item: "ancient_aether:highsproot_sapling"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "7530CBD7BB569B99"
+			rewards: [
+				{
+					count: 6
+					id: "6323852720D08943"
+					item: "thermal:copper_coin"
+					type: "item"
+				}
+				{
+					id: "434B3348BDD5A1C3"
+					item: "deep_aether:aether_coarse_dirt"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "362AEA9FD99A6E3D"
+				item: "ancient_aether:sakura_sapling"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "08A5D2F435646E34"
+			rewards: [
+				{
+					count: 6
+					id: "4F3BAFD842D5F061"
+					item: "thermal:copper_coin"
+					type: "item"
+				}
+				{
+					id: "5246770CC0FACF17"
+					item: "deep_aether:aether_coarse_dirt"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "43A29B25E5DAB24F"
+				item: "ancient_aether:sakura_sapling"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "38DEBFA7D5B8835A"
+			rewards: [
+				{
+					count: 6
+					id: "456440A02FCA1CF8"
+					item: "thermal:copper_coin"
+					type: "item"
+				}
+				{
+					id: "7E46E10432D143BA"
+					item: "deep_aether:aether_coarse_dirt"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "17B4DB6ACF7E4FFC"
+				item: "deep_aether:roseroot_sapling"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "5FBE5AA75547FCA6"
+			rewards: [
+				{
+					count: 6
+					id: "4375A9C1ABEA0592"
+					item: "thermal:copper_coin"
+					type: "item"
+				}
+				{
+					id: "70278A6AFAA1AD7B"
+					item: "deep_aether:aether_coarse_dirt"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "64807FC6D03DC4FF"
+				item: "deep_aether:blue_roseroot_sapling"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "1ED7CF17C9BB0C64"
+			rewards: [
+				{
+					count: 6
+					id: "4D905D4C7E1A7140"
+					item: "thermal:copper_coin"
+					type: "item"
+				}
+				{
+					id: "729E06A360B30606"
+					item: "deep_aether:aether_coarse_dirt"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "07291915B417734F"
+				item: "deep_aether:cruderoot_sapling"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "637DFA28DFD81CDF"
+			rewards: [
+				{
+					count: 6
+					id: "272BB0F6F22694B2"
+					item: "thermal:copper_coin"
+					type: "item"
+				}
+				{
+					id: "114CA7768400FB63"
+					item: "deep_aether:aether_coarse_dirt"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5711BDA427D931AD"
+				item: "deep_aether:yagroot_sapling"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "7E436A03EBED7405"
+			rewards: [
+				{
+					count: 6
+					id: "063D080CE24354FC"
+					item: "thermal:copper_coin"
+					type: "item"
+				}
+				{
+					id: "7FF6D4C04A00C1EE"
+					item: "deep_aether:aether_coarse_dirt"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2167345764B81BCA"
+				item: "deep_aether:sunroot_sapling"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "47CE670AA14C00D3"
+			rewards: [
+				{
+					count: 6
+					id: "6990A3428F4BD0D8"
+					item: "thermal:copper_coin"
+					type: "item"
+				}
+				{
+					id: "5AD691DAF7DD2D1C"
+					item: "deep_aether:aether_coarse_dirt"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "33CA07903D7304DB"
+				item: "deep_aether:conberry_sapling"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "5493692D3F0A01E8"
+			rewards: [
+				{
+					count: 6
+					id: "4AF44992F8726F32"
+					item: "thermal:copper_coin"
+					type: "item"
+				}
+				{
+					id: "76F245F5EADB3722"
+					item: "minecraft:coarse_dirt"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4A5E4CE630173FDF"
+				item: "twilightforest:twilight_oak_sapling"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "01506AC1A0A0DF52"
+			rewards: [
+				{
+					count: 6
+					id: "74D73CA3134A17F6"
+					item: "thermal:copper_coin"
+					type: "item"
+				}
+				{
+					id: "6C2DDC66AD08D999"
+					item: "minecraft:coarse_dirt"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5EF1CEDCE1AAEA59"
+				item: "twilightforest:canopy_sapling"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "2A18C3AB22CF9B39"
+			rewards: [
+				{
+					count: 6
+					id: "6CE49DAEC3DB5E16"
+					item: "thermal:copper_coin"
+					type: "item"
+				}
+				{
+					id: "4DAE47F01F5FCA30"
+					item: "minecraft:coarse_dirt"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "326E1733F8ED374B"
+				item: "twilightforest:mangrove_sapling"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "7E5A0389A56E7455"
+			rewards: [
+				{
+					count: 6
+					id: "3D79E09FC0423E53"
+					item: "thermal:copper_coin"
+					type: "item"
+				}
+				{
+					id: "13F94E6E078D5660"
+					item: "minecraft:coarse_dirt"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "71047EAC43B92533"
+				item: "twilightforest:darkwood_sapling"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "7C0EC98B79B1673F"
+			rewards: [
+				{
+					count: 6
+					id: "122BA70B210C399D"
+					item: "thermal:copper_coin"
+					type: "item"
+				}
+				{
+					id: "4FF77C606E672377"
+					item: "minecraft:coarse_dirt"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4D95126313FEC999"
+				item: "twilightforest:time_sapling"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "4551187A3173BF85"
+			rewards: [
+				{
+					count: 6
+					id: "7832A0714599025B"
+					item: "thermal:copper_coin"
+					type: "item"
+				}
+				{
+					id: "16EE8EA993CE0156"
+					item: "minecraft:coarse_dirt"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "03228C5F1350D5B7"
+				item: "twilightforest:transformation_sapling"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "4C287CD66B3150CC"
+			rewards: [
+				{
+					count: 6
+					id: "47D6FB7118B2FF04"
+					item: "thermal:copper_coin"
+					type: "item"
+				}
+				{
+					id: "1C4F258B5770412D"
+					item: "minecraft:coarse_dirt"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1504BBD9442A85E0"
+				item: "twilightforest:mining_sapling"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "24AD1B2D9F92E148"
+			rewards: [
+				{
+					count: 6
+					id: "16B1B6F2A2246CC9"
+					item: "thermal:copper_coin"
+					type: "item"
+				}
+				{
+					id: "68EBE5CD5DEAD3D8"
+					item: "minecraft:coarse_dirt"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3897786A29EE368E"
+				item: "twilightforest:sorting_sapling"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "175BDC34B1BCDA36"
+			rewards: [
+				{
+					count: 6
+					id: "54F5E164D3E7EAA8"
+					item: "thermal:copper_coin"
+					type: "item"
+				}
+				{
+					id: "5CE02021C88AEFE2"
+					item: "minecraft:coarse_dirt"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6987D642D233C94F"
+				item: "twilightforest:rainbow_oak_sapling"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "1AEF4CC30C3EA07F"
+			rewards: [
+				{
+					count: 6
+					id: "7E2D2CD4FF42BF2B"
+					item: "thermal:copper_coin"
+					type: "item"
+				}
+				{
+					id: "02272AC69818D882"
+					item: "minecraft:coarse_dirt"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5AD5D5CD42F1B4D0"
+				item: "twilightforest:hollow_oak_sapling"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -5.0d
+		}
+	]
+	title: "Dendrologist"
+}

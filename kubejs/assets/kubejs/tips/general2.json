@@ -1,0 +1,11 @@
+{
+    "title": {
+      "text": "General",
+      "bold": true,
+      "color": "red"
+    },
+    "tip": {
+      "text": "Finding lush caves early might prove extremely useful in the future!",
+      "color": "green"
+    }
+  }

@@ -1,0 +1,18 @@
+{
+  "priority": 1,
+  "type": "irons_spellbooks:dead_king",
+  "resistances": {
+    "alchemical_damage": 1.2,
+    "physical_damage": 1.2,
+    "fire_damage": 0.9,
+    "arcane_damage": 1.1,
+    "true_damage": 2.0,
+    "ice_damage": 1.1,
+    "holy_damage": 0.75
+  },
+  "damage": {
+    "physical_damage": 0.5,
+    "true_damage": 0.5
+  },
+  "ignored_sources": []
+}

@@ -1,0 +1,13 @@
+{
+  "type": "simple",
+  "max_trades": 12,
+  "price": {
+    "id": "thermal:copper_coin",
+    "Count": 4
+  },
+  "offer": {
+    "id": "minecraft:armor_stand",
+    "Count": 1
+  },
+  "level": 2
+}

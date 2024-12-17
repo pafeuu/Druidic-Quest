@@ -1,0 +1,1093 @@
+{
+	icon: "minecraft:chest"
+	id: "7140B0AB61EC64FA"
+	loot_size: 1
+	order_index: 6
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "supplementaries:sack"
+				tag: {
+					BlockEntityTag: {
+						CustomName: "{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#FFFFFF\",\"text\":\"Aquatic Explorer Set\"}"
+						ForgeCaps: {
+							"improvedmobs:opened_flag": {
+								HasBeenOpened: 1b
+							}
+						}
+						Items: [
+							{
+								Count: 1b
+								Slot: 0b
+								id: "thermal:diving_helmet"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								Slot: 1b
+								id: "minecraft:stone_axe"
+								tag: {
+									Damage: 0
+									Enchantments: [
+										{
+											id: "minecraft:sharpness"
+											lvl: 5s
+										}
+										{
+											id: "minecraft:unbreaking"
+											lvl: 4s
+										}
+									]
+									RepairCost: 3
+									display: {
+										Name: "{\"text\":\"Dead Sea Hatchet\"}"
+									}
+								}
+							}
+							{
+								Count: 16b
+								Slot: 2b
+								id: "minecraft:soul_lantern"
+							}
+							{
+								Count: 1b
+								Slot: 3b
+								id: "thermal:diving_chestplate"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 4b
+								Slot: 4b
+								id: "minecraft:potion"
+								tag: {
+									Potion: "minecraft:long_water_breathing"
+								}
+							}
+							{
+								Count: 4b
+								Slot: 5b
+								id: "farmersdelight:baked_cod_stew"
+							}
+							{
+								Count: 1b
+								Slot: 6b
+								id: "thermal:diving_leggings"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								Slot: 7b
+								id: "thermal:diving_boots"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 8b
+								Slot: 8b
+								id: "farmersdelight:cod_roll"
+							}
+						]
+					}
+					display: {
+						Name: "{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#FFFFFF\",\"text\":\"Aquatic Explorer Set\"}"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "supplementaries:sack"
+				tag: {
+					BlockEntityTag: {
+						CustomName: "{\"text\":\"Lightning Novice Set\"}"
+						ForgeCaps: {
+							"improvedmobs:opened_flag": {
+								HasBeenOpened: 1b
+							}
+						}
+						Items: [
+							{
+								Count: 1b
+								Slot: 0b
+								id: "irons_spellbooks:wandering_magician_chestplate"
+								tag: {
+									Damage: 0
+									Enchantments: [{
+										id: "minecraft:unbreaking"
+										lvl: 1s
+									}]
+									ISBUpgrades: [{
+										id: "irons_spellbooks:lightning_power"
+										slot: "chest"
+										upgrades: 1
+									}]
+									RepairCost: 1
+									display: {
+										Name: "{\"text\":\"Lightning Novice Robe\"}"
+									}
+								}
+							}
+							{
+								Count: 1b
+								Slot: 1b
+								id: "irons_spellbooks:wandering_magician_helmet"
+								tag: {
+									Damage: 0
+									Enchantments: [{
+										id: "minecraft:unbreaking"
+										lvl: 1s
+									}]
+									ISBUpgrades: [{
+										id: "irons_spellbooks:lightning_power"
+										slot: "head"
+										upgrades: 1
+									}]
+									RepairCost: 1
+									display: {
+										Name: "{\"text\":\"Lightning Novice Cap\"}"
+									}
+								}
+							}
+							{
+								Count: 1b
+								Slot: 2b
+								id: "minecraft:bow"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								Slot: 3b
+								id: "minecraft:leather_leggings"
+								tag: {
+									Damage: 0
+									Enchantments: [{
+										id: "minecraft:unbreaking"
+										lvl: 1s
+									}]
+									ISBUpgrades: [{
+										id: "irons_spellbooks:lightning_power"
+										slot: "legs"
+										upgrades: 1
+									}]
+									RepairCost: 1
+									display: {
+										Name: "{\"text\":\"Lightning Novice Pants\"}"
+										color: 3949738
+									}
+								}
+							}
+							{
+								Count: 1b
+								Slot: 4b
+								id: "create_things_and_misc:copper_knife"
+								tag: {
+									Damage: 0
+									ISB_Spells: {
+										data: [{
+											id: "irons_spellbooks:electrocute"
+											index: 0
+											level: 6
+											locked: 0b
+										}]
+										maxSpells: 1
+										mustEquip: 0b
+										spellWheel: 1b
+									}
+								}
+							}
+							{
+								Count: 16b
+								Slot: 5b
+								id: "archers_paradox:lightning_arrow"
+							}
+							{
+								Count: 1b
+								Slot: 6b
+								id: "minecraft:leather_boots"
+								tag: {
+									Damage: 0
+									Enchantments: [{
+										id: "minecraft:unbreaking"
+										lvl: 1s
+									}]
+									ISBUpgrades: [{
+										id: "irons_spellbooks:lightning_power"
+										slot: "feet"
+										upgrades: 1
+									}]
+									RepairCost: 1
+									display: {
+										Name: "{\"text\":\"Lightning Novice Boots\"}"
+										color: 3949738
+									}
+								}
+							}
+						]
+					}
+					display: {
+						Name: "{\"text\":\"Lightning Novice Set\"}"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "supplementaries:sack"
+				tag: {
+					BlockEntityTag: {
+						CustomName: "{\"text\":\"Fire Novice Set\"}"
+						ForgeCaps: {
+							"improvedmobs:opened_flag": {
+								HasBeenOpened: 1b
+							}
+						}
+						Items: [
+							{
+								Count: 1b
+								Slot: 0b
+								id: "irons_spellbooks:wandering_magician_chestplate"
+								tag: {
+									Damage: 0
+									ISBUpgrades: [{
+										id: "irons_spellbooks:fire_power"
+										slot: "chest"
+										upgrades: 1
+									}]
+								}
+							}
+							{
+								Count: 1b
+								Slot: 1b
+								id: "irons_spellbooks:wandering_magician_helmet"
+								tag: {
+									Damage: 0
+									ISBUpgrades: [{
+										id: "irons_spellbooks:fire_power"
+										slot: "head"
+										upgrades: 1
+									}]
+								}
+							}
+							{
+								Count: 3b
+								Slot: 2b
+								id: "minecraft:potion"
+								tag: {
+									Potion: "minecraft:fire_resistance"
+								}
+							}
+							{
+								Count: 1b
+								Slot: 3b
+								id: "irons_spellbooks:wandering_magician_leggings"
+								tag: {
+									Damage: 0
+									ISBUpgrades: [{
+										id: "irons_spellbooks:fire_power"
+										slot: "legs"
+										upgrades: 1
+									}]
+								}
+							}
+							{
+								Count: 8b
+								Slot: 4b
+								id: "vintagedelight:ghostly_chili"
+							}
+							{
+								Count: 3b
+								Slot: 5b
+								id: "minecraft:potion"
+								tag: {
+									Potion: "minecraft:fire_resistance"
+								}
+							}
+							{
+								Count: 1b
+								Slot: 6b
+								id: "irons_spellbooks:wandering_magician_boots"
+								tag: {
+									Damage: 0
+									ISBUpgrades: [{
+										id: "irons_spellbooks:fire_power"
+										slot: "feet"
+										upgrades: 1
+									}]
+								}
+							}
+							{
+								Count: 1b
+								Slot: 7b
+								id: "create_sa:copper_sword"
+								tag: {
+									Damage: 0
+									ISB_Spells: {
+										data: [{
+											id: "irons_spellbooks:firebolt"
+											index: 0
+											level: 7
+											locked: 0b
+										}]
+										maxSpells: 1
+										mustEquip: 0b
+										spellWheel: 1b
+									}
+								}
+							}
+							{
+								Count: 3b
+								Slot: 8b
+								id: "minecraft:potion"
+								tag: {
+									Potion: "minecraft:fire_resistance"
+								}
+							}
+						]
+					}
+					display: {
+						Name: "{\"text\":\"Fire Novice Set\"}"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "supplementaries:sack"
+				tag: {
+					BlockEntityTag: {
+						CustomName: "{\"text\":\"Sharpshooter Set\"}"
+						ForgeCaps: {
+							"improvedmobs:opened_flag": {
+								HasBeenOpened: 1b
+							}
+						}
+						Items: [
+							{
+								Count: 1b
+								Slot: 0b
+								id: "minecraft:bow"
+								tag: {
+									Damage: 0
+									Enchantments: [{
+										id: "minecraft:infinity"
+										lvl: 1s
+									}]
+									RepairCost: 1
+								}
+							}
+							{
+								Count: 1b
+								Slot: 1b
+								id: "minecraft:crossbow"
+								tag: {
+									Damage: 0
+									Enchantments: [
+										{
+											id: "minecraft:quick_charge"
+											lvl: 3s
+										}
+										{
+											id: "minecraft:piercing"
+											lvl: 3s
+										}
+									]
+									RepairCost: 3
+								}
+							}
+							{
+								Count: 1b
+								Slot: 2b
+								id: "minecraft:leather_helmet"
+								tag: {
+									AttributeModifiers: [
+										{
+											Amount: 1.0d
+											AttributeName: "minecraft:generic.armor"
+											Name: "base_armor"
+											Operation: 0
+											Slot: "head"
+											UUID: [I;
+												-1080020746
+												-1539748945
+												-1507510875
+												1121000929
+											]
+										}
+										{
+											Amount: 0.05d
+											AttributeName: "obscure_api:penetration"
+											Name: "base_bonus"
+											Operation: 2
+											Slot: "head"
+											UUID: [I;
+												-1375062292
+												365054308
+												-1724026205
+												-1434413514
+											]
+										}
+									]
+									Damage: 0
+									Enchantments: [{
+										id: "minecraft:unbreaking"
+										lvl: 1s
+									}]
+									display: {
+										Name: "{\"text\":\"Sharpshooter's Hat\"}"
+										color: 1715765
+									}
+								}
+							}
+							{
+								Count: 32b
+								Slot: 3b
+								id: "minecraft:arrow"
+							}
+							{
+								Count: 32b
+								Slot: 4b
+								id: "minecraft:spectral_arrow"
+							}
+							{
+								Count: 1b
+								Slot: 5b
+								id: "create_things_and_misc:copper_knife"
+								tag: {
+									Damage: 0
+									ISB_Spells: {
+										data: [{
+											id: "irons_spellbooks:poison_arrow"
+											index: 0
+											level: 4
+											locked: 0b
+										}]
+										maxSpells: 1
+										mustEquip: 0b
+										spellWheel: 1b
+									}
+								}
+							}
+							{
+								Count: 32b
+								Slot: 6b
+								id: "minecraft:arrow"
+							}
+							{
+								Count: 32b
+								Slot: 7b
+								id: "minecraft:spectral_arrow"
+							}
+						]
+					}
+					display: {
+						Name: "{\"text\":\"Sharpshooter Set\"}"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "supplementaries:sack"
+				tag: {
+					BlockEntityTag: {
+						CustomName: "{\"text\":\"Builder Set\"}"
+						ForgeCaps: {
+							"improvedmobs:opened_flag": {
+								HasBeenOpened: 1b
+							}
+						}
+						Items: [
+							{
+								Count: 1b
+								Slot: 0b
+								id: "create:extendo_grip"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 64b
+								Slot: 1b
+								id: "minecraft:spruce_log"
+							}
+							{
+								Count: 64b
+								Slot: 2b
+								id: "minecraft:stone"
+							}
+							{
+								Count: 64b
+								Slot: 3b
+								id: "minecraft:lantern"
+							}
+							{
+								Count: 1b
+								Slot: 4b
+								id: "alexsmobs:fedora"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 64b
+								Slot: 5b
+								id: "minecraft:stone"
+							}
+							{
+								Count: 64b
+								Slot: 6b
+								id: "minecraft:candle"
+							}
+							{
+								Count: 16b
+								Slot: 7b
+								id: "minecraft:painting"
+							}
+							{
+								Count: 64b
+								Slot: 8b
+								id: "minecraft:stone"
+							}
+						]
+					}
+					display: {
+						Name: "{\"text\":\"Builder Set\"}"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "supplementaries:sack"
+				tag: {
+					BlockEntityTag: {
+						CustomName: "{\"text\":\"Explorer Set\"}"
+						ForgeCaps: {
+							"improvedmobs:opened_flag": {
+								HasBeenOpened: 1b
+							}
+						}
+						Items: [
+							{
+								Count: 1b
+								Slot: 0b
+								id: "thermal:diving_chestplate"
+								tag: {
+									Damage: 0
+									Enchantments: [
+										{
+											id: "minecraft:unbreaking"
+											lvl: 1s
+										}
+										{
+											id: "minecraft:fire_protection"
+											lvl: 1s
+										}
+									]
+									RepairCost: 3
+									display: {
+										Name: "{\"text\":\"Explorer's Waterproof Jacket\"}"
+									}
+								}
+							}
+							{
+								Count: 1b
+								Slot: 1b
+								id: "minecraft:shears"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 4b
+								Slot: 2b
+								id: "minecraft:potion"
+								tag: {
+									Potion: "minecraft:long_swiftness"
+								}
+							}
+							{
+								Count: 1b
+								Slot: 3b
+								id: "thermal:diving_leggings"
+								tag: {
+									Damage: 0
+									Enchantments: [
+										{
+											id: "minecraft:fire_protection"
+											lvl: 1s
+										}
+										{
+											id: "minecraft:unbreaking"
+											lvl: 1s
+										}
+									]
+									RepairCost: 3
+									display: {
+										Name: "{\"text\":\"Explorer's Pants\"}"
+									}
+								}
+							}
+							{
+								Count: 4b
+								Slot: 4b
+								id: "fruitsdelight:mangosteen_jello"
+							}
+							{
+								Count: 4b
+								Slot: 5b
+								id: "minecraft:potion"
+								tag: {
+									Potion: "minecraft:night_vision"
+								}
+							}
+							{
+								Count: 1b
+								Slot: 6b
+								id: "alexsmobs:roadrunner_boots"
+								tag: {
+									Damage: 0
+									Enchantments: [
+										{
+											id: "minecraft:depth_strider"
+											lvl: 1s
+										}
+										{
+											id: "minecraft:soul_speed"
+											lvl: 3s
+										}
+										{
+											id: "minecraft:binding_curse"
+											lvl: 1s
+										}
+									]
+									RepairCost: 7
+									display: {
+										Name: "{\"text\":\"Explorer's running shoes\"}"
+									}
+								}
+							}
+							{
+								Count: 4b
+								Slot: 7b
+								id: "farmersdelight:glow_berry_custard"
+							}
+							{
+								Count: 4b
+								Slot: 8b
+								id: "fruitsdelight:blueberry_custard"
+							}
+						]
+					}
+					display: {
+						Name: "{\"text\":\"Explorer Set\"}"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "supplementaries:sack"
+				tag: {
+					BlockEntityTag: {
+						CustomName: "{\"text\":\"Assasin Set\"}"
+						ForgeCaps: {
+							"improvedmobs:opened_flag": {
+								HasBeenOpened: 1b
+							}
+						}
+						Items: [
+							{
+								Count: 1b
+								Slot: 0b
+								id: "alexsmobs:frontier_cap"
+								tag: {
+									Damage: 0
+									Enchantments: [
+										{
+											id: "minecraft:unbreaking"
+											lvl: 1s
+										}
+										{
+											id: "enigmaticlegacy:eternal_binding"
+											lvl: 1s
+										}
+									]
+									RepairCost: 3
+									display: {
+										Name: "{\"text\":\"Sneaking Cap\"}"
+									}
+								}
+							}
+							{
+								Count: 1b
+								Slot: 1b
+								id: "enigmaticlegacy:ultimate_potion_splash"
+								tag: {
+									EnigmaticPotion: "ultimate_poison"
+								}
+							}
+							{
+								Count: 1b
+								Slot: 3b
+								id: "alexsmobs:centipede_leggings"
+								tag: {
+									Damage: 0
+									Enchantments: [
+										{
+											id: "minecraft:unbreaking"
+											lvl: 1s
+										}
+										{
+											id: "enigmaticlegacy:eternal_binding"
+											lvl: 1s
+										}
+									]
+									RepairCost: 3
+									display: {
+										Name: "{\"text\":\"Wall Climbing Leggings\"}"
+									}
+								}
+							}
+							{
+								Count: 1b
+								Slot: 4b
+								id: "enigmaticlegacy:ultimate_potion_splash"
+								tag: {
+									EnigmaticPotion: "ultimate_poison"
+								}
+							}
+							{
+								Count: 1b
+								Slot: 6b
+								id: "minecraft:leather_boots"
+								tag: {
+									Damage: 0
+									Enchantments: [{
+										id: "enigmaticlegacy:eternal_binding"
+										lvl: 1s
+									}]
+									RepairCost: 1
+									display: {
+										Name: "{\"text\":\"Regular Shoes\"}"
+									}
+								}
+							}
+							{
+								Count: 1b
+								Slot: 7b
+								id: "create_things_and_misc:copper_knife"
+								tag: {
+									Damage: 0
+									Enchantments: [
+										{
+											id: "farmersdelight:backstabbing"
+											lvl: 3s
+										}
+										{
+											id: "minecraft:unbreaking"
+											lvl: 3s
+										}
+										{
+											id: "minecraft:sharpness"
+											lvl: 2s
+										}
+										{
+											id: "minecraft:vanishing_curse"
+											lvl: 1s
+										}
+									]
+									RepairCost: 15
+									display: {
+										Name: "{\"text\":\"The Knife\"}"
+									}
+								}
+							}
+						]
+					}
+					display: {
+						Name: "{\"text\":\"Assasin Set\"}"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "supplementaries:sack"
+				tag: {
+					BlockEntityTag: {
+						CustomName: "{\"text\":\"Healer Set\"}"
+						ForgeCaps: {
+							"improvedmobs:opened_flag": {
+								HasBeenOpened: 1b
+							}
+						}
+						Items: [
+							{
+								Count: 1b
+								Slot: 0b
+								id: "minecraft:chainmail_helmet"
+								tag: {
+									Damage: 0
+									ISBUpgrades: [
+										{
+											id: "irons_spellbooks:holy_power"
+											slot: "head"
+											upgrades: 2
+										}
+										{
+											id: "irons_spellbooks:mana"
+											slot: "head"
+											upgrades: 1
+										}
+									]
+									display: {
+										Name: "{\"text\":\"Healer's Helmet\"}"
+									}
+								}
+							}
+							{
+								Count: 16b
+								Slot: 1b
+								id: "minecraft:splash_potion"
+								tag: {
+									Potion: "minecraft:long_regeneration"
+								}
+							}
+							{
+								Count: 1b
+								Slot: 2b
+								id: "minecraft:stone_sword"
+								tag: {
+									Damage: 0
+									ISB_Spells: {
+										data: [{
+											id: "irons_spellbooks:blessing_of_life"
+											index: 0
+											level: 6
+											locked: 0b
+										}]
+										maxSpells: 1
+										mustEquip: 0b
+										spellWheel: 1b
+									}
+								}
+							}
+							{
+								Count: 1b
+								Slot: 3b
+								id: "minecraft:chainmail_chestplate"
+								tag: {
+									Damage: 0
+									ISBUpgrades: [{
+										id: "irons_spellbooks:mana"
+										slot: "chest"
+										upgrades: 1
+									}]
+									display: {
+										Name: "{\"text\":\"Healer's Chestplate\"}"
+									}
+								}
+							}
+							{
+								Count: 16b
+								Slot: 4b
+								id: "enigmaticlegacy:ultimate_potion_splash"
+								tag: {
+									EnigmaticPotion: "ultimate_healing"
+								}
+							}
+							{
+								Count: 4b
+								Slot: 5b
+								id: "farmersdelight:fish_stew"
+							}
+							{
+								Count: 1b
+								Slot: 6b
+								id: "minecraft:chainmail_leggings"
+								tag: {
+									Damage: 0
+									ISBUpgrades: [{
+										id: "irons_spellbooks:mana"
+										slot: "legs"
+										upgrades: 1
+									}]
+									display: {
+										Name: "{\"text\":\"Healer's Leggings\"}"
+									}
+								}
+							}
+							{
+								Count: 1b
+								Slot: 7b
+								id: "minecraft:chainmail_boots"
+								tag: {
+									Damage: 0
+									ISBUpgrades: [
+										{
+											id: "irons_spellbooks:holy_power"
+											slot: "feet"
+											upgrades: 1
+										}
+										{
+											id: "irons_spellbooks:mana"
+											slot: "feet"
+											upgrades: 1
+										}
+									]
+									display: {
+										Name: "{\"text\":\"Healer's Boots\"}"
+									}
+								}
+							}
+							{
+								Count: 4b
+								Slot: 8b
+								id: "farmersdelight:beef_stew"
+							}
+						]
+					}
+					display: {
+						Name: "{\"text\":\"Healer Set\"}"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "supplementaries:sack"
+				tag: {
+					BlockEntityTag: {
+						CustomName: "{\"text\":\"Miner Set\"}"
+						ForgeCaps: {
+							"improvedmobs:opened_flag": {
+								HasBeenOpened: 1b
+							}
+						}
+						Items: [
+							{
+								Count: 1b
+								Slot: 0b
+								id: "create_sa:copper_helmet"
+								tag: {
+									Damage: 0
+									Enchantments: [{
+										id: "minecraft:unbreaking"
+										lvl: 3s
+									}]
+								}
+							}
+							{
+								Count: 4b
+								Slot: 1b
+								id: "fruitsdelight:jelly_bread"
+								tag: {
+									JellyEffectRoot: ["GLOWBERRY"]
+								}
+							}
+							{
+								Count: 64b
+								Slot: 2b
+								id: "everycomp:ch/forbidden_arcanus/edelwood_torch"
+							}
+							{
+								Count: 1b
+								Slot: 3b
+								id: "create_sa:copper_chestplate"
+								tag: {
+									Damage: 0
+									Enchantments: [{
+										id: "minecraft:unbreaking"
+										lvl: 3s
+									}]
+								}
+							}
+							{
+								Count: 1b
+								Slot: 4b
+								id: "create_sa:copper_pickaxe"
+								tag: {
+									Damage: 0
+									Enchantments: [
+										{
+											id: "minecraft:fortune"
+											lvl: 1s
+										}
+										{
+											id: "minecraft:unbreaking"
+											lvl: 3s
+										}
+										{
+											id: "minecraft:mending"
+											lvl: 1s
+										}
+									]
+								}
+							}
+							{
+								Count: 8b
+								Slot: 5b
+								id: "minecraft:potion"
+								tag: {
+									Potion: "minecraft:long_night_vision"
+								}
+							}
+							{
+								Count: 1b
+								Slot: 6b
+								id: "create_sa:copper_leggings"
+								tag: {
+									Damage: 0
+									Enchantments: [{
+										id: "minecraft:unbreaking"
+										lvl: 3s
+									}]
+								}
+							}
+							{
+								Count: 1b
+								Slot: 7b
+								id: "create_sa:copper_boots"
+								tag: {
+									Damage: 0
+									Enchantments: [{
+										id: "minecraft:unbreaking"
+										lvl: 3s
+									}]
+								}
+							}
+							{
+								Count: 64b
+								Slot: 8b
+								id: "everycomp:ch/forbidden_arcanus/edelwood_torch"
+							}
+						]
+					}
+					display: {
+						Name: "{\"text\":\"Miner Set\"}"
+					}
+				}
+			}
+		}
+	]
+	title: "Sets"
+}

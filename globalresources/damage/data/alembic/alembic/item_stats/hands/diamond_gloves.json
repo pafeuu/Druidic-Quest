@@ -1,0 +1,13 @@
+{
+  "id": "aether:diamond_gloves",
+  "modifiers": [
+    {
+      "type": "append",
+      "attribute": "alembic:arcane_damage.resistance",
+      "value": 6,
+      "operation": "ADDITION",
+      "uuid": "f8c3d33d-1fea-4d7c-a8b0-29f63c4c3454"
+    }
+  ],
+  "equipment_slot": "hands"
+}

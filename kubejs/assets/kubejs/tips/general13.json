@@ -1,0 +1,11 @@
+{
+    "title": {
+      "text": "General",
+      "bold": true,
+      "color": "red"
+    },
+    "tip": {
+      "text": "Strength of enemies increases with each dimension unlocked!",
+      "color": "green"
+    }
+  }

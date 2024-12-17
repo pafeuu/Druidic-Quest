@@ -1,0 +1,11 @@
+{
+    "title": {
+      "text": "General",
+      "bold": true,
+      "color": "red"
+    },
+    "tip": {
+      "text": "There are lots of accessories, creating your own unique set might be the key to survive",
+      "color": "green"
+    }
+  }

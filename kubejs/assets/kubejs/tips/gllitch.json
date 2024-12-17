@@ -1,0 +1,12 @@
+{
+  "title": {
+    "text": "Glitch",
+    "bold": true,
+    "color": "green"
+  },
+  "tip": {
+    "text": "SomI can't take it anymore...",
+    "italic": true,
+    "color": "red"
+  }
+}

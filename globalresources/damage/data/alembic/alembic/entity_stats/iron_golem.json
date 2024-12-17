@@ -1,0 +1,17 @@
+{
+  "priority": 1,
+  "type": "minecraft:iron_golem",
+  "resistances": {
+    "alchemical_damage": 0.5,
+    "physical_damage": 1.5,
+    "fire_damage": 1.5,
+    "arcane_damage": 0.5,
+    "true_damage": 1.0,
+    "ice_damage": 1.0,
+    "holy_damage": 1.75
+  },
+  "damage": {
+    "physical_damage": 1.0
+  },
+  "ignored_sources": []
+}

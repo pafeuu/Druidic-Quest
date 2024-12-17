@@ -1,0 +1,20 @@
+{
+    "priority": 1,
+    "type": "ars_nouveau:wilden_guardian",
+    "resistances": {
+      "alchemical_damage": 1.5,
+      "physical_damage": 1.25,
+      "fire_damage": 1.0,
+      "arcane_damage": 1.25,
+      "true_damage": 1.0,
+      "ice_damage": 1.25,
+      "holy_damage": 1.0
+    },
+    "damage": {
+      "alchemical_damage": 0.6,
+      "ice_damage": 0.4
+    },
+    "ignored_sources": [
+
+    ]
+  }

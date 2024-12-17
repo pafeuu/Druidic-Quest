@@ -1,0 +1,13 @@
+{
+  "type": "sawmill:wood_item_to_emerald",
+  "buys": false,
+  "max_trades": 16,
+  "wood_block": "planks",
+  "wood_block_amount": 24,
+  "emeralds": {
+    "id": "thermal:silver_coin",
+    "Count": 3
+  },
+  "level": 1,
+  "type_dependant": true
+}

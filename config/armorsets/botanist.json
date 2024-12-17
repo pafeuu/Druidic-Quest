@@ -1,0 +1,44 @@
+{
+  "armorSetName": "botanist",
+  "performanceMode": true,
+  "head": {
+    "itemKey": "naturesaura:infused_iron_helmet",
+    "mustBeEmpty": false
+  },
+  "chest": {
+    "itemKey": "naturesaura:infused_iron_chest",
+    "mustBeEmpty": false
+  },
+  "legs": {
+    "itemKey": "naturesaura:infused_iron_pants",
+    "mustBeEmpty": false
+  },
+  "boots": {
+    "itemKey": "naturesaura:infused_iron_shoes",
+    "mustBeEmpty": false
+  },
+  "fullSetBonuses": [
+    {
+      "type": "effect",
+      "name": "minecraft:strength",
+      "value": 0.0,
+      "interactionType": "self",
+      "interactionDuration": 300,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "effect",
+      "name": "minecraft:poison",
+      "interactionType": "immunity",
+      "description": "Poison immunity"
+    },
+    {
+      "type": "effect",
+      "name": "minecraft:wither",
+      "interactionType": "immunity",
+      "description": "Wither effect immunity"
+    }
+  ],
+  "hideGeneratedTooltip": false
+}

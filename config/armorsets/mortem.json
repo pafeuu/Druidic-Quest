@@ -1,0 +1,50 @@
+{
+  "armorSetName": "mortem",
+  "performanceMode": true,
+  "head": {
+    "itemKey": "forbidden_arcanus:mortem_helmet",
+    "mustBeEmpty": false
+  },
+  "chest": {
+    "itemKey": "forbidden_arcanus:mortem_chestplate",
+    
+    "mustBeEmpty": false
+  },
+  "legs": {
+    "itemKey": "forbidden_arcanus:mortem_leggings",
+    "mustBeEmpty": false
+  },
+  "boots": {
+    "itemKey": "forbidden_arcanus:mortem_boots",
+    "mustBeEmpty": false
+  },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.attack_damage",
+      "value": 1,
+      "modifierUUID": "d5a7dc38-3455-4398-b1e5-250b2c2d2218",
+      "description": "Slight attack damage increase",
+      "interactionType": "self",
+      "attributeOperation": 0,
+      "interactionDuration": 300,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "attribute",
+      "name": "combatroll:count",
+      "value": 1,
+      "modifierUUID": "d5a7dc88-9433-4398-b1e5-233b4c6dd212",
+      "description": "+1 combat roll"
+    },
+    {
+      "type": "attribute",
+      "name": "alembic:true_damage.resistance",
+      "value": 6,
+      "modifierUUID": "d5a7dc88-9405-4398-b1e5-233b4c633218",
+      "description": "+6 unholy resistance"
+    }
+  ],
+  "hideGeneratedTooltip": false
+}

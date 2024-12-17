@@ -1,0 +1,1209 @@
+{
+	autofocus_id: "0C52DC15B58FA6DF"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "tier_1"
+	group: "23A1FEBD04C34E2E"
+	hide_quest_details_until_startable: true
+	hide_quest_until_deps_complete: true
+	hide_quest_until_deps_visible: true
+	icon: "ars_nouveau:source_gem"
+	id: "0BDEC92C5378176F"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["51966AE20559FFA0"]
+			description: ["Huge amount of coal coke might be needed later in the game"]
+			hide_details_until_startable: true
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			icon: "immersiveengineering:coal_coke"
+			id: "1651F797382E34A2"
+			min_required_dependencies: 1
+			rewards: [{
+				count: 8
+				id: "1F117B1D3D7879C2"
+				item: "thermal:coal_coke"
+				type: "item"
+			}]
+			size: 2.0d
+			tasks: [{
+				id: "538B05A6611F41FF"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(forge:coal_coke)"
+					}
+				}
+				title: "Any #forge:coal_coke"
+				type: "item"
+			}]
+			title: "Coal coke production"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1651F797382E34A2"]
+			hide_details_until_startable: false
+			hide_until_deps_visible: false
+			id: "00F6FC5B3A511000"
+			rewards: [{
+				count: 5
+				id: "1FC7447856C8E31D"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			subtitle: "If you cant even do that are you sure you want to keep playing?"
+			tasks: [{
+				id: "2604C96BC9FF0DF6"
+				item: "minecraft:furnace"
+				type: "item"
+			}]
+			title: "First magical feat"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["00F6FC5B3A511000"]
+			description: ["You know how to use bucket dont you?"]
+			hide_details_until_startable: false
+			hide_until_deps_visible: false
+			id: "6CDE2D6E743FAAA5"
+			rewards: [{
+				count: 5
+				id: "0BEF6D1048578CCE"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4147D8F3B11EC24F"
+				item: "minecraft:bucket"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6CDE2D6E743FAAA5"]
+			hide_details_until_startable: false
+			hide_until_deps_visible: false
+			id: "118CF02B3B3C899C"
+			rewards: [{
+				count: 16
+				id: "5FBBFEB0FAD0E6EF"
+				item: "minecraft:scaffolding"
+				type: "item"
+			}]
+			subtitle: "You will want to automate that for sure"
+			tasks: [{
+				count: 8L
+				id: "56053AA077C386CB"
+				item: { Count: 8, id: "immersiveengineering:treated_wood_horizontal" }
+				type: "item"
+			}]
+			title: "Basic automation material"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2C7DD9A9CEA857D0"]
+			hide_details_until_startable: false
+			hide_until_deps_visible: false
+			icon: "thermal:gold_dust"
+			id: "44B9FE4B80D14F6F"
+			rewards: [{
+				id: "6F6FCE781B4EE904"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "5476208CE10E3BCE"
+					item: "create:millstone"
+					type: "item"
+				}
+				{
+					id: "594BBF29A4B1C59A"
+					item: "create:hand_crank"
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"44B9FE4B80D14F6F"
+				"19F860FA0B4324FB"
+				"37E717454A7E8792"
+				"41FA7D0AD437E6FB"
+			]
+			hide_details_until_startable: false
+			hide_until_deps_visible: false
+			id: "769C5B75D85F81FC"
+			rewards: [
+				{
+					id: "6EF7E6D3D5F51A0F"
+					item: "thermal:netherite_coin"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "106D953E540E5EBF"
+					table_id: 4856103064949265470L
+					type: "random"
+				}
+			]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "0F661915E20E48D0"
+				item: "ars_nouveau:imbuement_chamber"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["118CF02B3B3C899C"]
+			description: ["To get plates you need to smash &lTreated Wood Planks&r and &lSmooth Stone&r with &lEngineers Hammer&r"]
+			hide_details_until_startable: false
+			hide_until_deps_visible: false
+			icon: {
+				Count: 1
+				id: "immersiveengineering:hammer"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "5C199D8DE803D331"
+			rewards: [
+				{
+					count: 5
+					id: "43DBF42887594096"
+					item: "thermal:copper_coin"
+					type: "item"
+				}
+				{
+					count: 18
+					id: "3D71F0EC90AA9B30"
+					item: "minecraft:potato"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "60CDFF7D510560AB"
+					item: "kubejs:wooden_plate"
+					type: "item"
+				}
+				{
+					id: "40D81269E54BA9EA"
+					item: "kubejs:stone_plate"
+					type: "item"
+				}
+			]
+			title: "Plates"
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5C199D8DE803D331"]
+			description: ["More innovations to play with!"]
+			hide_details_until_startable: false
+			hide_until_deps_visible: false
+			icon: "kubejs:primitive_machine"
+			id: "2C7DD9A9CEA857D0"
+			rewards: [{
+				count: 3
+				id: "5E98E8E6B960EC0B"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5776DECF331133A6"
+				item: "kubejs:primitive_machine"
+				type: "item"
+			}]
+			title: "First machine casing"
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"1B2326E0FC1C25D9"
+				"30B689B22757873D"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"Works exactly like explosion crafting except with lightning."
+				""
+				"There are a few ways to accomplish that."
+				""
+				"You can even wait for a thunderstorm with lightning rod!"
+				"But that may take a while"
+			]
+			hide_details_until_startable: false
+			hide_until_deps_visible: false
+			icon: "ars_nouveau:ritual_cloudshaping"
+			id: "19F860FA0B4324FB"
+			rewards: [{
+				id: "0405A97A52146EC1"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2E3621B603EF2C76"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "or(item(thermal:lightning_grenade)item(thermal:lightning_tnt)item(thermal:lightning_charge)item(archers_paradox:lightning_arrow))"
+					}
+				}
+				title: "Summoning Lightning"
+				type: "item"
+			}]
+			title: "Lightning crafting"
+			x: 8.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["677C282E80275B53"]
+			description: ["You can get it by exploding cloud in a bottle and lightning rod between &4&ly=180 and y=210&r&r or right clicking a charged creeper with empty bottle"]
+			hide_details_until_startable: false
+			hide_until_deps_visible: false
+			id: "1B2326E0FC1C25D9"
+			rewards: [{
+				count: 3
+				id: "2970064F47E20B52"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "375FA52FEF54AB3B"
+				item: "irons_spellbooks:lightning_bottle"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1767BADCC1133711"]
+			description: ["Right click in the air between y=192 and y=196 to get cloud in a bottle"]
+			hide_details_until_startable: false
+			hide_until_deps_visible: false
+			id: "677C282E80275B53"
+			rewards: [{
+				id: "13551B0D7B525961"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "273C16FB610B4B46"
+				item: "quark:bottled_cloud"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["00F6FC5B3A511000"]
+			description: ["Glass not only look nice but is also needed for various crafting recipes"]
+			hide_details_until_startable: false
+			hide_until_deps_visible: false
+			id: "1767BADCC1133711"
+			rewards: [{
+				count: 24
+				id: "680D041A4F7BF899"
+				item: "minecraft:sand"
+				type: "item"
+			}]
+			tasks: [{
+				count: 12L
+				id: "78E3BE06EE1ED63F"
+				item: "minecraft:glass"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["118CF02B3B3C899C"]
+			description: ["Now that you can craft redstone torches, a lot of cool stuff opens up for your usage."]
+			id: "42453AA97CCD3970"
+			rewards: [{
+				count: 3
+				id: "658E66C60F20A241"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3F4032DE4E7C6AFD"
+				item: "minecraft:redstone_torch"
+				type: "item"
+			}]
+			title: "Redstone Innovations!"
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5C199D8DE803D331"]
+			icon: "thermal:saw_blade"
+			id: "0C52DC15B58FA6DF"
+			rewards: [{
+				count: 2
+				id: "5BEC470346C1992E"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "00361FAC52869BA6"
+				item: "thermal:saw_blade"
+				type: "item"
+			}]
+			title: "Easier block crafting"
+			x: 8.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["118CF02B3B3C899C"]
+			description: [
+				"&6Copper Tools&r are extremely durable and are able to mine higher tier ores than stone tools."
+				""
+				"&8Iron Tools&r are not as durable but they gain a little bit of reach and they are also faster than copper tools."
+				""
+				"&7Zinc Tools&r are the most brittle of the 3 but in exchange they are fastest on this stage and they also give the user movement speed boost!"
+			]
+			id: "5B041C755EE18D60"
+			rewards: [{
+				id: "71CF6A9891F43A57"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "1EA20DD67FC47B0C"
+					item: {
+						Count: 1
+						id: "minecraft:iron_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6892B1765C0CE75E"
+					item: {
+						Count: 1
+						id: "create_sa:copper_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "79BF45A5084C6E6C"
+					item: {
+						Count: 1
+						id: "create_sa:zinc_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "New tools"
+			x: 7.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["44B9FE4B80D14F6F"]
+			description: [
+				"To find a &l&5Geode&r&r craft &5&lDowsing Rod&r&r by rightclicking an &8&lArchwood Plank&r&r with &6&lGold Dust&r&r"
+				""
+				"Right clicking with &5&lDowsing Rod&r&r will highlight &5&lAmethyst&r&r related blocks near you"
+			]
+			icon: "minecraft:amethyst_cluster"
+			id: "37E717454A7E8792"
+			rewards: [{
+				id: "07A3589D60871CC6"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [
+				{
+					id: "11D504B66FF82DE8"
+					item: "minecraft:amethyst_shard"
+					type: "item"
+				}
+				{
+					id: "7D42CA9989014F12"
+					item: "kubejs:basic_magic_machine"
+					type: "item"
+				}
+			]
+			title: "Find an Amethyst Geode"
+			x: 12.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2C7DD9A9CEA857D0"]
+			description: ["Most basic item transportation aside from water channels. press U on the conveyor belt in your inventory to check other types of it to craft."]
+			id: "089147A7CE1A1DC6"
+			rewards: [
+				{
+					id: "6B0D2E2DAC916558"
+					item: "quark:bonded_leather"
+					type: "item"
+				}
+				{
+					id: "1E6726FABD05912E"
+					item: "thermal:silver_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "489246BED37D714B"
+				item: "immersiveengineering:conveyor_basic"
+				type: "item"
+			}]
+			title: "Basic entity transportation"
+			x: 10.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0C52DC15B58FA6DF"]
+			icon: "sawmill:sawmill"
+			id: "4572DC8C9535CB74"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4428CBA84EF3F25A"
+				table_id: 2259993594685209388L
+				type: "random"
+			}]
+			shape: "gear"
+			tasks: [
+				{
+					id: "7F5CE105BFA90875"
+					item: "sawmill:sawmill"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "130131B728B839B6"
+					item: "supplementaries:sack"
+					type: "item"
+				}
+			]
+			x: 7.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0C52DC15B58FA6DF"]
+			icon: "minecraft:stonecutter"
+			id: "1F4A354510D73811"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "18C06DA8A9C5DA75"
+				table_id: 5679688801934745409L
+				type: "random"
+			}]
+			shape: "gear"
+			tasks: [
+				{
+					id: "30CBE4443D46F036"
+					item: "minecraft:stonecutter"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "0D0124C6D8019124"
+					item: "supplementaries:sack"
+					type: "item"
+				}
+			]
+			x: 9.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["2C7DD9A9CEA857D0"]
+			description: ["Dispenser can now place blocks, plant seeds and more!"]
+			id: "55B81BBB0E85645E"
+			rewards: [
+				{
+					id: "40DFE9AB9ECA4E3E"
+					item: "thermal:gold_coin"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "0D83AA5457CA82A1"
+					item: "minecraft:dispenser"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6B0F9D770DAA598C"
+				item: "minecraft:dispenser"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["42453AA97CCD3970"]
+			description: ["Like regular hoppers but with only one slot and a bit slower"]
+			id: "62BB9932A2712DF2"
+			rewards: [{
+				id: "789A1EF906C1CCD9"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1C5CEACC888D92DB"
+				item: "woodenhopper:wooden_hopper"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["42453AA97CCD3970"]
+			description: ["Adds sophisticated functionality to the barrel or chest. Also allows for further upgrades of the storage space"]
+			id: "0F2FD265581372C2"
+			rewards: [{
+				count: 4
+				id: "2AB9AFE84B777393"
+				item: "minecraft:redstone"
+				type: "item"
+			}]
+			tasks: [{
+				id: "58E904D063C70856"
+				item: "sophisticatedstorage:basic_tier_upgrade"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0F2FD265581372C2"]
+			description: ["Bigger chests or barrels!"]
+			id: "73415F6632A61CB3"
+			rewards: [{
+				count: 2
+				id: "276EB0C61C8616DF"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1531A6DB3A87D0B8"
+				item: "sophisticatedstorage:basic_to_copper_tier_upgrade"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["62BB9932A2712DF2"]
+			description: ["Basket picks up items from the block space next to its open side! They can be placed in any direction"]
+			id: "29355E8CC5535951"
+			rewards: [{
+				id: "2F4E346FD2CDFB1F"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2418415C9A8B0F8F"
+				item: "farmersdelight:basket"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["118CF02B3B3C899C"]
+			description: ["&lTreated wood&r unlocks quite a lot of new items to craft"]
+			id: "23FBA974E0F978E9"
+			rewards: [{
+				id: "32C8CF9937CF6DCB"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			tasks: [{
+				count: 2L
+				id: "24DC422227451CC7"
+				item: { Count: 2, id: "immersiveengineering:treated_fence" }
+				title: "New functional furniture"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["23FBA974E0F978E9"]
+			icon: "handcrafted:mangrove_fancy_bed"
+			id: "7CB0215E03B2D42C"
+			rewards: [{
+				id: "41BEF958B41A031A"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2C15860C8627C2EC"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:beds)"
+					}
+				}
+				title: "Any #minecraft:beds"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["23FBA974E0F978E9"]
+			icon: {
+				Count: 1
+				id: "irons_spellbooks:copper_spell_book"
+				tag: {
+					ISB_Spells: {
+						data: [ ]
+						maxSpells: 5
+						mustEquip: 1b
+						spellWheel: 1b
+					}
+				}
+			}
+			id: "3C2909A41E93F910"
+			rewards: [{
+				id: "5AEC60763C3EED30"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [
+				{
+					id: "0AA44CED3ADF9879"
+					item: "irons_spellbooks:inscription_table"
+					type: "item"
+				}
+				{
+					id: "16D5BB7EA7A9F70F"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:copper_spell_book"
+						tag: {
+							ISB_Spells: {
+								data: [ ]
+								maxSpells: 5
+								mustEquip: 1b
+								spellWheel: 1b
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 7.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["118CF02B3B3C899C"]
+			description: ["Keeps the content just like shulker box would"]
+			id: "4BE9468347CCD7B1"
+			rewards: [{
+				id: "0EECED4BD477DA1B"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "7DC0AD7A50AB7512"
+				item: "immersiveengineering:crate"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["4BE9468347CCD7B1"]
+			description: ["You know what a backpack is"]
+			id: "6BEAFAE5088E0C30"
+			rewards: [{
+				id: "44BE5F72D44F48E9"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "339619EF5A94C27D"
+				item: "sophisticatedbackpacks:backpack"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -8.0d
+		}
+		{
+			dependencies: [
+				"769C5B75D85F81FC"
+				"3C2909A41E93F910"
+			]
+			id: "12A42D84CE4AB829"
+			rewards: [{
+				count: 4
+				id: "390AFCE7E12943DF"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "765E7DE584AA1B73"
+				item: "ars_nouveau:novice_spell_book"
+				type: "item"
+			}]
+			x: 14.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["37E717454A7E8792"]
+			description: ["New food types!"]
+			id: "4168F305B7E633CA"
+			rewards: [{
+				id: "3DB14F1238E91115"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2B209E019AB8437A"
+				item: "vintagedelight:fermenting_jar"
+				type: "item"
+			}]
+			x: 15.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2C7DD9A9CEA857D0"]
+			description: ["Needs a multiblock structure to function. Check out natures aura guide book for more info"]
+			id: "0773DBD92BA8845A"
+			rewards: [
+				{
+					id: "72F13B06F7A4C3A0"
+					item: "thermal:gold_coin"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "222B295447C37902"
+					item: "naturesaura:ancient_planks"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6750DCDFC06D37C3"
+				item: "naturesaura:auto_crafter"
+				type: "item"
+			}]
+			title: "First autocrafter"
+			x: 11.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["37E717454A7E8792"]
+			description: ["Like regular composter but compost 9 items at a time and turns it into compost instead of bone meal."]
+			id: "58D5C17CFEF156E6"
+			rewards: [
+				{
+					count: 8
+					id: "103235C832B7DE97"
+					item: "kubejs:sapling_ball"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "7F1150B74C2F36FD"
+					item: "thermal:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1549E760A1DBE88A"
+				item: "thermal:device_composter"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["37E717454A7E8792"]
+			description: ["Automatic fishing! Loot table is quite a lot different than regular fishing."]
+			id: "69EEB38CE28E243E"
+			rewards: [
+				{
+					count: 8
+					id: "45A2A7AD8C22FB56"
+					item: "thermal:aquachow"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "486F4FB3C6603EC2"
+					item: "thermal:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "43DA75733DF1A3F1"
+				item: "thermal:device_fisher"
+				type: "item"
+			}]
+			x: 13.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["37E717454A7E8792"]
+			description: ["Allow the creation of new spells!"]
+			id: "1B9897EF3A4960B4"
+			rewards: [
+				{
+					id: "70D2FEDD880C6D97"
+					item: "irons_spellbooks:rare_ink"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "049DDE33A3A24AD9"
+					item: "thermal:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "435E0B68A389CFBC"
+				item: "irons_spellbooks:scroll_forge"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["5C199D8DE803D331"]
+			id: "3F2C3DA3AB21C5B6"
+			rewards: [{
+				count: 3
+				id: "3EF0C9691C1E67FE"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5B385E0139886FDA"
+				item: {
+					Count: 1
+					id: "minecraft:shears"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["769C5B75D85F81FC"]
+			description: ["In the next chapter getting to the &l&2Lush Caves&r&r is crucial for the progression! You can buy map to this biome for just 1 gold coin!"]
+			icon: "quarkdelight:lush_moss_salad"
+			id: "1EC8670D9091464A"
+			rewards: [{
+				id: "1DEE23CA34415DA7"
+				item: {
+					Count: 1
+					id: "quark:pathfinders_quill"
+					tag: {
+						targetBiome: "minecraft:lush_caves"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 4L
+				id: "5D9917031185EA45"
+				item: { Count: 4, id: "thermal:gold_coin" }
+				type: "item"
+			}]
+			title: "Buy a location of the lush caves"
+			x: 15.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["42453AA97CCD3970"]
+			description: ["Redstone dust in block form! Can also go up and down. Does not need a block to support it"]
+			id: "7BE52BCC5EB42805"
+			rewards: [{
+				count: 8
+				id: "4F846A295594528C"
+				item: "supplementaries:cog_block"
+				type: "item"
+			}]
+			tasks: [{
+				id: "753DED7F59E5FBE3"
+				item: "supplementaries:cog_block"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["769C5B75D85F81FC"]
+			id: "7E7BB0BB5C8EBBB5"
+			rewards: [{
+				id: "28A65F40AE0D4067"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3321B5666ADB0B98"
+				item: "tombstone:strange_scroll"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5C199D8DE803D331"]
+			description: ["&8&lFaucet&r&r can transport fluid from the side to the container below!"]
+			icon: "supplementaries:faucet"
+			id: "5AA3FEC64480E95D"
+			rewards: [{
+				id: "6A23CA0F1FFF8484"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "63996149119CB78D"
+					item: "create:fluid_tank"
+					type: "item"
+				}
+				{
+					id: "1FEC8246B3206F09"
+					item: "supplementaries:faucet"
+					type: "item"
+				}
+				{
+					id: "0B59DB4096C66BA6"
+					item: "create:spout"
+					type: "item"
+				}
+				{
+					id: "27A2ADA66E8F297B"
+					item: "create:depot"
+					type: "item"
+				}
+			]
+			title: "Fluid transportation"
+			x: 9.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["19F860FA0B4324FB"]
+			description: ["Uses aura from you aura cache to create light on right click!"]
+			id: "490B9B2E3CFE4E94"
+			rewards: [{
+				id: "55EF0E66B15F2BE2"
+				item: {
+					Count: 1
+					id: "naturesaura:aura_cache"
+					tag: {
+						aura: 400000
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "78FA8BABA3D9EB7B"
+				item: "naturesaura:light_staff"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["12A42D84CE4AB829"]
+			hide_until_deps_visible: false
+			id: "013D068E5A72F7E5"
+			rewards: [{
+				id: "611B976A21179A7B"
+				item: {
+					Count: 1
+					id: "ars_nouveau:annotated_codex"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4D35022515ACCD08"
+				item: "ars_nouveau:scribes_table"
+				type: "item"
+			}]
+			x: 18.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["7E7BB0BB5C8EBBB5"]
+			id: "0F47267A3B25BB1B"
+			rewards: [
+				{
+					count: 8
+					id: "59CFCB990805FF20"
+					item: "farmersdelight:canvas"
+					type: "item"
+				}
+				{
+					id: "09339C3921A669B6"
+					item: "minecraft:ender_pearl"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "33F199C9DBD3F55D"
+				item: "waystones:return_scroll"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"296B9FE094A5F55E"
+				"37E717454A7E8792"
+			]
+			hide_until_deps_visible: true
+			id: "0E5FB7E6E204BD96"
+			tasks: [{
+				id: "3FCF235E87B92797"
+				item: "torchmaster:feral_flare_lantern"
+				type: "item"
+			}]
+			x: 15.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"490B9B2E3CFE4E94"
+				"013D068E5A72F7E5"
+			]
+			hide_until_deps_visible: true
+			id: "296B9FE094A5F55E"
+			tasks: [{
+				id: "38707DB585F33DB2"
+				item: "ars_nouveau:glyph_light"
+				type: "item"
+			}]
+			x: 18.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5C199D8DE803D331"]
+			description: ["You can automate creation of plates with anvil falling on treated wood planks or smooth stone!"]
+			id: "102DB1ACA8393AF8"
+			rewards: [{
+				count: 2
+				id: "1FE4D611D65EBB14"
+				item: "minecraft:piston"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6D387306B9367800"
+				item: "minecraft:anvil"
+				type: "item"
+			}]
+			title: "Automation of plates!"
+			x: 7.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"6CDE2D6E743FAAA5"
+				"0E40C9B32E05AC51"
+			]
+			description: ["&5&lDimension Ripper&r&r activates twilight forest portal like the diamond usually would in other packs"]
+			hide_until_deps_visible: false
+			icon: "twilightforest:twilight_portal_miniature_structure"
+			id: "30B689B22757873D"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					icon: {
+						Count: 1
+						id: "create_sa:copper_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "015B578C37712CB6"
+					table_id: 8160716774924117242L
+					type: "choice"
+				}
+				{
+					id: "0BF495DC80A40AE1"
+					item: "twilightforest:magic_map"
+					type: "item"
+				}
+			]
+			tasks: [{
+				dimension: "twilightforest:twilight_forest"
+				id: "03928E0DF685C903"
+				type: "dimension"
+			}]
+			title: "Visit the Twilight Forest!"
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["30B689B22757873D"]
+			hide_until_deps_visible: false
+			id: "41FA7D0AD437E6FB"
+			rewards: [{
+				count: 3
+				id: "5D067E5C731870E7"
+				item: "twilightforest:naga_scale"
+				type: "item"
+			}]
+			tasks: [{
+				id: "35BB067B1AD47C52"
+				item: "twilightforest:naga_scale"
+				type: "item"
+			}]
+			title: "Slay the Naga "
+			x: 11.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6CDE2D6E743FAAA5"]
+			description: ["To get &l&bHeart of Diamond&r&r you need to sneak up to a &8stoneling&r which you can find in underground caves. Use it to craft the &5&lDimension Ripper&r&r"]
+			icon: "kubejs:dimension_ripper"
+			id: "0E40C9B32E05AC51"
+			rewards: [{
+				id: "666A5F5D61E4B77E"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4E96E7386E2835C4"
+				item: "quark:diamond_heart"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 1.0d
+		}
+	]
+	title: "Tier 1 - Basic Magic"
+}

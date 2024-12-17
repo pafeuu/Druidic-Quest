@@ -1,0 +1,23 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "archfisher"
+	group: "6959C7C8592FBBA9"
+	icon: {
+		Count: 1
+		id: "tide:netherite_fishing_rod"
+		tag: {
+			Damage: 0
+			modifier: {
+				bobber: "tide:red_fishing_bobber"
+				hook: "tide:fishing_hook"
+				line: "tide:fishing_line"
+			}
+		}
+	}
+	id: "4EDCA06013ECC813"
+	order_index: 10
+	quest_links: [ ]
+	quests: [ ]
+	title: "Archfisher"
+}

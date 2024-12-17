@@ -1,0 +1,11 @@
+{
+  "title": {
+    "text": "Farming",
+    "bold": true,
+    "color": "red"
+  },
+  "tip": {
+    "text": "There are tons of new generators similiar to cobble gen from vanilla, check out world interaction tabi in EMI!",
+    "color": "green"
+  }
+}

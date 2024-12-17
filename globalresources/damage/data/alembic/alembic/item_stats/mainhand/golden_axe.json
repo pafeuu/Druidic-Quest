@@ -1,0 +1,13 @@
+{
+  "id": "minecraft:golden_axe",
+  "modifiers": [
+	{
+      "type": "append",
+      "attribute": "alembic:arcane_damage",
+      "value": 3,
+      "operation": "ADDITION",
+      "uuid": "f8c3d22d-1fea-4d7c-a8b0-29f632223454"
+    }
+  ],
+  "equipment_slot": "MAINHAND"
+}
