@@ -10,6 +10,14 @@
 /screenshots
 /shaderpacks
 /xaero
+/schematics
+/XaeroWaypoints_BACKUP240807
+/crash-reports
+/.mixin.out
+/alembic
+/server-resource-packs
+/texturepacks
+
 options.txt
 usercache.json
 usernamecache.json
