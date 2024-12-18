@@ -924,7 +924,7 @@ Patch 0.3.2.1
     -Hidden some items in the JEI/EMI
     -Changed loading screen and main menu a bit
 
-# Patch 0.4.2
+# Patch 0.5 Equipment Update
 
 ### Updated Mods:
 
@@ -959,4 +959,15 @@ Patch 0.3.2.1
     -Blade of Grass
     -Arcane Alloy block
     -Inert Alloy block
+    -Arcane Alloy plate
+    -Inert Alloy plate
+    -Bear totem
+    -Bunny totem
     -Magical generator block
+    -The Ice Cube
+    -Lead boots
+
+### Textures:
+
+    -Changed a bit texture of the twilight key and dark essence
+    

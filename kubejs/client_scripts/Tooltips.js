@@ -3,7 +3,8 @@ ItemEvents.tooltip( tooltip => {
   tooltip.add(['enigmaticlegacy:thicc_scroll', 'irons_spellbooks:common_ink','ars_nouveau:potion_flask','explorerscompass:explorerscompass','enigmaticlegacy:cosmic_cake','enigmaticlegacy:mending_mixture'],
     Text.green('Available through villager trading'))
 
-  tooltip.add(['kubejs:roadrunner_totem',"kubejs:tiger_totem","kubejs:frog_totem","kubejs:penguing_totem","kubejs:wooden_crucifix","kubejs:metal_crucifix","kubejs:bejeweled_crucifix"],Text.gray("Works only in the offhand"))
+  tooltip.add(['kubejs:roadrunner_totem',"kubejs:tiger_totem","kubejs:frog_totem","kubejs:penguing_totem","kubejs:wooden_crucifix","kubejs:metal_crucifix",
+    "kubejs:bejeweled_crucifix","kubejs:penguin_totem","kubejs:bear_totem"],Text.gray("Works only in the offhand"))
 
   tooltip.add(["solonion:lunchbag","solonion:lunchbox","supplementaries:sack"],Text.red("Make sure to empty it before upgrading!"))
   

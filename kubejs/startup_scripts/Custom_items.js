@@ -36,6 +36,15 @@ ItemEvents.toolTierRegistry(event => {
     tier.repairIngredient = 'thermal:blizz_rod'
   })
 
+  event.add('grass', tier => {
+    tier.uses = 512
+    tier.speed = 3.0
+    tier.attackDamageBonus = 0
+    tier.level = 1
+    tier.enchantmentValue = 12
+    tier.repairIngredient = 'kubejs:nature_essence'
+  })
+
 })
 
 StartupEvents.registry('item', item => {
@@ -45,6 +54,8 @@ StartupEvents.registry('item', item => {
   item.create('stone_plate').displayName('Stone Plate').tag("forge:plates/stone")
   item.create('wooden_plate').displayName('Wooden Plate').tag("forge:plates/wooden")
   item.create('diamond_plate').displayName('Diamond Plate').tag('forge:plates/diamond')
+  item.create('arcane_alloy_plate').tag('forge:plates')
+  item.create('inert_alloy_plate').tag('forge:plates')
 
   ///===================================================GEARS===========================================================
   item.create('wooden_gear').displayName('Wooden Gear').tag('forge:gears/wooden')
@@ -110,17 +121,23 @@ StartupEvents.registry('item', item => {
 
   ///===================================================TOTEMS
   
-  item.create('roadrunner_totem').unstackable()
-  item.create('tiger_totem').unstackable()
-  item.create('frog_totem').unstackable()
-  item.create('penguin_totem').unstackable()
-  item.create('wooden_crucifix').unstackable()
-  item.create('metal_crucifix').unstackable()
-  item.create('bejeweled_crucifix').unstackable()
+  item.create('roadrunner_totem').unstackable().tag("forge:tools/totems")
+  item.create('bunny_totem').unstackable().tag("forge:tools/totems")
+  item.create('tiger_totem').unstackable().tag("forge:tools/totems")
+  item.create('frog_totem').unstackable().tag("forge:tools/totems")
+  item.create('penguin_totem').unstackable().tag("forge:tools/totems")
+  item.create('bear_totem').unstackable().tag("forge:tools/totems")
+  item.create('wooden_crucifix').unstackable().tag("forge:tools/totems")
+  item.create('metal_crucifix').unstackable().tag("forge:tools/totems")
+  item.create('bejeweled_crucifix').unstackable().tag("forge:tools/totems")
 
   ///===================================================NECKLACES
 
   item.create('cross_necklace').displayName('Cross Necklace').tag("curios:necklace").unstackable()
+
+  //==================================================CHARMS
+
+  item.create('the_ice_cube').tag('curios:charm').unstackable()
 
   ///===================================================TEMPLATES
 
@@ -140,16 +157,17 @@ StartupEvents.registry('item', item => {
   item.create('broken_key').displayName('Broken Key')
 
   ///=================================================TOOLS============================================================
-
-  item.create('the_terraformer','shovel').glow(true).rarity("epic").tier("terraformer").tag("minecraft:tools")
   item.create("royal_guard_sword","sword").tier('royal').tag("minecraft:swords").tag("minecraft:tools").tag("forge:tools/iron")
   item.create('chill_blade','sword').tier('ice').tag('minecraft:sword').tag('minecraft:tools')
+  item.create('blade_of_grass','sword').tier('grass').tag('minecraft:sword').tag('minecraft:tools')
   item.create('ice_blade','sword').tier('ice').tag('minecraft:sword').tag('minecraft:tools').glow(true)
+
   item.create('sharp_feather','sword').tier('gold').glow(true).tag("minecraft:tools").displayName("Golden Feather").tag("forge:tools/magic_feather")
   item.create('very_sharp_feather','sword').tier('diamond').glow(true).tag("minecraft:tools").displayName("Fiery Feather").tag("forge:tools/magic_feather").tag("forge:tools/tier2_magic_feather")
   item.create('rainbow_feather','sword').tier('netherite').glow(true).tag("minecraft:tools").tag("forge:tools/magic_feather").tag("forge:tools/tier2_magic_feather")
+
   item.create('mining_hammer','pickaxe').tier('hammer').tag("minecraft:tools").tag('forge:tools/hammers')
-  
+  item.create('the_terraformer','shovel').glow(true).rarity("epic").tier("terraformer").tag("minecraft:tools")
   ///===================================================FOOD===========================================================
 
   item.create("cut_onions").displayName("Cut Onions").food(food=>{

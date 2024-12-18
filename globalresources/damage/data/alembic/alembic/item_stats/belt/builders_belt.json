@@ -1,0 +1,20 @@
+{
+  "id": "kubejs:builders_belt",
+  "modifiers": [
+    {
+      "type": "append",
+      "attribute": "forge:block_reach",
+      "value": 1.5,
+      "operation": "ADDITION",
+      "uuid": "f8c1133d-1fea-4d7c-a8b0-29f63c4c3454"
+    },
+    {
+      "type": "append",
+      "attribute": "minecraft:generic.attack_damage",
+      "value": -3,
+      "operation": "ADDITION",
+      "uuid": "f8c3d22d-1fea-4d7c-a8b0-29f63c4c3454"
+    }
+  ],
+  "equipment_slot": "belt"
+}
