@@ -51,6 +51,84 @@
       "texture": "quark:attribute/attack_damage",
       "compare": "higher_better"
     },
+    "alembic:holy_damage": {
+      "display": {
+        "mainhand": "flat",
+        "offhand": "difference",
+        "feet": "difference",
+        "legs": "difference",
+        "chest": "difference",
+        "head": "difference",
+        "potion": "difference"
+      },
+      "texture": "quark:attribute/holy_damage",
+      "compare": "higher_better"
+    },
+    "alembic:alchemical_damage": {
+      "display": {
+        "mainhand": "flat",
+        "offhand": "difference",
+        "feet": "difference",
+        "legs": "difference",
+        "chest": "difference",
+        "head": "difference",
+        "potion": "difference"
+      },
+      "texture": "quark:attribute/alchemical_damage",
+      "compare": "higher_better"
+    },
+    "alembic:true_damage": {
+      "display": {
+        "mainhand": "flat",
+        "offhand": "difference",
+        "feet": "difference",
+        "legs": "difference",
+        "chest": "difference",
+        "head": "difference",
+        "potion": "difference"
+      },
+      "texture": "quark:attribute/true_damage",
+      "compare": "higher_better"
+    },
+    "alembic:ice_damage": {
+      "display": {
+        "mainhand": "flat",
+        "offhand": "difference",
+        "feet": "difference",
+        "legs": "difference",
+        "chest": "difference",
+        "head": "difference",
+        "potion": "difference"
+      },
+      "texture": "quark:attribute/ice_damage",
+      "compare": "higher_better"
+    },
+    "alembic:fire_damage": {
+      "display": {
+        "mainhand": "flat",
+        "offhand": "difference",
+        "feet": "difference",
+        "legs": "difference",
+        "chest": "difference",
+        "head": "difference",
+        "potion": "difference"
+      },
+      "texture": "quark:attribute/fire_damage",
+      "compare": "higher_better"
+    },
+    "alembic:arcane_damage": {
+      "display": {
+        "mainhand": "flat",
+        "offhand": "difference",
+        "feet": "difference",
+        "legs": "difference",
+        "chest": "difference",
+        "head": "difference",
+        "potion": "difference"
+      },
+      "texture": "quark:attribute/arcane_damage",
+      "compare": "higher_better"
+    },
     "minecraft:generic.attack_knockback": {
       "display": {
         "mainhand": "flat",
@@ -88,6 +166,84 @@
         "potion": "flat"
       },
       "texture": "quark:attribute/armor",
+      "compare": "higher_better"
+    },
+    "minecraft:alchemical_resistance": {
+      "display": {
+        "mainhand": "flat",
+        "offhand": "flat",
+        "feet": "flat",
+        "legs": "flat",
+        "chest": "flat",
+        "head": "flat",
+        "potion": "flat"
+      },
+      "texture": "quark:attribute/alchemical_resistance",
+      "compare": "higher_better"
+    },
+    "minecraft:arcane_resistance": {
+      "display": {
+        "mainhand": "flat",
+        "offhand": "flat",
+        "feet": "flat",
+        "legs": "flat",
+        "chest": "flat",
+        "head": "flat",
+        "potion": "flat"
+      },
+      "texture": "quark:attribute/arcane_resistance",
+      "compare": "higher_better"
+    },
+    "minecraft:fire_resistance": {
+      "display": {
+        "mainhand": "flat",
+        "offhand": "flat",
+        "feet": "flat",
+        "legs": "flat",
+        "chest": "flat",
+        "head": "flat",
+        "potion": "flat"
+      },
+      "texture": "quark:attribute/fire_resistance",
+      "compare": "higher_better"
+    },
+    "minecraft:holy_resistance": {
+      "display": {
+        "mainhand": "flat",
+        "offhand": "flat",
+        "feet": "flat",
+        "legs": "flat",
+        "chest": "flat",
+        "head": "flat",
+        "potion": "flat"
+      },
+      "texture": "quark:attribute/holy_resistance",
+      "compare": "higher_better"
+    },
+    "minecraft:ice_resistance": {
+      "display": {
+        "mainhand": "flat",
+        "offhand": "flat",
+        "feet": "flat",
+        "legs": "flat",
+        "chest": "flat",
+        "head": "flat",
+        "potion": "flat"
+      },
+      "texture": "quark:attribute/ice_resistance",
+      "compare": "higher_better"
+    },
+    "minecraft:true_resistance": {
+      "display": {
+        "mainhand": "flat",
+        "offhand": "flat",
+        "feet": "flat",
+        "legs": "flat",
+        "chest": "flat",
+        "head": "flat",
+        "potion": "flat"
+      },
+      "texture": "quark:attribute/true_resistance",
       "compare": "higher_better"
     },
     "minecraft:generic.armor_toughness": {

@@ -1551,7 +1551,7 @@ ServerEvents.recipes(event => {
 		]
 	}).id("forbidden_arcanus:mundabitur_dust")
 
-   event.recipes.ars_nouveau.enchanting_apparatus(["create_sa:zinc_handle","#forge:gems/ruby","#forge:storage_blocks/gold","#forge:storage_blocks/gold","#forge:storage_blocks/gold","#forge:storage_blocks/gold"],"bundle","kubejs:gold_upgrade_parts")
+   event.recipes.ars_nouveau.enchanting_apparatus(["create_sa:zinc_handle","thermal:ruby","#forge:storage_blocks/gold","#forge:storage_blocks/gold","#forge:storage_blocks/gold","#forge:storage_blocks/gold"],"bundle","kubejs:gold_upgrade_parts")
 
    event.custom({
 	type: "lychee:block_crushing",

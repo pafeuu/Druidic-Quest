@@ -838,13 +838,24 @@ ServerEvents.recipes(event => {
 	event.custom({
 		"type": "rubinated_nether:freezing",
 		"category": "freezable_misc",
-		"cookingtime": 19200,
+		"cookingtime": 2000,
 		"experience": 1.0,
 		"ingredient": {
 			"item": "kubejs:chill_blade"
 		},
 		"result": Item.of('kubejs:ice_blade', '{Damage:0,ISB_Spells:{data:[{id:"irons_spellbooks:icicle",index:0,level:5,locked:0b}],maxSpells:1,mustEquip:0b,spellWheel:1b}}')
 	})
+
+	event.custom({
+		type: "lychee:item_inside",
+		item_in:[
+			{item:"minecraft:iron_sword"},
+			{item:"quark:diamond_heart"}
+		],
+		post:{type: "drop_item", item: "kubejs:chill_blade"},
+		block_in: "minecraft:powder_snow"
+	})
+
 	event.shaped("aether:chainmail_gloves",
 	  [
 		'III',

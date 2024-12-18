@@ -970,4 +970,20 @@ Patch 0.3.2.1
 ### Textures:
 
     -Changed a bit texture of the twilight key and dark essence
+
+### Recipes:
+
+    -Fixed Gold Upgrade Parts recipe
+    -Added recipe for the Chilled Blade
+
+### Balance:
+
+    -Nerfed netherite boots and netherite leggings
+    -Buffed Steel set
+    -Buffed Botanist set
+    -Buffed Leather set
+
+### Other:
+
+    -Added other damage and resistance icons
     

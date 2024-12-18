@@ -32,8 +32,6 @@ StartupEvents.registry("block", (event) => {
     .requiresTool(true) // Requires a tool or it won't drop (see tags below)
     .tagBlock("mineable/pickaxe") // or a pickaxe
     .tagBlock('minecraft:needs_stone_tool') // the tool tier must be at least iron
-	.texture('up', 'kubejs:block/basic_magic_machine_top')
-	.texture('down', 'kubejs:block/basic_magic_machine_top')
 	.lightLevel('8')
 	
 	event.create("magic_machine") // Create a new block
