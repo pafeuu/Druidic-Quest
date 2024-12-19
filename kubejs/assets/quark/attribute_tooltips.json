@@ -168,7 +168,7 @@
       "texture": "quark:attribute/armor",
       "compare": "higher_better"
     },
-    "minecraft:alchemical_resistance": {
+    "alembic:alchemical_damage.resistance": {
       "display": {
         "mainhand": "flat",
         "offhand": "flat",
@@ -181,7 +181,7 @@
       "texture": "quark:attribute/alchemical_resistance",
       "compare": "higher_better"
     },
-    "minecraft:arcane_resistance": {
+    "alembic:arcane_damage.resistance": {
       "display": {
         "mainhand": "flat",
         "offhand": "flat",
@@ -194,7 +194,7 @@
       "texture": "quark:attribute/arcane_resistance",
       "compare": "higher_better"
     },
-    "minecraft:fire_resistance": {
+    "alembic:fire_damage.resistance": {
       "display": {
         "mainhand": "flat",
         "offhand": "flat",
@@ -207,7 +207,7 @@
       "texture": "quark:attribute/fire_resistance",
       "compare": "higher_better"
     },
-    "minecraft:holy_resistance": {
+    "alembic:holy_damage.resistance": {
       "display": {
         "mainhand": "flat",
         "offhand": "flat",
@@ -220,7 +220,7 @@
       "texture": "quark:attribute/holy_resistance",
       "compare": "higher_better"
     },
-    "minecraft:ice_resistance": {
+    "alembic:ice_damage.resistance": {
       "display": {
         "mainhand": "flat",
         "offhand": "flat",
@@ -233,7 +233,7 @@
       "texture": "quark:attribute/ice_resistance",
       "compare": "higher_better"
     },
-    "minecraft:true_resistance": {
+    "alembic:true_damage.resistance": {
       "display": {
         "mainhand": "flat",
         "offhand": "flat",

@@ -163,4 +163,8 @@ StartupEvents.registry("block", (event) => {
     .resistance("6")
     .tagBlock("mineable/pickaxe")
     .tagBlock('minecraft:needs_iron_tool')
+
+    
+
+	
 })

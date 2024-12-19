@@ -53,7 +53,8 @@ LootJS.modifiers((event) => {
         .replaceLoot("create:large_cogwheel","kubejs:wooden_gear")
         .replaceLoot("create:cogwheel","kubejs:wooden_gear")
         .replaceLoot("create:andesite_ladder","thermal:silver_ingot")
-        .replaceLoot("create:brass_ladder","thermal:lead_ingot");
+        .replaceLoot("create:brass_ladder","thermal:lead_ingot")
+        .replaceLoot("trident","kubejs:rusty_trident");
     // ====================================================Iron's
     event.addLootTableModifier("irons_spellbooks:chests/filler_storage_loot")
         .randomChance(0.9).addLoot("9x elementalcraft:inert_crystal")

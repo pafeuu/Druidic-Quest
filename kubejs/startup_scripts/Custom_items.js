@@ -161,6 +161,7 @@ StartupEvents.registry('item', item => {
   item.create('chill_blade','sword').displayName("Chilled Blade").tier('ice').tag('minecraft:sword').tag('minecraft:tools')
   item.create('blade_of_grass','sword').tier('grass').tag('minecraft:sword').tag('minecraft:tools').glow(true)
   item.create('ice_blade','sword').tier('ice').tag('minecraft:sword').tag('minecraft:tools').glow(true)
+  item.create('rusty_trident','sword').tier('fire').tag('minecraft:sword').tag('minecraft:tools').speedBaseline(-2.9)
 
   item.create('sharp_feather','sword').tier('gold').glow(true).tag("minecraft:tools").displayName("Golden Feather").tag("forge:tools/magic_feather")
   item.create('very_sharp_feather','sword').tier('diamond').glow(true).tag("minecraft:tools").displayName("Fiery Feather").tag("forge:tools/magic_feather").tag("forge:tools/tier2_magic_feather")

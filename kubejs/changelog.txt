@@ -966,6 +966,7 @@ Patch 0.3.2.1
     -Magical generator block
     -The Ice Cube
     -Lead boots
+    -Rusty Trident
 
 ### Textures:
 
@@ -975,6 +976,7 @@ Patch 0.3.2.1
 
     -Fixed Gold Upgrade Parts recipe
     -Added recipe for the Chilled Blade
+    -Added recipes for the new blocks
 
 ### Balance:
 

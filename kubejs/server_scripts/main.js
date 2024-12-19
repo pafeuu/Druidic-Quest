@@ -102,6 +102,7 @@ ServerEvents.recipes(event => {
 		});
 	}
 	 
+
 	/// ======================================================================= Tier 0 Machines ========================================================================
 
 	event.custom({
@@ -791,6 +792,8 @@ ServerEvents.recipes(event => {
 	hammering("thermal:nickel_block","thermal:nickel_plate", 3)
 	hammering("thermal:bronze_block","thermal:bronze_plate", 3)
 	hammering("minecraft:diamond_block","kubejs:diamond_plate", 3)
+	hammering("kubejs:inert_alloy_block","kubejs:inert_alloy_plate", 3)
+	hammering("kubejs:arcane_alloy_block","kubejs:arcane_alloy_plate", 3)
 	
 	event.remove({id:"irons_spellbooks:lightning_bottle"})
 	event.custom({
