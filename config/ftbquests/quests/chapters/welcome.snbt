@@ -198,6 +198,8 @@
 				"Remember to set your keybinds!"
 				""
 				"ESC => Options => Controls => Keybinds"
+				""
+				"The pack comes with assigned keybinds so there is no conflicts but you need to set your own as there are so many and most of them are set to nothing"
 			]
 			icon: "thermal:netherite_gear"
 			id: "622108B53EDE2AAB"

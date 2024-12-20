@@ -1001,41 +1001,19 @@ ServerEvents.recipes(event => {
 	  event.custom({
 		"type": "naturesaura:tree_ritual",
 		"ingredients": [
-			{
-				"item": "create_sa:copper_sword"
-			},
-			{
-				"item": "oxidized_copper"
-			},
-			
-			{
-				"tag": "forge:rods/copper"
-			},
-			{
-				"tag": "forge:rods/copper"
-			},
-			{
-				"item": "create_sa:copper_sword"
-			},
-			{
-				"item": "oxidized_copper"
-			},
-			{
-				"item": "create_sa:copper_sword"
-			},
-			{
-				"item": "oxidized_copper"
-			}
-			
+			{"item": "create_sa:copper_sword"},
+			{"item": "oxidized_copper"},
+			{"tag": "forge:rods/copper"},
+			{"tag": "forge:rods/copper"},
+			{"item": "create_sa:copper_sword"},
+			{"item": "oxidized_copper"},
+			{"item": "create_sa:copper_sword"},
+			{"item": "oxidized_copper"}	
 		],
-		"sapling": {
-			"item": "minecraft:oak_sapling"
-		},
-		"output": {
-			"item": 'kubejs:rusty_trident',
-		},
+		"sapling": {"item": "minecraft:oak_sapling"},
+		"output": {"item": 'kubejs:rusty_trident'},
 		"time": 200
-	})
+		})
 
 	  event.custom({
 		"type": "naturesaura:tree_ritual",

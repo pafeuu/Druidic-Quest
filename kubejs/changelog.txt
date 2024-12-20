@@ -951,6 +951,10 @@ Patch 0.3.2.1
     -Tide
     -XaeroWorldMap
 
+### New Mods:
+
+    -Kubejs Iron's Spells
+
 ### New Items:
 
     -Chill blade
