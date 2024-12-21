@@ -80,6 +80,7 @@ ServerEvents.tags('item', event => {
   tooltier('create_sa:blazing','blaze')
   tooltier('create_sa:rose_quartz','rose_quartz')
   tooltier('naturesaura:infused_iron','botanist')
+  tooltier('aether:zanite','zanite')
  
 	tool('create_sa:copper')
 	tool('create_sa:zinc')

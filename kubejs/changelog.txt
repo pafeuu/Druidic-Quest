@@ -954,6 +954,8 @@ Patch 0.3.2.1
 ### New Mods:
 
     -Kubejs Iron's Spells
+    -Oculus Flywheel Compat
+    -Colorful Hearts
 
 ### New Items:
 
@@ -969,7 +971,6 @@ Patch 0.3.2.1
     -Bunny totem
     -Magical generator block
     -The Ice Cube
-    -Lead boots
     -Rusty Trident
 
 ### Textures:
@@ -981,6 +982,7 @@ Patch 0.3.2.1
     -Fixed Gold Upgrade Parts recipe
     -Added recipe for the Chilled Blade
     -Added recipes for the new blocks
+    -Added recipe for the rainbow feather
 
 ### Balance:
 
@@ -988,8 +990,16 @@ Patch 0.3.2.1
     -Buffed Steel set
     -Buffed Botanist set
     -Buffed Leather set
+    -Changed redstone torch extra damage to arcane
+
+### Quests:
+
+    -Slightly changed some quests in welcome chapter
+    
 
 ### Other:
 
     -Added other damage and resistance icons
-    
+    -"Toasted" is now default darkmode value and its suggested to avoid "Less Perfect Dark" as it makes some text hard to read in the pack
+
+

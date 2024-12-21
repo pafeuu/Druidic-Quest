@@ -2566,6 +2566,24 @@ ServerEvents.recipes(event => {
 			item: "kubejs:ender_essence"
 		}
 	})
+
+	event.custom({
+		type: "elementalcraft:binding",
+		"element_amount": 2500,
+		"element_type": "fire",
+		ingredients: [
+			{item: "ars_nouveau:fire_essence"},
+			{item: "ars_nouveau:water_essence"},
+			{item: "ars_nouveau:air_essence"},
+			{item: "ars_nouveau:earth_essence"},
+			{item: "kubejs:nature_essence"},
+			{item: "kubejs:very_sharp_feather"}
+		],
+		"output": {
+			"Count": 1,
+			item: "kubejs:rainbow_feather"
+		}
+	})
 	
 	///======================================== Tier 3 Machines =======================================================================
 	event.shaped(

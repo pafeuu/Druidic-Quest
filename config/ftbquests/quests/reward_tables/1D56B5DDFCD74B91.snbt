@@ -1,0 +1,11 @@
+{
+	icon: "minecraft:chest"
+	id: "1D56B5DDFCD74B91"
+	loot_size: 1
+	order_index: 7
+	rewards: [
+		{ item: "kubejs:penguin_totem" }
+		{ item: "kubejs:roadrunner_totem" }
+	]
+	title: "totems"
+}

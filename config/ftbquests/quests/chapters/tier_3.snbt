@@ -234,6 +234,23 @@
 			x: -0.5d
 			y: -1.5d
 		}
+		{
+			dependencies: ["0546AB4A107ED496"]
+			id: "46BDE50D5EE37574"
+			tasks: [{
+				id: "3CAD6FCFBCCF56D5"
+				item: {
+					Count: 1
+					id: "kubejs:rainbow_feather"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
 	]
 	title: "Tier 3 - Primitive Tech"
 }

@@ -220,7 +220,11 @@
 		}
 		{
 			dependencies: ["23878BB2C97470D0"]
-			description: ["As a thank you gift take those shoes. Those are really nice shoes"]
+			description: [
+				"The  pack is still very much in development as a thank you gift you can choose a totem!"
+				""
+				"Totems are new items custom made for the pack they will give you special effects when hold in the offhand"
+			]
 			icon: {
 				Count: 1
 				id: "create_sa:copper_sword"
@@ -230,39 +234,18 @@
 			}
 			id: "48BFFBF891F26E15"
 			rewards: [{
-				id: "0D9CFD77BD9BDD71"
-				item: {
-					Count: 1
-					id: "minecraft:leather_boots"
-					tag: {
-						AttributeModifiers: [{
-							Amount: 0.01d
-							AttributeName: "generic.movement_speed"
-							Name: "1722232346604"
-							Slot: "feet"
-							UUID: [I;
-								-124629
-								16710
-								75154
-								-33420
-							]
-						}]
-						Damage: 0
-						display: {
-							Lore: ["[\"\",{\"text\":\"Gotta go fast\",\"color\":\"dark_green\"}]"]
-							Name: "[\"\",{\"text\":\"Playtester's Boots\",\"italic\":false}]"
-							color: 8439583
-						}
-					}
-				}
-				type: "item"
+				exclude_from_claim_all: true
+				icon: "kubejs:roadrunner_totem"
+				id: "6FCB6452436AD88E"
+				table_id: 239250073801670199L
+				type: "choice"
 			}]
 			shape: "hexagon"
 			tasks: [{
 				id: "5F284D7BA9296A55"
 				type: "checkmark"
 			}]
-			title: "Thank you for playtesting!"
+			title: "Thank you for playing the pack!"
 			x: 0.0d
 			y: 2.5d
 		}

@@ -678,14 +678,9 @@
 			dependencies: ["0F250E08450A1BEC"]
 			icon: {
 				Count: 1
-				id: "create_sa:copper_pickaxe"
+				id: "kubejs:mining_hammer"
 				tag: {
 					Damage: 0
-					Enchantments: [{
-						id: "minecraft:unbreaking"
-						lvl: 3
-					}]
-					Modifier: "forbidden_arcanus:demolishing"
 				}
 			}
 			id: "03BD12785316A601"
@@ -704,22 +699,6 @@
 				}
 			]
 			tasks: [
-				{
-					id: "5238C3AF0C7BA5E1"
-					item: {
-						Count: 1
-						id: "create_sa:copper_pickaxe"
-						tag: {
-							Damage: 0
-							Enchantments: [{
-								id: "minecraft:unbreaking"
-								lvl: 3
-							}]
-							Modifier: "forbidden_arcanus:demolishing"
-						}
-					}
-					type: "item"
-				}
 				{
 					id: "296AD1556277FADF"
 					item: {
@@ -748,6 +727,17 @@
 								lvl: 3
 							}]
 							Modifier: "forbidden_arcanus:demolishing"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1D2CFAA30A63E4DE"
+					item: {
+						Count: 1
+						id: "kubejs:mining_hammer"
+						tag: {
+							Damage: 0
 						}
 					}
 					type: "item"
@@ -873,6 +863,32 @@
 			}]
 			x: -8.0d
 			y: 10.0d
+		}
+		{
+			id: "512084C232A880EF"
+			tasks: [{
+				id: "1EE93E351993DBA8"
+				item: "aether:zanite_gemstone"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 8.5d
+		}
+		{
+			id: "0E23951F89FDD849"
+			tasks: [{
+				id: "1D8D5240058A6956"
+				item: {
+					Count: 1
+					id: "aether:zanite_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: 7.0d
 		}
 	]
 	title: "Tier 2 - Basic Elemental Infusion"

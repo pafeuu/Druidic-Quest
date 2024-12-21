@@ -35,10 +35,10 @@ ServerEvents.recipes(event => {
 	event.shaped("thermal:gunpowder_block",["GGG","GGG","GGG"],{G:"#forge:storage_blocks/gunpowder"}).id("thermal:storage/gunpowder_block")
 	event.shapeless("9x quark:gunpowder_sack","thermal:gunpowder_block").id("thermal:storage/gunpowder_from_block")
 
-	event.shapeless("kubejs:inert_alloy_block","9x kubejs:inert_alloy")
-	event.shapeless("9x kubejs:inert_alloy","kubejs:inert_alloy_block")
-	event.shapeless("kubejs:arcane_alloy_block","9x kubejs:arcane_alloy")
-	event.shapeless("9x kubejs:arcane_alloy","kubejs:arcane_alloy_block")
+	event.shapeless("kubejs:inert_alloy_block","9x kubejs:inert_alloy_ingot")
+	event.shapeless("9x kubejs:inert_alloy_ingot","kubejs:inert_alloy_block")
+	event.shapeless("kubejs:arcane_alloy_block","9x kubejs:arcane_alloy_ingot")
+	event.shapeless("9x kubejs:arcane_alloy_ingot","kubejs:arcane_alloy_block")
 
 	
 	event.shaped("2x kubejs:polished_planks",
