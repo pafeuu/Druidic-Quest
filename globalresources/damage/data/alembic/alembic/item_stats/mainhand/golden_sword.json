@@ -1,7 +1,6 @@
 {
   "id": "minecraft:golden_sword",
   "modifiers": [
-
 	{
       "type": "append",
       "attribute": "alembic:arcane_damage",

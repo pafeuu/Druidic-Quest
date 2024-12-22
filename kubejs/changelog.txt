@@ -1001,5 +1001,7 @@ Patch 0.3.2.1
 
     -Added other damage and resistance icons
     -"Toasted" is now default darkmode value and its suggested to avoid "Less Perfect Dark" as it makes some text hard to read in the pack
+    -You can now correctly mine grass with knives from other mods like aetherdelight, twilightdelight and create and things
+    -Added tooltips to tons of aether accesories
 
 

@@ -1,0 +1,10 @@
+{
+  "id": "aether:zanite_sword",
+  "modifiers": [    
+      {
+          "type": "remove",
+          "attribute": "minecraft:generic.attack_damage"
+      }
+  ],
+  "equipment_slot": "MAINHAND"
+}

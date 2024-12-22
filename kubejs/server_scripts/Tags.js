@@ -1,7 +1,7 @@
  priority: 0
 
 ServerEvents.tags('item', event => {
-  // Get the #forge:cobblestone tag collection and add Diamond Ore to it
+  
 
   let seed = ["vintagedelight:oat_seeds","vintagedelight:ghost_pepper_seeds"]
 
@@ -81,6 +81,14 @@ ServerEvents.tags('item', event => {
   tooltier('create_sa:rose_quartz','rose_quartz')
   tooltier('naturesaura:infused_iron','botanist')
   tooltier('aether:zanite','zanite')
+  tooltier('aether:gravitite','gravitite')
+  tooltier('aether:holystone','holystone')
+  tooltier('aether:skyroot','skyroot')
+  tooltier('deepaether:skyjade','skyjade')
+  tooltier('enigmaticlegacy:etherium','etherium')
+  tooltier('forbidden_arcanus:draco_arcanus','draco_arcanus')
+  tooltier('forbidden_arcanus:reinforced_deorum','reinforced_deorum')
+  tooltier('forbidden_arcanus:reinforced_obsidian','reinforced_obsidian')
  
 	tool('create_sa:copper')
 	tool('create_sa:zinc')

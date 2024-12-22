@@ -41,6 +41,18 @@ ItemEvents.tooltip( tooltip => {
 
   tooltip.add("kubejs:recipe_changed",Text.red("This recipe has been changed! Check EMI for more information!"))
 
+  tooltip.add("aether:agility_cape",[Text.gold("When on back:"),Text.blue("+0.5 step height")])
+  tooltip.add("aether:valkyrie_cape",[Text.gold("When on back:"),Text.blue("grants slow falling")])
+  tooltip.add("aether:swet_cape",[Text.gold("When on back:"),Text.blue("allows riding Swets")])
+
+  tooltip.add("aether:iron_bubble",[Text.gold("When in charm slot:"),Text.blue("Allows underwater breathing")])
+
+  tooltip.add("deep_aether:spooky_ring",[Text.gold("When in ring slot:"),Text.blue("Grants extra damage depending on time of the night(most at midnight)")])
+  tooltip.add("aether:zanite_ring",[Text.gold("When in ring slot:"),Text.blue("Allows you to mine faster"),Text.red("Does not last long!")])
+  tooltip.add("aether:zanite_pendant",[Text.gold("When in ring slot:"),Text.blue("Allows you to mine faster"),Text.red("Does not last long!")])
+  tooltip.add("deep_aether:skyjade_ring",[Text.gold("When in ring slot:"),Text.blue("Allows you to mine faster"),Text.red("Does not last long!")])
+  tooltip.add("aether:ice_ring",[Text.gold("When in ring slot:"),Text.blue("Freezes water and lava beneath you")])
+
   
 
 })
