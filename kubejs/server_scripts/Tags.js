@@ -5,7 +5,7 @@ ServerEvents.tags('item', event => {
 
   let seed = ["vintagedelight:oat_seeds","vintagedelight:ghost_pepper_seeds"]
 
-  let hide = ["twigs:calcite_wall","twigs:tuff_wall","twigs:calcite_stairs","kubejs:recipe_changed","kubejs:unstable_ivy_quartz"]
+  let hide = ["twigs:calcite_wall","twigs:tuff_wall","twigs:calcite_stairs","kubejs:recipe_changed","kubejs:unstable_ivy_quartz","aether:life_shard"]
  
   
   event.remove("twiligtforest:portal/activator","diamond")
@@ -54,6 +54,7 @@ ServerEvents.tags('item', event => {
     event.add("c:hidden_from_recipe_viewers",id)
   });
   
+  event.add("c:hidden_from_recipe_viewers","#forge:tools/skyroot")
   function tool(name)
   {
     event.add('minecraft:axes', name+'_axe')  
@@ -84,7 +85,7 @@ ServerEvents.tags('item', event => {
   tooltier('aether:gravitite','gravitite')
   tooltier('aether:holystone','holystone')
   tooltier('aether:skyroot','skyroot')
-  tooltier('deepaether:skyjade','skyjade')
+  tooltier('deep_aether:skyjade','skyjade')
   tooltier('enigmaticlegacy:etherium','etherium')
   tooltier('forbidden_arcanus:draco_arcanus','draco_arcanus')
   tooltier('forbidden_arcanus:reinforced_deorum','reinforced_deorum')

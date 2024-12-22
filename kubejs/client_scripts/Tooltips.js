@@ -42,17 +42,29 @@ ItemEvents.tooltip( tooltip => {
   tooltip.add("kubejs:recipe_changed",Text.red("This recipe has been changed! Check EMI for more information!"))
 
   tooltip.add("aether:agility_cape",[Text.gold("When on back:"),Text.blue("+0.5 step height")])
-  tooltip.add("aether:valkyrie_cape",[Text.gold("When on back:"),Text.blue("grants slow falling")])
-  tooltip.add("aether:swet_cape",[Text.gold("When on back:"),Text.blue("allows riding Swets")])
+  tooltip.add("aether:valkyrie_cape",[Text.gold("When on back:"),Text.blue("Grants slow falling")])
+  tooltip.add("aether:swet_cape",[Text.gold("When on back:"),Text.blue("Allows riding Swets")])
+  tooltip.add("aether:invisibility_cloak",[Text.gold("When on back:"),Text.blue("Makes you invisible")])
 
-  tooltip.add("aether:iron_bubble",[Text.gold("When in charm slot:"),Text.blue("Allows underwater breathing")])
+  tooltip.add("aether:shield_of_repulsion",[Text.gold("When on body:"),Text.blue("Repels enemy projectiles")])
+  tooltip.add("ancient_aether:shield_of_remediation",[Text.gold("When on body:"),Text.blue("Grants immunity to Inebration")])
+  tooltip.add("ancient_aether:shield_of_inebriation",[Text.gold("When on body:"),Text.blue("50% chance to inflict Inebration on attacker")])
 
-  tooltip.add("deep_aether:spooky_ring",[Text.gold("When in ring slot:"),Text.blue("Grants extra damage depending on time of the night(most at midnight)")])
-  tooltip.add("aether:zanite_ring",[Text.gold("When in ring slot:"),Text.blue("Allows you to mine faster"),Text.red("Does not last long!")])
-  tooltip.add("aether:zanite_pendant",[Text.gold("When in ring slot:"),Text.blue("Allows you to mine faster"),Text.red("Does not last long!")])
-  tooltip.add("deep_aether:skyjade_ring",[Text.gold("When in ring slot:"),Text.blue("Allows you to mine faster"),Text.red("Does not last long!")])
-  tooltip.add("aether:ice_ring",[Text.gold("When in ring slot:"),Text.blue("Freezes water and lava beneath you")])
+  tooltip.add("aether:iron_bubble",[Text.gold("When worn as charm:"),Text.blue("Allows underwater breathing")])
 
+  tooltip.add("deep_aether:spooky_ring",[Text.gold("When worn as ring:"),Text.blue("Grants extra damage depending on time of the night(most at midnight)")])
+  tooltip.add("aether:zanite_ring",[Text.gold("When worn as ring:"),Text.blue("Allows you to mine faster"),Text.red("Does not last long!")])
+  tooltip.add("aether:zanite_pendant",[Text.gold("When worn as ring:"),Text.blue("Allows you to mine faster"),Text.red("Does not last long!")])
+  tooltip.add("deep_aether:skyjade_ring",[Text.gold("When worn as ring:"),Text.blue("Allows you to mine faster"),Text.red("Does not last long!")])
+  tooltip.add("aether:ice_ring",[Text.gold("When worn as ring:"),Text.blue("Freezes water and lava beneath you")])
+
+  tooltip.add("aether:sentry_boots",Text.blue("Grants immunity to fall damage"))
+  tooltip.add(["deep_aether:skyjade_boots","deep_aether:skyjade_chestplate","deep_aether:skyjade_leggings","deep_aether:skyjade_helmet"],Text.blue("loses armor value as the durability goes down"))
+  tooltip.add(["aether:zanite_pickaxe","aether:zanite_axe","aether:zanite_shovel","aether:zanite_hoe","aether:zanite_sword"],Text.blue("Gains effectiveness as the durability goes down"))
+  tooltip.add(["deep_aether:skyjade_pickaxe","deep_aether:skyjade_axe","deep_aether:skyjade_shovel","deep_aether:skyjade_sword"],Text.blue("Loses effectiveness as the durability goes down"))
   
+ 
+  tooltip.add("aether:pig_slayer",Text.blue("Deals extra damage to pigs and piglike creatures!"))
+  tooltip.add("deep_aether:afterburner",Text.blue("Hold right click to shoot a barrage of fireballs!"))
 
 })

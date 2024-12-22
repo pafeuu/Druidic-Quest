@@ -19,7 +19,8 @@
   "boots": {
     "itemKey": "create_things_and_misc:sticky_boots_boots",
     "mixAndMatch":[
-      "create_sa:slime_boots"
+      "create_sa:slime_boots",
+      "aether:sentry_boots"
     ],
     "mustBeEmpty": false
   },
