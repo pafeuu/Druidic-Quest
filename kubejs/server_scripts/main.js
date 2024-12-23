@@ -1481,8 +1481,8 @@ ServerEvents.recipes(event => {
 	
 	/// ======================================== Tier 2 Components ================================================================
 
-	event.naturesaura.altar("aether:zanite","diamond",7500,40).id("naturesaura:altar/infused_stone")
-	event.naturesaura.altar("deep_aether:zanite","emerald",7500,40).id("naturesaura:altar/infused_stone")
+	event.recipes.naturesaura.altar("aether:zanite_gemstone","diamond",7500,40)
+	event.recipes.naturesaura.altar("deep_aether:skyjade","emerald",7500,40)
 
 	event.custom({
 		type: "immersiveengineering:alloy",

@@ -391,7 +391,6 @@ ServerEvents.recipes(event => {
 			}
 		  )
 		
-		// event.remove([{output:helmet},{output:chest},{output:leg},{output:boots}])
 	}
 	
 	
@@ -1873,6 +1872,10 @@ ServerEvents.recipes(event => {
 	SimpleArmorUpgrade("#forge:gems/zanite","iron_helmet","iron_chestplate","iron_leggings","iron_boots","aether:zanite_helmet","aether:zanite_chestplate","aether:zanite_leggings","aether:zanite_boots")
 	SimpleArmorUpgrade("#forge:gems/skyjade","iron_helmet","iron_chestplate","iron_leggings","iron_boots","deep_aether:skyjade_helmet","deep_aether:skyjade_chestplate","deep_aether:skyjade_leggings","deep_aether:skyjade_boots")
 	
+	event.remove([{output:"aether:zanite_helmet"},{output:"aether:zanite_chestplate"},{output:"aether:zanite_leggings"},{output:"aether:zanite_boots"}])
+	event.remove([{output:"deep_aether:skyjade_helmet"},{output:"deep_aether:skyjade_chestplate"},{output:"deep_aether:skyjade_leggings"},{output:"deep_aether:skyjade_boots"}])
+
+
 	event.shaped("aether:zanite_ring",
 		[
 		  ' I ',
@@ -1883,7 +1886,7 @@ ServerEvents.recipes(event => {
 		  I: '#forge:gems/zanite',
 		  X: 'aether:iron_ring'
 		}
-	  )
+	  ).id("aether:zanite_ring")
 	
 	event.shaped("deep_aether:skyjade_ring",
 		[
@@ -1895,7 +1898,7 @@ ServerEvents.recipes(event => {
 		  I: '#forge:gems/skyjade',
 		  X: 'aether:iron_ring'
 		}
-	  )
+	  ).id("deep_aether:skyjade_ring")
 	
 
 	event.recipes.naturesaura.tree_ritual("kubejs:fiery_magic_feather",
