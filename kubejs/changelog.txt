@@ -926,6 +926,9 @@ Patch 0.3.2.1
 
 # Patch 0.5 Equipment Update
 
+## Important:
+    -If you crafted any of the magical feathers you will lose them in this update as I had to update the ids. Very sorry about that :(
+
 ### Updated Mods:
 
     -CreativeCore
@@ -983,6 +986,8 @@ Patch 0.3.2.1
     -Added recipe for the Chilled Blade
     -Added recipes for the new blocks
     -Added recipe for the rainbow feather
+    -Changed recipe for the zanite and skyjade tools and armor pieces
+    -Added recipe for zanite and skyjade in tier 2
 
 ### Balance:
 
@@ -991,6 +996,12 @@ Patch 0.3.2.1
     -Buffed Botanist set
     -Buffed Leather set
     -Changed redstone torch extra damage to arcane
+    -Buffed skyjade and zanite tool set
+    -Buffed skyjade and zanite armor set pieces with extra resistances
+    -Buffed skyjade armor's durability to match iron and zanite
+    -Adjusted damage of magic feathers as well as the durability
+    -Changed portion of the zanite and skyjade swords/axes attack damage to holy damage
+    -Changed half of the botanists sword/axe damage to nature damage
 
 ### Quests:
 
@@ -1004,8 +1015,9 @@ Patch 0.3.2.1
     -You can now correctly mine grass with knives from other mods like aetherdelight, twilightdelight and create and things
     -Added tooltips to tons of aether accesories
     -Added aether's sentry boots to the mechanical set
-    -Removed skyroot set
+    -Removed skyroot tool set
     -Aether's Pig Slayer is now treated as a knive for better combat
     -Removed Aether's Life shards
-
+    -Fixed extra range on botanist's tool set
+    -Changed id of the magic feathers to unify it and make it usable for regex
 

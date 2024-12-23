@@ -18,7 +18,22 @@ ForgeEvents.onEvent('net.minecraftforge.event.ItemAttributeModifierEvent', event
 	};
 	
 	
-	if (event.itemStack.hasTag("minecraft:tools/botanist") && event.slotType == 'mainhand') {
+	if (event.itemStack.hasTag("forge:tools/botanist") && event.slotType == 'mainhand') {
+					
+		event.addModifier("forge:block_reach", new $AttributeModifier(UUID.fromString('4cb3d1f0-6d16-404c-a3bd-c3bf2f9980a7'), 'Tool modifier', 1, 'addition'))
+	};
+
+	if (event.itemStack.hasTag("forge:tools/zanite") && event.slotType == 'mainhand') {
+					
+		event.addModifier("forge:block_reach", new $AttributeModifier(UUID.fromString('4cb3d1f0-6d16-404c-a3bd-c3bf2f9980a7'), 'Tool modifier', 1, 'addition'))
+	};
+
+	if (event.itemStack.hasTag("forge:tools/skyjade") && event.slotType == 'mainhand') {
+					
+		event.addModifier("forge:block_reach", new $AttributeModifier(UUID.fromString('4cb3d1f0-6d16-404c-a3bd-c3bf2f9980a7'), 'Tool modifier', 0.5, 'addition'))
+	};
+
+	if (event.itemStack.hasTag("forge:tools/diamond") && event.slotType == 'mainhand') {
 					
 		event.addModifier("forge:block_reach", new $AttributeModifier(UUID.fromString('4cb3d1f0-6d16-404c-a3bd-c3bf2f9980a7'), 'Tool modifier', 1, 'addition'))
 	};

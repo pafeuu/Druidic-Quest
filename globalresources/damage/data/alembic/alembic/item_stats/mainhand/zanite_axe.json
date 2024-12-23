@@ -1,5 +1,5 @@
 {
-  "id": "aether:zanite_sword",
+  "id": "aether:zanite_axe",
   "modifiers": [
     {
       "type": "replace",
@@ -11,7 +11,7 @@
     {
       "type": "append",
       "attribute": "alembic:holy_damage",
-      "value": 4,
+      "value": 7,
       "operation": "ADDITION",
       "uuid": "f8c3d12d-1fea-4d7c-a8b0-29f632223454"
     }  

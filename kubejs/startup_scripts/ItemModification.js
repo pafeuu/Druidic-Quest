@@ -58,9 +58,34 @@ ItemEvents.modification(event => {
     item.maxDamage = 1536
   })
 
+  event.modify('deep_aether:skyjade_sword', item=>{
+    item.maxDamage = 1024
+  })
+
+  event.modify('aether:zanite_sword', item=>{
+    item.maxDamage = 1024
+  })
+
   event.modify('minecraft:diamond_sword', item=>{
     item.maxDamage = 2048
   })
+
+  event.modify('kubejs:golden_magic_feather', item=>{
+    item.maxDamage = 64
+  })
+
+  event.modify('kubejs:fiery_magic_feather', item=>{
+    item.maxDamage = 512
+  })
+
+  event.modify('kubejs:rainbow_magic_feather', item=>{
+    item.maxDamage = 1024
+  })
+
+  event.modify('minecraft:diamond_sword', item=>{
+    item.maxDamage = 2048
+  })
+  ////========================================Tools
   tooltype.forEach((id) => {
     
     event.modify('minecraft:wooden_'+id, item => {
@@ -104,6 +129,16 @@ ItemEvents.modification(event => {
       // +1 block range
     })
 
+    event.modify('deep_aether:skyjade_'+id, item=>{
+      item.maxDamage = 1024
+      // +0.5 block range
+    })
+
+    event.modify('aether:zanite_'+id, item=>{
+      item.maxDamage = 1024
+      // +1 block range
+    })
+
     event.modify('create_sa:experience_'+id, item=>{
       item.maxDamage = 256
       // +1 block range
@@ -120,7 +155,23 @@ ItemEvents.modification(event => {
     })
   })
   
- 
+  //========================================Armor
+
+  event.modify("deep_aether:skyjade_helmet", item=>{
+    item.maxDamage = 165
+  })
+
+  event.modify("deep_aether:skyjade_boots", item=>{
+    item.maxDamage = 195
+  })
+
+  event.modify("deep_aether:skyjade_leggings", item=>{
+    item.maxDamage = 225
+  })
+  
+  event.modify("deep_aether:skyjade_chestplate", item=>{
+    item.maxDamage = 240
+  })
 
   event.modify('immersiveengineering:glider', item=>{
     item.maxDamage = 512
@@ -128,7 +179,6 @@ ItemEvents.modification(event => {
 
   event.modify('minecraft:elytra', item=>{
     item.maxDamage = 512
-   
   })
 
   event.modify('alexsmobs:tarantula_hawk_elytra', item=>{

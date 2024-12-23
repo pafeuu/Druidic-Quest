@@ -1,17 +1,17 @@
 {
-  "id": "aether:zanite_sword",
+  "id": "naturesaura:infused_iron_sword",
   "modifiers": [
     {
       "type": "replace",
       "target": "minecraft:generic.attack_damage",
-      "value": 1,
+      "value": 2.5,
       "operation": "ADDITION",
       "uuid": "CB3F55D3-645C-4F38-A497-9C13A33DB5CF"
     },
     {
       "type": "append",
-      "attribute": "alembic:holy_damage",
-      "value": 4,
+      "attribute": "alembic:alchemical_damage",
+      "value": 2.5,
       "operation": "ADDITION",
       "uuid": "f8c3d12d-1fea-4d7c-a8b0-29f632223454"
     }  

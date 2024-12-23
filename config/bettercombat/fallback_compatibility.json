@@ -95,7 +95,7 @@
       "weapon_attributes": "bettercombat:twin_blade"
     },
     {
-      "item_id_regex": "cutlass|scimitar|machete",
+      "item_id_regex": "cutlass|scimitar|machete|magic_feather",
       "weapon_attributes": "bettercombat:cutlass"
     },
     {

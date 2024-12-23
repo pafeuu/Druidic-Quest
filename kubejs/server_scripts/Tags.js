@@ -12,6 +12,7 @@ ServerEvents.tags('item', event => {
   event.remove("forge:gems/ruby","thermal:ruby")
   event.remove("forge:storage_blocks/ruby","thermal:ruby_block")
   event.remove("forge:storage_blocks/gunpowder","thermal:gunpowder_block")
+  
 
   event.add("forge:insect","alexsmobs:maggot")
   event.add("quark:seed_pouch_holdable","forge:seeds")
@@ -25,6 +26,8 @@ ServerEvents.tags('item', event => {
   event.add("forge:tools","minecraft:flint_and_steel")
   event.add("immersiveengineering:toolbox/tools","#forge:tools")
   event.add("forge:storage_blocks/potato","farmersdelight:potato_crate")
+  event.add("forge:gems/zanite","#aether:gems/zanite")
+  event.add("forge:gems/skyjade","deep_aether:skyjade")
   
   event.add('forge:ingots/stainless_steel', 'immersiveengineering:ingot_steel')
   event.add('immersive_weathering:bark','farmersdelight:tree_bark')

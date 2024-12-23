@@ -163,9 +163,9 @@ StartupEvents.registry('item', item => {
   item.create('ice_blade','irons_spells_js:magic_sword').tier('ice').tag('minecraft:sword').tag('minecraft:tools').glow(true).addDefaultSpell("irons_spellbooks:icicle",3)
   item.create('rusty_trident','sword').tier('fire').tag('minecraft:sword').tag('minecraft:tools').speedBaseline(-2.9)
 
-  item.create('sharp_feather','sword').tier('gold').glow(true).tag("minecraft:tools").displayName("Golden Feather").tag("forge:tools/magic_feather")
-  item.create('very_sharp_feather','sword').tier('diamond').glow(true).tag("minecraft:tools").displayName("Fiery Feather").tag("forge:tools/magic_feather").tag("forge:tools/tier2_magic_feather")
-  item.create('rainbow_feather','sword').tier('netherite').glow(true).tag("minecraft:tools").tag("forge:tools/magic_feather").tag("forge:tools/tier2_magic_feather")
+  item.create('golden_magic_feather','sword').tier('gold').glow(true).tag("minecraft:tools").displayName("Golden Feather").tag("forge:tools/magic_feather")
+  item.create('fiery_magic_feather','sword').tier('diamond').glow(true).tag("minecraft:tools").displayName("Fiery Feather").tag("forge:tools/magic_feather").tag("forge:tools/tier2_magic_feather")
+  item.create('rainbow_magic_feather','sword').tier('netherite').glow(true).tag("minecraft:tools").displayName("Rainbow Feather").tag("forge:tools/magic_feather").tag("forge:tools/tier2_magic_feather")
 
   item.create('mining_hammer','pickaxe').tier('hammer').tag("minecraft:tools").tag('forge:tools/hammers')
   item.create('the_terraformer','shovel').glow(true).rarity("epic").tier("terraformer").tag("minecraft:tools")

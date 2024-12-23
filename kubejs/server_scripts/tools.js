@@ -1,7 +1,9 @@
 
 ServerEvents.recipes(event => {
   
-	
+	const tooltype = ['hoe','sword','pickaxe','axe','shovel'];
+
+	const armorslot = ["helmet","chestplate","leggings","boots"]
 	
 	event.remove({output:'#minecraft:axes'})
 	event.remove({output:'#minecraft:pickaxes'})
@@ -338,9 +340,63 @@ ServerEvents.recipes(event => {
 			}
 		  )
 	}
+
+	function SimpleArmorUpgrade(material,helmet,chest,leg,boots,helmet2,chest2,leg2,boots2)
+	{
+		event.shaped(
+			Item.of(helmet2), 
+			[
+			  'FFF',
+			  'FXF'
+			],
+			{
+			  F: material,
+			  X: helmet
+			}
+		)
+		event.shaped(
+			Item.of(chest2), 
+			[
+			  'FXF',
+			  'FFF', 
+			  'FFF'
+			],
+			{
+			  F: material,
+			  X: chest
+			}
+		)
+		event.shaped(
+			Item.of(leg2), 
+			[
+			  'FFF',
+			  'FXF', 
+			  'F F'
+			],
+			{
+			  F: material,
+			  X: leg
+			}
+		)
+
+		event.shaped(
+			Item.of(boots2), 
+			[
+			  'F F', 
+			  'FXF'
+			],
+			{
+			  F: material,
+			  X: boots
+			}
+		  )
+		
+		// event.remove([{output:helmet},{output:chest},{output:leg},{output:boots}])
+	}
+	
 	
 	simplearmor('immersiveengineering:hemp_fabric',"immersiveengineering:armor_faraday_helmet","immersiveengineering:armor_faraday_chestplate","immersiveengineering:armor_faraday_leggings","immersiveengineering:armor_faraday_boots")
-	  
+	
 
 	  
 	
@@ -1777,7 +1833,7 @@ ServerEvents.recipes(event => {
 			"item": "minecraft:birch_sapling"
 		},
 		"output": {
-			"item": "kubejs:sharp_feather",
+			"item": "kubejs:golden_magic_feather",
 			"count": 1
 		},
 		"time": 200
@@ -1786,7 +1842,63 @@ ServerEvents.recipes(event => {
 	
 	/// ============================================= Tier 2 Tools ===========================================================
 
-	event.recipes.naturesaura.tree_ritual("kubejs:very_sharp_feather",
+	tooltype.forEach(id => {
+		event.shaped("aether:zanite_"+id,
+			[
+				' I ',
+				'IXI', 
+				' I ' 
+			],
+			{
+				I: '#forge:gems/zanite',
+				X: 'minecraft:iron_'+id
+			}
+		)	
+	});
+
+	tooltype.forEach(id => {
+		event.shaped("deep_aether:skyjade_"+id,
+			[
+				' I ',
+				'IXI', 
+				' I ' 
+			],
+			{
+				I: '#forge:gems/skyjade',
+				X: 'minecraft:iron_'+id
+			}
+		)	
+	});
+	
+	SimpleArmorUpgrade("#forge:gems/zanite","iron_helmet","iron_chestplate","iron_leggings","iron_boots","aether:zanite_helmet","aether:zanite_chestplate","aether:zanite_leggings","aether:zanite_boots")
+	SimpleArmorUpgrade("#forge:gems/skyjade","iron_helmet","iron_chestplate","iron_leggings","iron_boots","deep_aether:skyjade_helmet","deep_aether:skyjade_chestplate","deep_aether:skyjade_leggings","deep_aether:skyjade_boots")
+	
+	event.shaped("aether:zanite_ring",
+		[
+		  ' I ',
+		  'IXI', 
+		  ' I ' 
+		],
+		{
+		  I: '#forge:gems/zanite',
+		  X: 'aether:iron_ring'
+		}
+	  )
+	
+	event.shaped("deep_aether:skyjade_ring",
+		[
+		  ' I ',
+		  'IXI', 
+		  ' I ' 
+		],
+		{
+		  I: '#forge:gems/skyjade',
+		  X: 'aether:iron_ring'
+		}
+	  )
+	
+
+	event.recipes.naturesaura.tree_ritual("kubejs:fiery_magic_feather",
 		["kubejs:sharp_feather","#minecraft:beds","ars_nouveau:fire_essence","ars_nouveau:fire_essence","ars_nouveau:fire_essence","ars_nouveau:fire_essence","thermal:gunpowder_block","thermal:gunpowder_block"],"minecraft:spruce_sapling")
 
 	event.shapeless("quark:pickarang",["diamond_pickaxe","quark:diamond_heart"]).id("quark:tools/crafting/pickarang_heart")
@@ -1831,19 +1943,7 @@ ServerEvents.recipes(event => {
 
 	event.remove({output:"irons_spellbooks:diamond_spell_book"})
 	event.smithing("irons_spellbooks:diamond_spell_book","irons_spellbooks:energized_core","irons_spellbooks:gold_spell_book","irons_spellbooks:mana_ring")
-
-	const tooltype = ['hoe','sword','pickaxe','axe','shovel'];
-
-	const armorslot = ["helmet","chestplate","leggings","boots"]
-                    
-	/**
-	 * @description
-	 * Function to upgrade natures aura armor
-	 * @param {string} input - material of the armor to be upgraded
-	 * @param {string} output - material of the armor after upgrade
-	 * @param {string} smith - name of the smithing template
-	 * @param {string} material - material used in the smithing recipe
-	 */
+                    	
 	function naturearmorup(input,output,smith,material)
 	{
 		// Upgrades the armor
