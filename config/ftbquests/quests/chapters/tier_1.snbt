@@ -543,7 +543,6 @@
 					type: "item"
 				}
 				{
-					count: 3
 					id: "0D83AA5457CA82A1"
 					item: "minecraft:dispenser"
 					type: "item"

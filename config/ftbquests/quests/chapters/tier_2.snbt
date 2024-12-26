@@ -865,29 +865,223 @@
 			y: 10.0d
 		}
 		{
+			dependencies: ["400EBA15A5B82A93"]
+			description: ["Unlocks &5Zanite&r tools and armor!"]
 			id: "512084C232A880EF"
+			rewards: [{
+				count: 4
+				id: "1778400CE7B5CA37"
+				item: "aether:zanite_gemstone"
+				type: "item"
+			}]
 			tasks: [{
 				id: "1EE93E351993DBA8"
 				item: "aether:zanite_gemstone"
 				type: "item"
 			}]
-			x: -4.0d
+			x: -4.5d
 			y: 8.5d
 		}
 		{
-			id: "0E23951F89FDD849"
-			tasks: [{
-				id: "1D8D5240058A6956"
-				item: {
-					Count: 1
-					id: "aether:zanite_pickaxe"
-					tag: {
-						Damage: 0
-					}
-				}
+			dependencies: ["400EBA15A5B82A93"]
+			description: ["Unlocks &2Skyjade&r tools and armor!"]
+			id: "73B4F5C2F480B53E"
+			rewards: [{
+				count: 4
+				id: "43A66912A5290151"
+				item: "deep_aether:skyjade"
 				type: "item"
 			}]
-			x: -4.0d
+			tasks: [{
+				id: "31EA260C2B7D5056"
+				item: "deep_aether:skyjade"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["512084C232A880EF"]
+			description: [
+				"&5Zanite tools&r have +0.5 block range more than iron and have double the durability. "
+				""
+				"&5Zanite tools&r get faster the lower durability they have. "
+				""
+				"The sword deals the same damage as iron but most of its damage is converted to &eholy damage&r which makes it perfect weapon against the &4undead&r."
+			]
+			icon: {
+				Count: 1
+				id: "aether:zanite_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "73FE35BFB73DAB72"
+			rewards: [
+				{
+					count: 9
+					id: "6E0E3148E05F67AD"
+					item: "aether:zanite_gemstone"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "53F42E72B3E5D3EA"
+					item: "thermal:gold_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "67399B74D529DBFB"
+					item: {
+						Count: 1
+						id: "aether:zanite_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "79EFB5EE0F052D60"
+					item: {
+						Count: 1
+						id: "aether:zanite_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "566AD6A87D9FF0C8"
+					item: {
+						Count: 1
+						id: "aether:zanite_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "120325EC4CA5DFCA"
+					item: {
+						Count: 1
+						id: "aether:zanite_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4494C66073C423B4"
+					item: {
+						Count: 1
+						id: "aether:zanite_hoe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -4.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["73B4F5C2F480B53E"]
+			description: [
+				"&2Skyjade tools&r have the same range as iron but they have double the durability and are much faster before they lose the durability."
+				""
+				""
+				"&2Both Skyjade sword and Axe&r deal extra holy damage which makes them good weapons against the &4undead&r,"
+				""
+				"&2Skyjade sword&r deals massive amount of damage at the cost of attack speed. Also loses attack damage as the durability goes down."
+			]
+			icon: {
+				Count: 1
+				id: "deep_aether:skyjade_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "27C45F527AAF2CE3"
+			rewards: [
+				{
+					count: 9
+					id: "59F5031448348228"
+					item: "deep_aether:skyjade"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "0D6107ED6E4571A3"
+					item: "thermal:gold_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "3EACB92ABB80CB3C"
+					item: {
+						Count: 1
+						id: "deep_aether:skyjade_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "118563CAB11D1941"
+					item: {
+						Count: 1
+						id: "deep_aether:skyjade_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "48C66AA7D4410B8E"
+					item: {
+						Count: 1
+						id: "deep_aether:skyjade_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2D09DFA8EE863AD1"
+					item: {
+						Count: 1
+						id: "deep_aether:skyjade_hoe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "576CC360EE6F4049"
+					item: {
+						Count: 1
+						id: "deep_aether:skyjade_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Skyjade tools!"
+			x: -3.5d
 			y: 7.0d
 		}
 	]

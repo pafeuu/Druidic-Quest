@@ -104,6 +104,19 @@ ServerEvents.recipes(event => {
 	 
 
 	/// ======================================================================= Tier 0 Machines ========================================================================
+	
+	
+	event.shaped("minecraft:beehive",
+		[
+			"SSS",
+			"XXX",
+			"SSS"
+		],
+		{
+			S: "kubejs:polished_planks",
+			X: "honeycomb"
+		}
+	).id("minecraft:beehive")
 
 	event.custom({
 		type: "lychee:item_inside",

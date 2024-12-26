@@ -24,10 +24,17 @@ ServerEvents.tags('item', event => {
   event.add("forge:tools","supplementaries:wrench")
   event.add("forge:tools","minecraft:shears")
   event.add("forge:tools","minecraft:flint_and_steel")
+  event.add("forge:tools","#c:tools")
   event.add("immersiveengineering:toolbox/tools","#forge:tools")
   event.add("forge:storage_blocks/potato","farmersdelight:potato_crate")
   event.add("forge:gems/zanite","#aether:gems/zanite")
   event.add("forge:gems/skyjade","deep_aether:skyjade")
+
+  event.add("minecraft:axes","#forge:tools/axes")
+  event.add("minecraft:pickaxes","#forge:tools/pickaxes")
+  event.add("minecraft:swords","#forge:tools/swords")
+  event.add("minecraft:shovels","#forge:tools/shovels")
+  event.add("minecraft:hoes","#forge:tools/hoes")
   
   event.add('forge:ingots/stainless_steel', 'immersiveengineering:ingot_steel')
   event.add('immersive_weathering:bark','farmersdelight:tree_bark')

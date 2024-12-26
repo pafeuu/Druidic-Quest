@@ -11,7 +11,8 @@
   "chest": {
     "itemKey": "alexsmobs:crocodile_chestplate",
     "mixAndMatch": [
-      "alexsmobs:tarantula_hawk_elytra"
+      "alexsmobs:tarantula_hawk_elytra",
+      "alexsmobs:rocky_chestplate"
     ],
     "mustBeEmpty": false
   },

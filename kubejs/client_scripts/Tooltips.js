@@ -59,7 +59,7 @@ ItemEvents.tooltip( tooltip => {
   tooltip.add("aether:ice_ring",[Text.gold("When worn as ring:"),Text.blue("Freezes water and lava beneath you")])
 
   tooltip.add("aether:sentry_boots",Text.blue("Grants immunity to fall damage"))
-  tooltip.add(["deep_aether:skyjade_boots","deep_aether:skyjade_chestplate","deep_aether:skyjade_leggings","deep_aether:skyjade_helmet"],Text.blue("loses armor value as the durability goes down"))
+  tooltip.add(["deep_aether:skyjade_boots","deep_aether:skyjade_chestplate","deep_aether:skyjade_leggings","deep_aether:skyjade_helmet"],Text.blue("Loses armor value as the durability goes down"))
   tooltip.add(["aether:zanite_pickaxe","aether:zanite_axe","aether:zanite_shovel","aether:zanite_hoe","aether:zanite_sword"],Text.blue("Gains effectiveness as the durability goes down"))
   tooltip.add(["deep_aether:skyjade_pickaxe","deep_aether:skyjade_axe","deep_aether:skyjade_shovel","deep_aether:skyjade_sword"],Text.blue("Loses effectiveness as the durability goes down"))
   

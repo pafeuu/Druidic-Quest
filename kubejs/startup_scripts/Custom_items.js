@@ -96,6 +96,10 @@ StartupEvents.registry('item', item => {
   item.create('dark_essence').displayName('Dark Essence')
   item.create('life_essence').displayName('Life Essence')
   item.create('death_essence').displayName('Death Essence')
+  item.create('large_enchanting_rune').displayName('Large Enchanting Runestone')
+  item.create('big_enchanting_rune').displayName('Big Enchanting Runestone')
+  item.create('medium_enchanting_rune').displayName('Medium Enchanting Runestone')
+  item.create('small_enchanting_rune').displayName('Small Enchanting Runestone')
 
   ///=====================================================RINGS========================================================
 
@@ -162,6 +166,7 @@ StartupEvents.registry('item', item => {
   item.create('blade_of_grass','irons_spells_js:magic_sword').tier('grass').tag('minecraft:sword').tag('minecraft:tools').glow(true).addDefaultSpell("irons_spellbooks:poison_splash",3)
   item.create('ice_blade','irons_spells_js:magic_sword').tier('ice').tag('minecraft:sword').tag('minecraft:tools').glow(true).addDefaultSpell("irons_spellbooks:icicle",3)
   item.create('rusty_trident','sword').tier('fire').tag('minecraft:sword').tag('minecraft:tools').speedBaseline(-2.9)
+  item.create('primitive_spear','sword').tier('wood').tag('minecraft:sword').tag('minecraft:tools').speedBaseline(-2.9)
 
   item.create('golden_magic_feather','sword').tier('gold').glow(true).tag("minecraft:tools").displayName("Golden Feather").tag("forge:tools/magic_feather")
   item.create('fiery_magic_feather','sword').tier('diamond').glow(true).tag("minecraft:tools").displayName("Fiery Feather").tag("forge:tools/magic_feather").tag("forge:tools/tier2_magic_feather")

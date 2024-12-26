@@ -1,0 +1,53 @@
+{
+  "armorSetName": "steeleaf",
+  "performanceMode": true,
+  "head": {
+    "itemKey": "twilightforest:steeleaf_helmet",
+    "mustBeEmpty": false
+  },
+  "chest": {
+    "itemKey": "twilightforest:steeleaf_chestplate",
+    "mustBeEmpty": false
+  },
+  "legs": {
+    "itemKey": "twilightforest:steeleaf_leggings",
+    "mustBeEmpty": false
+  },
+  "boots": {
+    "itemKey": "twilightforest:steeleaf_boots",
+    "mustBeEmpty": false
+  },
+  "fullSetBonuses": [
+    {
+      "type": "effect",
+      "name": "minecraft:poison",
+      "interactionType": "immunity",
+      "description": "Poison immunity"
+    },
+    {
+      "type": "attribute",
+      "name": "attributeslib:mining_speed",
+      "value": 0.35,
+      "modifierUUID": "d5a5dc88-9405-4398-b1e5-250b4c62d438",
+      "description": "30% faster mining",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "interactionDuration": 300,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "attribute",
+      "name": "puffish_attributes:player.axe_speed",
+      "value": 2,
+      "modifierUUID": "d5a5dc88-9305-4393-b1e5-250b4c62d438",
+      "description": "100% faster axe speed",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "interactionDuration": 300,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": false
+}

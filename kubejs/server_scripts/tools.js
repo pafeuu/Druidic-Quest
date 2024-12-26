@@ -210,6 +210,18 @@ ServerEvents.recipes(event => {
 	  
 
 	///=============================================================== Tier 0 Tools ==========================================================
+
+	event.shaped("kubejs:primitive_spear",
+		[
+			"  F",
+			" S ",
+			"S  "
+		],
+		{
+			F: "minecraft:flint",
+			S: "minecraft:stick"
+		}
+	)
 	
 	event.custom({
 		"type": "lychee:item_exploding",
