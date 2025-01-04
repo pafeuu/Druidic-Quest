@@ -5,7 +5,8 @@ ServerEvents.tags('item', event => {
 
   let seed = ["vintagedelight:oat_seeds","vintagedelight:ghost_pepper_seeds"]
 
-  let hide = ["twigs:calcite_wall","twigs:tuff_wall","twigs:calcite_stairs","kubejs:recipe_changed","kubejs:unstable_ivy_quartz","aether:life_shard"]
+  let hide = ["twigs:calcite_wall","twigs:tuff_wall","twigs:calcite_stairs","kubejs:recipe_changed","kubejs:unstable_ivy_quartz","aether:life_shard",
+              "immersiveengineering:shield","alexsmobs:shield_of_the_deep","enigmaticlegacy:infernal_shield","forbiddenarcanus:obsidian_skull_shield",]
  
   
   event.remove("twiligtforest:portal/activator","diamond")

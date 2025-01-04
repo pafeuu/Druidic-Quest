@@ -57,19 +57,6 @@ ServerEvents.recipes(event => {
 		]
 	})
 
-	
-	function hammering(block, output, count) {
-		event.custom({
-			type: "lychee:block_interacting",
-			item_in: { item: "immersiveengineering:hammer" },
-			block_in: block,
-			post: [
-				{ type: "drop_item", item: output,count: count },
-				{ type: "place", block: "air" },
-				{ type: "damage_item" }
-			]
-		});
-	}
 
 	function clickb(block, item, output) {
 		event.custom({
@@ -84,23 +71,6 @@ ServerEvents.recipes(event => {
 		});
 	}
 	clickb("minecraft:obsidian","kubejs:cut_onions","minecraft:crying_obsidian")
-	function plates(inputItem, outputItem) {
-		event.custom({
-			type: "create:pressing",
-			ingredients: [{ item: inputItem }],
-			results: [{ item: outputItem }],
-		});
-	
-		event.recipes.thermal.press(inputItem, outputItem);
-	
-		event.custom({
-			type: "immersiveengineering:metal_press",
-			energy: 2400,
-			input: { item: inputItem },
-			mold: "immersiveengineering:mold_plate",
-			result: { item: outputItem },
-		});
-	}
 	 
 
 	/// ======================================================================= Tier 0 Machines ========================================================================
@@ -731,8 +701,7 @@ ServerEvents.recipes(event => {
 	
 	
 	
-	hammering("immersiveengineering:treated_wood_horizontal", "kubejs:wooden_plate", 1)
-	hammering("minecraft:smooth_stone","kubejs:stone_plate", 1)
+	
 
 	event.custom(
 		{
@@ -792,21 +761,7 @@ ServerEvents.recipes(event => {
 		  
 	)
 
-	plates("immersiveengineering:treated_wood_horizontal", "kubejs:wooden_plate")
-	plates("minecraft:smooth_stone","kubejs:stone_plate")
-	plates("minecraft:diamond","kubejs:diamond_plate")
-
-	hammering("minecraft:copper_block","thermal:copper_plate", 3)
-	hammering("minecraft:iron_block","thermal:iron_plate", 3)
-	hammering("minecraft:gold_block","thermal:gold_plate", 3)
-	hammering("thermal:tin_block","thermal:tin_plate", 3)
-	hammering("thermal:silver_block","thermal:silver_plate", 3)
-	hammering("thermal:lead_block","thermal:lead_plate", 3)
-	hammering("thermal:nickel_block","thermal:nickel_plate", 3)
-	hammering("thermal:bronze_block","thermal:bronze_plate", 3)
-	hammering("minecraft:diamond_block","kubejs:diamond_plate", 3)
-	hammering("kubejs:inert_alloy_block","kubejs:inert_alloy_plate", 3)
-	hammering("kubejs:arcane_alloy_block","kubejs:arcane_alloy_plate", 3)
+	
 	
 	event.remove({id:"irons_spellbooks:lightning_bottle"})
 	event.custom({

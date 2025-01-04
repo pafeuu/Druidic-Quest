@@ -1026,6 +1026,10 @@ Patch 0.3.2.1
 
 # Patch 0.5.1
 
+### New Mods:
+    -CraftingForBlockheads
+    -AStages
+
 ### New Items:
 
     -Primitive Spear
@@ -1033,6 +1037,7 @@ Patch 0.3.2.1
     -Big Enchanting Runestone
     -Medium Enchanting Runestone
     -Small Enchanting Runestone
+
 
 ### Recipes:
 
@@ -1047,3 +1052,15 @@ Patch 0.3.2.1
     -Added Warden setbonus
     -Buffed every part of warden set
     -
+### Removed items:
+
+    -Heavy Plated shield
+    -Shield of the deep
+    -Bulwark of blazing pride
+
+### Other:
+
+    -Fixed shields tooltips
+    -Unified plates into Create and VintageImprovements plates
+    -Added recipe for arcane and inert alloy plates to the pressing machines
+    -Added recipe to convert any plate to the supported variants

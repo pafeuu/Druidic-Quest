@@ -51,28 +51,16 @@
     "painting": true,
     "chiseled_bookshelf": true
   },
-  "ars_nouveau": {
-    "mob_jar": true
-  },
   "treechop": {
     "plugin": true,
     "show_tree_block_counts": true,
     "show_num_chops_remaining": true
-  },
-  "jadeaddons": {
-    "equipment_requirement": ""
   },
   "tombstone": {
     "graves": true
   },
   "immersiveengineering": {
     "multiblock_icon": true
-  },
-  "twilightforest": {
-    "quest_ram_wool": true
-  },
-  "supplementaries": {
-    "hat_stand": true
   },
   "jade": {
     "coordinates.rel": false,
@@ -81,6 +69,21 @@
     "coordinates": false,
     "registry_name": "OFF",
     "mod_name": true
+  },
+  "lootr": {
+    "info": true
+  },
+  "ars_nouveau": {
+    "mob_jar": true
+  },
+  "jadeaddons": {
+    "equipment_requirement": ""
+  },
+  "twilightforest": {
+    "quest_ram_wool": true
+  },
+  "supplementaries": {
+    "hat_stand": true
   },
   "create": {
     "filter": true,
@@ -96,7 +99,7 @@
   "waystones": {
     "waystone": true
   },
-  "lootr": {
-    "info": true
+  "astages": {
+    "block_component_provider": true
   }
 }

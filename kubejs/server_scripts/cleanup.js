@@ -4,9 +4,19 @@ var metals = ['tin','silver','lead','gold','iron','copper','nickel','zinc','alum
 
 var alloys = ['bronze','enderium','brass','invar','rose_gold','constantan','signalum','lumium']
 
+var VintagePlates = ['tin','silver','lead','nickel','zinc','aluminum','bronze','enderium','invar','rose_gold','constantan',
+	'signalum','lumium']
+
+var CreatePlates = ['copper','brass','iron']
+
 var wood_TF = ['canopy','mangrove','twilight_oak','time','transformation','mining','sorting','dark']
+
 ServerEvents.recipes(event => {
   
+	event.remove({id:"enigmaticlegacy:infernal_shield"})
+	event.remove({id:"alexsmobs:shield_of_the_deep"})
+	event.remove({id:"immersiveengineering:crafting/shield"})
+
 	event.remove({input:'immersiveengineering:hammer'})
 	event.remove({mod:"immersiveengineering",output:"#forge:rods/all_metal"})
 	event.remove({output:"elementalcraft:water_mill_wood_saw"})
@@ -40,7 +50,178 @@ ServerEvents.recipes(event => {
 	event.shapeless("kubejs:arcane_alloy_block","9x kubejs:arcane_alloy_ingot")
 	event.shapeless("9x kubejs:arcane_alloy_ingot","kubejs:arcane_alloy_block")
 
+	//============================= Dusts
+	event.recipes.create.milling('thermal:quartz_dust','#forge:gems/quartz')
+	event.recipes.create.milling("thermal:sulfur_dust","#forge:gems/sulfur")
+
+    metals.forEach(id => {
+		event.custom(
+			{
+			"type": "create:milling",
+			"ingredients": [
+			  {
+				"tag": "forge:raw_materials/"+id
+			  }
+			],
+			"results": [
+			  {
+				"item": "thermal:"+id+"_dust",
+				"count": 1
+			  }
+			],
+			"processingTime": 100
+		  })/// Adds Dusts crafting recipes to the create machines
+		
+	});
+	 
+	function metal(material)
+	{
+		event.remove({id:'thermal:machines/press/press_'+material+'_ingot_to_coin'})
+		event.remove({id:'thermal:machines/press/press_'+material+'_nugget_to_coin'}) /// Removes Coins crafting recipes
+
+		event.custom(
+			{
+			"type": "create:milling",
+			"ingredients": [
+			  {
+				"tag": "forge:ingots/"+material
+			  }
+			],
+			"results": [
+			  {
+				"item": "thermal:"+material+"_dust",
+				"count": 1
+			  }
+			],
+			"processingTime": 100
+		  })/// Adds Dusts crafting recipes to the create machines
+	}
+	//-------------------Keys---------------------
+
+	event.recipes.create.milling('thermal:ruby','kubejs:broken_key')
+	event.recipes.create.milling(['kubejs:broken_key',"2x thermal:ruby"],'kubejs:overworld_key')
+	event.recipes.create.milling(['kubejs:broken_key',"4x thermal:ruby"],'kubejs:twilight_key')
+	event.recipes.create.milling(['kubejs:broken_key',"8x thermal:ruby"],'kubejs:nether_key')
+
+	//-------------------Plates---------------------
+
+	function plates(inputItem, outputItem) {// Adds Plates crafting recipes to the machines
+		event.custom({
+			type: "create:pressing",
+			ingredients: [{ item: inputItem }],
+			results: [{ item: outputItem }],
+		});// Adds Plates crafting recipes to the create machines
 	
+		event.recipes.thermal.press(inputItem, outputItem);// Adds Plates crafting recipes to the thermal machines
+	
+		event.custom({
+			type: "immersiveengineering:metal_press",
+			energy: 2400,
+			input: { item: inputItem },
+			mold: "immersiveengineering:mold_plate",
+			result: { item: outputItem },
+		});// Adds Plates crafting recipes to the IE machines
+	}
+	
+	function hammering(block, output, count) {
+		event.custom({
+			type: "lychee:block_interacting",
+			item_in: { item: "immersiveengineering:hammer" },
+			block_in: block,
+			post: [
+				{ type: "drop_item", item: output,count: count },
+				{ type: "place", block: "air" },
+				{ type: "damage_item" }
+			]
+		});// Adds In World Plates crafting recipes 
+	}
+	hammering("minecraft:copper_block","create:copper_sheet", 3)
+	hammering("minecraft:iron_block","create:iron_sheet", 3)
+	hammering("minecraft:gold_block","create:gold_sheet", 3)
+
+	hammering("thermal:tin_block","vintageimprovements:tin_sheet", 3)
+	hammering("thermal:silver_block","vintageimprovements:silver_sheet", 3)
+	hammering("thermal:lead_block","vintageimprovements:lead_sheet", 3)
+	hammering("thermal:nickel_block","vintageimprovements:nickel_sheet", 3)
+	hammering("thermal:bronze_block","vintageimprovements:bronze_sheet", 3)
+
+	hammering("minecraft:diamond_block","kubejs:diamond_plate", 3)
+	hammering("kubejs:inert_alloy_block","kubejs:inert_alloy_plate", 3)
+	hammering("kubejs:arcane_alloy_block","kubejs:arcane_alloy_plate", 3)
+	hammering("immersiveengineering:treated_wood_horizontal", "kubejs:wooden_plate", 1)
+	hammering("minecraft:smooth_stone","kubejs:stone_plate", 1)
+
+	hammering("twilightforest:ironwood_block","vintageimprovements:ironwood_sheet", 3)
+	hammering("twilightforest:steeleaf_block","vintageimprovements:steeleaf_sheet", 3)
+	hammering("twilightforest:knightmetal_block","vintageimprovements:knightmetal_sheet", 3)
+	hammering("twilightforest:fiery_block","vintageimprovements:fiery_sheet", 3)
+	hammering("create:experience_block","create_things_and_misc:experience_sheet",3)
+
+	plates("immersiveengineering:treated_wood_horizontal", "kubejs:wooden_plate")
+	plates("minecraft:smooth_stone","kubejs:stone_plate")
+	plates("minecraft:diamond","kubejs:diamond_plate")
+	plates("kubejs:arcane_alloy_ingot","kubejs:arcane_alloy_plate")
+	plates("kubejs:inert_alloy_ingot","kubejs:inert_alloy_plate")
+	plates("create:experience_chunk","create_things_and_misc:experience_sheet")
+	plates("#forge:ingots/ironwood","vintageimprovements:ironwood_sheet")
+	plates("#forge:ingots/steeleaf","vintageimprovements:steeleaf_sheet")
+	plates("#forge:ingots/knightmetal","vintageimprovements:knightmetal_sheet")
+	plates("#forge:ingots/fiery","vintageimprovements:fiery_sheet")
+	plates("#forge:ingots/tin","vintageimprovements:tin_sheet")
+	plates("#forge:ingots/silver","vintageimprovements:silver_sheet")
+	plates("#forge:ingots/lead","vintageimprovements:lead_sheet")
+	plates("#forge:ingots/nickel","vintageimprovements:nickel_sheet")
+	plates("#forge:ingots/bronze","vintageimprovements:bronze_sheet")
+	plates("#forge:ingots/copper","create:copper_sheet")
+	plates("#forge:ingots/iron","create:iron_sheet")
+	plates("#forge:ingots/gold","create:gold_sheet")
+	plates("#forge:ingots/brass","create:brass_sheet")
+
+	VintagePlates.forEach(material => {
+		event.replaceOutput({output:'#forge:plates/'+material},'#forge:plates/'+material,'vintageimprovements:'+material+'__sheet')
+		event.shapeless('vintageimprovements:'+material+'_sheet','#forge:plates/'+material)	
+	});
+
+	CreatePlates.forEach(material => {
+		event.replaceOutput({output:'#forge:plates/'+material},'#forge:plates/'+material,'create:'+material+'__sheet')
+		event.shapeless('create:'+material+'_sheet','#forge:plates/'+material)	
+	});
+		 // ofc gold is different
+		event.replaceOutput({output:'#forge:plates/gold'},'#forge:plates/gold','create:golden_sheet')
+		event.shapeless('create:golden_sheet','#forge:plates/gold')	
+
+	//-------------------Coins---------------------
+	event.shapeless('thermal:silver_coin', ['9x thermal:copper_coin'])
+	event.shapeless('thermal:gold_coin', ['9x thermal:silver_coin'])
+	event.shapeless('thermal:netherite_coin', ['9x thermal:gold_coin'])
+	event.shapeless('thermal:enderium_coin', ['9x thermal:netherite_coin'])
+
+	event.shapeless('9x thermal:copper_coin',['thermal:silver_coin'])
+	event.shapeless('9x thermal:silver_coin',['thermal:gold_coin'])
+	event.shapeless('9x thermal:gold_coin',['thermal:netherite_coin'])
+	event.shapeless('9x thermal:netherite_coin',['thermal:enderium_coin'])
+	
+	metal('gold')
+	metal('copper')
+	metal('silver')
+	metal('enderium')
+	metal('netherite')
+	metal('steel')
+	metal('invar')
+	metal('nickel')
+	metal('tin')
+	metal('lead')
+	metal('bronze')
+	metal('electrum')
+	metal('constantan')
+	metal('iron')
+	metal('signalum')
+	metal('lumium')
+	event.remove({output:'thermal:press_coin_die'})
+
+	
+	///=======================================Building blocks=======================================///
+
 	event.shaped("2x kubejs:polished_planks",
 		[
 			"PX",
@@ -72,85 +253,10 @@ ServerEvents.recipes(event => {
 			S: "#forge:rods/wooden"
 		})
 
-	event.recipes.create.milling('thermal:quartz_dust','#forge:gems/quartz')
-	event.recipes.create.milling("thermal:sulfur_dust","#forge:gems/sulfur")
+	event.shapeless("twigs:cracked_bricks","immersive_weathering:cracked_bricks").id("twigs:cracked_bricks")
+	event.shapeless("createdeco:cracked_red_bricks","twigs:cracked_bricks").id("createdeco:cracked_red_bricks_from_bricks_smelting")
+	event.shapeless("immersive_weathering:cracked_bricks","createdeco:cracked_red_bricks")
 
-    metals.forEach(id => {
-		event.custom(
-			{
-			"type": "create:milling",
-			"ingredients": [
-			  {
-				"tag": "forge:raw_materials/"+id
-			  }
-			],
-			"results": [
-			  {
-				"item": "thermal:"+id+"_dust",
-				"count": 1
-			  }
-			],
-			"processingTime": 100
-		  })
-		
-	});
-	 
-	//-------------------Keys---------------------
-
-	event.recipes.create.milling('thermal:ruby','kubejs:broken_key')
-	event.recipes.create.milling(['kubejs:broken_key',"2x thermal:ruby"],'kubejs:overworld_key')
-	event.recipes.create.milling(['kubejs:broken_key',"4x thermal:ruby"],'kubejs:twilight_key')
-	event.recipes.create.milling(['kubejs:broken_key',"8x thermal:ruby"],'kubejs:nether_key')
-	function metal(material)
-	{
-		event.remove({id:'thermal:machines/press/press_'+material+'_ingot_to_coin'})
-		event.remove({id:'thermal:machines/press/press_'+material+'_nugget_to_coin'})
-		event.custom(
-			{
-			"type": "create:milling",
-			"ingredients": [
-			  {
-				"tag": "forge:ingots/"+material
-			  }
-			],
-			"results": [
-			  {
-				"item": "thermal:"+material+"_dust",
-				"count": 1
-			  }
-			],
-			"processingTime": 100
-		  })
-		event.custom({
-			"type": "create:pressing",
-			 "ingredients": [
-			   {
-				 "tag": "forge:ingots/"+material
-			   }
-			 ],
-			 "results": [
-			   {
-				 "item": "thermal:"+material+"_plate"
-			   }
-			 ]
-		   })
-
-		event.replaceInput({input:'#forge:plates/'+material},'#forge:plates/'+material,'thermal:'+material+'_plate')
-		event.replaceOutput({output:'#forge:plates/'+material},'#forge:plates/'+material,'thermal:'+material+'_plate')	
-	}
-	
-	event.shapeless('thermal:silver_coin', ['9x thermal:copper_coin'])
-	event.shapeless('thermal:gold_coin', ['9x thermal:silver_coin'])
-	event.shapeless('thermal:netherite_coin', ['9x thermal:gold_coin'])
-	event.shapeless('thermal:enderium_coin', ['9x thermal:netherite_coin'])
-
-	event.shapeless('9x thermal:copper_coin',['thermal:silver_coin'])
-	event.shapeless('9x thermal:silver_coin',['thermal:gold_coin'])
-	event.shapeless('9x thermal:gold_coin',['thermal:netherite_coin'])
-	event.shapeless('9x thermal:netherite_coin',['thermal:enderium_coin'])
-	
-
-	
 	event.remove({id:'supplementaries:timber_frame'})
 	event.shaped(
 		Item.of('4x supplementaries:timber_frame'), 
@@ -163,31 +269,6 @@ ServerEvents.recipes(event => {
 		  C: 'stick'
 		}
 	  )
-	
-	metal('gold')
-	metal('copper')
-	metal('silver')
-	metal('enderium')
-	metal('netherite')
-	metal('steel')
-	metal('invar')
-	metal('nickel')
-	metal('tin')
-	metal('lead')
-	metal('bronze')
-	metal('electrum')
-	metal('constantan')
-	metal('iron')
-	metal('signalum')
-	metal('lumium')
-	event.remove({output:'thermal:press_coin_die'})
-
-	
-	///=======================================Building blocks=======================================///
-
-	event.shapeless("twigs:cracked_bricks","immersive_weathering:cracked_bricks").id("twigs:cracked_bricks")
-	event.shapeless("createdeco:cracked_red_bricks","twigs:cracked_bricks").id("createdeco:cracked_red_bricks_from_bricks_smelting")
-	event.shapeless("immersive_weathering:cracked_bricks","createdeco:cracked_red_bricks")
 
 	wood_TF.forEach(type => {
 		
