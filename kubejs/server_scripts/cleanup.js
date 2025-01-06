@@ -108,16 +108,16 @@ ServerEvents.recipes(event => {
 	function plates(inputItem, outputItem) {// Adds Plates crafting recipes to the machines
 		event.custom({
 			type: "create:pressing",
-			ingredients: [{ item: inputItem }],
+			ingredients: [{ tag: inputItem }],
 			results: [{ item: outputItem }],
 		});// Adds Plates crafting recipes to the create machines
 	
-		event.recipes.thermal.press(inputItem, outputItem);// Adds Plates crafting recipes to the thermal machines
+		event.recipes.thermal.press("#"+inputItem, outputItem);// Adds Plates crafting recipes to the thermal machines
 	
 		event.custom({
 			type: "immersiveengineering:metal_press",
 			energy: 2400,
-			input: { item: inputItem },
+			input: { tag: inputItem },
 			mold: "immersiveengineering:mold_plate",
 			result: { item: outputItem },
 		});// Adds Plates crafting recipes to the IE machines
@@ -135,6 +135,9 @@ ServerEvents.recipes(event => {
 			]
 		});// Adds In World Plates crafting recipes 
 	}
+
+	event.recipes.thermal.press("#forge:gems/diamond","kubejs:diamond_plate")
+	event.recipes.thermal.press("minecraft:diamond","kubejs:diamond_plate")
 	hammering("minecraft:copper_block","create:copper_sheet", 3)
 	hammering("minecraft:iron_block","create:iron_sheet", 3)
 	hammering("minecraft:gold_block","create:gold_sheet", 3)
@@ -157,25 +160,29 @@ ServerEvents.recipes(event => {
 	hammering("twilightforest:fiery_block","vintageimprovements:fiery_sheet", 3)
 	hammering("create:experience_block","create_things_and_misc:experience_sheet",3)
 
-	plates("immersiveengineering:treated_wood_horizontal", "kubejs:wooden_plate")
-	plates("minecraft:smooth_stone","kubejs:stone_plate")
-	plates("minecraft:diamond","kubejs:diamond_plate")
-	plates("kubejs:arcane_alloy_ingot","kubejs:arcane_alloy_plate")
-	plates("kubejs:inert_alloy_ingot","kubejs:inert_alloy_plate")
-	plates("create:experience_chunk","create_things_and_misc:experience_sheet")
-	plates("#forge:ingots/ironwood","vintageimprovements:ironwood_sheet")
-	plates("#forge:ingots/steeleaf","vintageimprovements:steeleaf_sheet")
-	plates("#forge:ingots/knightmetal","vintageimprovements:knightmetal_sheet")
-	plates("#forge:ingots/fiery","vintageimprovements:fiery_sheet")
-	plates("#forge:ingots/tin","vintageimprovements:tin_sheet")
-	plates("#forge:ingots/silver","vintageimprovements:silver_sheet")
-	plates("#forge:ingots/lead","vintageimprovements:lead_sheet")
-	plates("#forge:ingots/nickel","vintageimprovements:nickel_sheet")
-	plates("#forge:ingots/bronze","vintageimprovements:bronze_sheet")
-	plates("#forge:ingots/copper","create:copper_sheet")
-	plates("#forge:ingots/iron","create:iron_sheet")
-	plates("#forge:ingots/gold","create:gold_sheet")
-	plates("#forge:ingots/brass","create:brass_sheet")
+	//plates("immersiveengineering:treated_wood_horizontal", "kubejs:wooden_plate")
+	//
+	//plates("minecraft:smooth_stone","kubejs:stone_plate")
+
+	plates("forge:gems/diamond","kubejs:diamond_plate")
+	/*
+	plates("forge:ingots/arcane_alloy_ingot","kubejs:arcane_alloy_plate")
+	plates("forge:ingots/inert_alloy_ingot","kubejs:inert_alloy_plate")
+	//plates("create:experience_chunk","create_things_and_misc:experience_sheet")
+	plates("forge:ingots/ironwood","vintageimprovements:ironwood_sheet")
+	plates("forge:ingots/steeleaf","vintageimprovements:steeleaf_sheet")
+	plates("forge:ingots/knightmetal","vintageimprovements:knightmetal_sheet")
+	plates("forge:ingots/fiery","vintageimprovements:fiery_sheet")
+	plates("forge:ingots/tin","vintageimprovements:tin_sheet")
+	plates("forge:ingots/silver","vintageimprovements:silver_sheet")
+	plates("forge:ingots/lead","vintageimprovements:lead_sheet")
+	plates("forge:ingots/nickel","vintageimprovements:nickel_sheet")
+	plates("forge:ingots/bronze","vintageimprovements:bronze_sheet")
+	plates("forge:ingots/copper","create:copper_sheet")
+	plates("forge:ingots/iron","create:iron_sheet")
+	plates("forge:ingots/gold","create:gold_sheet")
+	plates("forge:ingots/brass","create:brass_sheet")*/
+
 
 	VintagePlates.forEach(material => {
 		event.replaceOutput({output:'#forge:plates/'+material},'#forge:plates/'+material,'vintageimprovements:'+material+'__sheet')

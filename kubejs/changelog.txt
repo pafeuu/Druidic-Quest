@@ -1043,6 +1043,11 @@ Patch 0.3.2.1
 
     -Changed for bellows
     -Changed for beehive
+    -Changed for knightmetal shield
+    -Changed for enchanters shield
+    -Changed for ironwood tools
+    -Changed for steeleaf tools
+    -You can now combine extradimensional eye with dimensional tool to apply the telekinesis enchant!
 
 ### Balance:
 
@@ -1051,12 +1056,19 @@ Patch 0.3.2.1
     -Added Ironwood setbonus
     -Added Warden setbonus
     -Buffed every part of warden set
-    -
+    -Buffed steeleaf and ironwood toolset
+
 ### Removed items:
 
     -Heavy Plated shield
     -Shield of the deep
     -Bulwark of blazing pride
+
+### Tooltips:
+
+    -Added tooltips to the dimensional tools 
+    -Added tooltips to the extradimensional eye
+    -Fixed for botanist set
 
 ### Other:
 
@@ -1064,3 +1076,6 @@ Patch 0.3.2.1
     -Unified plates into Create and VintageImprovements plates
     -Added recipe for arcane and inert alloy plates to the pressing machines
     -Added recipe to convert any plate to the supported variants
+    -Added a lot of missing tags to the custom items
+    -Fixed recipe for the fiery and rainbow feather
+    -Removed diamond as the twilightforest portal activator as intended before

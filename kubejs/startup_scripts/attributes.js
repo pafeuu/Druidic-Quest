@@ -14,28 +14,40 @@ ForgeEvents.onEvent('net.minecraftforge.event.ItemAttributeModifierEvent', event
 		
 	if (event.itemStack.hasTag("forge:tools/iron") && event.slotType == 'mainhand') {
 					
-		event.addModifier("forge:block_reach", new $AttributeModifier(UUID.fromString('4cbad1f0-6d16-404c-a3bd-c3bf2f9980a7'), 'Tool modifier', 0.5, 'addition'))
+		event.addModifier("forge:block_reach", new $AttributeModifier(UUID.fromString('4cbad1f0-6d16-404c-a3bd-c31f2f9980a7'), 'Tool modifier', 0.5, 'addition'))
+	};
+
+	if (event.itemStack.hasTag("forge:tools/ironwood") && event.slotType == 'mainhand') {
+					
+		event.addModifier("forge:block_reach", new $AttributeModifier(UUID.fromString('4cbad1f0-6d16-404c-a1bd-c3bf2f9980a7'), 'Tool modifier', 0.5, 'addition'))
+		event.addModifier("puffish_attributes:healing", new $AttributeModifier(UUID.fromString('4cbad1f0-6d16-424c-a3bd-c3bf2f9911a7'), 'Tool modifier2', 0.5, 'addition'))
+	};
+
+	if (event.itemStack.hasTag("forge:tools/steeleaf") && event.slotType == 'mainhand') {
+					
+		event.addModifier("forge:block_reach", new $AttributeModifier(UUID.fromString('4cbad1f0-6d16-404c-13bd-c3bf2f9980a7'), 'Tool modifier', 1, 'addition'))
+		event.addModifier("puffish_attributes:healing", new $AttributeModifier(UUID.fromString('4cbad1f0-6d16-424c-a3bd-c3bf2f9911a7'), 'Tool modifier2', 0.5, 'addition'))
 	};
 	
 	
 	if (event.itemStack.hasTag("forge:tools/botanist") && event.slotType == 'mainhand') {
 					
-		event.addModifier("forge:block_reach", new $AttributeModifier(UUID.fromString('4cb3d1f0-6d16-404c-a3bd-c3bf2f9980a7'), 'Tool modifier', 1, 'addition'))
+		event.addModifier("forge:block_reach", new $AttributeModifier(UUID.fromString('4c33d1f0-6d16-404c-a3bd-c3bf2f9980a7'), 'Tool modifier', 1, 'addition'))
 	};
 
 	if (event.itemStack.hasTag("forge:tools/zanite") && event.slotType == 'mainhand') {
 					
-		event.addModifier("forge:block_reach", new $AttributeModifier(UUID.fromString('4cb3d1f0-6d16-404c-a3bd-c3bf2f9980a7'), 'Tool modifier', 1, 'addition'))
+		event.addModifier("forge:block_reach", new $AttributeModifier(UUID.fromString('43b3d1f0-6d16-404c-a3bd-c3bf2f9980a7'), 'Tool modifier', 1, 'addition'))
 	};
 
 	if (event.itemStack.hasTag("forge:tools/skyjade") && event.slotType == 'mainhand') {
 					
-		event.addModifier("forge:block_reach", new $AttributeModifier(UUID.fromString('4cb3d1f0-6d16-404c-a3bd-c3bf2f9980a7'), 'Tool modifier', 0.5, 'addition'))
+		event.addModifier("forge:block_reach", new $AttributeModifier(UUID.fromString('4cb3d1f0-6d16-404c-a3bd-c3bf2f2980a7'), 'Tool modifier', 0.5, 'addition'))
 	};
 
 	if (event.itemStack.hasTag("forge:tools/diamond") && event.slotType == 'mainhand') {
 					
-		event.addModifier("forge:block_reach", new $AttributeModifier(UUID.fromString('4cb3d1f0-6d16-404c-a3bd-c3bf2f9980a7'), 'Tool modifier', 1, 'addition'))
+		event.addModifier("forge:block_reach", new $AttributeModifier(UUID.fromString('4cb3d1f0-6d16-404c-a3bd-c3bf2f9930a7'), 'Tool modifier', 1, 'addition'))
 	};
 	
 	
@@ -54,7 +66,7 @@ ForgeEvents.onEvent('net.minecraftforge.event.ItemAttributeModifierEvent', event
 	if (event.itemStack.hasTag("forge:tools/brass") && event.slotType == 'mainhand') {
 					
 		event.addModifier("minecraft:generic.luck", new $AttributeModifier(UUID.fromString('be52e96b-1d94-4e73-b435-8157d4e8428a'), 'Tool modifier', 1, 'addition'))
-		event.addModifier("minecraft:generic.knockback_resistance", new $AttributeModifier(UUID.fromString('c7ca563c-06da-4568-b875-61a414540307'), 'Tool modifier', 0.5, 'addition'))
+		event.addModifier("minecraft:generic.knockback_resistance", new $AttributeModifier(UUID.fromString('c7ca563c-06da-4568-b875-61a414540307'), 'Tool modifier2', 0.5, 'addition'))
 	};
 	 
 

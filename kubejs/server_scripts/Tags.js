@@ -1,15 +1,14 @@
  priority: 0
 
 ServerEvents.tags('item', event => {
-  
 
   let seed = ["vintagedelight:oat_seeds","vintagedelight:ghost_pepper_seeds"]
-
   let hide = ["twigs:calcite_wall","twigs:tuff_wall","twigs:calcite_stairs","kubejs:recipe_changed","kubejs:unstable_ivy_quartz","aether:life_shard",
               "immersiveengineering:shield","alexsmobs:shield_of_the_deep","enigmaticlegacy:infernal_shield","forbiddenarcanus:obsidian_skull_shield",]
- 
   
-  event.remove("twiligtforest:portal/activator","diamond")
+  
+  
+  event.remove("twilightforest:portal/activator","minecraft:diamond")
   event.remove("forge:gems/ruby","thermal:ruby")
   event.remove("forge:storage_blocks/ruby","thermal:ruby_block")
   event.remove("forge:storage_blocks/gunpowder","thermal:gunpowder_block")
@@ -83,6 +82,7 @@ ServerEvents.tags('item', event => {
 	  event.add('forge:tools/'+tier, name+'_shovel')  
 	  event.add('forge:tools/'+tier, name+'_hoe')  
   }
+
   tooltier('minecraft:wooden','flint')
   tooltier('minecraft:stone','stone')
   tooltier('create_sa:copper','copper')
@@ -101,6 +101,8 @@ ServerEvents.tags('item', event => {
   tooltier('forbidden_arcanus:draco_arcanus','draco_arcanus')
   tooltier('forbidden_arcanus:reinforced_deorum','reinforced_deorum')
   tooltier('forbidden_arcanus:reinforced_obsidian','reinforced_obsidian')
+  tooltier('twilightforest:ironwood','ironwood')
+  tooltier('twilightforest:steeleaf','steeleaf')
  
 	tool('create_sa:copper')
 	tool('create_sa:zinc')
@@ -111,6 +113,9 @@ ServerEvents.tags('item', event => {
   tool('enigmaticlegacy:etherium')
   tool('forbidden_arcanus:draco_arcanus')
   tool('forbidden_arcanus:reinforced_deorum')
+
+  event.add('druidic_quest:dimensional_tools',['#forge:tools/ironwood',"#forge:tools/zanite","#forge:tools/gravitite","#forge:tools/holystone", 
+    "#forge:tools/skyjade","#forge:tools/steeleaf","#forge:tools/ironwood","#forge:tools/blaze","#forge:tools/netherite"])
   
 })
 

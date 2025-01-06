@@ -1,6 +1,16 @@
 {
-  "GOLD": {
+  "WARDEN": {
     "maxEnchantments": 6,
+    "maxCurses": 1,
+    "curseMultiplier": 1
+  },
+  "ETHERIUM": {
+    "maxEnchantments": 6,
+    "maxCurses": 1,
+    "curseMultiplier": 1
+  },
+  "GOLD": {
+    "maxEnchantments": 5,
     "maxCurses": 1,
     "curseMultiplier": 1
   },
@@ -9,13 +19,38 @@
     "maxCurses": 1,
     "curseMultiplier": 1
   },
-  "WOOD": {
-    "maxEnchantments": 4,
+  "DEPTH": {
+    "maxEnchantments": 5,
+    "maxCurses": 1,
+    "curseMultiplier": 1
+  },
+  "SKY": {
+    "maxEnchantments": 5,
     "maxCurses": 1,
     "curseMultiplier": 1
   },
   "DIAMOND": {
+    "maxEnchantments": 5,
+    "maxCurses": 1,
+    "curseMultiplier": 1
+  },
+  "RESONARIUM": {
     "maxEnchantments": 4,
+    "maxCurses": 1,
+    "curseMultiplier": 1
+  },
+  "INFUSED": {
+    "maxEnchantments": 3,
+    "maxCurses": 1,
+    "curseMultiplier": 1
+  },
+  "SKYJADE": {
+    "maxEnchantments": 3,
+    "maxCurses": 1,
+    "curseMultiplier": 1
+  },
+  "ZANITE": {
+    "maxEnchantments": 3,
     "maxCurses": 1,
     "curseMultiplier": 1
   },
@@ -25,6 +60,11 @@
     "curseMultiplier": 1
   },
   "STONE": {
+    "maxEnchantments": 2,
+    "maxCurses": 1,
+    "curseMultiplier": 1
+  },
+  "WOOD": {
     "maxEnchantments": 2,
     "maxCurses": 1,
     "curseMultiplier": 1

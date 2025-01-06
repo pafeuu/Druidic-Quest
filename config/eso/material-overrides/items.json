@@ -2,21 +2,21 @@
   "minecraft:bow": {
     "maxEnchantments": 4,
     "maxCurses": 1,
-    "curseMultiplier": 1
+    "curseMultiplier": 0
   },
   "minecraft:fishing_rod": {
     "maxEnchantments": 5,
     "maxCurses": 1,
-    "curseMultiplier": 1
+    "curseMultiplier": 0
   },
   "minecraft:crossbow": {
     "maxEnchantments": 4,
     "maxCurses": 1,
-    "curseMultiplier": 1
+    "curseMultiplier": 0
   },
   "minecraft:trident": {
     "maxEnchantments": 4,
     "maxCurses": 1,
-    "curseMultiplier": 1
+    "curseMultiplier": 0
   }
 }

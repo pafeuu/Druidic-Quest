@@ -2548,7 +2548,7 @@ ServerEvents.recipes(event => {
 			{item: "ars_nouveau:air_essence"},
 			{item: "ars_nouveau:earth_essence"},
 			{item: "kubejs:nature_essence"},
-			{item: "kubejs:very_sharp_feather"}
+			{item: "kubejs:fiery_magic_feather"}
 		],
 		"output": {
 			"Count": 1,

@@ -54,48 +54,54 @@ StartupEvents.registry('item', item => {
   item.create('stone_plate').displayName('Stone Plate').tag("forge:plates/stone")
   item.create('wooden_plate').displayName('Wooden Plate').tag("forge:plates/wooden")
   item.create('diamond_plate').displayName('Diamond Plate').tag('forge:plates/diamond')
-  item.create('arcane_alloy_plate').tag('forge:plates')
-  item.create('inert_alloy_plate').tag('forge:plates')
+  item.create('arcane_alloy_plate').tag('forge:plates').tag('forge:plates/arcane_alloy')
+  item.create('inert_alloy_plate').tag('forge:plates').tag('forge:plates/inert_alloy')
 
   ///===================================================GEARS===========================================================
-  item.create('wooden_gear').displayName('Wooden Gear').tag('forge:gears/wooden')
-  item.create('stone_gear').displayName('Stone Gear').tag('forge:gears/stone')
+  item.create('wooden_gear').displayName('Wooden Gear').tag('forge:gears/wooden').tag('forge:gears')
+  item.create('stone_gear').displayName('Stone Gear').tag('forge:gears/stone').tag('forge:gears')
 
-  item.create("carbon_infused_sturdy_handle").displayName("Carbon Infused Sturdy Handle")
+  item.create("carbon_infused_sturdy_handle").displayName("Carbon Infused Sturdy Handle").tag("forge:rods")
 
   ///===================================================INGOTS===========================================================
 
-  item.create('arcane_alloy_ingot').displayName('Arcane Alloy Ingot')
-  item.create('inert_alloy_ingot').displayName('Inert Alloy Ingot')
-  item.create('wrought_iron_ingot').displayName('Wrought Iron Ingot')
-  item.create('neptun_ingot')
-  item.create('phoenix_ingot')
-  item.create('obsidian_ingot')
-  item.create('infused_iron_nugget').displayName('Infused Iron Nugget')
+  item.create('arcane_alloy_ingot').tag('forge:ingots').tag('forge:ingots/arcane_alloy')
+  item.create('inert_alloy_ingot').tag('forge:ingots').tag('forge:ingots/inert_alloy')
+  item.create('wrought_iron_ingot').tag('forge:ingots').tag('forge:ingots/wrought_iron')
+  item.create('neptun_ingot').tag('forge:ingots').tag('forge:ingots/neptun')
+  item.create('phoenix_ingot').tag('forge:ingots').tag('forge:ingots/phoenix')
+  item.create('obsidian_ingot').tag('forge:ingots').tag('forge:ingots/obsidian')
+
+  ///===================================================NUGGETS=========================================================
+
+  item.create('infused_iron_nugget').tag('forge:nuggets').tag('forge:nuggets/infused_iron')
 
   ///===================================================GEMS=============================================================
 
-  item.create("berry_quartz").displayName("Berry Quartz")
-  item.create("salmon_quartz").displayName("Salmon Quartz")
-  item.create("lemon_quartz").displayName("Lemon Quartz")
-  item.create("ivy_quartz").displayName("Ivy Quartz")
-  item.create("unstable_ivy_quartz").displayName("Unstable Ivy Quartz")
+  item.create("berry_quartz").displayName("Berry Quartz").tag("forge:gems")
+  item.create("salmon_quartz").displayName("Salmon Quartz").tag("forge:gems")
+  item.create("lemon_quartz").displayName("Lemon Quartz").tag("forge:gems")
+  item.create("ivy_quartz").displayName("Ivy Quartz").tag("forge:gems")
+  item.create("unstable_ivy_quartz").displayName("Unstable Ivy Quartz").tag("forge:gems")
 
   ///===================================================DUSTS============================================================
 
-  item.create("sulfur_quartz_blend").displayName("Sulfuric Quartz Blend")
-  item.create('alchemical_dust').displayName('Alchemical Dust')
-  item.create('improved_alchemical_dust').displayName('Improved Alchemical Dust')
+  item.create("sulfur_quartz_blend").displayName("Sulfuric Quartz Blend").tag("forge:dusts")
+  item.create('alchemical_dust').displayName('Alchemical Dust').tag('forge:dusts')
+  item.create('improved_alchemical_dust').displayName('Improved Alchemical Dust').tag('forge:dusts')
   
 
   ///===================================================ESSENCE==========================================================
 
-  item.create('nature_essence').displayName('Nature essence')
-  item.create('ender_essence').displayName('Ender Essence')
-  item.create('light_essence').displayName('Light Essence')
-  item.create('dark_essence').displayName('Dark Essence')
-  item.create('life_essence').displayName('Life Essence')
-  item.create('death_essence').displayName('Death Essence')
+  item.create('nature_essence').displayName('Nature essence').tag('forge:essences')
+  item.create('ender_essence').displayName('Ender Essence').tag('forge:essences')
+  item.create('light_essence').displayName('Light Essence').tag('forge:essences')
+  item.create('dark_essence').displayName('Dark Essence').tag('forge:essences')
+  item.create('life_essence').displayName('Life Essence').tag('forge:essences')
+  item.create('death_essence').displayName('Death Essence').tag('forge:essences')
+
+  ///===================================================RUNES===========================================================
+  
   item.create('large_enchanting_rune').displayName('Large Enchanting Runestone')
   item.create('big_enchanting_rune').displayName('Big Enchanting Runestone')
   item.create('medium_enchanting_rune').displayName('Medium Enchanting Runestone')

@@ -4,6 +4,24 @@ ServerEvents.recipes(event => {
 	const tooltype = ['hoe','sword','pickaxe','axe','shovel'];
 
 	const armorslot = ["helmet","chestplate","leggings","boots"]
+
+	let DimenstionalTools = ['twilightforest:ironwood_hoe','twilightforest:ironwood_sword','twilightforest:ironwood_pickaxe','twilightforest:ironwood_axe','twilightforest:ironwood_shovel',
+	'twilightforest:steeleaf_hoe','twilightforest:steeleaf_sword','twilightforest:steeleaf_pickaxe','twilightforest:steeleaf_axe','twilightforest:steeleaf_shovel','aether:zanite_hoe',
+	'aether:zanite_sword','aether:zanite_pickaxe','aether:zanite_axe','aether:zanite_shovel','aether:gravitite_hoe','aether:gravitite_sword','aether:gravitite_pickaxe','aether:gravitite_axe',
+	'deep_aether:skyjade_hoe','deep_aether:skyjade_sword','deep_aether:skyjade_pickaxe','deep_aether:skyjade_axe','deep_aether:skyjade_shovel','minecraft:netherite_hoe','minecraft:netherite_sword',
+	'minecraft:netherite_pickaxe','minecraft:netherite_axe','minecraft:netherite_shovel','create_sa:blazing_cleaver','create_sa:blazing_pickaxe','create_sa:blazing_axe',
+	'create_sa:blazing_shovel',]
+	
+
+	DimenstionalTools.forEach(tool => {
+        event.shapeless(tool, ['enigmaticlegacy:extradimensional_eye', tool]).modifyResult((grid, result) => {
+          let _tool = grid.find(Ingredient.of(tool));
+          if(!_tool.hasEnchantment('majruszsenchantments:telekinesis', 1)){
+            _tool = _tool.enchant('majruszsenchantments:telekinesis', 1);
+          }
+          return _tool;
+        })
+    })
 	
 	event.remove({output:'#minecraft:axes'})
 	event.remove({output:'#minecraft:pickaxes'})
@@ -12,6 +30,83 @@ ServerEvents.recipes(event => {
 	event.remove({output:'#minecraft:swords'})
 
 	event.remove({output:/simple_weapons:corinthium*/})
+	//==================================================Functions==================================================
+
+	function tool(output,material,rod,binding){// Creates simple workbench recipes with bindings and tool rods
+
+		event.shaped(
+			Item.of(output+'_pickaxe'), 
+			[
+			  'FFF',
+			  'XS ', 
+			  ' S '
+			],
+			{
+				F: material,
+				X: binding,
+				S: rod
+			}
+		  )
+		  
+		  event.shaped(
+			Item.of(output+'_axe'), 
+			[
+			  'FF ',
+			  'FS ', 
+			  'XS '
+			],
+			{
+				F: material,
+				X: binding,
+				S: rod
+			}
+		  )
+		  
+		  
+		  event.shaped(
+			Item.of(output+'_shovel'), 
+			[
+			  ' F ',
+			  'XS ', 
+			  ' S '
+			],
+			{
+				F: material,
+				X: binding,
+				S: rod
+			}
+		  )
+		  
+	  
+		  event.shaped(
+			Item.of(output+'_hoe'), 
+			[
+			  'FF ',
+			  'XS ', 
+			  ' S '
+			],
+			{
+				F: material,
+				X: binding,
+				S: rod
+			}
+		  )
+		  
+		  
+		  event.shaped(
+			Item.of(output+'_sword'), 
+			[
+			  ' F ',
+			  'XF ', 
+			  ' S '
+			],
+			{
+			  F: material,
+			  X: binding,
+			  S: rod
+			} 
+		  )
+	}
 
 	//===============================================Tool Functionality=============================================
 
@@ -217,9 +312,22 @@ ServerEvents.recipes(event => {
 		],
 		{
 			X: "shield",
-			S: "minecraft:stick"
+			P: "#forge:plates/knightmetal"
 		}
-	)
+	).id("twilightforest:equipment/knightmetal_shield")
+
+	event.shaped("ars_nouveau:enchanters_shield",
+		[
+			"YPY",
+			"PXP",
+			"YPY"
+		],
+		{
+			X: "twilightforest:knightmetal_shield",
+			P: "#forge:plates/arcane_alloy",
+			Y: "#forge:plates/gold"
+		}
+	).id("ars_nouveau:enchanters_shield")
 
 	///=============================================================== Tier 0 Tools ==========================================================
 
@@ -1630,81 +1738,6 @@ ServerEvents.recipes(event => {
 	tool('create_sa:brass','#forge:ingots/brass','#forge:rods/treated_wood','elementalcraft:air_silk')
 	nohoes('create_sa:experience','create_sa:heap_of_experience','create_sa:zinc_handle','elementalcraft:air_silk')
 	tool('minecraft:diamond','#forge:gems/diamond','create_sa:zinc_handle','alexsmobs:shed_snake_skin')
-	function tool(output,material,rod,binding){
-
-		event.shaped(
-			Item.of(output+'_pickaxe'), 
-			[
-			  'FFF',
-			  'XS ', 
-			  ' S '
-			],
-			{
-				F: material,
-				X: binding,
-				S: rod
-			}
-		  )
-		  
-		  event.shaped(
-			Item.of(output+'_axe'), 
-			[
-			  'FF ',
-			  'FS ', 
-			  'XS '
-			],
-			{
-				F: material,
-				X: binding,
-				S: rod
-			}
-		  )
-		  
-		  
-		  event.shaped(
-			Item.of(output+'_shovel'), 
-			[
-			  ' F ',
-			  'XS ', 
-			  ' S '
-			],
-			{
-				F: material,
-				X: binding,
-				S: rod
-			}
-		  )
-		  
-	  
-		  event.shaped(
-			Item.of(output+'_hoe'), 
-			[
-			  'FF ',
-			  'XS ', 
-			  ' S '
-			],
-			{
-				F: material,
-				X: binding,
-				S: rod
-			}
-		  )
-		  
-		  
-		  event.shaped(
-			Item.of(output+'_sword'), 
-			[
-			  ' F ',
-			  'XF ', 
-			  ' S '
-			],
-			{
-			  F: material,
-			  X: binding,
-			  S: rod
-			} 
-		  )
-	}
 
 	function nohoes(output,material,rod,binding){
 
@@ -1880,6 +1913,21 @@ ServerEvents.recipes(event => {
 	});
 
 	tooltype.forEach(id => {
+		event.shaped("twilightforest:ironwood_"+id,
+			[
+				' I ',
+				'IXI', 
+				' I ' 
+			],
+			{
+				I: '#forge:ingots/ironwood',
+				X: 'minecraft:iron_'+id
+			}
+		)
+		event.remove({id:"twilightforest:equipment/ironwood_"+id})	
+	});
+
+	tooltype.forEach(id => {
 		event.shaped("deep_aether:skyjade_"+id,
 			[
 				' I ',
@@ -1926,7 +1974,7 @@ ServerEvents.recipes(event => {
 	
 
 	event.recipes.naturesaura.tree_ritual("kubejs:fiery_magic_feather",
-		["kubejs:sharp_feather","#minecraft:beds","ars_nouveau:fire_essence","ars_nouveau:fire_essence","ars_nouveau:fire_essence","ars_nouveau:fire_essence","thermal:gunpowder_block","thermal:gunpowder_block"],"minecraft:spruce_sapling")
+		["kubejs:golden_magic_feather","#minecraft:beds","ars_nouveau:fire_essence","ars_nouveau:fire_essence","ars_nouveau:fire_essence","ars_nouveau:fire_essence","thermal:gunpowder_block","thermal:gunpowder_block"],"minecraft:spruce_sapling")
 
 	event.shapeless("quark:pickarang",["diamond_pickaxe","quark:diamond_heart"]).id("quark:tools/crafting/pickarang_heart")
 
