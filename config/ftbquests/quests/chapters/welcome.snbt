@@ -5,6 +5,410 @@
 	group: ""
 	icon: "minecraft:oak_sapling"
 	id: "3E5E80A2E082BA7C"
+	images: [
+		{
+			height: 2.35d
+			image: "everycomp:block/abnww/architects_palette/twisted_beehive_end"
+			rotation: 0.0d
+			width: 2.35d
+			x: -8.0d
+			y: 0.0d
+		}
+		{
+			height: 2.35d
+			image: "everycomp:block/abnww/architects_palette/twisted_beehive_end"
+			rotation: 0.0d
+			width: 2.35d
+			x: -8.0d
+			y: -2.0d
+		}
+		{
+			height: 2.35d
+			image: "everycomp:block/abnww/architects_palette/twisted_beehive_end"
+			rotation: 0.0d
+			width: 2.35d
+			x: -8.0d
+			y: -4.0d
+		}
+		{
+			height: 2.35d
+			image: "sophisticatedstorage:block/acacia_barrel_bottom"
+			rotation: 0.0d
+			width: 2.35d
+			x: -6.0d
+			y: -4.0d
+		}
+		{
+			height: 2.35d
+			image: "everycomp:block/abnww/architects_palette/twisted_beehive_end"
+			rotation: 0.0d
+			width: 2.35d
+			x: -4.0d
+			y: -4.0d
+		}
+		{
+			height: 2.35d
+			image: "everycomp:block/abnww/architects_palette/twisted_beehive_end"
+			rotation: 0.0d
+			width: 2.35d
+			x: -2.0d
+			y: -4.0d
+		}
+		{
+			height: 2.35d
+			image: "everycomp:block/abnww/architects_palette/twisted_beehive_end"
+			rotation: 0.0d
+			width: 2.35d
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			height: 2.35d
+			image: "everycomp:block/abnww/architects_palette/twisted_beehive_end"
+			rotation: 0.0d
+			width: 2.35d
+			x: 2.0d
+			y: -4.0d
+		}
+		{
+			height: 2.35d
+			image: "decorative_blocks:block/acacia_beam_side"
+			rotation: 0.0d
+			width: 2.35d
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			height: 2.35d
+			image: "everycomp:block/abnww/architects_palette/twisted_beehive_end"
+			rotation: 0.0d
+			width: 2.35d
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			height: 2.35d
+			image: "everycomp:block/abnww/architects_palette/twisted_beehive_end"
+			rotation: 0.0d
+			width: 2.35d
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			height: 2.35d
+			image: "everycomp:block/abnww/architects_palette/twisted_beehive_end"
+			rotation: 0.0d
+			width: 2.35d
+			x: -2.0d
+			y: 4.0d
+		}
+		{
+			height: 2.35d
+			image: "everycomp:block/abnww/architects_palette/twisted_beehive_end"
+			rotation: 0.0d
+			width: 2.35d
+			x: -4.0d
+			y: 4.0d
+		}
+		{
+			height: 2.35d
+			image: "everycomp:block/abnww/architects_palette/twisted_beehive_end"
+			rotation: 0.0d
+			width: 2.35d
+			x: -6.0d
+			y: 4.0d
+		}
+		{
+			height: 2.35d
+			image: "everycomp:block/abnww/architects_palette/twisted_beehive_end"
+			rotation: 0.0d
+			width: 2.35d
+			x: -8.0d
+			y: 4.0d
+		}
+		{
+			height: 2.35d
+			image: "everycomp:block/abnww/architects_palette/twisted_beehive_end"
+			rotation: 0.0d
+			width: 2.35d
+			x: -8.0d
+			y: 2.0d
+		}
+		{
+			height: 2.35d
+			image: "immersiveengineering:block/cushion"
+			rotation: 0.0d
+			width: 2.35d
+			x: -6.0d
+			y: -2.0d
+		}
+		{
+			height: 2.35d
+			image: "immersiveengineering:block/cushion"
+			rotation: 0.0d
+			width: 2.35d
+			x: -6.0d
+			y: 0.0d
+		}
+		{
+			height: 2.35d
+			image: "immersiveengineering:block/cushion"
+			rotation: 0.0d
+			width: 2.35d
+			x: -6.0d
+			y: 2.0d
+		}
+		{
+			height: 2.35d
+			image: "immersiveengineering:block/cushion"
+			rotation: 0.0d
+			width: 2.35d
+			x: -4.0d
+			y: 2.0d
+		}
+		{
+			height: 2.35d
+			image: "immersiveengineering:block/cushion"
+			rotation: 0.0d
+			width: 2.35d
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			height: 2.35d
+			image: "immersiveengineering:block/cushion"
+			rotation: 0.0d
+			width: 2.35d
+			x: -4.0d
+			y: -2.0d
+		}
+		{
+			height: 2.35d
+			image: "immersiveengineering:block/cushion"
+			rotation: 0.0d
+			width: 2.35d
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			height: 2.35d
+			image: "immersiveengineering:block/cushion"
+			rotation: 0.0d
+			width: 2.35d
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			height: 2.35d
+			image: "immersiveengineering:block/cushion"
+			rotation: 0.0d
+			width: 2.35d
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			height: 2.35d
+			image: "immersiveengineering:block/cushion"
+			rotation: 0.0d
+			width: 2.35d
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			height: 2.35d
+			image: "immersiveengineering:block/cushion"
+			rotation: 0.0d
+			width: 2.35d
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			height: 2.35d
+			image: "immersiveengineering:block/cushion"
+			rotation: 0.0d
+			width: 2.35d
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			height: 2.35d
+			image: "immersiveengineering:block/cushion"
+			rotation: 0.0d
+			width: 2.35d
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			height: 2.35d
+			image: "immersiveengineering:block/cushion"
+			rotation: 0.0d
+			width: 2.35d
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			height: 2.35d
+			image: "immersiveengineering:block/cushion"
+			rotation: 0.0d
+			width: 2.35d
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			height: 2.35d
+			image: "decorative_blocks:block/acacia_beam_side"
+			rotation: 0.0d
+			width: 2.35d
+			x: 4.0d
+			y: -4.0d
+		}
+		{
+			height: 2.35d
+			image: "decorative_blocks:block/acacia_beam_side"
+			rotation: 0.0d
+			width: 2.35d
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			height: 2.35d
+			image: "decorative_blocks:block/acacia_beam_side"
+			rotation: 0.0d
+			width: 2.35d
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			height: 2.35d
+			image: "decorative_blocks:block/acacia_beam_side"
+			rotation: 0.0d
+			width: 2.35d
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			click: "https://https://discord.gg/mqVNhCU2pT"
+			height: 2.0d
+			hover: ["Join the official discord!"]
+			image: "railways:block/palettes/light_blue/boiler_gullet"
+			rotation: 0.0d
+			width: 2.0d
+			x: -5.0d
+			y: -1.5d
+		}
+		{
+			height: 2.35d
+			image: "decorative_blocks:block/acacia_beam_side"
+			rotation: 0.0d
+			width: 2.35d
+			x: -8.0d
+			y: -2.0d
+		}
+		{
+			height: 2.35d
+			image: "decorative_blocks:block/acacia_beam_side"
+			rotation: 0.0d
+			width: 2.35d
+			x: -8.0d
+			y: -4.0d
+		}
+		{
+			height: 2.35d
+			image: "decorative_blocks:block/acacia_beam_side"
+			rotation: 0.0d
+			width: 2.35d
+			x: -8.0d
+			y: 0.0d
+		}
+		{
+			height: 2.35d
+			image: "decorative_blocks:block/acacia_beam_side"
+			rotation: 0.0d
+			width: 2.35d
+			x: -8.0d
+			y: 2.0d
+		}
+		{
+			height: 2.35d
+			image: "decorative_blocks:block/acacia_beam_side"
+			rotation: 0.0d
+			width: 2.35d
+			x: -8.0d
+			y: 4.0d
+		}
+		{
+			height: 2.35d
+			image: "sophisticatedstorage:block/acacia_barrel_bottom"
+			rotation: 0.0d
+			width: 2.35d
+			x: -4.0d
+			y: -4.0d
+		}
+		{
+			height: 2.35d
+			image: "sophisticatedstorage:block/acacia_barrel_bottom"
+			rotation: 0.0d
+			width: 2.35d
+			x: -2.0d
+			y: -4.0d
+		}
+		{
+			height: 2.35d
+			image: "sophisticatedstorage:block/acacia_barrel_bottom"
+			rotation: 0.0d
+			width: 2.35d
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			height: 2.35d
+			image: "sophisticatedstorage:block/acacia_barrel_bottom"
+			rotation: 0.0d
+			width: 2.35d
+			x: 2.0d
+			y: -4.0d
+		}
+		{
+			height: 2.35d
+			image: "sophisticatedstorage:block/acacia_barrel_bottom"
+			rotation: 0.0d
+			width: 2.35d
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			height: 2.35d
+			image: "sophisticatedstorage:block/acacia_barrel_bottom"
+			rotation: 0.0d
+			width: 2.35d
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			height: 2.35d
+			image: "sophisticatedstorage:block/acacia_barrel_bottom"
+			rotation: 0.0d
+			width: 2.35d
+			x: -2.0d
+			y: 4.0d
+		}
+		{
+			height: 2.35d
+			image: "sophisticatedstorage:block/acacia_barrel_bottom"
+			rotation: 0.0d
+			width: 2.35d
+			x: -4.0d
+			y: 4.0d
+		}
+		{
+			height: 2.35d
+			image: "sophisticatedstorage:block/acacia_barrel_bottom"
+			rotation: 0.0d
+			width: 2.35d
+			x: -6.0d
+			y: 4.0d
+		}
+	]
 	order_index: 0
 	quest_links: [ ]
 	quests: [
@@ -141,11 +545,13 @@
 				""
 				"Shapes of the invidual quests have a meaning:"
 				""
-				"Hexagon - Informantional Quests"
+				"&1&lRounded Square&r&r - Main Questline in the progression, they might also unluck new quests"
 				""
-				"Gear - Quests unlocking new chapters and/or new quests"
+				"&1&lHexagon&r &r- Informantional Quests"
 				""
-				"Diamond - Repeteable quests usually giving some nice items for currency"
+				"&1&lGear&r &r-  Quests outside of the Main progression that unluck quests in the other chapter (most of the time in the market)"
+				""
+				"&1&lDiamond&r&r - Repeteable quests usually giving some nice items for currency"
 			]
 			icon: "ftbquests:book"
 			id: "296394452736D250"
@@ -303,8 +709,8 @@
 				type: "checkmark"
 			}]
 			title: "Cursed Mode"
-			x: -5.5d
-			y: 0.0d
+			x: -5.0d
+			y: 2.0d
 		}
 	]
 	title: "Welcome"

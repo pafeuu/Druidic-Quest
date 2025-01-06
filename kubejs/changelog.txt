@@ -1079,3 +1079,6 @@ Patch 0.3.2.1
     -Added a lot of missing tags to the custom items
     -Fixed recipe for the fiery and rainbow feather
     -Removed diamond as the twilightforest portal activator as intended before
+    -Fixed order of unlucking dimensions
+    -Fixed fiery and golden feather quests
+    -Adjustments to the quests making the Questbook more readable

@@ -8,12 +8,104 @@
 	hide_quest_until_deps_visible: true
 	icon: "immersiveengineering:ingot_steel"
 	id: "5FE7FF33197A46AF"
+	images: [
+		{
+			height: 2.35d
+			image: "railways:block/palettes/orange/slashed"
+			rotation: 0.0d
+			width: 2.35d
+			x: -14.0d
+			y: 1.0d
+		}
+		{
+			height: 2.35d
+			image: "railways:block/palettes/orange/slashed"
+			rotation: 0.0d
+			width: 2.35d
+			x: -14.0d
+			y: 3.0d
+		}
+		{
+			height: 2.35d
+			image: "railways:block/palettes/orange/slashed"
+			rotation: 0.0d
+			width: 2.35d
+			x: -14.0d
+			y: 5.0d
+		}
+		{
+			height: 2.35d
+			image: "railways:block/palettes/orange/slashed"
+			rotation: 0.0d
+			width: 2.35d
+			x: -12.0d
+			y: 5.0d
+		}
+		{
+			height: 2.35d
+			image: "railways:block/palettes/orange/slashed"
+			rotation: 0.0d
+			width: 2.35d
+			x: -10.0d
+			y: 5.0d
+		}
+		{
+			height: 2.35d
+			image: "railways:block/palettes/orange/slashed"
+			rotation: 0.0d
+			width: 2.35d
+			x: -8.0d
+			y: 5.0d
+		}
+		{
+			height: 2.35d
+			image: "railways:block/palettes/orange/slashed"
+			rotation: 0.0d
+			width: 2.35d
+			x: -6.0d
+			y: 5.0d
+		}
+		{
+			height: 2.35d
+			image: "railways:block/palettes/orange/slashed"
+			rotation: 0.0d
+			width: 2.35d
+			x: -4.0d
+			y: 5.0d
+		}
+		{
+			height: 2.35d
+			image: "railways:block/palettes/orange/slashed"
+			rotation: 0.0d
+			width: 2.35d
+			x: -2.0d
+			y: 5.0d
+		}
+		{
+			height: 2.35d
+			image: "railways:block/palettes/orange/slashed"
+			rotation: 0.0d
+			width: 2.35d
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			height: 2.35d
+			image: "railways:block/palettes/orange/slashed"
+			rotation: 0.0d
+			width: 2.35d
+			x: 2.0d
+			y: 5.0d
+		}
+	]
 	order_index: 4
 	quest_links: [ ]
 	quests: [
 		{
 			dependencies: ["6EC46F530F70BFBF"]
 			id: "0BC1E6E014D2F809"
+			shape: "rsquare"
+			size: 2.0d
 			tasks: [{
 				id: "49201B302F825E54"
 				item: "thermal:steel_ingot"
@@ -25,12 +117,13 @@
 		{
 			dependencies: ["0BC1E6E014D2F809"]
 			id: "08E25758B817F683"
+			shape: "rsquare"
 			tasks: [{
 				id: "7D665A76708BB395"
 				item: "kubejs:steel_machine"
 				type: "item"
 			}]
-			x: -3.0d
+			x: -4.5d
 			y: 1.0d
 		}
 		{
@@ -41,8 +134,8 @@
 				item: "prettypipes:pipe"
 				type: "item"
 			}]
-			x: -5.0d
-			y: 1.0d
+			x: -6.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["2870E967066F5C2F"]
@@ -52,8 +145,8 @@
 				item: "prettypipes:item_terminal"
 				type: "item"
 			}]
-			x: -5.0d
-			y: -0.5d
+			x: -6.5d
+			y: -2.0d
 		}
 	]
 	title: "Tier 4 - Basic Logistics"

@@ -46,6 +46,7 @@
 		}
 		{
 			dependencies: ["6F5C7CA9C74F13E9"]
+			icon: "effortlessbuilding:muscles"
 			id: "17A9893D5FDD3F5B"
 			rewards: [{
 				id: "4D60F250F23D5D49"

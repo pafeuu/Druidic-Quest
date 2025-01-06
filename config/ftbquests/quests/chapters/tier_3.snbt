@@ -9,6 +9,232 @@
 	hide_quest_until_deps_visible: true
 	icon: "thermal:steel_ingot"
 	id: "7E23A9DCE0AEE0AE"
+	images: [
+		{
+			height: 2.35d
+			image: "railways:block/palettes/yellow/slashed"
+			rotation: 0.0d
+			width: 2.35d
+			x: -8.0d
+			y: 0.0d
+		}
+		{
+			height: 2.35d
+			image: "railways:block/palettes/yellow/slashed"
+			rotation: 0.0d
+			width: 2.35d
+			x: -8.0d
+			y: -2.0d
+		}
+		{
+			height: 2.35d
+			image: "railways:block/palettes/yellow/slashed"
+			rotation: 0.0d
+			width: 2.35d
+			x: -8.0d
+			y: -4.0d
+		}
+		{
+			height: 2.35d
+			image: "railways:block/palettes/yellow/slashed"
+			rotation: 0.0d
+			width: 2.35d
+			x: -8.0d
+			y: -6.0d
+		}
+		{
+			height: 2.35d
+			image: "railways:block/palettes/yellow/slashed"
+			rotation: 0.0d
+			width: 2.35d
+			x: -8.0d
+			y: -8.0d
+		}
+		{
+			height: 2.35d
+			image: "railways:block/palettes/yellow/slashed"
+			rotation: 0.0d
+			width: 2.35d
+			x: -6.0d
+			y: -8.0d
+		}
+		{
+			height: 2.35d
+			image: "railways:block/palettes/yellow/slashed"
+			rotation: 0.0d
+			width: 2.35d
+			x: -4.0d
+			y: -8.0d
+		}
+		{
+			height: 2.35d
+			image: "railways:block/palettes/yellow/slashed"
+			rotation: 0.0d
+			width: 2.35d
+			x: -2.0d
+			y: -8.0d
+		}
+		{
+			height: 2.35d
+			image: "railways:block/palettes/yellow/slashed"
+			rotation: 0.0d
+			width: 2.35d
+			x: 0.0d
+			y: -8.0d
+		}
+		{
+			height: 2.35d
+			image: "railways:block/palettes/yellow/slashed"
+			rotation: 0.0d
+			width: 2.35d
+			x: 2.0d
+			y: -8.0d
+		}
+		{
+			height: 2.35d
+			image: "railways:block/palettes/yellow/slashed"
+			rotation: 0.0d
+			width: 2.35d
+			x: 4.0d
+			y: -8.0d
+		}
+		{
+			height: 2.35d
+			image: "railways:block/palettes/yellow/slashed"
+			rotation: 0.0d
+			width: 2.35d
+			x: 6.0d
+			y: -8.0d
+		}
+		{
+			height: 2.35d
+			image: "railways:block/palettes/yellow/slashed"
+			rotation: 0.0d
+			width: 2.35d
+			x: 8.0d
+			y: -8.0d
+		}
+		{
+			height: 2.35d
+			image: "railways:block/palettes/yellow/slashed"
+			rotation: 0.0d
+			width: 2.35d
+			x: 8.0d
+			y: -6.0d
+		}
+		{
+			height: 2.35d
+			image: "railways:block/palettes/yellow/slashed"
+			rotation: 0.0d
+			width: 2.35d
+			x: 8.0d
+			y: -4.0d
+		}
+		{
+			height: 2.35d
+			image: "railways:block/palettes/yellow/slashed"
+			rotation: 0.0d
+			width: 2.35d
+			x: 8.0d
+			y: -2.0d
+		}
+		{
+			height: 2.35d
+			image: "railways:block/palettes/yellow/slashed"
+			rotation: 0.0d
+			width: 2.35d
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			height: 2.35d
+			image: "railways:block/palettes/yellow/slashed"
+			rotation: 0.0d
+			width: 2.35d
+			x: 8.0d
+			y: 2.0d
+		}
+		{
+			height: 2.35d
+			image: "railways:block/palettes/yellow/slashed"
+			rotation: 0.0d
+			width: 2.35d
+			x: 8.0d
+			y: 4.0d
+		}
+		{
+			height: 2.35d
+			image: "railways:block/palettes/yellow/slashed"
+			rotation: 0.0d
+			width: 2.35d
+			x: 6.0d
+			y: 4.0d
+		}
+		{
+			height: 2.35d
+			image: "railways:block/palettes/yellow/slashed"
+			rotation: 0.0d
+			width: 2.35d
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			height: 2.35d
+			image: "railways:block/palettes/yellow/slashed"
+			rotation: 0.0d
+			width: 2.35d
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			height: 2.35d
+			image: "railways:block/palettes/yellow/slashed"
+			rotation: 0.0d
+			width: 2.35d
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			height: 2.35d
+			image: "railways:block/palettes/yellow/slashed"
+			rotation: 0.0d
+			width: 2.35d
+			x: -2.0d
+			y: 4.0d
+		}
+		{
+			height: 2.35d
+			image: "railways:block/palettes/yellow/slashed"
+			rotation: 0.0d
+			width: 2.35d
+			x: -4.0d
+			y: 4.0d
+		}
+		{
+			height: 2.35d
+			image: "railways:block/palettes/yellow/slashed"
+			rotation: 0.0d
+			width: 2.35d
+			x: -6.0d
+			y: 4.0d
+		}
+		{
+			height: 2.35d
+			image: "railways:block/palettes/yellow/slashed"
+			rotation: 0.0d
+			width: 2.35d
+			x: -8.0d
+			y: 4.0d
+		}
+		{
+			height: 2.35d
+			image: "railways:block/palettes/yellow/slashed"
+			rotation: 0.0d
+			width: 2.35d
+			x: -8.0d
+			y: 2.0d
+		}
+	]
 	order_index: 3
 	quest_links: [ ]
 	quests: [
@@ -21,13 +247,14 @@
 				item: "create:andesite_alloy"
 				type: "item"
 			}]
+			shape: "rsquare"
 			size: 2.0d
 			tasks: [{
 				id: "3128D9B656A1F847"
 				item: "create:andesite_alloy"
 				type: "item"
 			}]
-			x: -5.5d
+			x: -6.0d
 			y: 0.0d
 		}
 		{
@@ -39,6 +266,7 @@
 				item: "elementalcraft:drenched_iron_ingot"
 				type: "item"
 			}]
+			shape: "rsquare"
 			size: 2.0d
 			tasks: [{
 				id: "6F801D5323ED8B11"
@@ -57,6 +285,7 @@
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
+			shape: "rsquare"
 			tasks: [{
 				id: "56B99B07BDA1CC47"
 				item: "elementalcraft:binder"
@@ -75,6 +304,7 @@
 				item: "thermal:copper_coin"
 				type: "item"
 			}]
+			shape: "rsquare"
 			tasks: [{
 				id: "0941647D52678290"
 				item: "vintageimprovements:redstone_module"
@@ -154,12 +384,13 @@
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
+			shape: "rsquare"
 			tasks: [{
 				id: "5329652F6A7CF0F5"
 				item: "kubejs:andesite_machine"
 				type: "item"
 			}]
-			x: 1.0d
+			x: -0.5d
 			y: 0.0d
 		}
 		{
@@ -180,12 +411,13 @@
 					type: "item"
 				}
 			]
+			shape: "rsquare"
 			tasks: [{
 				id: "0C6F87E3E7649E6D"
 				item: "create:deployer"
 				type: "item"
 			}]
-			x: 1.0d
+			x: 0.0d
 			y: -1.5d
 		}
 		{
@@ -197,7 +429,7 @@
 				item: "thermal:netherite_coin"
 				type: "item"
 			}]
-			shape: "gear"
+			shape: "rsquare"
 			size: 2.0d
 			tasks: [{
 				count: 27L
@@ -205,7 +437,7 @@
 				item: "immersiveengineering:blastbrick"
 				type: "item"
 			}]
-			x: 1.0d
+			x: 0.0d
 			y: -6.0d
 		}
 		{
@@ -219,6 +451,7 @@
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
+			shape: "rsquare"
 			tasks: [
 				{
 					id: "6A97E0E56FC9FEBA"
@@ -231,17 +464,23 @@
 					type: "item"
 				}
 			]
-			x: -0.5d
+			x: -1.5d
 			y: -1.5d
 		}
 		{
 			dependencies: ["0546AB4A107ED496"]
 			id: "46BDE50D5EE37574"
+			rewards: [{
+				count: 3
+				id: "2B16AC4793BCDDE1"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "3CAD6FCFBCCF56D5"
 				item: {
 					Count: 1
-					id: "kubejs:rainbow_feather"
+					id: "kubejs:rainbow_magic_feather"
 					tag: {
 						Damage: 0
 					}

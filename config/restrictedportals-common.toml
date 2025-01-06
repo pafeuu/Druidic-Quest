@@ -9,7 +9,7 @@
 	#Description for the Advancements
 	description = "Obtain a %item%"
 	#Comma seperated list of items that when crafted unlock the corresponding dimension
-	craftitems = "elementalcraft:drenched_iron_ingot,thermal:steel_ingot,thermal:coal_coke,kubejs:nature_essence,immersiveengineering:ingot_steel"
+	craftitems = "kubejs:nature_essence,thermal:steel_ingot,thermal:coal_coke,elementalcraft:drenched_iron_ingot,immersiveengineering:ingot_steel"
 	#Comma seperated list of Dimension Resource Names
 	dimresname = "minecraft:the_nether,minecraft:the_end,twilightforest:twilight_forest,aether:the_aether,deeperdarker:otherside"
 	#Comma seperated list of Dimension Display Names

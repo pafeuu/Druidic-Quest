@@ -1,6 +1,6 @@
 {
 	default_hide_dependency_lines: false
-	default_quest_shape: ""
+	default_quest_shape: "diamond"
 	filename: "gambling"
 	group: ""
 	hide_quest_details_until_startable: true
@@ -49,6 +49,7 @@
 			dependencies: ["5B05D16DC73F943E"]
 			description: ["&4&lMost of the quests here are not implemented yet :(&r&r"]
 			id: "552F01B008A748AF"
+			shape: "hexagon"
 			size: 2.0d
 			subtitle: "Yes, we came up with the name ourselves"
 			tasks: [{

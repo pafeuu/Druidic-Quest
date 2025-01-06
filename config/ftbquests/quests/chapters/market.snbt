@@ -1,7 +1,7 @@
 {
 	consume_items: true
 	default_hide_dependency_lines: false
-	default_quest_shape: ""
+	default_quest_shape: "diamond"
 	default_repeatable_quest: true
 	filename: "market"
 	group: ""
@@ -450,6 +450,7 @@
 			]
 			icon: "createdeco:netherite_coinstack"
 			id: "72A4177F6B3E06F9"
+			shape: "hexagon"
 			size: 2.0d
 			subtitle: "Welcome to the Amazing Digital Market"
 			tasks: [{

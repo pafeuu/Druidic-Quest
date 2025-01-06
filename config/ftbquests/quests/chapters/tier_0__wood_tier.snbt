@@ -9,6 +9,232 @@
 	hide_quest_until_deps_visible: true
 	icon: "immersiveengineering:treated_wood_horizontal"
 	id: "2AA06C91832FD2F8"
+	images: [
+		{
+			height: 2.35d
+			image: "railways:block/palettes/white/slashed"
+			rotation: 0.0d
+			width: 2.35d
+			x: -3.0d
+			y: -3.5d
+		}
+		{
+			height: 2.35d
+			image: "railways:block/palettes/white/slashed"
+			rotation: 0.0d
+			width: 2.35d
+			x: -3.0d
+			y: -1.5d
+		}
+		{
+			height: 2.35d
+			image: "railways:block/palettes/white/slashed"
+			rotation: 0.0d
+			width: 2.35d
+			x: -3.0d
+			y: 0.5d
+		}
+		{
+			height: 2.35d
+			image: "railways:block/palettes/white/slashed"
+			rotation: 0.0d
+			width: 2.35d
+			x: -3.0d
+			y: 2.5d
+		}
+		{
+			height: 2.35d
+			image: "railways:block/palettes/white/slashed"
+			rotation: 0.0d
+			width: 2.35d
+			x: -3.0d
+			y: 4.5d
+		}
+		{
+			height: 2.35d
+			image: "railways:block/palettes/white/slashed"
+			rotation: 0.0d
+			width: 2.35d
+			x: -3.0d
+			y: 6.5d
+		}
+		{
+			height: 2.35d
+			image: "railways:block/palettes/white/slashed"
+			rotation: 0.0d
+			width: 2.35d
+			x: -1.0d
+			y: 6.5d
+		}
+		{
+			height: 2.35d
+			image: "railways:block/palettes/white/slashed"
+			rotation: 0.0d
+			width: 2.35d
+			x: 1.0d
+			y: 6.5d
+		}
+		{
+			height: 2.35d
+			image: "railways:block/palettes/white/slashed"
+			rotation: 0.0d
+			width: 2.35d
+			x: 3.0d
+			y: 6.5d
+		}
+		{
+			height: 2.35d
+			image: "railways:block/palettes/white/slashed"
+			rotation: 0.0d
+			width: 2.35d
+			x: 5.0d
+			y: 6.5d
+		}
+		{
+			height: 2.35d
+			image: "railways:block/palettes/white/slashed"
+			rotation: 0.0d
+			width: 2.35d
+			x: 7.0d
+			y: 6.5d
+		}
+		{
+			height: 2.35d
+			image: "railways:block/palettes/white/slashed"
+			rotation: 0.0d
+			width: 2.35d
+			x: 9.0d
+			y: 6.5d
+		}
+		{
+			height: 2.35d
+			image: "railways:block/palettes/white/slashed"
+			rotation: 0.0d
+			width: 2.35d
+			x: 13.0d
+			y: 4.5d
+		}
+		{
+			height: 2.35d
+			image: "railways:block/palettes/white/slashed"
+			rotation: 0.0d
+			width: 2.35d
+			x: 13.0d
+			y: 2.5d
+		}
+		{
+			height: 2.35d
+			image: "railways:block/palettes/white/slashed"
+			rotation: 0.0d
+			width: 2.35d
+			x: 13.0d
+			y: 0.5d
+		}
+		{
+			height: 2.35d
+			image: "railways:block/palettes/white/slashed"
+			rotation: 0.0d
+			width: 2.35d
+			x: 13.0d
+			y: -1.5d
+		}
+		{
+			height: 2.35d
+			image: "railways:block/palettes/white/slashed"
+			rotation: 0.0d
+			width: 2.35d
+			x: 13.0d
+			y: -3.5d
+		}
+		{
+			height: 2.35d
+			image: "railways:block/palettes/white/slashed"
+			rotation: 0.0d
+			width: 2.35d
+			x: -3.0d
+			y: -5.5d
+		}
+		{
+			height: 2.35d
+			image: "railways:block/palettes/white/slashed"
+			rotation: 0.0d
+			width: 2.35d
+			x: -1.0d
+			y: -5.5d
+		}
+		{
+			height: 2.35d
+			image: "railways:block/palettes/white/slashed"
+			rotation: 0.0d
+			width: 2.35d
+			x: 1.0d
+			y: -5.5d
+		}
+		{
+			height: 2.35d
+			image: "railways:block/palettes/white/slashed"
+			rotation: 0.0d
+			width: 2.35d
+			x: 3.0d
+			y: -5.5d
+		}
+		{
+			height: 2.35d
+			image: "railways:block/palettes/white/slashed"
+			rotation: 0.0d
+			width: 2.35d
+			x: 5.0d
+			y: -5.5d
+		}
+		{
+			height: 2.35d
+			image: "railways:block/palettes/white/slashed"
+			rotation: 0.0d
+			width: 2.35d
+			x: 7.0d
+			y: -5.5d
+		}
+		{
+			height: 2.35d
+			image: "railways:block/palettes/white/slashed"
+			rotation: 0.0d
+			width: 2.35d
+			x: 9.0d
+			y: -5.5d
+		}
+		{
+			height: 2.35d
+			image: "railways:block/palettes/white/slashed"
+			rotation: 0.0d
+			width: 2.35d
+			x: 11.0d
+			y: -5.5d
+		}
+		{
+			height: 2.35d
+			image: "railways:block/palettes/white/slashed"
+			rotation: 0.0d
+			width: 2.35d
+			x: 13.0d
+			y: -5.5d
+		}
+		{
+			height: 2.35d
+			image: "railways:block/palettes/white/slashed"
+			rotation: 0.0d
+			width: 2.35d
+			x: 11.0d
+			y: 6.5d
+		}
+		{
+			height: 2.35d
+			image: "railways:block/palettes/white/slashed"
+			rotation: 0.0d
+			width: 2.35d
+			x: 13.0d
+			y: 6.5d
+		}
+	]
 	order_index: 0
 	progression_mode: "flexible"
 	quest_links: [ ]
@@ -34,6 +260,7 @@
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
+			shape: "rsquare"
 			size: 2.0d
 			subtitle: "Use it to craft damaged axe"
 			tasks: [
@@ -61,7 +288,7 @@
 				}
 			]
 			title: "Before you punch a tree"
-			x: 0.0d
+			x: -1.0d
 			y: 0.0d
 		}
 		{
@@ -87,7 +314,7 @@
 				item: "thermal:netherite_coin"
 				type: "item"
 			}]
-			shape: "gear"
+			shape: "rsquare"
 			size: 2.0d
 			tasks: [
 				{
@@ -136,6 +363,7 @@
 					type: "item"
 				}
 			]
+			shape: "rsquare"
 			subtitle: "Explosion Crafting!"
 			tasks: [{
 				id: "509547F8D00897E5"
@@ -164,6 +392,7 @@
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
+			shape: "rsquare"
 			subtitle: "Explosion Crafting!"
 			tasks: [{
 				id: "57CBBC87EE8E03A2"
@@ -196,6 +425,7 @@
 					type: "item"
 				}
 			]
+			shape: "rsquare"
 			subtitle: "Now you can craft different tools"
 			tasks: [{
 				id: "77489C7B06FEF950"
@@ -350,6 +580,7 @@
 				}
 				type: "item"
 			}]
+			shape: "rsquare"
 			tasks: [{
 				id: "4A18D0F653C5BF79"
 				item: {
@@ -403,6 +634,7 @@
 				item: "thermal:gold_coin"
 				type: "item"
 			}]
+			shape: "rsquare"
 			tasks: [
 				{
 					count: 10L
@@ -452,6 +684,7 @@
 					type: "item"
 				}
 			]
+			shape: "rsquare"
 			tasks: [{
 				count: 5L
 				id: "1857A526AA2858B7"
@@ -724,7 +957,7 @@
 					type: "item"
 				}
 			]
-			shape: "gear"
+			shape: "rsquare"
 			tasks: [{
 				count: 16L
 				id: "473EC5D57AFB1B19"
@@ -770,6 +1003,7 @@
 					type: "item"
 				}
 			]
+			shape: "rsquare"
 			tasks: [
 				{
 					count: 8L
