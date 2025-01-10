@@ -51,22 +51,22 @@ StartupEvents.registry('item', item => {
   
   ///===================================================PLATES===========================================================
 
-  item.create('stone_plate').displayName('Stone Plate').tag("forge:plates/stone")
-  item.create('wooden_plate').displayName('Wooden Plate').tag("forge:plates/wooden")
-  item.create('diamond_plate').displayName('Diamond Plate').tag('forge:plates/diamond')
-  item.create('arcane_alloy_plate').tag('forge:plates').tag('forge:plates/arcane_alloy')
-  item.create('inert_alloy_plate').tag('forge:plates').tag('forge:plates/inert_alloy')
+  item.create('stone_plate').displayName('Stone Plate').tag("forge:plates/stone").tag("druidic_quest:tier1/component")
+  item.create('wooden_plate').displayName('Wooden Plate').tag("forge:plates/wooden").tag("druidic_quest:tier1/component")
+  item.create('diamond_plate').displayName('Diamond Plate').tag('forge:plates/diamond').tag("druidic_quest:tier1/component")
+  item.create('arcane_alloy_plate').tag('forge:plates').tag('forge:plates/arcane_alloy').tag("druidic_quest:tier2/component")
+  item.create('inert_alloy_plate').tag('forge:plates').tag('forge:plates/inert_alloy').tag("druidic_quest:tier2/component")
 
   ///===================================================GEARS===========================================================
-  item.create('wooden_gear').displayName('Wooden Gear').tag('forge:gears/wooden').tag('forge:gears')
-  item.create('stone_gear').displayName('Stone Gear').tag('forge:gears/stone').tag('forge:gears')
+  item.create('wooden_gear').displayName('Wooden Gear').tag('forge:gears/wooden').tag('forge:gears').tag("druidic_quest:tier1/component")
+  item.create('stone_gear').displayName('Stone Gear').tag('forge:gears/stone').tag('forge:gears').tag("druidic_quest:tier1/component")
 
-  item.create("carbon_infused_sturdy_handle").displayName("Carbon Infused Sturdy Handle").tag("forge:rods")
+  item.create("carbon_infused_sturdy_handle").displayName("Carbon Infused Sturdy Handle").tag("forge:rods").tag("druidic_quest:tier2/component")
 
   ///===================================================INGOTS===========================================================
 
-  item.create('arcane_alloy_ingot').tag('forge:ingots').tag('forge:ingots/arcane_alloy')
-  item.create('inert_alloy_ingot').tag('forge:ingots').tag('forge:ingots/inert_alloy')
+  item.create('arcane_alloy_ingot').tag('forge:ingots').tag('forge:ingots/arcane_alloy').tag("druidic_quest:tier1/component")
+  item.create('inert_alloy_ingot').tag('forge:ingots').tag('forge:ingots/inert_alloy').tag("druidic_quest:tier1/component")
   item.create('wrought_iron_ingot').tag('forge:ingots').tag('forge:ingots/wrought_iron')
   item.create('neptun_ingot').tag('forge:ingots').tag('forge:ingots/neptun')
   item.create('phoenix_ingot').tag('forge:ingots').tag('forge:ingots/phoenix')
@@ -74,7 +74,7 @@ StartupEvents.registry('item', item => {
 
   ///===================================================NUGGETS=========================================================
 
-  item.create('infused_iron_nugget').tag('forge:nuggets').tag('forge:nuggets/infused_iron')
+  item.create('infused_iron_nugget').tag('forge:nuggets').tag('forge:nuggets/infused_iron').tag("druidic_quest:tier2/component")
 
   ///===================================================GEMS=============================================================
 
@@ -86,26 +86,26 @@ StartupEvents.registry('item', item => {
 
   ///===================================================DUSTS============================================================
 
-  item.create("sulfur_quartz_blend").displayName("Sulfuric Quartz Blend").tag("forge:dusts")
+  item.create("sulfur_quartz_blend").displayName("Sulfuric Quartz Blend").tag("forge:dusts").tag("druidic_quest:tier1/component")
   item.create('alchemical_dust').displayName('Alchemical Dust').tag('forge:dusts')
   item.create('improved_alchemical_dust').displayName('Improved Alchemical Dust').tag('forge:dusts')
   
 
   ///===================================================ESSENCE==========================================================
 
-  item.create('nature_essence').displayName('Nature essence').tag('forge:essences')
-  item.create('ender_essence').displayName('Ender Essence').tag('forge:essences')
-  item.create('light_essence').displayName('Light Essence').tag('forge:essences')
-  item.create('dark_essence').displayName('Dark Essence').tag('forge:essences')
-  item.create('life_essence').displayName('Life Essence').tag('forge:essences')
-  item.create('death_essence').displayName('Death Essence').tag('forge:essences')
+  item.create('nature_essence').displayName('Nature essence').tag('forge:essences').tag("druidic_quest:tier2/component")
+  item.create('ender_essence').displayName('Ender Essence').tag('forge:essences').tag("druidic_quest:tier3/component")
+  item.create('light_essence').displayName('Light Essence').tag('forge:essences').tag("druidic_quest:tier3/component")
+  item.create('dark_essence').displayName('Dark Essence').tag('forge:essences').tag("druidic_quest:tier3/component")
+  item.create('life_essence').displayName('Life Essence').tag('forge:essences').tag("druidic_quest:tier3/component")
+  item.create('death_essence').displayName('Death Essence').tag('forge:essences').tag("druidic_quest:tier3/component")
 
   ///===================================================RUNES===========================================================
   
-  item.create('large_enchanting_rune').displayName('Large Enchanting Runestone')
-  item.create('big_enchanting_rune').displayName('Big Enchanting Runestone')
-  item.create('medium_enchanting_rune').displayName('Medium Enchanting Runestone')
-  item.create('small_enchanting_rune').displayName('Small Enchanting Runestone')
+  item.create('large_enchanting_rune').displayName('Large Enchanting Runestone').tag("druidic_quest:tier2/component")
+  item.create('big_enchanting_rune').displayName('Big Enchanting Runestone').tag("druidic_quest:tier2/component")
+  item.create('medium_enchanting_rune').displayName('Medium Enchanting Runestone').tag("druidic_quest:tier2/component")
+  item.create('small_enchanting_rune').displayName('Small Enchanting Runestone').tag("druidic_quest:tier2/component")
 
   ///=====================================================RINGS========================================================
 
@@ -151,35 +151,35 @@ StartupEvents.registry('item', item => {
 
   ///===================================================TEMPLATES
 
-  item.create('botanist_upgrade_smithing_template').displayName('Smithing Template')
-  item.create('gold_upgrade_smithing_template').displayName('Smithing Template')
-  item.create('steel_upgrade_smithing_template').displayName('Smithing Template')
-  item.create('skyseeker_upgrade_smithing_template').displayName('Smithing Template')
+  item.create('botanist_upgrade_smithing_template').displayName('Smithing Template').tag("druidic_quest:tier2/component")
+  item.create('gold_upgrade_smithing_template').displayName('Smithing Template').tag("druidic_quest:tier2/component")
+  item.create('steel_upgrade_smithing_template').displayName('Smithing Template').tag("druidic_quest:tier3/component")
+  item.create('skyseeker_upgrade_smithing_template').displayName('Smithing Template').tag("druidic_quest:tier3/component")
 
   ///===================================================KEYS===========================================================
 
-  item.create('overworld_key').displayName('Overworld Key')
-  item.create('twilight_key').displayName('Twilight Key')
-  item.create('nether_key').displayName('Nether Key')
-  item.create('end_key').displayName('End Key')
-  item.create('aether_key').displayName('Aether Key')
-  item.create('dark_key').displayName('Dark Key')
-  item.create('broken_key').displayName('Broken Key')
+  item.create('overworld_key').displayName('Overworld Key').tag("druidic_quest:tier0/tool")
+  item.create('twilight_key').displayName('Twilight Key').tag("druidic_quest:tier1/tool")
+  item.create('nether_key').displayName('Nether Key').tag("druidic_quest:tier2/tool")
+  item.create('end_key').displayName('End Key').tag("druidic_quest:tier4/tool")
+  item.create('aether_key').displayName('Aether Key').tag("druidic_quest:tier3/tool")
+  item.create('dark_key').displayName('Dark Key').tag("druidic_quest:tier5/tool")
+  item.create('broken_key').displayName('Broken Key').tag("druidic_quest:tier0/tool")
 
   ///=================================================TOOLS============================================================
-  item.create("royal_guard_sword","sword").tier('royal').tag("minecraft:swords").tag("minecraft:tools").tag("forge:tools/iron")
-  item.create('chill_blade','sword').displayName("Chilled Blade").tier('ice').tag('minecraft:sword').tag('minecraft:tools')
-  item.create('blade_of_grass','irons_spells_js:magic_sword').tier('grass').tag('minecraft:sword').tag('minecraft:tools').glow(true).addDefaultSpell("irons_spellbooks:poison_splash",3)
-  item.create('ice_blade','irons_spells_js:magic_sword').tier('ice').tag('minecraft:sword').tag('minecraft:tools').glow(true).addDefaultSpell("irons_spellbooks:icicle",3)
-  item.create('rusty_trident','sword').tier('fire').tag('minecraft:sword').tag('minecraft:tools').speedBaseline(-2.9)
-  item.create('primitive_spear','sword').tier('wood').tag('minecraft:sword').tag('minecraft:tools').speedBaseline(-2.9)
+  item.create("royal_guard_sword","sword").tier('royal').tag("minecraft:swords").tag("minecraft:tools").tag("forge:tools/iron").tag("druidic_quest:tier1/weapon")
+  item.create('chill_blade','sword').displayName("Chilled Blade").tier('ice').tag('minecraft:sword').tag('minecraft:tools').tag("druidic_quest:tier1/weapon")
+  item.create('blade_of_grass','irons_spells_js:magic_sword').tier('grass').tag('minecraft:sword').tag('minecraft:tools').glow(true).addDefaultSpell("irons_spellbooks:poison_splash",3).tag("druidic_quest:tier2/weapon")
+  item.create('ice_blade','irons_spells_js:magic_sword').tier('ice').tag('minecraft:sword').tag('minecraft:tools').glow(true).addDefaultSpell("irons_spellbooks:icicle",3).tag("druidic_quest:tier1/weapon")
+  item.create('rusty_trident','sword').tier('fire').tag('minecraft:sword').tag('minecraft:tools').speedBaseline(-2.9).tag("druidic_quest:tier0/weapon")
+  item.create('primitive_spear','sword').tier('wood').tag('minecraft:sword').tag('minecraft:tools').speedBaseline(-2.9).tag("druidic_quest:tier0/weapon")
 
-  item.create('golden_magic_feather','sword').tier('gold').glow(true).tag("minecraft:tools").displayName("Golden Feather").tag("forge:tools/magic_feather")
-  item.create('fiery_magic_feather','sword').tier('diamond').glow(true).tag("minecraft:tools").displayName("Fiery Feather").tag("forge:tools/magic_feather").tag("forge:tools/tier2_magic_feather")
-  item.create('rainbow_magic_feather','sword').tier('netherite').glow(true).tag("minecraft:tools").displayName("Rainbow Feather").tag("forge:tools/magic_feather").tag("forge:tools/tier2_magic_feather")
+  item.create('golden_magic_feather','sword').tier('gold').glow(true).tag("minecraft:tools").displayName("Golden Feather").tag("forge:tools/magic_feather").tag("druidic_quest:tier1/weapon").tag("druidic_quest:tier1/tool")
+  item.create('fiery_magic_feather','sword').tier('diamond').glow(true).tag("minecraft:tools").displayName("Fiery Feather").tag("forge:tools/magic_feather").tag("forge:tools/tier2_magic_feather").tag("druidic_quest:tier2/weapon").tag("druidic_quest:tier2/tool")
+  item.create('rainbow_magic_feather','sword').tier('netherite').glow(true).tag("minecraft:tools").displayName("Rainbow Feather").tag("forge:tools/magic_feather").tag("forge:tools/tier2_magic_feather").tag("druidic_quest:tier3/weapon").tag("druidic_quest:tier3/tool")
 
-  item.create('mining_hammer','pickaxe').tier('hammer').tag("minecraft:tools").tag('forge:tools/hammers')
-  item.create('the_terraformer','shovel').glow(true).rarity("epic").tier("terraformer").tag("minecraft:tools")
+  item.create('mining_hammer','pickaxe').tier('hammer').tag("minecraft:tools").tag('forge:tools/hammers').tag("druidic_quest:tier2/tool")
+  item.create('the_terraformer','shovel').glow(true).rarity("epic").tier("terraformer").tag("minecraft:tools").tag("druidic_quest:tier2/tool")
   ///===================================================FOOD===========================================================
 
   item.create("cut_onions").displayName("Cut Onions").food(food=>{

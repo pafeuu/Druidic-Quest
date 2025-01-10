@@ -1,7 +1,7 @@
 {
   "maxEnchantments": 5,
   "enableEnchantability": true,
-  "enableDefaultRecipe": true,
+  "enableDefaultRecipe": false,
   "disableDiscoverySystem": false,
   "enableEnchantmentsLeveling": false,
   "maxEnchantmentsOnLootBooks": 1,

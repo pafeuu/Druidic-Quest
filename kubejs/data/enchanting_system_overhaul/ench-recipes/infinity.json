@@ -1,0 +1,21 @@
+{
+  "enchantment_id": "minecraft:infinity",
+  "maxLevel": 0,
+  "useExpPoints": true,
+  "levels": {
+    "1": [
+      {
+        "id": "kubejs:large_enchanting_rune",
+        "amount": 32
+      },
+      {
+        "id": "ars_nouveau:conjuration_essence",
+        "amount": 32
+      },
+      {
+        "id": "thermal:potion_quiver",
+        "amount": 1
+      }
+    ]
+  }
+}

@@ -148,7 +148,54 @@ ServerEvents.recipes(event => {
 	"block_in": {
 		"tag": "alexsmobs:am_spawns"
 	}
-	})	
+	})
+	
+	event.custom({
+		type: "lychee:block_interacting",
+		item_in: {tag: "forge:tools/hammers"},
+		block_in: "kubejs:sturdy_deepslate",
+		post: [
+			{type: "place", block: "kubejs:sturdy_deepslate_slab"},
+			{type: "damage_item", damage: 8},
+			{type: "execute", command: "playsound minecraft:block.anvil_use neutral @p", hide: true}
+		]
+	})
+
+	event.custom({
+		type: "lychee:block_interacting",
+		item_in: {tag: "forge:tools/hammers"},
+		block_in: "kubejs:sturdy_deepslate_slab",
+		post: [
+			{type: "place", block: "kubejs:sturdy_deepslate_plate"},
+			{type: "damage_item", damage: 4},
+			{type: "execute", command: "playsound minecraft:block.anvil.use neutral @p", hide: true}
+		]
+	})
+
+
+	event.custom({
+		type: "lychee:block_interacting",
+		item_in: {item: "elementalcraft:chisel"},
+		block_in: "kubejs:sturdy_deepslate_plate",
+		post: [
+			{type: "place", block: "kubejs:deepslate_rune"},
+			{type: "damage_item", damage: 1},
+			{type: "execute", command: "playsound minecraft:block.anvil.use neutral @p", hide: true}
+		]
+	})
+
+	event.custom({
+		type: "lychee:block_interacting",
+		item_in: {item: "elementalcraft:chisel"},
+		"hide_in_viewer": true,
+		block_in: "kubejs:deepslate_rune",
+		post: [
+			{type: "place", block: "air"},
+			{type: "drop_item", item: "kubejs:deepslate_rune"},
+			{type: "damage_item", damage: 0}
+		]
+	})
+
 	// Magical Feathers
 
 	event.custom({

@@ -75,6 +75,7 @@ ServerEvents.recipes(event => {
 
 	/// ======================================================================= Tier 0 Machines ========================================================================
 	
+	event.shaped("supplementaries:bellows",["SSS","ABA","SSS"],{S:"#minecraft:wooden_slabs",A:"elementalcraft:air_shard",B:"bundle"}).id("supplementaries:bellows")
 	
 	event.shaped("minecraft:beehive",
 		[
@@ -851,7 +852,7 @@ ServerEvents.recipes(event => {
 	)
 	
 	/// ======================================================================= Tier 1 Machines =======================================================================
-
+	
 	event.shaped("create:chute",[" I ","ICI"," I "],{I:"#forge:plates/iron",C:"quark:chute"}).id("create:crafting/kinetics/chute")
 
 	event.shaped("create:redstone_contact",["CIC","ROR","CCC"],{C:"quark:sturdy_stone",R:"#forge:storage_blocks/redstone",O:"observer",I:"#forge:plates/iron"}).id("create:crafting/logistics/redstone_contact")
@@ -1448,6 +1449,26 @@ ServerEvents.recipes(event => {
 	)
 	
 	/// ======================================== Tier 2 Components ================================================================
+
+	event.custom({
+		type: "lychee:lightning_channeling",
+		post: [
+			{ type: "drop_item", item: "kubejs:small_enchanting_rune", count: 4 },
+			{ type: "execute", command: "playsound forbidden_arcanus:item.mundabitur_dust.use neutral @P", hide: true }
+		],
+		item_in: [
+			{ item: "kubejs:deepslate_rune" },
+			{ item: "aether:zanite_gemstone" },
+			{ item: "deep_aether:skyjade" },
+			{ item: "ars_nouveau:source_gem_block" },
+			{ item: "ars_nouveau:source_gem_block" },
+			{ item: "ars_nouveau:source_gem_block" }
+		]
+	})
+
+	event.shaped("kubejs:medium_enchanting_rune",["AA","AA"],{A:"kubejs:small_enchanting_rune"})
+	event.shaped("kubejs:big_enchanting_rune",["AA","AA"],{A:"kubejs:medium_enchanting_rune"})
+	event.shaped("kubejs:large_enchanting_rune",["AA","AA"],{A:"kubejs:big_enchanting_rune"})
 
 	event.recipes.naturesaura.altar("aether:zanite_gemstone","diamond",7500,40)
 	event.recipes.naturesaura.altar("deep_aether:skyjade","emerald",7500,40)

@@ -6,7 +6,10 @@ ItemEvents.tooltip( tooltip => {
   tooltip.add(['kubejs:roadrunner_totem',"kubejs:tiger_totem","kubejs:frog_totem","kubejs:penguing_totem","kubejs:wooden_crucifix","kubejs:metal_crucifix",
     "kubejs:bejeweled_crucifix","kubejs:penguin_totem","kubejs:bear_totem"],Text.gray("Works only in the offhand"))
 
+  tooltip.add("minecraft:enchanted_book",[Text.green("Right click to learn the enchantment!"),Text.red("Can't be used in anvil to apply enchantments!")])
   tooltip.add(["solonion:lunchbag","solonion:lunchbox","supplementaries:sack"],Text.red("Make sure to empty it before upgrading!"))
+
+  tooltip.add("supplemenetaries:bellows",[Text.red("Speeds up furnaces"),Text.green("Speeds up copper aging"),Text.blue("Pushes entities away")])
   
   tooltip.add("kubejs:botanist_upgrade_smithing_template", [Text.gray("Botanist Upgrade"), Text.green(""), Text.gray("Applies to:"), Text.blue(" Iron Equipment"), Text.gray("Ingredients:"), Text.blue(" Infused Iron Ingot")])
   tooltip.add("kubejs:skyseeker_upgrade_smithing_template", [Text.gray("Skyseeker Upgrade"), Text.green(""), Text.gray("Applies to:"), Text.blue(" Diamond Equipment"), Text.gray("Ingredients:"), Text.blue(" Ingot of the Skies")])

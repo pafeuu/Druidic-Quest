@@ -1,0 +1,43 @@
+{
+  "enchantment_id": "minecraft:fire_aspect",
+  "maxLevel": 0,
+  "useExpPoints": true,
+  "levels": {
+    "1": [
+      {
+        "id": "kubejs:medium_enchanting_rune",
+        "amount": 32
+      },
+      {
+        "id": "quark:blaze_lantern",
+        "amount": 8
+      },
+      {
+        "id": "ars_nouveau:fire_essence",
+        "amount": 32
+      },
+      {
+        "id": "kubejs:salmon_quartz",
+        "amount": 4
+      }
+    ],
+    "2": [
+      {
+        "id": "kubejs:small_enchanting_rune",
+        "amount": 64
+      },
+      {
+        "id": "quark:blaze_lantern",
+        "amount": 16
+      },
+      {
+        "id": "ars_nouveau:fire_essence",
+        "amount": 64
+      },
+      {
+        "id": "kubejs:salmon_quartz",
+        "amount": 4
+      }
+    ]
+  }
+}

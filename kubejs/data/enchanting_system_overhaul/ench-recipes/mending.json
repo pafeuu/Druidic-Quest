@@ -1,0 +1,25 @@
+{
+  "enchantment_id": "minecraft:mending",
+  "maxLevel": 0,
+  "useExpPoints": true,
+  "levels": {
+    "1": [
+      {
+        "id": "kubejs:large_enchanting_rune",
+        "amount": 16
+      },
+      {
+        "id": "forbidden_arcanus:stellarite_piece",
+        "amount": 2
+      },
+      {
+        "id": "ars_nouveau:earth_essence",
+        "amount": 32
+      },
+      {
+        "id": "enigmaticlegacy:mending_mixture",
+        "amount": 16
+      } 
+    ]
+  }
+}

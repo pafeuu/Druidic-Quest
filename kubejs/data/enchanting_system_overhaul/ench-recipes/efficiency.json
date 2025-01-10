@@ -1,0 +1,77 @@
+{
+  "enchantment_id": "minecraft:efficiency",
+  "maxLevel": 0,
+  "useExpPoints": true,
+  "levels": {
+    "1": [
+      {
+        "id": "kubejs:small_enchanting_rune",
+        "amount": 12
+      },
+      {
+        "id": "supplementaries:sugar_cube",
+        "amount": 12
+      },
+      {
+        "id": "ars_nouveau:air_essence",
+        "amount": 12
+      }
+    ],
+    "2": [
+      {
+        "id": "kubejs:small_enchanting_rune",
+        "amount": 24
+      },
+      {
+        "id": "supplementaries:sugar_cube",
+        "amount": 24
+      },
+      {
+        "id": "ars_nouveau:air_essence",
+        "amount": 24
+      }
+    ],
+    "3": [
+      {
+        "id": "kubejs:small_enchanting_rune",
+        "amount": 36
+      },
+      {
+        "id": "supplementaries:sugar_cube",
+        "amount": 36
+      },
+      {
+        "id": "ars_nouveau:air_essence",
+        "amount": 36
+      }
+    ],
+    "4": [
+      {
+        "id": "kubejs:small_enchanting_rune",
+        "amount": 48
+      },
+      {
+        "id": "supplementaries:sugar_cube",
+        "amount": 48
+      },
+      {
+        "id": "ars_nouveau:air_essence",
+        "amount": 48
+      }
+    ],
+    "5": [
+      {
+        "id": "kubejs:small_enchanting_rune",
+        "amount": 60
+      },
+      {
+        "id": "supplementaries:sugar_cube",
+        "amount": 60
+      },
+      {
+        "id": "ars_nouveau:air_essence",
+        "amount": 60
+      }
+    ]
+  }
+}

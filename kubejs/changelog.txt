@@ -1024,15 +1024,24 @@ Patch 0.3.2.1
     -Fixed some of tags on the aether items
 
 
-# Patch 0.5.1
+# Patch 0.6 Equipment and enchanting balance
 
 ### New Mods:
     -CraftingForBlockheads
     -AStages
+    -JustEnoughResources
+
+### Removed Mods:
+    -EMI
+    -EmiLoot
+    -EmiTrades
 
 ### New Items:
 
     -Primitive Spear
+    -Sturdy Deepslate Slab
+    -Sturdy Deepslate plate
+    -Deepslate Rune
     -Large Enchanting Runestone
     -Big Enchanting Runestone
     -Medium Enchanting Runestone
@@ -1069,6 +1078,7 @@ Patch 0.3.2.1
     -Added tooltips to the dimensional tools 
     -Added tooltips to the extradimensional eye
     -Fixed for botanist set
+    -Added for enchanted books
 
 ### Other:
 
@@ -1082,3 +1092,4 @@ Patch 0.3.2.1
     -Fixed order of unlucking dimensions
     -Fixed fiery and golden feather quests
     -Adjustments to the quests making the Questbook more readable
+    -Tons of texture changes to the ftbquest mod

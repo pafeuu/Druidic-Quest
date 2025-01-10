@@ -290,9 +290,9 @@
 			click: "https://https://discord.gg/mqVNhCU2pT"
 			height: 2.0d
 			hover: ["Join the official discord!"]
-			image: "railways:block/palettes/light_blue/boiler_gullet"
+			image: "kubejs:textures/discord_icon.png"
 			rotation: 0.0d
-			width: 2.0d
+			width: 2.6340425531914895d
 			x: -5.0d
 			y: -1.5d
 		}
@@ -545,13 +545,13 @@
 				""
 				"Shapes of the invidual quests have a meaning:"
 				""
-				"&1&lRounded Square&r&r - Main Questline in the progression, they might also unluck new quests"
+				"&2&lRounded Square&r&r - Main Questline in the progression, they might also unluck new quests"
 				""
-				"&1&lHexagon&r &r- Informantional Quests"
+				"&2&lHexagon&r &r- Informantional Quests"
 				""
-				"&1&lGear&r &r-  Quests outside of the Main progression that unluck quests in the other chapter (most of the time in the market)"
+				"&2&lGear&r &r-  Quests outside of the Main progression that unluck quests in the other chapter (most of the time in the market)"
 				""
-				"&1&lDiamond&r&r - Repeteable quests usually giving some nice items for currency"
+				"&2&lDiamond&r&r - Repeteable quests usually giving some nice items for currency"
 			]
 			icon: "ftbquests:book"
 			id: "296394452736D250"

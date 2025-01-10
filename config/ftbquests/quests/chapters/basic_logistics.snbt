@@ -89,14 +89,6 @@
 			x: 0.0d
 			y: 5.0d
 		}
-		{
-			height: 2.35d
-			image: "railways:block/palettes/orange/slashed"
-			rotation: 0.0d
-			width: 2.35d
-			x: 2.0d
-			y: 5.0d
-		}
 	]
 	order_index: 4
 	quest_links: [ ]

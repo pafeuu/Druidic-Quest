@@ -9,232 +9,6 @@
 	hide_quest_until_deps_visible: true
 	icon: "immersiveengineering:treated_wood_horizontal"
 	id: "2AA06C91832FD2F8"
-	images: [
-		{
-			height: 2.35d
-			image: "railways:block/palettes/white/slashed"
-			rotation: 0.0d
-			width: 2.35d
-			x: -3.0d
-			y: -3.5d
-		}
-		{
-			height: 2.35d
-			image: "railways:block/palettes/white/slashed"
-			rotation: 0.0d
-			width: 2.35d
-			x: -3.0d
-			y: -1.5d
-		}
-		{
-			height: 2.35d
-			image: "railways:block/palettes/white/slashed"
-			rotation: 0.0d
-			width: 2.35d
-			x: -3.0d
-			y: 0.5d
-		}
-		{
-			height: 2.35d
-			image: "railways:block/palettes/white/slashed"
-			rotation: 0.0d
-			width: 2.35d
-			x: -3.0d
-			y: 2.5d
-		}
-		{
-			height: 2.35d
-			image: "railways:block/palettes/white/slashed"
-			rotation: 0.0d
-			width: 2.35d
-			x: -3.0d
-			y: 4.5d
-		}
-		{
-			height: 2.35d
-			image: "railways:block/palettes/white/slashed"
-			rotation: 0.0d
-			width: 2.35d
-			x: -3.0d
-			y: 6.5d
-		}
-		{
-			height: 2.35d
-			image: "railways:block/palettes/white/slashed"
-			rotation: 0.0d
-			width: 2.35d
-			x: -1.0d
-			y: 6.5d
-		}
-		{
-			height: 2.35d
-			image: "railways:block/palettes/white/slashed"
-			rotation: 0.0d
-			width: 2.35d
-			x: 1.0d
-			y: 6.5d
-		}
-		{
-			height: 2.35d
-			image: "railways:block/palettes/white/slashed"
-			rotation: 0.0d
-			width: 2.35d
-			x: 3.0d
-			y: 6.5d
-		}
-		{
-			height: 2.35d
-			image: "railways:block/palettes/white/slashed"
-			rotation: 0.0d
-			width: 2.35d
-			x: 5.0d
-			y: 6.5d
-		}
-		{
-			height: 2.35d
-			image: "railways:block/palettes/white/slashed"
-			rotation: 0.0d
-			width: 2.35d
-			x: 7.0d
-			y: 6.5d
-		}
-		{
-			height: 2.35d
-			image: "railways:block/palettes/white/slashed"
-			rotation: 0.0d
-			width: 2.35d
-			x: 9.0d
-			y: 6.5d
-		}
-		{
-			height: 2.35d
-			image: "railways:block/palettes/white/slashed"
-			rotation: 0.0d
-			width: 2.35d
-			x: 13.0d
-			y: 4.5d
-		}
-		{
-			height: 2.35d
-			image: "railways:block/palettes/white/slashed"
-			rotation: 0.0d
-			width: 2.35d
-			x: 13.0d
-			y: 2.5d
-		}
-		{
-			height: 2.35d
-			image: "railways:block/palettes/white/slashed"
-			rotation: 0.0d
-			width: 2.35d
-			x: 13.0d
-			y: 0.5d
-		}
-		{
-			height: 2.35d
-			image: "railways:block/palettes/white/slashed"
-			rotation: 0.0d
-			width: 2.35d
-			x: 13.0d
-			y: -1.5d
-		}
-		{
-			height: 2.35d
-			image: "railways:block/palettes/white/slashed"
-			rotation: 0.0d
-			width: 2.35d
-			x: 13.0d
-			y: -3.5d
-		}
-		{
-			height: 2.35d
-			image: "railways:block/palettes/white/slashed"
-			rotation: 0.0d
-			width: 2.35d
-			x: -3.0d
-			y: -5.5d
-		}
-		{
-			height: 2.35d
-			image: "railways:block/palettes/white/slashed"
-			rotation: 0.0d
-			width: 2.35d
-			x: -1.0d
-			y: -5.5d
-		}
-		{
-			height: 2.35d
-			image: "railways:block/palettes/white/slashed"
-			rotation: 0.0d
-			width: 2.35d
-			x: 1.0d
-			y: -5.5d
-		}
-		{
-			height: 2.35d
-			image: "railways:block/palettes/white/slashed"
-			rotation: 0.0d
-			width: 2.35d
-			x: 3.0d
-			y: -5.5d
-		}
-		{
-			height: 2.35d
-			image: "railways:block/palettes/white/slashed"
-			rotation: 0.0d
-			width: 2.35d
-			x: 5.0d
-			y: -5.5d
-		}
-		{
-			height: 2.35d
-			image: "railways:block/palettes/white/slashed"
-			rotation: 0.0d
-			width: 2.35d
-			x: 7.0d
-			y: -5.5d
-		}
-		{
-			height: 2.35d
-			image: "railways:block/palettes/white/slashed"
-			rotation: 0.0d
-			width: 2.35d
-			x: 9.0d
-			y: -5.5d
-		}
-		{
-			height: 2.35d
-			image: "railways:block/palettes/white/slashed"
-			rotation: 0.0d
-			width: 2.35d
-			x: 11.0d
-			y: -5.5d
-		}
-		{
-			height: 2.35d
-			image: "railways:block/palettes/white/slashed"
-			rotation: 0.0d
-			width: 2.35d
-			x: 13.0d
-			y: -5.5d
-		}
-		{
-			height: 2.35d
-			image: "railways:block/palettes/white/slashed"
-			rotation: 0.0d
-			width: 2.35d
-			x: 11.0d
-			y: 6.5d
-		}
-		{
-			height: 2.35d
-			image: "railways:block/palettes/white/slashed"
-			rotation: 0.0d
-			width: 2.35d
-			x: 13.0d
-			y: 6.5d
-		}
-	]
 	order_index: 0
 	progression_mode: "flexible"
 	quest_links: [ ]
@@ -876,11 +650,12 @@
 				id: "61F4E8D6035FAA6E"
 				item: {
 					Count: 1
-					id: "minecraft:wooden_pickaxe"
+					id: "ftbfiltersystem:smart_filter"
 					tag: {
-						Damage: 0
+						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(forge:tools/flint)"
 					}
 				}
+				title: "Any #forge:tools/flint"
 				type: "item"
 			}]
 			title: "Different tools"
@@ -936,6 +711,9 @@
 				"If you dont know how to use wooden stands look at the image below."
 				""
 				"Material below doesn't matter except the middle where you need a block that you can plant a sapling on."
+				""
+				"To get the result out of recipe the tree in the middle has to grow, you need to replace golden powder after each recipe."
+				"Items dont have  to be in a specific order like in JEI"
 				""
 				"You will need to place sapling and gold powder after every recipe so make sure to mark the position of each."
 				"{image:kubejs:textures/forest_ritual.png width:100 height:100 align:1 fit:true}"

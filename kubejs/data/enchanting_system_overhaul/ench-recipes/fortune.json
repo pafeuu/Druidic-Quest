@@ -1,0 +1,62 @@
+{
+  "enchantment_id": "minecraft:fortune",
+  "maxLevel": 0,
+  "useExpPoints": true,
+  "levels": {
+    "1": [
+      {
+        "id": "kubejs:large_enchanting_rune",
+        "amount": 20
+      },
+      {
+        "id": "minecraft:enchanted_golden_apple",
+        "amount": 2
+      },
+      {
+        "id": "minecraft:diamond",
+        "amount": 12
+      },
+      {
+        "id": "minecraft:lapis_block",
+        "amount": 20
+      }
+    ],
+    "2": [
+      {
+        "id": "kubejs:large_enchanting_rune",
+        "amount": 40
+      },
+      {
+        "id": "minecraft:enchanted_golden_apple",
+        "amount": 4
+      },
+      {
+        "id": "minecraft:diamond",
+        "amount": 24
+      },
+      {
+        "id": "minecraft:lapis_block",
+        "amount": 40
+      }
+      
+    ],
+    "3": [
+      {
+        "id": "kubejs:large_enchanting_rune",
+        "amount": 64
+      },
+      {
+        "id": "minecraft:enchanted_golden_apple",
+        "amount": 6
+      },
+      {
+        "id": "minecraft:diamond",
+        "amount": 36
+      },
+      {
+        "id": "minecraft:lapis_block",
+        "amount": 60
+      }
+    ]
+  }
+}

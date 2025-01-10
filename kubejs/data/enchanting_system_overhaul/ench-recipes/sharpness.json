@@ -1,0 +1,97 @@
+{
+  "enchantment_id": "minecraft:sharpness",
+  "maxLevel": 0,
+  "useExpPoints": true,
+  "levels": {
+    "1": [
+      {
+        "id": "kubejs:small_enchanting_rune",
+        "amount": 12
+      },
+      {
+        "id": "kubejs:ivy_quartz",
+        "amount": 12
+      },
+      {
+        "id": "minecraft:quartz",
+        "amount": 12
+      },
+      {
+        "id": "quark:clear_shard",
+        "amount": 12
+      }
+    ],
+    "2": [
+      {
+        "id": "kubejs:small_enchanting_rune",
+        "amount": 24
+      },
+      {
+        "id": "kubejs:ivy_quartz",
+        "amount": 24
+      },
+      {
+        "id": "minecraft:quartz",
+        "amount": 24
+      },
+      {
+        "id": "quark:clear_shard",
+        "amount": 24
+      }
+    ],
+    "3": [
+      {
+        "id": "kubejs:small_enchanting_rune",
+        "amount": 32
+      },
+      {
+        "id": "kubejs:ivy_quartz",
+        "amount": 32
+      },
+      {
+        "id": "minecraft:quartz",
+        "amount": 32
+      },
+      {
+        "id": "quark:clear_shard",
+        "amount": 32
+      }
+    ],
+    "4": [
+      {
+        "id": "kubejs:small_enchanting_rune",
+        "amount": 48
+      },
+      {
+        "id": "kubejs:ivy_quartz",
+        "amount": 48
+      },
+      {
+        "id": "minecraft:quartz",
+        "amount": 48
+      },
+      {
+        "id": "quark:clear_shard",
+        "amount": 48
+      }
+    ],
+    "5": [
+      {
+        "id": "kubejs:small_enchanting_rune",
+        "amount": 60
+      },
+      {
+        "id": "kubejs:ivy_quartz",
+        "amount": 60
+      },
+      {
+        "id": "minecraft:quartz",
+        "amount": 60
+      },
+      {
+        "id": "quark:clear_shard",
+        "amount": 60
+      }
+    ]
+  }
+}

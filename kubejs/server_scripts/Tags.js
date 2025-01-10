@@ -5,9 +5,45 @@ ServerEvents.tags('item', event => {
   let seed = ["vintagedelight:oat_seeds","vintagedelight:ghost_pepper_seeds"]
   let hide = ["twigs:calcite_wall","twigs:tuff_wall","twigs:calcite_stairs","kubejs:recipe_changed","kubejs:unstable_ivy_quartz","aether:life_shard",
               "immersiveengineering:shield","alexsmobs:shield_of_the_deep","enigmaticlegacy:infernal_shield","forbiddenarcanus:obsidian_skull_shield",]
+  let flower = ['minecraft:sunflower','minecraft:dandelion','naturesaura:aura_bloom','bloomingnature:wild_sunflower','regions_unexplored:yellow_snowbelle','bloomingnature:freesia_yellow','bloomingnature:golden_rod','regions_unexplored:alpha_dandelion']
+
+  let wiring = ['minecraft:repeater', 'minecraft:calibrated_sculk_sensor', 'minecraft:tripwire_hook', 'minecraft:daylight_detector', 'minecraft:string', 'minecraft:activator_rail', 'minecraft:detector_rail', 'minecraft:powered_rail', 'minecraft:rail', 
+                'minecraft:redstone', 'minecraft:piston', 'minecraft:composter', 'create:redstone_link', 'minecraft:sticky_piston', 'minecraft:dispenser', 'minecraft:redstone_lamp', 'minecraft:redstone_torch', 'minecraft:dropper',
+                 'minecraft:hopper', 'ars_nouveau:redstone_relay', 'minecraft:lever', 'minecraft:target', 'quark:redstone_randomizer', 'minecraft:comparator','create:controller_rail', 'create:large_cogwheel', 'create:shaft', 'create:cogwheel', 'create:gearbox', 
+                 'create:vertical_gearbox', 'create:clutch', 'create:gearshift', 'create:encased_chain_drive', 'create:adjustable_chain_gearshift', 'create:belt_connector', 'create:fluid_pipe', 'create:mechanical_pump', 'create:smart_fluid_pipe', 'create:fluid_valve', 
+                 'create:piston_extension_pole', 'create:gantry_shaft', 'create:analog_lever', 'create:pulse_repeater', 'create:pulse_extender', 'create:powered_latch', 'create:powered_toggle_latch', 'create:track','supplementaries:hourglass', 'supplementaries:crank', 
+                 'supplementaries:wind_vane', 'supplementaries:cog_block', 'supplementaries:turn_table', 'supplementaries:spring_launcher', 'supplementaries:faucet']
   
-  
-  
+  let Tier0Component = []
+  let Tier1Component = []
+  let Tier2Component = []
+  let Tier3Component = []
+
+  let Tier0Machine = []
+  let Tier1Machine = []
+  let Tier2Machine = []
+  let Tier3Machine = []
+
+  let Tier0Tool = []
+  let Tier1Tool = []
+  let Tier2Tool = []
+  let Tier3Tool = []
+
+  let Tier0Armor = []
+  let Tier1Armor = []
+  let Tier2Armor = []
+  let Tier3Armor = []
+
+  let Tier0Weapon = []
+  let Tier1Weapon = []
+  let Tier2Weapon = []
+  let Tier3Weapon = []
+
+  let Tier0Accessory = []
+  let Tier1Accessory = []
+  let Tier2Accessory = []
+  let Tier3Accessory = []
+
   event.remove("twilightforest:portal/activator","minecraft:diamond")
   event.remove("forge:gems/ruby","thermal:ruby")
   event.remove("forge:storage_blocks/ruby","thermal:ruby_block")
@@ -40,14 +76,6 @@ ServerEvents.tags('item', event => {
   event.add('immersive_weathering:bark','farmersdelight:tree_bark')
   event.remove('forge:ingots/steel', 'immersiveengineering:ingot_steel')
 
-  let flower = ['minecraft:sunflower','minecraft:dandelion','naturesaura:aura_bloom','bloomingnature:wild_sunflower','regions_unexplored:yellow_snowbelle','bloomingnature:freesia_yellow','bloomingnature:golden_rod','regions_unexplored:alpha_dandelion']
-
-  let wiring = ['minecraft:repeater', 'minecraft:calibrated_sculk_sensor', 'minecraft:tripwire_hook', 'minecraft:daylight_detector', 'minecraft:string', 'minecraft:activator_rail', 'minecraft:detector_rail', 'minecraft:powered_rail', 'minecraft:rail', 
-    'minecraft:redstone', 'minecraft:piston', 'minecraft:composter', 'create:redstone_link', 'minecraft:sticky_piston', 'minecraft:dispenser', 'minecraft:redstone_lamp', 'minecraft:redstone_torch', 'minecraft:dropper',
-     'minecraft:hopper', 'ars_nouveau:redstone_relay', 'minecraft:lever', 'minecraft:target', 'quark:redstone_randomizer', 'minecraft:comparator','create:controller_rail', 'create:large_cogwheel', 'create:shaft', 'create:cogwheel', 'create:gearbox', 
-     'create:vertical_gearbox', 'create:clutch', 'create:gearshift', 'create:encased_chain_drive', 'create:adjustable_chain_gearshift', 'create:belt_connector', 'create:fluid_pipe', 'create:mechanical_pump', 'create:smart_fluid_pipe', 'create:fluid_valve', 
-     'create:piston_extension_pole', 'create:gantry_shaft', 'create:analog_lever', 'create:pulse_repeater', 'create:pulse_extender', 'create:powered_latch', 'create:powered_toggle_latch', 'create:track','supplementaries:hourglass', 'supplementaries:crank', 
-     'supplementaries:wind_vane', 'supplementaries:cog_block', 'supplementaries:turn_table', 'supplementaries:spring_launcher', 'supplementaries:faucet']
   
   wiring.forEach(id => {
     event.add("immersiveengineering:toolbox/wiring",id)
