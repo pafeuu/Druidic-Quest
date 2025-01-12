@@ -14,7 +14,7 @@ ServerEvents.tags('item', event => {
                  'create:piston_extension_pole', 'create:gantry_shaft', 'create:analog_lever', 'create:pulse_repeater', 'create:pulse_extender', 'create:powered_latch', 'create:powered_toggle_latch', 'create:track','supplementaries:hourglass', 'supplementaries:crank', 
                  'supplementaries:wind_vane', 'supplementaries:cog_block', 'supplementaries:turn_table', 'supplementaries:spring_launcher', 'supplementaries:faucet']
   
-  let Tier0Component = []
+  let Tier0Component = ['minecraft:string','minecraft:feather','farmersdelight:canvas','farmersdelight:straw']
   let Tier1Component = []
   let Tier2Component = []
   let Tier3Component = []

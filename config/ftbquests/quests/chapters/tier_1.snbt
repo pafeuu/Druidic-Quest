@@ -399,33 +399,36 @@
 					id: "1EA20DD67FC47B0C"
 					item: {
 						Count: 1
-						id: "minecraft:iron_pickaxe"
+						id: "ftbfiltersystem:smart_filter"
 						tag: {
-							Damage: 0
+							"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(forge:tools/iron)"
 						}
 					}
+					title: "Any #forge:tools/iron"
 					type: "item"
 				}
 				{
 					id: "6892B1765C0CE75E"
 					item: {
 						Count: 1
-						id: "create_sa:copper_pickaxe"
+						id: "ftbfiltersystem:smart_filter"
 						tag: {
-							Damage: 0
+							"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(forge:tools/copper)"
 						}
 					}
+					title: "Any #forge:tools/copper"
 					type: "item"
 				}
 				{
 					id: "79BF45A5084C6E6C"
 					item: {
 						Count: 1
-						id: "create_sa:zinc_pickaxe"
+						id: "ftbfiltersystem:smart_filter"
 						tag: {
-							Damage: 0
+							"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(forge:tools/zinc)"
 						}
 					}
+					title: "Any #forge:tools/zinc"
 					type: "item"
 				}
 			]

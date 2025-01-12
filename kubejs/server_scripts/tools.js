@@ -1069,6 +1069,9 @@ ServerEvents.recipes(event => {
 
 	/// ======================================================================= Tier 1 Tools ============================================================================
 
+	simplearmor("#forge:plates/copper","create_sa:copper_helmet","create_sa:copper_chestplate","create_sa:copper_leggings","create_sa:copper_boots")
+
+	event.remove([{output:"create_sa:copper_helmet"},{output:"create_sa:copper_chestplate"},{output:"create_sa:copper_leggings"},{output:"create_sa:copper_boots"}])
 	event.custom({
 		"type": "rubinated_nether:freezing",
 		"category": "freezable_misc",

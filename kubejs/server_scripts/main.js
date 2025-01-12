@@ -364,10 +364,22 @@ ServerEvents.recipes(event => {
 		'SC'
 	  ],
 	  {
-		C: 'immersiveengineering:hemp_fiber',
+		C: 'minecraft:string',
 		S: 'farmersdelight:straw',
 	  }
 	)
+	event.shaped(
+		Item.of('minecraft:string'), 
+		[
+		  'SS', 
+		  'SS',
+		  'SS'
+		],
+		{
+		  S: 'immersiveengineering:hemp_fiber'
+		}
+	  )
+	.id("immersiveengineering:crafting/string")
 	
 	
 	

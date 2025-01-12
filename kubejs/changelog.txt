@@ -1056,6 +1056,8 @@ Patch 0.3.2.1
     -Changed for enchanters shield
     -Changed for ironwood tools
     -Changed for steeleaf tools
+    -Changed for canvas
+    -Changed for string from hemp fiber
     -You can now combine extradimensional eye with dimensional tool to apply the telekinesis enchant!
 
 ### Balance:
@@ -1093,3 +1095,25 @@ Patch 0.3.2.1
     -Fixed fiery and golden feather quests
     -Adjustments to the quests making the Questbook more readable
     -Tons of texture changes to the ftbquest mod
+
+# Patch 0.7
+
+### Updated Mods:
+    -Forge 47.3.5
+    -
+### New Data Pack:
+    -CTOV Longer Roads
+### New Mods:
+    -Structure Layout Optimizer
+
+### Worldgen
+
+    -All the structures are now more common
+    -Large villages are now 9 times more rare than small villages
+    -Medium villages are now 3 times more rare than small villages
+    -Adjusted rarity of buildings in villages
+    -Reworked immersiveengineering houses now correctly spawn in taiga and desert villages
+
+### Recipes:
+
+    
