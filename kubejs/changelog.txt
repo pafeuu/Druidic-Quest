@@ -1096,24 +1096,78 @@ Patch 0.3.2.1
     -Adjustments to the quests making the Questbook more readable
     -Tons of texture changes to the ftbquest mod
 
-# Patch 0.7
+# Patch 0.7  Worldgen Update
 
 ### Updated Mods:
-    -Forge 47.3.5
-    -
+    -Forge 
+    -Amendments
+    -AStages
+    -Balm
+    -BetterAdvancements
+    -Citadel
+    -CorailTombstone
+    -CreateStuff&Additions
+    -CreativeCore
+    -CuriosAPI
+    -EccentricTome
+    -EveryCompat
+    -FastAsyncWorldSave
+    -ForgeEndertech
+    -FruitsDelight
+    -FTBLibrary
+    -FTB XMod Compat
+    -Fusion
+    -FzzyConfig
+    -GeckoLib
+    -IChunUtil
+    -IDAS
+    -IronsSPellsNSpellbooks
+    -ItemPhysicsLite
+    -JEI
+    -LegendaryCreatures
+    -LithoStitched
+    -ModernFix
+    -MoonlightLib
+    -Oculus
+    -OculusFlywheelCompat
+    -PufferfishAttributes
+    -SophisticatedMods
+    -Structure Credits
+    -SuperMartinCoreLib
+    -Tide
+    -XaeroMinimap
+    
 ### New Data Pack:
     -CTOV Longer Roads
+
 ### New Mods:
     -Structure Layout Optimizer
+
+### Loot:
+
+    -Buffed Loot in the jungle temple, you can now find mossy sword and tiger totem in there
+    -Buffed Loot in the shipwreck chests, you can now find mossy sword there
+    -Nerfed SophisticatedBackpacks Loot Injection
+    -Grizzly Bears, Roadrunners, Tigers, Penguins, Bunnies and frogs now have 2% to drop their totems 
 
 ### Worldgen
 
     -All the structures are now more common
+    -Bathhouse is now much rarer
     -Large villages are now 9 times more rare than small villages
     -Medium villages are now 3 times more rare than small villages
     -Adjusted rarity of buildings in villages
     -Reworked immersiveengineering houses now correctly spawn in taiga and desert villages
 
+### New Items:
+
+    -Mossy Sword
+
 ### Recipes:
+
+
+### Other:
+    
+    -Adjusted some villager's trades
 
     

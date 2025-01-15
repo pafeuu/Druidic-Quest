@@ -17,7 +17,7 @@
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
 				"processors": "ctov:village/taiga/house",
-				"location":"immersiveengineering:village/houses/desert_electrician"
+				"location":"immersiveengineering:village/houses/taiga_electrician"
 			}
 		},
 		{
@@ -26,7 +26,7 @@
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
 				"processors": "ctov:village/taiga/house",
-				"location":"immersiveengineering:village/houses/desert_gunsmith"
+				"location":"immersiveengineering:village/houses/taiga_gunsmith"
 			}
 		},
 		{
@@ -35,7 +35,7 @@
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
 				"processors": "ctov:village/taiga/house",
-				"location":"immersiveengineering:village/houses/desert_machinist"
+				"location":"immersiveengineering:village/houses/taiga_machinist"
 			}
 		},
 		{
@@ -44,7 +44,7 @@
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
 				"processors": "ctov:village/taiga/house",
-				"location":"immersiveengineering:village/houses/desert_engineer"
+				"location":"immersiveengineering:village/houses/taiga_engineer"
 			}
 		},
 		{
@@ -53,7 +53,7 @@
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
 				"processors": "ctov:village/taiga/house",
-				"location":"immersiveengineering:village/houses/desert_outfitter"
+				"location":"immersiveengineering:village/houses/taiga_outfitter"
 			}
 		}
 

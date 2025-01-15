@@ -1,0 +1,18 @@
+{
+    "pools": [
+        {
+            "name": "tiger",
+            "rolls": 1,
+            "entries":[
+              {
+                "type": "minecraft:empty",
+                "weight": 49
+              },
+              {
+                "type": "item",
+                "name": "kubejs:tiger_totem"
+              }
+            ]
+        }
+    ]
+}

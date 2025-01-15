@@ -11,6 +11,8 @@ var CreatePlates = ['copper','brass','iron']
 
 var wood_TF = ['canopy','mangrove','twilight_oak','time','transformation','mining','sorting','dark']
 
+var wood_TF_no_mangrove = ['canopy','twilight_oak','time','transformation','mining','sorting','dark']
+
 ServerEvents.recipes(event => {
   
 	event.remove({id:"enigmaticlegacy:infernal_shield"})
@@ -280,7 +282,7 @@ ServerEvents.recipes(event => {
 	wood_TF.forEach(type => {
 		
 		event.shapeless("twilightdelight:"+type+"_cabinet","everycomp:fd/twilightforest/"+type+"_cabinet").id("twilightdelight:"+type+"_cabinet")
-		event.shapeless("everycomp:fd/twilightforest/"+type+"_cabinet","twilightdelight:"+type+"_cabinet")
+		
 
 		event.shaped("twilightforest:"+type+"_chest",
 			[
@@ -290,6 +292,10 @@ ServerEvents.recipes(event => {
 			],
 			{X:"twilightforest:"+type+"_planks"}
 		).id("twilightforest:wood/"+type+"_chest")
+	});
+
+	wood_TF_no_mangrove.forEach(type => {
+		event.shapeless("everycomp:fd/twilightforest/"+type+"_cabinet","twilightdelight:"+type+"_cabinet")
 	});
 
 	event.shaped("supplementaries:item_shelf",

@@ -1,12 +1,12 @@
 {
   "type": "sawmill:wood_item_to_emerald",
-  "buys": false,
+  "buys": true,
   "max_trades": 16,
-  "wood_block": "chest_boat",
-  "wood_block_amount": 1,
+  "wood_block": "fence_gate",
+  "wood_block_amount": 4,
   "emeralds": {
     "id": "thermal:copper_coin",
-    "Count": 3
+    "Count": 12
   },
   "level": 4,
   "type_dependant": true

@@ -167,12 +167,13 @@ StartupEvents.registry('item', item => {
   item.create('broken_key').displayName('Broken Key').tag("druidic_quest:tier0/tool")
 
   ///=================================================TOOLS============================================================
+  item.create("mossy_sword","sword").tier('stone').tag("minecraft:swords").tag("minecraft:tools").tag("forge:tools/stone").tag("druidic_quest:tier0/weapon")
   item.create("royal_guard_sword","sword").tier('royal').tag("minecraft:swords").tag("minecraft:tools").tag("forge:tools/iron").tag("druidic_quest:tier1/weapon")
-  item.create('chill_blade','sword').displayName("Chilled Blade").tier('ice').tag('minecraft:sword').tag('minecraft:tools').tag("druidic_quest:tier1/weapon")
-  item.create('blade_of_grass','irons_spells_js:magic_sword').tier('grass').tag('minecraft:sword').tag('minecraft:tools').glow(true).addDefaultSpell("irons_spellbooks:poison_splash",3).tag("druidic_quest:tier2/weapon")
-  item.create('ice_blade','irons_spells_js:magic_sword').tier('ice').tag('minecraft:sword').tag('minecraft:tools').glow(true).addDefaultSpell("irons_spellbooks:icicle",3).tag("druidic_quest:tier1/weapon")
-  item.create('rusty_trident','sword').tier('fire').tag('minecraft:sword').tag('minecraft:tools').speedBaseline(-2.9).tag("druidic_quest:tier0/weapon")
-  item.create('primitive_spear','sword').tier('wood').tag('minecraft:sword').tag('minecraft:tools').speedBaseline(-2.9).tag("druidic_quest:tier0/weapon")
+  item.create('chill_blade','sword').displayName("Chilled Blade").tier('ice').tag('minecraft:sword').tag("forge:tools/iron").tag('minecraft:tools').tag("druidic_quest:tier1/weapon")
+  item.create('blade_of_grass','irons_spells_js:magic_sword').tier('grass').tag('minecraft:sword').tag("forge:tools/iron").tag('minecraft:tools').glow(true).addDefaultSpell("irons_spellbooks:poison_splash",3).tag("druidic_quest:tier2/weapon")
+  item.create('ice_blade','irons_spells_js:magic_sword').tier('ice').tag('minecraft:sword').tag("forge:tools/iron").tag('minecraft:tools').glow(true).addDefaultSpell("irons_spellbooks:icicle",3).tag("druidic_quest:tier1/weapon")
+  item.create('rusty_trident','sword').tier('fire').tag('minecraft:sword').tag("forge:tools/copper").tag('minecraft:tools').speedBaseline(-2.9).tag("druidic_quest:tier0/weapon")
+  item.create('primitive_spear','sword').tier('wood').tag('minecraft:sword').tag("forge:tools/flint").tag('minecraft:tools').speedBaseline(-2.9).tag("druidic_quest:tier0/weapon")
 
   item.create('golden_magic_feather','sword').tier('gold').glow(true).tag("minecraft:tools").displayName("Golden Feather").tag("forge:tools/magic_feather").tag("druidic_quest:tier1/weapon").tag("druidic_quest:tier1/tool")
   item.create('fiery_magic_feather','sword').tier('diamond').glow(true).tag("minecraft:tools").displayName("Fiery Feather").tag("forge:tools/magic_feather").tag("forge:tools/tier2_magic_feather").tag("druidic_quest:tier2/weapon").tag("druidic_quest:tier2/tool")

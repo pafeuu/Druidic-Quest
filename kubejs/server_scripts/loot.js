@@ -117,6 +117,11 @@ LootJS.modifiers((event) => {
         .randomChance(0.1)
         .addLoot("2x farmersdelight:organic_compost");
 
+    event.addLootTypeModifier([LootType.CHEST])
+        .anyBiome("#forge:is_swamp","#forge:is_wet") 
+        .randomChance(0.05)
+        .addLoot("kubejs:frog_totem")
+
     event.addLootTableModifier(/.*chests.*/)
         .anyBiome("#forge:is_swamp","#forge:is_wet") 
         .randomChance(0.05)

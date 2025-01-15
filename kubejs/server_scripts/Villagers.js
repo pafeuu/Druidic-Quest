@@ -34,7 +34,7 @@ MoreJSEvents.villagerTrades((event) => {
 	
 	event.addTrade("librarian", 3, [TradeItem.of("thermal:copper_coin", 4, 12)], "32x minecraft:glass");
 	event.addTrade("librarian", 3, [TradeItem.of("thermal:copper_coin", 8, 24)], "32x minecraft:lantern");
-	event.addTrade("librarian", 3, [TradeItem.of("thermal:copper_coin", 8, 24)], "32x minecraft:bookshelf");
+	event.addTrade("librarian", 3, [TradeItem.of("thermal:silver_coin", 8, 24)], "32x minecraft:bookshelf");
 	
 	event.addTrade("librarian", 4, [TradeItem.of("thermal:silver_coin", 2, 6)], "minecraft:name_tag");
 	event.addTrade("librarian", 4, [TradeItem.of("thermal:gold_coin", 2, 6)], "irons_spellbooks:common_ink");

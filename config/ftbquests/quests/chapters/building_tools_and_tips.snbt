@@ -151,12 +151,17 @@
 			]
 			icon: "create:schematicannon"
 			id: "300CF3200A5E73D7"
-			shape: "octagon"
+			rewards: [{
+				count: 8
+				id: "25DF28C748E60B73"
+				item: "minecraft:gunpowder"
+				type: "item"
+			}]
 			size: 2.0d
 			tasks: [{
-				id: "1275C7095203C3E8"
-				title: "Building with schematicannon!"
-				type: "checkmark"
+				id: "467B7B7CFC24DC37"
+				item: "create:schematicannon"
+				type: "item"
 			}]
 			x: -5.5d
 			y: 0.5d
@@ -181,6 +186,30 @@
 			title: "Carpeted blocks"
 			x: -5.5d
 			y: 3.5d
+		}
+		{
+			dependencies: ["6F5C7CA9C74F13E9"]
+			description: [
+				"You can now modify the look of your storage containers much easier with the help of Decoration Table! Options are limitless."
+				""
+				"You can even  apply decoration on the containers in world with the help of the Paintbrush"
+			]
+			icon: "sophisticatedstorage:decoration_table"
+			id: "58009425DF30A949"
+			rewards: [{
+				count: 2
+				id: "6F150D0605895EE1"
+				item: "sophisticatedstorage:basic_to_iron_tier_upgrade"
+				type: "item"
+			}]
+			size: 2.0d
+			tasks: [{
+				id: "7289B60106CDEEE9"
+				item: "sophisticatedstorage:decoration_table"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 0.5d
 		}
 	]
 	title: "Building tools and tips"

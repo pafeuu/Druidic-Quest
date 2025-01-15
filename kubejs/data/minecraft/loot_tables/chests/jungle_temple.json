@@ -1,0 +1,192 @@
+{
+    "type": "minecraft:chest",
+    "pools": [
+      {
+        "bonus_rolls": 0,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "functions": [
+              {
+                "add": false,
+                "count": {
+                  "type": "minecraft:uniform",
+                  "max": 3,
+                  "min": 1
+                },
+                "function": "minecraft:set_count"
+              }
+            ],
+            "name": "minecraft:diamond",
+            "weight": 3
+          },
+          {
+            "type": "minecraft:item",
+            "functions": [
+              {
+                "add": false,
+                "count": {
+                  "type": "minecraft:uniform",
+                  "max": 5,
+                  "min": 1
+                },
+                "function": "minecraft:set_count"
+              }
+            ],
+            "name": "minecraft:iron_ingot",
+            "weight": 10
+          },
+          {
+            "type": "minecraft:item",
+            "functions": [
+              {
+                "add": false,
+                "count": {
+                  "type": "minecraft:uniform",
+                  "max": 7,
+                  "min": 2
+                },
+                "function": "minecraft:set_count"
+              }
+            ],
+            "name": "kubejs:infused_iron_nugget",
+            "weight": 15
+          },
+          {
+            "type": "minecraft:item",
+            "functions": [
+              {
+                "add": false,
+                "count": {
+                  "type": "minecraft:uniform",
+                  "max": 3,
+                  "min": 1
+                },
+                "function": "minecraft:set_count"
+              }
+            ],
+            "name": "thermal:compost",
+            "weight": 15
+          },
+          {
+            "type": "minecraft:item",
+            "functions": [
+              {
+                "add": false,
+                "count": {
+                  "type": "minecraft:uniform",
+                  "max": 3,
+                  "min": 1
+                },
+                "function": "minecraft:set_count"
+              }
+            ],
+            "name": "minecraft:emerald",
+            "weight": 2
+          },
+          {
+            "type": "minecraft:item",
+            "functions": [
+              {
+                "add": false,
+                "count": {
+                  "type": "minecraft:uniform",
+                  "max": 6,
+                  "min": 4
+                },
+                "function": "minecraft:set_count"
+              }
+            ],
+            "name": "minecraft:bone",
+            "weight": 20
+          },
+          {
+            "type": "minecraft:item",
+            "functions": [
+              {
+                "add": false,
+                "count": {
+                  "type": "minecraft:uniform",
+                  "max": 3,
+                  "min": 1
+                },
+                "function": "minecraft:set_count"
+              }
+            ],
+            "name": "kubejs:small_enchanting_rune",
+            "weight": 5
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:saddle",
+            "weight": 3
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:iron_horse_armor"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "kubejs:overworld_key"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "thermal:ruby"
+          },
+          {
+            "type": "minecraft:item",
+            "functions": [
+              {
+                "function": "minecraft:enchant_with_levels",
+                "levels": 20,
+                "treasure": true
+              }
+            ],
+            "name": "minecraft:book"
+          }
+        ],
+        "rolls": {
+          "type": "minecraft:uniform",
+          "max": 6,
+          "min": 2
+        }
+      },
+      {
+        "bonus_rolls": 0,
+        "entries": [
+          {
+            "type": "minecraft:empty",
+            "weight": 2
+          },
+          {
+            "type": "minecraft:item",
+            "functions": [
+              {
+                "add": false,
+                "count": 2,
+                "function": "minecraft:set_count"
+              }
+            ],
+            "name": "minecraft:wild_armor_trim_smithing_template"
+          }
+        ],
+        "rolls": 1
+      },
+      {
+        "bonus_rolls": 0,
+        "entries": [
+          {
+                "type": "minecraft:item",
+                "name": "kubejs:tiger_totem"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "kubejs:mossy_sword",
+            "weight": 4
+          }
+        ],
+        "rolls": 1
+      }
+    ],
+    "random_sequence": "minecraft:chests/jungle_temple"
+  }

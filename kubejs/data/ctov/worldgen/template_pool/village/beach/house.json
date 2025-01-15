@@ -3,7 +3,7 @@
 	"fallback": "ctov:village/beach/deco",
 	"elements": [
 		{
-			"weight": 5,
+			"weight": 12,
 			"element": {
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
@@ -12,7 +12,7 @@
 			}
 		},
 		{
-			"weight": 5,
+			"weight": 12,
 			"element": {
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
@@ -21,7 +21,7 @@
 			}
 		},
 		{
-			"weight": 5,
+			"weight": 12,
 			"element": {
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
@@ -30,7 +30,7 @@
 			}
 		},
 		{
-			"weight": 5,
+			"weight": 12,
 			"element": {
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
@@ -48,7 +48,7 @@
 			}
 		},
 		{
-			"weight": 5,
+			"weight": 8,
 			"element": {
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
@@ -57,7 +57,7 @@
 			}
 		},
 		{
-			"weight": 5,
+			"weight": 8,
 			"element": {
 			"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
@@ -84,7 +84,7 @@
 			}
 		},
 		{
-			"weight": 5,
+			"weight": 8,
 			"element": {
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
@@ -93,7 +93,7 @@
 			}
 		},
 		{
-			"weight": 5,
+			"weight": 8,
 			"element": {
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
@@ -111,7 +111,7 @@
 			}
 		},
 		{
-			"weight": 5,
+			"weight": 12,
 			"element": {
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
@@ -120,7 +120,7 @@
 			}
 		},
 		{
-			"weight": 5,
+			"weight": 8,
 			"element": {
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
@@ -129,7 +129,7 @@
 			}
 		},
 		{
-			"weight": 5,
+			"weight": 12,
 			"element": {
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
@@ -138,7 +138,7 @@
 			}
 		},
 		{
-			"weight": 5,
+			"weight": 8,
 			"element": {
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
@@ -156,7 +156,7 @@
 			}
 		},
 		{
-			"weight": 5,
+			"weight": 12,
 			"element": {
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
@@ -165,7 +165,7 @@
 			}
 		},
 		{
-			"weight": 5,
+			"weight": 8,
 			"element": {
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",

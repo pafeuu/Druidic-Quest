@@ -2,7 +2,7 @@
   "type": "simple",
   "max_trades": 16,
   "price": {
-    "id": "therma:copper_coin",
+    "id": "thermal:copper_coin",
     "Count": 1
   },
   "offer": {

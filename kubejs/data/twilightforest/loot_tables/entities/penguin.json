@@ -1,0 +1,48 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 2.0,
+                "min": 0.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 1.0,
+                "min": 0.0
+              },
+              "function": "minecraft:looting_enchant"
+            }
+          ],
+          "name": "minecraft:feather"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "rolls": 1,
+        "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "kubejs:penguin_totem"
+        },
+        {
+          "type": "minecraft:empty",
+          "weight": 1
+        }
+      ]  
+    } 
+  ],
+  "random_sequence": "twilightforest:entities/penguin"
+}

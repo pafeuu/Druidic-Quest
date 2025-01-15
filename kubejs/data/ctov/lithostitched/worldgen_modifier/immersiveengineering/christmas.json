@@ -1,0 +1,60 @@
+{
+	"type": "lithostitched:add_template_pool_elements",
+	"predicate": {
+		"type": "lithostitched:all_of",
+			"predicates": [
+			{
+				"type": "lithostitched:mod_loaded",
+				"mod_id": "immersiveengineering"
+			}
+		]
+	},
+	"template_pool": "ctov:village/christmas/house",
+	"elements": [
+		{
+			"weight": 2,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"processors": "ctov:village/taiga/house",
+				"location":"immersiveengineering:village/houses/snowy_electrician"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"processors": "ctov:village/taiga/house",
+				"location":"immersiveengineering:village/houses/snowy_gunsmith"
+			}
+		},
+		{
+			"weight": 2,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"processors": "ctov:village/taiga/house",
+				"location":"immersiveengineering:village/houses/snowy_machinist"
+			}
+		},
+		{
+			"weight": 2,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"processors": "ctov:village/taiga/house",
+				"location":"immersiveengineering:village/houses/snowy_engineer"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"processors": "ctov:village/taiga/house",
+				"location":"immersiveengineering:village/houses/snowy_outfitter"
+			}
+		}
+	]
+}
