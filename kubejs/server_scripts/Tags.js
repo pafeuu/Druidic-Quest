@@ -27,7 +27,7 @@ ServerEvents.tags('item', event => {
   let Tier0Tool = []
   let Tier1Tool = []
   let Tier2Tool = []
-  let Tier3Tool = []
+  let Tier3Tool = ["elementalcraft:chisel"]
 
   let Tier0Armor = []
   let Tier1Armor = []
@@ -44,6 +44,9 @@ ServerEvents.tags('item', event => {
   let Tier2Accessory = []
   let Tier3Accessory = []
 
+  event.add("forge:tools/chisels","elementalcraft:chisel")
+  event.add("forge:tools/hammers","immersiveengineering:hammer")
+  
   event.remove("twilightforest:portal/activator","minecraft:diamond")
   event.remove("forge:gems/ruby","thermal:ruby")
   event.remove("forge:storage_blocks/ruby","thermal:ruby_block")

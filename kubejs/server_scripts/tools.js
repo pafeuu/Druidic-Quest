@@ -157,7 +157,7 @@ ServerEvents.recipes(event => {
 		post: [
 			{type: "place", block: "kubejs:sturdy_deepslate_slab"},
 			{type: "damage_item", damage: 8},
-			{type: "execute", command: "playsound minecraft:block.anvil_use neutral @p", hide: true}
+			{type: "execute", command: "playsound minecraft:block.deepslate.break neutral @p", hide: true}
 		]
 	})
 
@@ -168,25 +168,25 @@ ServerEvents.recipes(event => {
 		post: [
 			{type: "place", block: "kubejs:sturdy_deepslate_plate"},
 			{type: "damage_item", damage: 4},
-			{type: "execute", command: "playsound minecraft:block.anvil.use neutral @p", hide: true}
+			{type: "execute", command: "playsound minecraft:block.deepslate.break neutral @p", hide: true}
 		]
 	})
 
 
 	event.custom({
 		type: "lychee:block_interacting",
-		item_in: {item: "elementalcraft:chisel"},
+		item_in: {tag: "forge:tools/chisels"},
 		block_in: "kubejs:sturdy_deepslate_plate",
 		post: [
 			{type: "place", block: "kubejs:deepslate_rune"},
 			{type: "damage_item", damage: 1},
-			{type: "execute", command: "playsound minecraft:block.anvil.use neutral @p", hide: true}
+			{type: "execute", command: "playsound minecraft:block.deepslate.break neutral @p", hide: true}
 		]
 	})
 
 	event.custom({
 		type: "lychee:block_interacting",
-		item_in: {item: "elementalcraft:chisel"},
+		item_in: {tag: "forge:tools/chisels"},
 		"hide_in_viewer": true,
 		block_in: "kubejs:deepslate_rune",
 		post: [
@@ -1947,6 +1947,17 @@ ServerEvents.recipes(event => {
 	
 	
 	/// ============================================= Tier 2 Tools ===========================================================
+
+	event.shaped("kubejs:basic_chisel",
+		[
+			' A',
+			'X '
+		],
+		{
+			X: "create_sa:zinc_handle",
+			A: "kubejs:arcane_alloy_ingot"
+		}
+	)
 
 	tooltype.forEach(id => {
 		event.shaped("aether:zanite_"+id,

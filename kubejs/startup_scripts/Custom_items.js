@@ -181,6 +181,8 @@ StartupEvents.registry('item', item => {
 
   item.create('mining_hammer','pickaxe').tier('hammer').tag("minecraft:tools").tag('forge:tools/hammers').tag("druidic_quest:tier2/tool")
   item.create('the_terraformer','shovel').glow(true).rarity("epic").tier("terraformer").tag("minecraft:tools").tag("druidic_quest:tier2/tool")
+  item.create('basic_chisel').maxDamage(128).tag("forge:tools/chisels").tag("druidic_quest:tier2/tool")
+  
   ///===================================================FOOD===========================================================
 
   item.create("cut_onions").displayName("Cut Onions").food(food=>{

@@ -1,0 +1,13 @@
+{
+  "id": "aether:hammer_of_kingbdogz",
+  "modifiers": [
+    {
+      "type": "append",
+      "attribute": "alembic:holy_damage",
+      "value": 2.5,
+      "operation": "ADDITION",
+      "uuid": "f8c3d12d-1fea-4d7c-a8b0-29f632223454"
+    }  
+  ],
+  "equipment_slot": "MAINHAND"
+}

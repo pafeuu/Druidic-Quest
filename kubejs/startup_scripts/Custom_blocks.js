@@ -95,7 +95,6 @@ StartupEvents.registry("block", (event) => {
     .tagBlock("mineable/hoe")
 
     event.create("ivy_block","basic")
-    .box(1, 1, 1, 15, 15, 15, true)
     .displayName("Ivy Block")
     .soundType("moss")
     .hardness("0.2")

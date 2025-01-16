@@ -1142,6 +1142,11 @@ Patch 0.3.2.1
 
 ### New Mods:
     -Structure Layout Optimizer
+    -JustEnoughResources
+
+### Item Balance:
+    -Buffed hammer of kingbdogz
+    -Buffed elementalcraft chisel
 
 ### Loot:
 
@@ -1162,6 +1167,7 @@ Patch 0.3.2.1
 ### New Items:
 
     -Mossy Sword
+    -Basic Chisel
 
 ### Recipes:
 
@@ -1169,5 +1175,7 @@ Patch 0.3.2.1
 ### Other:
     
     -Adjusted some villager's trades
+    -Fixed Ivy Block weird shape
+    -Adjusted JEI recipe type order
 
     

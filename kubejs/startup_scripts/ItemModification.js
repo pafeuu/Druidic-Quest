@@ -86,6 +86,14 @@ ItemEvents.modification(event => {
     item.maxDamage = 2048
   })
   ////========================================Tools
+  event.modify('aether:hammer_of_kingbdogz', item=>{
+    item.maxDamage = 1024
+  })
+
+  event.modify('elementalcraft:chisel', item=>{
+    item.maxDamage = 512
+  })
+  
   tooltype.forEach((id) => {
     
     event.modify('minecraft:wooden_'+id, item => {
