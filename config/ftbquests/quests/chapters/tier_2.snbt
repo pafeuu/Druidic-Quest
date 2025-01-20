@@ -31,7 +31,10 @@
 			y: 4.0d
 		}
 		{
-			dependencies: ["4E33A6524A987E23"]
+			dependencies: [
+				"4E33A6524A987E23"
+				"2C1867470E747C94"
+			]
 			icon: "ars_nouveau:arcane_core"
 			id: "72FB95A11B31AFEC"
 			rewards: [{
@@ -195,6 +198,11 @@
 				{
 					id: "04C4600221F273E7"
 					item: "elementalcraft:earthcrystal"
+					type: "item"
+				}
+				{
+					id: "484E57C96F5D4F58"
+					item: "elementalcraft:infuser"
 					type: "item"
 				}
 			]
@@ -1105,6 +1113,37 @@
 			]
 			title: "Skyjade tools!"
 			x: -3.5d
+			y: 7.0d
+		}
+		{
+			dependencies: [
+				"7EBD23E275E837F2"
+				"4E33A6524A987E23"
+			]
+			description: ["&5&lEnchanting Apparatus&r&r uses source for a lot of the crafting recipes. Craft one of the generators as well as source jar to produce and store your source!"]
+			id: "2C1867470E747C94"
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "189C305E392043C5"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(druidic_quest:generators/source)"
+						}
+					}
+					title: "Any #druidic_quest:generators/source"
+					type: "item"
+				}
+				{
+					id: "74EBE8484360A113"
+					item: "ars_nouveau:source_jar"
+					type: "item"
+				}
+			]
+			title: "Source Generators"
+			x: -11.0d
 			y: 7.0d
 		}
 	]

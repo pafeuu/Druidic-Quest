@@ -1303,6 +1303,9 @@ ServerEvents.recipes(event => {
 	  }
 	)
 	
+	event.remove({id:"supplementaries:bed_from_feather_block"})
+
+	event.shapeless("aether:skyroot_bed",["#minecraft:beds","#aether:skyroot_repairing"]).id("aether:skyroot_bed")
 	colors.forEach(color => {
 		event.shaped(
 		  Item.of('comforts:sleeping_bag_'+color),
@@ -1461,6 +1464,20 @@ ServerEvents.recipes(event => {
 	)
 	
 	/// ======================================== Tier 2 Components ================================================================
+
+	event.shaped("kubejs:magical_generator_block",
+		[
+			"XZX",
+			"ZYZ",
+			"XZX"
+		],
+		{	
+			X: "#forge:plates/inert_alloy",
+			Z: "#forge:plates/arcane_alloy",
+			Y: "kubejs:lemon_quartz"
+
+		}
+	)
 
 	event.custom({
 		type: "lychee:lightning_channeling",
@@ -1807,6 +1824,28 @@ ServerEvents.recipes(event => {
 
 	event.replaceInput({id:'naturescompass:natures_compass'},'#minecraft:saplings','kubejs:nature_essence')
 	/// ======================================== Tier 2 Machines ================================================================
+
+	function SourceGeneratorsRecipe(type,ingredient)
+	{
+		event.shaped("ars_nouveau:"+type+"_sourcelink",
+			[
+				"GXG",
+				"GMG",
+				"GXG"
+			],
+			{
+				G: "#forge:rods/gold",
+				M: "kubejs:magical_generator_block",
+				X: ingredient
+			}
+		).id("ars_nouveau:"+type+"_sourcelink")
+	}
+
+	SourceGeneratorsRecipe("volcanic","ars_nouveau:fire_essence")
+	SourceGeneratorsRecipe("agronomic","kubejs:nature_essence")
+	SourceGeneratorsRecipe("vitalic","kubejs:death_essence")
+	SourceGeneratorsRecipe("mycelial","quark:glow_shroom")
+	SourceGeneratorsRecipe("alchemical",'immersive_weathering:golden_moss_clump')
 	
 	event.recipes.naturesaura.tree_ritual("kubejs:pressing_catalyst",["kubejs:arcane_alloy_ingot","kubejs:inert_alloy_ingot","anvil","anvil","immersiveengineering:hammer","immersiveengineering:hammer","anvil","anvil"],"architects_palette:twisted_sapling")
 	
@@ -2571,23 +2610,7 @@ ServerEvents.recipes(event => {
 		}
 	})
 
-	event.custom({
-		type: "elementalcraft:binding",
-		"element_amount": 2500,
-		"element_type": "fire",
-		ingredients: [
-			{item: "ars_nouveau:fire_essence"},
-			{item: "ars_nouveau:water_essence"},
-			{item: "ars_nouveau:air_essence"},
-			{item: "ars_nouveau:earth_essence"},
-			{item: "kubejs:nature_essence"},
-			{item: "kubejs:fiery_magic_feather"}
-		],
-		"output": {
-			"Count": 1,
-			item: "kubejs:rainbow_feather"
-		}
-	})
+	
 	
 	///======================================== Tier 3 Machines =======================================================================
 	event.shaped(

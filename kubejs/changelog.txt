@@ -1171,6 +1171,11 @@ Patch 0.3.2.1
 
 ### Recipes:
 
+    -Changed Recipe for all the sourcelinks
+    -Fixed tons of plate related recipes
+    -Fixed for rainbow feather
+    -Removed Bed recipe from feather blocks
+
 
 ### Other:
     

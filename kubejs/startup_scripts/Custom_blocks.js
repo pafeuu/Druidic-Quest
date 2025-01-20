@@ -22,7 +22,7 @@ StartupEvents.registry("block", (event) => {
     .tagBlock('minecraft:needs_stone_tool') // the tool tier must be at least iron
 	.texture('up', 'kubejs:block/basic_magic_machine_top')
 	.texture('down', 'kubejs:block/basic_magic_machine_top')
-	.lightLevel('8')
+	
 
     event.create("magical_generator_block") // Create a new block
     .soundType("amethyst") // Set a material (affects the sounds and some properties)
@@ -32,7 +32,6 @@ StartupEvents.registry("block", (event) => {
     .requiresTool(true) // Requires a tool or it won't drop (see tags below)
     .tagBlock("mineable/pickaxe") // or a pickaxe
     .tagBlock('minecraft:needs_stone_tool') // the tool tier must be at least iron
-	.lightLevel('8')
 	
 	event.create("magic_machine") // Create a new block
     .displayName("Magic Machine") // Set a custom name
@@ -45,7 +44,7 @@ StartupEvents.registry("block", (event) => {
     .tagBlock('minecraft:needs_iron_tool') // the tool tier must be at least iron
 	.texture('up', 'kubejs:block/magic_machine_top')
 	.texture('down', 'kubejs:block/magic_machine_top')
-	.lightLevel('12')
+	
 	
 	
 	event.create("andesite_machine") // Create a new block
@@ -59,7 +58,7 @@ StartupEvents.registry("block", (event) => {
     .tagBlock('minecraft:needs_iron_tool') // the tool tier must be at least iron
 	.texture('up', 'kubejs:block/andesite_machine_top')
 	.texture('down', 'kubejs:block/andesite_machine_bot')
-	.lightLevel('1')
+	
 
     event.create("pressing_catalyst","falling") // Create a new block
     .displayName("Pressing Catalyst") // Set a custom name
@@ -72,7 +71,7 @@ StartupEvents.registry("block", (event) => {
     .tagBlock('minecraft:needs_iron_tool') // the tool tier must be at least iron
 	.texture('up', 'kubejs:block/anvil')
 	.texture('down', 'kubejs:block/anvil')
-	.lightLevel('0')
+	
 	
 	event.create("steel_machine") // Create a new block
     .displayName("Steel Machine Casing") // Set a custom name
@@ -85,7 +84,7 @@ StartupEvents.registry("block", (event) => {
     .tagBlock('minecraft:needs_iron_tool') // the tool tier must be at least iron
 	.texture('up', 'kubejs:block/steel_machine_top')
 	.texture('down', 'kubejs:block/steel_machine_bot')
-	.lightLevel('3')
+	
 
     event.create("gold_leaf_block")
     .displayName("Gold Leaf Block")

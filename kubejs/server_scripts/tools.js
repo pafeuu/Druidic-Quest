@@ -2277,6 +2277,24 @@ ServerEvents.recipes(event => {
 	
 	
 	/// ============================================= Tier 3 Tools ===========================================================
+
+	event.custom({
+		type: "elementalcraft:binding",
+		"element_amount": 2500,
+		"element_type": "fire",
+		ingredients: [
+			{item: "ars_nouveau:fire_essence"},
+			{item: "ars_nouveau:water_essence"},
+			{item: "ars_nouveau:air_essence"},
+			{item: "ars_nouveau:earth_essence"},
+			{item: "kubejs:nature_essence"},
+			{item: "kubejs:fiery_magic_feather"}
+		],
+		"output": {
+			"Count": 1,
+			item: "kubejs:rainbow_magic_feather"
+		}
+	})
 	
 	event.remove({id:"ars_nouveau:stable_warp_scroll"})
 	event.custom(

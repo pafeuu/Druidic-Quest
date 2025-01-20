@@ -141,7 +141,7 @@ ServerEvents.recipes(event => {
 	hammering("minecraft:copper_block","create:copper_sheet", 3)
 	hammering("minecraft:iron_block","create:iron_sheet", 3)
 	hammering("minecraft:gold_block","create:golden_sheet", 3)
-	hammering("create:brass_block","create:brass_sheet")
+	hammering("create:brass_block","create:brass_sheet",3)
 
 	hammering("thermal:tin_block","vintageimprovements:tin_sheet", 3)
 	hammering("thermal:silver_block","vintageimprovements:silver_sheet", 3)

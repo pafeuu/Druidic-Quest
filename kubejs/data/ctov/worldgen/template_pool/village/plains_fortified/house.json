@@ -3,12 +3,66 @@
 	"fallback": "ctov:village/plains_fortified/deco",
 	"elements": [
 		{
-			"weight": 5,
+			"weight": 12,
 			"element": {
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
-				"location": "ctov:village/plains_fortified/house/small_1",
-				"processors": "ctov:village/plains_fortified/quartz_house"
+				"location": "ctov:village/plains/house/small_1",
+				"processors": "ctov:village/plains/house"
+			}
+		},
+		{
+			"weight": 12,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/plains/house/small_2",
+				"processors": "ctov:village/plains/house"
+			}
+		},
+		{
+			"weight": 12,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/plains/house/small_3",
+				"processors": "ctov:village/plains/house"
+			}
+		},
+		{
+			"weight": 12,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/plains/house/small_4",
+				"processors": "ctov:village/plains/house"
+			}
+		},
+		{
+			"weight": 12,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/plains/house/small_5",
+				"processors": "ctov:village/plains/house"
+			}
+		},
+		{
+			"weight": 8,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/plains/house/med_1",
+				"processors": "ctov:village/plains/house"
+			}
+		},
+		{
+			"weight": 8,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/plains/house/med_2",
+				"processors": "ctov:village/plains/house"
 			}
 		},
 		{
@@ -16,8 +70,8 @@
 			"element": {
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
-				"location": "ctov:village/plains_fortified/house/small_2",
-				"processors": "ctov:village/plains_fortified/quartz_house"
+				"location": "ctov:village/plains/house/big_1",
+				"processors": "ctov:village/plains/house"
 			}
 		},
 		{
@@ -25,125 +79,8 @@
 			"element": {
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
-				"location": "ctov:village/plains_fortified/house/small_3",
-				"processors": "ctov:village/plains_fortified/quartz_house"
-			}
-		},
-		{
-			"weight": 5,
-			"element": {
-				"element_type": "minecraft:single_pool_element",
-				"projection": "rigid",
-				"location": "ctov:village/plains_fortified/house/small_4",
-				"processors": "ctov:village/plains_fortified/quartz_house"
-			}
-		},
-		{
-			"weight": 5,
-			"element": {
-				"element_type": "minecraft:single_pool_element",
-				"projection": "rigid",
-				"location": "ctov:village/plains_fortified/house/big_3",
-				"processors": "ctov:village/plains_fortified/quartz_house"
-			}
-		},
-		{
-			"weight": 5,
-			"element": {
-				"element_type": "minecraft:single_pool_element",
-				"projection": "rigid",
-				"location": "ctov:village/plains_fortified/house/med_1",
-				"processors": "ctov:village/plains_fortified/quartz_house"
-			}
-		},
-		{
-			"weight": 5,
-			"element": {
-				"element_type": "minecraft:single_pool_element",
-				"projection": "rigid",
-				"location": "ctov:village/plains_fortified/house/med_2",
-				"processors": "ctov:village/plains_fortified/quartz_house"
-			}
-		},
-		{
-			"weight": 5,
-			"element": {
-				"element_type": "minecraft:single_pool_element",
-				"projection": "rigid",
-				"location": "ctov:village/plains_fortified/house/big_1",
-				"processors": "ctov:village/plains_fortified/quartz_house"
-			}
-		},
-		{
-			"weight": 5,
-			"element": {
-				"element_type": "minecraft:single_pool_element",
-				"projection": "rigid",
-				"location": "ctov:village/plains_fortified/house/big_2",
-				"processors": "ctov:village/plains_fortified/quartz_house"
-			}
-		},
-		{
-			"weight": 5,
-			"element": {
-				"element_type": "minecraft:single_pool_element",
-				"projection": "rigid",
-				"location": "ctov:village/plains_fortified/jobsite/butcher",
-				"processors": "ctov:village/plains_fortified/quartz_house"
-			}
-		},
-		{
-			"weight": 5,
-			"element": {
-				"element_type": "minecraft:single_pool_element",
-				"projection": "rigid",
-				"location": "ctov:village/plains_fortified/jobsite/cartographer",
-				"processors": "ctov:village/plains_fortified/quartz_house"
-			}
-		},
-		{
-			"weight": 5,
-			"element": {
-				"element_type": "minecraft:single_pool_element",
-				"projection": "rigid",
-				"location": "ctov:village/plains_fortified/jobsite/chemist",
-				"processors": "ctov:village/plains_fortified/quartz_house"
-			}
-		},
-		{
-			"weight": 5,
-			"element": {
-				"element_type": "minecraft:single_pool_element",
-				"projection": "rigid",
-				"location": "ctov:village/plains_fortified/jobsite/fishing_hut",
-				"processors": "ctov:village/plains_fortified/quartz_house"
-			}
-		},
-		{
-			"weight": 5,
-			"element": {
-				"element_type": "minecraft:single_pool_element",
-				"projection": "rigid",
-				"location": "ctov:village/plains_fortified/jobsite/library",
-				"processors": "ctov:village/plains_fortified/quartz_house"
-			}
-		},
-		{
-			"weight": 5,
-			"element": {
-				"element_type": "minecraft:single_pool_element",
-				"projection": "rigid",
-				"location": "ctov:village/plains_fortified/jobsite/loomhouse",
-				"processors": "ctov:village/plains_fortified/quartz_house"
-			}
-		},
-		{
-			"weight": 5,
-			"element": {
-				"element_type": "minecraft:single_pool_element",
-				"projection": "rigid",
-				"location": "ctov:village/plains_fortified/jobsite/mason",
-				"processors": "ctov:village/plains_fortified/quartz_house"
+				"location": "ctov:village/plains/house/big_2",
+				"processors": "ctov:village/plains/house"
 			}
 		},
 		{
@@ -151,8 +88,26 @@
 			"element": {
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
-				"location": "ctov:village/plains_fortified/jobsite/pen",
-				"processors": "ctov:village/plains_fortified/quartz_house"
+				"location": "ctov:village/plains/jobsite/butcher",
+				"processors": "ctov:village/plains/house"
+			}
+		},
+		{
+			"weight": 6,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/plains/jobsite/butcher",
+				"processors": "ctov:village/plains/house"
+			}
+		},
+		{
+			"weight": 8,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/plains/jobsite/cartography",
+				"processors": "ctov:village/plains/house"
 			}
 		},
 		{
@@ -160,324 +115,79 @@
 			"element": {
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
-				"location": "ctov:village/plains_fortified/jobsite/farm",
-				"processors": "ctov:farm/plains/quartz"
+				"location": "ctov:village/plains/jobsite/chemist",
+				"processors": "ctov:village/plains/house"
 			}
 		},
 		{
-			"weight": 5,
+			"weight": 12,
 			"element": {
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
-				"location": "ctov:village/plains_fortified/jobsite/smith",
-				"processors": "ctov:village/plains_fortified/quartz_house"
+				"location": "ctov:village/plains/jobsite/fishing_hut",
+				"processors": "ctov:village/plains/house"
 			}
 		},
 		{
-			"weight": 5,
+			"weight": 8,
 			"element": {
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
-				"location": "ctov:village/plains_fortified/house/small_1",
-				"processors": "ctov:village/plains_fortified/pink_house"
+				"location": "ctov:village/plains/jobsite/library",
+				"processors": "ctov:village/plains/house"
 			}
 		},
 		{
-			"weight": 5,
+			"weight": 8,
 			"element": {
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
-				"location": "ctov:village/plains_fortified/house/small_2",
-				"processors": "ctov:village/plains_fortified/pink_house"
+				"location": "ctov:village/plains/jobsite/shepherd",
+				"processors": "ctov:village/plains/house"
 			}
 		},
 		{
-			"weight": 5,
+			"weight": 12,
 			"element": {
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
-				"location": "ctov:village/plains_fortified/house/small_3",
-				"processors": "ctov:village/plains_fortified/pink_house"
+				"location": "ctov:village/plains/jobsite/mason",
+				"processors": "ctov:village/plains/house"
 			}
 		},
 		{
-			"weight": 5,
+			"weight": 4,
 			"element": {
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
-				"location": "ctov:village/plains_fortified/house/small_4",
-				"processors": "ctov:village/plains_fortified/pink_house"
+				"location": "ctov:village/plains/jobsite/pen",
+				"processors": "ctov:village/plains/house"
 			}
 		},
 		{
-			"weight": 5,
+			"weight": 4,
 			"element": {
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
-				"location": "ctov:village/plains_fortified/house/big_3",
-				"processors": "ctov:village/plains_fortified/pink_house"
+				"location": "ctov:village/plains/jobsite/farm",
+				"processors": "ctov:farm/plains/normal"
 			}
 		},
 		{
-			"weight": 5,
+			"weight": 8,
 			"element": {
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
-				"location": "ctov:village/plains_fortified/house/med_1",
-				"processors": "ctov:village/plains_fortified/pink_house"
+				"location": "ctov:village/plains/jobsite/smith",
+				"processors": "ctov:village/plains/house"
 			}
 		},
-		{
-			"weight": 5,
-			"element": {
-				"element_type": "minecraft:single_pool_element",
-				"projection": "rigid",
-				"location": "ctov:village/plains_fortified/house/med_2",
-				"processors": "ctov:village/plains_fortified/pink_house"
-			}
-		},
-		{
-			"weight": 5,
-			"element": {
-				"element_type": "minecraft:single_pool_element",
-				"projection": "rigid",
-				"location": "ctov:village/plains_fortified/house/big_1",
-				"processors": "ctov:village/plains_fortified/pink_house"
-			}
-		},
-		{
-			"weight": 5,
-			"element": {
-				"element_type": "minecraft:single_pool_element",
-				"projection": "rigid",
-				"location": "ctov:village/plains_fortified/house/big_2",
-				"processors": "ctov:village/plains_fortified/pink_house"
-			}
-		},
-		{
-			"weight": 5,
-			"element": {
-				"element_type": "minecraft:single_pool_element",
-				"projection": "rigid",
-				"location": "ctov:village/plains_fortified/jobsite/butcher",
-				"processors": "ctov:village/plains_fortified/pink_house"
-			}
-		},
-		{
-			"weight": 5,
-			"element": {
-				"element_type": "minecraft:single_pool_element",
-				"projection": "rigid",
-				"location": "ctov:village/plains_fortified/jobsite/cartographer",
-				"processors": "ctov:village/plains_fortified/pink_house"
-			}
-		},
-		{
-			"weight": 5,
-			"element": {
-				"element_type": "minecraft:single_pool_element",
-				"projection": "rigid",
-				"location": "ctov:village/plains_fortified/jobsite/chemist",
-				"processors": "ctov:village/plains_fortified/pink_house"
-			}
-		},
-		{
-			"weight": 5,
-			"element": {
-				"element_type": "minecraft:single_pool_element",
-				"projection": "rigid",
-				"location": "ctov:village/plains_fortified/jobsite/fishing_hut",
-				"processors": "ctov:village/plains_fortified/pink_house"
-			}
-		},
-		{
-			"weight": 5,
-			"element": {
-				"element_type": "minecraft:single_pool_element",
-				"projection": "rigid",
-				"location": "ctov:village/plains_fortified/jobsite/library",
-				"processors": "ctov:village/plains_fortified/pink_house"
-			}
-		},
-		{
-			"weight": 5,
-			"element": {
-				"element_type": "minecraft:single_pool_element",
-				"projection": "rigid",
-				"location": "ctov:village/plains_fortified/jobsite/loomhouse",
-				"processors": "ctov:village/plains_fortified/pink_house"
-			}
-		},
-		{
-			"weight": 5,
-			"element": {
-				"element_type": "minecraft:single_pool_element",
-				"projection": "rigid",
-				"location": "ctov:village/plains_fortified/jobsite/mason",
-				"processors": "ctov:village/plains_fortified/pink_house"
-			}
-		},
-		{
-			"weight": 5,
-			"element": {
-				"element_type": "minecraft:single_pool_element",
-				"projection": "rigid",
-				"location": "ctov:village/plains_fortified/jobsite/smith",
-				"processors": "ctov:village/plains_fortified/pink_house"
-			}
-		},
-		{
-			"weight": 5,
-			"element": {
-				"element_type": "minecraft:single_pool_element",
-				"projection": "rigid",
-				"location": "ctov:village/plains_fortified/house/small_1",
-				"processors": "ctov:village/plains_fortified/red_house"
-			}
-		},
-		{
-			"weight": 5,
-			"element": {
-				"element_type": "minecraft:single_pool_element",
-				"projection": "rigid",
-				"location": "ctov:village/plains_fortified/house/small_2",
-				"processors": "ctov:village/plains_fortified/red_house"
-			}
-		},
-		{
-			"weight": 5,
-			"element": {
-				"element_type": "minecraft:single_pool_element",
-				"projection": "rigid",
-				"location": "ctov:village/plains_fortified/house/small_3",
-				"processors": "ctov:village/plains_fortified/red_house"
-			}
-		},
-		{
-			"weight": 5,
-			"element": {
-				"element_type": "minecraft:single_pool_element",
-				"projection": "rigid",
-				"location": "ctov:village/plains_fortified/house/small_4",
-				"processors": "ctov:village/plains_fortified/red_house"
-			}
-		},
-		{
-			"weight": 5,
-			"element": {
-				"element_type": "minecraft:single_pool_element",
-				"projection": "rigid",
-				"location": "ctov:village/plains_fortified/house/big_3",
-				"processors": "ctov:village/plains_fortified/red_house"
-			}
-		},
-		{
-			"weight": 5,
-			"element": {
-				"element_type": "minecraft:single_pool_element",
-				"projection": "rigid",
-				"location": "ctov:village/plains_fortified/house/med_1",
-				"processors": "ctov:village/plains_fortified/red_house"
-			}
-		},
-		{
-			"weight": 5,
-			"element": {
-				"element_type": "minecraft:single_pool_element",
-				"projection": "rigid",
-				"location": "ctov:village/plains_fortified/house/med_2",
-				"processors": "ctov:village/plains_fortified/red_house"
-			}
-		},
-		{
-			"weight": 5,
-			"element": {
-				"element_type": "minecraft:single_pool_element",
-				"projection": "rigid",
-				"location": "ctov:village/plains_fortified/house/big_1",
-				"processors": "ctov:village/plains_fortified/red_house"
-			}
-		},
-		{
-			"weight": 5,
-			"element": {
-				"element_type": "minecraft:single_pool_element",
-				"projection": "rigid",
-				"location": "ctov:village/plains_fortified/house/big_2",
-				"processors": "ctov:village/plains_fortified/red_house"
-			}
-		},
-		{
-			"weight": 5,
-			"element": {
-				"element_type": "minecraft:single_pool_element",
-				"projection": "rigid",
-				"location": "ctov:village/plains_fortified/jobsite/butcher",
-				"processors": "ctov:village/plains_fortified/red_house"
-			}
-		},
-		{
-			"weight": 5,
-			"element": {
-				"element_type": "minecraft:single_pool_element",
-				"projection": "rigid",
-				"location": "ctov:village/plains_fortified/jobsite/cartographer",
-				"processors": "ctov:village/plains_fortified/red_house"
-			}
-		},
-		{
-			"weight": 5,
-			"element": {
-				"element_type": "minecraft:single_pool_element",
-				"projection": "rigid",
-				"location": "ctov:village/plains_fortified/jobsite/chemist",
-				"processors": "ctov:village/plains_fortified/red_house"
-			}
-		},
-		{
-			"weight": 5,
-			"element": {
-				"element_type": "minecraft:single_pool_element",
-				"projection": "rigid",
-				"location": "ctov:village/plains_fortified/jobsite/fishing_hut",
-				"processors": "ctov:village/plains_fortified/red_house"
-			}
-		},
-		{
-			"weight": 5,
-			"element": {
-				"element_type": "minecraft:single_pool_element",
-				"projection": "rigid",
-				"location": "ctov:village/plains_fortified/jobsite/library",
-				"processors": "ctov:village/plains_fortified/red_house"
-			}
-		},
-		{
-			"weight": 5,
-			"element": {
-				"element_type": "minecraft:single_pool_element",
-				"projection": "rigid",
-				"location": "ctov:village/plains_fortified/jobsite/loomhouse",
-				"processors": "ctov:village/plains_fortified/red_house"
-			}
-		},
-		{
-			"weight": 5,
-			"element": {
-				"element_type": "minecraft:single_pool_element",
-				"projection": "rigid",
-				"location": "ctov:village/plains_fortified/jobsite/mason",
-				"processors": "ctov:village/plains_fortified/red_house"
-			}
-		},
-		{
-			"weight": 5,
-			"element": {
-				"element_type": "minecraft:single_pool_element",
-				"projection": "rigid",
-				"location": "ctov:village/plains_fortified/jobsite/smith",
-				"processors": "ctov:village/plains_fortified/red_house"
-			}
-		}
+        {
+          "weight": 5,
+          "element": {
+            "element_type": "minecraft:empty_pool_element",
+            "projection": "rigid"
+          }
+        }
 	]
 }

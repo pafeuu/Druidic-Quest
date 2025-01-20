@@ -84,7 +84,16 @@
 			}
 		},
 		{
-			"weight": 12,
+			"weight": 6,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "ctov:village/plains/jobsite/butcher",
+				"processors": "ctov:village/plains/house"
+			}
+		},
+		{
+			"weight": 6,
 			"element": {
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",

@@ -14,6 +14,7 @@ ServerEvents.tags('item', event => {
                  'create:piston_extension_pole', 'create:gantry_shaft', 'create:analog_lever', 'create:pulse_repeater', 'create:pulse_extender', 'create:powered_latch', 'create:powered_toggle_latch', 'create:track','supplementaries:hourglass', 'supplementaries:crank', 
                  'supplementaries:wind_vane', 'supplementaries:cog_block', 'supplementaries:turn_table', 'supplementaries:spring_launcher', 'supplementaries:faucet']
   
+  let SourceLinks = ['ars_nouveau:alchemical_sourcelink','ars_nouveau:vitalic_sourcelink','ars_nouveau:mycelial_sourcelink','ars_nouveau:volcanic_sourcelink','ars_nouveau:agronomic_sourcelink']
   let Tier0Component = ['minecraft:string','minecraft:feather','farmersdelight:canvas','farmersdelight:straw']
   let Tier1Component = []
   let Tier2Component = []
@@ -79,10 +80,14 @@ ServerEvents.tags('item', event => {
   event.add('immersive_weathering:bark','farmersdelight:tree_bark')
   event.remove('forge:ingots/steel', 'immersiveengineering:ingot_steel')
 
-  
+  SourceLinks.forEach(id => {
+    event.add("druidic_quest:generators/source",id)
+  });
+
   wiring.forEach(id => {
     event.add("immersiveengineering:toolbox/wiring",id)
-  })
+  });
+
   flower.forEach(id => {
     event.add('forge:flowers/golden',id)
   });
@@ -96,6 +101,7 @@ ServerEvents.tags('item', event => {
   });
   
   event.add("c:hidden_from_recipe_viewers","#forge:tools/skyroot")
+
   function tool(name)
   {
     event.add('minecraft:axes', name+'_axe')  
