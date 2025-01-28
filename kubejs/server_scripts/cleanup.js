@@ -19,6 +19,9 @@ ServerEvents.recipes(event => {
 	event.remove({id:"alexsmobs:shield_of_the_deep"})
 	event.remove({id:"immersiveengineering:crafting/shield"})
 
+	event.remove({type:"minecraft:crafting_shapeless",mod:"thermal",output:"#forge:dusts"})
+	event.remove({type:"minecraft:crafting_shapeless",mod:"thermal",output:"#forge:ingots",input:"minecraft:fire_charge"})
+
 	event.remove({input:'immersiveengineering:hammer'})
 	event.remove({mod:"immersiveengineering",output:"#forge:rods/all_metal"})
 	event.remove({output:"elementalcraft:water_mill_wood_saw"})

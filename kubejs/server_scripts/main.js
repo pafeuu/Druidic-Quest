@@ -1465,19 +1465,18 @@ ServerEvents.recipes(event => {
 	
 	/// ======================================== Tier 2 Components ================================================================
 
-	event.shaped("kubejs:magical_generator_block",
+	event.shaped(
+		Item.of('forbidden_arcanus:golden_orchid_seeds'), 
 		[
-			"XZX",
-			"ZYZ",
-			"XZX"
+		  'BBB',
+		  'BFB', 
+		  'BBB' 
 		],
-		{	
-			X: "#forge:plates/inert_alloy",
-			Z: "#forge:plates/arcane_alloy",
-			Y: "kubejs:lemon_quartz"
-
+		{
+		  F: "forbidden_arcanus:yellow_orchid",
+		  B: "forbidden_arcanus:deorum_block",
 		}
-	)
+	  ).id("forbidden_arcanus:golden_orchid_seeds")
 
 	event.custom({
 		type: "lychee:lightning_channeling",
@@ -1570,10 +1569,38 @@ ServerEvents.recipes(event => {
 		item_in: [
 			{ item: "forbidden_arcanus:arcane_crystal_dust" },
 			{ item: "kubejs:arcane_alloy_ingot" },
-			{ item: "rose_bush" },
+			{ item: "wither_rose" },
 			{ tag: "forge:gems/cinnabar" }
 		]
 	}).id("forbidden_arcanus:mundabitur_dust")
+
+	event.custom({
+		type: "lychee:block_crushing",
+		post: [
+			{ type: "drop_item", item: "forbidden_arcanus:mundabitur_dust", count: 2 },
+			{ type: "execute", command: "playsound minecraft:entity_blaze.hurt neutral @p", hide: true }
+		],
+		item_in: [
+			{ item: "forbidden_arcanus:arcane_crystal_dust" },
+			{ item: "kubejs:arcane_alloy_ingot" },
+			{ item: "wither_rose" },
+			{ tag: "forge:gems/ruby" }
+		]
+	})
+
+	event.custom({
+		type: "lychee:block_crushing",
+		post: [
+			{ type: "drop_item", item: "forbidden_arcanus:mundabitur_dust", count: 4 },
+			{ type: "execute", command: "playsound minecraft:entity_blaze.hurt neutral @p", hide: true }
+		],
+		item_in: [
+			{ item: "forbidden_arcanus:arcane_crystal_dust" },
+			{ item: "kubejs:arcane_alloy_ingot" },
+			{ item: "wither_rose" },
+			{ item: "thermal:ruby" }
+		]
+	})
 
    event.recipes.ars_nouveau.enchanting_apparatus(["create_sa:zinc_handle","thermal:ruby","#forge:storage_blocks/gold","#forge:storage_blocks/gold","#forge:storage_blocks/gold","#forge:storage_blocks/gold"],"bundle","kubejs:gold_upgrade_parts")
 
@@ -2169,6 +2196,34 @@ ServerEvents.recipes(event => {
 	
 	///========================================= Tier 3 Components ================================================================
 
+	event.shaped(
+		Item.of('wither_skeleton_skull'), 
+		[
+		  'BBB',
+		  'BFB', 
+		  'BBB' 
+		],
+		{
+		  F: "minecraft:skeleton_skull",
+		  B: "wither_rose",
+		}
+	  )
+	
+	event.shaped(
+		Item.of('enigmaticlegacy:infinimeal'), 
+		[
+		  'BXB',
+		  'XFX', 
+		  'BXB' 
+		],
+		{
+		  F: "enigmaticlegacy:earth_heart",
+		  B: "thermal:compost",
+		  X: "kubejs:nature_essence"
+		}
+	).id("enigmaticlegacy:infinimeal")
+	
+
 	event.recipes.farmersdelight.cutting("deep_aether:goldenleaf_berries","#forge:tools/knives",Item.of("naturesaura:gold_leaf")
 	.withChance(0.5))
 
@@ -2450,6 +2505,7 @@ ServerEvents.recipes(event => {
 		  "time": 200
 		
 	})
+
 	event.custom({
 		type: "immersiveengineering:alloy",
 		  "input0": {
@@ -2466,6 +2522,66 @@ ServerEvents.recipes(event => {
 		  },
 		  "time": 200
 	}).id("elementalcraft:infusion/drenched_iron_ingot")
+
+	event.custom({
+		type: "immersiveengineering:alloy",
+		  "input0": {
+			base_ingredient: {
+				item: "forbidden_arcanus:mundabitur_dust"
+			},
+			count: 3
+		  },
+		  "input1": {
+			item: "minecraft:gold_ingot"
+		  },
+		  "result": {
+			"base_ingredient": {
+			  item: "forbidden_arcanus:deorum_ingot"
+			},
+			"count": 1
+		  },
+		  "time": 200
+	}).id("forbidden_arcanus:deorum_ingot")
+
+	event.custom({
+		type: "immersiveengineering:alloy",
+		  "input0": {
+			base_ingredient: {
+				item: "kubejs:ender_essence"
+			},
+			count: 4
+		  },
+		  "input1": {
+			tag: "forge:ingots/lead"
+		  },
+		  "result": {
+			"base_ingredient": {
+			  item: "thermal:enderium_ingot"
+			},
+			"count": 1
+		  },
+		  "time": 200
+	}).id("thermal:machines/smelter/smelter_alloy_enderium")
+
+	event.custom({
+		type: "immersiveengineering:alloy",
+		  "input0": {
+			base_ingredient: {
+				item: "kubejs:light_essence"
+			},
+			count: 4
+		  },
+		  "input1": {
+			tag: "forge:ingots/enderium"
+		  },
+		  "result": {
+			"base_ingredient": {
+			  item: "thermal:lumium_ingot"
+			},
+			"count": 1
+		  },
+		  "time": 200
+	}).id("thermal:machines/smelter/smelter_alloy_lumium")
 
 	event.custom({
 		type: "immersiveengineering:alloy",
@@ -2589,13 +2705,13 @@ ServerEvents.recipes(event => {
 		"element_type": "air",
 		ingredients: [
 			{
-			item: "ars_nouveau:fire_essence"
+			item: "ars_nouveau:earth_essence"
 			},
 			{
 			item: "ars_nouveau:water_essence"
 			},
 			{
-			item: "naturesaura:end_city_finder"
+			item: "minecraft:ender_eye"
 			},
 			{
 			item: "minecraft:crying_obsidian"
@@ -2607,6 +2723,33 @@ ServerEvents.recipes(event => {
 		"output": {
 			"Count": 1,
 			item: "kubejs:ender_essence"
+		}
+	})
+
+	event.custom({
+		type: "elementalcraft:binding",
+		"element_amount": 1250,
+		"element_type": "water",
+		ingredients: [
+			{
+			item: "ars_nouveau:fire_essence"
+			},
+			{
+			item: "ars_nouveau:air_essence"
+			},
+			{
+			item: "quark:glowberry_sack"
+			},
+			{
+			tag: "forge:froglights"
+			},
+			{
+			item: "minecraft:glow_ink_sac"
+			}
+		],
+		"output": {
+			"Count": 1,
+			item: "kubejs:light_essence"
 		}
 	})
 

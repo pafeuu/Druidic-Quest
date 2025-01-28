@@ -181,6 +181,13 @@
 				"location": "ctov:village/plains/jobsite/smith",
 				"processors": "ctov:village/plains/house"
 			}
-		}
+		},
+        {
+          "weight": 5,
+          "element": {
+            "element_type": "minecraft:empty_pool_element",
+            "projection": "rigid"
+          }
+        }
 	]
 }

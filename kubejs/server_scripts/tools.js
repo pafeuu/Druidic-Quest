@@ -314,7 +314,7 @@ ServerEvents.recipes(event => {
 		  {type: "execute", command: "playsound minecraft:block.ender_chest.open neutral @p", hide: true},
 		  {type: "delay", s: 0.5},
 		  {type: "execute", command: "playsound minecraft:entity.experience_orb.pickup neutral @p"},
-		  {type: "execute", command: "particle irons_spellbooks:unstable_ender 8.16 -60.00 -9.56 0.5 0.5 0.5 0.1 80 normal"},
+		  {type: "execute", command: "particle irons_spellbooks:unstable_ender ~ ~ ~ 0.5 0.5 0.5 0.1 80 force"},
 		  {type: "execute", command: "loot spawn ~ ~ ~ loot kubejs:key/overworld"},
 		  {type: "delay", s: 1},
 		  {type: "execute", command: "playsound minecraft:block.ender_chest.close neutral @p", hide: true}
@@ -339,7 +339,7 @@ ServerEvents.recipes(event => {
 		  {type: "execute", command: "playsound minecraft:block.ender_chest.open neutral @p", hide: true},
 		  {type: "delay", s: 0.5},
 		  {type: "execute", command: "playsound minecraft:entity.experience_orb.pickup neutral @p"},
-		  {type: "execute", command: "particle irons_spellbooks:unstable_ender 8.16 -60.00 -9.56 0.5 0.5 0.5 0.1 80 normal"},
+		  {type: "execute", command: "particle irons_spellbooks:unstable_ender ~ ~ ~ 0.5 0.5 0.5 0.1 80 force"},
 		  {type: "execute", command: "loot spawn ~ ~ ~ loot kubejs:key/twilight"},
 		  {type: "delay", s: 1},
 		  {type: "execute", command: "playsound minecraft:block.ender_chest.close neutral @p", hide: true}

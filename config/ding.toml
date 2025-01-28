@@ -10,10 +10,10 @@
 	#EG: modname:modsound.boing
 	#
 	#If you want to use external sounds, consider looking into the mods that add resources
-	name = "entity.experience_orb.pickup"
+	name = "entity.lightning_bolt.thunder"
 	#Volume of the volume (when Minecraft loads)
 	#Range: 0.0 ~ 10.0
-	volume = 0.25
+	volume = 1
 	#Pitch of the sound (when Minecraft loads)
 	#Range: 0.0 ~ 10.0
 	pitch = 1.0
@@ -44,7 +44,7 @@
 	#Resource Location based name of the sound file to play when the world finishes loading (after connecting to a server).
 	#
 	#Look at the "name" config for more details.
-	nameWorld = "entity.experience_orb.pickup"
+	nameWorld = "entity.lightning_bolt.thunder"
 	#Volume of the sound (when the world loads after connecting to a server)
 	#Range: 0.0 ~ 10.0
 	volumeWorld = 0.25

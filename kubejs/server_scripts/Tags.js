@@ -3,8 +3,10 @@
 ServerEvents.tags('item', event => {
 
   let seed = ["vintagedelight:oat_seeds","vintagedelight:ghost_pepper_seeds"]
+
   let hide = ["twigs:calcite_wall","twigs:tuff_wall","twigs:calcite_stairs","kubejs:recipe_changed","kubejs:unstable_ivy_quartz","aether:life_shard",
               "immersiveengineering:shield","alexsmobs:shield_of_the_deep","enigmaticlegacy:infernal_shield","forbiddenarcanus:obsidian_skull_shield",]
+
   let flower = ['minecraft:sunflower','minecraft:dandelion','naturesaura:aura_bloom','bloomingnature:wild_sunflower','regions_unexplored:yellow_snowbelle','bloomingnature:freesia_yellow','bloomingnature:golden_rod','regions_unexplored:alpha_dandelion']
 
   let wiring = ['minecraft:repeater', 'minecraft:calibrated_sculk_sensor', 'minecraft:tripwire_hook', 'minecraft:daylight_detector', 'minecraft:string', 'minecraft:activator_rail', 'minecraft:detector_rail', 'minecraft:powered_rail', 'minecraft:rail', 
@@ -14,6 +16,13 @@ ServerEvents.tags('item', event => {
                  'create:piston_extension_pole', 'create:gantry_shaft', 'create:analog_lever', 'create:pulse_repeater', 'create:pulse_extender', 'create:powered_latch', 'create:powered_toggle_latch', 'create:track','supplementaries:hourglass', 'supplementaries:crank', 
                  'supplementaries:wind_vane', 'supplementaries:cog_block', 'supplementaries:turn_table', 'supplementaries:spring_launcher', 'supplementaries:faucet']
   
+  let froglights = ["#chipped:ochre_froglight","#chipped:verdant_froglight","#chipped:pearlescent_froglight",
+                    "swampier_swamps:white_froglight","swampier_swamps:orange_froglight","swampier_swamps:magenta_froglight",
+                    "swampier_swamps:light_blue_froglight","swampier_swamps:lime_froglight","swampier_swamps:pink_froglight",
+                    "swampier_swamps:gray_froglight","swampier_swamps:light_gray_froglight","swampier_swamps:cyan_froglight",
+                    "swampier_swamps:blue_froglight","swampier_swamps:brown_froglight","swampier_swamps:red_froglight",
+                    "swampier_swamps:black_froglight"]
+
   let SourceLinks = ['ars_nouveau:alchemical_sourcelink','ars_nouveau:vitalic_sourcelink','ars_nouveau:mycelial_sourcelink','ars_nouveau:volcanic_sourcelink','ars_nouveau:agronomic_sourcelink']
   let Tier0Component = ['minecraft:string','minecraft:feather','farmersdelight:canvas','farmersdelight:straw']
   let Tier1Component = []
@@ -82,6 +91,10 @@ ServerEvents.tags('item', event => {
 
   SourceLinks.forEach(id => {
     event.add("druidic_quest:generators/source",id)
+  });
+
+  froglights.forEach(id => {
+    event.add("forge:froglights",id)
   });
 
   wiring.forEach(id => {

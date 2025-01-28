@@ -33,7 +33,7 @@
 		{
 			dependencies: [
 				"4E33A6524A987E23"
-				"2C1867470E747C94"
+				"2841B26876F416EE"
 			]
 			icon: "ars_nouveau:arcane_core"
 			id: "72FB95A11B31AFEC"
@@ -113,7 +113,7 @@
 			]
 			title: "Workstations on a stick!"
 			x: -9.0d
-			y: 8.0d
+			y: 7.0d
 		}
 		{
 			dependencies: [
@@ -146,10 +146,7 @@
 			y: 4.0d
 		}
 		{
-			dependencies: [
-				"7EBD23E275E837F2"
-				"5CB418E959BA9BC4"
-			]
+			dependencies: ["7EBD23E275E837F2"]
 			icon: "chipped:nether_carved_pumpkin"
 			id: "23D3902848A335F6"
 			rewards: [{
@@ -165,7 +162,7 @@
 				type: "dimension"
 			}]
 			title: "Visit The Nether!"
-			x: -5.5d
+			x: -8.0d
 			y: 10.0d
 		}
 		{
@@ -296,7 +293,7 @@
 			]
 			title: "Golden Equipment new and improved"
 			x: -7.0d
-			y: 8.0d
+			y: 7.0d
 		}
 		{
 			dependencies: [
@@ -384,7 +381,7 @@
 			]
 			title: "Diamond Equipment"
 			x: -8.0d
-			y: 9.0d
+			y: 7.5d
 		}
 		{
 			dependencies: ["6B18370E82275EED"]
@@ -892,8 +889,8 @@
 				}
 				type: "item"
 			}]
-			x: -8.0d
-			y: 10.0d
+			x: -9.5d
+			y: 12.5d
 		}
 		{
 			dependencies: ["400EBA15A5B82A93"]
@@ -1119,13 +1116,43 @@
 			dependencies: [
 				"7EBD23E275E837F2"
 				"4E33A6524A987E23"
+				"23D3902848A335F6"
+			]
+			description: [
+				"Crafting of the &5&lMagical Generator Block&r&r might look complicated at first but dont be afraid!"
+				""
+				"{image:kubejs:textures/magical_generator_crafting.png width:100 height:100 align:center}"
+				""
+				"Place a 3x3 structure using Inert Alloy and Arcane Alloy Blocks like shown above."
+				""
+				"Then drop Lemon Quartz item in the middle and cause lightning to strike  it!"
+				""
+				"I A I                A: Arcane Alloy Block"
+				"AAA                I : Inert Alloy Block"
+				"I A I"
+			]
+			id: "2C1867470E747C94"
+			shape: "rsquare"
+			tasks: [{
+				id: "6CFC3DC7B783F151"
+				item: "kubejs:magical_generator_block"
+				type: "item"
+			}]
+			title: "Base of the Generator "
+			x: -11.0d
+			y: 7.0d
+		}
+		{
+			dependencies: [
+				"6CFC3DC7B783F151"
+				"2C1867470E747C94"
 			]
 			description: ["&5&lEnchanting Apparatus&r&r uses source for a lot of the crafting recipes. Craft one of the generators as well as source jar to produce and store your source!"]
-			id: "2C1867470E747C94"
+			id: "2841B26876F416EE"
 			shape: "rsquare"
 			tasks: [
 				{
-					id: "189C305E392043C5"
+					id: "3947CB276BC5A005"
 					item: {
 						Count: 1
 						id: "ftbfiltersystem:smart_filter"
@@ -1137,14 +1164,14 @@
 					type: "item"
 				}
 				{
-					id: "74EBE8484360A113"
+					id: "092613FEE7EDE92A"
 					item: "ars_nouveau:source_jar"
 					type: "item"
 				}
 			]
 			title: "Source Generators"
-			x: -11.0d
-			y: 7.0d
+			x: -9.5d
+			y: 5.5d
 		}
 	]
 	title: "Tier 2 - Basic Elemental Infusion"

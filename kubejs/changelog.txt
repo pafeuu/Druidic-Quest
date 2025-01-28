@@ -1154,6 +1154,7 @@ Patch 0.3.2.1
     -Buffed Loot in the shipwreck chests, you can now find mossy sword there
     -Nerfed SophisticatedBackpacks Loot Injection
     -Grizzly Bears, Roadrunners, Tigers, Penguins, Bunnies and frogs now have 2% to drop their totems 
+    -Wither Skeletons no longer drop coal and skulls
 
 ### Worldgen
 
@@ -1163,6 +1164,8 @@ Patch 0.3.2.1
     -Medium villages are now 3 times more rare than small villages
     -Adjusted rarity of buildings in villages
     -Reworked immersiveengineering houses now correctly spawn in taiga and desert villages
+    -Adjusted train ruins loot and added a hidden treasure
+
 
 ### New Items:
 
@@ -1175,6 +1178,15 @@ Patch 0.3.2.1
     -Fixed tons of plate related recipes
     -Fixed for rainbow feather
     -Removed Bed recipe from feather blocks
+    -Changed recipe for enderium ingot
+    -Removed crafting table recipe for enderium blend
+    -Changed recipe for mundabitur dust
+    -Changed recipe for deorum ingot
+    -Changed recipe for ender essence
+    -Added recipe for light essence
+    -Changed recipe for golden orechid seeds
+    -Added recipe for the wither skeleton skull
+    -Changed recipe for essence of raging life
 
 
 ### Other:
@@ -1182,5 +1194,6 @@ Patch 0.3.2.1
     -Adjusted some villager's trades
     -Fixed Ivy Block weird shape
     -Adjusted JEI recipe type order
+    -Fixed particles spawn on dimensional key usage
 
     
