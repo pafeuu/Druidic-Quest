@@ -6,7 +6,7 @@
       "attribute": "generic.movement_speed",
       "value": 0.15,
       "operation": "MULTIPLY_TOTAL",
-      "uuid": "f8c3223d-1fea-4d7c-a8b0-29f63c4c3454"
+      "uuid": "d606a1f2-e737-4755-a766-6f181265fb3f"
     }
   ],
   "equipment_slot": "OFFHAND"

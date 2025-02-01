@@ -1172,11 +1172,18 @@
 				}
 			]
 			shape: "rsquare"
-			tasks: [{
-				dimension: "twilightforest:twilight_forest"
-				id: "03928E0DF685C903"
-				type: "dimension"
-			}]
+			tasks: [
+				{
+					dimension: "twilightforest:twilight_forest"
+					id: "03928E0DF685C903"
+					type: "dimension"
+				}
+				{
+					id: "0542796E6A778F39"
+					item: "kubejs:dimension_ripper"
+					type: "item"
+				}
+			]
 			title: "Visit the Twilight Forest!"
 			x: 6.0d
 			y: 2.0d

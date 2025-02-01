@@ -6,14 +6,14 @@
       "attribute": "alembic:fire_damage.resistance",
       "value": 4,
       "operation": "ADDITION",
-      "uuid": "f8c3d33d-1fea-4d7c-a8b0-29f63c4c3454"
+      "uuid": "96ef7209-08dd-4fb2-956d-a408b0254eb3"
     },
     {
       "type": "append",
       "attribute": "minecraft:generic.armor",
       "value": 2,
       "operation": "ADDITION",
-      "uuid": "f8c3d33d-1fea-4d7c-a8b0-29f63c4c3454"
+      "uuid": "4bfafec7-dfb3-44b1-89c6-7d20a068ff61"
     }
   ],
   "equipment_slot": "hands"

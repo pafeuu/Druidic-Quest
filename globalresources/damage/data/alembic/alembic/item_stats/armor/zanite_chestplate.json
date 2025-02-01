@@ -6,14 +6,14 @@
       "attribute": "alembic:arcane_damage.resistance",
       "value": 3,
       "operation": "ADDITION",
-      "uuid": "d8c3de3d-1fea-4d7c-a8b0-29f63c4c3454"
+      "uuid": "38e5e9a5-3be0-4697-bcf3-2ae73ce81111"
     },
     {
       "type": "append",
       "attribute": "alembic:holy_damage.resistance",
       "value": 3,
       "operation": "ADDITION",
-      "uuid": "d8c3de3d-1fea-2d7c-a8b0-29f63c4c3454"
+      "uuid": "17519fd5-ee18-478a-93b0-ef9e8c80d830"
     }
   ],
   "equipment_slot": "CHEST"

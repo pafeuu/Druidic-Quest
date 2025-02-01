@@ -5,16 +5,16 @@ ServerEvents.tags('item', event => {
   let seed = ["vintagedelight:oat_seeds","vintagedelight:ghost_pepper_seeds"]
 
   let hide = ["twigs:calcite_wall","twigs:tuff_wall","twigs:calcite_stairs","kubejs:recipe_changed","kubejs:unstable_ivy_quartz","aether:life_shard",
-              "immersiveengineering:shield","alexsmobs:shield_of_the_deep","enigmaticlegacy:infernal_shield","forbiddenarcanus:obsidian_skull_shield",]
+              "immersiveengineering:shield","alexsmobs:shield_of_the_deep","enigmaticlegacy:infernal_shield","forbiddenarcanus:obsidian_skull_shield","immersiveengineering:toolbox"]
 
   let flower = ['minecraft:sunflower','minecraft:dandelion','naturesaura:aura_bloom','bloomingnature:wild_sunflower','regions_unexplored:yellow_snowbelle','bloomingnature:freesia_yellow','bloomingnature:golden_rod','regions_unexplored:alpha_dandelion']
 
-  let wiring = ['minecraft:repeater', 'minecraft:calibrated_sculk_sensor', 'minecraft:tripwire_hook', 'minecraft:daylight_detector', 'minecraft:string', 'minecraft:activator_rail', 'minecraft:detector_rail', 'minecraft:powered_rail', 'minecraft:rail', 
+  /*let wiring = ['minecraft:repeater', 'minecraft:calibrated_sculk_sensor', 'minecraft:tripwire_hook', 'minecraft:daylight_detector', 'minecraft:string', 'minecraft:activator_rail', 'minecraft:detector_rail', 'minecraft:powered_rail', 'minecraft:rail', 
                 'minecraft:redstone', 'minecraft:piston', 'minecraft:composter', 'create:redstone_link', 'minecraft:sticky_piston', 'minecraft:dispenser', 'minecraft:redstone_lamp', 'minecraft:redstone_torch', 'minecraft:dropper',
                  'minecraft:hopper', 'ars_nouveau:redstone_relay', 'minecraft:lever', 'minecraft:target', 'quark:redstone_randomizer', 'minecraft:comparator','create:controller_rail', 'create:large_cogwheel', 'create:shaft', 'create:cogwheel', 'create:gearbox', 
                  'create:vertical_gearbox', 'create:clutch', 'create:gearshift', 'create:encased_chain_drive', 'create:adjustable_chain_gearshift', 'create:belt_connector', 'create:fluid_pipe', 'create:mechanical_pump', 'create:smart_fluid_pipe', 'create:fluid_valve', 
                  'create:piston_extension_pole', 'create:gantry_shaft', 'create:analog_lever', 'create:pulse_repeater', 'create:pulse_extender', 'create:powered_latch', 'create:powered_toggle_latch', 'create:track','supplementaries:hourglass', 'supplementaries:crank', 
-                 'supplementaries:wind_vane', 'supplementaries:cog_block', 'supplementaries:turn_table', 'supplementaries:spring_launcher', 'supplementaries:faucet']
+                 'supplementaries:wind_vane', 'supplementaries:cog_block', 'supplementaries:turn_table', 'supplementaries:spring_launcher', 'supplementaries:faucet']*/
   
   let froglights = ["#chipped:ochre_froglight","#chipped:verdant_froglight","#chipped:pearlescent_froglight",
                     "swampier_swamps:white_froglight","swampier_swamps:orange_froglight","swampier_swamps:magenta_froglight",
@@ -24,6 +24,7 @@ ServerEvents.tags('item', event => {
                     "swampier_swamps:black_froglight"]
 
   let SourceLinks = ['ars_nouveau:alchemical_sourcelink','ars_nouveau:vitalic_sourcelink','ars_nouveau:mycelial_sourcelink','ars_nouveau:volcanic_sourcelink','ars_nouveau:agronomic_sourcelink']
+  
   let Tier0Component = ['minecraft:string','minecraft:feather','farmersdelight:canvas','farmersdelight:straw']
   let Tier1Component = []
   let Tier2Component = []
@@ -58,6 +59,8 @@ ServerEvents.tags('item', event => {
   event.add("forge:tools/hammers","immersiveengineering:hammer")
   
   event.remove("twilightforest:portal/activator","minecraft:diamond")
+ 
+
   event.remove("forge:gems/ruby","thermal:ruby")
   event.remove("forge:storage_blocks/ruby","thermal:ruby_block")
   event.remove("forge:storage_blocks/gunpowder","thermal:gunpowder_block")
@@ -86,9 +89,20 @@ ServerEvents.tags('item', event => {
   event.add("minecraft:hoes","#forge:tools/hoes")
   
   event.add('forge:ingots/stainless_steel', 'immersiveengineering:ingot_steel')
-  event.add('immersive_weathering:bark','farmersdelight:tree_bark')
-  event.remove('forge:ingots/steel', 'immersiveengineering:ingot_steel')
+  event.add('forge:nuggets/stainless_steel', 'immersiveengineering:nugget_steel')
+  event.add('forge:storage_blocks/stainless_steel', 'immersiveengineering:storage_steel')
+  event.add('forge:rods/stainless_steel', 'immersiveengineering:stick_steel')
+  event.add('forge:plates/stainless_steel', 'immersiveengineering:plate_steel')
+  event.add('forge:dusts/stainless_steel', 'immersiveengineering:dust_steel')
 
+  event.remove('forge:ingots/steel', 'immersiveengineering:ingot_steel')
+  event.remove('forge:nuggets/steel', 'immersiveengineering:nugget_steel')
+  event.remove('forge:storage_blocks/steel', 'immersiveengineering:storage_steel')
+  event.remove('forge:rods/steel', 'immersiveengineering:stick_steel')
+  event.remove('forge:plates/steel', 'immersiveengineering:plate_steel')
+  event.remove('forge:dusts/steel', 'immersiveengineering:dust_steel')
+
+  event.add('immersive_weathering:bark','farmersdelight:tree_bark')
   SourceLinks.forEach(id => {
     event.add("druidic_quest:generators/source",id)
   });
@@ -97,9 +111,9 @@ ServerEvents.tags('item', event => {
     event.add("forge:froglights",id)
   });
 
-  wiring.forEach(id => {
+  /*wiring.forEach(id => {
     event.add("immersiveengineering:toolbox/wiring",id)
-  });
+  });*/
 
   flower.forEach(id => {
     event.add('forge:flowers/golden',id)

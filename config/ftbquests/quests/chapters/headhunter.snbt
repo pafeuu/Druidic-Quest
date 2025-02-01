@@ -3,6 +3,7 @@
 	default_quest_shape: ""
 	filename: "headhunter"
 	group: "6959C7C8592FBBA9"
+	hide_quest_until_deps_complete: true
 	hide_quest_until_deps_visible: true
 	icon: "minecraft:piglin_head"
 	id: "5553122205DD59C8"
@@ -40,7 +41,7 @@
 				type: "item"
 			}]
 			x: -4.0d
-			y: 0.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -97,8 +98,8 @@
 				item: "minecraft:wither_skeleton_skull"
 				type: "item"
 			}]
-			x: -4.0d
-			y: 1.5d
+			x: -5.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -249,7 +250,7 @@
 				type: "item"
 			}]
 			x: -4.0d
-			y: -1.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -291,7 +292,90 @@
 				type: "item"
 			}]
 			x: -4.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "48B7482D9431C364"
+			rewards: [{
+				id: "2CB28C4A94F60D36"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "684722A749E76462"
+				item: {
+					Count: 1
+					id: "minecraft:player_head"
+					tag: {
+						BlockEntityTag: {
+							note_block_sound: "minecraft:entity.zombie.ambient"
+						}
+						SkullOwner: {
+							Id: [I;
+								-1387565223
+								-339655682
+								-1870140001
+								-1880491693
+							]
+							Properties: {
+								textures: [{
+									Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzY0YjNkMzhmYWE1ZGE0MDg4OGU5NzA1NmE0YTU3MmU5ZDMxMWU5MDZiMjhiNTU1N2M2YjQyNTdkMjY3YzIwOSJ9fX0="
+								}]
+							}
+						}
+						display: {
+							Name: "[{\"translate\":\"biome.minecraft.jungle\",\"italic\":false},{\"text\":\" \"},{\"translate\":\"block.minecraft.zombie_head\",\"italic\":false}]"
+						}
+						ts.mm.custom: 1b
+					}
+				}
+				type: "item"
+			}]
+			x: -4.0d
 			y: -3.0d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "47C1C102E1D3D254"
+			rewards: [{
+				id: "04D40AC45F09EA03"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6623813017CF8B3A"
+				item: {
+					Count: 1
+					id: "minecraft:player_head"
+					tag: {
+						BlockEntityTag: {
+							note_block_sound: "minecraft:entity.pillager.ambient"
+						}
+						SkullOwner: {
+							Id: [I;
+								-190438703
+								-1622129983
+								-1517391125
+								2035274880
+							]
+							Properties: {
+								textures: [{
+									Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2U3ZjEzZWU1ZDZjYzZmMDg0YjRhNGM0OTg2MGRkMDJhYjA1NWUxNDM3ZmY3ZTYxNzY0YTY2MjI4N2VjNWFmOCJ9fX0="
+								}]
+							}
+						}
+						display: {
+							Name: "[{\"translate\":\"subtitles.entity.generic.death\",\"italic\":false},{\"text\":\" \"},{\"translate\":\"entity.minecraft.pillager\",\"italic\":false},{\"text\":\" Head\"}]"
+						}
+						ts.mm.custom: 1b
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -2.5d
+			y: -1.5d
 		}
 	]
 	title: "Headhunter"

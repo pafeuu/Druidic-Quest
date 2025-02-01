@@ -6,14 +6,14 @@
       "attribute": "alembic:true_damage",
       "value": 0.5,
       "operation": "ADDITION",
-      "uuid": "f8c3d33d-1fea-4d7c-a8b0-29f63c4c3454"
+      "uuid": "35f2de9e-ea8b-471c-86de-dbd8c3600d63"
     },
     {
       "type": "append",
       "attribute": "alembic:true_damage.resistance",
       "value": 6,
       "operation": "ADDITION",
-      "uuid": "f8c3d33d-1fea-4d7c-a8b0-29f63c4c3454"
+      "uuid": "41017db7-b2ad-4f81-9573-3da205bcd545"
     }
   ],
   "equipment_slot": "hands"

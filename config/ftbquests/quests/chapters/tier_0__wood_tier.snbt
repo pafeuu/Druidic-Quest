@@ -75,7 +75,7 @@
 			description: [
 				"Congratulations on finishing your first chapter!"
 				""
-				"Remember that you are still in a beta version of the modpack so a lot of recipes are not yet finished."
+				"Remember that you are still in early development version of the modpack so a lot of recipes are not yet finished."
 				""
 				"But if you follow the questbook you are sure that your going the right path"
 			]
@@ -341,17 +341,8 @@
 			}
 			id: "08BFA7B9435D7DCC"
 			rewards: [{
-				id: "238C27004A5C5F32"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						Parent: {
-							Items: [ ]
-							Size: 23
-						}
-					}
-					id: "immersiveengineering:toolbox"
-				}
+				id: "4343EF8115278B4C"
+				item: "create:brown_toolbox"
 				type: "item"
 			}]
 			shape: "rsquare"
@@ -555,9 +546,9 @@
 				type: "item"
 			}]
 			tasks: [{
-				count: 4L
+				count: 3L
 				id: "7F764620F95E94DF"
-				item: { Count: 4, id: "farmersdelight:canvas" }
+				item: "farmersdelight:canvas"
 				type: "item"
 			}]
 			x: 5.0d

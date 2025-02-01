@@ -6,14 +6,14 @@
       "attribute": "forge:step_height_addition",
       "value": 0.5,
       "operation": "ADDITION",
-      "uuid": "f8c1133d-1fea-4d7c-a8b0-29f63c4c3454"
+      "uuid": "1592b749-18a9-4473-8609-f411bebc8a55"
     },
     {
       "type": "append",
       "attribute": "minecraft:generic.movement_speed",
       "value": 0.05,
       "operation": "ADDITION",
-      "uuid": "f8c3d22d-1fea-4d7c-a8b0-29f63c4c3454"
+      "uuid": "4656f85a-00cb-400d-87cf-474376aa0acb"
     }
   ],
   "equipment_slot": "belt"

@@ -13,7 +13,7 @@
       "attribute": "alembic:true_damage.resistance",
       "value": 0.5,
       "operation": "ADDITION",
-      "uuid": "d8c3de3d-1fea-2d7c-a8b0-29f63c4c3454"
+      "uuid": "d8c3de2d-1fea-2d7c-a8b0-29f63c4c3454"
     }
   ],
   "equipment_slot": "HEAD"

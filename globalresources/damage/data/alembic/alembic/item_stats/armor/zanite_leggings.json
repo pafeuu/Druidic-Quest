@@ -6,14 +6,14 @@
       "attribute": "alembic:arcane_damage.resistance",
       "value": 2,
       "operation": "ADDITION",
-      "uuid": "d8c3de3d-1fea-4d7c-a8b0-29f63c4c3454"
+      "uuid": "786aa168-9340-4fc7-b87b-89a71da4bdde"
     },
     {
       "type": "append",
       "attribute": "alembic:holy_damage.resistance",
       "value": 2,
       "operation": "ADDITION",
-      "uuid": "d8c3de3d-1fea-2d7c-a8b0-29f63c4c3454"
+      "uuid": "00cf2ee6-3106-4830-a961-691a9d0e1369"
     }
   ],
   "equipment_slot": "LEGS"

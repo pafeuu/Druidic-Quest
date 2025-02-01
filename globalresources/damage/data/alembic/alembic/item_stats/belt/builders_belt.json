@@ -6,14 +6,14 @@
       "attribute": "forge:block_reach",
       "value": 1.5,
       "operation": "ADDITION",
-      "uuid": "f8c1133d-1fea-4d7c-a8b0-29f63c4c3454"
+      "uuid": "f861af36-fe66-4c8b-8b44-a494e46e7f77"
     },
     {
       "type": "append",
       "attribute": "minecraft:generic.attack_damage",
       "value": -3,
       "operation": "ADDITION",
-      "uuid": "f8c3d22d-1fea-4d7c-a8b0-29f63c4c3454"
+      "uuid": "c87bfe8a-5a49-4b66-bbbb-fabafce797a3"
     }
   ],
   "equipment_slot": "belt"

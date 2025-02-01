@@ -36,7 +36,7 @@
   "block.thermal.tin_block": "Block of Tin",
 
   "block.thermal.ruby_block": "Block of Infused Ruby",
-  "block.thermal.sapphire_block": "Block of Sapphire",
+  "block.thermal.sapphire_block": "Block of Infused Sapphire",
 
   "block.thermal.bronze_block": "Block of Bronze",
   "block.thermal.constantan_block": "Block of Constantan",
@@ -107,7 +107,7 @@
   "item.thermal.ruby_nugget": "Ruby Nugget",
   "item.thermal.ruby_plate": "Ruby Plate",
 
-  "item.thermal.sapphire": "Sapphire",
+  "item.thermal.sapphire": "Infused Sapphire",
   "item.thermal.sapphire_dust": "Sapphire Dust",
   "item.thermal.sapphire_gear": "Sapphire Gear",
   "item.thermal.sapphire_nugget": "Sapphire Nugget",

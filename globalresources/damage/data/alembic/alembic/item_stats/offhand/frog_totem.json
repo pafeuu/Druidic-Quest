@@ -6,14 +6,14 @@
       "attribute": "puffish_attributes:player.jump",
       "value": 0.4,
       "operation": "MULTIPLY_TOTAL",
-      "uuid": "f8c3223d-1fea-4d7c-a8b0-29f63c4c3454"
+      "uuid": "f817e7b3-84a5-4db7-990c-f672efd15326"
     },
     {
       "type": "append",
       "attribute": "alembic:alchemical_damage.resistance",
       "value": 1,
       "operation": "ADDITION",
-      "uuid": "f8c3223d-1fea-4d7c-a8b0-29f63c4c3454"
+      "uuid": "537aaa82-b141-42c4-951d-ccbaf16d11c2"
     }
   ],
   "equipment_slot": "OFFHAND"

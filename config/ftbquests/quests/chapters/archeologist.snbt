@@ -3,6 +3,8 @@
 	default_quest_shape: ""
 	filename: "archeologist"
 	group: "6959C7C8592FBBA9"
+	hide_quest_until_deps_complete: true
+	hide_quest_until_deps_visible: true
 	icon: "gildedsherds:miner_pottery_sherd"
 	id: "56CF7D2F7932B4BB"
 	order_index: 9

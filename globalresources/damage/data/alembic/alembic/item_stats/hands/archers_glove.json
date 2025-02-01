@@ -6,14 +6,14 @@
       "attribute": "attributeslib:draw_speed",
       "value": 0.1,
       "operation": "ADDITION",
-      "uuid": "f8c3d33d-1fea-4d7c-a8b0-29f63c4c3454"
+      "uuid": "91ca4618-6553-411b-92ba-abd44162ff33"
     },
     {
       "type": "append",
       "attribute": "attributeslib:arrow_velocity",
       "value": 0.25,
       "operation": "ADDITION",
-      "uuid": "f8c3d33d-1fea-4d7c-a8b0-29f63c4c3454"
+      "uuid": "7fbb506d-91c2-44c9-a4ee-93c25fe1393d"
     }
   ],
   "equipment_slot": "hands"

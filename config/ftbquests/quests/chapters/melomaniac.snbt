@@ -3,6 +3,7 @@
 	default_quest_shape: ""
 	filename: "melomaniac"
 	group: "6959C7C8592FBBA9"
+	hide_quest_until_deps_complete: true
 	hide_quest_until_deps_visible: true
 	icon: "minecraft:music_disc_cat"
 	id: "355CC2D90545F199"

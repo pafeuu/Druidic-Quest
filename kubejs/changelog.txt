@@ -1196,4 +1196,70 @@ Patch 0.3.2.1
     -Adjusted JEI recipe type order
     -Fixed particles spawn on dimensional key usage
 
+# Patch 0.7.1 Custom Attributes fix
+
+### Updated mods:
+    -Amendments
+    -AStages
+    -BiomeMusic
+    -Chat Heads
+    -ChoiceTheoremOverhauledVillage
+    -Connectible Chains
+    -CreateCrafts&Additions
+    -CreateStuff&Additions
+    -CreativeCore
+    -DramaticDoors
+    -Embeddium Extra
+    -EntityJS
+    -EveryCompat
+    -FastAsyncWorldSave
+    -FruitsDelight
+    -FTBLibrary
+    -FTBquest
+    -FTBTeams
+    -Fusion
+    -FzzyConfig
+    -ImmediatelyFast
+    -immersiveweathering
+    -IntegratedStronghold
+    -Jade
+    -JEED
+    -JustEnoughtImmersiveMultiblocks
+    -JustEnoughtBeacons
+    -ModernFix
+    -MoonlightLib
+    -SophisticatedMods
+    -Neko's Enchanted Books
+    -Structure Credits
+    -Structure Essentials
+    -Structure Layout Optimizer
+    -Supplementaries
+    -Tide
+    -UniversalSawmill
+    -Waystones
+    -XaeroMinimap
+
+### New mods:
+    -Cerbons API (Dependency)
+
+### Removed Items:
+    -immersiveengineering Toolbox (too many bugs sadly)
+
+### Recipes:
+    -Fixed mechanical saw crafting recipe
+    -Fixed Ars Nouveau building block recipes
+
+### Loot:
+    -Buffed Naga loottable
+
+### Textures:
+    -Changed wooden hopper texture
+
+### Other:
+    -Added ponder information for some multiblocks
+    -Mobs can break more blocks now
+    -Bosses cant get special items in their handa nymore like tnt, lava bucket, ender pearl etc.
+    -Fixed custom attributes overriding each other 
+    -Fixed Stainless Steel Tags
+
     

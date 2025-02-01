@@ -217,7 +217,5 @@ ItemEvents.modification(event => {
     item.armorProtection = 4,
     item.armorToughness = 3
   })
-  
-  
-  
+   
 })

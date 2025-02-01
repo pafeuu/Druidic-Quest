@@ -6,14 +6,14 @@
         "attribute": "alembic:arcane_damage.resistance",
         "value": 1,
         "operation": "ADDITION",
-        "uuid": "f8c3223d-1fea-4d7c-a8b0-29f63c4c3454"
+        "uuid": "a2ac32e3-623e-4f75-98bf-07e15c58acbd"
       },
       {
         "type": "append",
         "attribute": "irons_spellbooks:spell_power",
         "value": 0.05,
         "operation": "MULTIPLY_TOTAL",
-        "uuid": "f8c3223d-1fea-4d7c-a8b0-29f63c4c3454"
+        "uuid": "3f0c89f5-98fd-4f1d-b90c-3c40fe371d47"
       }
     ],
     "equipment_slot": "ring"

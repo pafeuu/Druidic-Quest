@@ -6,14 +6,14 @@
       "attribute": "alembic:ice_damage.resistance",
       "value": 1,
       "operation": "ADDITION",
-      "uuid": "f8c3d33d-1fea-4d7c-a8b0-29f63c4c3454"
+      "uuid": "0951526f-564c-4532-a24c-9470052a82cc"
     },
     {
       "type": "append",
       "attribute": "alembic:alchemical_damage.resistance",
       "value": 1,
       "operation": "ADDITION",
-      "uuid": "f8c3d33d-1fea-4d7c-a8b0-29f63c4c3454"
+      "uuid": "e002468a-5e30-4f54-b8e8-7ddf801a40b8"
     }
   ],
   "equipment_slot": "hands"

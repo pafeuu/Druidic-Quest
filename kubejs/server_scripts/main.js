@@ -14,7 +14,6 @@ var alloys = ['bronze','enderium','brass','invar','rose_gold','constantan','sign
 
 ServerEvents.recipes(event => {
   
-	
 	event.remove({id:"enigmaticlegacy:thicc_scroll"});
 	event.remove({id:"explorerscompass:explorers_compass"});
 	event.remove({id:'ars_nouveau:potion_flask'})
@@ -26,7 +25,7 @@ ServerEvents.recipes(event => {
 	event.remove({output:'#minecraft:swords'})
 	event.remove({output:"elementalcraft:spell_desk"})
 	
-	event.replaceInput({mod:'ars_nouveau'}, 'ars_nouveau:sourcestone','kubejs:arcane_alloy_ingot')
+	event.replaceInput({mod:'ars_nouveau', not:{type:"minecraft:stonecutting"}}, 'ars_nouveau:sourcestone','kubejs:arcane_alloy_ingot')
 	event.replaceInput({mod:'elementalcraft'}, 'minecraft:iron_ingot','kubejs:inert_alloy_ingot')
 	event.replaceInput({mod:'crafting_on_a_stick'}, 'minecraft:stick','create_sa:zinc_handle')
 	event.shapeless("2x minecraft:rooted_dirt",["minecraft:dirt","minecraft:mangrove_roots"])
@@ -2933,7 +2932,7 @@ ServerEvents.recipes(event => {
 	
 	event.shaped("create:mechanical_saw",
 		[ "AXA","AYA","AZA" ],
-		{ A:"create:andesite_casing",X:"thermal:saw_head",Y:"kubejs:andesite_machine",Z:"ars_nouveau:glyph_fell" }).id("create:crafting/kinetics/mechanical_saw")
+		{ A:"create:andesite_casing",X:"thermal:saw_blade",Y:"kubejs:andesite_machine",Z:"ars_nouveau:glyph_fell" }).id("create:crafting/kinetics/mechanical_saw")
 	
 	event.shaped("create:mechanical_harvester",
 		[ "XXX","AYA","AZA" ],

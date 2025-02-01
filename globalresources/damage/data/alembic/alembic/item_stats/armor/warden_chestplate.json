@@ -6,21 +6,21 @@
       "attribute": "alembic:arcane_damage.resistance",
       "value": 8,
       "operation": "ADDITION",
-      "uuid": "d8c3de1d-1fea-4d7c-a8b0-29f63c4c3454"
+      "uuid": "88ea2f2c-2707-436f-9db4-78518ecea457"
     },
     {
       "type": "append",
       "attribute": "alembic:true_damage.resistance",
       "value": 8,
       "operation": "ADDITION",
-      "uuid": "d8c3de2d-1fea-2d7c-a8b0-29f63c4c3454"
+      "uuid": "78ea2f2c-2707-436f-9db4-78518ecea457"
     },
     {
       "type": "append",
       "attribute": "minecraft:generic.max_health",
       "value": 0.4,
       "operation": "MULTIPLY_TOTAL",
-      "uuid": "d8c3de5d-1fea-4d7c-a8b0-29f63ccc3454"
+      "uuid": "98ea2f2c-2707-436f-9db4-78518ecea457"
     }
   ],
   "equipment_slot": "CHEST"

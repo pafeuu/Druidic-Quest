@@ -6,14 +6,14 @@
       "attribute": "alembic:alchemical_damage",
       "value": 1,
       "operation": "ADDITION",
-      "uuid": "f8c3223d-1fea-4d7c-a8b0-29f63c4c3454"
+      "uuid": "0d0d1dfe-32c4-41fe-9cc4-ce65a199024e"
     },
     {
       "type": "append",
       "attribute": "combatroll:count",
       "value": 1,
       "operation": "ADDITION",
-      "uuid": "f8c3223d-1fea-4d7c-a8b0-29f63c4c3454"
+      "uuid": "5b2e5e20-02bf-47f9-8c76-dc95ec63492e"
     }
   ],
   "equipment_slot": "OFFHAND"

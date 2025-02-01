@@ -6,14 +6,14 @@
         "attribute": "alembic:true_damage.resistance",
         "value": 1,
         "operation": "ADDITION",
-        "uuid": "f8c3223d-1fea-4d7c-a8b0-29f63c4c3454"
+        "uuid": "c50a32b5-5490-45fa-bf10-a98c8f929ca6"
       },
       {
         "type": "append",
         "attribute": "irons_spellbooks:blood_spell_power",
         "value": 0.05,
         "operation": "MULTIPLY_TOTAL",
-        "uuid": "f8c3223d-1fea-4d7c-a8b0-29f63c4c3454"
+        "uuid": "1b123927-3123-42e8-ae76-a103964a354a"
       }
     ],
     "equipment_slot": "ring"

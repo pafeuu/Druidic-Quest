@@ -6,14 +6,14 @@
       "attribute": "alembic:fire_damage.resistance",
       "value": 4,
       "operation": "ADDITION",
-      "uuid": "f8c3d33d-1fea-4d7c-a8b0-29f63c4c3454"
+      "uuid": "5af15e16-45a6-424d-9d31-35a9f10907b1"
     },
     {
       "type": "append",
       "attribute": "alembic:arcane_damage.resistance",
       "value": 4,
       "operation": "ADDITION",
-      "uuid": "f8c3d33d-1fea-4d7c-a8b0-29f63c4c3454"
+      "uuid": "8e57a984-63d5-42d3-93a3-42ad77009b3e"
     }
   ],
   "equipment_slot": "hands"

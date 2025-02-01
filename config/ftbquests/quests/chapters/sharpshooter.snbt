@@ -3,6 +3,7 @@
 	default_quest_shape: ""
 	filename: "sharpshooter"
 	group: "6959C7C8592FBBA9"
+	hide_quest_until_deps_complete: true
 	hide_quest_until_deps_visible: true
 	icon: "minecraft:spectral_arrow"
 	id: "5B1DCD4A4A1EF571"

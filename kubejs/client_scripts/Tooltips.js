@@ -7,7 +7,7 @@ ItemEvents.tooltip( tooltip => {
     "kubejs:bejeweled_crucifix","kubejs:penguin_totem","kubejs:bear_totem"],Text.gray("Works only in the offhand"))
 
   tooltip.add("minecraft:enchanted_book",[Text.green("Right click to learn the enchantment!"),Text.red("Can't be used in anvil to apply enchantments!")])
-  tooltip.add(["solonion:lunchbag","solonion:lunchbox","supplementaries:sack"],Text.red("Make sure to empty it before upgrading!"))
+  tooltip.add(["solonion:lunchbag","solonion:lunchbox","supplementaries:sack","immersiveengineering:crate"],Text.red("Make sure to empty it before upgrading!"))
 
   tooltip.add("supplemenetaries:bellows",[Text.red("Speeds up furnaces"),Text.green("Speeds up copper aging"),Text.blue("Pushes entities away")])
   

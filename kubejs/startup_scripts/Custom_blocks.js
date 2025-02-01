@@ -49,7 +49,7 @@ StartupEvents.registry("block", (event) => {
 	
 	event.create("andesite_machine") // Create a new block
     .displayName("Andesite Machine Casing") // Set a custom name
-    .material("metal") // Set a material (affects the sounds and some properties)
+    .soundType("metal") // Set a material (affects the sounds and some properties)
     .hardness(1.0) // Set hardness (affects mining time)
     .resistance(8.0) // Set resistance (to explosions, etc)
     .tagBoth("tier3/component") // Tag the block with `#minecraft:my_custom_tag` (can have multiple tags)
@@ -75,7 +75,7 @@ StartupEvents.registry("block", (event) => {
 	
 	event.create("steel_machine") // Create a new block
     .displayName("Steel Machine Casing") // Set a custom name
-    .material("anvil") // Set a material (affects the sounds and some properties)
+    .soundType("anvil") // Set a material (affects the sounds and some properties)
     .hardness(3.0) // Set hardness (affects mining time)
     .resistance(12.0) // Set resistance (to explosions, etc)
     .tagBoth("tier4/component") // Tag the block with `#minecraft:my_custom_tag` (can have multiple tags)

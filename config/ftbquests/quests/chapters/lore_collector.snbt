@@ -3,6 +3,7 @@
 	default_quest_shape: ""
 	filename: "lore_collector"
 	group: "6959C7C8592FBBA9"
+	hide_quest_until_deps_complete: true
 	hide_quest_until_deps_visible: true
 	icon: {
 		Count: 1
@@ -299,6 +300,32 @@
 			}]
 			x: -1.0d
 			y: 4.0d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			icon: "alexsmobs:froststalker_horn"
+			id: "3C3B0A42A627B309"
+			rewards: [{
+				id: "0BD1C278DE6815AA"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2189673531F08108"
+				item: {
+					Count: 1
+					id: "minecraft:written_book"
+					tag: {
+						author: "CraisinLord"
+						pages: ["{\"text\":\"Journal: Day 14\\n~~~~~~~~~~~~\\nLast week I arrived at the wonderous Redhorn Guild. I was running from a Pillager Patrol and the adventurers here took me in as one of thier own. They may be hard on me and each other but now they're family.  \"}"]
+						title: "Redhorn Guild"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -3.0d
+			y: 6.0d
 		}
 	]
 	title: "Lore Collector"

@@ -6,21 +6,21 @@
         "attribute": "forge:block_reach",
         "value": -1.5,
         "operation": "ADDITION",
-        "uuid": "f8c3223d-1fea-4d7c-a8b0-29f63c4c3454"
+        "uuid": "3c1b2603-f240-462d-bdda-b16576aeefcc"
       },
       {
         "type": "append",
         "attribute": "alembic:true_damage.resistance",
         "value": -2,
         "operation": "ADDITION",
-        "uuid": "f8c3223d-1fea-4d7c-a8b0-29f63c3c3454"
+        "uuid": "7cda3862-4311-49c2-92e7-861671553260"
       },
       {
         "type": "append",
         "attribute": "minecraft:generic.max_health",
         "value": -2,
         "operation": "ADDITION",
-        "uuid": "f8c3223d-1fea-4d7c-a8b0-29f63c2c3454"
+        "uuid": "6f81ac1b-39e0-4fe3-bbab-5210c42078aa"
       }
     ],
     "equipment_slot": "charm"

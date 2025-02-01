@@ -6,21 +6,21 @@
         "attribute": "alembic:true_damage.resistance",
         "value": 0.5,
         "operation": "ADDITION",
-        "uuid": "f8c3223d-1fea-4d7c-a8b0-29f63c4c3454"
+        "uuid": "b1af8c67-bf8c-4cf2-ab16-24303614852c"
       },
       {
         "type": "append",
         "attribute": "alembic:arcane_damage.resistance",
         "value": 0.5,
         "operation": "ADDITION",
-        "uuid": "f8c3223d-1fea-4d7c-a8b0-29f63c4c3454"
+        "uuid": "f3721d32-f116-4204-8375-b2d84ab8aa10"
       },
       {
         "type": "append",
         "attribute": "irons_spellbooks:ender_spell_power",
         "value": 0.05,
         "operation": "MULTIPLY_TOTAL",
-        "uuid": "f8c3223d-1fea-4d7c-a8b0-29f63c4c3454"
+        "uuid": "f3721d32-f556-4204-8375-b2d84ab8aa10"
       }
     ],
     "equipment_slot": "ring"

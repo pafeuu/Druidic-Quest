@@ -13,14 +13,14 @@
         "attribute": "alembic:arcane_damage",
         "value": 4,
         "operation": "ADDITION",
-        "uuid": "f8c3d12d-1fea-4d7c-a8b0-29f632223454"
+        "uuid": "6e744d2c-bfcc-4eb7-b03a-a0a18812ed15"
       },
       {
         "type": "append",
         "attribute": "alembic:fire_damage",
         "value": 4,
         "operation": "ADDITION",
-        "uuid": "f8c3d21d-1fea-4d7c-a8b0-29f632223454"
+        "uuid": "be810a43-04f3-42d1-abc7-b2c524ac0700"
       }
   ],
   "equipment_slot": "MAINHAND"

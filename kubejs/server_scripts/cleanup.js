@@ -347,6 +347,8 @@ ServerEvents.recipes(event => {
 
 	event.remove({id:"twigs:azalea_flowers_from_flowering_azalea"})
 
+	event.remove({id:"immersiveengineering:crafting/toolbox"})
+
 	event.shapeless("4x regions_unexplored:blue_magnolia_flowers","4x regions_unexplored:blue_magnolia_leaves").id("regions_unexplored:blue_magnolia_flowers")
 	event.shapeless("4x regions_unexplored:pink_magnolia_flowers","4x regions_unexplored:pink_magnolia_leaves").id("regions_unexplored:pink_magnolia_flowers")
 	event.shapeless("4x regions_unexplored:white_magnolia_flowers","4x regions_unexplored:white_magnolia_leaves").id("regions_unexplored:white_magnolia_flowers")

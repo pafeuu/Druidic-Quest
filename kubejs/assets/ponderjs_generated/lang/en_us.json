@@ -1,1 +1,16 @@
-{}
+{
+  "kubejs.ponder.tag.nature_aura": "Nature\u0027s aura Multiblocks",
+  "kubejs.ponder.tag.nature_aura.description": "Building guide for natures aura multiblocks",
+  "kubejs.ponder.tag.in_world": "Multiblock in world crafting",
+  "kubejs.ponder.tag.in_world.description": "Explanation of in world crafting with multiple placed blocks",
+  "kubejs.ponder.animal_spawner.header": "Building Animal Spawner",
+  "kubejs.ponder.nature_altar.header": "Building nature altar in the overworld",
+  "kubejs.ponder.set_replace_modify_tutorial.header": "Magical Generator Crafting",
+  "kubejs.ponder.set_replace_modify_tutorial.text_1": "Drop Lemon Quartz in the middle",
+  "kubejs.ponder.set_replace_modify_tutorial.text_2": "Summon Lightning to finish crafting!",
+  "kubejs.ponder.tree_ritual.header": "Tree ritual usage",
+  "kubejs.ponder.tree_ritual.text_1": "It doesnt matter which block you use for the floor, except for the middle which need to be able to plant sapling on",
+  "kubejs.ponder.tree_ritual.text_2": "Place items on the wooden stand",
+  "kubejs.ponder.tree_ritual.text_3": "Make the sapling grow to finish the craft!",
+  "kubejs.ponder.tree_ritual.text_4": "Gold powder is consumed in the process"
+}

@@ -6,14 +6,14 @@
       "attribute": "alembic:arcane_damage.resistance",
       "value": 1,
       "operation": "ADDITION",
-      "uuid": "d8c3de3d-1fea-4d7c-a8b0-29f63c4c3454"
+      "uuid": "a9701249-d0f4-4a42-a109-56f383a73465"
     },
     {
       "type": "append",
       "attribute": "alembic:holy_damage.resistance",
       "value": 1,
       "operation": "ADDITION",
-      "uuid": "d8c3de3d-1fea-2d7c-a8b0-29f63c4c3454"
+      "uuid": "14c1d73a-1807-4794-b3c7-7caa7371411a"
     }
   ],
   "equipment_slot": "HEAD"

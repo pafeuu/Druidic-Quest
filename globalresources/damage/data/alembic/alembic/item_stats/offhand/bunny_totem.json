@@ -6,21 +6,21 @@
       "attribute": "puffish_attributes:player.jump",
       "value": 0.4,
       "operation": "MULTIPLY_TOTAL",
-      "uuid": "f8c3223d-1fea-4d7c-a8b0-29f63c4c3454"
+      "uuid": "7897ce3e-e253-4f99-940f-43905ec849e1"
     },
     {
       "type": "append",
       "attribute": "generic.movement_speed",
       "value": 0.15,
       "operation": "MULTIPLY_TOTAL",
-      "uuid": "f8c3223d-1fea-4d7c-a8b0-29f63c4c3454"
+      "uuid": "2273fdbd-d4f6-4198-b110-2da084078029"
     },
     {
       "type": "append",
       "attribute": "generic.max_health",
       "value": -10,
       "operation": "ADDITION",
-      "uuid": "f8c3223d-1fea-4d7c-a8b0-29f63c4c3454"
+      "uuid": "a1834a73-99e0-4f3b-8527-b09aca49ea2e"
     }
   ],
   "equipment_slot": "OFFHAND"

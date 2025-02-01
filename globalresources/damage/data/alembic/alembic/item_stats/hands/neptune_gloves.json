@@ -6,14 +6,14 @@
       "attribute": "minecraft:generic.armor",
       "value": 4,
       "operation": "ADDITION",
-      "uuid": "f8c3d33d-1fea-4d7c-a8b0-29f63c4c3454"
+      "uuid": "677f5086-4ef3-4f43-8d3e-a7fa4c80efdd"
     },
     {
       "type": "append",
       "attribute": "alembic:ice_damage.resistance",
       "value": 6,
       "operation": "ADDITION",
-      "uuid": "f8c3d33d-1fea-4d7c-a8b0-29f63c4c3454"
+      "uuid": "f41045cf-3f6c-4edc-9c9d-048027e7ba96"
     }
   ],
   "equipment_slot": "hands"
