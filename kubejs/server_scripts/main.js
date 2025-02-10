@@ -584,19 +584,6 @@ ServerEvents.recipes(event => {
 		]
 	})
 	
-	event.shaped(
-		Item.of('immersiveengineering:stick_iron'), 
-		[
-			'  I',
-			' I ', 
-			'I  '
-		],
-		{
-			I: '#forge:plates/iron'
-		}
-	)
-	
-	
 
 	event.remove({output:'thermal:drill_head'})
 	event.shaped(

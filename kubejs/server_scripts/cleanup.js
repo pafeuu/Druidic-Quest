@@ -108,6 +108,37 @@ ServerEvents.recipes(event => {
 	event.recipes.create.milling(['kubejs:broken_key',"4x thermal:ruby"],'kubejs:twilight_key')
 	event.recipes.create.milling(['kubejs:broken_key',"8x thermal:ruby"],'kubejs:nether_key')
 
+	//-------------------Rods-----------------------
+
+	function rods(material,output)
+	{
+		// Function that uses tag as an input and item id as an output
+		// Adds shaped recipe, IE Recipe and Thermal Recipe
+		event.shaped(output,
+			[
+				"  X",
+				" X ",
+				"X  "
+			],
+			{
+				X: "#forge:plates/"+material
+			})
+
+		event.custom({
+			type: "immersiveengineering:metal_press",
+			energy: 2400,
+			input: {"base_ingredient":{"tag":"forge:plates/"+material},"count":2},
+			mold: "immersiveengineering:mold_rod",
+			result: { item: output },
+		});
+
+		event.recipes.thermal.press(output,["#forge:plates/"+material,"immersiveengineering:mold_rod"])
+		event.remove({output:output})
+		event.remove({output:"#forge:rods/"+material})
+	}
+
+	rods("copper","kubejs:copper_rod")
+	rods("iron","immersiveengineering:stick_iron")
 	//-------------------Plates---------------------
 
 	function plates(inputItem, outputItem) {// Adds Plates crafting recipes to the machines
