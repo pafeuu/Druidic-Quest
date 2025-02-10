@@ -1,24 +1,20 @@
 {
-    "armorSetName": "brass",
+    "armorSetName": "lead",
     "performanceMode": true,
     "head": {
-      "itemKey": "create_sa:brass_helmet",
+      "itemKey": "kubejs:lead_helmet",
       "mustBeEmpty": false
     },
     "chest": {
-      "itemKey": "create_sa:brass_chestplate",
-      "mixAndMatch": [
-      "create_sa:brass_jetpack_chestplate",
-      "create_sa:brass_exoskeleton_chestplate"
-    ],
+      "itemKey": "kubejs:lead_chestplate",
       "mustBeEmpty": false
     },
     "legs": {
-      "itemKey": "create_sa:brass_leggings",
+      "itemKey": "kubejs:lead_leggings",
       "mustBeEmpty": false
     },
     "boots": {
-      "itemKey": "create_sa:brass_boots",
+      "itemKey": "kubejs:lead_boots",
       "mustBeEmpty": false
     },
     "fullSetBonuses": [

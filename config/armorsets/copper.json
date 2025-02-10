@@ -2,28 +2,26 @@
     "armorSetName": "copper",
     "performanceMode": true,
     "head": {
-      "itemKey": "create_sa:copper_helmet",
+      "itemKey": "kubejs:copper_helmet",
       "mixAndMatch":[
         "create:copper_diving_helmet"
       ],
       "mustBeEmpty": false
     },
     "chest": {
-      "itemKey": "create_sa:copper_chestplate",
+      "itemKey": "kubejs:copper_chestplate",
       "mixAndMatch": [
-      "create_sa:copper_jetpack_chestplate",
-      "create_sa:copper_exoskeleton_chestplate",
       "create:copper_backtank"
     ],
       "mustBeEmpty": false
       
     },
     "legs": {
-      "itemKey": "create_sa:copper_leggings",
+      "itemKey": "kubejs:copper_leggings",
       "mustBeEmpty": false
     },
     "boots": {
-      "itemKey": "create_sa:copper_boots",
+      "itemKey": "kubejs:copper_boots",
       "mixAndMatch":[
         "create:copper_diving_boots"
       ],

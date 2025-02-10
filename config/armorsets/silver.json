@@ -1,29 +1,29 @@
 {
-  "armorSetName": "zinc",
+  "armorSetName": "silver",
   "performanceMode": true,
   "head": {
-    "itemKey": "create_sa:zinc_helmet",
+    "itemKey": "kubejs:silver_helmet",
     "mustBeEmpty": false
   },
   "chest": {
-    "itemKey": "create_sa:zinc_chestplate",
+    "itemKey": "kubejs:silver_chestplate",
     "mustBeEmpty": false
   },
   "legs": {
-    "itemKey": "create_sa:zinc_leggings",
+    "itemKey": "kubejs:silver_leggings",
     "mustBeEmpty": false
   },
   "boots": {
-    "itemKey": "create_sa:zinc_boots",
+    "itemKey": "kubejs:silver_boots",
     "mustBeEmpty": false
   },
   "fullSetBonuses": [
     {
       "type": "attribute",
-      "name": "attributeslib:mining_speed",
-      "value": 0.5,
+      "name": "puffish_attributes:sprinting_speed",
+      "value": 0.15,
       "modifierUUID": "d5a7dc88-9435-4398-b1e5-250b4c6dd218",
-      "description": "50% faster movement speed",
+      "description": "15% faster sprinting speed",
       "attributeOperation": 0,
       "interactionType": "self",
       "interactionDuration": 300,

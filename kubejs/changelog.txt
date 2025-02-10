@@ -1294,9 +1294,24 @@ Patch 0.3.2.1
     -Lead Shovel
     -Zinc Tool Handle
     -Copper Rod
+    -Lead Helmet
+    -Lead Chestplate
+    -Lead Leggings
+    -Lead Boots
+    -Copper Helmet
+    -Copper Chestplate
+    -Copper Leggings
+    -Copper Boots
+    -Silver Helmet
+    -Silver Chestplate
+    -Silver Leggings
+    -Silver Boots
 
  ### Balance:
     -Buffed flower crown but it cant be put in the curio slots anymore
+    -Removed Mechanical armor set bonus
+    -Replaced zinc armor set bonus with silver armor set bonus and replaced mining speed with sprinting speed
+    -Replaced brass armor set bonus with lead armor set bonus
 
  ### Textures:
     -Changed for infused Sapphire
