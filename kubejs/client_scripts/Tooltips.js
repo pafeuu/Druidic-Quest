@@ -35,7 +35,9 @@ ItemEvents.tooltip( tooltip => {
 
   tooltip.add("kubejs:archers_glove",Text.gray("Texture by Qwerty"))
   tooltip.add(["kubejs:inert_alloy_ingot","kubejs:ring_travel","kubejs:copper_pickaxe","kubejs:copper_shovel",
-    "kubejs:copper_axe","kubejs:copper_hoe","kubejs:copper_sword"],Text.gray("Texture by MalcomRiley"))
+    "kubejs:copper_axe","kubejs:copper_hoe","kubejs:copper_sword","kubejs:silver_pickaxe","kubejs:silver_shovel",
+    "kubejs:silver_hoe","kubejs:silver_axe","kubejs:silver_sword","kubejs:lead_sword","kubejs:lead_pickaxe",
+    "kubejs:lead_shovel","kubejs:lead_hoe","kubejs:lead_axe"],Text.gray("Texture by MalcomRiley"))
   tooltip.add(["kubejs:travelers_belt"],Text.gray("Texture by Futureazoo"))
   tooltip.add("kubejs:sapphire",Text.gray("Texture by JuniDeerGirl"))
   tooltip.add(["kubejs:arcane_alloy_ingot","kubejs:neptun_ingot","kubejs:phoenix_ingot","kubejs:obsidian_ingot"],Text.gray("Texture by Farland1ng"))
