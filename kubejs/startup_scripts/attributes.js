@@ -57,15 +57,16 @@ ForgeEvents.onEvent('net.minecraftforge.event.ItemAttributeModifierEvent', event
 	};
 
 	
-	if (event.itemStack.hasTag("forge:tools/zinc") && event.slotType == 'mainhand') {
-				
-		event.addModifier("minecraft:generic.movement_speed", new $AttributeModifier(UUID.fromString('d741a316-7f07-48db-ae0b-7e7334070522'), 'Tool modifier', 0.2, 'multiply_base'))
+	if (event.itemStack.hasTag("forge:tools/silver") && event.slotType == 'mainhand') {
+		
+		event.addModifier("forge:block_reach", new $AttributeModifier(UUID.fromString('55420437-4ad0-4664-92bb-b313b2a87a2b'), 'Tool modifier', -0.5, 'addition'))
+		event.addModifier("minecraft:generic.movement_speed", new $AttributeModifier(UUID.fromString('d741a316-7f07-48db-ae0b-7e7334070522'), 'Tool modifier', 0.1, 'multiply_base'))
 	};
 	
 	
-	if (event.itemStack.hasTag("forge:tools/brass") && event.slotType == 'mainhand') {
+	if (event.itemStack.hasTag("forge:tools/lead") && event.slotType == 'mainhand') {
 					
-		event.addModifier("minecraft:generic.luck", new $AttributeModifier(UUID.fromString('502fdd96-bd7a-4e37-a5a1-4f0a8333cd2b'), 'Tool modifier', 1, 'addition'))
+		
 		event.addModifier("minecraft:generic.knockback_resistance", new $AttributeModifier(UUID.fromString('11c30003-b205-4f73-b088-c466ffda7a0c'), 'Tool modifier2', 0.5, 'addition'))
 	};
 	 

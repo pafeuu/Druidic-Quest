@@ -12,27 +12,27 @@ ItemEvents.toolTierRegistry(event => {
   event.add('copper', tier => {
     tier.uses = 1024
     tier.speed = 4.0
-    tier.attackDamageBonus = 0.0
+    tier.attackDamageBonus = 1.5
     tier.level = 2
-    tier.enchantmentValue = 24
+    tier.enchantmentValue = 12
     tier.repairIngredient = '#forge:ingots/copper'
   })
 
   event.add('silver', tier => {
-    tier.uses = 512
-    tier.speed = 6.0
+    tier.uses = 256
+    tier.speed = 7.0
     tier.attackDamageBonus = 0.0
     tier.level = 2
-    tier.enchantmentValue = 24
+    tier.enchantmentValue = 20
     tier.repairIngredient = '#forge:ingots/silver'
   })
 
   event.add('lead', tier => {
-    tier.uses = 1024
-    tier.speed = 5.0
+    tier.uses = 512
+    tier.speed = 5.5
     tier.attackDamageBonus = 0.0
-    tier.level = 2
-    tier.enchantmentValue = 24
+    tier.level = 3
+    tier.enchantmentValue = 14
     tier.repairIngredient = '#forge:ingots/lead'
   })
 
@@ -59,7 +59,7 @@ ItemEvents.toolTierRegistry(event => {
     tier.speed = 3.0
     tier.attackDamageBonus = 0
     tier.level = 1
-    tier.enchantmentValue = 12
+    tier.enchantmentValue = 16
     tier.repairIngredient = 'thermal:blizz_rod'
   })
 
@@ -68,12 +68,42 @@ ItemEvents.toolTierRegistry(event => {
     tier.speed = 3.0
     tier.attackDamageBonus = 0
     tier.level = 1
-    tier.enchantmentValue = 12
+    tier.enchantmentValue = 16
     tier.repairIngredient = 'kubejs:nature_essence'
   })
 
 })
+ItemEvents.armorTierRegistry(event => {
+  event.add('copper', tier => {
+    tier.durabilityMultiplier = 30 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [1, 3, 4, 1] // Slot indicies are [FEET, LEGS, BODY, HEAD]
+    tier.enchantmentValue = 8
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = '#forge:ingots/copper'
+    tier.toughness = 0.0 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.0
+  })
 
+  event.add('silver', tier => {
+    tier.durabilityMultiplier = 8 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [1, 3, 4, 1] // Slot indicies are [FEET, LEGS, BODY, HEAD]
+    tier.enchantmentValue = 18
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = '#forge:ingots/silver'
+    tier.toughness = 0.0 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.0
+  })
+
+  event.add('lead', tier => {
+    tier.durabilityMultiplier = 15 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.slotProtections = [1.5, 4, 5, 1.5] // Slot indicies are [FEET, LEGS, BODY, HEAD]
+    tier.enchantmentValue = 12
+    tier.equipSound = 'minecraft:item.armor.equip_iron'
+    tier.repairIngredient = '#forge:ingots/lead'
+    tier.toughness = 0.5 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 0.1
+  })
+})
 StartupEvents.registry('item', item => {
   
   ///===================================================PLATES===========================================================

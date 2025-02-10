@@ -150,12 +150,10 @@ ServerEvents.tags('item', event => {
 
   tooltier('minecraft:wooden','flint')
   tooltier('minecraft:stone','stone')
-  tooltier('create_sa:copper','copper')
-  tooltier('create_sa:zinc','zinc')
-  tooltier('create_sa:brass','brass')
-  tooltier('create_sa:experience','exp')
-  tooltier('create_sa:blazing','blaze')
-  tooltier('create_sa:rose_quartz','rose_quartz')
+  tooltier('kubejs:copper','copper')
+  tooltier('kubejs:silver','silver')
+  tooltier('kubejs:lead','lead')
+  
   tooltier('naturesaura:infused_iron','botanist')
   tooltier('aether:zanite','zanite')
   tooltier('aether:gravitite','gravitite')
@@ -169,9 +167,9 @@ ServerEvents.tags('item', event => {
   tooltier('twilightforest:ironwood','ironwood')
   tooltier('twilightforest:steeleaf','steeleaf')
  
-	tool('create_sa:copper')
-	tool('create_sa:zinc')
-  tool('create_sa:brass')
+	tool('kubejs:copper')
+	tool('kubejs:silver')
+  tool('kubejs:lead')
   tool('create_sa:experience')
   tool('create_sa:rose_quartz')
   tool('create_sa:blazing')
@@ -223,6 +221,4 @@ ServerEvents.tags('block', event => {
     event.add("forge:tall_grass",id)
   });
 
-  event.remove("minecraft:needs_wooden_tool", ["waystones:sandy_waystone","waystones:mossy_waystone","waystones:waystone"]);
-  event.add("minecraft:needs_diamond_tool", ["waystones:sandy_waystone","waystones:mossy_waystone","waystones:waystone"]);
 })
