@@ -64,6 +64,7 @@ ServerEvents.tags('item', event => {
   event.remove("forge:gems/ruby","thermal:ruby")
   event.remove("forge:storage_blocks/ruby","thermal:ruby_block")
   event.remove("forge:storage_blocks/gunpowder","thermal:gunpowder_block")
+  event.remove("curios:head","immersive_weathering:flower_crown")
   
 
   event.add("forge:insect","alexsmobs:maggot")
@@ -221,4 +222,7 @@ ServerEvents.tags('block', event => {
   grass.forEach(id => {
     event.add("forge:tall_grass",id)
   });
+
+  event.remove("minecraft:needs_wooden_tool", ["waystones:sandy_waystone","waystones:mossy_waystone","waystones:waystone"]);
+  event.add("minecraft:needs_diamond_tool", ["waystones:sandy_waystone","waystones:mossy_waystone","waystones:waystone"]);
 })

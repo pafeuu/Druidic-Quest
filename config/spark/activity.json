@@ -1,1 +1,54 @@
-[]
+[
+  {
+    "user": {
+      "type": "player",
+      "name": "paffeu",
+      "uniqueId": "e4821349-c45e-4877-8d3b-04d6d091997d"
+    },
+    "time": 1738588216381,
+    "type": "Heap dump summary",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/bN5HIRSUtY"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "paffeu",
+      "uniqueId": "e4821349-c45e-4877-8d3b-04d6d091997d"
+    },
+    "time": 1738588171785,
+    "type": "Heap dump",
+    "data": {
+      "type": "file",
+      "value": "C:\\Users\\Admin\\AppData\\Roaming\\PrismLauncher\\instances\\1.20.1\\minecraft\\config\\spark\\heap-2025-02-03_14.09.08.hprof"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "paffeu",
+      "uniqueId": "e4821349-c45e-4877-8d3b-04d6d091997d"
+    },
+    "time": 1738576114616,
+    "type": "Heap dump",
+    "data": {
+      "type": "file",
+      "value": "C:\\Users\\Admin\\AppData\\Roaming\\PrismLauncher\\instances\\1.20.1\\minecraft\\config\\spark\\heap-2025-02-03_10.48.12.hprof"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "paffeu",
+      "uniqueId": "e4821349-c45e-4877-8d3b-04d6d091997d"
+    },
+    "time": 1738575941136,
+    "type": "Heap dump summary",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/ZNub3Y7CQH"
+    }
+  }
+]

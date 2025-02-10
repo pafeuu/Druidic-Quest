@@ -1,0 +1,28 @@
+{
+    "tick_sources": [
+      "lightning_strike"
+    ],
+    "target_self": true,
+    "growth_chance": 1,
+    "growth_for_face": [
+      {
+        "direction": "up",
+        "weight": 1,
+        "growth": [
+          {
+            "data": {
+              "block": {
+                "Name": "kubejs:charged_waxed_copper_block"
+              }
+            },
+            "weight": 1
+          }
+        ]
+      }
+    ],
+    "owners": "minecraft:waxed_copper_block",
+    "replacing_target": {
+      "block": "minecraft:waxed_copper_block",
+      "predicate_type": "minecraft:block_match"
+    }
+  }

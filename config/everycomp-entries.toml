@@ -7,10 +7,6 @@
 		[types.cake.enigmaticlegacy]
 			cosmic_cake = true
 
-		[types.cake.createaddition]
-			chocolate_cake = true
-			honey_cake = true
-
 		[types.cake.mynethersdelight]
 			magma_cake = true
 

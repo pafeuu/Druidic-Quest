@@ -162,7 +162,7 @@ ServerEvents.recipes(event => {
 	hammering("twilightforest:steeleaf_block","vintageimprovements:steeleaf_sheet", 3)
 	hammering("twilightforest:knightmetal_block","vintageimprovements:knightmetal_sheet", 3)
 	hammering("twilightforest:fiery_block","vintageimprovements:fiery_sheet", 3)
-	hammering("create:experience_block","create_things_and_misc:experience_sheet",3)
+	//hammering("create:experience_block","create_things_and_misc:experience_sheet",3)
 
 	plates("forge:ingots/arcane_alloy","kubejs:arcane_alloy_plate")
 	plates("forge:ingots/inert_alloy","kubejs:inert_alloy_plate")
@@ -172,7 +172,7 @@ ServerEvents.recipes(event => {
 	
 	
 	
-	plates("create:experience_nugget","create_things_and_misc:experience_sheet")
+	//plates("create:experience_nugget","create_things_and_misc:experience_sheet")
 	plates("forge:ingots/ironwood","vintageimprovements:ironwood_sheet")
 	plates("forge:ingots/knightmetal","vintageimprovements:knightmetal_sheet")
 	plates("forge:ingots/fiery","vintageimprovements:fiery_sheet")
@@ -270,8 +270,7 @@ ServerEvents.recipes(event => {
 		})
 
 	event.shapeless("twigs:cracked_bricks","immersive_weathering:cracked_bricks").id("twigs:cracked_bricks")
-	event.shapeless("createdeco:cracked_red_bricks","twigs:cracked_bricks").id("createdeco:cracked_red_bricks_from_bricks_smelting")
-	event.shapeless("immersive_weathering:cracked_bricks","createdeco:cracked_red_bricks")
+	
 
 	event.remove({id:'supplementaries:timber_frame'})
 	event.shaped(
@@ -316,7 +315,7 @@ ServerEvents.recipes(event => {
 	event.remove({output:"twigs:calcite_wall"})
 	event.remove({output:"twigs:tuff_wall"})
 	event.remove({output:"twigs:calcite_stairs"})
-	event.remove({output:"createdeco:mossy_red_bricks"})
+	
 	event.remove({output:"twigs:mossy_bricks"})
 	event.remove({id:"immersive_weathering:charred_log"})
 
@@ -324,8 +323,8 @@ ServerEvents.recipes(event => {
 	event.shapeless("twigs:polished_basalt_bricks","architects_palette:basalt_tiles").id("twigs:polished_basalt_bricks")
 	event.shapeless("architects_palette:basalt_tiles","twigs:polished_basalt_bricks")
 	event.shapeless("twigs:mossy_bricks","immersive_weathering:mossy_bricks")
-	event.shapeless("createdeco:mossy_red_bricks","twigs:mossy_bricks")
-	event.shapeless("immersive_weathering:mossy_bricks","createdeco:mossy_red_bricks")
+	
+	
 	event.shapeless("quark:mossy_cobblestone_bricks","twigs:mossy_cobblestone_bricks").id("quark:building/crafting/mossy_cobblestone_bricks")
 
 	event.shaped("architects_palette:hadaline_tiles",["XX","XX"],{"X":"architects_palette:hadaline_bricks"}).id("architects_palette:hadaline_tiles")

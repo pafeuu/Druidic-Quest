@@ -27,7 +27,7 @@ ServerEvents.recipes(event => {
 	
 	event.replaceInput({mod:'ars_nouveau', not:{type:"minecraft:stonecutting"}}, 'ars_nouveau:sourcestone','kubejs:arcane_alloy_ingot')
 	event.replaceInput({mod:'elementalcraft'}, 'minecraft:iron_ingot','kubejs:inert_alloy_ingot')
-	event.replaceInput({mod:'crafting_on_a_stick'}, 'minecraft:stick','create_sa:zinc_handle')
+	event.replaceInput({mod:'crafting_on_a_stick'}, 'minecraft:stick','kubejs:zinc_tool_handle')
 	event.shapeless("2x minecraft:rooted_dirt",["minecraft:dirt","minecraft:mangrove_roots"])
 	event.shapeless("minecraft:rooted_dirt",["minecraft:dirt","minecraft:hanging_roots"])
 	
@@ -177,17 +177,33 @@ ServerEvents.recipes(event => {
 	event.custom({
 		type: "naturesaura:tree_ritual",
 		ingredients: [
-			{item: "minecraft:clay"},
-			{item: "minecraft:clay"},
-			{item: "minecraft:clay"},
 			{item: "minecraft:ink_sac"},
-			{tag: "minecraft:sand"},
-			{tag: "minecraft:sand"}
+			{item: "minecraft:ink_sac"},
+			{item: "minecraft:ink_sac"},
+			{item: "minecraft:ink_sac"},
+			{item: "create:wheat_flour"},
+			{item: "create:wheat_flour"},
+			{item: "create:wheat_flour"},
+			{item: "create:wheat_flour"}
 		],
 		"sapling": {item: "minecraft:spruce_sapling"},
-		"output": {item: "immersiveengineering:cokebrick","count": 6},
+		"output": {item: "kubejs:brick_glue","count": 1},
 		"time": 200
 	})
+
+	event.shaped("3x immersiveengineering:cokebrick",
+	[
+		"CSC",
+		"GBG",
+		"CSC"
+
+	],
+	{
+		C: "sand",
+		G: "gravel",
+		S: "clay",
+		B: "kubejs:brick_glue"
+	}).damageIngredient("kubejs:brick_glue",3)
 	
 	
 	/// ======================================================================= Tier 0 Components ========================================================================
@@ -568,24 +584,19 @@ ServerEvents.recipes(event => {
 		]
 	})
 	
-	event.remove({output:'immersiveengineering:iron_rod'})
-	function rods(metal){
-		event.shaped(
-		Item.of('createaddition:'+metal+'_rod'), 
+	event.shaped(
+		Item.of('immersiveengineering:stick_iron'), 
 		[
 			'  I',
 			' I ', 
 			'I  '
 		],
 		{
-			I: '#forge:plates/'+metal
+			I: '#forge:plates/iron'
 		}
-		)
-	}
+	)
 	
-	rods("iron")
-	rods("gold")
-	rods("copper")
+	
 
 	event.remove({output:'thermal:drill_head'})
 	event.shaped(
@@ -1525,7 +1536,7 @@ ServerEvents.recipes(event => {
 	})
 
 	event.recipes.ars_nouveau.enchanting_apparatus(
-		["create_sa:zinc_handle","blaze_rod","#forge:storage_blocks/coal_coke","#forge:storage_blocks/coal_coke"],
+		["kubejs:zinc_tool_handle","blaze_rod","#forge:storage_blocks/coal_coke","#forge:storage_blocks/coal_coke"],
 		"twilightforest:liveroot",
 		"kubejs:carbon_infused_sturdy_handle",
 		1000
@@ -1601,7 +1612,7 @@ ServerEvents.recipes(event => {
 		]
 	})
 
-   event.recipes.ars_nouveau.enchanting_apparatus(["create_sa:zinc_handle","thermal:ruby","#forge:storage_blocks/gold","#forge:storage_blocks/gold","#forge:storage_blocks/gold","#forge:storage_blocks/gold"],"bundle","kubejs:gold_upgrade_parts")
+   event.recipes.ars_nouveau.enchanting_apparatus(["kubejs:zinc_tool_handle","thermal:ruby","#forge:storage_blocks/gold","#forge:storage_blocks/gold","#forge:storage_blocks/gold","#forge:storage_blocks/gold"],"bundle","kubejs:gold_upgrade_parts")
 
    event.custom({
 	type: "lychee:block_crushing",
@@ -2166,11 +2177,11 @@ ServerEvents.recipes(event => {
 	)
 	
 
-	event.remove({output:'create_sa:zinc_handle'})
+	event.remove({output:'kubejs:zinc_tool_handle'})
 	event.custom({
 		type: "ars_nouveau:enchanting_apparatus",
 		"keepNbtOfReagent": false,
-		"output": {item: "create_sa:zinc_handle"},
+		"output": {item: "kubejs:zinc_tool_handle"},
 		"pedestalItems": [
 		  {item: "minecraft:leather"},
 		  {item: "minecraft:string"},
@@ -2680,7 +2691,7 @@ ServerEvents.recipes(event => {
 			tag: "forge:plates/gold"
 			},
 			{
-			item: "createaddition:redstone_relay"
+			item: "thermal:redstone_servo"
 			},
 			{
 			item: "minecraft:comparator"
@@ -2936,7 +2947,7 @@ ServerEvents.recipes(event => {
 	
 	event.shaped("create:mechanical_harvester",
 		[ "XXX","AYA","AZA" ],
-		{ A:"create:andesite_casing",X:"createaddition:barbed_wire",Y:"kubejs:andesite_machine",Z:"ars_nouveau:glyph_harvest" }).id("create:crafting/kinetics/mechanical_harvester")
+		{ A:"create:andesite_casing",X:"vintageimprovements:iron_spring",Y:"kubejs:andesite_machine",Z:"ars_nouveau:glyph_harvest" }).id("create:crafting/kinetics/mechanical_harvester")
 	
 	event.shaped("create:mechanical_plough",
 		[ "AXA","AYA","AZA" ],
@@ -2980,7 +2991,7 @@ ServerEvents.recipes(event => {
 		"SSSSS"
 	],{
 		S: 'create:sand_paper',
-		D: 'createaddition:diamond_grit_sandpaper',
+		D: '#forge:plates/diamond',
 		X: 'forbidden_arcanus:stellarite_piece'
 	}).id("vintageimprovements:craft/grinder_belt")
 
@@ -3048,7 +3059,6 @@ ServerEvents.recipes(event => {
 		[ "AZA","AYA","AXA" ],
 		{ A:"create:andesite_casing",Z:"vintageimprovements:grinder_belt",Y:"kubejs:andesite_machine",X:"#forge:gears/steel"}).id("vintageimprovements:craft/belt_grinder")
 	
-	event.remove({id:'createaddition:compat/immersiveengineering/fabric_sail'})
 
 	event.shaped("2x create:white_sail",
 		[ "AYA","XYX","AYA" ],

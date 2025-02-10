@@ -9,8 +9,7 @@ ServerEvents.recipes(event => {
 	'twilightforest:steeleaf_hoe','twilightforest:steeleaf_sword','twilightforest:steeleaf_pickaxe','twilightforest:steeleaf_axe','twilightforest:steeleaf_shovel','aether:zanite_hoe',
 	'aether:zanite_sword','aether:zanite_pickaxe','aether:zanite_axe','aether:zanite_shovel','aether:gravitite_hoe','aether:gravitite_sword','aether:gravitite_pickaxe','aether:gravitite_axe',
 	'deep_aether:skyjade_hoe','deep_aether:skyjade_sword','deep_aether:skyjade_pickaxe','deep_aether:skyjade_axe','deep_aether:skyjade_shovel','minecraft:netherite_hoe','minecraft:netherite_sword',
-	'minecraft:netherite_pickaxe','minecraft:netherite_axe','minecraft:netherite_shovel','create_sa:blazing_cleaver','create_sa:blazing_pickaxe','create_sa:blazing_axe',
-	'create_sa:blazing_shovel',]
+	'minecraft:netherite_pickaxe','minecraft:netherite_axe','minecraft:netherite_shovel']
 	
 
 	DimenstionalTools.forEach(tool => {
@@ -1069,9 +1068,9 @@ ServerEvents.recipes(event => {
 
 	/// ======================================================================= Tier 1 Tools ============================================================================
 
-	simplearmor("#forge:plates/copper","create_sa:copper_helmet","create_sa:copper_chestplate","create_sa:copper_leggings","create_sa:copper_boots")
+	simplearmor("#forge:plates/copper","kubejs:copper_helmet","kubejs:copper_chestplate","kubejs:copper_leggings","kubejs:copper_boots")
 
-	event.remove([{output:"create_sa:copper_helmet"},{output:"create_sa:copper_chestplate"},{output:"create_sa:copper_leggings"},{output:"create_sa:copper_boots"}])
+	
 	event.custom({
 		"type": "rubinated_nether:freezing",
 		"category": "freezable_misc",
@@ -1238,13 +1237,13 @@ ServerEvents.recipes(event => {
 	  event.custom({
 		"type": "naturesaura:tree_ritual",
 		"ingredients": [
-			{"item": "create_sa:copper_sword"},
+			{"item": "kubejs:copper_sword"},
 			{"item": "oxidized_copper"},
 			{"tag": "forge:rods/copper"},
 			{"tag": "forge:rods/copper"},
-			{"item": "create_sa:copper_sword"},
+			{"item": "kubejs:copper_sword"},
 			{"item": "oxidized_copper"},
-			{"item": "create_sa:copper_sword"},
+			{"item": "kubejs:copper_sword"},
 			{"item": "oxidized_copper"}	
 		],
 		"sapling": {"item": "minecraft:oak_sapling"},
@@ -1275,10 +1274,10 @@ ServerEvents.recipes(event => {
 				"item": "leather_boots"
 			},
 			{
-				"item": "create_sa:zinc_hoe"
+				"item": "kubejs:silver_hoe"
 			},
 			{
-				"item": "create_sa:zinc_sword"
+				"item": "kubejs:silver_sword"
 			}
 			
 		],
@@ -1318,10 +1317,10 @@ ServerEvents.recipes(event => {
 				"item": "leather_boots"
 			},
 			{
-				"item": "create_sa:zinc_hoe"
+				"item": "kubejs:silver_hoe"
 			},
 			{
-				"item": "create_sa:zinc_sword"
+				"item": "kubejs:silver_sword"
 			}
 			
 		],
@@ -1390,7 +1389,7 @@ ServerEvents.recipes(event => {
 			},
 			
 			{
-				"item": "create_sa:experience_sword"
+				"item": "minecraft:gold_sword"
 			},
 			{
 				"item": "skeleton_skull"
@@ -1439,13 +1438,13 @@ ServerEvents.recipes(event => {
 				"item": "stone_sword"
 			},
 			{
-				"item": "create_sa:zinc_sword"
+				"item": "kubejs:silver_sword"
 			},
 			{
-				"item": "create_sa:brass_sword"
+				"item": "kubejs:lead_sword"
 			},
 			{
-				"item": "create_sa:copper_sword"
+				"item": "kubejs:copper_sword"
 			}
 			
 		],
@@ -1473,19 +1472,19 @@ ServerEvents.recipes(event => {
 			},
 			
 			{
-				"item": "create_sa:copper_helmet"
+				"item": "kubejs:copper_helmet"
 			},
 			{
-				"item": "create_sa:copper_chestplate"
+				"item": "kubejs:copper_chestplate"
 			},
 			{
-				"item": "create_sa:copper_leggings"
+				"item": "kubejs:copper_leggings"
 			},
 			{
-				"item": "create_sa:copper_boots"
+				"item": "kubejs:copper_boots"
 			},
 			{
-				"item": "create_sa:copper_pickaxe"
+				"item": "kubejs:copper_pickaxe"
 			},
 			{
 				"item": "iron_pickaxe"
@@ -1783,11 +1782,10 @@ ServerEvents.recipes(event => {
 	simplearmor("#forge:plates/diamond","diamond_helmet","diamond_chestplate","diamond_leggings","diamond_boots")
 	simplearmor("minecraft:chain","chainmail_helmet","chainmail_chestplate","chainmail_leggings","chainmail_boots")
 	tool('minecraft:iron','#forge:ingots/iron','#forge:rods/treated_wood','string')
-	tool('create_sa:copper','#forge:ingots/copper','#forge:rods/treated_wood','string')
-	tool('create_sa:zinc','#forge:ingots/zinc','#forge:rods/treated_wood','string')
-	tool('create_sa:brass','#forge:ingots/brass','#forge:rods/treated_wood','elementalcraft:air_silk')
-	nohoes('create_sa:experience','create_sa:heap_of_experience','create_sa:zinc_handle','elementalcraft:air_silk')
-	tool('minecraft:diamond','#forge:gems/diamond','create_sa:zinc_handle','alexsmobs:shed_snake_skin')
+	tool('kubejs:copper','#forge:ingots/copper','#forge:rods/treated_wood','string')
+	tool('kubejs:silver','#forge:ingots/silver','#forge:rods/treated_wood','string')
+	tool('kubejs:lead','#forge:ingots/lead','#forge:rods/treated_wood','string')
+	tool('minecraft:diamond','#forge:gems/diamond','kubejs:zinc_tool_handle','alexsmobs:shed_snake_skin')
 
 	function nohoes(output,material,rod,binding){
 
@@ -1948,13 +1946,24 @@ ServerEvents.recipes(event => {
 	
 	/// ============================================= Tier 2 Tools ===========================================================
 
+	event.shaped("kubejs:blade_of_grass",
+		[
+			'XXX',
+			'XAX',
+			'XXX'
+		],
+		{
+			X: "kubejs:nature_essence",
+			A: "kubejs:mossy_sword"
+		}
+	)
 	event.shaped("kubejs:basic_chisel",
 		[
 			' A',
 			'X '
 		],
 		{
-			X: "create_sa:zinc_handle",
+			X: "kubejs:zinc_tool_handle",
 			A: "kubejs:arcane_alloy_ingot"
 		}
 	)
@@ -2101,7 +2110,7 @@ ServerEvents.recipes(event => {
 	armorslot.forEach(id=>{
 		event.smithing("immersiveengineering:armor_steel_"+id,"kubejs:steel_upgrade_smithing_template",Item.of("netherite_"+id).ignoreNBT(),"#forge:plates/steel").id("immersiveengineering:crafting/armor_steel_"+id)
 
-		event.smithing("golden_"+id,"kubejs:gold_upgrade_smithing_template",Item.of("create_sa:brass_"+id).ignoreNBT(),"kubejs:gold_upgrade_parts").id("minecraft:golden_"+id)
+		event.smithing("golden_"+id,"kubejs:gold_upgrade_smithing_template",Item.of("kubejs:silver_"+id).ignoreNBT(),"kubejs:gold_upgrade_parts").id("minecraft:golden_"+id)
 
 	})
 	
@@ -2138,7 +2147,7 @@ ServerEvents.recipes(event => {
 			'naturesaura:sky_ingot'
 		)
 
-		event.smithing('golden_'+id,'kubejs:gold_upgrade_smithing_template',Item.of('create_sa:brass_'+id).ignoreNBT(),'kubejs:gold_upgrade_parts')
+		event.smithing('golden_'+id,'kubejs:gold_upgrade_smithing_template',Item.of('kubejs:silver_'+id).ignoreNBT(),'kubejs:gold_upgrade_parts')
     });
 
 	event.remove({output:'immersiveengineering:glider'})
@@ -2179,7 +2188,7 @@ ServerEvents.recipes(event => {
 		  ],
 		  "item_in": [
 			{
-			  "item": "create_sa:copper_pickaxe"
+			  "item": "kubejs:copper_pickaxe"
 			},
 			{
 			  "item": "ars_nouveau:earth_essence"
@@ -2192,7 +2201,7 @@ ServerEvents.recipes(event => {
 		 "post": [
 		   {
 			 "type": "drop_item",
-			 "item": 'create_sa:copper_shovel',
+			 "item": 'kubejs:copper_shovel',
 			 "nbt": {
 			   "Modifier": "forbidden_arcanus:demolishing",
 			   "Enchantments":[{
@@ -2209,7 +2218,7 @@ ServerEvents.recipes(event => {
 		 ],
 		 "item_in": [
 		   {
-			 "item": "create_sa:copper_shovel"
+			 "item": "kubejs:copper_shovel"
 		   },
 		   {
 			 "item": "ars_nouveau:earth_essence"
@@ -2222,7 +2231,7 @@ ServerEvents.recipes(event => {
 	 "post": [
 	   {
 		 "type": "drop_item",
-		 "item": 'create_sa:copper_hoe',
+		 "item": 'kubejs:copper_hoe',
 		 "nbt": {
 		   "Modifier": "forbidden_arcanus:demolishing",
 		   "Enchantments":[{
@@ -2239,7 +2248,7 @@ ServerEvents.recipes(event => {
 	 ],
 	 "item_in": [
 	   {
-		 "item": "create_sa:copper_hoe"
+		 "item": "kubejs:copper_hoe"
 	   },
 	   {
 		 "item": "ars_nouveau:earth_essence"

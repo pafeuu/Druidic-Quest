@@ -633,7 +633,7 @@
 			]
 			icon: {
 				Count: 1
-				id: "create_sa:copper_sword"
+				id: "deep_aether:stratus_sword"
 				tag: {
 					Damage: 0
 				}

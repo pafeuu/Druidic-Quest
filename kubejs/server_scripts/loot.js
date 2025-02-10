@@ -285,11 +285,13 @@ LootJS.modifiers((event) => {
         .matchMainHand("#forge:tools/knives")
         .randomChanceWithEnchantment("minecraft:looting", [0.1, 0.15, 0.2, 0.25]) 
         .addLoot("farmersdelight:straw")
+
+    event.addBlockLootModifier("kubejs:charged_copper_block")
+        .replaceLoot("kubejs:charged_copper_block","minecraft:copper_block")
     
     //-------------------------------------------------GAMEPLAY
 
-    event
-        .addLootTableModifier("minecraft:gameplay/sniffer_digging")
+    event.addLootTableModifier("minecraft:gameplay/sniffer_digging")
         .addLoot("minecraft:gunpowder");
 
 

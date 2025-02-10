@@ -1262,4 +1262,41 @@ Patch 0.3.2.1
     -Fixed custom attributes overriding each other 
     -Fixed Stainless Steel Tags
 
-    
+
+ Patch 0.8 
+
+ ### Recipes:
+    -Added for the Blade of Grass
+    -Changed for coke brick
+
+ ### New Items:
+    -Sapphire Block
+    -Sapphire
+    -Charged Waxed Copper Block
+    -Infusing Altar
+    -Blasting Altar
+    -Alloying Altar 
+    -Brick Glue
+    -Copper Pickaxe
+    -Copper Axe
+    -Copper Sword
+    -Copper Hoe
+    -Copper Shovel
+    -Silver Pickaxe
+    -Silver Axe
+    -Silver Sword
+    -Silver Hoe
+    -Silver Shovel
+    -Lead Pickaxe
+    -Lead Axe
+    -Lead Sword
+    -Lead Hoe
+    -Lead Shovel
+    -Zinc Tool Handle
+    -Copper Rod
+
+ ### Balance:
+    -Buffed flower crown but it cant be put in the curio slots anymore
+
+ ### Textures:
+    -Changed for infused Sapphire

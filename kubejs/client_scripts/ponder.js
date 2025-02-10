@@ -26,6 +26,32 @@ Ponder.tags((event) => {
 
 Ponder.registry((event) => {
 
+    event.create("minecraft:furnace").scene("set_replace_modify_tutorial", "Magical Generator Crafting","kubejs:furnace", (scene, util) => {
+        scene.showStructure();
+
+        scene.world.setBlocks([1, 1, 1, 3, 1, 3], "kubejs:arcane_alloy_block", true);
+        scene.world.setBlock([1, 1, 1], "kubejs:inert_alloy_block", true);
+        scene.world.setBlock([3, 1, 1], "kubejs:inert_alloy_block", true);
+        scene.world.setBlock([1, 1, 3], "kubejs:inert_alloy_block", true);
+        scene.world.setBlock([3, 1, 3], "kubejs:inert_alloy_block", true);
+
+        scene.text(20,"Drop Lemon Quartz in the middle",[3.0,1.5,3.0]).attachKeyFrame();
+        scene.showControls(20,[3.0,1.5,3.0],"down").withItem("kubejs:lemon_quartz");
+    
+        scene.idle(30);
+
+        //scene.text(40,"testt",[3.0,2.5,3.0])//.attachKeyFrame();
+        scene.showControls(15,[3.0,1.5,3.0],"down").withItem("thermal:lightning_charge");
+        scene.text(20,"Summon Lightning to finish crafting!",[3.0,1.5,3.0]).attachKeyFrame();
+
+        scene.idle(30);
+
+        scene.world.replaceBlocks([1, 1, 1, 3, 1, 3], "minecraft:air", false);
+        scene.world.createItemEntity(util.vector.topOf(2.5, 1.5, 2.5), util.vector.of(0, 0, 0), "kubejs:magical_generator_block");
+
+        scene.idle(20);
+    });
+
     event.create("kubejs:magical_generator_block").scene("set_replace_modify_tutorial", "Magical Generator Crafting", (scene, util) => {
         scene.showStructure();
 

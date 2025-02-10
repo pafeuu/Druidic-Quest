@@ -9,6 +9,33 @@ ItemEvents.toolTierRegistry(event => {
     tier.repairIngredient = '#forge:plates/gold'
   })
 
+  event.add('copper', tier => {
+    tier.uses = 1024
+    tier.speed = 4.0
+    tier.attackDamageBonus = 0.0
+    tier.level = 2
+    tier.enchantmentValue = 24
+    tier.repairIngredient = '#forge:ingots/copper'
+  })
+
+  event.add('silver', tier => {
+    tier.uses = 512
+    tier.speed = 6.0
+    tier.attackDamageBonus = 0.0
+    tier.level = 2
+    tier.enchantmentValue = 24
+    tier.repairIngredient = '#forge:ingots/silver'
+  })
+
+  event.add('lead', tier => {
+    tier.uses = 1024
+    tier.speed = 5.0
+    tier.attackDamageBonus = 0.0
+    tier.level = 2
+    tier.enchantmentValue = 24
+    tier.repairIngredient = '#forge:ingots/lead'
+  })
+
   event.add('terraformer', tier => {
     tier.uses = 4096
     tier.speed = 8.0
@@ -61,6 +88,9 @@ StartupEvents.registry('item', item => {
   item.create('wooden_gear').displayName('Wooden Gear').tag('forge:gears/wooden').tag('forge:gears').tag("druidic_quest:tier1/component")
   item.create('stone_gear').displayName('Stone Gear').tag('forge:gears/stone').tag('forge:gears').tag("druidic_quest:tier1/component")
 
+  ///===================================================RODS=================================================================
+  item.create("copper_rod").tag("forge:rods").tag("forge:rods/copper").tag("druidic_quest:tier1/component")
+  item.create("zinc_tool_handle").tag("forge:rods").tag("druidic_quest:tier2/component")
   item.create("carbon_infused_sturdy_handle").displayName("Carbon Infused Sturdy Handle").tag("forge:rods").tag("druidic_quest:tier2/component")
 
   ///===================================================INGOTS===========================================================
@@ -80,8 +110,9 @@ StartupEvents.registry('item', item => {
 
   item.create("berry_quartz").displayName("Berry Quartz").tag("forge:gems")
   item.create("salmon_quartz").displayName("Salmon Quartz").tag("forge:gems")
-  item.create("lemon_quartz").displayName("Lemon Quartz").tag("forge:gems")
+  item.create("lemon_quartz").displayName("Lemon Quartz").tag("forge:gems").tag("druidic_quest:tier1/component")
   item.create("ivy_quartz").displayName("Ivy Quartz").tag("forge:gems")
+  item.create("sapphire").tag("forge:gems").tag("druidic_quest:tier1/component").tag("forge:gems/sapphire")
   item.create("unstable_ivy_quartz").displayName("Unstable Ivy Quartz").tag("forge:gems")
 
   ///===================================================DUSTS============================================================
@@ -179,9 +210,45 @@ StartupEvents.registry('item', item => {
   item.create('fiery_magic_feather','sword').tier('diamond').glow(true).tag("minecraft:tools").displayName("Fiery Feather").tag("forge:tools/magic_feather").tag("forge:tools/tier2_magic_feather").tag("druidic_quest:tier2/weapon").tag("druidic_quest:tier2/tool")
   item.create('rainbow_magic_feather','sword').tier('netherite').glow(true).tag("minecraft:tools").displayName("Rainbow Feather").tag("forge:tools/magic_feather").tag("forge:tools/tier2_magic_feather").tag("druidic_quest:tier3/weapon").tag("druidic_quest:tier3/tool")
 
+  item.create('copper_pickaxe','pickaxe').tier('copper').tag("minecraft:tools").tag("minecraft:tools/pickaxe").tag("druidic_quest:tier1/tool")
+  item.create('copper_sword','sword').tier('copper').tag("minecraft:tools").tag("druidic_quest:tier1/weapon")
+  item.create('copper_axe','axe').tier('copper').tag("minecraft:tools").tag("minecraft:tools/axe").tag("druidic_quest:tier1/tool")
+  item.create('copper_shovel','shovel').tier('copper').tag("minecraft:tools").tag("minecraft:tools/shovel").tag("druidic_quest:tier1/tool")
+  item.create('copper_hoe','hoe').tier('copper').tag("minecraft:tools").tag("minecraft:tools/hoe").tag("druidic_quest:tier1/tool")
+
+  item.create('lead_pickaxe','pickaxe').tier('lead').tag("minecraft:tools").tag("minecraft:tools/pickaxe").tag("druidic_quest:tier1/tool")
+  item.create('lead_sword','sword').tier('lead').tag("minecraft:tools").tag("druidic_quest:tier1/weapon")
+  item.create('lead_axe','axe').tier('lead').tag("minecraft:tools").tag("minecraft:tools/axe").tag("druidic_quest:tier1/tool")
+  item.create('lead_shovel','shovel').tier('lead').tag("minecraft:tools").tag("minecraft:tools/shovel").tag("druidic_quest:tier1/tool")
+  item.create('lead_hoe','hoe').tier('lead').tag("minecraft:tools").tag("minecraft:tools/hoe").tag("druidic_quest:tier1/tool")
+
+  item.create('silver_pickaxe','pickaxe').tier('silver').tag("minecraft:tools").tag("minecraft:tools/pickaxe").tag("druidic_quest:tier1/tool")
+  item.create('silver_sword','sword').tier('silver').tag("minecraft:tools").tag("druidic_quest:tier1/weapon")
+  item.create('silver_axe','axe').tier('silver').tag("minecraft:tools").tag("minecraft:tools/axe").tag("druidic_quest:tier1/tool")
+  item.create('silver_shovel','shovel').tier('silver').tag("minecraft:tools").tag("minecraft:tools/shovel").tag("druidic_quest:tier1/tool")
+  item.create('silver_hoe','hoe').tier('silver').tag("minecraft:tools").tag("minecraft:tools/hoe").tag("druidic_quest:tier1/tool")
+
   item.create('mining_hammer','pickaxe').tier('hammer').tag("minecraft:tools").tag('forge:tools/hammers').tag("druidic_quest:tier2/tool")
   item.create('the_terraformer','shovel').glow(true).rarity("epic").tier("terraformer").tag("minecraft:tools").tag("druidic_quest:tier2/tool")
   item.create('basic_chisel').maxDamage(128).tag("forge:tools/chisels").tag("druidic_quest:tier2/tool")
+  item.create('brick_glue').maxDamage(96)
+
+  ///==========================================================ARMOR====================================================
+
+  item.create('copper_helmet','helmet').tier('copper').tag("druidic_quest:tier1/armor")
+  item.create('copper_chestplate','chestplate').tier('copper').tag("druidic_quest:tier1/armor")
+  item.create('copper_leggings','leggings').tier('copper').tag("druidic_quest:tier1/armor")
+  item.create('copper_boots','boots').tier('copper').tag("druidic_quest:tier1/armor")
+
+  item.create('silver_helmet','helmet').tier('silver').tag("druidic_quest:tier1/armor")
+  item.create('silver_chestplate','chestplate').tier('silver').tag("druidic_quest:tier1/armor")
+  item.create('silver_leggings','leggings').tier('silver').tag("druidic_quest:tier1/armor")
+  item.create('silver_boots','boots').tier('silver').tag("druidic_quest:tier1/armor")
+
+  item.create('lead_helmet','helmet').tier('lead').tag("druidic_quest:tier1/armor")
+  item.create('lead_chestplate','chestplate').tier('lead').tag("druidic_quest:tier1/armor")
+  item.create('lead_leggings','leggings').tier('lead').tag("druidic_quest:tier1/armor")
+  item.create('lead_boots','boots').tier('lead').tag("druidic_quest:tier1/armor")
   
   ///===================================================FOOD===========================================================
 

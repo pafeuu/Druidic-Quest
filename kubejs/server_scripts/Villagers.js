@@ -142,7 +142,6 @@ MoreJSEvents.villagerTrades((event) => {
 	event.addTrade("mason", 4, [TradeItem.of("thermal:silver_coin", 4, 6)], "24x supplementaries:ash_bricks");
 	event.addTrade("mason", 4, [TradeItem.of("thermal:silver_coin", 4, 6)], "24x supplementaries:daub");
 	event.addTrade("mason", 4, [TradeItem.of("thermal:gold_coin", 1, 3)], "24x forbidden_arcanus:darkstone");
-	event.addTrade("mason", 4, [TradeItem.of("thermal:gold_coin", 1, 3)], "24x createdeco:dean_bricks");
 	event.addTrade("mason", 4, [TradeItem.of("thermal:gold_coin", 1, 3)], "24x ars_nouveau:sourcestone");
 	
 	
@@ -168,7 +167,7 @@ MoreJSEvents.villagerTrades((event) => {
 
 	///===================================================================Toolsmith
 
-	event.addTrade("toolsmith", 1, [TradeItem.of("create_sa:zinc_handle", 1, 4)], "thermal:silver_coin");
+	event.addTrade("toolsmith", 1, [TradeItem.of("kubejs:zinc_tool_handle", 1, 4)], "thermal:silver_coin");
 	
 	/*event.addTrade("weaponsmith", 2, [TradeItem.of("#forge:gems/lapis", 4, 8)], "4x thermal:copper_coin");
 	event.addTrade("weaponsmith", 2, [TradeItem.of("minecraft:nether_wart", 8, 12)], "4x thermal:copper_coin");

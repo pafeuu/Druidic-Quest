@@ -34,8 +34,10 @@ ItemEvents.tooltip( tooltip => {
   tooltip.add("forbidden_arcanus:xpetrified_orb",[Text.green("Grants random amount of experience points!"),Text.blue("Crafting ingredient")])
 
   tooltip.add("kubejs:archers_glove",Text.gray("Texture by Qwerty"))
-  tooltip.add(["kubejs:inert_alloy_ingot","kubejs:ring_travel"],Text.gray("Texture by MalcomRiley"))
+  tooltip.add(["kubejs:inert_alloy_ingot","kubejs:ring_travel","kubejs:copper_pickaxe","kubejs:copper_shovel",
+    "kubejs:copper_axe","kubejs:copper_hoe","kubejs:copper_sword"],Text.gray("Texture by MalcomRiley"))
   tooltip.add(["kubejs:travelers_belt"],Text.gray("Texture by Futureazoo"))
+  tooltip.add("kubejs:sapphire",Text.gray("Texture by JuniDeerGirl"))
   tooltip.add(["kubejs:arcane_alloy_ingot","kubejs:neptun_ingot","kubejs:phoenix_ingot","kubejs:obsidian_ingot"],Text.gray("Texture by Farland1ng"))
 
   tooltip.add("kubejs:broken_key",Text.gold("Right click a spawner to destroy it and obtain infused ruby!"))
