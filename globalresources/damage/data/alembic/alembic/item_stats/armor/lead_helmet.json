@@ -1,0 +1,13 @@
+{
+  "id": "kubejs:lead_helmet",
+  "modifiers": [
+    {
+      "type": "append",
+      "attribute": "minecraft:generic.movement_speed",
+      "value": -0.002,
+      "operation": "ADDITION",
+      "uuid": "70de7171-4d0b-471e-82ef-e01d832e89ea"
+    }
+  ],
+  "equipment_slot": "HEAD"
+}

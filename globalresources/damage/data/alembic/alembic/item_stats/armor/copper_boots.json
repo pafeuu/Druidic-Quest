@@ -1,0 +1,13 @@
+{
+  "id": "kubejs:copper_boots",
+  "modifiers": [
+    {
+      "type": "append",
+      "attribute": "alembic:arcane_damage.resistance",
+      "value": 1,
+      "operation": "ADDITION",
+      "uuid": "241750ff-db39-40b9-a4be-5551f83a3125"
+    }
+  ],
+  "equipment_slot": "FEET"
+}

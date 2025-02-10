@@ -96,7 +96,7 @@ ItemEvents.armorTierRegistry(event => {
 
   event.add('lead', tier => {
     tier.durabilityMultiplier = 15 // Each slot will be multiplied with [13, 15, 16, 11]
-    tier.slotProtections = [1.5, 4, 5, 1.5] // Slot indicies are [FEET, LEGS, BODY, HEAD]
+    tier.slotProtections = [2, 4, 5, 2] // Slot indicies are [FEET, LEGS, BODY, HEAD]
     tier.enchantmentValue = 12
     tier.equipSound = 'minecraft:item.armor.equip_iron'
     tier.repairIngredient = '#forge:ingots/lead'

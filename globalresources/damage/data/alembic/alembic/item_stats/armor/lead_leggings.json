@@ -1,0 +1,13 @@
+{
+  "id": "kubejs:lead_leggings",
+  "modifiers": [
+    {
+      "type": "append",
+      "attribute": "minecraft:generic.movement_speed",
+      "value": -0.004,
+      "operation": "ADDITION",
+      "uuid": "b0caeaf4-8bd6-4796-a045-ec094aaadb90"
+    }
+  ],
+  "equipment_slot": "LEGS"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "kubejs:silver_boots",
+  "modifiers": [
+    {
+      "type": "append",
+      "attribute": "alembic:true_damage.resistance",
+      "value": 1,
+      "operation": "ADDITION",
+      "uuid": "241750ff-db39-40b9-a4be-5551f83a3125"
+    },
+    {
+      "type": "append",
+      "attribute": "minecraft:generic.movement_speed",
+      "value": 0.004,
+      "operation": "ADDITION",
+      "uuid": "241750ff-db29-10b9-a4be-5331f83a3125"
+    }
+  ],
+  "equipment_slot": "FEET"
+}
