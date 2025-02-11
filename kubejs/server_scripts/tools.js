@@ -31,6 +31,19 @@ ServerEvents.recipes(event => {
 	event.remove({output:/simple_weapons:corinthium*/})
 	//==================================================Functions==================================================
 
+	function naturearmorup(input,output,smith,material)
+	{
+		// Upgrades the armor
+		event.smithing("naturesaura:"+output+"_helmet","kubejs:"+smith+"_upgrade_smithing_template",Item.of(input+"_helmet").ignoreNBT()    ,"naturesaura:"+material)
+		event.smithing("naturesaura:"+output+"_chest" ,"kubejs:"+smith+"_upgrade_smithing_template",Item.of(input+"_chestplate").ignoreNBT(),"naturesaura:"+material)
+		event.smithing("naturesaura:"+output+"_pants" ,"kubejs:"+smith+"_upgrade_smithing_template",Item.of(input+"_leggings").ignoreNBT()  ,"naturesaura:"+material)
+		event.smithing("naturesaura:"+output+"_shoes" ,"kubejs:"+smith+"_upgrade_smithing_template",Item.of(input+"_boots").ignoreNBT()     ,"naturesaura:"+material)
+		
+		// Removes the old recipes
+		event.remove([{output:"naturesaura"+output+"_helmet", output:"naturesaura:"+output+"_chest", output:"naturesaura:"+output+"_pants",output:"naturesaura:"+output+"_shoes"}])
+		event.remove({output:"naturesaura:"+output+"_shoes"})
+	}   
+
 	function tool(output,material,rod,binding){// Creates simple workbench recipes with bindings and tool rods
 
 		event.shaped(
@@ -105,6 +118,105 @@ ServerEvents.recipes(event => {
 			  S: rod
 			} 
 		  )
+	}
+
+	function simplearmor(material,helmet,chest,leg,boots)
+	{
+		event.shaped(
+			Item.of(helmet), 
+			[
+			  'FFF',
+			  'F F'
+			],
+			{
+			  F: material
+			}
+		)
+		event.shaped(
+			Item.of(chest), 
+			[
+			  'F F',
+			  'FFF', 
+			  'FFF'
+			],
+			{
+			  F: material
+			}
+		)
+		event.shaped(
+			Item.of(leg), 
+			[
+			  'FFF',
+			  'F F', 
+			  'F F'
+			],
+			{
+			  F: material
+			}
+		)
+
+		event.shaped(
+			Item.of(boots), 
+			[
+			  'F F', 
+			  'F F'
+			],
+			{
+			  F: material
+			}
+		  )
+	}
+
+	function SimpleArmorUpgrade(material,helmet,chest,leg,boots,helmet2,chest2,leg2,boots2)
+	{
+		event.shaped(
+			Item.of(helmet2), 
+			[
+			  'FFF',
+			  'FXF'
+			],
+			{
+			  F: material,
+			  X: helmet
+			}
+		)
+		event.shaped(
+			Item.of(chest2), 
+			[
+			  'FXF',
+			  'FFF', 
+			  'FFF'
+			],
+			{
+			  F: material,
+			  X: chest
+			}
+		)
+		event.shaped(
+			Item.of(leg2), 
+			[
+			  'FFF',
+			  'FXF', 
+			  'F F'
+			],
+			{
+			  F: material,
+			  X: leg
+			}
+		)
+
+		event.shaped(
+			Item.of(boots2), 
+			[
+			  'F F', 
+			  'FXF'
+			],
+			{
+			  F: material,
+			  X: boots
+			}
+		  )
+		
 	}
 
 	//===============================================Tool Functionality=============================================
@@ -472,104 +584,6 @@ ServerEvents.recipes(event => {
 	event.remove({output:"immersiveengineering:armor_faraday_leggings"})
 	event.remove({output:"immersiveengineering:armor_faraday_boots"})
 
-	function simplearmor(material,helmet,chest,leg,boots)
-	{
-		event.shaped(
-			Item.of(helmet), 
-			[
-			  'FFF',
-			  'F F'
-			],
-			{
-			  F: material
-			}
-		)
-		event.shaped(
-			Item.of(chest), 
-			[
-			  'F F',
-			  'FFF', 
-			  'FFF'
-			],
-			{
-			  F: material
-			}
-		)
-		event.shaped(
-			Item.of(leg), 
-			[
-			  'FFF',
-			  'F F', 
-			  'F F'
-			],
-			{
-			  F: material
-			}
-		)
-
-		event.shaped(
-			Item.of(boots), 
-			[
-			  'F F', 
-			  'F F'
-			],
-			{
-			  F: material
-			}
-		  )
-	}
-
-	function SimpleArmorUpgrade(material,helmet,chest,leg,boots,helmet2,chest2,leg2,boots2)
-	{
-		event.shaped(
-			Item.of(helmet2), 
-			[
-			  'FFF',
-			  'FXF'
-			],
-			{
-			  F: material,
-			  X: helmet
-			}
-		)
-		event.shaped(
-			Item.of(chest2), 
-			[
-			  'FXF',
-			  'FFF', 
-			  'FFF'
-			],
-			{
-			  F: material,
-			  X: chest
-			}
-		)
-		event.shaped(
-			Item.of(leg2), 
-			[
-			  'FFF',
-			  'FXF', 
-			  'F F'
-			],
-			{
-			  F: material,
-			  X: leg
-			}
-		)
-
-		event.shaped(
-			Item.of(boots2), 
-			[
-			  'F F', 
-			  'FXF'
-			],
-			{
-			  F: material,
-			  X: boots
-			}
-		  )
-		
-	}
 	
 	
 	simplearmor('immersiveengineering:hemp_fabric',"immersiveengineering:armor_faraday_helmet","immersiveengineering:armor_faraday_chestplate","immersiveengineering:armor_faraday_leggings","immersiveengineering:armor_faraday_boots")
@@ -1068,8 +1082,8 @@ ServerEvents.recipes(event => {
 
 	/// ======================================================================= Tier 1 Tools ============================================================================
 
+	
 	simplearmor("#forge:plates/copper","kubejs:copper_helmet","kubejs:copper_chestplate","kubejs:copper_leggings","kubejs:copper_boots")
-
 	
 	event.custom({
 		"type": "rubinated_nether:freezing",
@@ -1787,66 +1801,6 @@ ServerEvents.recipes(event => {
 	tool('kubejs:lead','#forge:ingots/lead','#forge:rods/treated_wood','string')
 	tool('minecraft:diamond','#forge:gems/diamond','kubejs:zinc_tool_handle','alexsmobs:shed_snake_skin')
 
-	function nohoes(output,material,rod,binding){
-
-		event.shaped(
-			Item.of(output+'_pickaxe'), 
-			[
-			  'FFF',
-			  'XS ', 
-			  ' S '
-			],
-			{
-				F: material,
-				X: binding,
-				S: rod
-			}
-		  )
-		  
-		  event.shaped(
-			Item.of(output+'_axe'), 
-			[
-			  'FF ',
-			  'FS ', 
-			  'XS '
-			],
-			{
-				F: material,
-				X: binding,
-				S: rod
-			}
-		  )
-		  
-		  
-		  event.shaped(
-			Item.of(output+'_shovel'), 
-			[
-			  ' F ',
-			  'XS ', 
-			  ' S '
-			],
-			{
-				F: material,
-				X: binding,
-				S: rod
-			}
-		  )
-		  
-		  
-		  event.shaped(
-			Item.of(output+'_sword'), 
-			[
-			  ' F ',
-			  'XF ', 
-			  ' S '
-			],
-			{
-			  F: material,
-			  X: binding,
-			  S: rod
-			} 
-		  )
-	}
 	  
 	event.remove({output:'ars_nouveau:dowsing_rod'})
 	event.custom({
@@ -2088,19 +2042,7 @@ ServerEvents.recipes(event => {
 
 	event.remove({output:"irons_spellbooks:diamond_spell_book"})
 	event.smithing("irons_spellbooks:diamond_spell_book","irons_spellbooks:energized_core","irons_spellbooks:gold_spell_book","irons_spellbooks:mana_ring")
-                    	
-	function naturearmorup(input,output,smith,material)
-	{
-		// Upgrades the armor
-		event.smithing("naturesaura:"+output+"_helmet","kubejs:"+smith+"_upgrade_smithing_template",Item.of(input+"_helmet").ignoreNBT()    ,"naturesaura:"+material)
-		event.smithing("naturesaura:"+output+"_chest" ,"kubejs:"+smith+"_upgrade_smithing_template",Item.of(input+"_chestplate").ignoreNBT(),"naturesaura:"+material)
-		event.smithing("naturesaura:"+output+"_pants" ,"kubejs:"+smith+"_upgrade_smithing_template",Item.of(input+"_leggings").ignoreNBT()  ,"naturesaura:"+material)
-		event.smithing("naturesaura:"+output+"_shoes" ,"kubejs:"+smith+"_upgrade_smithing_template",Item.of(input+"_boots").ignoreNBT()     ,"naturesaura:"+material)
-		
-		// Removes the old recipes
-		event.remove([{output:"naturesaura"+output+"_helmet", output:"naturesaura:"+output+"_chest", output:"naturesaura:"+output+"_pants",output:"naturesaura:"+output+"_shoes"}])
-		event.remove({output:"naturesaura:"+output+"_shoes"})
-	}      
+                    	   
     naturearmorup("diamond","sky","skyseeker","sky_ingot")
 	naturearmorup("iron","infused_iron","botanist","infused_iron")
 	event.remove({output:["naturesaura:sky_helmet","naturesaura:sky_chest","naturesaura:sky_pants","naturesaura:sky_shoes"]})
