@@ -122,7 +122,7 @@ StartupEvents.registry('item', item => {
   item.create("copper_rod").tag("forge:rods").tag("forge:rods/copper").tag("druidic_quest:tier1/component")
   item.create("zinc_tool_handle").tag("forge:rods").tag("druidic_quest:tier2/component")
   item.create("carbon_infused_sturdy_handle").displayName("Carbon Infused Sturdy Handle").tag("forge:rods").tag("druidic_quest:tier2/component")
-  item.create("gold_rod").tag("forge:rods").tag("forge:rods/copper").tag("druidic_quest:tier1/component")
+  item.create("gold_rod").tag("forge:rods").tag("forge:rods/gold").tag("druidic_quest:tier1/component")
 
   ///===================================================INGOTS===========================================================
 

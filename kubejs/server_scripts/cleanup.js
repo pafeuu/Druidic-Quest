@@ -196,7 +196,14 @@ global.nukelist = ["twigs:calcite_wall",
 	'immersiveengineering:slab_storage_electrum',
 	'immersiveengineering:slab_storage_silver',
 	'immersiveengineering:nugget_constantan',
-	'immersiveengineering:dust_constantan']
+	'immersiveengineering:dust_constantan',
+	'thermal:ruby_ore',
+	'thermal:deepslate_ruby_ore',
+	'thermal:sapphire_gear',
+	'thermal:ruby_gear',
+	'thermal:quartz_gear',
+	'thermal:emerald_gear',
+	'thermal:lapis_gear']
 
 ServerEvents.recipes(event => {
 
@@ -295,6 +302,43 @@ ServerEvents.recipes(event => {
 	event.recipes.create.milling(['kubejs:broken_key',"2x thermal:ruby"],'kubejs:overworld_key')
 	event.recipes.create.milling(['kubejs:broken_key',"4x thermal:ruby"],'kubejs:twilight_key')
 	event.recipes.create.milling(['kubejs:broken_key',"8x thermal:ruby"],'kubejs:nether_key')
+	//-------------------Gears----------------------
+
+	function ThermalGears(material)
+	{
+		event.remove({id:"thermal:parts/"+material+"_gear"})
+		event.shaped("thermal:"+material+"_gear",
+			[
+				"PPR",
+				"PGP",
+				"RPP"
+			],
+			{
+				P: "#forge:plates/"+material,
+				R: "#forge:rods/"+material,
+				G: "kubejs:stone_gear"
+			}
+		)
+	}
+
+	ThermalGears("iron")
+	ThermalGears("gold")
+	ThermalGears("copper")
+	ThermalGears("netherite")
+	ThermalGears("tin")
+	ThermalGears("lead")
+	ThermalGears("silver")
+	ThermalGears("bronze")
+	ThermalGears("nickel")
+	ThermalGears("steel")
+	ThermalGears("rose_gold")
+	ThermalGears("electrum")
+	ThermalGears("invar")
+	ThermalGears("constantan")
+	ThermalGears("signalum")
+	ThermalGears("lumium")
+	ThermalGears("enderium")
+	ThermalGears("diamond")
 
 	//-------------------Rods-----------------------
 

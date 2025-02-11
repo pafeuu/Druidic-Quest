@@ -1084,6 +1084,8 @@ ServerEvents.recipes(event => {
 
 	
 	simplearmor("#forge:plates/copper","kubejs:copper_helmet","kubejs:copper_chestplate","kubejs:copper_leggings","kubejs:copper_boots")
+	simplearmor("#forge:plates/lead","kubejs:lead_helmet","kubejs:lead_chestplate","kubejs:lead_leggings","kubejs:lead_boots")
+	simplearmor("#forge:plates/silver","kubejs:silver_helmet","kubejs:silver_chestplate","kubejs:silver_leggings","kubejs:silver_boots")
 	
 	event.custom({
 		"type": "rubinated_nether:freezing",

@@ -129,6 +129,9 @@ ServerEvents.tags('item', event => {
   event.add("c:hidden_from_recipe_viewers","#forge:tools/skyroot")
   event.add("c:hidden_from_recipe_viewers","immersiveengineering:potion_bucket")
   event.add("c:hidden_from_recipe_viewers","immersiveengineering:shader")
+  event.add("c:hidden_from_recipe_viewers","kubejs:depleted_ruby_block")
+  event.add("c:hidden_from_recipe_viewers","kubejs:unassembled_clock")
+  event.add("c:hidden_from_recipe_viewers","kubejs:unassembled_compass")
 
   function tool(name)
   {
