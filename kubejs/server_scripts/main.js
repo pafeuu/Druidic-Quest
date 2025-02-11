@@ -710,69 +710,6 @@ ServerEvents.recipes(event => {
 	)
 	
 	
-	
-	
-
-	event.custom(
-		{
-			type: "lychee:block_crushing",
-			post: [
-			  {
-				type: "anvil_damage_chance",
-				"chance": 0
-			  },
-			  {
-				type: "place",
-				block: "minecraft:air",
-			  },
-			  {
-				type: "drop_item",
-				"contextual": [
-				  {
-					type: "chance",
-					"chance": 0.95
-				  }
-				],
-				item: "kubejs:wooden_plate"
-			  }
-			],
-			"falling_block": "minecraft:anvil",
-			"landing_block": "immersiveengineering:treated_wood_horizontal"
-		  }
-		  
-	)
-
-	event.custom(
-		{
-			type: "lychee:block_crushing",
-			post: [
-			  {
-				type: "anvil_damage_chance",
-				"chance": 0
-			  },
-			  {
-				type: "place",
-				block: "minecraft:air",
-			  },
-			  {
-				type: "drop_item",
-				"contextual": [
-				  {
-					type: "chance",
-					"chance": 0.95
-				  }
-				],
-				item: "kubejs:stone_plate"
-			  }
-			],
-			"falling_block": "minecraft:anvil",
-			"landing_block": "minecraft:smooth_stone"
-		  }
-		  
-	)
-
-	
-	
 	event.remove({id:"irons_spellbooks:lightning_bottle"})
 	event.custom({
 		type: "lychee:item_exploding",

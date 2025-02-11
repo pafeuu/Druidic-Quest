@@ -141,7 +141,8 @@ ServerEvents.recipes(event => {
 	rods("iron","immersiveengineering:stick_iron")
 	//-------------------Plates---------------------
 
-	function plates(inputItem, outputItem) {// Adds Plates crafting recipes to the machines
+	function PlatesOnetoOne(inputItem,outputItem, inputBlock)
+	{
 		event.custom({
 			type: "create:pressing",
 			ingredients: [{ tag: inputItem }],
@@ -157,22 +158,155 @@ ServerEvents.recipes(event => {
 			mold: "immersiveengineering:mold_plate",
 			result: { item: outputItem },
 		});// Adds Plates crafting recipes to the IE machines
-	}
 	
-	function hammering(block, output, count) {
 		event.custom({
 			type: "lychee:block_interacting",
 			item_in: { item: "immersiveengineering:hammer" },
-			block_in: block,
+			block_in: inputBlock,
 			post: [
-				{ type: "drop_item", item: output,count: count },
+				{ type: "drop_item", item: outputItem ,count: 1 },
 				{ type: "place", block: "air" },
 				{ type: "damage_item" }
 			]
 		});// Adds In World Plates crafting recipes 
+
+		event.custom(
+			{
+				type: "lychee:block_crushing",
+				"comment": "25% chance for extra drop!",
+				post: [
+				  {
+					type: "anvil_damage_chance",
+					"chance": 0
+				  },
+				  {
+					type: "place",
+					block: "minecraft:air",
+				  },
+				  {
+					type: "drop_item",
+					item: outputItem,
+					count: 1
+				  },
+				  {
+					type: "drop_item",
+					"contextual": [
+					  {
+						type: "chance",
+						"chance": 0.25
+					  }
+					],
+					item: outputItem
+				  }
+				],
+				"falling_block": "minecraft:anvil",
+				"landing_block": inputBlock
+			  }  
+		)
+
+		event.custom(
+			{
+				type: "lychee:block_crushing",
+				post: [
+				  {
+					type: "anvil_damage_chance",
+					"chance": 0
+				  },
+				  {
+					type: "place",
+					block: "minecraft:air",
+				  },
+				  {
+					type: "drop_item",
+					item: outputItem,
+					count: 2
+				  }
+				],
+				"falling_block": "kubejs:pressing_catalyst",
+				"landing_block": inputBlock
+			  }  
+		)
+
+		event.recipes.naturesaura.altar(Item.of(outputItem,2),inputBlock,500,100)
+	}
+	function plates(inputItem, outputItem, inputBlock) {// Adds Plates crafting recipes to the machines
+		event.custom({
+			type: "create:pressing",
+			ingredients: [{ tag: inputItem }],
+			results: [{ item: outputItem }],
+		});// Adds Plates crafting recipes to the create machines
+	
+		event.recipes.thermal.press(outputItem,"#"+inputItem)// Adds Plates crafting recipes to the thermal machines
+	
+		event.custom({
+			type: "immersiveengineering:metal_press",
+			energy: 2400,
+			input: { tag: inputItem },
+			mold: "immersiveengineering:mold_plate",
+			result: { item: outputItem },
+		});// Adds Plates crafting recipes to the IE machines
+	
+		event.custom({
+			type: "lychee:block_interacting",
+			item_in: { item: "immersiveengineering:hammer" },
+			block_in: inputBlock,
+			post: [
+				{ type: "drop_item", item: outputItem,count: 3 },
+				{ type: "place", block: "air" },
+				{ type: "damage_item" }
+			]
+		});// Adds In World Plates crafting recipes
+		
+		event.custom(
+			{
+				type: "lychee:block_crushing",
+				post: [
+				  {
+					type: "anvil_damage_chance",
+					"chance": 0
+				  },
+				  {
+					type: "place",
+					block: "minecraft:air",
+				  },
+				  {
+					type: "drop_item",
+					item: outputItem,
+					count: 4
+				  }
+				],
+				"falling_block": "minecraft:anvil",
+				"landing_block": inputBlock
+			  }  
+		)// Adds in World Plates crafting recipes from falling anvil
+
+		event.custom(
+			{
+				type: "lychee:block_crushing",
+				post: [
+				  {
+					type: "anvil_damage_chance",
+					"chance": 0
+				  },
+				  {
+					type: "place",
+					block: "minecraft:air",
+				  },
+				  {
+					type: "drop_item",
+					item: outputItem,
+					count: 5
+				  }
+				],
+				"falling_block": "kubejs:pressing_catalyst",
+				"landing_block": inputBlock
+			  }  
+		)// Adds in World Plates crafting recipes from falling pressing catalyst
+
+		event.recipes.naturesaura.altar(Item.of(outputItem,5),inputBlock,500,100)
 	}
 
-	hammering("minecraft:copper_block","create:copper_sheet", 3)
+	/*hammering("minecraft:copper_block","create:copper_sheet", 3)
 	hammering("minecraft:iron_block","create:iron_sheet", 3)
 	hammering("minecraft:gold_block","create:golden_sheet", 3)
 	hammering("create:brass_block","create:brass_sheet",3)
@@ -185,25 +319,23 @@ ServerEvents.recipes(event => {
 
 	hammering("minecraft:diamond_block","kubejs:diamond_plate", 3)
 	hammering("kubejs:inert_alloy_block","kubejs:inert_alloy_plate", 3)
-	hammering("kubejs:arcane_alloy_block","kubejs:arcane_alloy_plate", 3)
-	hammering("immersiveengineering:treated_wood_horizontal", "kubejs:wooden_plate", 1)
-	hammering("minecraft:smooth_stone","kubejs:stone_plate", 1)
+	hammering("kubejs:arcane_alloy_block","kubejs:arcane_alloy_plate", 3)*/
 
-	hammering("twilightforest:ironwood_block","vintageimprovements:ironwood_sheet", 3)
+	PlatesOnetoOne("forge:treated_wood", "kubejs:wooden_plate", "immersiveengineering:treated_wood_horizontal")
+	PlatesOnetoOne("chipped:smooth_stone","kubejs:stone_plate", "minecraft:smooth_stone")
+
+	/*hammering("twilightforest:ironwood_block","vintageimprovements:ironwood_sheet", 3)
 	hammering("twilightforest:steeleaf_block","vintageimprovements:steeleaf_sheet", 3)
 	hammering("twilightforest:knightmetal_block","vintageimprovements:knightmetal_sheet", 3)
-	hammering("twilightforest:fiery_block","vintageimprovements:fiery_sheet", 3)
-	//hammering("create:experience_block","create_things_and_misc:experience_sheet",3)
+	hammering("twilightforest:fiery_block","vintageimprovements:fiery_sheet", 3)*/
 
-	plates("forge:ingots/arcane_alloy","kubejs:arcane_alloy_plate")
-	plates("forge:ingots/inert_alloy","kubejs:inert_alloy_plate")
-	plates("forge:treated_wood", "kubejs:wooden_plate")
-	plates("chipped:smooth_stone","kubejs:stone_plate")
-	plates("forge:gems/diamond","kubejs:diamond_plate")
+	plates("forge:ingots/arcane_alloy","kubejs:arcane_alloy_plate","kubejs:arcane_alloy_block")
+	plates("forge:ingots/inert_alloy","kubejs:inert_alloy_plate","kubejs:inert_alloy_block")
+	plates("forge:gems/diamond","kubejs:diamond_plate","minecraft:diamond_block")
 	
 	
 	
-	//plates("create:experience_nugget","create_things_and_misc:experience_sheet")
+	/*
 	plates("forge:ingots/ironwood","vintageimprovements:ironwood_sheet")
 	plates("forge:ingots/knightmetal","vintageimprovements:knightmetal_sheet")
 	plates("forge:ingots/fiery","vintageimprovements:fiery_sheet")
@@ -220,7 +352,7 @@ ServerEvents.recipes(event => {
 
 	plates("forge:ingots/gold","create:golden_sheet")
 
-	plates("forge:ingots/brass","create:brass_sheet")
+	plates("forge:ingots/brass","create:brass_sheet")*/
 
 	event.remove([{id:"create:pressing/gold_ingot"},{id:"thermal:machines/press/press_gold_ingot_to_plate"},{id:"immersiveengineering:metalpress/plate_brass"}])
 
