@@ -387,7 +387,7 @@ ServerEvents.recipes(event => {
 			  }  
 		)
 
-		event.recipes.naturesaura.altar(Item.of(outputItem,2),inputBlock,500,100)
+		event.recipes.naturesaura.altar(Item.of(outputItem,2),inputBlock,500,100,"kubejs:pressing_catalyst")
 	}
 	function plates(inputItem, outputItem, inputBlock) {// Adds Plates crafting recipes to the machines
 		event.custom({
@@ -463,7 +463,7 @@ ServerEvents.recipes(event => {
 			  }  
 		)// Adds in World Plates crafting recipes from falling pressing catalyst
 
-		event.recipes.naturesaura.altar(Item.of(outputItem,5),inputBlock,500,100)
+		event.recipes.naturesaura.altar(Item.of(outputItem,5),inputBlock,500,100,"kubejs:pressing_catalyst")
 	}
 
 	PlatesOnetoOne("forge:treated_wood", "kubejs:wooden_plate", "immersiveengineering:treated_wood_horizontal")
