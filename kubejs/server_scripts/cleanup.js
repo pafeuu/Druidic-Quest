@@ -144,7 +144,10 @@ global.nukelist = ["twigs:calcite_wall",
 	'thermal:invar_plate',
 	'thermal:electrum_plate',
 	'thermal:bronze_plate',
-	'thermal:rose_gold_plate']
+	'thermal:rose_gold_plate','vintageimprovements:shadow_steel_wire', 
+	'vintageimprovements:shadow_steel_sheet',
+	'vintageimprovements:shadow_steel_rod',
+	'immersiveengineering:stick_aluminum']
 
 ServerEvents.recipes(event => {
 
