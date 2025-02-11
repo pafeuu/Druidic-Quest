@@ -2,10 +2,14 @@
 
 ServerEvents.tags('item', event => {
 
+  event.removeAllTagsFrom([global.nukelist])
+
+  event.add("c:hidden_from_recipe_viewers",[global.nukelist])
+  
+
   let seed = ["vintagedelight:oat_seeds","vintagedelight:ghost_pepper_seeds"]
 
-  let hide = ["twigs:calcite_wall","twigs:tuff_wall","twigs:calcite_stairs","kubejs:recipe_changed","kubejs:unstable_ivy_quartz","aether:life_shard",
-              "immersiveengineering:shield","alexsmobs:shield_of_the_deep","enigmaticlegacy:infernal_shield","forbiddenarcanus:obsidian_skull_shield","immersiveengineering:toolbox"]
+
 
   let flower = ['minecraft:sunflower','minecraft:dandelion','naturesaura:aura_bloom','bloomingnature:wild_sunflower','regions_unexplored:yellow_snowbelle','bloomingnature:freesia_yellow','bloomingnature:golden_rod','regions_unexplored:alpha_dandelion']
 
@@ -57,6 +61,7 @@ ServerEvents.tags('item', event => {
 
   event.add("forge:tools/chisels","elementalcraft:chisel")
   event.add("forge:tools/hammers","immersiveengineering:hammer")
+  event.add("forge:ingots/andesite_alloy","create:andesite_alloy")
   
   event.remove("twilightforest:portal/activator","minecraft:diamond")
  
@@ -112,9 +117,6 @@ ServerEvents.tags('item', event => {
     event.add("forge:froglights",id)
   });
 
-  /*wiring.forEach(id => {
-    event.add("immersiveengineering:toolbox/wiring",id)
-  });*/
 
   flower.forEach(id => {
     event.add('forge:flowers/golden',id)
@@ -122,11 +124,7 @@ ServerEvents.tags('item', event => {
   
   seed.forEach(id => {
     event.add("quark:seed_pouch_holdable",id)
-  });
-
-  hide.forEach(id=> {
-    event.add("c:hidden_from_recipe_viewers",id)
-  });
+  });  
   
   event.add("c:hidden_from_recipe_viewers","#forge:tools/skyroot")
 

@@ -4,16 +4,152 @@ var metals = ['tin','silver','lead','gold','iron','copper','nickel','zinc','alum
 
 var alloys = ['bronze','enderium','brass','invar','rose_gold','constantan','signalum','lumium']
 
-var VintagePlates = ['tin','silver','lead','nickel','zinc','aluminum','bronze','enderium','invar','rose_gold','constantan',
-	'signalum','lumium']
-
-var CreatePlates = ['copper','brass','iron']
-
 var wood_TF = ['canopy','mangrove','twilight_oak','time','transformation','mining','sorting','dark']
 
 var wood_TF_no_mangrove = ['canopy','twilight_oak','time','transformation','mining','sorting','dark']
 
+
+global.nukelist = ["twigs:calcite_wall",
+    "twigs:tuff_wall",
+    "twigs:calcite_stairs",
+    "kubejs:recipe_changed",
+    "kubejs:unstable_ivy_quartz",
+    "aether:life_shard",
+    "immersiveengineering:shield",
+    "alexsmobs:shield_of_the_deep",
+    "enigmaticlegacy:infernal_shield",
+    "forbiddenarcanus:obsidian_skull_shield",
+    "immersiveengineering:toolbox",
+    'vintageimprovements:refined_radiance_sheet',
+	'vintageimprovements:refined_glowstone_sheet',
+	'vintageimprovements:refined_obsidian_sheet', 
+	'vintageimprovements:refined_glowstone_rod', 
+	'vintageimprovements:refined_obsidian_rod',
+	'vintageimprovements:refined_glowstone_spring',
+	'vintageimprovements:refined_obsidian_spring',
+	'vintageimprovements:small_refined_glowstone_spring',
+	'vintageimprovements:small_refined_obsidian_spring',
+	'vintageimprovements:refined_glowstone_wire',
+	'vintageimprovements:refined_obsidian_wire',
+	'vintageimprovements:refined_radiance_rod',
+	'vintageimprovements:refined_radiance_spring',
+	'vintageimprovements:small_refined_radiance_spring',
+	'vintageimprovements:refined_radiance_wire',
+	'vintageimprovements:queens_slime_sheet',
+	'vintageimprovements:slimesteel_sheet',
+	'vintageimprovements:amethyst_bronze_sheet',
+	'vintageimprovements:cast_iron_sheet', 
+	'vintageimprovements:cobalt_sheet',
+	'vintageimprovements:cast_iron_rod',
+	'vintageimprovements:cobalt_rod',
+	'vintageimprovements:amethyst_bronze_rod',
+	'vintageimprovements:nethersteel_sheet',
+	'vintageimprovements:nethersteel_sheet',
+	'vintageimprovements:hepatizon_sheet',
+	'vintageimprovements:rhodium_sheet',
+	'vintageimprovements:pure_gold_sheet',
+	'vintageimprovements:platinum_sheet',
+	'vintageimprovements:pig_iron_sheet',
+	'vintageimprovements:palladium_sheet',
+	'vintageimprovements:manyullyn_sheet',
+	'vintageimprovements:osmium_sheet',
+	'vintageimprovements:hepatizon_rod',
+	'vintageimprovements:manyullyn_rod',
+	'vintageimprovements:osmium_rod',
+	'vintageimprovements:palladium_rod',
+	'vintageimprovements:pig_iron_rod',
+	'vintageimprovements:platinum_rod',
+	'vintageimprovements:pure_gold_rod',
+	'vintageimprovements:rhodium_rod',
+	'vintageimprovements:amethyst_bronze_spring',
+	'vintageimprovements:pure_gold_spring',
+	'vintageimprovements:platinum_spring',
+	'vintageimprovements:pig_iron_spring',
+	'vintageimprovements:palladium_spring',
+	'vintageimprovements:osmium_spring',
+	'vintageimprovements:manyullyn_spring',
+	'vintageimprovements:hepatizon_spring',
+	'vintageimprovements:cobalt_spring',
+	'vintageimprovements:cast_iron_spring',
+	'vintageimprovements:rhodium_spring',
+	'vintageimprovements:small_amethyst_bronze_spring',
+	'vintageimprovements:small_cast_iron_spring',
+	'vintageimprovements:small_cobalt_spring',
+	'vintageimprovements:small_hepatizon_spring',
+	'vintageimprovements:small_manyullyn_spring',
+	'vintageimprovements:small_osmium_spring',
+	'vintageimprovements:small_palladium_spring',
+	'vintageimprovements:small_pig_iron_spring',
+	'vintageimprovements:small_platinum_spring',
+	'vintageimprovements:small_pure_gold_spring',
+	'vintageimprovements:small_rhodium_spring',
+	'vintageimprovements:amethyst_bronze_wire',
+	'vintageimprovements:cast_iron_wire',
+	'vintageimprovements:cobalt_wire',
+	'vintageimprovements:hepatizon_wire',
+	'vintageimprovements:manyullyn_wire',
+	'vintageimprovements:osmium_wire',
+	'vintageimprovements:palladium_wire',
+	'vintageimprovements:pig_iron_wire',
+	'vintageimprovements:platinum_wire',
+	'vintageimprovements:pure_gold_wire',
+	'vintageimprovements:rhodium_wire',
+	'vintageimprovements:calorite_rod',
+	'vintageimprovements:ostrum_rod',
+	'vintageimprovements:desh_rod',
+	'vintageimprovements:nethersteel_rod',
+	'vintageimprovements:queens_slime_rod',
+	'vintageimprovements:slimesteel_rod',
+	'vintageimprovements:calorite_wire',
+	'vintageimprovements:ostrum_wire',
+	'vintageimprovements:desh_wire',
+	'vintageimprovements:queens_slime_wire',
+	'vintageimprovements:slimesteel_wire',
+	'vintageimprovements:nethersteel_wire',
+	'vintageimprovements:calorite_spring',
+	'vintageimprovements:ostrum_spring',
+	'vintageimprovements:desh_spring',
+	'vintageimprovements:nethersteel_spring',
+	'vintageimprovements:queens_slime_spring',
+	'vintageimprovements:slimesteel_spring',
+	'vintageimprovements:shadow_steel_spring',
+	'vintageimprovements:small_calorite_spring', 
+	'vintageimprovements:small_ostrum_spring',
+	'vintageimprovements:small_desh_spring',
+	'vintageimprovements:small_queens_slime_spring',
+	'vintageimprovements:small_slimesteel_spring',
+	'vintageimprovements:small_shadow_steel_spring',
+	'vintageimprovements:small_nethersteel_spring',
+	'immersiveengineering:plate_copper', 
+	'immersiveengineering:plate_aluminum',
+	'immersiveengineering:plate_gold',
+	'immersiveengineering:plate_iron',
+	'immersiveengineering:plate_constantan',
+	'immersiveengineering:plate_uranium',
+	'immersiveengineering:plate_nickel',
+	'immersiveengineering:plate_silver',
+	'immersiveengineering:plate_lead',
+	'thermal:iron_plate',
+	'thermal:gold_plate',
+	'thermal:copper_plate',
+	'thermal:tin_plate',
+	'thermal:lead_plate',
+	'thermal:silver_plate',
+	'thermal:netherite_plate',
+	'thermal:nickel_plate',
+	'thermal:enderium_plate',
+	'thermal:lumium_plate',
+	'thermal:signalum_plate',
+	'thermal:constantan_plate',
+	'thermal:invar_plate',
+	'thermal:electrum_plate',
+	'thermal:bronze_plate',
+	'thermal:rose_gold_plate']
+
 ServerEvents.recipes(event => {
+
+	event.remove({output:[global.nukelist]})
+	event.remove({input:[global.nukelist]})
   
 	event.remove({id:"enigmaticlegacy:infernal_shield"})
 	event.remove({id:"alexsmobs:shield_of_the_deep"})
@@ -138,7 +274,31 @@ ServerEvents.recipes(event => {
 	}
 
 	rods("copper","kubejs:copper_rod")
+	rods("gold","kubejs:gold_rod")
 	rods("iron","immersiveengineering:stick_iron")
+	rods("stainless_steel","immersiveengineering:stick_steel")
+	rods("aluminum",'vintageimprovements:aluminum_rod')
+	rods("andesite_alloy","vintageimprovements:andesite_rod")
+	rods("bronze","vintageimprovements:bronze_rod")
+	rods("constantan","vintageimprovements:constantan_rod")
+	rods("enderium","vintageimprovements:enderium_rod")
+	rods("invar","vintageimprovements:invar_rod")
+	rods("ironwood","vintageimprovements:ironwood_rod")
+	rods("knightmetal","vintageimprovements:knightmetal_rod")
+	rods("lead","vintageimprovements:lead_rod")
+	rods("lumium","vintageimprovements:lumium_rod")
+	rods("netherite","vintageimprovements:netherite_rod")
+	rods("nickel","vintageimprovements:nickel_rod")
+	rods("rose_gold","vintageimprovements:rose_gold_rod")
+	rods("signalum","vintageimprovements:signalum_rod")
+	rods("silver","vintageimprovements:silver_rod")
+	rods("steel","vintageimprovements:steel_rod")
+	rods("tin","vintageimprovements:tin_rod")
+
+	rods("uranium","vintageimprovements:uranium_rod")
+	rods("vanadium","vintageimprovements:vanadium_rod")
+	rods("zinc","vintageimprovements:zinc_rod")
+	
 	//-------------------Plates---------------------
 
 	function PlatesOnetoOne(inputItem,outputItem, inputBlock)
@@ -306,68 +466,84 @@ ServerEvents.recipes(event => {
 		event.recipes.naturesaura.altar(Item.of(outputItem,5),inputBlock,500,100)
 	}
 
-	/*hammering("minecraft:copper_block","create:copper_sheet", 3)
-	hammering("minecraft:iron_block","create:iron_sheet", 3)
-	hammering("minecraft:gold_block","create:golden_sheet", 3)
-	hammering("create:brass_block","create:brass_sheet",3)
-
-	hammering("thermal:tin_block","vintageimprovements:tin_sheet", 3)
-	hammering("thermal:silver_block","vintageimprovements:silver_sheet", 3)
-	hammering("thermal:lead_block","vintageimprovements:lead_sheet", 3)
-	hammering("thermal:nickel_block","vintageimprovements:nickel_sheet", 3)
-	hammering("thermal:bronze_block","vintageimprovements:bronze_sheet", 3)
-
-	hammering("minecraft:diamond_block","kubejs:diamond_plate", 3)
-	hammering("kubejs:inert_alloy_block","kubejs:inert_alloy_plate", 3)
-	hammering("kubejs:arcane_alloy_block","kubejs:arcane_alloy_plate", 3)*/
-
 	PlatesOnetoOne("forge:treated_wood", "kubejs:wooden_plate", "immersiveengineering:treated_wood_horizontal")
 	PlatesOnetoOne("chipped:smooth_stone","kubejs:stone_plate", "minecraft:smooth_stone")
-
-	/*hammering("twilightforest:ironwood_block","vintageimprovements:ironwood_sheet", 3)
-	hammering("twilightforest:steeleaf_block","vintageimprovements:steeleaf_sheet", 3)
-	hammering("twilightforest:knightmetal_block","vintageimprovements:knightmetal_sheet", 3)
-	hammering("twilightforest:fiery_block","vintageimprovements:fiery_sheet", 3)*/
 
 	plates("forge:ingots/arcane_alloy","kubejs:arcane_alloy_plate","kubejs:arcane_alloy_block")
 	plates("forge:ingots/inert_alloy","kubejs:inert_alloy_plate","kubejs:inert_alloy_block")
 	plates("forge:gems/diamond","kubejs:diamond_plate","minecraft:diamond_block")
 	
+	plates("forge:ingots/ironwood","vintageimprovements:ironwood_sheet","twilightforest:ironwood_block")
+	plates("forge:ingots/knightmetal","vintageimprovements:knightmetal_sheet","twilightforest:knightmetal_block")
+	plates("forge:ingots/fiery","vintageimprovements:fiery_sheet","twilightforest:fiery_block")
+
+	plates("forge:ingots/tin","vintageimprovements:tin_sheet","thermal:tin_block")
+	plates("forge:ingots/silver","vintageimprovements:silver_sheet","thermal:silver_block")
+	plates("forge:ingots/lead","vintageimprovements:lead_sheet","thermal:lead_block")
+	plates("forge:ingots/nickel","vintageimprovements:nickel_sheet","thermal:nickel_block")
+	plates("forge:ingots/bronze","vintageimprovements:bronze_sheet","thermal:bronze_block")
+
+	plates("forge:ingots/uranium",'vintageimprovements:uranium_sheet','immersiveengineering:storage_steel')
+	plates("forge:ingots/stainless_steel",'immersiveengineering:plate_steel',"immersiveengineering:storage_steel")
+	plates("forge:ingots/steel","thermal:steel_plate","thermal:steel_block")
+	plates("forge:ingots/electrum","immersiveengineering:plate_electrum","thermal:electrum_block")
+
+	plates("forge:ingots/constantan",'vintageimprovements:constantan_sheet',"thermal:constantan_block")
+	plates("forge:ingots/enderium",'vintageimprovements:enderium_sheet','thermal:enderium_block')
+	plates("forge:ingots/invar",'vintageimprovements:invar_sheet',"thermal:invar_block")
+	plates("forge:ingots/lumium",'vintageimprovements:lumium_sheet',"thermal:lumium_block")
+	plates("forge:ingots/rose_gold",'vintageimprovements:rose_gold_sheet',"thermal:rose_gold_block")
+	plates("forge:ingots/signalum",'vintageimprovements:signalum_sheet',"thermal:signalum_block")
+	plates("forge:ingots/zinc",'vintageimprovements:zinc_sheet',"create:zinc_block")
+	plates("forge:ingots/vanadium",'vintageimprovements:vanadium_sheet',"vintageimprovements:vanadium_block")
+
+	plates("forge:ingots/aluminum",'vintageimprovements:aluminum_sheet',"immersiveengineering:storage_aluminum")
+	plates("forge:ingots/andesite_alloy",'vintageimprovements:andesite_sheet','create:andesite_alloy_block')
+	plates("forge:ingots/copper","create:copper_sheet","minecraft:copper_block")
+	plates("forge:ingots/iron","create:iron_sheet","minecraft:iron_block")
+	plates("forge:ingots/gold","create:golden_sheet","minecraft:gold_block")
+	plates("forge:ingots/netherite","vintageimprovements:netherite_sheet","minecraft:netherite_block")
+	plates("forge:ingots/brass","create:brass_sheet","create:brass_block")
+
+	let RemoveById = ["thermal:compat/immersiveengineering/press_ie_steel_ingot_to_plate",
+		"vintageimprovements:pressing/uranium_ingot",
+		"immersiveengineering:metalpress/plate_uranium",
+		"thermal:compat/immersiveengineering/press_ie_uranium_ingot_to_plate",
+		"create:pressing/gold_ingot",
+		"thermal:machines/press/press_gold_ingot_to_plate",
+		"immersiveengineering:metalpress/plate_brass",
+		"vintageimprovements:pressing/nickel_ingot",
+		"vintageimprovements:pressing/rose_gold_ingot",
+		"vintageimprovements:pressing/signalum_ingot",
+		"vintageimprovements:pressing/vanadium_ingot",
+		"create:pressing/copper_ingot",
+		"create:pressing/brass_ingot",
+		"create:pressing/iron_ingot",
+		"vintageimprovements:pressing/bronze_ingot",
+		"vintageimprovements:pressing/constantan_ingot",
+		"vintageimprovements:pressing/enderium_ingot",
+		"vintageimprovements:pressing/fiery_ingot",
+		"vintageimprovements:pressing/invar_ingot",
+		"vintageimprovements:pressing/ironwood_ingot",
+		"vintageimprovements:pressing/knightmetal_ingot",
+		"vintageimprovements:pressing/lead_ingot",
+		"vintageimprovements:pressing/lumium_ingot",
+		"vintageimprovements:pressing/silver_ingot",
+		"vintageimprovements:pressing/tin_ingot",
+		"immersiveengineering:metalpress/plate_zinc",
+		"vintageimprovements:pressing/andesite_alloy",
+		"thermal:compat/immersiveengineering/press_ie_aluminum_ingot_to_plate",
+		"immersiveengineering:metalpress/plate_steel",
+		"immersiveengineering:metalpress/plate_silver",
+		"thermal:machines/press/press_netherite_ingot_to_plate",
+		"immersiveengineering:metalpress/plate_electrum",
+		"vintageimprovements:hammering/netherite_ingot"]
 	
-	
-	/*
-	plates("forge:ingots/ironwood","vintageimprovements:ironwood_sheet")
-	plates("forge:ingots/knightmetal","vintageimprovements:knightmetal_sheet")
-	plates("forge:ingots/fiery","vintageimprovements:fiery_sheet")
-	plates("forge:ingots/tin","vintageimprovements:tin_sheet")
-	
-	plates("forge:ingots/silver","vintageimprovements:silver_sheet")
-	plates("forge:ingots/lead","vintageimprovements:lead_sheet")
-	plates("forge:ingots/nickel","vintageimprovements:nickel_sheet")
-	plates("forge:ingots/bronze","vintageimprovements:bronze_sheet")
-
-	plates("forge:ingots/copper","create:copper_sheet")
-
-	plates("forge:ingots/iron","create:iron_sheet")
-
-	plates("forge:ingots/gold","create:golden_sheet")
-
-	plates("forge:ingots/brass","create:brass_sheet")*/
-
-	event.remove([{id:"create:pressing/gold_ingot"},{id:"thermal:machines/press/press_gold_ingot_to_plate"},{id:"immersiveengineering:metalpress/plate_brass"}])
-
-	VintagePlates.forEach(material => {
-		event.replaceOutput({output:'#forge:plates/'+material},'#forge:plates/'+material,'vintageimprovements:'+material+'__sheet')
-		event.shapeless('vintageimprovements:'+material+'_sheet','#forge:plates/'+material)	
+	RemoveById.forEach(id => {
+		event.remove({id:id})
 	});
+	
 
-	CreatePlates.forEach(material => {
-		event.replaceOutput({output:'#forge:plates/'+material},'#forge:plates/'+material,'create:'+material+'__sheet')
-		event.shapeless('create:'+material+'_sheet','#forge:plates/'+material)	
-	});
-		 // ofc gold is different
-		event.replaceOutput({output:'#forge:plates/gold'},'#forge:plates/gold','create:golden_sheet')
-		event.shapeless('create:golden_sheet','#forge:plates/gold')	
 
 	//-------------------Coins---------------------
 	event.shapeless('thermal:silver_coin', ['9x thermal:copper_coin'])

@@ -1265,9 +1265,21 @@ Patch 0.3.2.1
 
  Patch 0.8 
 
+ ### Removed Mods:
+    -Cogs of Carminite
+    -Create Deco
+    -Create things&misc
+    -Create Design n'Decor
+    -Create Steam'n'Rails
+    -Create Bells & Whistles
+    -Create Stuff & Additions
+    -Create Slice & Dice
+    -Create Crafts & Additions
+
  ### Recipes:
     -Added for the Blade of Grass
     -Changed for coke brick
+    -Changed and added tons of recipes of plates, rods and gears
 
  ### New Items:
     -Sapphire Block
@@ -1294,6 +1306,7 @@ Patch 0.3.2.1
     -Lead Shovel
     -Zinc Tool Handle
     -Copper Rod
+    -Gold Rod
     -Lead Helmet
     -Lead Chestplate
     -Lead Leggings

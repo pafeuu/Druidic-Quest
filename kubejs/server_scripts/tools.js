@@ -1389,7 +1389,7 @@ ServerEvents.recipes(event => {
 			},
 			
 			{
-				"item": "minecraft:gold_sword"
+				"item": "minecraft:golden_sword"
 			},
 			{
 				"item": "skeleton_skull"
@@ -2134,7 +2134,7 @@ ServerEvents.recipes(event => {
                 // This is the item you wish to upgrade. If it contains a custome name or enchantment it will transfer it to the upgrade.
                 Item.of('minecraft:diamond_'+id).ignoreNBT(), 
                 // This can be any item perf the material you with to upgrade to.
-                'thermal:netherite_plate'
+                '#forge:plates/netherite'
         )
 
 		event.smithing(

@@ -97,7 +97,8 @@ ItemEvents.tooltip( tooltip => {
   tooltip.add("create_sa:heap_of_experience",Text.green("Grants 12 experience points!"))
   tooltip.add("forbidden_arcanus:xpetrified_orb",[Text.green("Grants random amount of experience points!"),Text.blue("Crafting ingredient")])
 
-
+  
+  tooltip.add([global.nukelist],[Text.red("Item disabled"),Text.red("Report to the modpack dev if you got this")])
   tooltip.add("kubejs:recipe_changed",Text.red("This recipe has been changed! Check EMI for more information!"))
 
   tooltip.add("aether:agility_cape",[Text.gold("When on back:"),Text.blue("+0.5 step height")])
