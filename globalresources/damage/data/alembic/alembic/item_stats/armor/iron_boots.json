@@ -1,0 +1,20 @@
+{
+  "id": "minecraft:iron_boots",
+  "modifiers": [
+    {
+      "type": "append",
+      "attribute": "minecraft:generic.movement_speed",
+      "value": -0.001,
+      "operation": "ADDITION",
+      "uuid": "9c0a0440-af55-4d53-a63a-5c7d0e3c1b05"
+    },
+    {
+      "type": "append",
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 0.10,
+      "operation": "ADDITION",
+      "uuid": "9c0a0440-af55-4333-a63a-5c7d0e3c1b05"
+    }
+  ],
+  "equipment_slot": "FEET"
+}
