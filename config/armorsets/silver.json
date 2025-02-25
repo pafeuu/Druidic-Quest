@@ -24,7 +24,7 @@
       "value": 0.15,
       "modifierUUID": "d5a7dc88-9435-4398-b1e5-250b4c6dd218",
       "description": "15% faster sprinting speed",
-      "attributeOperation": 0,
+      "attributeOperation": 2,
       "interactionType": "self",
       "interactionDuration": 300,
       "hideBonusDescription": false,

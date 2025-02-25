@@ -1313,6 +1313,7 @@ Patch 0.3.2.1
 
  ### Added Mods:
     -
+
  ### Removed Mods:
     -Cogs of Carminite
     -Create Deco
@@ -1367,6 +1368,8 @@ Patch 0.3.2.1
     -Silver Chestplate
     -Silver Leggings
     -Silver Boots
+    -Primitive Shield
+    -Primitive Shears
 
  ### Balance:
     -Buffed flower crown but it cant be put in the curio slots anymore
@@ -1374,5 +1377,20 @@ Patch 0.3.2.1
     -Replaced zinc armor set bonus with silver armor set bonus and replaced mining speed with sprinting speed
     -Replaced brass armor set bonus with lead armor set bonus
 
- ### Textures:
-    -Changed for infused Sapphire
+ ### Changed Textures:
+    -Infused Sapphire
+    -Diamond Pickaxe
+    -Diamond Shovel
+    -Diamond Axe
+    -Diamond Hoe
+    -Diamond Sword
+    -Golden Pickaxe
+    -Golden Shovel
+    -Golden Axe
+    -Golden Hoe
+    -Golden Sword
+    -Gold Upgrade Parts
+    -All the crafting stations on a stick
+
+ ### Other:
+    -Fixed ars nouveau guide book error

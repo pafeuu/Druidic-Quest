@@ -485,7 +485,16 @@ ServerEvents.recipes(event => {
 			P: "#forge:plates/arcane_alloy",
 			Y: "#forge:plates/gold"
 		}
-	).id("ars_nouveau:enchanters_shield")
+	)
+
+	event.recipes.ars_nouveau.enchanting_apparatus(
+        [
+            "kubejs:recipe_changed"
+        ], 
+	    "kubejs:recipe_change", // reagent
+	    "ars_nouveau:enchanters_shield", // output
+	    1000
+	).id("ars_nouveau:enchanters_shield");
 
 	///=============================================================== Tier 0 Tools ==========================================================
 

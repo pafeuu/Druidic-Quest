@@ -1,3 +1,7 @@
+const $ShearsItem = Java.loadClass('net.minecraft.world.item.ShearsItem')
+const $ShieldItem = Java.loadClass('net.minecraft.world.item.ShieldItem')
+const $ItemProperties = Java.loadClass('net.minecraft.world.item.Item$Properties')
+
 ItemEvents.toolTierRegistry(event => {
 
   event.add('royal', tier => {
@@ -104,6 +108,7 @@ ItemEvents.armorTierRegistry(event => {
     tier.knockbackResistance = 0.1
   })
 })
+
 StartupEvents.registry('item', item => {
   
   ///===================================================PLATES===========================================================
@@ -262,6 +267,11 @@ StartupEvents.registry('item', item => {
   item.create('mining_hammer','pickaxe').tier('hammer').tag("minecraft:tools").tag('forge:tools/hammers').tag("druidic_quest:tier2/tool")
   item.create('the_terraformer','shovel').glow(true).rarity("epic").tier("terraformer").tag("minecraft:tools").tag("druidic_quest:tier2/tool")
   item.create('basic_chisel').maxDamage(128).tag("forge:tools/chisels").tag("druidic_quest:tier2/tool")
+
+  item.createCustom('primitive_shears',() => new $ShearsItem(new $ItemProperties().defaultDurability(8)))
+
+  item.createCustom('primitive_shield', () => new $ShieldItem(new $ItemProperties().defaultDurability(128)))
+
   item.create('brick_glue').maxDamage(96)
 
   ///==========================================================ARMOR====================================================
