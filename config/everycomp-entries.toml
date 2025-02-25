@@ -4,9 +4,6 @@
 
 	[types.cake]
 
-		[types.cake.enigmaticlegacy]
-			cosmic_cake = true
-
 		[types.cake.mynethersdelight]
 			magma_cake = true
 

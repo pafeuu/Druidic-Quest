@@ -73,6 +73,9 @@
   "lootr": {
     "info": true
   },
+  "balm": {
+    "jade": true
+  },
   "ars_nouveau": {
     "mob_jar": true
   },

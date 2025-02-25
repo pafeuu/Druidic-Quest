@@ -1263,8 +1263,56 @@ Patch 0.3.2.1
     -Fixed Stainless Steel Tags
 
 
- Patch 0.8 
+ Patch 0.8
+  
+ ### Updated Mods:
+    -Drippy Loading Screen
+    -FancyMenu
+    -AdvancmentPlaque
+    -Amendments
+    -AStages
+    -Balm
+    -BiomeMusic
+    -ChatHeads
+    -Collective
+    -Create: Copycats+
+    -Curios API
+    -e4mc
+    -EntityJS
+    -EveryCompat
+    -farmersdelight
+    -XaeroMinimap
+    -XaeroWorldMap
+    -FTBChunks
+    -FTBLibrary
+    -FTBquest
+    -Fusion
+    -FzzyConfig
+    -immersiveengineering
+    -IntegratedAPI
+    -JustEnoughtEffectDescription
+    -LithoStitched
+    -LycheeTweaker
+    -ModernUI
+    -MoonlightLib
+    -Neko'sEnchantedBooks
+    -Patchouli
+    -PufferfishAttributes
+    -ResourcefulLib
+    -RubinatedNether
+    -SophisticatedMods
+    -Rhino
+    -StructureEssential
+    -Supplementaries
+    -Villager names
+    -Waystones
+    -Aether
+    -Aether: Redux
+    -Ancient Aether
+    -Deep Aether
 
+ ### Added Mods:
+    -
  ### Removed Mods:
     -Cogs of Carminite
     -Create Deco
