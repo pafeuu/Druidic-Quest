@@ -1460,7 +1460,7 @@ ServerEvents.recipes(event => {
 	})
 
 	event.recipes.ars_nouveau.enchanting_apparatus(
-		["#forge:rods/invar","blaze_rod","#forge:storage_blocks/coal_coke","#forge:storage_blocks/coal_coke"],
+		["kubejs:zinc_tool_handle","blaze_rod","#forge:storage_blocks/coal_coke","#forge:storage_blocks/coal_coke"],
 		"twilightforest:liveroot",
 		"kubejs:carbon_infused_sturdy_handle",
 		1000
@@ -2110,10 +2110,12 @@ ServerEvents.recipes(event => {
 		  {item: "minecraft:leather"},
 		  {item: "minecraft:string"},
 		  {item: "naturesaura:ancient_stick"},
-		  {item: "immersiveengineering:stick_treated"},
+		  {tag: "forge:ingots/zinc"},
+		  {tag: "forge:ingots/zinc"},
+		  {tag: "forge:ingots/zinc"}
 		],
 		"reagent": [
-		  {tag: "forge:rods/zinc"}
+		  {item: 'immersiveengineering:stick_treated'}
 		],
 		"sourceCost": 0
 	})

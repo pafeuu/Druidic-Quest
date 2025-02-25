@@ -1280,7 +1280,6 @@ Patch 0.3.2.1
     -Added for the Blade of Grass
     -Changed for coke brick
     -Changed and added tons of recipes of plates, rods and gears
-    -Changed for carbon infused sturdy handle
 
  ### New Items:
     -Sapphire Block
