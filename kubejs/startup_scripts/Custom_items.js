@@ -185,6 +185,7 @@ StartupEvents.registry('item', item => {
   item.create('lesser_ender_ring').displayName("Lesser Ender Magic Ring").unstackable().tag("curios:ring")
   item.create('lesser_holy_ring').displayName("Lesser Holy Magic Ring").unstackable().tag("curios:ring")
   item.create("ring_travel").displayName("Ring of Costly Travel").unstackable().tag("curios:ring")
+  item.create("daybloom_ring").unstackable().tag("curios:ring")
 
   ///====================================================BELTS==========================================================
 

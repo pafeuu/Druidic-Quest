@@ -37,3 +37,7 @@ fancymenu_data/last_world.fmdata
 config/oculus.properties
 config/everycomp-hazardous.properties
 .mixin.out/class/net/minecraft/client/sounds/MusicManager.class
+.mixin.out/class/net/minecraft/client/sounds/MusicManager.class
+config/oculus.properties
+config/xaerominimap_entities.json
+config/everycomp-hazardous.properties

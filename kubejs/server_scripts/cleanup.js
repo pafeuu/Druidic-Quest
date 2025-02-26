@@ -203,7 +203,10 @@ global.nukelist = ["twigs:calcite_wall",
 	'thermal:ruby_gear',
 	'thermal:quartz_gear',
 	'thermal:emerald_gear',
-	'thermal:lapis_gear']
+	'thermal:lapis_gear',
+	'effortlessbuilding:muscles', 
+	'effortlessbuilding:elastic_hand', 
+	'effortlessbuilding:building_techniques_book']
 
 ServerEvents.recipes(event => {
 

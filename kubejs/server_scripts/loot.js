@@ -1,6 +1,10 @@
 
 LootJS.modifiers((event) => {
     
+    ///================================ Removing ===================================
+
+    event.addLootTableModifier([LootType.CHEST])
+        .removeLoot(/.*effortless.*/)
   
     ///=======================================Replacing Junk
 
@@ -289,10 +293,7 @@ LootJS.modifiers((event) => {
     event.addBlockLootModifier("kubejs:charged_copper_block")
         .replaceLoot("kubejs:charged_copper_block","minecraft:copper_block")
     
-    //-------------------------------------------------GAMEPLAY
 
-    event.addLootTableModifier("minecraft:gameplay/sniffer_digging")
-        .addLoot("minecraft:gunpowder");
 
 
    

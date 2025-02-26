@@ -58,7 +58,7 @@ ItemEvents.tooltip( tooltip => {
                "kubejs:metal_crucifix",
                "kubejs:bejeweled_crucifix",
                "kubejs:penguin_totem",
-               "kubejs:bear_totem"],Text.gray("Works only in the offhand"))
+               "kubejs:bear_totem","#forge:tools/totem"],Text.gray("Works only in the offhand"))
 
   //=========================================== Upgrading =============================================
   

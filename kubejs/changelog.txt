@@ -1380,6 +1380,7 @@ Patch 0.3.2.1
     -Replaced brass armor set bonus with lead armor set bonus
     -Nerfed the roadrunner totem
     -Changed copper and diamond armor set bonus
+    -Balanced effortless building upgrades
 
  ### Changed Textures:
     -Infused Sapphire
@@ -1399,3 +1400,5 @@ Patch 0.3.2.1
  ### Other:
     -Fixed ars nouveau guide book error
     -Fixed raising difficulty quests
+    -Removed effortless building items from loot chests
+    -Dummy recipes for patchouli books are now hidden in JEI

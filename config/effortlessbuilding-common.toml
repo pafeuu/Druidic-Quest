@@ -8,11 +8,11 @@
 	#Range: 0 ~ 1000
 	reachLevel0 = 0
 	#Range: 0 ~ 1000
-	reachLevel1 = 8
+	reachLevel1 = 1
 	#Range: 0 ~ 1000
-	reachLevel2 = 16
+	reachLevel2 = 2
 	#Range: 0 ~ 1000
-	reachLevel3 = 32
+	reachLevel3 = 3
 
 [MaxBlocksPlacedAtOnce]
 	#How many blocks can be placed in one click.

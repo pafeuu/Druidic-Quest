@@ -498,6 +498,23 @@ ServerEvents.recipes(event => {
 
 	///=============================================================== Tier 0 Tools ==========================================================
 
+	let categories = global.jeiRuntime.recipeManager.createRecipeCategoryLookup().get().toList()
+	categories.forEach(category =>{
+    console.log(category.getRecipeType().getUid());
+    
+	})
+	event.shaped("kubejs:primitive_spear",
+		[
+			" E ",
+			"BXB",
+			" E "
+		],
+		{
+			F: "minecraft:flint",
+			S: "minecraft:stick"
+		}
+	)
+
 	event.shaped("kubejs:primitive_spear",
 		[
 			"  F",
@@ -588,6 +605,8 @@ ServerEvents.recipes(event => {
 		  X: "quark:trowel"
 		}
 	  )
+
+	
 	event.remove({output:"immersiveengineering:armor_faraday_helmet"})
 	event.remove({output:"immersiveengineering:armor_faraday_chestplate"})
 	event.remove({output:"immersiveengineering:armor_faraday_leggings"})
@@ -1091,7 +1110,31 @@ ServerEvents.recipes(event => {
 
 	/// ======================================================================= Tier 1 Tools ============================================================================
 
-	
+	event.shaped(
+		Item.of('effortlessbuilding:golden_randomizer_bag'), 
+		[
+		  'FFF',
+		  'FXF', 
+		  'FFF'
+		],
+		{
+		  F: '#forge:plates/gold',
+		  X: "effortlessbuilding:randomizer_bag"
+		}
+	  )
+	event.shaped(
+		Item.of('effortlessbuilding:diamond_randomizer_bag'), 
+		[
+		  'FFF',
+		  'FXF', 
+		  'FFF'
+		],
+		{
+		  F: '#forge:plates/diamond',
+		  X: "effortlessbuilding:golden_randomizer_bag"
+		}
+	  )
+
 	simplearmor("#forge:plates/copper","kubejs:copper_helmet","kubejs:copper_chestplate","kubejs:copper_leggings","kubejs:copper_boots")
 	simplearmor("#forge:plates/lead","kubejs:lead_helmet","kubejs:lead_chestplate","kubejs:lead_leggings","kubejs:lead_boots")
 	simplearmor("#forge:plates/silver","kubejs:silver_helmet","kubejs:silver_chestplate","kubejs:silver_leggings","kubejs:silver_boots")
