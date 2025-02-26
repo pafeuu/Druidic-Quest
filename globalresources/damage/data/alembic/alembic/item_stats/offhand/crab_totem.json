@@ -1,0 +1,13 @@
+{
+  "id": "kubejs:crab_totem",
+  "modifiers": [
+    {
+      "type": "append",
+      "attribute": "forge:block_reach",
+      "value": 1.5,
+      "operation": "ADDITION",
+      "uuid": "d606a1f2-e737-4755-a766-6f183335fb3f"
+    }
+  ],
+  "equipment_slot": "OFFHAND"
+}

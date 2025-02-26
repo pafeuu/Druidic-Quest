@@ -1370,12 +1370,16 @@ Patch 0.3.2.1
     -Silver Boots
     -Primitive Shield
     -Primitive Shears
+    -Crab totem
+    -Leafcutter Ant Totem
 
  ### Balance:
     -Buffed flower crown but it cant be put in the curio slots anymore
     -Removed Mechanical armor set bonus
     -Replaced zinc armor set bonus with silver armor set bonus and replaced mining speed with sprinting speed
     -Replaced brass armor set bonus with lead armor set bonus
+    -Nerfed the roadrunner totem
+    -Changed copper and diamond armor set bonus
 
  ### Changed Textures:
     -Infused Sapphire
@@ -1394,3 +1398,4 @@ Patch 0.3.2.1
 
  ### Other:
     -Fixed ars nouveau guide book error
+    -Fixed raising difficulty quests

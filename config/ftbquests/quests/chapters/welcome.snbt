@@ -627,7 +627,7 @@
 		{
 			dependencies: ["23878BB2C97470D0"]
 			description: [
-				"The  pack is still very much in development as a thank you gift you can choose a totem!"
+				"As you might have already realized a lot of player attributes are nerfed you can choose a custom totem to negate one of those nerfs."
 				""
 				"Totems are new items custom made for the pack they will give you special effects when hold in the offhand"
 			]
@@ -651,7 +651,7 @@
 				id: "5F284D7BA9296A55"
 				type: "checkmark"
 			}]
-			title: "Thank you for playing the pack!"
+			title: "Nerfed Player"
 			x: 0.0d
 			y: 2.5d
 		}

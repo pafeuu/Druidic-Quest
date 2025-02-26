@@ -8,7 +8,7 @@
 	hide_quest_details_until_startable: true
 	hide_quest_until_deps_complete: true
 	hide_quest_until_deps_visible: true
-	icon: "createdeco:netherite_coinstack"
+	icon: { Count: 64, id: "thermal:gold_coin" }
 	id: "37D0225A9D849EF0"
 	images: [
 		{
@@ -405,7 +405,7 @@
 		}
 		{
 			height: 1.5d
-			image: "railways:block/palettes/white/slashed"
+			image: "immersiveengineering:block/metal/storage_silver"
 			rotation: 0.0d
 			width: 1.5d
 			x: -1.0d
@@ -448,7 +448,7 @@
 				""
 				"&2&lMore stuff in stock soon!&r&r"
 			]
-			icon: "createdeco:netherite_coinstack"
+			icon: { Count: 64, id: "thermal:gold_coin" }
 			id: "72A4177F6B3E06F9"
 			shape: "hexagon"
 			size: 2.0d
@@ -835,7 +835,7 @@
 				"72A4177F6B3E06F9"
 				"23302F77050C32C5"
 			]
-			icon: "createdeco:gold_coinstack"
+			icon: { Count: 64, id: "thermal:netherite_coin" }
 			id: "5B05D16DC73F943E"
 			rewards: [{
 				exclude_from_claim_all: true

@@ -14,19 +14,24 @@
 				{
 					auto: "invisible"
 					command: "/tellraw @p [\"\",{\"text\":\"You feel something watching from the shadows...\",\"italic\":true,\"color\":\"#DA2D2F\"},{\"text\":\" \"}]"
+					elevate_perms: true
 					id: "2021C51B00EB9F77"
 					type: "command"
 				}
 				{
 					auto: "invisible"
 					command: "/tellraw @p [\"\",{\"text\":\"Difficulty has been raised!\",\"bold\":true,\"color\":\"#DA2D2F\"},{\"text\":\" \"}]"
+					elevate_perms: true
 					id: "050B9A1F12DACD35"
+					silent: true
 					type: "command"
 				}
 				{
 					auto: "no_toast"
 					command: "/improvedmobs difficulty player @p add 10"
+					elevate_perms: true
 					id: "7B0A7910A407C42B"
+					silent: true
 					type: "command"
 				}
 			]

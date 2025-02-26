@@ -39,10 +39,10 @@
     {
       "type": "attribute",
       "name": "puffish_attributes:player.axe_speed",
-      "value": 2,
-      "modifierUUID": "d5a5dc88-9305-4393-b1e5-250b4c62d438",
+      "value": 1,
+      "modifierUUID": "d5a5dc88-9305-4773-b1e5-250b4c62d438",
       "description": "100% faster axe speed",
-      "attributeOperation": 0,
+      "attributeOperation": 2,
       "interactionType": "self",
       "interactionDuration": 300,
       "hideBonusDescription": false,

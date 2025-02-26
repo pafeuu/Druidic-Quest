@@ -205,6 +205,7 @@ StartupEvents.registry('item', item => {
   item.create('penguin_totem').unstackable().tag("forge:tools/totems")
   item.create('bear_totem').unstackable().tag("forge:tools/totems")
   item.create('crab_totem').unstackable().tag("forge:tools/totems")
+  item.create('leafcutter_ant_totem').unstackable().tag("forge:tools/totems")
 
   item.create('wooden_crucifix').unstackable().tag("forge:tools/totems")
   item.create('metal_crucifix').unstackable().tag("forge:tools/totems")

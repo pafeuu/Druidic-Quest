@@ -1,0 +1,13 @@
+{
+  "id": "kubejs:leafcutter_ant_totem",
+  "modifiers": [
+    {
+      "type": "append",
+      "attribute": "puffish_attributes:player.axe_speed",
+      "value": 0.5,
+      "operation": "MULTIPLY_TOTAL",
+      "uuid": "d606a1f2-e737-4335-a766-6f181265fb3f"
+    }
+  ],
+  "equipment_slot": "OFFHAND"
+}

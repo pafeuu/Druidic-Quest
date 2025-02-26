@@ -4,7 +4,7 @@
     {
       "type": "append",
       "attribute": "generic.movement_speed",
-      "value": 0.15,
+      "value": 0.10,
       "operation": "MULTIPLY_TOTAL",
       "uuid": "d606a1f2-e737-4755-a766-6f181265fb3f"
     }
