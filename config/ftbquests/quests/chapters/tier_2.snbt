@@ -77,7 +77,7 @@
 			tasks: [{
 				count: 3L
 				id: "667FFA0BC9E955D8"
-				item: "create_sa:zinc_handle"
+				item: "kubejs:zinc_tool_handle"
 				type: "item"
 			}]
 			title: "New equipment opportunity"
@@ -1121,15 +1121,7 @@
 			description: [
 				"Crafting of the &5&lMagical Generator Block&r&r might look complicated at first but dont be afraid!"
 				""
-				"{image:kubejs:textures/magical_generator_crafting.png width:100 height:100 align:center}"
-				""
-				"Place a 3x3 structure using Inert Alloy and Arcane Alloy Blocks like shown above."
-				""
-				"Then drop Lemon Quartz item in the middle and cause lightning to strike  it!"
-				""
-				"I A I                A: Arcane Alloy Block"
-				"AAA                I : Inert Alloy Block"
-				"I A I"
+				"Just hold W while hovering over the item to watch ponder about the craft"
 			]
 			id: "2C1867470E747C94"
 			shape: "rsquare"

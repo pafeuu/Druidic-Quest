@@ -23,11 +23,10 @@
 					command: "/tellraw @p [\"\",{\"text\":\"Difficulty has been raised!\",\"bold\":true,\"color\":\"#DA2D2F\"},{\"text\":\" \"}]"
 					elevate_perms: true
 					id: "050B9A1F12DACD35"
-					silent: true
 					type: "command"
 				}
 				{
-					auto: "no_toast"
+					auto: "invisible"
 					command: "/improvedmobs difficulty player @p add 10"
 					elevate_perms: true
 					id: "7B0A7910A407C42B"
@@ -50,13 +49,23 @@
 				{
 					auto: "invisible"
 					command: "/tellraw @p [\"\",{\"text\":\"You hear horrible screams coming from the underground...\",\"italic\":true,\"color\":\"#DA2D2F\"},{\"text\":\" \"}]"
+					elevate_perms: true
 					id: "0A172B252F38B40A"
 					type: "command"
 				}
 				{
 					auto: "invisible"
 					command: "/tellraw @p [\"\",{\"text\":\"Difficulty has been raised!\",\"bold\":true,\"color\":\"#DA2D2F\"},{\"text\":\" \"}]"
+					elevate_perms: true
 					id: "31403352950BC7A7"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/improvedmobs difficulty player @p add 10"
+					elevate_perms: true
+					id: "481550F56215B8AD"
+					silent: true
 					type: "command"
 				}
 			]
@@ -75,13 +84,23 @@
 				{
 					auto: "invisible"
 					command: "/tellraw @p [\"\",{\"text\":\"You see divine creatures fighting for the sky\",\"italic\":true,\"color\":\"#DA2D2F\"},{\"text\":\" \"}]"
+					elevate_perms: true
 					id: "3A50656C007965D4"
 					type: "command"
 				}
 				{
 					auto: "invisible"
 					command: "/tellraw @p [\"\",{\"text\":\"Difficulty has been raised!\",\"bold\":true,\"color\":\"#DA2D2F\"},{\"text\":\" \"}]"
+					elevate_perms: true
 					id: "1FB3DAB22F2E7613"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/improvedmobs difficulty player @p add 10"
+					elevate_perms: true
+					id: "70965E494CE1CA18"
+					silent: true
 					type: "command"
 				}
 			]
@@ -100,13 +119,23 @@
 				{
 					auto: "invisible"
 					command: "/tellraw @p [\"\",{\"text\":\"Outer dimension is preparing for a hostile invader\",\"italic\":true,\"color\":\"#DA2D2F\"},{\"text\":\" \"}]"
+					elevate_perms: true
 					id: "579E4F94504559F3"
 					type: "command"
 				}
 				{
 					auto: "invisible"
 					command: "/tellraw @p [\"\",{\"text\":\"Difficulty has been raised!\",\"bold\":true,\"color\":\"#DA2D2F\"},{\"text\":\" \"}]"
+					elevate_perms: true
 					id: "3AE4AD0CBD53E7F6"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/improvedmobs difficulty player @p add 10"
+					elevate_perms: true
+					id: "7B968046CF40D499"
+					silent: true
 					type: "command"
 				}
 			]
@@ -125,13 +154,23 @@
 				{
 					auto: "invisible"
 					command: "/tellraw @p [\"\",{\"text\":\"Otherside grows tired of being kept in the darkness\",\"italic\":true,\"color\":\"#DA2D2F\"},{\"text\":\" \"}]"
+					elevate_perms: true
 					id: "3730F29DAC4C01B2"
 					type: "command"
 				}
 				{
 					auto: "invisible"
 					command: "/tellraw @p [\"\",{\"text\":\"Difficulty has been raised!\",\"bold\":true,\"color\":\"#DA2D2F\"},{\"text\":\" \"}]"
+					elevate_perms: true
 					id: "6F9B6080D52D041C"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/improvedmobs difficulty player @p add 10"
+					elevate_perms: true
+					id: "6A700BE5349575A5"
+					silent: true
 					type: "command"
 				}
 			]

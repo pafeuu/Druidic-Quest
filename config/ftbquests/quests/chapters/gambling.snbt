@@ -6,7 +6,7 @@
 	hide_quest_details_until_startable: true
 	hide_quest_until_deps_complete: true
 	hide_quest_until_deps_visible: true
-	icon: "create_things_and_misc:empty_card"
+	icon: "handcrafted:golden_thick_pot"
 	id: "75AF8F3C27884D46"
 	images: [
 		{
