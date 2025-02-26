@@ -420,15 +420,27 @@
 					type: "item"
 				}
 				{
-					id: "79BF45A5084C6E6C"
+					id: "31F1F936F3E7E8BC"
 					item: {
 						Count: 1
 						id: "ftbfiltersystem:smart_filter"
 						tag: {
-							"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(forge:tools/zinc)"
+							"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(forge:tools/silver)"
 						}
 					}
-					title: "Any #forge:tools/zinc"
+					title: "Any #forge:tools/silver"
+					type: "item"
+				}
+				{
+					id: "7E16043F5A8168BC"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(forge:tools/lead)"
+						}
+					}
+					title: "Any #forge:tools/lead"
 					type: "item"
 				}
 			]

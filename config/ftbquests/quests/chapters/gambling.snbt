@@ -62,6 +62,7 @@
 		}
 		{
 			dependencies: ["62A4387CCE7F7DD9"]
+			description: ["Gamble your gold coin on some stone building blocks"]
 			icon: "minecraft:cobblestone"
 			id: "6ABD193B4AD4BE13"
 			rewards: [{
@@ -90,6 +91,7 @@
 		}
 		{
 			dependencies: ["62A4387CCE7F7DD9"]
+			description: ["Gamble your gold coin on some wood building blocks"]
 			icon: "minecraft:stripped_oak_log"
 			id: "5DBE7E139C917877"
 			rewards: [{
@@ -115,6 +117,7 @@
 		}
 		{
 			dependencies: ["62A4387CCE7F7DD9"]
+			description: ["Gamble your gold coin on some detailing building blocks"]
 			icon: "minecraft:soul_lantern"
 			id: "416372088BAACD13"
 			rewards: [{

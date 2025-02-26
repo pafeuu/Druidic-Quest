@@ -1,4 +1,4 @@
-PlayerEvents.tick(event => {
+/*PlayerEvents.tick(event => {
     let player = event.player;
     
     // Get Curios inventory directly from player
@@ -27,4 +27,4 @@ PlayerEvents.tick(event => {
     } else {
         console.error('Curios component not found for player: ' + player.name);
     }
-});
+});*/

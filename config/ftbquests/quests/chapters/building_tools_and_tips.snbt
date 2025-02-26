@@ -211,6 +211,48 @@
 			x: -8.0d
 			y: 0.5d
 		}
+		{
+			dependencies: [
+				"17A9893D5FDD3F5B"
+				"70FF5891DA236DA4"
+			]
+			id: "62693CF96CA4C6DA"
+			tasks: [{
+				id: "725A7AE9A319B8E1"
+				item: "effortlessbuilding:reach_upgrade1"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"41FA7D0AD437E6FB"
+				"62693CF96CA4C6DA"
+			]
+			id: "13ED6FE81EC3C2A1"
+			tasks: [{
+				id: "542F9135FF107EFB"
+				item: "effortlessbuilding:reach_upgrade2"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"13ED6FE81EC3C2A1"
+				"23D3902848A335F6"
+			]
+			id: "76EF42A8710C9F2A"
+			tasks: [{
+				id: "64374E68EF21F8B7"
+				item: "effortlessbuilding:reach_upgrade3"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 4.5d
+		}
 	]
 	title: "Building tools and tips"
 }

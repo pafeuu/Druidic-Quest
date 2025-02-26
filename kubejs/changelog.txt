@@ -1329,6 +1329,7 @@ Patch 0.3.2.1
     -Added for the Blade of Grass
     -Changed for coke brick
     -Changed and added tons of recipes of plates, rods and gears
+    -Changed recipes for efforless building upgrades
 
  ### New Items:
     -Sapphire Block
@@ -1401,4 +1402,7 @@ Patch 0.3.2.1
     -Fixed ars nouveau guide book error
     -Fixed raising difficulty quests
     -Removed effortless building items from loot chests
+    -Removed Veridium tools
+    -Adjusted early Quests
+    -Added quests for effortless building upgrades
     -Dummy recipes for patchouli books are now hidden in JEI

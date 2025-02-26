@@ -804,7 +804,7 @@
 			}]
 			tasks: [{
 				id: "4894976A688D7818"
-				item: "aether_redux:slider_music_disc"
+				item: "deep_aether:music_disc_cyclone"
 				type: "item"
 			}]
 			x: 5.0d
@@ -877,6 +877,57 @@
 			}]
 			x: -12.5d
 			y: 5.0d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "7A5732F7F0C16B21"
+			rewards: [{
+				count: 3
+				id: "6D715E43AC79EDD9"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4158D51462DF8278"
+				item: "deep_aether:music_disc_above_the_rain"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "79701F775FE3CCB5"
+			rewards: [{
+				count: 3
+				id: "0A19485A5EE7E4CA"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2E30FFF7FD991F3C"
+				item: "deep_aether:music_disc_atta"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "6469987C488CB95D"
+			rewards: [{
+				count: 3
+				id: "02B65871EE61FD68"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6DB1B692F22FAA17"
+				item: "deep_aether:music_disc_himininn"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 3.0d
 		}
 	]
 	title: "Melomaniac"

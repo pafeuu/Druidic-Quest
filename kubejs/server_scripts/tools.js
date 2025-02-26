@@ -498,22 +498,46 @@ ServerEvents.recipes(event => {
 
 	///=============================================================== Tier 0 Tools ==========================================================
 
-	let categories = global.jeiRuntime.recipeManager.createRecipeCategoryLookup().get().toList()
-	categories.forEach(category =>{
-    console.log(category.getRecipeType().getUid());
-    
-	})
-	event.shaped("kubejs:primitive_spear",
+	
+	event.shaped('effortlessbuilding:reach_upgrade1',
 		[
-			" E ",
+			"CEC",
 			"BXB",
-			" E "
+			"CEC"
 		],
 		{
-			F: "minecraft:flint",
-			S: "minecraft:stick"
+			X: "ender_pearl",
+			E: "emerald",
+			C: "farmersdelight:canvas",
+			B: "kubejs:sapling_ball"
 		}
-	)
+	).id("effortlessbuilding:reach_upgrade1")
+
+	event.shaped('effortlessbuilding:reach_upgrade2',
+		[
+			"CBC",
+			"BXB",
+			"CBC"
+		],
+		{
+			X: "effortlessbuilding:reach_upgrade1",
+			C: "#forge:storage_blocks/copper",
+			B: "twilightforest:naga_scale"
+		}
+	).id("effortlessbuilding:reach_upgrade2")
+
+	event.shaped('effortlessbuilding:reach_upgrade3',
+		[
+			"CBC",
+			"BXB",
+			"CBC"
+		],
+		{
+			X: "effortlessbuilding:reach_upgrade3",
+			C: "#forge:storage_blocks/source",
+			B: "ghast_tear"
+		}
+	).id("effortlessbuilding:reach_upgrade3")
 
 	event.shaped("kubejs:primitive_spear",
 		[

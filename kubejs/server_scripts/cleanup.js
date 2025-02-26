@@ -206,7 +206,13 @@ global.nukelist = ["twigs:calcite_wall",
 	'thermal:lapis_gear',
 	'effortlessbuilding:muscles', 
 	'effortlessbuilding:elastic_hand', 
-	'effortlessbuilding:building_techniques_book']
+	'effortlessbuilding:building_techniques_book',
+	'aether_redux:veridium_hoe',
+	'aether_redux:veridium_axe',
+	'aether_redux:veridium_pickaxe',
+	'aether_redux:veridium_shovel',
+	'aetherdelight:veridium_knife', 
+	'aether_redux:veridium_sword']
 
 ServerEvents.recipes(event => {
 

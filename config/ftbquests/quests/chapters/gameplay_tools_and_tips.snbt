@@ -36,15 +36,15 @@
 		{
 			dependencies: ["6F5C7CA9C74F13E9"]
 			description: [
-				"FTB utilities introduces a few commands:"
+				"&1FTB utilities&r introduces a few commands:"
 				""
-				"&l/back&r - teleports you to your last death location(10minutes cooldown and 30sec preparation)"
+				"&b&l/back&r&r - teleports you to your last death location(10minutes cooldown and 30sec preparation)"
 				""
-				"&l/home&r - teleports you to your set home(10minutes cooldown and 5 second preparation)"
+				"&b&l/home&r&r - teleports you to your set home(10minutes cooldown and 5 second preparation)"
 				""
-				"&l/sethome&r - sets your home location(only one home available)"
+				"&b&l/sethome&r&r - sets your home location(only one home available)"
 				""
-				"&l/rtp&r - teleports you to random place in the world(10minutes cooldown and 30 sec preparation)"
+				"&b&l/rtp&r &r- teleports you to random place in the world(10minutes cooldown and 30 sec preparation)"
 			]
 			icon: "minecraft:end_portal_frame"
 			id: "2B2A738687BD9E78"
