@@ -402,11 +402,12 @@
 				type: "item"
 			}]
 			title: "Before a furnace humanity used campfires"
-			x: 2.0d
+			x: 6.0d
 			y: 0.0d
 		}
 		{
-			dependencies: ["69B93BA4460E5F95"]
+			dependencies: ["2BB4A388858E481A"]
+			dependency_requirement: "all_started"
 			icon: {
 				Count: 1
 				id: "minecraft:stone_pickaxe"
@@ -435,6 +436,7 @@
 					type: "item"
 				}
 			]
+			shape: "rsquare"
 			tasks: [
 				{
 					id: "63BCF6A42FC24357"
@@ -455,11 +457,12 @@
 				}
 			]
 			title: "Mining"
-			x: -0.5d
-			y: -1.5d
+			x: 2.0d
+			y: 2.0d
 		}
 		{
-			dependencies: ["69B93BA4460E5F95"]
+			dependencies: ["2BB4A388858E481A"]
+			dependency_requirement: "all_started"
 			hide_details_until_startable: false
 			hide_until_deps_visible: false
 			icon: {
@@ -489,12 +492,21 @@
 				type: "item"
 			}]
 			title: "time to gather usefull materials"
-			x: -1.0d
-			y: -3.0d
+			x: 2.0d
+			y: 0.0d
 		}
 		{
-			dependencies: ["69B93BA4460E5F95"]
+			dependencies: ["2BB4A388858E481A"]
+			dependency_requirement: "all_started"
 			description: [
+				""
+				"Tons of crops now have uses in progression for example you will need to grow:"
+				""
+				"-wheat to finish &ltier 0.5&r  "
+				""
+				"-potatoes  for machines in &ltier 1"
+				""
+				"-Beetroot to craft"
 				"Knives now drop straw from modded grass variants also looting increases drop rate."
 				""
 				"Hoes can harvest in the 3x3 or 5x5 depending on the quality of the hoe."
@@ -565,8 +577,8 @@
 				}
 			]
 			title: "Farming"
-			x: 1.0d
-			y: -3.0d
+			x: 2.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["69B93BA4460E5F95"]
@@ -621,8 +633,8 @@
 				item: "farmersdelight:canvas"
 				type: "item"
 			}]
-			x: 3.0d
-			y: -2.5d
+			x: 3.5d
+			y: -3.5d
 		}
 		{
 			dependencies: ["435BD5A742C05B1E"]
@@ -640,8 +652,8 @@
 				type: "item"
 			}]
 			title: "Potato farming"
-			x: 2.5d
-			y: -4.0d
+			x: 0.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["70FF5891DA236DA4"]
@@ -662,8 +674,8 @@
 				item: "supplementaries:sack"
 				type: "item"
 			}]
-			x: 0.5d
-			y: -4.5d
+			x: 3.5d
+			y: -5.0d
 		}
 	]
 	title: "Tier 0 - Introduction"

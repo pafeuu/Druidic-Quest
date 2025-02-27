@@ -498,6 +498,32 @@ ServerEvents.recipes(event => {
 
 	///=============================================================== Tier 0 Tools ==========================================================
 
+	event.shaped('kubejs:primitive_shield',
+		[
+			"FPF",
+			"PHP",
+			"FPF"
+		],
+		{
+			H: "kubejs:primitive_handle",
+			F: "flint",
+			P: "#minecraft:planks"
+		}
+	)
+
+	event.shaped('kubejs:primitive_shears',
+		[
+			" F ",
+			"SPF",
+			" S "
+		],
+		{
+			S: "#forge:rods/wooden",
+			F: "flint",
+			P: "#minecraft:planks"
+		}
+	)
+
 	
 	event.shaped('effortlessbuilding:reach_upgrade1',
 		[
@@ -513,31 +539,7 @@ ServerEvents.recipes(event => {
 		}
 	).id("effortlessbuilding:reach_upgrade1")
 
-	event.shaped('effortlessbuilding:reach_upgrade2',
-		[
-			"CBC",
-			"BXB",
-			"CBC"
-		],
-		{
-			X: "effortlessbuilding:reach_upgrade1",
-			C: "#forge:storage_blocks/copper",
-			B: "twilightforest:naga_scale"
-		}
-	).id("effortlessbuilding:reach_upgrade2")
-
-	event.shaped('effortlessbuilding:reach_upgrade3',
-		[
-			"CBC",
-			"BXB",
-			"CBC"
-		],
-		{
-			X: "effortlessbuilding:reach_upgrade3",
-			C: "#forge:storage_blocks/source",
-			B: "ghast_tear"
-		}
-	).id("effortlessbuilding:reach_upgrade3")
+	
 
 	event.shaped("kubejs:primitive_spear",
 		[
@@ -1133,6 +1135,36 @@ ServerEvents.recipes(event => {
 	
 
 	/// ======================================================================= Tier 1 Tools ============================================================================
+
+	event.shaped('shield',
+		[
+			"PWP",
+			"WSW",
+			"PWP"
+		],
+		{
+			W: "#minecraft:planks",
+			S: "kubejs:primitive_shield",
+			P: "#forge:plates/iron"
+		}
+	).id("minecraft:shield")
+
+	event.remove({id:"aether:skyroot_iron_vanilla_shield"})
+	event.remove({id:"aether:wood_zanite_vanilla_shield"})
+	event.remove({id:"aether:skyroot_zanite_vanilla_shield"})
+
+	event.shaped('effortlessbuilding:reach_upgrade2',
+		[
+			"CBC",
+			"BXB",
+			"CBC"
+		],
+		{
+			X: "effortlessbuilding:reach_upgrade1",
+			C: "#forge:storage_blocks/copper",
+			B: "twilightforest:naga_scale"
+		}
+	).id("effortlessbuilding:reach_upgrade2")
 
 	event.shaped(
 		Item.of('effortlessbuilding:golden_randomizer_bag'), 
@@ -1821,7 +1853,7 @@ ServerEvents.recipes(event => {
 	  {
 		I: '#forge:plates/iron',
 		P: 'kubejs:wooden_plate',
-		S: 'minecraft:string'
+		S: 'kubejs:primitive_shears'
 	  }
 	)
 
@@ -1977,6 +2009,19 @@ ServerEvents.recipes(event => {
 	
 	
 	/// ============================================= Tier 2 Tools ===========================================================
+
+	event.shaped('effortlessbuilding:reach_upgrade3',
+		[
+			"CBC",
+			"BXB",
+			"CBC"
+		],
+		{
+			X: "effortlessbuilding:reach_upgrade3",
+			C: "#forge:storage_blocks/source",
+			B: "ghast_tear"
+		}
+	).id("effortlessbuilding:reach_upgrade3")
 
 	event.shaped("kubejs:blade_of_grass",
 		[

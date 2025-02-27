@@ -1330,6 +1330,8 @@ Patch 0.3.2.1
     -Changed for coke brick
     -Changed and added tons of recipes of plates, rods and gears
     -Changed recipes for efforless building upgrades
+    -Changed for Shears
+    -Changed for Shield
 
  ### New Items:
     -Sapphire Block

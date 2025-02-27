@@ -317,6 +317,7 @@ StartupEvents.registry('item', item => {
   ///===================================================MISC===========================================================
 
   item.create('recipe_changed')
+  item.create('primitive_handle')
   item.create('pipe_sealant')
   item.create('shapeshifting_root').displayName('Shapeshifting Root')
   item.create('greater_shapeshifting_root').displayName('Greater Shapeshifting Root')
