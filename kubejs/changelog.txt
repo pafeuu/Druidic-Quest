@@ -1332,6 +1332,7 @@ Patch 0.3.2.1
     -Changed recipes for efforless building upgrades
     -Changed for Shears
     -Changed for Shield
+    -Added for sapphire blocks and sapphires from blocks
 
  ### New Items:
     -Sapphire Block
@@ -1377,7 +1378,8 @@ Patch 0.3.2.1
     -Leafcutter Ant Totem
     -Primitive Mortar
     -Basic Mortar
-    -Primitive chisel
+    -Primitive Chisel
+    -Aura Generator Block
 
  ### Balance:
     -Buffed flower crown but it cant be put in the curio slots anymore

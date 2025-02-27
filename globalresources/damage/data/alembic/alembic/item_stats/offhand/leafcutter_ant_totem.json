@@ -7,6 +7,13 @@
       "value": 0.5,
       "operation": "MULTIPLY_TOTAL",
       "uuid": "d606a1f2-e737-4335-a766-6f181265fb3f"
+    },
+    {
+      "type": "append",
+      "attribute": "alembic:alchemical_damage.resistance",
+      "value": 1,
+      "operation": "ADDITION",
+      "uuid": "2a8fad4d-c28f-4e16-8bdb-c06778fe9197"
     }
   ],
   "equipment_slot": "OFFHAND"

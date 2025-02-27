@@ -1399,6 +1399,18 @@ ServerEvents.recipes(event => {
 	
 	/// ======================================== Tier 2 Components ================================================================
 
+	event.shaped("kubejs:aura_generator_block",
+		[
+			"III",
+			"IMI",
+			"III"
+		],
+		{
+			I: "naturesaura:infused_iron",
+			M: "kubejs:magical_generator_block"
+		}
+	).id("kubejs:aura_generator_block")
+
 	event.shaped(
 		Item.of('forbidden_arcanus:golden_orchid_seeds'), 
 		[

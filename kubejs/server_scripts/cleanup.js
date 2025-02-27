@@ -251,6 +251,12 @@ ServerEvents.recipes(event => {
 	event.shaped("thermal:ruby_block",["RR","RR"],{R:"thermal:ruby"})
 	event.shapeless("4x thermal:ruby","thermal:ruby_block")
 
+	event.shaped("thermal:sapphire_block",["RR","RR"],{R:"thermal:sapphire"})
+	event.shapeless("4x thermal:sapphire","thermal:sapphire_block")
+
+	event.shaped("kubejs:sapphire_block",["RRR","RRR","RRR"],{R:"kubejs:sapphire"})
+	event.shapeless("9x kubejs:sapphire","kubejs:sapphire_block")
+
 	event.shaped("thermal:gunpowder_block",["GGG","GGG","GGG"],{G:"#forge:storage_blocks/gunpowder"}).id("thermal:storage/gunpowder_block")
 	event.shapeless("9x quark:gunpowder_sack","thermal:gunpowder_block").id("thermal:storage/gunpowder_from_block")
 

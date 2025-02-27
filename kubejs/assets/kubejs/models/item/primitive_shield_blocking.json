@@ -1,9 +1,9 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "spruce_planks",
-		"2": "texture",
-		"particle": "spruce_planks"
+		"0": "minecraft:block/spruce_planks",
+		"2": "kubejs:item/primitive_shield",
+		"particle": "minecraft:block/spruce_planks"
 	},
 	"elements": [
 		{

@@ -11,77 +11,86 @@ StartupEvents.registry("block", (event) => {
     .tagBlock('minecraft:needs_stone_tool') // the tool tier must be at least iron
 	
 	
-	event.create("basic_magic_machine") // Create a new block
-    .displayName("Basic Magic Machine") // Set a custom name
-    .soundType("amethyst") // Set a material (affects the sounds and some properties)
-    .hardness(1.0) // Set hardness (affects mining time)
-    .resistance(6.0) // Set resistance (to explosions, etc)
-    .tagBoth("tier1/component") // Tag the block with `#minecraft:my_custom_tag` (can have multiple tags)
-    .requiresTool(true) // Requires a tool or it won't drop (see tags below)
-    .tagBlock("mineable/pickaxe") // or a pickaxe
-    .tagBlock('minecraft:needs_stone_tool') // the tool tier must be at least iron
+	event.create("basic_magic_machine") 
+    .displayName("Basic Magic Machine")
+    .soundType("amethyst") 
+    .hardness(1.0)
+    .resistance(6.0) 
+    .tagBoth("tier1/component")
+    .requiresTool(true)
+    .tagBlock("mineable/pickaxe") 
+    .tagBlock('minecraft:needs_stone_tool') 
 	.texture('up', 'kubejs:block/basic_magic_machine_top')
 	.texture('down', 'kubejs:block/basic_magic_machine_top')
 	
 
-    event.create("magical_generator_block") // Create a new block
-    .soundType("amethyst") // Set a material (affects the sounds and some properties)
-    .hardness(1.0) // Set hardness (affects mining time)
-    .resistance(6.0) // Set resistance (to explosions, etc)
-    .tagBoth("tier1/component") // Tag the block with `#minecraft:my_custom_tag` (can have multiple tags)
-    .requiresTool(true) // Requires a tool or it won't drop (see tags below)
-    .tagBlock("mineable/pickaxe") // or a pickaxe
-    .tagBlock('minecraft:needs_stone_tool') // the tool tier must be at least iron
+    event.create("magical_generator_block") 
+    .soundType("amethyst") 
+    .hardness(1.0) 
+    .resistance(6.0) 
+    .tagBoth("tier2/component") 
+    .requiresTool(true) 
+    .tagBlock("mineable/pickaxe") 
+    .tagBlock('minecraft:needs_iron_tool') 
+
+    event.create("aura_generator_block") 
+    .soundType("amethyst") 
+    .hardness(1.0) 
+    .resistance(6.0) 
+    .tagBoth("tier2/component") 
+    .requiresTool(true) 
+    .tagBlock("mineable/pickaxe") 
+    .tagBlock('minecraft:needs_iron_tool')
 	
-	event.create("magic_machine") // Create a new block
-    .displayName("Magic Machine") // Set a custom name
-    .soundType("amethyst") // Set a material (affects the sounds and some properties)
-    .hardness(1.2) // Set hardness (affects mining time)
-    .resistance(6.0) // Set resistance (to explosions, etc)
-    .tagBoth("tier2/component") // Tag the block with `#minecraft:my_custom_tag` (can have multiple tags)
-    .requiresTool(true) // Requires a tool or it won't drop (see tags below)
-    .tagBlock("mineable/pickaxe") // or a pickaxe
-    .tagBlock('minecraft:needs_iron_tool') // the tool tier must be at least iron
+	event.create("magic_machine") 
+    .displayName("Magic Machine") 
+    .soundType("amethyst")
+    .hardness(1.2) 
+    .resistance(6.0) 
+    .tagBoth("tier2/component")
+    .requiresTool(true) 
+    .tagBlock("mineable/pickaxe") 
+    .tagBlock('minecraft:needs_iron_tool') 
 	.texture('up', 'kubejs:block/magic_machine_top')
 	.texture('down', 'kubejs:block/magic_machine_top')
 	
 	
 	
-	event.create("andesite_machine") // Create a new block
-    .displayName("Andesite Machine Casing") // Set a custom name
-    .soundType("metal") // Set a material (affects the sounds and some properties)
-    .hardness(1.0) // Set hardness (affects mining time)
-    .resistance(8.0) // Set resistance (to explosions, etc)
-    .tagBoth("tier3/component") // Tag the block with `#minecraft:my_custom_tag` (can have multiple tags)
-    .requiresTool(true) // Requires a tool or it won't drop (see tags below)
-    .tagBlock("mineable/pickaxe") // or a pickaxe
-    .tagBlock('minecraft:needs_iron_tool') // the tool tier must be at least iron
+	event.create("andesite_machine") 
+    .displayName("Andesite Machine Casing") 
+    .soundType("metal") 
+    .hardness(1.0) 
+    .resistance(8.0) 
+    .tagBoth("tier3/component") 
+    .requiresTool(true) 
+    .tagBlock("mineable/pickaxe") 
+    .tagBlock('minecraft:needs_iron_tool') 
 	.texture('up', 'kubejs:block/andesite_machine_top')
 	.texture('down', 'kubejs:block/andesite_machine_bot')
 	
 
-    event.create("pressing_catalyst","falling") // Create a new block
-    .displayName("Pressing Catalyst") // Set a custom name
-    .soundType("anvil") // Set a material (affects the sounds and some properties)
-    .hardness(1.5) // Set hardness (affects mining time)
-    .resistance(8.0) // Set resistance (to explosions, etc)
-    .tagBoth("tier2/component") // Tag the block with `#minecraft:my_custom_tag` (can have multiple tags)
-    .requiresTool(true) // Requires a tool or it won't drop (see tags below)
-    .tagBlock("mineable/pickaxe") // or a pickaxe
-    .tagBlock('minecraft:needs_iron_tool') // the tool tier must be at least iron
+    event.create("pressing_catalyst","falling")
+    .displayName("Pressing Catalyst") 
+    .soundType("anvil") 
+    .hardness(1.5) 
+    .resistance(8.0) 
+    .tagBoth("tier2/component") 
+    .requiresTool(true) 
+    .tagBlock("mineable/pickaxe")
+    .tagBlock('minecraft:needs_iron_tool') 
 	.texture('up', 'kubejs:block/anvil')
 	.texture('down', 'kubejs:block/anvil')
 	
 	
-	event.create("steel_machine") // Create a new block
-    .displayName("Steel Machine Casing") // Set a custom name
-    .soundType("anvil") // Set a material (affects the sounds and some properties)
-    .hardness(3.0) // Set hardness (affects mining time)
-    .resistance(12.0) // Set resistance (to explosions, etc)
-    .tagBoth("tier4/component") // Tag the block with `#minecraft:my_custom_tag` (can have multiple tags)
-    .requiresTool(true) // Requires a tool or it won't drop (see tags below)
-    .tagBlock("mineable/pickaxe") // or a pickaxe
-    .tagBlock('minecraft:needs_iron_tool') // the tool tier must be at least iron
+	event.create("steel_machine") 
+    .displayName("Steel Machine Casing") 
+    .soundType("anvil") 
+    .hardness(3.0) 
+    .resistance(12.0) 
+    .tagBoth("tier4/component") 
+    .requiresTool(true) 
+    .tagBlock("mineable/pickaxe") 
+    .tagBlock('minecraft:needs_iron_tool') 
 	.texture('up', 'kubejs:block/steel_machine_top')
 	.texture('down', 'kubejs:block/steel_machine_bot')
 	
