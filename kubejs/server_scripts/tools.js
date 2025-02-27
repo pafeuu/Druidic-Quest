@@ -498,6 +498,18 @@ ServerEvents.recipes(event => {
 
 	///=============================================================== Tier 0 Tools ==========================================================
 
+	event.shaped('kubejs:primitive_chisel',
+		[
+			"  F",
+			" F ",
+			"S  "
+		],
+		{
+			F: "flint",
+			S: "#forge:rods/wooden"
+		}
+	).id("kubejs:primitive_chisel")
+
 	event.shaped('kubejs:primitive_shield',
 		[
 			"FPF",
@@ -1135,6 +1147,38 @@ ServerEvents.recipes(event => {
 	
 
 	/// ======================================================================= Tier 1 Tools ============================================================================
+
+	event.shaped("aether:iron_ring",
+		[
+			" X ",
+			"XRX",
+			" X "
+		],
+		{X:"#forge:ingots/iron",
+		 R:"ars_nouveau:ring_of_potential"}
+	).id("aether:iron_ring")
+
+	event.shaped("aether:golden_ring",
+		[
+			" X ",
+			"XRX",
+			" X "
+		],
+		{X:"#forge:ingots/gold",
+		 R:"ars_nouveau:ring_of_potential"}
+	).id("aether:golden_ring")
+
+	event.shaped("kubejs:daybloom_ring",
+		[
+			" XF",
+			"XRX",
+			" X "
+		],
+		{X:"#forge:ingots/silver",
+		 R:"aether:golden_ring",
+		 F:"minecraft:dandelion"}
+	).id("kubejs:daybloom_ring")
+
 
 	event.shaped('shield',
 		[

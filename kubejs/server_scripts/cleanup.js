@@ -804,15 +804,6 @@ ServerEvents.recipes(event => {
 	event.shapeless("4x regions_unexplored:pink_magnolia_flowers","4x regions_unexplored:pink_magnolia_leaves").id("regions_unexplored:pink_magnolia_flowers")
 	event.shapeless("4x regions_unexplored:white_magnolia_flowers","4x regions_unexplored:white_magnolia_leaves").id("regions_unexplored:white_magnolia_flowers")
 
-	event.shaped("aether:iron_ring",
-		[
-			"XXX",
-			"XRX",
-			"XXX"
-		],
-		{X:"#forge:nuggets/iron",
-		 R:"ars_nouveau:ring_of_potential"}
-	).id("aether:iron_ring")
 	
 	event.replaceInput({id:"immersiveengineering:crafting/wirecutter"},"#forge:rods/wooden","immersiveengineering:stick_treated")
 

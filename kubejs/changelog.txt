@@ -1333,6 +1333,8 @@ Patch 0.3.2.1
     -Changed for Shears
     -Changed for Shield
     -Added for sapphire blocks and sapphires from blocks
+    -Changed for aether's iron ring
+    -Changed for aether's gold ring
 
  ### New Items:
     -Sapphire Block
