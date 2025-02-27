@@ -1373,6 +1373,9 @@ Patch 0.3.2.1
     -Primitive Shears
     -Crab totem
     -Leafcutter Ant Totem
+    -Primitive Mortar
+    -Basic Mortar
+    -Primitive chisel
 
  ### Balance:
     -Buffed flower crown but it cant be put in the curio slots anymore
