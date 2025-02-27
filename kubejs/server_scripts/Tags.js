@@ -133,7 +133,9 @@ ServerEvents.tags('item', event => {
   event.add("c:hidden_from_recipe_viewers","kubejs:unassembled_clock")
   event.add("c:hidden_from_recipe_viewers","kubejs:unassembled_compass")
 
-  event.add("forge:tools/shield","kubejs:primitive_shield")
+  event.add("forge:tools/shields","kubejs:primitive_shield")
+  event.add("forge:shields","kubejs:primitive_shield")
+  event.add("forge:tools","kubejs:primitive_shield")
 
   function tool(name)
   {

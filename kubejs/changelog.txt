@@ -1385,6 +1385,7 @@ Patch 0.3.2.1
     -Aura Generator Block
     -Diamond Rod
     -Electrum Rod
+    -Daybloom ring
 
  ### Balance:
     -Buffed flower crown but it cant be put in the curio slots anymore
