@@ -498,6 +498,16 @@ ServerEvents.recipes(event => {
 
 	///=============================================================== Tier 0 Tools ==========================================================
 
+	event.shaped("kubejs:primitive_mortar",
+		[
+			" A ",
+			"IAI",
+			"III"
+		],
+		{A:"flint",
+		 I:"stone"}
+	).id("kubejs:primitive_mortar")
+
 	event.shaped('kubejs:primitive_chisel',
 		[
 			"  F",
@@ -1146,7 +1156,7 @@ ServerEvents.recipes(event => {
 	}).id("thermal:tools/xp_crystal")
 	
 
-	/// ======================================================================= Tier 1 Tools ============================================================================
+	/// ======================================================================= Tier 2 Tools ============================================================================
 
 	event.shaped("aether:iron_ring",
 		[
@@ -2053,6 +2063,17 @@ ServerEvents.recipes(event => {
 	
 	
 	/// ============================================= Tier 2 Tools ===========================================================
+
+	event.shaped("kubejs:basic_mortar",
+		[
+			" A ",
+			"IAI",
+			"IXI"
+		],
+		{A:"#forge:ingots/arcane_alloy",
+		 I:"#forge:ingots/inert_alloy",
+		 X:"kubejs:primitive_mortar"}
+	).id("kubejs:basic_mortar")
 
 	event.shaped('effortlessbuilding:reach_upgrade3',
 		[
