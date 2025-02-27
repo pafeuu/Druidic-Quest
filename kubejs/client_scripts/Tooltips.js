@@ -75,9 +75,9 @@ ItemEvents.tooltip( tooltip => {
   
   //======================================= Custom Tools ======================================
   
-  tooltip.add(["kubejs:sharp_feather","kubejs:very_sharp_feather","kubejs:rainbow_feather"],Text.green("Right click obsidian to insta mine it!"))
-  tooltip.add(["kubejs:very_sharp_feather","kubejs:rainbow_feather"],Text.red("Right click netherrack in the nether to cause explosion!"))
-  tooltip.add(["kubejs:rainbow_feather"],Text.lightPurple("Right click bedrock on the nether roof to destroy it!"))
+  tooltip.add(["kubejs:golden_magic_feather","kubejs:fiery_magic_feather","kubejs:rainbow_magic_feather"],Text.green("Right click obsidian to insta mine it!"))
+  tooltip.add(["kubejs:fiery_magic_feather","kubejs:rainbow_magic_feather"],Text.red("Right click netherrack in the nether to cause explosion!"))
+  tooltip.add(["kubejs:rainbow_magic_feather"],Text.lightPurple("Right click bedrock on the nether roof to destroy it!"))
   tooltip.add("kubejs:the_terraformer",[Text.aqua("Turns basic blocks into compost"), Text.red("Only works above sea level")])
   tooltip.add("kubejs:broken_key",Text.gold("Right click a spawner to destroy it and obtain infused ruby!"))
   tooltip.add("kubejs:twilight_key",[Text.gold("Right click a spawner in Twilight Forest to destroy it and obtain rare items and supplies!")])

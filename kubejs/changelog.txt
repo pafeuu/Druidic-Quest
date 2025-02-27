@@ -1377,9 +1377,12 @@ Patch 0.3.2.1
     -Crab totem
     -Leafcutter Ant Totem
     -Primitive Mortar
+    -Primitive Handle
     -Basic Mortar
     -Primitive Chisel
     -Aura Generator Block
+    -Diamond Rod
+    -Electrum Rod
 
  ### Balance:
     -Buffed flower crown but it cant be put in the curio slots anymore
@@ -1404,6 +1407,7 @@ Patch 0.3.2.1
     -Golden Sword
     -Gold Upgrade Parts
     -All the crafting stations on a stick
+    -Basic Chisel
 
  ### Other:
     -Fixed ars nouveau guide book error
@@ -1413,3 +1417,6 @@ Patch 0.3.2.1
     -Adjusted early Quests
     -Added quests for effortless building upgrades
     -Dummy recipes for patchouli books are now hidden in JEI
+    -Pack no longer forces fullscreen on launch
+    -Fixed tooltips on the magic feathers
+    -Changed the names of the magic feathers

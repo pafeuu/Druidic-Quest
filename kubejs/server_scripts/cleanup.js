@@ -324,9 +324,9 @@ ServerEvents.recipes(event => {
 		event.remove({id:"thermal:parts/"+material+"_gear"})
 		event.shaped("thermal:"+material+"_gear",
 			[
-				"PPR",
+				"RPR",
 				"PGP",
-				"RPP"
+				"RPR"
 			],
 			{
 				P: "#forge:plates/"+material,
@@ -385,6 +385,8 @@ ServerEvents.recipes(event => {
 	}
 
 	rods("copper","kubejs:copper_rod")
+	rods("electrum","kubejs:electrum_rod")
+	rods("diamond","kubejs:diamond_rod")
 	rods("gold","kubejs:gold_rod")
 	rods("iron","immersiveengineering:stick_iron")
 	rods("stainless_steel","immersiveengineering:stick_steel")

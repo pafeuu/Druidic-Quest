@@ -208,6 +208,17 @@ ServerEvents.recipes(event => {
 	
 	/// ======================================================================= Tier 0 Components ========================================================================
 	
+	event.shaped("kubejs:primitive_handle",
+		[
+			" F ",
+			"FSF",
+			" F "
+		],
+		{
+			F:"flint",
+			S:"#forge:rods/wooden"
+		}
+	)
 	event.recipes.create.milling("2x forbidden_arcanus:spawner_scrap","kubejs:broken_spawner")
 	event.recipes.naturesaura.tree_ritual("2x naturesaura:ancient_sapling",["#forge:storage_blocks/redstone","#minecraft:saplings","#forge:gems/arcane_crystal","#forge:gems/arcane_crystal","#forge:gems/arcane_crystal","#forge:gems/arcane_crystal","#forge:gems/arcane_crystal","#forge:gems/arcane_crystal"],"quark:red_blossom_sapling").id("naturesaura:tree_ritual/ancient_sapling")
 	event.recipes.naturesaura.tree_ritual("2x naturesaura:ancient_sapling",["#forge:storage_blocks/redstone","#minecraft:saplings","#forge:gems/arcane_crystal","#forge:gems/arcane_crystal","#forge:gems/arcane_crystal","#forge:gems/arcane_crystal","#forge:gems/arcane_crystal","#forge:gems/arcane_crystal"],"quark:ancient_sapling")

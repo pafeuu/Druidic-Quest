@@ -125,9 +125,11 @@ StartupEvents.registry('item', item => {
 
   ///===================================================RODS=================================================================
   item.create("copper_rod").tag("forge:rods").tag("forge:rods/copper").tag("dq:tier1/component")
+  item.create("gold_rod").tag("forge:rods").tag("forge:rods/gold").tag("dq:tier1/component")
+  item.create("electrum_rod").tag("forge:rods").tag("forge:rods/electrum").tag("dq:tier1/component")
+  item.create("diamond_rod").tag("forge:rods").tag("forge:rods/diamond").tag("dq:tier1/component")
   item.create("zinc_tool_handle").tag("forge:rods").tag("dq:tier2/component")
   item.create("carbon_infused_sturdy_handle").displayName("Carbon Infused Sturdy Handle").tag("forge:rods").tag("dq:tier2/component")
-  item.create("gold_rod").tag("forge:rods").tag("forge:rods/gold").tag("dq:tier1/component")
 
   ///===================================================INGOTS===========================================================
 
@@ -246,9 +248,9 @@ StartupEvents.registry('item', item => {
   item.create('rusty_trident','sword').tier('fire').tag('minecraft:sword').tag("forge:tools/copper").tag('minecraft:tools').speedBaseline(-2.9).tag("dq:tier0/weapon")
   item.create('primitive_spear','sword').tier('wood').tag('minecraft:sword').tag("forge:tools/flint").tag('minecraft:tools').speedBaseline(-2.9).tag("dq:tier0/weapon")
 
-  item.create('golden_magic_feather','sword').tier('gold').glow(true).tag("minecraft:tools").displayName("Golden Feather").tag("forge:tools/magic_feather").tag("dq:tier1/weapon").tag("dq:tier1/tool")
-  item.create('fiery_magic_feather','sword').tier('diamond').glow(true).tag("minecraft:tools").displayName("Fiery Feather").tag("forge:tools/magic_feather").tag("forge:tools/tier2_magic_feather").tag("dq:tier2/weapon").tag("dq:tier2/tool")
-  item.create('rainbow_magic_feather','sword').tier('netherite').glow(true).tag("minecraft:tools").displayName("Rainbow Feather").tag("forge:tools/magic_feather").tag("forge:tools/tier2_magic_feather").tag("dq:tier3/weapon").tag("dq:tier3/tool")
+  item.create('golden_magic_feather','sword').tier('gold').glow(true).tag("minecraft:tools").tag("forge:tools/magic_feather").tag("dq:tier1/weapon").tag("dq:tier1/tool")
+  item.create('fiery_magic_feather','sword').tier('diamond').glow(true).tag("minecraft:tools").tag("forge:tools/magic_feather").tag("forge:tools/tier2_magic_feather").tag("dq:tier2/weapon").tag("dq:tier2/tool")
+  item.create('rainbow_magic_feather','sword').tier('netherite').glow(true).tag("minecraft:tools").tag("forge:tools/magic_feather").tag("forge:tools/tier2_magic_feather").tag("dq:tier3/weapon").tag("dq:tier3/tool")
 
   item.create('copper_pickaxe','pickaxe').tier('copper').tag("minecraft:tools").tag("minecraft:tools/pickaxe").tag("dq:tier1/tool")
   item.create('copper_sword','sword').tier('copper').tag("minecraft:tools").tag("dq:tier1/weapon")
