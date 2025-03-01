@@ -90,6 +90,7 @@
 		}
 		{
 			dependencies: ["4E1801454590B2B2"]
+			hide_until_deps_visible: true
 			icon: "crafting_on_a_stick:crafting_table"
 			id: "694245F07E3CAA48"
 			rewards: [{
@@ -124,6 +125,7 @@
 				"72FB95A11B31AFEC"
 				"4E1801454590B2B2"
 			]
+			hide_until_deps_complete: true
 			icon: "elementalcraft:artificial_fire_source_seed"
 			id: "5CB418E959BA9BC4"
 			rewards: [{
@@ -306,6 +308,7 @@
 		}
 		{
 			dependencies: ["4E1801454590B2B2"]
+			hide_until_deps_visible: true
 			icon: {
 				Count: 1
 				id: "minecraft:diamond_pickaxe"
@@ -425,6 +428,11 @@
 		}
 		{
 			dependencies: ["769C5B75D85F81FC"]
+			description: [
+				"To create natures essence you need to toss the ingredients in the water located in lush caves biomes."
+				""
+				"What? You don't know where the lush caves are? Buy a map to the biome from the quest in previous chapter"
+			]
 			hide_until_deps_complete: true
 			id: "7EBD23E275E837F2"
 			rewards: [

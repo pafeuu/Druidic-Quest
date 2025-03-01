@@ -137,28 +137,6 @@
 			y: -1.5d
 		}
 		{
-			dependencies: [
-				"070D257FF3DE0DBF"
-				"435BD5A742C05B1E"
-			]
-			description: ["You can now tinker even more with food!"]
-			id: "0FC4FA79D5AB30AE"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "4AA8215B8C603A6A"
-				table_id: 4681511814997660015L
-				type: "random"
-			}]
-			shape: "gear"
-			tasks: [{
-				id: "1D531E57A7A23F0E"
-				item: "farmersdelight:cutting_board"
-				type: "item"
-			}]
-			x: 4.0d
-			y: -5.0d
-		}
-		{
 			dependencies: ["474D50C2F74737EE"]
 			description: [
 				"Right click with golden leaf on a stripped log to turn it into wooden stand"
@@ -190,12 +168,20 @@
 				}
 			]
 			shape: "rsquare"
-			tasks: [{
-				count: 16L
-				id: "473EC5D57AFB1B19"
-				item: { Count: 16, id: "naturesaura:gold_powder" }
-				type: "item"
-			}]
+			tasks: [
+				{
+					count: 16L
+					id: "473EC5D57AFB1B19"
+					item: { Count: 16, id: "naturesaura:gold_powder" }
+					type: "item"
+				}
+				{
+					icon: "naturesaura:wood_stand"
+					id: "0808C0083EAF8BE2"
+					title: "Carve a Wooden Stand"
+					type: "custom"
+				}
+			]
 			title: "Assemble the ritual"
 			x: 8.0d
 			y: 1.5d
@@ -246,8 +232,8 @@
 					type: "item"
 				}
 			]
-			x: 6.0d
-			y: 1.5d
+			x: 5.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["3795DEE8A3FE6814"]
@@ -444,6 +430,42 @@
 				type: "item"
 			}]
 			x: 10.5d
+			y: 0.0d
+		}
+		{
+			description: [
+				""
+				"To get to the next chapter you are gonna need to blow some stuff up you can either use mobs or tnt"
+			]
+			hide_until_deps_visible: false
+			icon: "minecraft:creeper_head"
+			id: "3F2E2B483880F030"
+			optional: true
+			rewards: [
+				{
+					count: 5
+					id: "2FED523D2C16D553"
+					item: "minecraft:gunpowder"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "285A3CD566BB6665"
+					item: "thermal:copper_coin"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "Explosion Crafting!"
+			tasks: [{
+				id: "509547F8D00897E5"
+				observe_type: 5
+				timer: 0L
+				to_observe: "minecraft:creeper"
+				type: "observation"
+			}]
+			title: "Explosive Mobs"
+			x: 2.5d
 			y: 0.0d
 		}
 	]

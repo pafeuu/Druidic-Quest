@@ -5,9 +5,6 @@
 	default_repeatable_quest: true
 	filename: "market"
 	group: ""
-	hide_quest_details_until_startable: true
-	hide_quest_until_deps_complete: true
-	hide_quest_until_deps_visible: true
 	icon: { Count: 64, id: "thermal:gold_coin" }
 	id: "37D0225A9D849EF0"
 	images: [
@@ -157,139 +154,11 @@
 		}
 		{
 			height: 1.5d
-			image: "railways:block/palettes/white/slashed"
-			rotation: 0.0d
-			width: 1.5d
-			x: -3.0d
-			y: -4.5d
-		}
-		{
-			height: 1.5d
-			image: "railways:block/palettes/white/slashed"
-			rotation: 0.0d
-			width: 1.5d
-			x: -4.5d
-			y: -4.5d
-		}
-		{
-			height: 1.5d
-			image: "railways:block/palettes/white/slashed"
-			rotation: 0.0d
-			width: 1.5d
-			x: -6.0d
-			y: -4.5d
-		}
-		{
-			height: 1.5d
-			image: "railways:block/palettes/white/slashed"
-			rotation: 0.0d
-			width: 1.5d
-			x: -7.5d
-			y: -4.5d
-		}
-		{
-			height: 1.5d
-			image: "railways:block/palettes/white/slashed"
-			rotation: 0.0d
-			width: 1.5d
-			x: -7.5d
-			y: -3.0d
-		}
-		{
-			height: 1.5d
-			image: "railways:block/palettes/white/slashed"
-			rotation: 0.0d
-			width: 1.5d
-			x: -6.0d
-			y: -3.0d
-		}
-		{
-			height: 1.5d
-			image: "railways:block/palettes/white/slashed"
-			rotation: 0.0d
-			width: 1.5d
-			x: -4.5d
-			y: -3.0d
-		}
-		{
-			height: 1.5d
-			image: "railways:block/palettes/white/slashed"
-			rotation: 0.0d
-			width: 1.5d
-			x: -3.0d
-			y: -3.0d
-		}
-		{
-			height: 1.5d
-			image: "railways:block/palettes/white/slashed"
-			rotation: 0.0d
-			width: 1.5d
-			x: -7.5d
-			y: -1.5d
-		}
-		{
-			height: 1.5d
-			image: "railways:block/palettes/white/slashed"
-			rotation: 0.0d
-			width: 1.5d
-			x: -6.0d
-			y: -1.5d
-		}
-		{
-			height: 1.5d
-			image: "railways:block/palettes/white/slashed"
-			rotation: 0.0d
-			width: 1.5d
-			x: -4.5d
-			y: -1.5d
-		}
-		{
-			height: 1.5d
 			image: "chipped:block/netherite_block/polished_netherite_block"
 			rotation: 0.0d
 			width: 1.5d
 			x: 7.0d
 			y: -1.5d
-		}
-		{
-			height: 1.5d
-			image: "railways:block/palettes/white/slashed"
-			rotation: 0.0d
-			width: 1.5d
-			x: -3.0d
-			y: -1.5d
-		}
-		{
-			height: 1.5d
-			image: "railways:block/palettes/white/slashed"
-			rotation: 0.0d
-			width: 1.5d
-			x: -3.0d
-			y: 0.0d
-		}
-		{
-			height: 1.5d
-			image: "railways:block/palettes/white/slashed"
-			rotation: 0.0d
-			width: 1.5d
-			x: -4.5d
-			y: 0.0d
-		}
-		{
-			height: 1.5d
-			image: "railways:block/palettes/white/slashed"
-			rotation: 0.0d
-			width: 1.5d
-			x: -6.0d
-			y: 0.0d
-		}
-		{
-			height: 1.5d
-			image: "railways:block/palettes/white/slashed"
-			rotation: 0.0d
-			width: 1.5d
-			x: -7.5d
-			y: 0.0d
 		}
 		{
 			height: 1.5d
@@ -373,38 +242,6 @@
 		}
 		{
 			height: 1.5d
-			image: "railways:block/palettes/white/slashed"
-			rotation: 0.0d
-			width: 1.5d
-			x: -7.5d
-			y: 1.5d
-		}
-		{
-			height: 1.5d
-			image: "railways:block/palettes/white/slashed"
-			rotation: 0.0d
-			width: 1.5d
-			x: -6.0d
-			y: 1.5d
-		}
-		{
-			height: 1.5d
-			image: "railways:block/palettes/white/slashed"
-			rotation: 0.0d
-			width: 1.5d
-			x: -4.5d
-			y: 1.5d
-		}
-		{
-			height: 1.5d
-			image: "railways:block/palettes/white/slashed"
-			rotation: 0.0d
-			width: 1.5d
-			x: -3.0d
-			y: 1.5d
-		}
-		{
-			height: 1.5d
 			image: "immersiveengineering:block/metal/storage_silver"
 			rotation: 0.0d
 			width: 1.5d
@@ -434,6 +271,166 @@
 			width: 1.5d
 			x: 8.5d
 			y: 0.0d
+		}
+		{
+			height: 1.5d
+			image: "immersiveengineering:block/metal/storage_silver"
+			rotation: 0.0d
+			width: 1.5d
+			x: -3.0d
+			y: 1.5d
+		}
+		{
+			height: 1.5d
+			image: "immersiveengineering:block/metal/storage_silver"
+			rotation: 0.0d
+			width: 1.5d
+			x: -4.5d
+			y: 1.5d
+		}
+		{
+			height: 1.5d
+			image: "immersiveengineering:block/metal/storage_silver"
+			rotation: 0.0d
+			width: 1.5d
+			x: -6.0d
+			y: 1.5d
+		}
+		{
+			height: 1.5d
+			image: "immersiveengineering:block/metal/storage_silver"
+			rotation: 0.0d
+			width: 1.5d
+			x: -7.5d
+			y: 1.5d
+		}
+		{
+			height: 1.5d
+			image: "immersiveengineering:block/metal/storage_silver"
+			rotation: 0.0d
+			width: 1.5d
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			height: 1.5d
+			image: "immersiveengineering:block/metal/storage_silver"
+			rotation: 0.0d
+			width: 1.5d
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			height: 1.5d
+			image: "immersiveengineering:block/metal/storage_silver"
+			rotation: 0.0d
+			width: 1.5d
+			x: -6.0d
+			y: 0.0d
+		}
+		{
+			height: 1.5d
+			image: "immersiveengineering:block/metal/storage_silver"
+			rotation: 0.0d
+			width: 1.5d
+			x: -7.5d
+			y: 0.0d
+		}
+		{
+			height: 1.5d
+			image: "immersiveengineering:block/metal/storage_silver"
+			rotation: 0.0d
+			width: 1.5d
+			x: -7.5d
+			y: -1.5d
+		}
+		{
+			height: 1.5d
+			image: "immersiveengineering:block/metal/storage_silver"
+			rotation: 0.0d
+			width: 1.5d
+			x: -6.0d
+			y: -1.5d
+		}
+		{
+			height: 1.5d
+			image: "immersiveengineering:block/metal/storage_silver"
+			rotation: 0.0d
+			width: 1.5d
+			x: -4.5d
+			y: -1.5d
+		}
+		{
+			height: 1.5d
+			image: "immersiveengineering:block/metal/storage_silver"
+			rotation: 0.0d
+			width: 1.5d
+			x: -3.0d
+			y: -1.5d
+		}
+		{
+			height: 1.5d
+			image: "immersiveengineering:block/metal/storage_silver"
+			rotation: 0.0d
+			width: 1.5d
+			x: -3.0d
+			y: -3.0d
+		}
+		{
+			height: 1.5d
+			image: "immersiveengineering:block/metal/storage_silver"
+			rotation: 0.0d
+			width: 1.5d
+			x: -3.0d
+			y: -4.5d
+		}
+		{
+			height: 1.5d
+			image: "immersiveengineering:block/metal/storage_silver"
+			rotation: 0.0d
+			width: 1.5d
+			x: -4.5d
+			y: -4.5d
+		}
+		{
+			height: 1.5d
+			image: "immersiveengineering:block/metal/storage_silver"
+			rotation: 0.0d
+			width: 1.5d
+			x: -4.5d
+			y: -3.0d
+		}
+		{
+			height: 1.5d
+			image: "immersiveengineering:block/metal/storage_silver"
+			rotation: 0.0d
+			width: 1.5d
+			x: -6.0d
+			y: -3.0d
+		}
+		{
+			height: 1.5d
+			image: "immersiveengineering:block/metal/storage_silver"
+			rotation: 0.0d
+			width: 1.5d
+			x: -6.0d
+			y: -4.5d
+		}
+		{
+			height: 1.5d
+			image: "immersiveengineering:block/metal/storage_silver"
+			rotation: 0.0d
+			width: 1.5d
+			x: -7.5d
+			y: -4.5d
+		}
+		{
+			height: 1.5d
+			image: "immersiveengineering:block/metal/storage_silver"
+			rotation: 0.0d
+			width: 1.5d
+			x: -7.5d
+			y: -3.0d
 		}
 	]
 	order_index: 1

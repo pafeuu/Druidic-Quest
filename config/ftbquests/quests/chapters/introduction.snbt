@@ -235,7 +235,7 @@
 				}
 			]
 			title: "Exploration "
-			x: -1.5d
+			x: -0.5d
 			y: 2.0d
 		}
 		{
@@ -275,7 +275,7 @@
 				type: "item"
 			}]
 			title: "New Fishing!"
-			x: -2.0d
+			x: -1.5d
 			y: 3.5d
 		}
 		{
@@ -300,7 +300,7 @@
 				}
 				type: "item"
 			}]
-			x: -3.5d
+			x: -3.0d
 			y: 4.0d
 		}
 		{
@@ -379,21 +379,36 @@
 				}
 			]
 			title: "Armour Sets!"
-			x: -5.5d
-			y: 3.0d
+			x: -4.5d
+			y: 3.5d
 		}
 		{
-			dependencies: ["090099B8B3800BAE"]
+			dependencies: [
+				"090099B8B3800BAE"
+				"22BF5448BA6B11AF"
+				"5C95579DC269AF2A"
+				"0E5A981A32056DDC"
+			]
 			description: [
+				"Now that you crafted or the primitive tools you can go into the real progression!"
+				""
 				"You cant yet craft furnace to smelt ore, but you should definitely cook some food."
 				"Nutritious and diverse diet might give you some buffs."
 			]
 			id: "070D257FF3DE0DBF"
-			rewards: [{
-				id: "2A269158CA3BF273"
-				item: "solonion:food_book"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "2A269158CA3BF273"
+					item: "solonion:food_book"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "1EEF4F647DB9FDBD"
+					item: "thermal:gold_coin"
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 2.0d
 			tasks: [{
@@ -402,7 +417,7 @@
 				type: "item"
 			}]
 			title: "Before a furnace humanity used campfires"
-			x: 6.0d
+			x: 8.0d
 			y: 0.0d
 		}
 		{
@@ -457,8 +472,8 @@
 				}
 			]
 			title: "Mining"
-			x: 2.0d
-			y: 2.0d
+			x: 3.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["2BB4A388858E481A"]
@@ -479,21 +494,29 @@
 				type: "item"
 			}]
 			shape: "rsquare"
-			tasks: [{
-				id: "4A18D0F653C5BF79"
-				item: {
-					Count: 1
-					id: "ftbfiltersystem:smart_filter"
-					tag: {
-						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(forge:tools/shovels)"
+			tasks: [
+				{
+					id: "4A18D0F653C5BF79"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(forge:tools/shovels)"
+						}
 					}
+					title: "Any #forge:tools/shovels"
+					type: "item"
 				}
-				title: "Any #forge:tools/shovels"
-				type: "item"
-			}]
+				{
+					count: 4L
+					id: "3FA51290A2FF24D1"
+					item: { Count: 4, id: "minecraft:gravel" }
+					type: "item"
+				}
+			]
 			title: "time to gather usefull materials"
-			x: 2.0d
-			y: 0.0d
+			x: 1.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["2BB4A388858E481A"]
@@ -502,7 +525,7 @@
 				""
 				"Tons of crops now have uses in progression for example you will need to grow:"
 				""
-				"-wheat to finish &ltier 0.5&r  "
+				"-wheat to finish the introduction and &ltier 0.5&r  "
 				""
 				"-potatoes  for machines in &ltier 1"
 				""
@@ -551,71 +574,21 @@
 				}
 			]
 			shape: "rsquare"
-			tasks: [
-				{
-					id: "3822C691BB6A937E"
-					item: {
-						Count: 1
-						id: "ftbfiltersystem:smart_filter"
-						tag: {
-							"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:hoes)"
-						}
-					}
-					title: "Any #minecraft:hoes"
-					type: "item"
-				}
-				{
-					id: "540DCFD074BEA179"
-					item: {
-						Count: 1
-						id: "farmersdelight:flint_knife"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-			]
-			title: "Farming"
-			x: 2.0d
-			y: -2.0d
-		}
-		{
-			dependencies: ["69B93BA4460E5F95"]
-			description: [
-				""
-				"To get to the next chapter you are gonna need to blow some stuff up you can either use mobs or tnt"
-			]
-			hide_until_deps_visible: false
-			icon: "minecraft:creeper_head"
-			id: "3F2E2B483880F030"
-			optional: true
-			rewards: [
-				{
-					count: 5
-					id: "2FED523D2C16D553"
-					item: "minecraft:gunpowder"
-					type: "item"
-				}
-				{
-					count: 3
-					id: "285A3CD566BB6665"
-					item: "thermal:copper_coin"
-					type: "item"
-				}
-			]
-			shape: "rsquare"
-			subtitle: "Explosion Crafting!"
 			tasks: [{
-				id: "509547F8D00897E5"
-				observe_type: 5
-				timer: 0L
-				to_observe: "minecraft:creeper"
-				type: "observation"
+				id: "3822C691BB6A937E"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:hoes)"
+					}
+				}
+				title: "Any #minecraft:hoes"
+				type: "item"
 			}]
-			title: "Explosive Mobs"
-			x: -0.5d
-			y: 3.5d
+			title: "Farming"
+			x: 1.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["435BD5A742C05B1E"]
@@ -633,7 +606,7 @@
 				item: "farmersdelight:canvas"
 				type: "item"
 			}]
-			x: 3.5d
+			x: 1.5d
 			y: -3.5d
 		}
 		{
@@ -675,7 +648,129 @@
 				type: "item"
 			}]
 			x: 3.5d
-			y: -5.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["5C95579DC269AF2A"]
+			description: ["You can now tinker even more with food!"]
+			id: "0FC4FA79D5AB30AE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4AA8215B8C603A6A"
+				table_id: 4681511814997660015L
+				type: "random"
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "1D531E57A7A23F0E"
+				item: "farmersdelight:cutting_board"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2A0A25E7A7AA7334"]
+			id: "0E5A981A32056DDC"
+			rewards: [{
+				id: "6466B5F4990C5F6E"
+				item: "fruitsdelight:mango_salad"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "0998F8E68E163D34"
+				item: {
+					Count: 1
+					id: "kubejs:primitive_mortar"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["08BFA7B9435D7DCC"]
+			id: "2A0A25E7A7AA7334"
+			rewards: [{
+				id: "7CCA13CD53E8C684"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "581956980783ED26"
+				item: {
+					Count: 1
+					id: "kubejs:primitive_chisel"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2A0A25E7A7AA7334"]
+			icon: {
+				Count: 1
+				id: "farmersdelight:flint_knife"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "5C95579DC269AF2A"
+			rewards: [{
+				id: "321CB8C03BD35D07"
+				item: "farmersdelight:bacon_sandwich"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "2CFFE963B01A7CBD"
+					item: {
+						Count: 1
+						id: "farmersdelight:flint_knife"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "213FF6EA083F52DC"
+					item: { Count: 3, id: "farmersdelight:straw" }
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["435BD5A742C05B1E"]
+			id: "22BF5448BA6B11AF"
+			rewards: [{
+				count: 2
+				id: "778C9A624F904899"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				count: 3L
+				id: "0B1B2E62408DE1D9"
+				item: "minecraft:wheat"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -2.0d
 		}
 	]
 	title: "Tier 0 - Introduction"

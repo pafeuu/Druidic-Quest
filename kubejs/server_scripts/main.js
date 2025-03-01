@@ -145,17 +145,43 @@ ServerEvents.recipes(event => {
 
 	event.remove({id:'naturesaura:gold_fiber'})
 	event.remove({output:'naturesaura:wood_stand'})
-
 	event.custom({
-		type: "create:item_application",
-		ingredients: [
-			{tag: "forge:stripped_logs"},
-			{item: "naturesaura:gold_leaf"}
+		"type": "lychee:block_interacting",
+		"comment": "one of the items needs to be in the offhand",
+		"post": [
+		  {
+			"type": "place",
+			"block": "naturesaura:wood_stand"
+		  },
+		  {
+			"type": "damage_item",
+			"damage": 1,
+			"target": "/item_in/0"
+		  },
+		  {
+			"type": "execute",
+			"command": "playsound sawmill:ui.sawmill.take_result neutral @p",
+			"hide": true
+		  },
+		  {
+			"type": "execute",
+			"command": "ftbquests change_progress @p complete 0808C0083EAF8BE2",
+			"hide": true
+		  }
 		],
-		results: [
-			{item: "naturesaura:wood_stand"}
-		]
-	})
+		"item_in": [
+		  {
+			"tag": "forge:tools/knives"
+		  },
+		  {
+			"item": "naturesaura:gold_leaf"
+		  }
+		],
+		"block_in": {
+		"tag": "forge:stripped_logs"
+		}
+	  })
+	
 
 	event.remove({output:'immersiveengineering:cokebrick'})
 	event.custom({

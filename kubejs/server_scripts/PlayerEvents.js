@@ -4,6 +4,8 @@
     // Get Curios inventory directly from player
     let curios = player.getCurios();
 
+    if (player.age % 20 !== 0) return; // Run every second
+
     if (curios) {
         // Check if the player has the custom Emerald Ring equipped
         let ringEquipped = false;

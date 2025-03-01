@@ -20,9 +20,9 @@
         ]
       }
     ],
-    "owners": "minecraft:copper_block",
+    "owners": "minecraft:waxed_copper_block",
     "replacing_target": {
-      "block": "minecraft:copper_block",
+      "block": "minecraft:waxed_copper_block",
       "predicate_type": "minecraft:block_match"
     }
   }

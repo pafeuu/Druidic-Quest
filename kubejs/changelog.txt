@@ -1335,6 +1335,7 @@ Patch 0.3.2.1
     -Added for sapphire blocks and sapphires from blocks
     -Changed for aether's iron ring
     -Changed for aether's gold ring
+    -Changed for wooden stand
 
  ### New Items:
     -Sapphire Block
@@ -1423,3 +1424,4 @@ Patch 0.3.2.1
     -Pack no longer forces fullscreen on launch
     -Fixed tooltips on the magic feathers
     -Changed the names of the magic feathers
+    -Maximum speed for create is now 64RPM

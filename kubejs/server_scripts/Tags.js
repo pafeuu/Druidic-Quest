@@ -195,6 +195,41 @@ ServerEvents.tags('block', event => {
   event.add("druidic_quest:terraformer","#minecraft:dirt")
   event.add("druidic_quest:terraformer","#minecraft:sand")
 
+  event.add("forge:stripped_logs",['thermal:stripped_rubberwood_log',
+    'twilightforest:stripped_sorting_log',
+    'twilightforest:stripped_mining_log',
+    'twilightforest:stripped_transformation_log',
+    'twilightforest:stripped_time_log',
+    'twilightforest:stripped_dark_log',
+    'twilightforest:stripped_mangrove_log',
+    'twilightforest:stripped_canopy_log',
+    'twilightforest:stripped_twilight_oak_log',
+    'aether_redux:stripped_glacia_log',
+    'aether_redux:stripped_crystal_log',
+    'aether_redux:stripped_blightwillow_log',
+    'aether_redux:stripped_fieldsproot_log',
+    'aether:stripped_skyroot_log',
+    'forbidden_arcanus:stripped_aurum_log',
+    'deep_aether:stripped_sunroot_log',
+    'deep_aether:stripped_conberry_log',
+    'deep_aether:stripped_cruderoot_log',
+    'deep_aether:stripped_yagroot_log',
+    'deep_aether:stripped_roseroot_log',
+    'architects_palette:stripped_twisted_log',
+    'ars_nouveau:stripped_blue_archwood_log',
+    'ars_nouveau:stripped_purple_archwood_log',
+    'ars_nouveau:stripped_red_archwood_log',
+    'ars_nouveau:stripped_green_archwood_log',
+    'ancient_aether:stripped_highsproot_log',
+    'minecraft:stripped_cherry_log',
+    'minecraft:stripped_mangrove_log',
+    'minecraft:stripped_dark_oak_log',
+    'minecraft:stripped_acacia_log',
+    'minecraft:stripped_jungle_log',
+    'minecraft:stripped_birch_log',
+    'minecraft:stripped_spruce_log',
+    'minecraft:stripped_oak_log'])
+
   event.add("irons_spellbooks:spectral_hammer_mineable",["twigs:schist","twigs:rhyolite","immersiveweathering:mossy_stone"])
 
   let grass =["regions_unexplored:medium_grass","regions_unexplored:ashen_grass","regions_unexplored:bladed_grass","regions_unexplored:frozen_grass","regions_unexplored:sandy_grass","regions_unexplored:steppe_grass",

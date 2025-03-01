@@ -221,6 +221,69 @@ ServerEvents.recipes(event => {
 
 	//===============================================Tool Functionality=============================================
 
+	//Chisel
+	event.custom({
+		"type": "lychee:block_interacting",
+		"post": [
+		  {
+			"type": "place",
+			"block": "minecraft:stone_slab"
+		  },
+		  {
+			"type": "damage_item",
+			"damage": 1
+		  },
+		  {
+			"type": "drop_item",
+			"item": "twigs:pebble",
+			"count": 3
+		  },
+		  {
+			"type": "execute",
+			"command": "playsound minecraft:ui.stonecutter.take_result neutral @p"
+		  }
+		],
+		"item_in": [
+		  {
+			"tag": "forge:tools/chisels"
+		  }
+		],
+		"block_in": "minecraft:stone"
+	  })
+	
+	  event.custom({
+		"type": "lychee:block_interacting",
+		"post": [
+		  {
+			"type": "place",
+			"block": "minecraft:air"
+		  },
+		  {
+			"type": "damage_item",
+			"damage": 1,
+			"target": "/item_in/0"
+		  },
+		  {
+			"type": "drop_item",
+			"item": "kubejs:primitive_mortar"
+		  },
+		  {
+			"type": "execute",
+			"command": "playsound minecraft:ui.stonecutter.take_result neutral @p",
+			"hide": true
+		  }
+		],
+		"item_in": [
+		  {
+			"tag": "forge:tools/chisels"
+		  },
+		  {
+			"item": "flint"
+		  }
+		],
+		"block_in": "minecraft:stone_slab"
+	  })
+
 	//Terraformer
 	event.custom({
 	"type": "lychee:block_interacting",

@@ -388,6 +388,13 @@
 				""
 				"&7Zinc Tools&r are the most brittle of the 3 but in exchange they are fastest on this stage and they also give the user movement speed boost!"
 			]
+			icon: {
+				Count: 1
+				id: "kubejs:silver_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "5B041C755EE18D60"
 			rewards: [{
 				id: "71CF6A9891F43A57"
