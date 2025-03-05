@@ -221,7 +221,7 @@ ServerEvents.recipes(event => {
 
 	//===============================================Tool Functionality=============================================
 
-	//Chisel
+	//Saw
 	event.custom({
 		"type": "lychee:block_interacting",
 		"post": [
@@ -250,6 +250,54 @@ ServerEvents.recipes(event => {
 		],
 		"block_in": "minecraft:stone"
 	  })
+
+
+	//Chisel
+	function CuttingLogs(planks,log)
+	{
+		event.custom({
+			"type": "lychee:block_interacting",
+			"post": [
+			  {
+				"type": "place",
+				"block": "minecraft:air"
+			  },
+			  {
+				"type": "damage_item",
+				"damage": 1
+			  },
+			  {
+				"type": "drop_item",
+				"item": planks,
+				"count": 3
+			  },
+			  {
+				"type": "execute",
+				"command": "playsound sawmill:ui.sawmill.take_result neutral @p"
+			  },
+			  {
+				"type": "execute",
+				"command": "particle crit ~ ~ ~ 0.25 0.25 0.25 0 15"
+			  }
+			],
+			"item_in": [
+			  {
+				"tag": "forge:tools/saws"
+			  }
+			],
+			"block_in": log
+		  })
+	}
+	
+	CuttingLogs("minecraft:oak_planks","minecraft:stripped_oak_log")
+	CuttingLogs("minecraft:spruce_planks","minecraft:stripped_spruce_log")
+	CuttingLogs("minecraft:birch_planks","minecraft:stripped_birch_log")
+	CuttingLogs("minecraft:jungle_planks","minecraft:stripped_jungle_log")
+	CuttingLogs("minecraft:acacia_planks","minecraft:stripped_acacia_log")
+	CuttingLogs("minecraft:dark_oak_planks","minecraft:stripped_dark_oak_log")
+	CuttingLogs("minecraft:crimson_planks","minecraft:stripped_crimson_stem")
+	CuttingLogs("minecraft:warped_planks","minecraft:stripped_warped_stem")
+	
 	
 	  event.custom({
 		"type": "lychee:block_interacting",

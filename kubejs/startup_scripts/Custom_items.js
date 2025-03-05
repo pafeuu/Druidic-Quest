@@ -282,6 +282,7 @@ StartupEvents.registry('item', item => {
 
   item.create('primitive_mortar').maxDamage(16).unstackable().tag("forge:tools/mortars").tag("dq:tier0/tool")
   item.create('basic_mortar').maxDamage(64).tag("forge:tools/mortars").tag("dq:tier1/tool").unstackable()
+  item.create('primitive_saw').maxDamage(64).unstackable().tag("forge:tools/saws").tag("dq:tier0/tool")
 
   item.create('primitive_chisel').maxDamage(16).unstackable().tag("forge:tools/chisels").tag("dq:tier0/tool")
   item.create('basic_chisel').maxDamage(128).tag("forge:tools/chisels").tag("dq:tier2/tool").unstackable()
