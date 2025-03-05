@@ -4,7 +4,6 @@
 /local
 /logs
 /modernfix
-/mods
 /resourcepacks
 /saves
 /screenshots
@@ -14,6 +13,7 @@
 /XaeroWaypoints_BACKUP240807
 /crash-reports
 /.mixin.out
+/mods
 /alembic
 /server-resource-packs
 /texturepacks

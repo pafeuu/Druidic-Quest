@@ -190,7 +190,7 @@
 			dependencies: ["3F2E2B483880F030"]
 			dependency_requirement: "one_completed"
 			description: [
-				"Drop &82 strings&r, &a2 wheat seeds&r and &e3 flowers&r with the tag #forge:flowers/golden before explosion to craft &6Brilitant Fiber&r."
+				"Drop &82 strings&r, &a2 wheat seeds&r and &e3 flowers&r (with the tag #forge:flowers/golden) on the ground then explode it with tnt or creeper to craft &6Brilitant Fiber&r."
 				""
 				"Right click &6Briliant Fiber&r on some leaves and wait for it to spread it will drop golden leaves which you need for further progression."
 			]

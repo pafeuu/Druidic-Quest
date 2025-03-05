@@ -235,7 +235,7 @@
 				}
 			]
 			title: "Exploration "
-			x: -0.5d
+			x: -1.0d
 			y: 2.0d
 		}
 		{
@@ -607,7 +607,7 @@
 				type: "item"
 			}]
 			x: 1.5d
-			y: -3.5d
+			y: -4.0d
 		}
 		{
 			dependencies: ["435BD5A742C05B1E"]
@@ -647,8 +647,8 @@
 				item: "supplementaries:sack"
 				type: "item"
 			}]
-			x: 3.5d
-			y: -3.5d
+			x: 1.5d
+			y: -6.0d
 		}
 		{
 			dependencies: ["5C95579DC269AF2A"]

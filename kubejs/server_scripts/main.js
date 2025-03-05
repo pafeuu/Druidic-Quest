@@ -100,6 +100,7 @@ ServerEvents.recipes(event => {
 			{type: "place", block: "alexsmobs:capsid"},
 		]
 	})
+	
 	event.shaped("composter",[
 		"F F",
 		"S S",
