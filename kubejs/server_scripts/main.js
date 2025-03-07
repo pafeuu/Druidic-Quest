@@ -1529,6 +1529,30 @@ ServerEvents.recipes(event => {
 		  "time": 800	
 	})
 
+	event.custom({
+		type: "immersiveengineering:alloy",
+		  "input0": {
+			base_ingredient: {
+				item: "elementalcraft:contained_crystal"
+			},
+			count: 3
+		  },
+		  "input1": {
+			base_ingredient: {
+				tag: "forge:ingots/iron"
+			},
+			count: 2,
+		  },
+		   
+		  "result": {
+			"base_ingredient": {
+			  item: "kubejs:inert_alloy_ingot"
+			},
+			"count": 2
+		  },
+		  "time": 800	
+	})
+
 	event.recipes.ars_nouveau.enchanting_apparatus(
 		["kubejs:zinc_tool_handle","blaze_rod","#forge:storage_blocks/coal_coke","#forge:storage_blocks/coal_coke"],
 		"twilightforest:liveroot",
