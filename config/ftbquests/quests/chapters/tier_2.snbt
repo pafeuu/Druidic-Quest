@@ -734,44 +734,44 @@
 			]
 			tasks: [
 				{
-					id: "296AD1556277FADF"
-					item: {
-						Count: 1
-						id: "create_sa:copper_shovel"
-						tag: {
-							Damage: 0
-							Enchantments: [{
-								id: "minecraft:unbreaking"
-								lvl: 3
-							}]
-							Modifier: "forbidden_arcanus:demolishing"
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "29517F7BF40ACC31"
-					item: {
-						Count: 1
-						id: "create_sa:copper_hoe"
-						tag: {
-							Damage: 0
-							Enchantments: [{
-								id: "minecraft:unbreaking"
-								lvl: 3
-							}]
-							Modifier: "forbidden_arcanus:demolishing"
-						}
-					}
-					type: "item"
-				}
-				{
 					id: "1D2CFAA30A63E4DE"
 					item: {
 						Count: 1
 						id: "kubejs:mining_hammer"
 						tag: {
 							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "06D674C00D523DE5"
+					item: {
+						Count: 1
+						id: "kubejs:copper_shovel"
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								id: "minecraft:unbreaking"
+								lvl: 3
+							}]
+							Modifier: "forbidden_arcanus:demolishing"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "38842C3238F04268"
+					item: {
+						Count: 1
+						id: "kubejs:copper_hoe"
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								id: "minecraft:unbreaking"
+								lvl: 3
+							}]
+							Modifier: "forbidden_arcanus:demolishing"
 						}
 					}
 					type: "item"
