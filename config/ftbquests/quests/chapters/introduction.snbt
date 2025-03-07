@@ -387,8 +387,8 @@
 				type: "item"
 			}]
 			title: "Before a furnace humanity used campfires"
-			x: -3.0d
-			y: -4.0d
+			x: -0.5d
+			y: -5.5d
 		}
 		{
 			dependencies: ["2BB4A388858E481A"]

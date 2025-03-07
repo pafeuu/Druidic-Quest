@@ -1,0 +1,13 @@
+{
+    "id": "enigmaticlegacy:iron_ring",
+    "modifiers": [
+      {
+        "type": "append",
+        "attribute": "minecraft:generic.movement_speed",
+        "value": -0.02,
+        "operation": "MULTIPLY_BASE",
+        "uuid": "04081d20-dff4-478c-9747-445120b932c3"
+      }
+    ],
+    "equipment_slot": "ring"
+  }

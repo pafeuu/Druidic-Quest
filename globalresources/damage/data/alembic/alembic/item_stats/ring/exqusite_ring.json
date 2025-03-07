@@ -1,0 +1,13 @@
+{
+    "id": "enigmaticlegacy:golden_ring",
+    "modifiers": [
+      {
+        "type": "append",
+        "attribute": "alembic:ice_damage.resistance",
+        "value": -3,
+        "operation": "ADDITION",
+        "uuid": "e2ba06b5-f08d-4b7d-9dd1-b290205ebb1a"
+      }
+    ],
+    "equipment_slot": "ring"
+  }
