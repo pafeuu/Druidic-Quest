@@ -1121,7 +1121,7 @@
 			dependencies: ["4CCE1DF1DF0C35DB"]
 			icon: {
 				Count: 1
-				id: "create_sa:copper_chestplate"
+				id: "kubejs:copper_chestplate"
 				tag: {
 					Damage: 0
 				}
@@ -1135,10 +1135,10 @@
 			}]
 			tasks: [
 				{
-					id: "64AD1D0EE50643CB"
+					id: "50F3B31CD9A33B21"
 					item: {
 						Count: 1
-						id: "create_sa:copper_helmet"
+						id: "kubejs:copper_helmet"
 						tag: {
 							Damage: 0
 						}
@@ -1146,10 +1146,10 @@
 					type: "item"
 				}
 				{
-					id: "214B63D1CBC37AEF"
+					id: "36A1545D7D231531"
 					item: {
 						Count: 1
-						id: "create_sa:copper_chestplate"
+						id: "kubejs:copper_chestplate"
 						tag: {
 							Damage: 0
 						}
@@ -1157,10 +1157,10 @@
 					type: "item"
 				}
 				{
-					id: "1758BF7BA5D5A9B1"
+					id: "2E3B4261F4DAA0DA"
 					item: {
 						Count: 1
-						id: "create_sa:copper_leggings"
+						id: "kubejs:copper_leggings"
 						tag: {
 							Damage: 0
 						}
@@ -1168,10 +1168,10 @@
 					type: "item"
 				}
 				{
-					id: "69D9CA892E6DD364"
+					id: "332BFAE2BA90E0CF"
 					item: {
 						Count: 1
-						id: "create_sa:copper_boots"
+						id: "kubejs:copper_boots"
 						tag: {
 							Damage: 0
 						}
@@ -1187,7 +1187,7 @@
 			dependencies: ["4CCE1DF1DF0C35DB"]
 			icon: {
 				Count: 1
-				id: "create_sa:zinc_chestplate"
+				id: "kubejs:silver_chestplate"
 				tag: {
 					Damage: 0
 				}
@@ -1201,10 +1201,10 @@
 			}]
 			tasks: [
 				{
-					id: "17EBDE5490D6EDA5"
+					id: "2C77769963FAE9FC"
 					item: {
 						Count: 1
-						id: "create_sa:zinc_helmet"
+						id: "kubejs:silver_helmet"
 						tag: {
 							Damage: 0
 						}
@@ -1212,10 +1212,10 @@
 					type: "item"
 				}
 				{
-					id: "6679C8918295FF21"
+					id: "14ED7E7E20C7398D"
 					item: {
 						Count: 1
-						id: "create_sa:zinc_chestplate"
+						id: "kubejs:silver_chestplate"
 						tag: {
 							Damage: 0
 						}
@@ -1223,10 +1223,10 @@
 					type: "item"
 				}
 				{
-					id: "6B1CE96D4B94B253"
+					id: "3933B7A10CC51CDC"
 					item: {
 						Count: 1
-						id: "create_sa:zinc_leggings"
+						id: "kubejs:silver_leggings"
 						tag: {
 							Damage: 0
 						}
@@ -1234,10 +1234,10 @@
 					type: "item"
 				}
 				{
-					id: "399608E85E184E0F"
+					id: "752ED2E4B2BF3C1E"
 					item: {
 						Count: 1
-						id: "create_sa:zinc_boots"
+						id: "kubejs:silver_boots"
 						tag: {
 							Damage: 0
 						}
@@ -1245,7 +1245,7 @@
 					type: "item"
 				}
 			]
-			title: "Zinc Set"
+			title: "Silver Set"
 			x: -3.0d
 			y: -1.5d
 		}
@@ -1253,7 +1253,7 @@
 			dependencies: ["4CCE1DF1DF0C35DB"]
 			icon: {
 				Count: 1
-				id: "create_sa:brass_chestplate"
+				id: "kubejs:lead_chestplate"
 				tag: {
 					Damage: 0
 				}
@@ -1267,10 +1267,10 @@
 			}]
 			tasks: [
 				{
-					id: "45BD999A07EDDA80"
+					id: "4E021180D8BF50D9"
 					item: {
 						Count: 1
-						id: "create_sa:brass_helmet"
+						id: "kubejs:lead_helmet"
 						tag: {
 							Damage: 0
 						}
@@ -1278,10 +1278,10 @@
 					type: "item"
 				}
 				{
-					id: "6E5BCA974C4F8E83"
+					id: "28C659F3E074D37F"
 					item: {
 						Count: 1
-						id: "create_sa:brass_chestplate"
+						id: "kubejs:lead_chestplate"
 						tag: {
 							Damage: 0
 						}
@@ -1289,10 +1289,10 @@
 					type: "item"
 				}
 				{
-					id: "394AFA37D8D35D47"
+					id: "3588664508FD5E82"
 					item: {
 						Count: 1
-						id: "create_sa:brass_leggings"
+						id: "kubejs:lead_leggings"
 						tag: {
 							Damage: 0
 						}
@@ -1300,10 +1300,10 @@
 					type: "item"
 				}
 				{
-					id: "2D8834880E04B066"
+					id: "061EAB7E087D50AC"
 					item: {
 						Count: 1
-						id: "create_sa:brass_leggings"
+						id: "kubejs:lead_boots"
 						tag: {
 							Damage: 0
 						}
@@ -1311,7 +1311,7 @@
 					type: "item"
 				}
 			]
-			title: "Brass Set"
+			title: "Lead Set"
 			x: -5.0d
 			y: -0.5d
 		}

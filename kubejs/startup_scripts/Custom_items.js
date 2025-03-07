@@ -1,5 +1,6 @@
 const $ShearsItem = Java.loadClass('net.minecraft.world.item.ShearsItem')
 const $ShieldItem = Java.loadClass('net.minecraft.world.item.ShieldItem')
+const $FlintAndSteelItem = Java.loadClass('net.minecraft.world.item.FlintAndSteelItem')
 const $ItemProperties = Java.loadClass('net.minecraft.world.item.Item$Properties')
 
 ItemEvents.toolTierRegistry(event => {
@@ -275,6 +276,8 @@ StartupEvents.registry('item', item => {
   
 
   item.createCustom('primitive_shears',() => new $ShearsItem(new $ItemProperties().defaultDurability(8)))
+
+  item.createCustom('primitive_firestarter',() => new $FlintAndSteelItem(new $ItemProperties().defaultDurability(8)))
 
   item.createCustom('primitive_shield', () => new $ShieldItem(new $ItemProperties().defaultDurability(128)))
 
