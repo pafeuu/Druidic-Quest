@@ -319,10 +319,10 @@ ServerEvents.recipes(event => {
 	event.recipes.create.milling(['kubejs:broken_key',"8x thermal:ruby"],'kubejs:nether_key')
 	//-------------------Gears----------------------
 
-	function ThermalGears(material)
+	function CustomGears(material,id)
 	{
-		event.remove({id:"thermal:parts/"+material+"_gear"})
-		event.shaped("thermal:"+material+"_gear",
+		
+		event.shaped(id,
 			[
 				"RPR",
 				"PGP",
@@ -334,6 +334,23 @@ ServerEvents.recipes(event => {
 				G: "kubejs:stone_gear"
 			}
 		)
+	}
+
+	function ThermalGears(material)
+	{
+		event.remove({id:"thermal:parts/"+material+"_gear"})//removes original recipe
+		event.shaped("thermal:"+material+"_gear",
+			[
+				"RPR",
+				"PGP",
+				"RPR"
+			],
+			{
+				P: "#forge:plates/"+material,
+				R: "#forge:rods/"+material,
+				G: "kubejs:stone_gear"
+			}
+		)// Adds crafting recipes for gears from thermal
 	}
 
 	ThermalGears("iron")
@@ -354,6 +371,9 @@ ServerEvents.recipes(event => {
 	ThermalGears("lumium")
 	ThermalGears("enderium")
 	ThermalGears("diamond")
+	CustomGears("infused_iron","kubejs:infused_iron_gear")
+	CustomGears("arcane_alloy","kubejs:arcane_alloy_gear")
+	CustomGears("inert_alloy","kubejs:inert_alloy_gear")
 
 	//-------------------Rods-----------------------
 
@@ -384,6 +404,9 @@ ServerEvents.recipes(event => {
 		event.remove({output:"#forge:rods/"+material})
 	}
 
+	rods("infused_iron","kubejs:infused_iron_rod")
+	rods("arcane_alloy","kubejs:arcane_alloy_rod")
+	rods("inert_alloy","kubejs:inert_alloy_rod")
 	rods("copper","kubejs:copper_rod")
 	rods("electrum","kubejs:electrum_rod")
 	rods("diamond","kubejs:diamond_rod")
@@ -583,6 +606,7 @@ ServerEvents.recipes(event => {
 	PlatesOnetoOne("chipped:smooth_stone","kubejs:stone_plate", "minecraft:smooth_stone")
 
 	plates("forge:ingots/arcane_alloy","kubejs:arcane_alloy_plate","kubejs:arcane_alloy_block")
+	plates("forge:ingots/infused_iron","kubejs:infused_iron_plate","naturesaura:infused_iron_block")
 	plates("forge:ingots/inert_alloy","kubejs:inert_alloy_plate","kubejs:inert_alloy_block")
 	plates("forge:gems/diamond","kubejs:diamond_plate","minecraft:diamond_block")
 	

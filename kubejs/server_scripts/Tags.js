@@ -73,6 +73,8 @@ ServerEvents.tags('item', event => {
   
 
   event.add("forge:insect","alexsmobs:maggot")
+  event.add("forge:ingots/infused_iron","naturesaura:infused_iron")
+  event.add("forge:storage_blocks/infused_iron","naturesaura:infused_iron_block")
   event.add("quark:seed_pouch_holdable","forge:seeds")
   event.add("quark:seed_pouch_holdable","minecraft:saplings")
   event.add("forge:tools","#minecraft:tools")
