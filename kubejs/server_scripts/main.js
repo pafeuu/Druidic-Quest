@@ -237,6 +237,10 @@ ServerEvents.recipes(event => {
 	
 	event.shapeless('3x bone_meal', ['bone','#forge:tools/mortars']).damageIngredient('#forge:tools/mortars',2).id('minecraft:bone_meal')
 
+	event.shapeless('flint', ['gravel','#forge:tools/mortars']).damageIngredient('#forge:tools/mortars',4)
+
+	event.shaped("flint",["GG","GG"],{G:"minecraft:gravel"})
+
 	event.shapeless('sugar', ['sugar_cane','#forge:tools/mortars']).damageIngredient('#forge:tools/mortars',2).id('minecraft:sugar_from_sugar_cane')
 
 	event.shapeless('minecraft:blaze_powder', ['blaze_rod','#forge:tools/mortars']).damageIngredient('#forge:tools/mortars',8).id('minecraft:blaze_powder')

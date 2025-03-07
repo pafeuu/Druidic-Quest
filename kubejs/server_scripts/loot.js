@@ -292,6 +292,9 @@ LootJS.modifiers((event) => {
 
     event.addBlockLootModifier("kubejs:charged_copper_block")
         .replaceLoot("kubejs:charged_copper_block","minecraft:copper_block")
+
+    event.addBlockLootModifier("gravel")
+        .replaceLoot("flint","gravel")
     
 
 
