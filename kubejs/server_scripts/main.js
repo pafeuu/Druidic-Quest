@@ -235,6 +235,10 @@ ServerEvents.recipes(event => {
 	
 	/// ======================================================================= Tier 0 Components ========================================================================
 	
+	event.shapeless('3x bone_meal', ['bone','#forge:tools/mortars']).damageIngredient('#forge:tools/mortars',2).id('minecraft:bone_meal')
+
+	event.shapeless('create:wheat_flour', ['wheat','#forge:tools/mortars']).damageIngredient('#forge:tools/mortars',2)
+
 	event.shaped("kubejs:primitive_handle",
 		[
 			" F ",
