@@ -477,10 +477,7 @@
 			y: -4.5d
 		}
 		{
-			dependencies: [
-				"682CA83814F08244"
-				"6AAA0D896526226E"
-			]
+			dependencies: ["682CA83814F08244"]
 			icon: {
 				Count: 1
 				id: "irons_spellbooks:cultist_chestplate"
@@ -999,10 +996,7 @@
 			y: -1.5d
 		}
 		{
-			dependencies: [
-				"682CA83814F08244"
-				"6AAA0D896526226E"
-			]
+			dependencies: ["682CA83814F08244"]
 			icon: { Count: 32, id: "minecraft:arrow" }
 			id: "4BB9DE2F803292B8"
 			rewards: [{
@@ -1022,10 +1016,7 @@
 			y: -3.0d
 		}
 		{
-			dependencies: [
-				"682CA83814F08244"
-				"6AAA0D896526226E"
-			]
+			dependencies: ["682CA83814F08244"]
 			icon: { Count: 32, id: "quark:torch_arrow" }
 			id: "34FC013BA67B8344"
 			rewards: [{
@@ -1045,10 +1036,7 @@
 			y: -3.0d
 		}
 		{
-			dependencies: [
-				"682CA83814F08244"
-				"6AAA0D896526226E"
-			]
+			dependencies: ["682CA83814F08244"]
 			icon: {
 				Count: 2
 				id: "supplementaries:rope_arrow"

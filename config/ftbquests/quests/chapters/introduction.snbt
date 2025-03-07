@@ -50,7 +50,7 @@
 						Count: 1
 						id: "minecraft:stone_axe"
 						tag: {
-							Damage: 126
+							Damage: 120
 						}
 					}
 					type: "item"
@@ -58,7 +58,7 @@
 			]
 			title: "Before you punch a tree"
 			x: -7.0d
-			y: 0.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["4E4E7EFB7FFC688B"]
@@ -69,11 +69,8 @@
 					id: "754AF0289137ED6B"
 					item: {
 						Count: 1
-						id: "sophisticatedbackpacks:backpack"
-						tag: {
-							borderColor: 15961002
-							clothColor: 15961002
-						}
+						id: "thermal:satchel"
+						tag: { }
 					}
 					type: "item"
 				}
@@ -84,7 +81,7 @@
 				}
 			]
 			shape: "rsquare"
-			size: 1.5d
+			size: 1.0d
 			subtitle: "Now you can craft different tools"
 			tasks: [{
 				id: "77489C7B06FEF950"
@@ -92,11 +89,11 @@
 				type: "item"
 			}]
 			x: -3.0d
-			y: 0.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["69B93BA4460E5F95"]
-			description: ["&l&0Flint tools&r&r are faster alternative to stone tools in exchange they have -0.5 block reach and can't mine most of the ores"]
+			description: ["&l&4Flint tools&r&r are faster alternative to stone tools in exchange they have -0.5 block reach and can't mine most of the ores"]
 			icon: "minecraft:flint"
 			id: "2BB4A388858E481A"
 			rewards: [{
@@ -105,6 +102,7 @@
 				item: "minecraft:flint"
 				type: "item"
 			}]
+			shape: "rsquare"
 			tasks: [{
 				id: "61F4E8D6035FAA6E"
 				item: {
@@ -119,7 +117,7 @@
 			}]
 			title: "Different tools"
 			x: -0.5d
-			y: 0.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["69B93BA4460E5F95"]
@@ -141,7 +139,7 @@
 			}]
 			title: "Very early game backpack"
 			x: -3.0d
-			y: -2.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["69B93BA4460E5F95"]
@@ -173,15 +171,17 @@
 			}]
 			subtitle: "But are you in a condition to fight?"
 			tasks: [{
-				id: "6F2743B614AB7F62"
+				id: "0F3FB0935B2A1651"
 				item: {
 					Count: 1
 					id: "ftbfiltersystem:smart_filter"
 					tag: {
-						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:swords)"
+						display: {
+							Name: "{\"text\":\"Early game weapon\"}"
+						}
+						"ftbfiltersystem:filter": "or(item(minecraft:stone_sword)item(minecraft:wooden_sword)item(kubejs:mossy_sword)item(kubejs:primitive_spear)item(farmersdelight:flint_knife))"
 					}
 				}
-				title: "Any #minecraft:swords"
 				type: "item"
 			}]
 			title: "New Combat system!"
@@ -190,6 +190,7 @@
 		}
 		{
 			dependencies: ["118A5A467C0FEA36"]
+			description: ["As you can see a lot of \"basic\" items have changed recipe, but you can still find those items while exploring the world."]
 			icon: "minecraft:compass"
 			id: "729D1CD4DE8B6BBE"
 			rewards: [
@@ -235,8 +236,8 @@
 				}
 			]
 			title: "Exploration "
-			x: -1.0d
-			y: 2.0d
+			x: -1.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["118A5A467C0FEA36"]
@@ -275,33 +276,8 @@
 				type: "item"
 			}]
 			title: "New Fishing!"
-			x: -1.5d
-			y: 3.5d
-		}
-		{
-			dependencies: ["118A5A467C0FEA36"]
-			description: ["Velocity of arrows might be a bit lower"]
-			id: "6AAA0D896526226E"
-			rewards: [{
-				count: 8
-				id: "224400DA9B921D10"
-				item: "quark:torch_arrow"
-				type: "item"
-			}]
-			shape: "gear"
-			tasks: [{
-				id: "6505B4254C59C07B"
-				item: {
-					Count: 1
-					id: "minecraft:bow"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
 			x: -3.0d
-			y: 4.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["118A5A467C0FEA36"]
@@ -331,7 +307,7 @@
 				item: "alexsdelight:bison_burger"
 				type: "item"
 			}]
-			subtitle: "Versitile combat set"
+			subtitle: "Versatile combat set"
 			tasks: [
 				{
 					id: "64EC0D1B3B96C03A"
@@ -380,15 +356,10 @@
 			]
 			title: "Armour Sets!"
 			x: -4.5d
-			y: 3.5d
+			y: 4.5d
 		}
 		{
-			dependencies: [
-				"090099B8B3800BAE"
-				"22BF5448BA6B11AF"
-				"5C95579DC269AF2A"
-				"0E5A981A32056DDC"
-			]
+			dependencies: ["090099B8B3800BAE"]
 			description: [
 				"Now that you crafted or the primitive tools you can go into the real progression!"
 				""
@@ -409,23 +380,22 @@
 					type: "item"
 				}
 			]
-			shape: "rsquare"
-			size: 2.0d
+			size: 1.0d
 			tasks: [{
 				id: "2485CD10AB726E58"
 				item: "minecraft:campfire"
 				type: "item"
 			}]
 			title: "Before a furnace humanity used campfires"
-			x: 8.0d
-			y: 0.0d
+			x: -3.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["2BB4A388858E481A"]
 			dependency_requirement: "all_started"
 			icon: {
 				Count: 1
-				id: "minecraft:stone_pickaxe"
+				id: "minecraft:wooden_pickaxe"
 				tag: {
 					Damage: 0
 				}
@@ -451,7 +421,6 @@
 					type: "item"
 				}
 			]
-			shape: "rsquare"
 			tasks: [
 				{
 					id: "63BCF6A42FC24357"
@@ -459,24 +428,24 @@
 					type: "item"
 				}
 				{
-					id: "62CB0E2BA1D53F5D"
+					id: "2FF3E03AB624A44C"
 					item: {
 						Count: 1
 						id: "ftbfiltersystem:smart_filter"
 						tag: {
-							"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(forge:tools/pickaxes)"
+							"ftbfiltersystem:filter": "or(item(minecraft:wooden_pickaxe)item(minecraft:stone_pickaxe))"
 						}
 					}
-					title: "Any #forge:tools/pickaxes"
+					title: "Early game pickaxe"
 					type: "item"
 				}
 			]
 			title: "Mining"
-			x: 3.5d
-			y: 0.0d
+			x: -0.5d
+			y: -4.0d
 		}
 		{
-			dependencies: ["2BB4A388858E481A"]
+			dependencies: ["0E5A981A32056DDC"]
 			dependency_requirement: "all_started"
 			hide_details_until_startable: false
 			hide_until_deps_visible: false
@@ -494,29 +463,21 @@
 				type: "item"
 			}]
 			shape: "rsquare"
-			tasks: [
-				{
-					id: "4A18D0F653C5BF79"
-					item: {
-						Count: 1
-						id: "ftbfiltersystem:smart_filter"
-						tag: {
-							"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(forge:tools/shovels)"
-						}
+			tasks: [{
+				id: "4A18D0F653C5BF79"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(forge:tools/shovels)"
 					}
-					title: "Any #forge:tools/shovels"
-					type: "item"
 				}
-				{
-					count: 4L
-					id: "3FA51290A2FF24D1"
-					item: { Count: 4, id: "minecraft:gravel" }
-					type: "item"
-				}
-			]
+				title: "Any #forge:tools/shovels"
+				type: "item"
+			}]
 			title: "time to gather usefull materials"
-			x: 1.5d
-			y: 2.0d
+			x: 5.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["2BB4A388858E481A"]
@@ -525,18 +486,17 @@
 				""
 				"Tons of crops now have uses in progression for example you will need to grow:"
 				""
-				"-wheat to finish the introduction and &ltier 0.5&r  "
+				"-wheat to finish &3&ltier 0&r&r  "
 				""
-				"-potatoes  for machines in &ltier 1"
+				"-potatoes  for machines in&9 &ltier 1&r"
 				""
-				"-Beetroot to craft"
-				"Knives now drop straw from modded grass variants also looting increases drop rate."
+				"-Beetroot to craft &5&lcapsids&r&r which can transport items up as well as insert items into containers"
 				""
 				"Hoes can harvest in the 3x3 or 5x5 depending on the quality of the hoe."
 			]
 			icon: {
 				Count: 1
-				id: "minecraft:stone_hoe"
+				id: "minecraft:wooden_hoe"
 				tag: {
 					Damage: 0
 				}
@@ -575,20 +535,22 @@
 			]
 			shape: "rsquare"
 			tasks: [{
-				id: "3822C691BB6A937E"
+				id: "76AE06349C6FE86D"
 				item: {
 					Count: 1
 					id: "ftbfiltersystem:smart_filter"
 					tag: {
-						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:hoes)"
+						display: {
+							Name: "{\"text\":\"Early game hoe\"}"
+						}
+						"ftbfiltersystem:filter": "or(item(minecraft:stone_hoe)item(minecraft:wooden_hoe))"
 					}
 				}
-				title: "Any #minecraft:hoes"
 				type: "item"
 			}]
 			title: "Farming"
 			x: 1.5d
-			y: -2.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["435BD5A742C05B1E"]
@@ -607,7 +569,7 @@
 				type: "item"
 			}]
 			x: 1.5d
-			y: -4.0d
+			y: -5.5d
 		}
 		{
 			dependencies: ["435BD5A742C05B1E"]
@@ -625,8 +587,8 @@
 				type: "item"
 			}]
 			title: "Potato farming"
-			x: 0.0d
-			y: -3.5d
+			x: 3.0d
+			y: -5.5d
 		}
 		{
 			dependencies: ["70FF5891DA236DA4"]
@@ -648,14 +610,14 @@
 				type: "item"
 			}]
 			x: 1.5d
-			y: -6.0d
+			y: -7.0d
 		}
 		{
 			dependencies: ["5C95579DC269AF2A"]
 			description: ["You can now tinker even more with food!"]
 			id: "0FC4FA79D5AB30AE"
 			rewards: [{
-				exclude_from_claim_all: true
+				icon: "farmersdelight:chicken_sandwich"
 				id: "4AA8215B8C603A6A"
 				table_id: 4681511814997660015L
 				type: "random"
@@ -666,8 +628,8 @@
 				item: "farmersdelight:cutting_board"
 				type: "item"
 			}]
-			x: 8.0d
-			y: 3.0d
+			x: 6.75d
+			y: -1.0d
 		}
 		{
 			dependencies: ["2A0A25E7A7AA7334"]
@@ -689,11 +651,11 @@
 				}
 				type: "item"
 			}]
-			x: 5.0d
-			y: 1.0d
+			x: 3.5d
+			y: -1.0d
 		}
 		{
-			dependencies: ["08BFA7B9435D7DCC"]
+			dependencies: ["2BB4A388858E481A"]
 			id: "2A0A25E7A7AA7334"
 			rewards: [{
 				id: "7CCA13CD53E8C684"
@@ -712,11 +674,12 @@
 				}
 				type: "item"
 			}]
-			x: 3.5d
-			y: 2.0d
+			x: 1.5d
+			y: -1.0d
 		}
 		{
-			dependencies: ["2A0A25E7A7AA7334"]
+			dependencies: ["0E5A981A32056DDC"]
+			description: ["Knives now drop straw from modded grass variants also looting increases drop rate."]
 			icon: {
 				Count: 1
 				id: "farmersdelight:flint_knife"
@@ -750,8 +713,8 @@
 					type: "item"
 				}
 			]
-			x: 5.0d
-			y: 3.0d
+			x: 5.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["435BD5A742C05B1E"]
@@ -764,14 +727,427 @@
 			}]
 			shape: "rsquare"
 			tasks: [{
-				count: 3L
+				count: 4L
 				id: "0B1B2E62408DE1D9"
 				item: "minecraft:wheat"
 				type: "item"
 			}]
-			x: 5.5d
+			title: "Harvest your wheat"
+			x: 8.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["118A5A467C0FEA36"]
+			dependency_requirement: "all_started"
+			description: [
+				""
+				"To get to the next chapter you are gonna need to blow some stuff up you can either use mobs or tnt"
+			]
+			hide_until_deps_visible: false
+			icon: "minecraft:creeper_head"
+			id: "3F2E2B483880F030"
+			optional: true
+			rewards: [
+				{
+					count: 2
+					id: "2FED523D2C16D553"
+					item: "minecraft:gunpowder"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "285A3CD566BB6665"
+					item: "thermal:copper_coin"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "Explosion Crafting!"
+			tasks: [{
+				id: "509547F8D00897E5"
+				observe_type: 5
+				timer: 0L
+				to_observe: "minecraft:creeper"
+				type: "observation"
+			}]
+			title: "Explosive Mobs"
+			x: -0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3F2E2B483880F030"]
+			dependency_requirement: "one_completed"
+			description: [
+				"Drop &82 strings&r, &a2 wheat seeds&r and &e3 flowers&r (with the tag #forge:flowers/golden) on the ground then explode it with tnt or creeper to craft &6Brilitant Fiber&r."
+				""
+				"Right click &6Briliant Fiber&r on some leaves and wait for it to spread it will drop golden leaves which you need for further progression."
+			]
+			hide_details_until_startable: false
+			hide_until_deps_visible: false
+			icon: "naturesaura:gold_fiber"
+			id: "474D50C2F74737EE"
+			progression_mode: "flexible"
+			rewards: [
+				{
+					id: "7E57681C09E38238"
+					item: {
+						Count: 1
+						id: "patchouli:guide_book"
+						tag: {
+							"patchouli:book": "naturesaura:book"
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "3A25233FC71AD111"
+					item: "minecraft:mutton"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [
+				{
+					count: 8L
+					id: "4E57D72FF6B70120"
+					item: { Count: 8, id: "naturesaura:gold_leaf" }
+					type: "item"
+				}
+				{
+					id: "112101A4F1CD3875"
+					item: "naturesaura:gold_fiber"
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["474D50C2F74737EE"]
+			description: [
+				"Right click with golden leaf on a stripped log to turn it into wooden stand"
+				""
+				"If you dont know how to use wooden stands look at the image below."
+				""
+				"Material below doesn't matter except the middle where you need a block that you can plant a sapling on."
+				""
+				"To get the result out of recipe the tree in the middle has to grow, you need to replace golden powder after each recipe."
+				"Items dont have  to be in a specific order like in JEI"
+				""
+				"You will need to place sapling and gold powder after every recipe so make sure to mark the position of each."
+			]
+			hide_details_until_startable: false
+			hide_until_deps_visible: false
+			id: "3795DEE8A3FE6814"
+			rewards: [
+				{
+					count: 3
+					id: "4B7A945651D92778"
+					item: "farmersdelight:kelp_roll_slice"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "57CCBE6FF02D2390"
+					item: "naturesaura:gold_leaf"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [
+				{
+					count: 16L
+					id: "473EC5D57AFB1B19"
+					item: { Count: 16, id: "naturesaura:gold_powder" }
+					type: "item"
+				}
+				{
+					icon: "naturesaura:wood_stand"
+					id: "0808C0083EAF8BE2"
+					title: "Carve a Wooden Stand"
+					type: "custom"
+				}
+			]
+			title: "Assemble the ritual"
+			x: 8.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3795DEE8A3FE6814"]
+			description: [
+				"&dAncient Sapling&r will help you maintain a healthy amount of aura in the area around. Right now you are not using any aura so you dont have to worry about it for now. Wood from this tree is also used in some recipes."
+				""
+				"You can read more about aura in the book."
+			]
+			id: "32A61115C0AD8C45"
+			rewards: [{
+				id: "4C30130FCA05747B"
+				item: "naturesaura:eye"
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "4BE6D5FEF2468D97"
+				item: "naturesaura:ancient_sapling"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["3795DEE8A3FE6814"]
+			description: [
+				"Jewelry is a big part of the modpack, getting good set of curios might be necessary to survive in this cruel world."
+				""
+				"Look at items from an enigmatic legacy mod and check what else you could craft to make yourself stronger!"
+			]
+			icon: "enigmaticlegacy:iron_ring"
+			id: "3EDF5559C9E29ED4"
+			rewards: [{
+				count: 3
+				id: "290711AFFFE68D15"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "7DF73EC4E0586B4D"
+					item: "enigmaticlegacy:iron_ring"
+					type: "item"
+				}
+				{
+					id: "7D458C8D19406586"
+					item: "enigmaticlegacy:magnet_ring"
+					type: "item"
+				}
+				{
+					id: "49C94266C775AAD7"
+					item: "enigmaticlegacy:golden_ring"
+					type: "item"
+				}
+			]
+			title: "First jewelry"
+			x: 11.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["3795DEE8A3FE6814"]
+			description: ["Used to store &aexperience&r!"]
+			id: "713CFFFD93BE4076"
+			rewards: [
+				{
+					count: 4
+					id: "72BD48ADB7DF18C7"
+					item: "irons_spellbooks:arcane_essence"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "6ED247758661C9AF"
+					item: "fruitsdelight:blueberry_muffin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "338A58B6AC0C7A23"
+				item: {
+					Count: 1
+					id: "thermal:xp_crystal"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Keeping your xp safe!"
+			x: 11.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["3795DEE8A3FE6814"]
+			description: ["Right click to activate it. Active eye gives +1.5 block reach for the cost of some unholy resistance and one heart"]
+			id: "4B5BA7BEE6643B4C"
+			rewards: [{
+				count: 3
+				id: "64DDDB2734B58294"
+				item: "minecraft:beetroot_soup"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5E942597BE42C797"
+				item: {
+					Count: 1
+					id: "enigmaticlegacy:enigmatic_eye"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Important part of the equipment"
+			x: 11.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["32A61115C0AD8C45"]
+			description: ["Right click a sunflower to get rid of rain"]
+			id: "4629A647F810AA19"
+			rewards: [{
+				id: "725BED1D7C4CD018"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5589B439251D443A"
+				item: "ars_nouveau:ritual_cloudshaping"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["08BFA7B9435D7DCC"]
+			description: ["You might want to harvest a bunch of clay and sand for the future."]
+			hide_details_until_startable: false
+			hide_until_deps_visible: false
+			icon: "minecraft:clay_ball"
+			id: "3795D0DD18CF8363"
+			rewards: [{
+				id: "50EC389AE9E2B1A7"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [
+				{
+					count: 36L
+					icon: "minecraft:sand"
+					id: "3AF322DAEAD8EF71"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:sand)"
+						}
+					}
+					title: "Any #minecraft:sand"
+					type: "item"
+				}
+				{
+					count: 18L
+					id: "20745DD491B65644"
+					item: "minecraft:clay"
+					type: "item"
+				}
+				{
+					count: 18L
+					id: "21EE77077CF5B188"
+					item: { Count: 18, id: "minecraft:gravel" }
+					type: "item"
+				}
+			]
+			title: "Why is it always clay?"
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5C95579DC269AF2A"]
+			description: [
+				"Squids might drop ink sacs more often when killed with a knife."
+				""
+				"This might be a good time to equip &4the cursed ring&r if you are brave enough..."
+			]
+			hide_details_until_startable: false
+			hide_until_deps_visible: false
+			id: "0A4DF24D1B2E7889"
+			rewards: [
+				{
+					id: "756D3E4124CD1537"
+					item: "minecraft:spruce_sapling"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "311587EA1E416A17"
+					item: "farmersdelight:squid_ink_pasta"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				count: 4L
+				id: "1857A526AA2858B7"
+				item: "minecraft:ink_sac"
+				type: "item"
+			}]
+			title: "Squid Hunt"
+			x: 8.0d
 			y: -2.0d
 		}
+		{
+			dependencies: [
+				"0A4DF24D1B2E7889"
+				"3795DEE8A3FE6814"
+				"3795D0DD18CF8363"
+				"22BF5448BA6B11AF"
+			]
+			id: "78441BFCAC4CA22B"
+			shape: "rsquare"
+			tasks: [{
+				id: "6C8D3A74395909E3"
+				item: {
+					Count: 1
+					id: "kubejs:brick_glue"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 10.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["78441BFCAC4CA22B"]
+			dependency_requirement: "one_completed"
+			description: [
+				"Congratulations on finishing your first chapter!"
+				""
+				"Remember that you are still in early development version of the modpack so a lot of recipes are not yet finished."
+				""
+				"But if you follow the questbook you are sure that your going the right path"
+			]
+			hide_details_until_startable: false
+			hide_until_deps_visible: false
+			icon: "immersiveengineering:cokebrick"
+			id: "51966AE20559FFA0"
+			rewards: [{
+				id: "29DC6958A4800B95"
+				item: "thermal:netherite_coin"
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 2.0d
+			tasks: [
+				{
+					count: 27L
+					id: "7DE2C8EC522E5848"
+					item: { Count: 27, id: "immersiveengineering:cokebrick" }
+					type: "item"
+				}
+				{
+					id: "1C4C29A779C63C13"
+					item: {
+						Count: 1
+						id: "immersiveengineering:hammer"
+						tag: {
+							Damage: 50
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Your very first multiblock"
+			x: 14.0d
+			y: -1.0d
+		}
 	]
-	title: "Tier 0 - Introduction"
+	title: "Tier 0 - Wooden Age"
 }
