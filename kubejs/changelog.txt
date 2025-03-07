@@ -1386,7 +1386,17 @@ Patch 0.3.2.1
     -Aura Generator Block
     -Diamond Rod
     -Electrum Rod
-    -Daybloom ring
+    -Daybloom Ring
+    -Primitve Firestarter
+    -Primitve Saw
+    -Infused Iron Rod
+    -Infused Iron Sheet
+    -Infused Iron Gear
+    -Arcane Alloy Rod
+    -Arcane Alloy Gear
+    -Inert Alloy Rod
+    -Inert Alloy Gear
+
 
  ### Balance:
     -Buffed flower crown but it cant be put in the curio slots anymore
@@ -1412,6 +1422,8 @@ Patch 0.3.2.1
     -Gold Upgrade Parts
     -All the crafting stations on a stick
     -Basic Chisel
+    -Arcane Alloy Plate
+    -Inert Alloy Plate
 
  ### Other:
     -Fixed ars nouveau guide book error

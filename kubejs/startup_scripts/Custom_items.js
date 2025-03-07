@@ -114,20 +114,27 @@ StartupEvents.registry('item', item => {
   
   ///===================================================PLATES===========================================================
 
-  item.create('stone_plate').displayName('Stone Plate').tag("forge:plates/stone").tag("dq:tier1/component")
-  item.create('wooden_plate').displayName('Wooden Plate').tag("forge:plates/wooden").tag("dq:tier1/component")
-  item.create('diamond_plate').displayName('Diamond Plate').tag('forge:plates/diamond').tag("dq:tier1/component")
+  item.create('stone_plate').tag("forge:plates/stone").tag("dq:tier1/component")
+  item.create('wooden_plate').tag("forge:plates/wooden").tag("dq:tier1/component")
+  item.create('diamond_plate').tag('forge:plates/diamond').tag("dq:tier1/component")
   item.create('arcane_alloy_plate').tag('forge:plates').tag('forge:plates/arcane_alloy').tag("dq:tier2/component")
   item.create('inert_alloy_plate').tag('forge:plates').tag('forge:plates/inert_alloy').tag("dq:tier2/component")
+  item.create('infused_iron_plate').tag('forge:plates').tag('forge:plates/infused_iron').tag("dq:tier2/component")
 
   ///===================================================GEARS===========================================================
-  item.create('wooden_gear').displayName('Wooden Gear').tag('forge:gears/wooden').tag('forge:gears').tag("dq:tier1/component")
-  item.create('stone_gear').displayName('Stone Gear').tag('forge:gears/stone').tag('forge:gears').tag("dq:tier1/component")
+  item.create('wooden_gear').tag('forge:gears/wooden').tag('forge:gears').tag("dq:tier1/component")
+  item.create('stone_gear').tag('forge:gears/stone').tag('forge:gears').tag("dq:tier1/component")
+  item.create('arcane_alloy_gear').tag('forge:gears/arcane_alloy').tag('forge:gears').tag("dq:tier2/component")
+  item.create('inert_alloy_gear').tag('forge:gears/inert_alloy').tag('forge:gears').tag("dq:tier2/component")
+  item.create('infused_iron_gear').tag('forge:gears/infused_iron').tag('forge:gears').tag("dq:tier2/component")
 
   ///===================================================RODS=================================================================
   item.create("copper_rod").tag("forge:rods").tag("forge:rods/copper").tag("dq:tier1/component")
   item.create("gold_rod").tag("forge:rods").tag("forge:rods/gold").tag("dq:tier1/component")
-  item.create("electrum_rod").tag("forge:rods").tag("forge:rods/electrum").tag("dq:tier1/component")
+  item.create("electrum_rod").tag("forge:rods").tag("forge:rods/electrum").tag("dq:tier2/component")
+  item.create("inert_alloy_rod").tag("forge:rods").tag("forge:rods/inert_alloy").tag("dq:tier2/component")
+  item.create("arcane_alloy_rod").tag("forge:rods").tag("forge:rods/arcane_alloy").tag("dq:tier2/component")
+  item.create("infused_iron_rod").tag("forge:rods").tag("forge:rods/infused_iron").tag("dq:tier2/component")
   item.create("diamond_rod").tag("forge:rods").tag("forge:rods/diamond").tag("dq:tier1/component")
   item.create("zinc_tool_handle").tag("forge:rods").tag("dq:tier2/component")
   item.create("carbon_infused_sturdy_handle").displayName("Carbon Infused Sturdy Handle").tag("forge:rods").tag("dq:tier2/component")
