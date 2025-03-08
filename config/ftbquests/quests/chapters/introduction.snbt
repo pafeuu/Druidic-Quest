@@ -57,7 +57,7 @@
 				}
 			]
 			title: "Before you punch a tree"
-			x: -7.0d
+			x: -9.0d
 			y: -1.0d
 		}
 		{
@@ -66,17 +66,22 @@
 			id: "69B93BA4460E5F95"
 			rewards: [
 				{
-					id: "754AF0289137ED6B"
-					item: {
-						Count: 1
-						id: "thermal:satchel"
-						tag: { }
-					}
+					id: "7B93D48632D2D47C"
+					item: "minecraft:golden_apple"
 					type: "item"
 				}
 				{
-					id: "7B93D48632D2D47C"
-					item: "minecraft:golden_apple"
+					id: "3E40695F25D20512"
+					item: {
+						Count: 1
+						id: "thermal:satchel"
+						tag: {
+							display: {
+								Name: "{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"#FFFFFF\",\"text\":\"The Manliest Purse\"}"
+								color: 15437475
+							}
+						}
+					}
 					type: "item"
 				}
 			]
@@ -88,7 +93,7 @@
 				item: "minecraft:crafting_table"
 				type: "item"
 			}]
-			x: -3.0d
+			x: -4.5d
 			y: -1.0d
 		}
 		{
@@ -128,6 +133,7 @@
 				item: "fruitsdelight:durian_pie"
 				type: "item"
 			}]
+			subtitle: "More storage space"
 			tasks: [{
 				id: "2FB0F7C121F8F93D"
 				item: {
@@ -138,8 +144,8 @@
 				type: "item"
 			}]
 			title: "Very early game backpack"
-			x: -3.0d
-			y: -2.5d
+			x: -4.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["69B93BA4460E5F95"]
@@ -185,8 +191,8 @@
 				type: "item"
 			}]
 			title: "New Combat system!"
-			x: -3.0d
-			y: 2.0d
+			x: -4.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["118A5A467C0FEA36"]
@@ -236,8 +242,8 @@
 				}
 			]
 			title: "Exploration "
-			x: -1.5d
-			y: 4.5d
+			x: -3.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["118A5A467C0FEA36"]
@@ -276,8 +282,8 @@
 				type: "item"
 			}]
 			title: "New Fishing!"
-			x: -3.0d
-			y: 4.5d
+			x: -4.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["118A5A467C0FEA36"]
@@ -355,8 +361,8 @@
 				}
 			]
 			title: "Armour Sets!"
-			x: -4.5d
-			y: 4.5d
+			x: -6.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["090099B8B3800BAE"]
@@ -388,7 +394,7 @@
 			}]
 			title: "Before a furnace humanity used campfires"
 			x: -0.5d
-			y: -5.5d
+			y: -5.0d
 		}
 		{
 			dependencies: ["2BB4A388858E481A"]
@@ -442,7 +448,7 @@
 			]
 			title: "Mining"
 			x: -0.5d
-			y: -4.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["0E5A981A32056DDC"]
@@ -569,7 +575,7 @@
 				type: "item"
 			}]
 			x: 1.5d
-			y: -5.5d
+			y: -6.0d
 		}
 		{
 			dependencies: ["435BD5A742C05B1E"]
@@ -588,7 +594,7 @@
 			}]
 			title: "Potato farming"
 			x: 3.0d
-			y: -5.5d
+			y: -6.0d
 		}
 		{
 			dependencies: ["70FF5891DA236DA4"]
@@ -610,7 +616,7 @@
 				type: "item"
 			}]
 			x: 1.5d
-			y: -7.0d
+			y: -8.0d
 		}
 		{
 			dependencies: ["5C95579DC269AF2A"]
@@ -633,6 +639,7 @@
 		}
 		{
 			dependencies: ["2A0A25E7A7AA7334"]
+			description: ["To craft primitve mortar you will need to right click a stone slab with chisel in one hand and a flint in the other"]
 			id: "0E5A981A32056DDC"
 			rewards: [{
 				id: "6466B5F4990C5F6E"
@@ -663,6 +670,7 @@
 				type: "item"
 			}]
 			shape: "rsquare"
+			subtitle: "Shaping stones"
 			tasks: [{
 				id: "581956980783ED26"
 				item: {
@@ -679,7 +687,11 @@
 		}
 		{
 			dependencies: ["0E5A981A32056DDC"]
-			description: ["Knives now drop straw from modded grass variants also looting increases drop rate."]
+			description: [
+				"Knives now drop straw from modded grass variants also looting increases drop rate."
+				""
+				"Knives also allow you to get more drops from animals."
+			]
 			icon: {
 				Count: 1
 				id: "farmersdelight:flint_knife"
@@ -720,7 +732,6 @@
 			dependencies: ["435BD5A742C05B1E"]
 			id: "22BF5448BA6B11AF"
 			rewards: [{
-				count: 2
 				id: "778C9A624F904899"
 				item: "thermal:silver_coin"
 				type: "item"
@@ -746,7 +757,6 @@
 			hide_until_deps_visible: false
 			icon: "minecraft:creeper_head"
 			id: "3F2E2B483880F030"
-			optional: true
 			rewards: [
 				{
 					count: 2
@@ -772,7 +782,7 @@
 			}]
 			title: "Explosive Mobs"
 			x: -0.5d
-			y: 2.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["3F2E2B483880F030"]
@@ -839,6 +849,7 @@
 			]
 			hide_details_until_startable: false
 			hide_until_deps_visible: false
+			icon: "naturesaura:wood_stand"
 			id: "3795DEE8A3FE6814"
 			rewards: [
 				{
@@ -855,6 +866,7 @@
 				}
 			]
 			shape: "rsquare"
+			subtitle: "First magical ritual"
 			tasks: [
 				{
 					count: 16L
@@ -887,13 +899,14 @@
 				type: "item"
 			}]
 			shape: "gear"
+			subtitle: "Generating aura"
 			tasks: [{
 				id: "4BE6D5FEF2468D97"
 				item: "naturesaura:ancient_sapling"
 				type: "item"
 			}]
 			x: 8.0d
-			y: 4.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["3795DEE8A3FE6814"]
@@ -972,6 +985,7 @@
 				item: "minecraft:beetroot_soup"
 				type: "item"
 			}]
+			subtitle: "finally more range"
 			tasks: [{
 				id: "5E942597BE42C797"
 				item: {
@@ -994,13 +1008,14 @@
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
+			subtitle: "Controlling the weather"
 			tasks: [{
 				id: "5589B439251D443A"
 				item: "ars_nouveau:ritual_cloudshaping"
 				type: "item"
 			}]
-			x: 10.5d
-			y: 4.5d
+			x: 10.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["08BFA7B9435D7DCC"]
@@ -1089,6 +1104,11 @@
 				"22BF5448BA6B11AF"
 			]
 			id: "78441BFCAC4CA22B"
+			rewards: [{
+				id: "77F7DC3CC498A66A"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
 			shape: "rsquare"
 			tasks: [{
 				id: "6C8D3A74395909E3"
@@ -1146,6 +1166,59 @@
 			]
 			title: "Your very first multiblock"
 			x: 14.0d
+			y: -1.0d
+		}
+		{
+			description: ["To get planks you will need to right click stripped log with an axe."]
+			icon: "minecraft:spruce_planks"
+			id: "4138D0D9B6F11604"
+			rewards: [{
+				count: 4
+				id: "16C65310CF01D221"
+				item: "minecraft:stick"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "06A59ED76D90BEB6"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:planks)"
+					}
+				}
+				title: "Any #minecraft:planks"
+				type: "item"
+			}]
+			title: "Cutting planks"
+			x: -6.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["69B93BA4460E5F95"]
+			description: ["Saw allows you to make planks in a more efficient way. To get planks right click stripped log but this time you will get twice as much planks as before."]
+			id: "6814EBB8BDED9EEE"
+			rewards: [{
+				count: 5
+				id: "350D5FEAE354D1F3"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "Easier planks"
+			tasks: [{
+				id: "6E43726567162598"
+				item: {
+					Count: 1
+					id: "kubejs:primitive_saw"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
 			y: -1.0d
 		}
 	]
