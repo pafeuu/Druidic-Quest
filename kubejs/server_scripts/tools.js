@@ -679,6 +679,16 @@ ServerEvents.recipes(event => {
 
 	///=============================================================== Tier 0 Tools ==========================================================
 
+	event.shaped("kubejs:primitive_saw",
+		[
+			"F  ",
+			" FS",
+			"  S"
+		],
+		{F:"flint",
+		 S:"stick"}
+	).id("kubejs:primitive_saw")
+
 	event.shaped("kubejs:primitive_mortar",
 		[
 			" A ",

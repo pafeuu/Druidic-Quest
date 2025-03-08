@@ -74,6 +74,19 @@ ServerEvents.recipes(event => {
 
 	/// ======================================================================= Tier 0 Machines ========================================================================
 	
+	event.shaped("minecraft:crafting_table",
+		[
+			"PP",
+			"XX"
+		],
+		{
+			P: "twigs:pebble",
+			X: "#minecraft:planks"
+		}
+	).id("minecraft:crafting_table")
+
+	event.remove({output:'minecraft:crafting_table'})
+	
 	event.shaped("supplementaries:bellows",["SSS","ABA","SSS"],{S:"#minecraft:wooden_slabs",A:"elementalcraft:air_shard",B:"bundle"}).id("supplementaries:bellows")
 	
 	event.shaped("minecraft:beehive",
