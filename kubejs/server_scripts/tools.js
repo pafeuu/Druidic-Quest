@@ -269,6 +269,41 @@ ServerEvents.recipes(event => {
 			  {
 				"type": "drop_item",
 				"item": planks,
+				"count": 1
+			  },
+			  {
+				"type": "execute",
+				"command": "playsound sawmill:ui.sawmill.take_result neutral @p",
+				"hide": true
+			  },
+			  {
+				"type": "execute",
+				"command": "particle crit ~ ~ ~ 0.25 0.25 0.25 0 15",
+				"hide": true
+			  }
+			],
+			"item_in": [
+			  {
+				"tag": "forge:tools/axes"
+			  }
+			],
+			"block_in": log
+		  })// Adds recipe for planks > Clicking stripped logs with an axe will drop 1 plank and remove the block
+
+		event.custom({
+			"type": "lychee:block_interacting",
+			"post": [
+			  {
+				"type": "place",
+				"block": "minecraft:air"
+			  },
+			  {
+				"type": "damage_item",
+				"damage": 1
+			  },
+			  {
+				"type": "drop_item",
+				"item": planks,
 				"count": 3
 			  },
 			  {
@@ -1345,9 +1380,36 @@ ServerEvents.recipes(event => {
 		},
 		"time": 200
 	}).id("thermal:tools/xp_crystal")
+	/// ======================================================================= Tier 1 Tools ============================================================================
 	
+	tool('minecraft:iron','#forge:ingots/iron','#forge:rods/treated_wood','string')
+	tool('kubejs:copper','#forge:ingots/copper','#forge:rods/treated_wood','string')
+	tool('kubejs:silver','#forge:ingots/silver','#forge:rods/treated_wood','string')
+	tool('kubejs:lead','#forge:ingots/lead','#forge:rods/treated_wood','string')
+
+	event.shaped("kubejs:the_ice_cube",
+		[
+			" I ",
+			"III",
+			" I "
+		],
+		{I:"ice"}
+	).id("kubejs:the_ice_cube")
 
 	/// ======================================================================= Tier 2 Tools ============================================================================
+	
+	event.smithing("kubejs:bejeweled_crucifix",'kubejs:gold_upgrade_smithing_template',Item.of("kubejs:metal_crucifix"),'kubejs:gold_upgrade_parts')
+
+	event.shaped("kubejs:cross_necklace",
+		[
+			"CCC",
+			"CTC",
+			"CXC"
+		],
+		{T:"ars_nouveau:dull_trinket",
+		 C:"chain",
+		 X:"kubejs:bejeweled_crucifix"}
+	).id("kubejs:cross_necklace")
 
 	event.shaped("aether:iron_ring",
 		[
@@ -2150,10 +2212,7 @@ ServerEvents.recipes(event => {
 	simplearmor("#forge:plates/iron","iron_helmet","iron_chestplate","iron_leggings","iron_boots")
 	simplearmor("#forge:plates/diamond","diamond_helmet","diamond_chestplate","diamond_leggings","diamond_boots")
 	simplearmor("minecraft:chain","chainmail_helmet","chainmail_chestplate","chainmail_leggings","chainmail_boots")
-	tool('minecraft:iron','#forge:ingots/iron','#forge:rods/treated_wood','string')
-	tool('kubejs:copper','#forge:ingots/copper','#forge:rods/treated_wood','string')
-	tool('kubejs:silver','#forge:ingots/silver','#forge:rods/treated_wood','string')
-	tool('kubejs:lead','#forge:ingots/lead','#forge:rods/treated_wood','string')
+	
 	tool('minecraft:diamond','#forge:gems/diamond','kubejs:zinc_tool_handle','alexsmobs:shed_snake_skin')
 
 	  
