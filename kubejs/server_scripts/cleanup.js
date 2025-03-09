@@ -714,6 +714,18 @@ ServerEvents.recipes(event => {
 	
 	///=======================================Building blocks=======================================///
 
+	event.shaped("8x twigs:gravel_bricks",
+		[
+			"GGG",
+			"GXG",
+			"GGG"
+		],
+		{
+			G: "#forge:gravel",
+			X: "kubejs:brick_glue"
+		}
+	).damageIngredient("kubejs:brick_glue",8).id("twigs:gravel_bricks")
+
 	event.shaped("2x kubejs:polished_planks",
 		[
 			"PX",

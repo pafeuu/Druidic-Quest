@@ -1324,6 +1324,8 @@ Patch 0.3.2.1
     -Create Stuff & Additions
     -Create Slice & Dice
     -Create Crafts & Additions
+    -ForgeEndertech
+    -libIPN
 
  ### Recipes:
     -Added for the Blade of Grass
@@ -1336,6 +1338,16 @@ Patch 0.3.2.1
     -Changed for aether's iron ring
     -Changed for aether's gold ring
     -Changed for wooden stand
+    -Changed for all the planks
+    -Changed for crafting table
+    -Added for flint
+    -Changed for gravel bricks
+    -Changed for bonemeal
+    -Changed for blaze powder
+    -Changed for basalz powder
+    -Changed for blitz powder
+    -Changed for blizz powder
+
 
  ### New Items:
     -Sapphire Block
