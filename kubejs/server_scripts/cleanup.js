@@ -375,11 +375,11 @@ ServerEvents.recipes(event => {
 	CustomGears("arcane_alloy","kubejs:arcane_alloy_gear")
 	CustomGears("inert_alloy","kubejs:inert_alloy_gear")
 	CustomGears("aluminum","kubejs:aluminum_gear")
-	CustomGears("andesite_alloy","kubejs:andesite_gear")
+	CustomGears("andesite","kubejs:andesite_gear")
 	CustomGears("zinc","kubejs:zinc_gear")
 	CustomGears("uranium","kubejs:uranium_gear")
 	CustomGears("stainless_steel","kubejs:stainless_steel_gear")
-	
+
 
 	//-------------------Rods-----------------------
 
