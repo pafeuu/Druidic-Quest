@@ -1263,7 +1263,7 @@ Patch 0.3.2.1
     -Fixed Stainless Steel Tags
 
 
- Patch 0.8
+ Patch 1.0.0
   
  ### Updated Mods:
     -Drippy Loading Screen
@@ -1408,7 +1408,14 @@ Patch 0.3.2.1
     -Arcane Alloy Gear
     -Inert Alloy Rod
     -Inert Alloy Gear
+    -Aluminum Gear
+    -Uranium Gear
+    -Stainless Steel Gear
+    -Zinc Gear
+    -Andesite Gear
 
+ ### Removed Items:
+    -Obsidian Ingot
 
  ### Balance:
     -Buffed flower crown but it cant be put in the curio slots anymore
@@ -1436,7 +1443,19 @@ Patch 0.3.2.1
     -Basic Chisel
     -Arcane Alloy Plate
     -Inert Alloy Plate
-
+    -Lead Sheet
+    -Lead Rod
+    -Tin Sheet
+    -Tin Rod
+    -Bronze Rod
+    -Bronze Sheet
+    -Electrum plate
+    -Steel rod
+    -Rose gold rod
+    -Rose gold sheet
+    -Uranium rod
+    -Uranium sheet
+    -
  ### Other:
     -Fixed ars nouveau guide book error
     -Fixed raising difficulty quests

@@ -124,6 +124,11 @@ StartupEvents.registry('item', item => {
   ///===================================================GEARS===========================================================
   item.create('wooden_gear').tag('forge:gears/wooden').tag('forge:gears').tag("dq:tier1/component")
   item.create('stone_gear').tag('forge:gears/stone').tag('forge:gears').tag("dq:tier1/component")
+  item.create('zinc_gear').tag('forge:gears/zinc').tag('forge:gears').tag("dq:tier2/component")
+  item.create('andesite_gear').tag('forge:gears/andesite').tag('forge:gears').tag("dq:tier3/component")
+  item.create('uranium_gear').tag('forge:gears/uranium').tag('forge:gears').tag("dq:tier4/component")
+  item.create('aluminum_gear').tag('forge:gears/aluminum').tag('forge:gears').tag("dq:tier4/component")
+  item.create('stainless_steel_gear').tag('forge:gears/stainless_steel').tag('forge:gears').tag("dq:tier4/component")
   item.create('arcane_alloy_gear').tag('forge:gears/arcane_alloy').tag('forge:gears').tag("dq:tier2/component")
   item.create('inert_alloy_gear').tag('forge:gears/inert_alloy').tag('forge:gears').tag("dq:tier2/component")
   item.create('infused_iron_gear').tag('forge:gears/infused_iron').tag('forge:gears').tag("dq:tier2/component")
