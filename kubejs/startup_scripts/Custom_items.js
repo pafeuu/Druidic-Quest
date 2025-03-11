@@ -146,7 +146,7 @@ StartupEvents.registry('item', item => {
   item.create('wrought_iron_ingot').tag('forge:ingots').tag('forge:ingots/wrought_iron')
   item.create('neptun_ingot').tag('forge:ingots').tag('forge:ingots/neptun')
   item.create('phoenix_ingot').tag('forge:ingots').tag('forge:ingots/phoenix')
-  item.create('obsidian_ingot').tag('forge:ingots').tag('forge:ingots/obsidian')
+  
 
   ///===================================================NUGGETS=========================================================
 
