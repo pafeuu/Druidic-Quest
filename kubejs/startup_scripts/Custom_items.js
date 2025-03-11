@@ -151,6 +151,8 @@ StartupEvents.registry('item', item => {
   ///===================================================NUGGETS=========================================================
 
   item.create('infused_iron_nugget').tag('forge:nuggets').tag('forge:nuggets/infused_iron').tag("dq:tier2/component")
+  item.create('inert_alloy_nugget').tag('forge:nuggets').tag('forge:nuggets/infused_iron').tag("dq:tier2/component")
+  item.create('arcane_alloy_nugget').tag('forge:nuggets').tag('forge:nuggets/infused_iron').tag("dq:tier2/component")
 
   ///===================================================GEMS=============================================================
 
