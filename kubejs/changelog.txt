@@ -1410,9 +1410,27 @@ Patch 0.3.2.1
     -Inert Alloy Gear
     -Aluminum Gear
     -Uranium Gear
-    -Stainless Steel Gear
     -Zinc Gear
     -Andesite Gear
+    -Andesite nugget
+    -Arcane Alloy Nugget
+    -Inert Alloy Nugget
+    -Tainted Gold Rod
+    -Tainted Gold Gear
+    -Tainted Gold Sheet
+    -Depth Rod
+    -Depth Gear
+    -Depth Sheet
+    -Sky Rod
+    -Sky Gear
+    -Sky Sheet
+    -Brass Rod
+    -Brass Gear
+    -Drenched Iron Gear
+    -Drenched Iron Rod
+    -Drenched Iron Sheet
+    -Swift Alloy Rod
+    -Swift Alloy Sheet
 
  ### Removed Items:
     -Obsidian Ingot
@@ -1455,7 +1473,9 @@ Patch 0.3.2.1
     -Rose gold sheet
     -Uranium rod
     -Uranium sheet
-    -
+    -Steel Plate
+    -Stainless Steel Gear
+
  ### Other:
     -Fixed ars nouveau guide book error
     -Fixed raising difficulty quests
