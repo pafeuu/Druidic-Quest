@@ -1431,6 +1431,9 @@ Patch 0.3.2.1
     -Drenched Iron Sheet
     -Swift Alloy Rod
     -Swift Alloy Sheet
+    -Depth Nugget
+    -Sky Nugget
+    -Tainted Gold Nugget
 
  ### Removed Items:
     -Obsidian Ingot

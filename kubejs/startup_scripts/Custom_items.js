@@ -192,8 +192,15 @@ StartupEvents.registry('item', item => {
   item.create('infused_iron_nugget').tag('forge:nuggets').tag('forge:nuggets/infused_iron').tag("dq:tier2/component")
   item.create('inert_alloy_nugget').tag('forge:nuggets').tag('forge:nuggets/inert_alloy').tag("dq:tier2/component")
   item.create('arcane_alloy_nugget').tag('forge:nuggets').tag('forge:nuggets/arcane_alloy').tag("dq:tier2/component")
+  item.create('tainted_gold_nugget').tag('forge:nuggets').tag('forge:nuggets/tainted_gold').tag("dq:tier2/component")
+
   item.create('andesite_alloy_nugget').tag('forge:nuggets').tag('forge:nuggets/andesite_alloy').tag("dq:tier3/component")
   item.create('knightmetal_nugget').tag('forge:nuggets').tag('forge:nuggets/knightmetal').tag("dq:tier3/component")
+
+  item.create('sky_nugget').tag('forge:nuggets').tag('forge:nuggets/sky').tag("dq:tier4/component")
+
+  item.create('depth_nugget').tag('forge:nuggets').tag('forge:nuggets/depth').tag("dq:tier5/component")
+
 
   ///===================================================GEMS=============================================================
 
