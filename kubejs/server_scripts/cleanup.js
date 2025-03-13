@@ -441,10 +441,19 @@ ServerEvents.recipes(event => {
 	rods("electrum","kubejs:electrum_rod")
 	rods("diamond","kubejs:diamond_rod")
 	rods("gold","kubejs:gold_rod")
+	rods("drenched_iron","kubejs:drenched_iron_rod")
+	rods("swift_alloy","kubejs:swift_alloy_rod")
+	rods("tainted_gold","kubejs:tainted_gold_rod")
+	rods("sky","kubejs:sky_rod")
+	rods("depth","kubejs:depth_rod")
+	rods("brass","kubejs:brass_rod")
+
+
 	rods("iron","immersiveengineering:stick_iron")
 	rods("stainless_steel","immersiveengineering:stick_steel")
+
 	rods("aluminum",'vintageimprovements:aluminum_rod')
-	rods("andesite_alloy","vintageimprovements:andesite_rod")
+	rods("andesite","vintageimprovements:andesite_rod")
 	rods("bronze","vintageimprovements:bronze_rod")
 	rods("constantan","vintageimprovements:constantan_rod")
 	rods("enderium","vintageimprovements:enderium_rod")
@@ -650,7 +659,7 @@ ServerEvents.recipes(event => {
 	plates("forge:ingots/nickel","vintageimprovements:nickel_sheet","thermal:nickel_block")
 	plates("forge:ingots/bronze","vintageimprovements:bronze_sheet","thermal:bronze_block")
 
-	plates("forge:ingots/uranium",'vintageimprovements:uranium_sheet','immersiveengineering:storage_steel')
+	plates("forge:ingots/uranium",'vintageimprovements:uranium_sheet','immersiveengineering:storage_uranium')
 	plates("forge:ingots/stainless_steel",'immersiveengineering:plate_steel',"immersiveengineering:storage_steel")
 	plates("forge:ingots/steel","thermal:steel_plate","thermal:steel_block")
 	plates("forge:ingots/electrum","immersiveengineering:plate_electrum","thermal:electrum_block")
@@ -671,6 +680,12 @@ ServerEvents.recipes(event => {
 	plates("forge:ingots/gold","create:golden_sheet","minecraft:gold_block")
 	plates("forge:ingots/netherite","vintageimprovements:netherite_sheet","minecraft:netherite_block")
 	plates("forge:ingots/brass","create:brass_sheet","create:brass_block")
+
+	plates("forge:ingots/drenched_iron","kubejs:drenched_iron_sheet","elementalcraft:drenched_iron_block")
+	plates("forge:ingots/swift_alloy","kubejs:swift_alloy_sheet","elementalcraft:swift_alloy_block")
+	plates("forge:ingots/tainted_gold","kubejs:tainted_gold_sheet","naturesaura:tainted_gold_block")
+	plates("forge:ingots/sky","kubejs:sky_sheet","naturesaura:sky_ingot_block")
+	plates("forge:ingots/depth","kubejs:depth_sheet","naturesaura:depth_ingot_block")
 
 	let RemoveById = ["thermal:compat/immersiveengineering/press_ie_steel_ingot_to_plate",
 		"vintageimprovements:pressing/uranium_ingot",
