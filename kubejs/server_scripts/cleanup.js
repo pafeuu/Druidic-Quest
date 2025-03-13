@@ -321,7 +321,8 @@ ServerEvents.recipes(event => {
 
 	function CustomGears(material,id)
 	{
-		
+		event.recipes.thermal.press(id,["4x #forge:ingots/"+material,"thermal:press_gear_die"])//Thermal Press Recipe
+
 		event.shaped(id,
 			[
 				"RPR",
@@ -333,7 +334,22 @@ ServerEvents.recipes(event => {
 				R: "#forge:rods/"+material,
 				G: "kubejs:stone_gear"
 			}
-		)
+		)// Crafting Table recipe
+
+		event.custom({
+			"type": "immersiveengineering:metal_press",
+			"energy": 2400,
+			"input": {
+				"base_ingredient": {
+				"tag": "forge:ingots/"+material
+				},
+				"count": 4
+			},
+			"mold": "immersiveengineering:mold_gear",
+			"result": {
+				"item": id
+			}
+		})// IE Press Recipe
 	}
 
 	function ThermalGears(material)
@@ -379,6 +395,14 @@ ServerEvents.recipes(event => {
 	CustomGears("zinc","kubejs:zinc_gear")
 	CustomGears("uranium","kubejs:uranium_gear")
 	CustomGears("stainless_steel","kubejs:stainless_steel_gear")
+	CustomGears("ironwood","kubejs:ironwood_gear")
+	CustomGears("knightmetal","kubejs:knightmetal_gear")
+	CustomGears("drenched_iron","kubejs:drenched_iron_gear")
+	CustomGears("swift_alloy","kubejs:swift_alloy_gear")
+	CustomGears("tainted_gold","kubejs:tainted_gold_gear")
+	CustomGears("sky","kubejs:sky_gear")
+	CustomGears("depth","kubejs:depth_gear")
+	CustomGears("brass","kubejs:brass_gear")
 
 
 	//-------------------Rods-----------------------
