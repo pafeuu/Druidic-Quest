@@ -1439,6 +1439,10 @@ Patch 0.3.2.1
     -Fireite Rod
     -Fireite Sheet
     -Fireite Gear
+    -Fiery Rod
+    -Fiery Gear
+    -Fiery Nugget
+    -Zinc Dust
 
  ### Removed Items:
     -Obsidian Ingot
