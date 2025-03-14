@@ -1434,6 +1434,11 @@ Patch 0.3.2.1
     -Depth Nugget
     -Sky Nugget
     -Tainted Gold Nugget
+    -Knightmetal Gear
+    -Ironwood Gear
+    -Fireite Rod
+    -Fireite Sheet
+    -Fireite Gear
 
  ### Removed Items:
     -Obsidian Ingot

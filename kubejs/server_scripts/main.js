@@ -73,7 +73,34 @@ ServerEvents.recipes(event => {
 	 
 
 	/// ======================================================================= Tier 0 Machines ========================================================================
+	/*event.shaped("minecraft:chest",
+		[
+			"BLB",
+			"LPL",
+			"BLB"
+		],
+		{
+			B: "#immersive_weathering:bark",
+			L: "#minecraft:logs",
+			P: "twigs:pebble"
+		}
+	).id("minecraft:chest")
+
 	
+
+	event.shaped("minecraft:chest",
+		[
+			"BLB",
+			"LPL",
+			"BLB"
+		],
+		{
+			B: "#immersive_weathering:bark",
+			L: "#minecraft:logs",
+			P: "flint"
+		}
+	).id("minecraft:chest2")*/
+
 	event.shaped("minecraft:crafting_table",
 		[
 			"PP",

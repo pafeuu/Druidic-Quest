@@ -403,6 +403,7 @@ ServerEvents.recipes(event => {
 	CustomGears("sky","kubejs:sky_gear")
 	CustomGears("depth","kubejs:depth_gear")
 	CustomGears("brass","kubejs:brass_gear")
+	CustomGears("fireite","kubejs:fireite_gear")
 
 
 	//-------------------Rods-----------------------
@@ -447,6 +448,7 @@ ServerEvents.recipes(event => {
 	rods("sky","kubejs:sky_rod")
 	rods("depth","kubejs:depth_rod")
 	rods("brass","kubejs:brass_rod")
+	rods("fireite","kubejs:fireite_rod")
 
 
 	rods("iron","immersiveengineering:stick_iron")
@@ -652,6 +654,7 @@ ServerEvents.recipes(event => {
 	plates("forge:ingots/ironwood","vintageimprovements:ironwood_sheet","twilightforest:ironwood_block")
 	plates("forge:ingots/knightmetal","vintageimprovements:knightmetal_sheet","twilightforest:knightmetal_block")
 	plates("forge:ingots/fiery","vintageimprovements:fiery_sheet","twilightforest:fiery_block")
+	plates("forge:ingots/fireite","kubejs:fireite_sheet","elementalcraft:fireite_block")
 
 	plates("forge:ingots/tin","vintageimprovements:tin_sheet","thermal:tin_block")
 	plates("forge:ingots/silver","vintageimprovements:silver_sheet","thermal:silver_block")

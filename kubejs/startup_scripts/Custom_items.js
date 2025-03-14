@@ -124,11 +124,13 @@ StartupEvents.registry('item', item => {
   item.create('tainted_gold_sheet').tag('forge:plates').tag('forge:plates/tainted_gold').tag("dq:tier2/component")
 
   item.create('drenched_iron_sheet').tag('forge:plates').tag('forge:plates/drenched_iron').tag("dq:tier3/component")
+  
 
   item.create('sky_sheet').tag('forge:plates').tag('forge:plates/sky').tag("dq:tier4/component")
   item.create('swift_alloy_sheet').tag('forge:plates').tag('forge:plates/swift_alloy').tag("dq:tier4/component")
 
   item.create('depth_sheet').tag('forge:plates').tag('forge:plates/depth').tag("dq:tier5/component")
+  item.create('fireite_sheet').tag('forge:plates').tag('forge:plates/fireite').tag("dq:tier5/component")
 
   ///===================================================GEARS===========================================================
   item.create('wooden_gear').tag('forge:gears/wooden').tag('forge:gears').tag("dq:tier1/component")
@@ -145,6 +147,7 @@ StartupEvents.registry('item', item => {
   item.create('andesite_gear').tag('forge:gears/andesite').tag('forge:gears').tag("dq:tier3/component")
   item.create('brass_gear').tag('forge:gears/brass').tag('forge:gears').tag("dq:tier3/component")
   item.create('knightmetal_gear').tag('forge:gears/knightmetal').tag('forge:gears').tag("dq:tier3/component")
+  item.create('fiery_gear').tag('forge:gears/fiery').tag('forge:gears').tag("dq:tier3/component")
 
   item.create('swift_alloy_gear').tag('forge:gears/swift_alloy').tag('forge:gears').tag("dq:tier4/component")
   item.create('sky_gear').tag('forge:gears/sky').tag('forge:gears').tag("dq:tier4/component")
@@ -152,7 +155,8 @@ StartupEvents.registry('item', item => {
   item.create('aluminum_gear').tag('forge:gears/aluminum').tag('forge:gears').tag("dq:tier4/component")
   item.create('stainless_steel_gear').tag('forge:gears/stainless_steel').tag('forge:gears').tag("dq:tier4/component")
 
-  item.create('depth_gear').tag('forge:gears/depth').tag('forge:gears').tag("dq:tier5/component")  
+  item.create('depth_gear').tag('forge:gears/depth').tag('forge:gears').tag("dq:tier5/component")
+  item.create('fireite_gear').tag('forge:gears/fireite').tag('forge:gears').tag("dq:tier5/component")  
   
 
   ///===================================================RODS=================================================================
@@ -168,12 +172,14 @@ StartupEvents.registry('item', item => {
   item.create("zinc_tool_handle").tag("forge:rods").tag("dq:tier2/component")
 
   item.create("brass_rod").tag("forge:rods").tag("forge:rods/brass").tag("dq:tier3/component")
+  item.create('fiery_rod').tag("forge:rods").tag("forge:rods/fiery").tag("dq:tier3/component")
   item.create("drenched_iron_rod").tag("forge:rods").tag("forge:rods/drenched_iron").tag("dq:tier3/component")
 
   item.create("sky_rod").tag("forge:rods").tag("forge:rods/sky").tag("dq:tier4/component")
   item.create("swift_alloy_rod").tag("forge:rods").tag("forge:rods/swift_alloy").tag("dq:tier4/component")
 
   item.create("depth_rod").tag("forge:rods").tag("forge:rods/depth").tag("dq:tier5/component")
+  item.create("fireite_rod").tag("forge:rods").tag("forge:rods/fireite").tag("dq:tier5/component")
   
   item.create("carbon_infused_sturdy_handle").displayName("Carbon Infused Sturdy Handle").tag("forge:rods").tag("dq:tier2/component")
 
@@ -195,6 +201,7 @@ StartupEvents.registry('item', item => {
   item.create('tainted_gold_nugget').tag('forge:nuggets').tag('forge:nuggets/tainted_gold').tag("dq:tier2/component")
 
   item.create('andesite_alloy_nugget').tag('forge:nuggets').tag('forge:nuggets/andesite_alloy').tag("dq:tier3/component")
+  item.create('fiery_nugget').tag('forge:nuggets').tag('forge:nuggets/fiery').tag("dq:tier3/component")
   item.create('knightmetal_nugget').tag('forge:nuggets').tag('forge:nuggets/knightmetal').tag("dq:tier3/component")
 
   item.create('sky_nugget').tag('forge:nuggets').tag('forge:nuggets/sky').tag("dq:tier4/component")
@@ -216,6 +223,7 @@ StartupEvents.registry('item', item => {
   item.create("sulfur_quartz_blend").displayName("Sulfuric Quartz Blend").tag("forge:dusts").tag("dq:tier1/component")
   item.create('alchemical_dust').displayName('Alchemical Dust').tag('forge:dusts')
   item.create('improved_alchemical_dust').displayName('Improved Alchemical Dust').tag('forge:dusts')
+  item.create('zinc_dust').tag('forge:dusts').tag('forge:dusts/zinc')
   
 
   ///===================================================ESSENCE==========================================================

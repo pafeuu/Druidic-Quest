@@ -73,10 +73,10 @@ ServerEvents.tags('item', event => {
   
 
   event.add("forge:insect","alexsmobs:maggot")
-  event.add("forge:ingots/infused_iron","naturesaura:infused_iron")
-  event.add("forge:storage_blocks/infused_iron","naturesaura:infused_iron_block")
+  
   event.add("quark:seed_pouch_holdable","forge:seeds")
   event.add("quark:seed_pouch_holdable","minecraft:saplings")
+
   event.add("forge:tools","#minecraft:tools")
   event.add("forge:tools","quark:abacus")
   event.add("forge:tools","quark:trowel")
@@ -85,6 +85,7 @@ ServerEvents.tags('item', event => {
   event.add("forge:tools","minecraft:shears")
   event.add("forge:tools","minecraft:flint_and_steel")
   event.add("forge:tools","#c:tools")
+
   event.add("immersiveengineering:toolbox/tools","#forge:tools")
   event.add("forge:storage_blocks/potato","farmersdelight:potato_crate")
   event.add("forge:gems/zanite","#aether:gems/zanite")
@@ -102,6 +103,12 @@ ServerEvents.tags('item', event => {
   event.add('forge:rods/stainless_steel', 'immersiveengineering:stick_steel')
   event.add('forge:plates/stainless_steel', 'immersiveengineering:plate_steel')
   event.add('forge:dusts/stainless_steel', 'immersiveengineering:dust_steel')
+
+  event.add('forge:ingots/sky','naturesaura:sky_ingot')
+  event.add('forge:ingots/depth','naturesaura:depth_ingot')
+  event.add('forge:ingots/tainted_gold','naturesaura:tainted_gold_ingot')
+  event.add("forge:ingots/infused_iron","naturesaura:infused_iron")
+  event.add("forge:storage_blocks/infused_iron","naturesaura:infused_iron_block")
 
   event.remove('forge:ingots/steel', 'immersiveengineering:ingot_steel')
   event.remove('forge:nuggets/steel', 'immersiveengineering:nugget_steel')
