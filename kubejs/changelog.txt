@@ -1487,6 +1487,8 @@ Patch 0.3.2.1
     -Uranium sheet
     -Steel Plate
     -Stainless Steel Gear
+    -Crushed raw tin
+    -Crushed raw aluminum
 
  ### Other:
     -Fixed ars nouveau guide book error
