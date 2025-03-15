@@ -106,7 +106,7 @@ ServerEvents.tags('item', event => {
 
   event.add('forge:ingots/sky','naturesaura:sky_ingot')
   event.add('forge:ingots/depth','naturesaura:depth_ingot')
-  event.add('forge:ingots/tainted_gold','naturesaura:tainted_gold_ingot')
+  event.add('forge:ingots/tainted_gold','naturesaura:tainted_gold')
   event.add("forge:ingots/infused_iron","naturesaura:infused_iron")
   event.add("forge:storage_blocks/infused_iron","naturesaura:infused_iron_block")
 
