@@ -117,6 +117,10 @@ ServerEvents.tags('item', event => {
   event.remove('forge:plates/steel', 'immersiveengineering:plate_steel')
   event.remove('forge:dusts/steel', 'immersiveengineering:dust_steel')
 
+  event.add('forge:ingots/andesite','create:andesite_alloy')
+  event.add('forge:storage_blocks/andesite','create:andesite_alloy_block')
+  event.add('forge:plates/andesite','vintageimprovements:andesite_sheet')
+
   event.add('immersive_weathering:bark','farmersdelight:tree_bark')
   SourceLinks.forEach(id => {
     event.add("druidic_quest:generators/source",id)
