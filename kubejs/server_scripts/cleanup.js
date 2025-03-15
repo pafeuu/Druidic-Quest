@@ -219,10 +219,6 @@ ServerEvents.recipes(event => {
 	event.remove({output:[global.nukelist]})
 	event.remove({input:[global.nukelist]})
   
-	event.remove({id:"enigmaticlegacy:infernal_shield"})
-	event.remove({id:"alexsmobs:shield_of_the_deep"})
-	event.remove({id:"immersiveengineering:crafting/shield"})
-
 	event.remove({type:"minecraft:crafting_shapeless",mod:"thermal",output:"#forge:dusts"})
 	event.remove({type:"minecraft:crafting_shapeless",mod:"thermal",output:"#forge:ingots",input:"minecraft:fire_charge"})
 
@@ -233,37 +229,49 @@ ServerEvents.recipes(event => {
 
 	event.replaceOutput({id:"vintageimprovements:craft/sulfur_nuggets_to_item"},"vintageimprovements:sulfur","thermal:sulfur")
 
-	event.shapeless("naturesaura:infused_iron","9x kubejs:infused_iron_nugget")
+	
 	event.stonecutting("farmersdelight:potato_crate","thermal:potato_block")
 	event.stonecutting("farmersdelight:potato_crate","quark:potato_crate")
 	event.remove({id:"quark:building/crafting/compressed/potato_crate"})
 	event.remove({id:"thermal:storage/potato_block"})
 
-	event.shapeless("kubejs:gold_leaf_block","9x naturesaura:gold_leaf")
-	event.shapeless("9x naturesaura:gold_leaf","kubejs:gold_leaf_block")
+	function StorageCompacting(big,small)
+	{
+		event.shapeless(big,"9x "+small)
+		event.shapeless("9x "+small,big)
+		//Compacts 9 small items into 1 big item and back (nuggets, ingots, storage blocks)
+	};
 
-	event.shapeless("9x immersive_weathering:ivy","kubejs:ivy_block")
-	event.shapeless("kubejs:ivy_block","9x immersive_weathering:ivy")
+	function SmallStorageCompacting(big,small)
+	{
+		event.shaped(big,["YY","YY"],{Y:small})
+		event.shapeless("4x "+small,big)
+		//Compacts 4 small items into 1 big item and back (used for some gems and gems blocks)
+	};
 
-	event.shapeless("9x deepslate","kubejs:sturdy_deepslate")
-	event.shapeless("kubejs:sturdy_deepslate","9x deepslate")
+	StorageCompacting("kubejs:gold_leaf_block","naturesaura:gold_leaf")
+	StorageCompacting("kubejs:ivy_block","immersive_weathering:ivy")
+	StorageCompacting("kubejs:sturdy_deepslate","minecraft:deepslate")
+	StorageCompacting("naturesaura:infused_iron","kubejs:infused_iron_nugget")
+	StorageCompacting("kubejs:sapphire_block","kubejs:sapphire")
+	StorageCompacting("thermal:gunpowder_block","quark:gunpowder_sack")
+	StorageCompacting("kubejs:inert_alloy_block","kubejs:inert_alloy_ingot")
+	StorageCompacting("kubejs:arcane_alloy_block","kubejs:arcane_alloy_ingot")
+	StorageCompacting("kubejs:inert_alloy_ingot","kubejs:inert_alloy_nugget")
+	StorageCompacting("kubejs:arcane_alloy_ingot","kubejs:arcane_alloy_nugget")
+	StorageCompacting("twilightforest:ironwood_ingot","kubejs:ironwood_nugget")
+	StorageCompacting("twilightforest:knightmetal_ingot","kubejs:knightmetal_nugget")
+	StorageCompacting("naturesaura:tainted_gold","kubejs:tainted_gold_nugget")
+	StorageCompacting("naturesaura:sky_ingot","kubejs:sky_nugget")
+	StorageCompacting("naturesaura:depth_ingot","kubejs:depth_nugget")
+	StorageCompacting('twilightforest:fiery_ingot','kubejs:fiery_nugget')
+	StorageCompacting("create:andesite_alloy","kubejs:andesite_alloy_nugget")
 
-	event.shaped("thermal:ruby_block",["RR","RR"],{R:"thermal:ruby"})
-	event.shapeless("4x thermal:ruby","thermal:ruby_block")
 
-	event.shaped("thermal:sapphire_block",["RR","RR"],{R:"thermal:sapphire"})
-	event.shapeless("4x thermal:sapphire","thermal:sapphire_block")
 
-	event.shaped("kubejs:sapphire_block",["RRR","RRR","RRR"],{R:"kubejs:sapphire"})
-	event.shapeless("9x kubejs:sapphire","kubejs:sapphire_block")
+	SmallStorageCompacting("thermal:ruby_block","thermal:ruby")
+	SmallStorageCompacting("thermal:sapphire_block","thermal:sapphire")
 
-	event.shaped("thermal:gunpowder_block",["GGG","GGG","GGG"],{G:"#forge:storage_blocks/gunpowder"}).id("thermal:storage/gunpowder_block")
-	event.shapeless("9x quark:gunpowder_sack","thermal:gunpowder_block").id("thermal:storage/gunpowder_from_block")
-
-	event.shapeless("kubejs:inert_alloy_block","9x kubejs:inert_alloy_ingot")
-	event.shapeless("9x kubejs:inert_alloy_ingot","kubejs:inert_alloy_block")
-	event.shapeless("kubejs:arcane_alloy_block","9x kubejs:arcane_alloy_ingot")
-	event.shapeless("9x kubejs:arcane_alloy_ingot","kubejs:arcane_alloy_block")
 
 	//============================= Dusts
 	event.recipes.create.milling('thermal:quartz_dust','#forge:gems/quartz')
@@ -404,6 +412,7 @@ ServerEvents.recipes(event => {
 	CustomGears("depth","kubejs:depth_gear")
 	CustomGears("brass","kubejs:brass_gear")
 	CustomGears("fireite","kubejs:fireite_gear")
+	CustomGears("fiery","kubejs:fiery_gear")
 
 
 	//-------------------Rods-----------------------
