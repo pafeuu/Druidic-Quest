@@ -1443,9 +1443,17 @@ Patch 0.3.2.1
     -Fiery Gear
     -Fiery Nugget
     -Zinc Dust
+    -Primitive Mining Hammer
+    -Basic Mining Hammer
+    -Sturdy Mining Hammer
+    -Primitive Excavator
+    -Basic Excavator
+    -Sturdy Excavator
+    -Reinforced tool handle
 
  ### Removed Items:
     -Obsidian Ingot
+    -Mining Hammer
 
  ### Balance:
     -Buffed flower crown but it cant be put in the curio slots anymore

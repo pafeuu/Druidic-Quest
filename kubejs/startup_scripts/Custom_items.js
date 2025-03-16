@@ -50,13 +50,31 @@ ItemEvents.toolTierRegistry(event => {
     tier.repairIngredient = 'ars_nouveau:earth_essence'
   })
 
-  event.add('hammer', tier => {
+  event.add('primitive', tier => {
     tier.uses = 2048
     tier.speed = 1.5
     tier.attackDamageBonus = 0
     tier.level = 1
     tier.enchantmentValue = 12
-    tier.repairIngredient = 'ars_nouveau:earth_essence'
+    tier.repairIngredient = 'quark:sturdy_stone'
+  })
+
+  event.add('basic', tier => {
+    tier.uses = 4096
+    tier.speed = 3
+    tier.attackDamageBonus = 2
+    tier.level = 2
+    tier.enchantmentValue = 12
+    tier.repairIngredient = '#forge:storage_blocks/lead'
+  })
+
+  event.add('sturdy', tier => {
+    tier.uses = 8192
+    tier.speed = 5
+    tier.attackDamageBonus = 4
+    tier.level = 3
+    tier.enchantmentValue = 12
+    tier.repairIngredient = '#forge:storage_blocks/invar'
   })
 
   event.add('ice', tier => {
@@ -160,6 +178,10 @@ StartupEvents.registry('item', item => {
   
 
   ///===================================================RODS=================================================================
+
+  item.create("zinc_tool_handle").tag("forge:rods").tag("dq:tier2/component")
+  item.create("reinforced_tool_handle").tag("forge:rods").tag("dq:tier3/component")
+
   item.create("copper_rod").tag("forge:rods").tag("forge:rods/copper").tag("dq:tier1/component")
   item.create("gold_rod").tag("forge:rods").tag("forge:rods/gold").tag("dq:tier1/component")
   item.create("diamond_rod").tag("forge:rods").tag("forge:rods/diamond").tag("dq:tier1/component")
@@ -169,7 +191,6 @@ StartupEvents.registry('item', item => {
   item.create("arcane_alloy_rod").tag("forge:rods").tag("forge:rods/arcane_alloy").tag("dq:tier2/component")
   item.create("infused_iron_rod").tag("forge:rods").tag("forge:rods/infused_iron").tag("dq:tier2/component")
   item.create("tainted_gold_rod").tag("forge:rods").tag("forge:rods/tainted_gold").tag("dq:tier2/component")
-  item.create("zinc_tool_handle").tag("forge:rods").tag("dq:tier2/component")
 
   item.create("brass_rod").tag("forge:rods").tag("forge:rods/brass").tag("dq:tier3/component")
   item.create('fiery_rod').tag("forge:rods").tag("forge:rods/fiery").tag("dq:tier3/component")
@@ -336,7 +357,18 @@ StartupEvents.registry('item', item => {
   item.create('silver_shovel','shovel').tier('silver').tag("minecraft:tools").tag("minecraft:tools/shovel").tag("dq:tier1/tool")
   item.create('silver_hoe','hoe').tier('silver').tag("minecraft:tools").tag("minecraft:tools/hoe").tag("dq:tier1/tool")
 
-  item.create('mining_hammer','pickaxe').tier('hammer').tag("minecraft:tools").tag('forge:tools/hammers').tag("dq:tier2/tool")
+  item.create('primitive_mining_hammer','pickaxe').tier('primitive').tag("minecraft:tools").tag('forge:tools/hammers').tag("dq:tier1/tool")
+  item.create('basic_mining_hammer','pickaxe').tier('basic').tag("minecraft:tools").tag('forge:tools/hammers').tag("dq:tier2/tool")
+  item.create('sturdy_mining_hammer','pickaxe').tier('sturdy').tag("minecraft:tools").tag('forge:tools/hammers').tag("dq:tier3/tool")
+  /*item.create('advanced_mining_hammer','pickaxe').tier('advanced').tag("minecraft:tools").tag('forge:tools/hammers').tag("dq:tier4/tool")
+  item.create('ultimate_mining_hammer','pickaxe').tier('ultimate').tag("minecraft:tools").tag('forge:tools/hammers').tag("dq:tier5/tool")*/
+
+  item.create('primitive_excavator','shovel').tier('primitive').tag("minecraft:tools").tag('forge:tools/excavators').tag("dq:tier1/tool")
+  item.create('basic_excavator','shovel').tier('basic').tag("minecraft:tools").tag('forge:tools/excavators').tag("dq:tier2/tool")
+  item.create('sturdy_excavator','shovel').tier('sturdy').tag("minecraft:tools").tag('forge:tools/excavators').tag("dq:tier3/tool")
+  /*item.create('advanced_excavator','shovel').tier('advanced').tag("minecraft:tools").tag('forge:tools/excavators').tag("dq:tier4/tool")
+  item.create('ultimate_excavator','shovel').tier('ultimate').tag("minecraft:tools").tag('forge:tools/excavators').tag("dq:tier5/tool")*/
+
   item.create('the_terraformer','shovel').glow(true).rarity("epic").tier("terraformer").tag("minecraft:tools").tag("dq:tier2/tool")
   
 
