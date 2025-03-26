@@ -20,13 +20,13 @@ ForgeEvents.onEvent('net.minecraftforge.event.ItemAttributeModifierEvent', event
 	if (event.itemStack.hasTag("forge:tools/ironwood") && event.slotType == 'mainhand') {
 					
 		event.addModifier("forge:block_reach", new $AttributeModifier(UUID.fromString('0c9fec79-55d0-49ad-a64e-aa711a39f460'), 'Tool modifier', 0.5, 'addition'))
-		event.addModifier("puffish_attributes:healing", new $AttributeModifier(UUID.fromString('c3a255ac-5cd6-4522-8d13-e9896465136e'), 'Tool modifier2', 0.25, 'multiply'))
+		//event.addModifier("puffish_attributes:healing", new $AttributeModifier(UUID.fromString('c3a255ac-5cd6-4522-8d13-e9896465136e'), 'Tool modifier2', 0.25, 'multiply'))
 	};
 
 	if (event.itemStack.hasTag("forge:tools/steeleaf") && event.slotType == 'mainhand') {
 					
 		event.addModifier("forge:block_reach", new $AttributeModifier(UUID.fromString('0b458f9d-eee9-4d50-a304-cace74cf6ff1'), 'Tool modifier', 1, 'addition'))
-		event.addModifier("puffish_attributes:healing", new $AttributeModifier(UUID.fromString('6cd10078-a391-44f8-b803-a6973b9be8fb'), 'Tool modifier2', 0.5, 'multiply'))
+		//event.addModifier("puffish_attributes:healing", new $AttributeModifier(UUID.fromString('6cd10078-a391-44f8-b803-a6973b9be8fb'), 'Tool modifier2', 0.5, 'multiply'))
 	};
 	
 	
