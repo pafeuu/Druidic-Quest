@@ -212,7 +212,17 @@ global.nukelist = ["twigs:calcite_wall",
 	'aether_redux:veridium_pickaxe',
 	'aether_redux:veridium_shovel',
 	'aetherdelight:veridium_knife', 
-	'aether_redux:veridium_sword']
+	'aether_redux:veridium_sword']/*,
+	'thermal:constantan_dust',
+	'thermal:bronze_dust',
+	'thermal:enderium_dust',
+	'thermal:rose_gold_dust',
+	'immersiveengineering:dust_steel',
+	'thermal:lumium_dust',
+	'thermal:electrum_dust',
+	'thermal:signalum_dust',
+	'thermal:steel_dust',
+	'thermal:invar_dust']*/
 
 ServerEvents.recipes(event => {
 
@@ -458,6 +468,11 @@ ServerEvents.recipes(event => {
 	rods("depth","kubejs:depth_rod")
 	rods("brass","kubejs:brass_rod")
 	rods("fireite","kubejs:fireite_rod")
+
+	event.remove({id:"vintageimprovements:craft/fiery_rod"})
+	
+	rods("fiery","kubejs:fiery_rod")
+	
 
 
 	rods("iron","immersiveengineering:stick_iron")
