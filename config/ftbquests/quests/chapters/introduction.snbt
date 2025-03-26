@@ -141,6 +141,7 @@
 					id: "thermal:satchel"
 					tag: { }
 				}
+				match_nbt: true
 				type: "item"
 			}]
 			title: "Very early game backpack"
@@ -748,7 +749,7 @@
 			y: -4.0d
 		}
 		{
-			dependencies: ["118A5A467C0FEA36"]
+			dependencies: ["6814EBB8BDED9EEE"]
 			dependency_requirement: "all_started"
 			description: [
 				""
@@ -782,7 +783,7 @@
 			}]
 			title: "Explosive Mobs"
 			x: -0.5d
-			y: 1.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["3F2E2B483880F030"]
@@ -1197,7 +1198,11 @@
 		}
 		{
 			dependencies: ["69B93BA4460E5F95"]
-			description: ["Saw allows you to make planks in a more efficient way. To get planks right click stripped log but this time you will get twice as much planks as before."]
+			description: [
+				"&4Remember that flint does not drop from gravel anymore and you will have to craft it using 4 gravel in the crafting grid."
+				"&r"
+				"Saw allows you to make planks in a more efficient way. To get planks right click stripped log but this time you will get twice as much planks as before."
+			]
 			id: "6814EBB8BDED9EEE"
 			rewards: [{
 				count: 5

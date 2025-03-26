@@ -712,7 +712,7 @@
 			dependencies: ["0F250E08450A1BEC"]
 			icon: {
 				Count: 1
-				id: "kubejs:mining_hammer"
+				id: "kubejs:sturdy_mining_hammer"
 				tag: {
 					Damage: 0
 				}
@@ -734,10 +734,10 @@
 			]
 			tasks: [
 				{
-					id: "1D2CFAA30A63E4DE"
+					id: "0330A6243B9692E6"
 					item: {
 						Count: 1
-						id: "kubejs:mining_hammer"
+						id: "kubejs:basic_mining_hammer"
 						tag: {
 							Damage: 0
 						}
@@ -745,39 +745,18 @@
 					type: "item"
 				}
 				{
-					id: "06D674C00D523DE5"
+					id: "1EA40BB60B5B3309"
 					item: {
 						Count: 1
-						id: "kubejs:copper_shovel"
+						id: "kubejs:basic_excavator"
 						tag: {
 							Damage: 0
-							Enchantments: [{
-								id: "minecraft:unbreaking"
-								lvl: 3
-							}]
-							Modifier: "forbidden_arcanus:demolishing"
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "38842C3238F04268"
-					item: {
-						Count: 1
-						id: "kubejs:copper_hoe"
-						tag: {
-							Damage: 0
-							Enchantments: [{
-								id: "minecraft:unbreaking"
-								lvl: 3
-							}]
-							Modifier: "forbidden_arcanus:demolishing"
 						}
 					}
 					type: "item"
 				}
 			]
-			title: "AOE tools"
+			title: "Better AEO tools"
 			x: 1.0d
 			y: 8.5d
 		}
