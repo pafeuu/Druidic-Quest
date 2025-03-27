@@ -1509,12 +1509,13 @@ ServerEvents.recipes(event => {
 
 	event.shaped("kubejs:aura_generator_block",
 		[
-			"III",
+			"IGI",
 			"IMI",
-			"III"
+			"IGI"
 		],
 		{
-			I: "naturesaura:infused_iron",
+			I: "#forge:plates/infused_iron",
+			G: '#forge:gears/infused_iron',
 			M: "kubejs:magical_generator_block"
 		}
 	).id("kubejs:aura_generator_block")
@@ -2884,16 +2885,18 @@ ServerEvents.recipes(event => {
 	event.shaped(
 	  Item.of('thermal:device_rock_gen'), 
 	  [
-	    'IBI',
+	    'SBS',
 		'WXL',
-		'III'
+		'IGI'
 	  ],
 	  {
 		L: 'minecraft:lava_bucket',
 		B: 'ars_nouveau:glyph_break',
 		I: '#forge:plates/tin',
 		X: 'kubejs:andesite_machine',
-		W: 'minecraft:water_bucket'
+		W: 'minecraft:water_bucket',
+		S: '#forge:plates/lead',
+		G: '#forge:gears/tin'
 	  }
 	)
 	

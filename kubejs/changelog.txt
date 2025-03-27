@@ -1347,6 +1347,12 @@ Patch 0.3.2.1
     -Changed for basalz powder
     -Changed for blitz powder
     -Changed for blizz powder
+    -Added for Woven Fabric
+    -Added for Beekeeper Helmet
+    -Added for Beekeeper Chestplate
+    -Added for Beekeeper Leggings
+    -Added for Beekeeper Boots
+    -Changed for Igneus Extruder
 
 
  ### New Items:
@@ -1463,6 +1469,7 @@ Patch 0.3.2.1
     -Nerfed the roadrunner totem
     -Changed copper and diamond armor set bonus
     -Balanced effortless building upgrades
+    -Buffed each part of Beekeeper Set and added Beekeeper Set bonus
 
  ### Changed Textures:
     -Infused Sapphire
@@ -1497,6 +1504,14 @@ Patch 0.3.2.1
     -Stainless Steel Gear
     -Crushed raw tin
     -Crushed raw aluminum
+    -Fire essence
+    -Air Essence
+    -Earth Essence
+    -Water Essence
+    -Death Essence
+    -Life Essence
+    -Nature Essence
+    -Ender Essence
 
  ### Other:
     -Fixed ars nouveau guide book error
@@ -1510,3 +1525,4 @@ Patch 0.3.2.1
     -Fixed tooltips on the magic feathers
     -Changed the names of the magic feathers
     -Maximum speed for create is now 64RPM
+    -Gravel no longer drops flint
