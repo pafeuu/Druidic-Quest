@@ -714,6 +714,8 @@ ServerEvents.recipes(event => {
 
 	///=============================================================== Tier 0 Tools ==========================================================
 
+	simplearmor("thermal:beekeeper_fabric","thermal:beekeeper_helmet","thermal:beekeeper_chestplate","thermal:beekeeper_leggings","thermal:beekeeper_boots")
+
 	event.shaped("kubejs:primitive_saw",
 		[
 			"F  ",

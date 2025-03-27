@@ -528,6 +528,16 @@ ServerEvents.recipes(event => {
 	
 	
 	/// ======================================================================= Tier 1 components =======================================================================
+	event.shaped('thermal:beekeeper_fabric',
+		[
+			"XSX",
+			"SXS",
+			"XSX"
+		],
+		{
+			S:"string",
+			X:"honeycomb"
+	})
 
 	clickb("glass","thermal:slag","immersiveengineering:slag_glass")
 

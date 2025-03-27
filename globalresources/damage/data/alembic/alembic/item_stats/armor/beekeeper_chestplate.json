@@ -1,0 +1,13 @@
+{
+  "id": "thermal:beekeeper_chestplate",
+  "modifiers": [
+    {
+      "type": "append",
+      "attribute": "alembic:alchemical_damage.resistance",
+      "value": 4,
+      "operation": "ADDITION",
+      "uuid": "9fb52de2-cbe3-4a5e-9b31-8fb7d7d544ba"
+    }
+  ],
+  "equipment_slot": "CHEST"
+}

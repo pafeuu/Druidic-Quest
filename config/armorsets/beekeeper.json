@@ -1,0 +1,41 @@
+{
+  "armorSetName": "beekeeper",
+  "performanceMode": true,
+  "head": {
+    "itemKey": "thermal:beekeeper_helmet",
+    "mustBeEmpty": false
+  },
+  "chest": {
+    "itemKey": "thermal:beekeeper_chestplate",
+    "mustBeEmpty": false
+  },
+  "legs": {
+    "itemKey": "thermal:beekeeper_leggings",
+    "mustBeEmpty": false
+  },
+  "boots": {
+    "itemKey": "thermal:beekeeper_boots",
+    "mustBeEmpty": false
+  },
+  "fullSetBonuses": [
+    {
+      "type": "effect",
+      "name": "minecraft:poison",
+      "interactionType": "immunity",
+      "description": "Poison immunity"
+    },
+    {
+      "type": "effect",
+      "name": "minecraft:blindness",
+      "interactionType": "immunity",
+      "description": "Blindness immunity"
+    },
+    {
+      "type": "effect",
+      "name": "minecraft:darkness",
+      "interactionType": "immunity",
+      "description": "Darkness immunity"
+    }
+  ],
+  "hideGeneratedTooltip": false
+}
