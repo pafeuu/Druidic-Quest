@@ -1389,6 +1389,32 @@ ServerEvents.recipes(event => {
 	tool('kubejs:silver','#forge:ingots/silver','#forge:rods/treated_wood','string')
 	tool('kubejs:lead','#forge:ingots/lead','#forge:rods/treated_wood','string')
 
+	event.shaped(Item.of('kubejs:primitive_excavator', '{Modifier:"forbidden_arcanus:demolishing",display:{Name:\'{"italic":false,"text":"Primitive Excavator"}\'}}'),
+		[
+			" F ",
+			"FNF",
+			" S "
+		],
+		{
+			F: 'quark:sturdy_stone',
+			S: '#forge:rods/treated_wood',
+			N: 'twilightforest:naga_scale'
+		}
+	)
+
+	event.shaped(Item.of('kubejs:primitive_mining_hammer', '{Modifier:"forbidden_arcanus:demolishing",display:{Name:\'{"italic":false,"text":"Primitive Mining Hammer"}\'}}'),
+		[
+			"FFF",
+			"FNF",
+			" S "
+		],
+		{
+			F: 'quark:sturdy_stone',
+			S: '#forge:rods/treated_wood',
+			N: 'twilightforest:naga_scale'
+		}
+	)
+
 	event.shaped("kubejs:the_ice_cube",
 		[
 			" I ",
@@ -2548,48 +2574,16 @@ ServerEvents.recipes(event => {
 	  )
 	event.shapeless('immersiveengineering:glider',['immersiveengineering:glider','ars_nouveau:air_essence'])
 
-	event.custom({
-		 "type": "lychee:lightning_channeling",
-		  "post": [
-			{
-			  "type": "drop_item",
-			  "item": 'kubejs:mining_hammer',
-			  "nbt": {
-				"Modifier": "forbidden_arcanus:demolishing",
-				"Enchantments":[{
-					"lvl": 1,
-					"id": "minecraft:unbreaking"
-			  }]
-			  }
-			},
-			{
-				"type": "execute",
-				"command": "playsound irons_spellbooks:lightning_lance_cast neutral @p",
-				"hide": "true"
-			}
-		  ],
-		  "item_in": [
-			{
-			  "item": "kubejs:copper_pickaxe"
-			},
-			{
-			  "item": "ars_nouveau:earth_essence"
-			}
-		  ]
-	})
-
+	
 	event.custom({
 		"type": "lychee:lightning_channeling",
 		 "post": [
 		   {
 			 "type": "drop_item",
-			 "item": 'kubejs:copper_shovel',
+			 "item": 'kubejs:basic_excavator',
 			 "nbt": {
 			   "Modifier": "forbidden_arcanus:demolishing",
-			   "Enchantments":[{
-				   "lvl": 3,
-				   "id": "minecraft:unbreaking"
-			 }]
+			   "Display": {"Name": {"text": "Mining Hammer"}}, 
 			 }
 		   },
 		   {
@@ -2600,26 +2594,33 @@ ServerEvents.recipes(event => {
 		 ],
 		 "item_in": [
 		   {
-			 "item": "kubejs:copper_shovel"
+			 "item": "kubejs:primitive_mining_hammer"
 		   },
 		   {
 			 "item": "ars_nouveau:earth_essence"
+		   },
+		   {
+			 "tag": "forge:storage_blocks/lead"
+		   },
+		   {
+			"tag": "forge:storage_blocks/lead"
+		   },
+		   {
+			"item": "kubejs:zinc_tool_handle"
 		   }
 		 ]
-   })
+	  })
+	
 
    event.custom({
 	"type": "lychee:lightning_channeling",
 	 "post": [
 	   {
 		 "type": "drop_item",
-		 "item": 'kubejs:copper_hoe',
+		 "item": 'kubejs:basic_mining_hammer',
 		 "nbt": {
 		   "Modifier": "forbidden_arcanus:demolishing",
-		   "Enchantments":[{
-			   "lvl": 3,
-			   "id": "minecraft:unbreaking"
-		 }]
+		   "Display": {"Name": {"text": "Mining Hammer"}}, 
 		 }
 	   },
 	   {
@@ -2630,13 +2631,22 @@ ServerEvents.recipes(event => {
 	 ],
 	 "item_in": [
 	   {
-		 "item": "kubejs:copper_hoe"
+		 "item": "kubejs:primitive_mining_hammer"
 	   },
 	   {
 		 "item": "ars_nouveau:earth_essence"
+	   },
+	   {
+		 "tag": "forge:storage_blocks/lead"
+	   },
+	   {
+		"tag": "forge:storage_blocks/lead"
+	   },
+	   {
+		"item": "kubejs:zinc_tool_handle"
 	   }
 	 ]
-})
+  })
 
 
 	event.remove({id:"ars_nouveau:warp_scroll"})
