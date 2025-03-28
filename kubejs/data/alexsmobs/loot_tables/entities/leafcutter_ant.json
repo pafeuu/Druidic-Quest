@@ -1,0 +1,18 @@
+{
+    "pools": [
+        {
+            "name": "ant",
+            "rolls": 1,
+            "entries":[
+              {
+                "type": "minecraft:empty",
+                "weight": 9
+              },
+              {
+                "type": "item",
+                "name": "kubejs:leafcutter_ant_totem"
+              }
+            ]
+        }
+    ]
+}

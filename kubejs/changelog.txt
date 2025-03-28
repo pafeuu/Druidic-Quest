@@ -1353,6 +1353,11 @@ Patch 0.3.2.1
     -Added for Beekeeper Leggings
     -Added for Beekeeper Boots
     -Changed for Igneus Extruder
+    -Changed for Pressing Catalyst
+    -Changed for Andesite Machine
+    -Changed for Steel Machine
+    -Changed for Magic Machine
+    -Changed for Vacuumulator
 
 
  ### New Items:
@@ -1470,6 +1475,7 @@ Patch 0.3.2.1
     -Changed copper and diamond armor set bonus
     -Balanced effortless building upgrades
     -Buffed each part of Beekeeper Set and added Beekeeper Set bonus
+    -
 
  ### Changed Textures:
     -Infused Sapphire
@@ -1512,6 +1518,7 @@ Patch 0.3.2.1
     -Life Essence
     -Nature Essence
     -Ender Essence
+    -Magic Machine
 
  ### Other:
     -Fixed ars nouveau guide book error
