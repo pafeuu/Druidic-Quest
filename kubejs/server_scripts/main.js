@@ -1714,8 +1714,8 @@ ServerEvents.recipes(event => {
 	  ],
 	  {
 		X: "kubejs:basic_magic_machine",
-		C: 'naturesaura:infused_iron',
-		A: "naturesaura:infused_stone"
+		C: '#forge:plates/infused_iron',
+		A: "kubejs:sturdy_deepslate"
 	  }
 	)
 
@@ -1931,6 +1931,23 @@ ServerEvents.recipes(event => {
 	event.replaceInput({id:'naturescompass:natures_compass'},'#minecraft:saplings','kubejs:nature_essence')
 	/// ======================================== Tier 2 Machines ================================================================
 
+	event.shaped("thermal:device_collector",
+		[
+			"LYL",
+			"OXO",
+			"THT"
+		],
+		{
+			L: "#forge:plates/lead",
+			Y: "#forge:gears/tin",
+			O: "#forge:gears/lead",
+			X: "naturesaura:hopper_upgrade",
+			H: "hopper",
+			T: "#forge:plates/tin"
+
+		}
+	).id("thermal:device_collector")
+
 	function SourceGeneratorsRecipe(type,ingredient)
 	{
 		event.shaped("ars_nouveau:"+type+"_sourcelink",
@@ -1953,7 +1970,7 @@ ServerEvents.recipes(event => {
 	SourceGeneratorsRecipe("mycelial","quark:glow_shroom")
 	SourceGeneratorsRecipe("alchemical",'immersive_weathering:golden_moss_clump')
 	
-	event.recipes.naturesaura.tree_ritual("kubejs:pressing_catalyst",["kubejs:arcane_alloy_ingot","kubejs:inert_alloy_ingot","anvil","anvil","immersiveengineering:hammer","immersiveengineering:hammer","anvil","anvil"],"architects_palette:twisted_sapling")
+	event.recipes.naturesaura.tree_ritual("kubejs:pressing_catalyst",["#forge:gears/arcane_alloy","#forge:gears/inert_alloy","anvil","anvil","immersiveengineering:hammer","immersiveengineering:hammer","anvil","anvil"],"architects_palette:twisted_sapling")
 	
 	event.shaped("elementalcraft:water_mill_grindstone",
 		[
@@ -2738,14 +2755,15 @@ ServerEvents.recipes(event => {
 	  Item.of('kubejs:andesite_machine'), 
 	  [
 		'AYA',
-		'AXA', 
+		'GXG', 
 		'AZA' 
 	  ],
 	  {
 		X: 'minecraft:dispenser',
 		Z: 'vintageimprovements:redstone_module',
 		A: 'create:andesite_casing',
-		Y: 'minecraft:hopper'
+		Y: 'minecraft:hopper',
+		G: '#forge:gears/andesite'
 	  }
 	)
 
@@ -3084,13 +3102,15 @@ ServerEvents.recipes(event => {
 	event.shaped(
 		Item.of('kubejs:steel_machine'), 
 		[
-		  'III',
-		  'IMI', 
-		  'III' 
+		  'IGI',
+		  'RMR', 
+		  'IGI' 
 		],
 		{
 		  I: '#forge:plates/steel',
-		  M: 'kubejs:andesite_machine'
+		  M: 'kubejs:andesite_machine',
+		  R: 'forbidden_arcanus:rune',
+		  G: '#forge:gears/steel'
 
 		}
 	  )
