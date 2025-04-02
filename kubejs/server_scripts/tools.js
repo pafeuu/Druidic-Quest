@@ -1384,6 +1384,33 @@ ServerEvents.recipes(event => {
 	}).id("thermal:tools/xp_crystal")
 	/// ======================================================================= Tier 1 Tools ============================================================================
 	
+	event.shaped("create:clipboard",
+		[
+			"C",
+			"P",
+			"W"
+		],
+		{
+			C: "#forge:nuggets/iron",
+			P: "paper",
+			W: "#forge:plates/wooden"
+		}
+	).id("create:crafting/appliances/clipboard")
+
+	event.shaped("create:brown_toolbox",
+		[
+			"WRW",
+			"GSG",
+			"WWW"
+		],
+		{
+			W: "#forge:plates/wooden",
+			S: "supplementaries:sack",
+			G: "#forge:plates/gold",
+			R: "#forge:rods/gold"
+		}
+	).id("create:crafting/curiosities/brown_toolbox")
+
 	tool('minecraft:iron','#forge:ingots/iron','#forge:rods/treated_wood','string')
 	tool('kubejs:copper','#forge:ingots/copper','#forge:rods/treated_wood','string')
 	tool('kubejs:silver','#forge:ingots/silver','#forge:rods/treated_wood','string')
@@ -1425,6 +1452,23 @@ ServerEvents.recipes(event => {
 	).id("kubejs:the_ice_cube")
 
 	/// ======================================================================= Tier 2 Tools ============================================================================
+	
+	event.smithing("create:copper_diving_boots","#forge:storage_blocks/lead","kubejs:copper_boots","ars_nouveau:water_essence").id("create:crafting/appliances/copper_diving_boots")
+	event.smithing("create:copper_diving_helmet","thermal:obsidian_glass","kubejs:copper_helmet","ars_nouveau:water_essence").id("create:crafting/appliances/copper_diving_helmet")
+
+	event.shaped("create:copper_backtank",
+		[
+			"CRC",
+			"CAC",
+			"CWC"
+		],
+		{
+			C: "#forge:plates/copper",
+			R: "#forge:rods/iron",
+			A: "ars_nouveau:air_essence",
+			W: "ars_nouveau:water_essence"
+		}
+	).id("create:crafting/appliances/copper_backtank")
 	
 	event.smithing("kubejs:bejeweled_crucifix",'kubejs:gold_upgrade_smithing_template',Item.of("kubejs:metal_crucifix"),'kubejs:gold_upgrade_parts')
 
