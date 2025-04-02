@@ -1,0 +1,27 @@
+{
+  "id": "create:copper_diving_boots",
+  "modifiers": [
+    {
+      "type": "append",
+      "attribute": "alembic:arcane_damage.resistance",
+      "value": 2,
+      "operation": "ADDITION",
+      "uuid": "241750ff-db39-40b9-a4be-5551f83a3125"
+    },
+    {
+      "type": "append",
+      "attribute": "alembic:ice_damage.resistance",
+      "value": 2,
+      "operation": "ADDITION",
+      "uuid": "29e06ede-00dd-4f8d-a8c3-ebc5ea89d6d1"
+    },
+    {
+      "type": "append",
+      "attribute": "attributeslib:mining_speed",
+      "value": 0.05,
+      "operation": "MULTIPLY_TOTAL",
+      "uuid": "9c0a0110-af15-4333-a73a-5c7d0e3c1b05"
+    }
+  ],
+  "equipment_slot": "FEET"
+}
