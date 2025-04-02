@@ -907,6 +907,103 @@ ServerEvents.recipes(event => {
 	
 	/// ======================================================================= Tier 1 Machines =======================================================================
 	
+	event.shaped("create:pulse_repeater",
+		[
+			"SXS",
+			"BYB",
+			"SZS"
+		],
+		{	
+			S: "#forge:plates/stone",
+			B: "#forge:plates/brass",
+			X: "repeater",
+			Z: "comparator",
+			Y: "supplementaries:hourglass"
+		}
+	).id("create:crafting/logistics/pulse_repeater")
+
+	event.shaped("create:pulse_extender",
+		[
+			"SRS",
+			"BRB",
+			"SRS"
+		],
+		{
+			S: "#forge:plates/stone",
+			B: "#forge:plates/brass",
+			R: "repeater"
+		}
+	).id("create:crafting/logistics/pulse_extender")
+
+	event.shaped("repeater",
+		[
+			"STS",
+			"SRS",
+			"STS"
+		],
+		{
+			S: "#forge:plates/stone",
+			T: "redstone_torch",
+			R: "redstone"
+		}
+	).id("minecraft:repeater")
+
+	event.remove({id:"quark:tweaks/crafting/utility/misc/repeater"})
+
+	event.shaped("comparator",
+		[
+			"STS",
+			"TDT",
+			"SQS"
+		],
+		{
+			S: "#forge:plates/stone",
+			T: "redstone_torch",
+			D: "redstone",
+			Q: "#forge:storage_blocks/quartz"
+		}
+	).id("minecraft:comparator")
+
+	event.shaped("create:powered_latch",
+		[
+			"SLS",
+			"SRS",
+			"SPS"
+		],
+		{
+			S: "#forge:plates/stone",
+			L: "lever",
+			R: "repeater",
+			P: "piston"
+		}
+	).id("create:crafting/logistics/powered_latch")
+
+	event.shapeless("create:powered_toggle_latch",["create:powered_latch","redstone_torch"]).id("create:crafting/logistics/powered_toggle_latch")
+
+	event.shaped("create:placard",
+		[
+			" P ",
+			"PFP",
+			" P "
+		],
+		{
+			P: "#forge:plates/copper",
+			F: "item_frame"
+		}
+	)
+
+	event.shaped("3x create:placard",
+		[
+			" P ",
+			"PFP",
+			" P "
+		],
+		{
+			P: "#forge:plates/brass",
+			F: "item_frame"
+		}
+	).id("create:crafting/kinetics/placard")
+
 	event.shaped("thermal:device_tree_extractor",
 		[
 			"GFG",
@@ -2899,6 +2996,20 @@ ServerEvents.recipes(event => {
 	
 	
 	///======================================== Tier 3 Machines =======================================================================
+
+	event.shaped("2x create:redstone_link",
+		[
+			"T",
+			"C",
+			"E"
+		],
+		{
+			T: "redstone_torch",
+			C: "create:brass_casing",
+			E: "kubejs:ender_essence"
+		}
+	).id("create:crafting/logistics/redstone_link")
+
 	event.shaped(
 		Item.of('create:mechanical_press'), 
 		[
