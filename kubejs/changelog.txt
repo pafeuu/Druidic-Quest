@@ -1358,6 +1358,9 @@ Patch 0.3.2.1
     -Changed for Steel Machine
     -Changed for Magic Machine
     -Changed for Vacuumulator
+    -Changed for Arboreal Extractor
+    -Changed for Nullifier
+    -Changed for Decoctive Diffuser
 
 
  ### New Items:
@@ -1465,6 +1468,11 @@ Patch 0.3.2.1
  ### Removed Items:
     -Obsidian Ingot
     -Mining Hammer
+    -Mechanical Bearing
+    -Clockwork Bearing
+    -Windmill Bearing
+    -Large Water Wheel
+    -Cart Assembler
 
  ### Balance:
     -Buffed flower crown but it cant be put in the curio slots anymore

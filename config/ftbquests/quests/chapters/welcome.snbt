@@ -7,43 +7,43 @@
 	id: "3E5E80A2E082BA7C"
 	images: [
 		{
-            height: 12.65625d
-            image: "kubejs:textures/questbook/welcomescreen/welcomescreen.png"
-            rotation: 0.0d
-            width: 24.0d
-            x: 0.0d
-            y: 0.0d
-        }
-        {
-            height: 1.5d
-            image: "kubejs:textures/questbook/welcomescreen/welcomescreen_discord.png"
-            rotation: 0.0d
-            width: 1.5d
-            x: -7.75d
-            y: 4.5d
-            click: "https://discord.gg/SRfTqrHc"
-            hover: ["Join the official discord!"]
-        }
-        {
-            height: 2.0d
-            image: "kubejs:textures/questbook/welcomescreen/welcomescreen_curseforge.png"
-            rotation: 0.0d
-            width: 2.0d
-            x: -6.0d
-            y: 4.5d
-            click: "https://www.curseforge.com/minecraft/modpacks/druidic-quest"
-            hover: ["Take a look at the CurseForge website"]
-        }
-        {
-            height: 1.5d
-            image: "kubejs:textures/questbook/welcomescreen/welcomescreen_github.png"
-            rotation: 0.0d
-            width: 1.5d
-            x: -9.3d
-            y: 4.5d
-            click: "https://github.com/pafeuu/Druidic-Quest"
-            hover: ["BTW, the pack is open source"]
-        }
+			height: 12.65625d
+			image: "kubejs:textures/questbook/welcomescreen/welcomescreen.png"
+			rotation: 0.0d
+			width: 24.0d
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			click: "https://discord.gg/SRfTqrHc"
+			height: 1.5d
+			hover: ["Join the official discord!"]
+			image: "kubejs:textures/questbook/welcomescreen/welcomescreen_discord.png"
+			rotation: 0.0d
+			width: 1.5d
+			x: -7.75d
+			y: 4.5d
+		}
+		{
+			click: "https://www.curseforge.com/minecraft/modpacks/druidic-quest"
+			height: 2.0d
+			hover: ["Take a look at the CurseForge website"]
+			image: "kubejs:textures/questbook/welcomescreen/welcomescreen_curseforge.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: -6.0d
+			y: 4.5d
+		}
+		{
+			click: "https://github.com/pafeuu/Druidic-Quest"
+			height: 1.5d
+			hover: ["BTW, the pack is open source"]
+			image: "kubejs:textures/questbook/welcomescreen/welcomescreen_github.png"
+			rotation: 0.0d
+			width: 1.5d
+			x: -9.3d
+			y: 4.5d
+		}
 	]
 	order_index: 0
 	quest_links: [ ]

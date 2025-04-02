@@ -1124,8 +1124,8 @@
 				item: "torchmaster:feral_flare_lantern"
 				type: "item"
 			}]
-			x: 15.5d
-			y: 1.5d
+			x: 16.0d
+			y: 2.0d
 		}
 		{
 			dependencies: [
@@ -1245,6 +1245,44 @@
 			}]
 			x: 5.0d
 			y: 1.0d
+		}
+		{
+			dependencies: ["41FA7D0AD437E6FB"]
+			icon: {
+				Count: 1
+				id: "kubejs:primitive_mining_hammer"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "4A8886F5524F7811"
+			tasks: [
+				{
+					id: "0469CE4C87A0C6A0"
+					item: {
+						Count: 1
+						id: "kubejs:primitive_mining_hammer"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "02ECE5806DC4FC27"
+					item: {
+						Count: 1
+						id: "kubejs:primitive_excavator"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "AoE tools"
+			x: 12.0d
+			y: 3.0d
 		}
 	]
 	title: "Tier 1 - Basic Magic"

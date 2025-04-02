@@ -148,11 +148,12 @@
 				}
 			]
 			title: "Means of getting the elements"
-			x: -5.5d
+			x: -6.0d
 			y: 4.0d
 		}
 		{
 			dependencies: ["7EBD23E275E837F2"]
+			description: ["After getting to &5The Nether&r you will need to slay some blazes for their rods as it will be needed for further creation of magical machines."]
 			icon: "chipped:nether_carved_pumpkin"
 			id: "23D3902848A335F6"
 			rewards: [
@@ -424,7 +425,7 @@
 				type: "item"
 			}]
 			x: -0.5d
-			y: 4.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["769C5B75D85F81FC"]
@@ -472,7 +473,7 @@
 				type: "item"
 			}]
 			x: -0.5d
-			y: 7.0d
+			y: 7.5d
 		}
 		{
 			dependencies: ["6B18370E82275EED"]
@@ -489,7 +490,7 @@
 				type: "item"
 			}]
 			x: -0.5d
-			y: 2.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["5E56A7D68E33C68B"]
@@ -518,7 +519,7 @@
 				type: "item"
 			}]
 			x: -1.5d
-			y: 1.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["23D3902848A335F6"]
@@ -653,7 +654,7 @@
 				}
 				type: "item"
 			}]
-			x: 2.0d
+			x: 1.0d
 			y: 6.0d
 		}
 		{
@@ -669,7 +670,7 @@
 				item: "forbidden_arcanus:quantum_catcher"
 				type: "item"
 			}]
-			x: 2.0d
+			x: 1.0d
 			y: 5.0d
 		}
 		{
@@ -689,8 +690,8 @@
 				}
 				type: "item"
 			}]
-			x: 1.5d
-			y: 2.5d
+			x: 1.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["00AEA38F60CAAE90"]
@@ -705,14 +706,14 @@
 				item: "elementalcraft:water_mill_grindstone"
 				type: "item"
 			}]
-			x: 2.0d
-			y: 3.5d
+			x: 1.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["0F250E08450A1BEC"]
 			icon: {
 				Count: 1
-				id: "kubejs:sturdy_mining_hammer"
+				id: "kubejs:basic_mining_hammer"
 				tag: {
 					Damage: 0
 				}
@@ -757,7 +758,7 @@
 				}
 			]
 			title: "Better AEO tools"
-			x: 1.0d
+			x: 0.5d
 			y: 8.5d
 		}
 		{
@@ -797,7 +798,7 @@
 				item: "irons_spellbooks:arcane_anvil"
 				type: "item"
 			}]
-			x: 2.0d
+			x: 1.0d
 			y: 13.0d
 		}
 		{
@@ -810,6 +811,7 @@
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
+			subtitle: "Feeding your animals"
 			tasks: [{
 				id: "68E8EF4DAA2A6D00"
 				item: "quark:feeding_trough"
@@ -837,7 +839,7 @@
 				}
 				type: "item"
 			}]
-			x: -2.0d
+			x: -1.5d
 			y: 8.5d
 		}
 		{
@@ -860,17 +862,22 @@
 				type: "item"
 			}]
 			x: 0.5d
-			y: 1.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["7EBD23E275E837F2"]
+			description: [
+				"With the power of &6Golden Magic Feather&r you can mine obsidian instantly by right clicking. "
+				""
+				"But be carefull as it doesn't have much durability"
+			]
 			id: "2E527B86FB2AE87D"
 			rewards: [{
 				id: "3624748F1BF55ECC"
 				item: "alexsmobs:mosquito_repellent_stew"
 				type: "item"
 			}]
-			subtitle: "This might be helpfull making a nether portal"
+			subtitle: "This might be helpfull in making a nether portal"
 			tasks: [{
 				id: "74805E94D6333EB9"
 				item: {
@@ -882,7 +889,7 @@
 				}
 				type: "item"
 			}]
-			x: -9.5d
+			x: -9.25d
 			y: 10.0d
 		}
 		{

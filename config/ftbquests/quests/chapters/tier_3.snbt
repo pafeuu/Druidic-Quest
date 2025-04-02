@@ -47,8 +47,8 @@
 				item: "elementalcraft:drenched_iron_ingot"
 				type: "item"
 			}]
-			x: 6.0d
-			y: 0.0d
+			x: -6.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["720EAE83846D3178"]
@@ -65,8 +65,8 @@
 				item: "elementalcraft:binder"
 				type: "item"
 			}]
-			x: 4.0d
-			y: 0.0d
+			x: -3.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["0546AB4A107ED496"]
@@ -84,8 +84,8 @@
 				item: "vintageimprovements:redstone_module"
 				type: "item"
 			}]
-			x: 2.5d
-			y: 0.0d
+			x: -0.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["0546AB4A107ED496"]
@@ -109,15 +109,15 @@
 				item: "kubejs:ender_essence"
 				type: "item"
 			}]
-			x: 4.0d
-			y: -1.5d
+			x: -0.5d
+			y: 3.0d
 		}
 		{
 			dependencies: [
 				"3DDF1CBFC865F991"
 				"6E30DFF0F2B9B811"
 			]
-			icon: "sophisticatedstorage:storage_tool"
+			icon: "sophisticatedstorage:controller"
 			id: "06F09790C8570FA7"
 			rewards: [{
 				count: 3
@@ -142,8 +142,8 @@
 					type: "item"
 				}
 			]
-			x: 2.5d
-			y: -1.5d
+			x: -0.5d
+			y: 4.5d
 		}
 		{
 			dependencies: [
@@ -152,12 +152,24 @@
 			]
 			hide_until_deps_visible: false
 			id: "598CB97D6AAE242D"
-			rewards: [{
-				count: 2
-				id: "69A1CB546A9E482D"
-				item: "thermal:silver_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 2
+					id: "69A1CB546A9E482D"
+					item: "thermal:silver_coin"
+					type: "item"
+				}
+				{
+					id: "51AAA89421AF1EF4"
+					item: "create:stressometer"
+					type: "item"
+				}
+				{
+					id: "0BAFBF4B226D380E"
+					item: "create:speedometer"
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			tasks: [{
 				id: "5329652F6A7CF0F5"
@@ -192,7 +204,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: -1.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["1A94843C9B0DD8FF"]
@@ -239,7 +251,7 @@
 				}
 			]
 			x: -1.5d
-			y: -1.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["0546AB4A107ED496"]
@@ -261,8 +273,21 @@
 				}
 				type: "item"
 			}]
-			x: 4.0d
-			y: 2.0d
+			x: -3.0d
+			y: 4.5d
+		}
+		{
+			id: "3CEA1955266AEAB3"
+			shape: "rsquare"
+			tasks: [{
+				dimension: "aether:the_aether"
+				icon: "aether:aether_portal_frame"
+				id: "3BF7BFFE785E4E6E"
+				type: "dimension"
+			}]
+			title: "Visit the Aether!"
+			x: 1.5d
+			y: 1.5d
 		}
 	]
 	title: "Tier 3 - Primitive Tech"
