@@ -907,6 +907,52 @@ ServerEvents.recipes(event => {
 	
 	/// ======================================================================= Tier 1 Machines =======================================================================
 	
+	event.shaped("thermal:device_tree_extractor",
+		[
+			"GFG",
+			"WMW",
+			"SBS"
+		],
+		{
+			G: "#forge:gears/tin",
+			F: "supplementaries:faucet",
+			W: "#forge:plates/wooden",
+			M: "kubejs:primitive_machine",
+			S: "#forge:plates/tin",
+			B: "bucket"
+		}
+	).id("thermal:device_tree_extractor")
+
+	event.shaped("thermal:device_nullifier",
+		[
+			"LLL",
+			"SMS",
+			"SCS"
+		],
+		{
+			L: "#forge:plates/lead",
+			M: "kubejs:primitive_machine",
+			S: "#forge:plates/tin",
+			C: "#forge:storage_blocks/cactus"
+		}
+	).id("thermal:device_nullifier")
+
+	event.shaped("thermal:device_potion_diffuser",
+		[
+			"LGL",
+			"WMW",
+			"SJS"
+		],
+		{
+			L: "#forge:plates/lead",
+			G: "#forge:gears/lead",
+			W: "glass_bottle",
+			M: "kubejs:primitive_machine",
+			S: "#forge:plates/tin",
+			J: "supplementaries:jar"
+		}
+	).id("thermal:device_potion_diffuser")
+
 	event.shaped("create:chute",[" I ","ICI"," I "],{I:"#forge:plates/iron",C:"quark:chute"}).id("create:crafting/kinetics/chute")
 
 	event.shaped("create:redstone_contact",["CIC","ROR","CCC"],{C:"quark:sturdy_stone",R:"#forge:storage_blocks/redstone",O:"observer",I:"#forge:plates/iron"}).id("create:crafting/logistics/redstone_contact")
