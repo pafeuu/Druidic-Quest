@@ -1361,6 +1361,18 @@ Patch 0.3.2.1
     -Changed for Arboreal Extractor
     -Changed for Nullifier
     -Changed for Decoctive Diffuser
+    -Changed for repeater
+    -Changed for comparator
+    -Changed for pulse repeater
+    -Changed for pulse extender
+    -Changed for powered toggle latch
+    -Changed for powered latch
+    -Changed for placard
+    -Changed for clipboard
+    -Changed for brown toolbox
+    -Changed for copper backtank
+    -Changed for copper diving boots
+    -Changed for copper diving helmet
 
 
  ### New Items:
@@ -1483,7 +1495,7 @@ Patch 0.3.2.1
     -Changed copper and diamond armor set bonus
     -Balanced effortless building upgrades
     -Buffed each part of Beekeeper Set and added Beekeeper Set bonus
-    -
+    -Buffed Copper diving armor parts
 
  ### Changed Textures:
     -Infused Sapphire

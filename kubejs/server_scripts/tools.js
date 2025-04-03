@@ -1416,31 +1416,12 @@ ServerEvents.recipes(event => {
 	tool('kubejs:silver','#forge:ingots/silver','#forge:rods/treated_wood','string')
 	tool('kubejs:lead','#forge:ingots/lead','#forge:rods/treated_wood','string')
 
-	event.shaped(Item.of('kubejs:primitive_excavator', '{Modifier:"forbidden_arcanus:demolishing",display:{Name:\'{"italic":false,"text":"Primitive Excavator"}\'}}'),
-		[
-			" F ",
-			"FNF",
-			" S "
-		],
-		{
-			F: 'quark:sturdy_stone',
-			S: '#forge:rods/treated_wood',
-			N: 'twilightforest:naga_scale'
-		}
-	)
+	
 
-	event.shaped(Item.of('kubejs:primitive_mining_hammer', '{Modifier:"forbidden_arcanus:demolishing",display:{Name:\'{"italic":false,"text":"Primitive Mining Hammer"}\'}}'),
-		[
-			"FFF",
-			"FNF",
-			" S "
-		],
-		{
-			F: 'quark:sturdy_stone',
-			S: '#forge:rods/treated_wood',
-			N: 'twilightforest:naga_scale'
-		}
-	)
+	event.recipes.naturesaura.tree_ritual(Item.of('kubejs:primitive_mining_hammer', '{Modifier:"forbidden_arcanus:demolishing",display:{Name:\'{"italic":false,"text":"Primitive Mining Hammer"}\'}}'),["stone_pickaxe","#forge:rods/treated_wood","twilightforest:naga_scale","twilightforest:naga_scale","quark:sturdy_stone","quark:sturdy_stone","quark:sturdy_stone","quark:sturdy_stone"],"minecraft:oak_sapling",200).id("kubejs:primitive_mining_hammer")
+	
+	event.recipes.naturesaura.tree_ritual(Item.of('kubejs:primitive_excavator', '{Modifier:"forbidden_arcanus:demolishing",display:{Name:\'{"italic":false,"text":"Primitive Excavator"}\'}}'),["stone_shovel","#forge:rods/treated_wood","twilightforest:naga_scale","twilightforest:naga_scale","quark:sturdy_stone","quark:sturdy_stone","quark:sturdy_stone","quark:sturdy_stone"],"minecraft:oak_sapling",200).id("kubejs:primitive_excavator")
+	
 
 	event.shaped("kubejs:the_ice_cube",
 		[
@@ -1469,7 +1450,7 @@ ServerEvents.recipes(event => {
 			W: "ars_nouveau:water_essence"
 		}
 	).id("create:crafting/appliances/copper_backtank")
-	
+
 	event.smithing("kubejs:bejeweled_crucifix",'kubejs:gold_upgrade_smithing_template',Item.of("kubejs:metal_crucifix"),'kubejs:gold_upgrade_parts')
 
 	event.shaped("kubejs:cross_necklace",
@@ -2618,79 +2599,10 @@ ServerEvents.recipes(event => {
 	  )
 	event.shapeless('immersiveengineering:glider',['immersiveengineering:glider','ars_nouveau:air_essence'])
 
+	  event.recipes.naturesaura.tree_ritual(Item.of('kubejs:basic_mining_hammer', '{Modifier:"forbidden_arcanus:demolishing",display:{Name:\'{"italic":false,"text":"Basic Mining Hammer"}\'}}'),["kubejs:primitive_mining_hammer","kubejs:zinc_tool_handle","ars_nouveau:earth_essence","ars_nouveau:earth_essence","#forge:storage_blocks/lead","#forge:storage_blocks/lead","#forge:plates/lead","#forge:plates/lead"],"minecraft:oak_sapling",200).id("kubejs:basic_mining_hammer")
 	
-	event.custom({
-		"type": "lychee:lightning_channeling",
-		 "post": [
-		   {
-			 "type": "drop_item",
-			 "item": 'kubejs:basic_excavator',
-			 "nbt": {
-			   "Modifier": "forbidden_arcanus:demolishing",
-			   "Display": {"Name": {"text": "Mining Hammer"}}, 
-			 }
-		   },
-		   {
-			   "type": "execute",
-			   "command": "playsound irons_spellbooks:lightning_lance_cast neutral @p",
-			   "hide": "true"
-		   }
-		 ],
-		 "item_in": [
-		   {
-			 "item": "kubejs:primitive_mining_hammer"
-		   },
-		   {
-			 "item": "ars_nouveau:earth_essence"
-		   },
-		   {
-			 "tag": "forge:storage_blocks/lead"
-		   },
-		   {
-			"tag": "forge:storage_blocks/lead"
-		   },
-		   {
-			"item": "kubejs:zinc_tool_handle"
-		   }
-		 ]
-	  })
-	
+	  event.recipes.naturesaura.tree_ritual(Item.of('kubejs:basic_excavator', '{Modifier:"forbidden_arcanus:demolishing",display:{Name:\'{"italic":false,"text":"Basic Excavator"}\'}}'),["kubejs:primitive_excavator","kubejs:zinc_tool_handle","ars_nouveau:earth_essence","ars_nouveau:earth_essence","#forge:storage_blocks/lead","#forge:storage_blocks/lead","#forge:plates/lead","#forge:plates/lead"],"minecraft:oak_sapling",200).id("kubejs:basic_excavator")
 
-   event.custom({
-	"type": "lychee:lightning_channeling",
-	 "post": [
-	   {
-		 "type": "drop_item",
-		 "item": 'kubejs:basic_mining_hammer',
-		 "nbt": {
-		   "Modifier": "forbidden_arcanus:demolishing",
-		   "Display": {"Name": {"text": "Mining Hammer"}}, 
-		 }
-	   },
-	   {
-		   "type": "execute",
-		   "command": "playsound irons_spellbooks:lightning_lance_cast neutral @p",
-		   "hide": "true"
-	   }
-	 ],
-	 "item_in": [
-	   {
-		 "item": "kubejs:primitive_mining_hammer"
-	   },
-	   {
-		 "item": "ars_nouveau:earth_essence"
-	   },
-	   {
-		 "tag": "forge:storage_blocks/lead"
-	   },
-	   {
-		"tag": "forge:storage_blocks/lead"
-	   },
-	   {
-		"item": "kubejs:zinc_tool_handle"
-	   }
-	 ]
-  })
 
 
 	event.remove({id:"ars_nouveau:warp_scroll"})
@@ -2722,6 +2634,10 @@ ServerEvents.recipes(event => {
 	
 	
 	/// ============================================= Tier 3 Tools ===========================================================
+
+	event.recipes.naturesaura.tree_ritual(Item.of('kubejs:sturdy_mining_hammer', '{Modifier:"forbidden_arcanus:demolishing",display:{Name:\'{"italic":false,"text":"Sturdy Mining Hammer"}\'}}'),["kubejs:basic_mining_hammer","kubejs:reinforced_tool_handle","kubejs:death_essence","kubejs:death_essence","#forge:plates/netherite","#forge:plates/netherite","#forge:plates/netherite","#forge:plates/netherite"],"minecraft:oak_sapling",200).id("kubejs:sturdy_mining_hammer")
+	
+	  event.recipes.naturesaura.tree_ritual(Item.of('kubejs:sturdy_excavator', '{Modifier:"forbidden_arcanus:demolishing",display:{Name:\'{"italic":false,"text":"Sturdy Excavator"}\'}}'),["kubejs:basic_excavator","kubejs:reinforced_tool_handle","kubejs:death_essence","kubejs:death_essence","#forge:plates/netherite","#forge:plates/netherite","#forge:plates/netherite","#forge:plates/netherite"],"minecraft:oak_sapling",200).id("kubejs:sturdy_excavator")
 
 	event.custom({
 		type: "elementalcraft:binding",
