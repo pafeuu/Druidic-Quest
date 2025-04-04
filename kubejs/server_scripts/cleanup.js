@@ -217,7 +217,11 @@ global.nukelist = ["twigs:calcite_wall",
 	'create:mechanical_bearing',
 	'create:clockwork_bearing', 
 	'create:windmill_bearing', 
-	'create:large_water_wheel']/*,
+	'create:large_water_wheel',
+	'immersiveengineering:dust_wood', 
+	'immersiveengineering:dust_sulfur', 
+	'vintageimprovements:sulfur', 
+	'vintageimprovements:sulfur_block']/*,
 	'thermal:constantan_dust',
 	'thermal:bronze_dust',
 	'thermal:enderium_dust',
@@ -852,9 +856,6 @@ ServerEvents.recipes(event => {
 
 	wood_TF.forEach(type => {
 		
-		event.shapeless("twilightdelight:"+type+"_cabinet","everycomp:fd/twilightforest/"+type+"_cabinet").id("twilightdelight:"+type+"_cabinet")
-		
-
 		event.shaped("twilightforest:"+type+"_chest",
 			[
 				"XXX",
@@ -865,9 +866,7 @@ ServerEvents.recipes(event => {
 		).id("twilightforest:wood/"+type+"_chest")
 	});
 
-	wood_TF_no_mangrove.forEach(type => {
-		event.shapeless("everycomp:fd/twilightforest/"+type+"_cabinet","twilightdelight:"+type+"_cabinet")
-	});
+	
 
 	event.shaped("supplementaries:item_shelf",
 		[

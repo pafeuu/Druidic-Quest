@@ -1326,6 +1326,10 @@ Patch 0.3.2.1
     -Create Crafts & Additions
     -ForgeEndertech
     -libIPN
+    -Thermal Locomotion
+    -Quark's Delight
+    -Twilight Flavour and Delight
+    -Aether's Delight
 
  ### Recipes:
     -Added for the Blade of Grass
@@ -1373,6 +1377,9 @@ Patch 0.3.2.1
     -Changed for copper backtank
     -Changed for copper diving boots
     -Changed for copper diving helmet
+    -Changed for steam engine
+    -Added for Scoria
+    -Added for Limestone
 
 
  ### New Items:
@@ -1485,6 +1492,10 @@ Patch 0.3.2.1
     -Windmill Bearing
     -Large Water Wheel
     -Cart Assembler
+    -Saw Dust
+    -Sulfur Dust
+    -Sulfur
+    -Block of Sulfur
 
  ### Balance:
     -Buffed flower crown but it cant be put in the curio slots anymore
