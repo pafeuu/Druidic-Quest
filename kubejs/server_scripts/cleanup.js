@@ -795,6 +795,14 @@ ServerEvents.recipes(event => {
 	
 	///=======================================Building blocks=======================================///
 
+	event.recipes.thermal.rock_gen("create:limestone","air","create:honey",30)
+
+	event.recipes.thermal.rock_gen("create:scoria","air","create:chocolate",30)
+
+	/*event.recipes.thermal.rock_gen("minecraft:crying_obsidian","air","deep_aether:poison_fluid",30)
+	/// Why doesnt it work :(
+	event.recipes.thermal.rock_gen("deep_aether:aersmog","water","deep_aether:poison_fluid",30)*/
+
 	event.shaped("8x twigs:gravel_bricks",
 		[
 			"GGG",
