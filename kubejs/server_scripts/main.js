@@ -274,26 +274,6 @@ ServerEvents.recipes(event => {
 	
 	
 	/// ======================================================================= Tier 0 Components ========================================================================
-	
-	event.shapeless('3x bone_meal', ['bone','#forge:tools/mortars']).damageIngredient('#forge:tools/mortars',2).id('minecraft:bone_meal')
-
-	event.shapeless('flint', ['gravel','#forge:tools/mortars']).damageIngredient('#forge:tools/mortars',4)
-
-	event.shaped("flint",["GG","GG"],{G:"minecraft:gravel"})
-
-	event.shapeless('sugar', ['sugar_cane','#forge:tools/mortars']).damageIngredient('#forge:tools/mortars',2).id('minecraft:sugar_from_sugar_cane')
-
-	event.shapeless('minecraft:blaze_powder', ['blaze_rod','#forge:tools/mortars']).damageIngredient('#forge:tools/mortars',8).id('minecraft:blaze_powder')
-
-	event.shapeless('thermal:basalz_powder', ['thermal:basalz_rod','#forge:tools/mortars']).damageIngredient('#forge:tools/mortars',8).id('thermal:basalz_powder')
-
-	event.shapeless('thermal:blitz_powder', ['thermal:blitz_rod','#forge:tools/mortars']).damageIngredient('#forge:tools/mortars',8).id('thermal:blitz_powder')
-
-	event.shapeless('thermal:blizz_powder', ['thermal:blizz_rod','#forge:tools/mortars']).damageIngredient('#forge:tools/mortars',8).id('thermal:blizz_powder')
-
-	event.shapeless('thermal:ender_pearl_dust', ['ender_pearl','#forge:tools/mortars']).damageIngredient('#forge:tools/mortars',2).id('thermal:earth_charge/ender_pearl_dust_from_ender_pearl')
-
-	event.shapeless('create:wheat_flour', ['wheat','#forge:tools/mortars']).damageIngredient('#forge:tools/mortars',2)
 
 	event.shaped("kubejs:primitive_handle",
 		[
@@ -1085,19 +1065,6 @@ ServerEvents.recipes(event => {
 			F: "sophisticatedstorage:filter_upgrade"
 		}
 	).id("immersiveengineering:crafting/sorter")
-	
-	event.shaped(
-		Item.of('twilightdelight:fiery_cooking_pot'), 
-		[
-		  'AAA',
-		  'AIA', 
-		  'AAA'
-		],
-		{
-		  A: '#forge:ingots/fiery',
-		  I: "farmersdelight:cooking_pot"
-		}
-	  ).id("twilightdelight:fiery_cooking_pot")
 
 	event.remove({output:'torchmaster:feral_flare_lantern'})
 	event.shaped(
@@ -2996,6 +2963,20 @@ ServerEvents.recipes(event => {
 	
 	
 	///======================================== Tier 3 Machines =======================================================================
+
+	event.shaped("create:steam_engine",
+		[
+			"PAP",
+			"PFP",
+			"PWP"
+		],
+		{
+			P: "#forge:plates/copper",
+			A: "#forge:rods/andesite",
+			F: "ars_nouveau:fire_essence",
+			W: "ars_nouveau:water_essence"
+		}
+	).id("create:crafting/kinetics/steam_engine")
 
 	event.shaped("2x create:redstone_link",
 		[
