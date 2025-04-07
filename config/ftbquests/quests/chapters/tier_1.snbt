@@ -464,11 +464,24 @@
 			]
 			icon: "minecraft:amethyst_cluster"
 			id: "37E717454A7E8792"
-			rewards: [{
-				id: "07A3589D60871CC6"
-				item: "thermal:gold_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "07A3589D60871CC6"
+					item: "thermal:gold_coin"
+					type: "item"
+				}
+				{
+					id: "2DAEE63F14ADC1CB"
+					item: {
+						Count: 1
+						id: "patchouli:guide_book"
+						tag: {
+							"patchouli:book": "thermal:guidebook"
+						}
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			tasks: [
 				{
@@ -950,7 +963,7 @@
 		{
 			dependencies: ["769C5B75D85F81FC"]
 			description: ["In the next chapter getting to the &l&2Lush Caves&r&r is crucial for the progression! You can buy map to this biome for just 1 gold coin!"]
-			icon: "quarkdelight:lush_moss_salad"
+			icon: "kubejs:nature_essence"
 			id: "1EC8670D9091464A"
 			rewards: [{
 				id: "1DEE23CA34415DA7"

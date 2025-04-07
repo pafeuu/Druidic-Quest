@@ -76,7 +76,7 @@
 				id: "7221DB9E19CEF881"
 				item: {
 					Count: 1
-					id: "create_sa:copper_sword"
+					id: "kubejs:copper_sword"
 					tag: {
 						Damage: 0
 					}
@@ -99,7 +99,7 @@
 				id: "118E166D8550B65A"
 				item: {
 					Count: 1
-					id: "create_sa:zinc_sword"
+					id: "kubejs:silver_sword"
 					tag: {
 						Damage: 0
 					}
@@ -168,7 +168,7 @@
 				id: "78B8E8DB4DA8EC42"
 				item: {
 					Count: 1
-					id: "create_sa:brass_sword"
+					id: "kubejs:lead_sword"
 					tag: {
 						Damage: 0
 					}
@@ -260,7 +260,7 @@
 				id: "378395E45E9C215D"
 				item: {
 					Count: 1
-					id: "create_sa:experience_sword"
+					id: "deep_aether:skyjade_sword"
 					tag: {
 						Damage: 0
 					}
@@ -306,7 +306,7 @@
 				id: "6ECF3CCDA55FD4CD"
 				item: {
 					Count: 1
-					id: "create_sa:rose_quartz_sword"
+					id: "aether:zanite_sword"
 					tag: {
 						Damage: 0
 					}
@@ -384,6 +384,458 @@
 			}]
 			x: 1.0d
 			y: 4.0d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			icon: {
+				Count: 1
+				id: "aether:holystone_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "5EDA71B486850C62"
+			rewards: [{
+				count: 4
+				id: "59A2A71982283345"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "049ACA16596FF633"
+				item: {
+					Count: 1
+					id: "kubejs:silver_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "78813B42D30B29D7"
+			rewards: [{
+				count: 4
+				id: "5E3C953FECA5F51A"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "775CB71C95531809"
+				item: {
+					Count: 1
+					id: "aether:gravitite_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "37AB1573AAA873C3"
+			rewards: [{
+				count: 4
+				id: "244BFEEF26C88DC0"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6F47C7A762E96DAA"
+				item: {
+					Count: 1
+					id: "ancient_aether:valkyrum_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "142687F22F010A7F"
+			rewards: [{
+				count: 4
+				id: "5F524AEF757B2AE0"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "575635EF484A0BCD"
+				item: {
+					Count: 1
+					id: "aether:flaming_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "275D1A1344569484"
+			rewards: [{
+				count: 4
+				id: "3906C1BCC3B88BA7"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "00E29016B975D48E"
+				item: {
+					Count: 1
+					id: "deep_aether:stratus_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "5F7EF950FF465750"
+			rewards: [{
+				count: 4
+				id: "2ACA975EF908447F"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4729517699652C1D"
+				item: {
+					Count: 1
+					id: "aether:lightning_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "1D39B199FF533615"
+			rewards: [{
+				count: 4
+				id: "3B873CD6F19B55B7"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "21F6A7179D7DBABB"
+				item: {
+					Count: 1
+					id: "aether:holy_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "36533B225101713E"
+			rewards: [{
+				count: 4
+				id: "20D7858AE4BB9D6F"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6490FC088E5C3213"
+				item: {
+					Count: 1
+					id: "ancient_aether:ancient_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "1D8ED8DA92914D24"
+			rewards: [{
+				count: 4
+				id: "2848CE16EA2970EC"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "734B7FF66F83BE65"
+				item: {
+					Count: 1
+					id: "aether:candy_cane_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "7111E7537BA9DED5"
+			rewards: [{
+				count: 4
+				id: "7CBC3C708CDD44AA"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3642209040589764"
+				item: {
+					Count: 1
+					id: "deep_aether:storm_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "140857C56D3D5163"
+			rewards: [{
+				count: 8
+				id: "34A16613284690A4"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5CF1853AA6090790"
+				item: {
+					Count: 1
+					id: "twilightforest:ironwood_sword"
+					tag: {
+						Damage: 0
+						Enchantments: [{
+							id: "minecraft:unbreaking"
+							lvl: 1s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "7B978C4E9C83C082"
+			rewards: [{
+				count: 4
+				id: "3F777DA320FAE34E"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1DD2265849DC6CD9"
+				item: {
+					Count: 1
+					id: "twilightforest:steeleaf_sword"
+					tag: {
+						Damage: 0
+						Enchantments: [{
+							id: "minecraft:looting"
+							lvl: 2s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "36C02E5B7FA5F111"
+			rewards: [{
+				count: 4
+				id: "4EA7E8114BD6AC61"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "326E0A8DBDAAC608"
+				item: {
+					Count: 1
+					id: "twilightforest:knightmetal_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "6294F1306E2C5630"
+			rewards: [{
+				count: 4
+				id: "27B328B08887DA22"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "452E536692B4D8A8"
+				item: {
+					Count: 1
+					id: "twilightforest:fiery_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "1AC1CC40F9D1427E"
+			rewards: [{
+				count: 4
+				id: "44CB62FE24A26F2A"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5C1FD09717941294"
+				item: {
+					Count: 1
+					id: "immersiveengineering:sword_steel"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "51F7D43DE31E0520"
+			rewards: [{
+				count: 4
+				id: "6537490518AE2675"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4EFC1C8242E55E8A"
+				item: {
+					Count: 1
+					id: "tide:blazing_swordfish"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "786E1EB05004E3E2"
+			rewards: [{
+				count: 4
+				id: "445557584605C09A"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "25911C116832435A"
+				item: {
+					Count: 1
+					id: "kubejs:mossy_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "2C521676D073C12C"
+			rewards: [{
+				count: 4
+				id: "3EFA6D0AD3E240AC"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1C7DD2C147424489"
+				item: {
+					Count: 1
+					id: "deeperdarker:warden_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "756B2DBAC194E6FD"
+			rewards: [{
+				count: 4
+				id: "4E8CC310F58CA75C"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "07EE5F5151E202A1"
+				item: {
+					Count: 1
+					id: "deeperdarker:resonarium_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: -0.5d
 		}
 	]
 	title: "Bladesmith"

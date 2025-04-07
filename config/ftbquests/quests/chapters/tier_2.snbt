@@ -14,6 +14,10 @@
 	quests: [
 		{
 			dependencies: ["769C5B75D85F81FC"]
+			description: [
+				"Your first ingots of &5Arcane Alloy&r must be made with inefficient tree ritual recipe."
+				"At the end of the chapter you will unluck much better recipe"
+			]
 			id: "4E33A6524A987E23"
 			rewards: [{
 				id: "4FBC16708C07D75D"
@@ -70,6 +74,7 @@
 				"72FB95A11B31AFEC"
 				"23D3902848A335F6"
 			]
+			description: ["Much more durable tool handle, necessary in making &bdiamond&r and &6gold&r tools."]
 			id: "4E1801454590B2B2"
 			rewards: [{
 				count: 8
@@ -90,15 +95,28 @@
 		}
 		{
 			dependencies: ["4E1801454590B2B2"]
+			description: [""]
 			hide_until_deps_visible: true
 			icon: "crafting_on_a_stick:crafting_table"
 			id: "694245F07E3CAA48"
-			rewards: [{
-				count: 6
-				id: "48795A42E11DCFAB"
-				item: "thermal:copper_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 6
+					id: "48795A42E11DCFAB"
+					item: "thermal:copper_coin"
+					type: "item"
+				}
+				{
+					id: "6EA803E3F67D3F66"
+					item: "thermal:ruby"
+					type: "item"
+				}
+				{
+					id: "0292074B7E7EB31C"
+					item: "thermal:sapphire"
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "08D3705C7011AD22"
@@ -224,6 +242,7 @@
 		}
 		{
 			dependencies: ["4E1801454590B2B2"]
+			description: ["&6Gold tools&r  are completely changed compared to vanilla, they are still faster than diamond but they have lower mining lvl durability (but not as bad as vanilla) and most importantly they all have fortune 2 by default (looting 2 in case of sword)"]
 			icon: {
 				Count: 1
 				id: "minecraft:golden_pickaxe"
@@ -309,6 +328,11 @@
 		}
 		{
 			dependencies: ["4E1801454590B2B2"]
+			description: [
+				"&bDiamond tools&r are the most durable of the tools available in this tier with over 2k durability!"
+				""
+				"They also have the highest mining lvl"
+			]
 			hide_until_deps_visible: true
 			icon: {
 				Count: 1
@@ -430,7 +454,7 @@
 		{
 			dependencies: ["769C5B75D85F81FC"]
 			description: [
-				"To create natures essence you need to toss the ingredients in the water located in lush caves biomes."
+				"To create &l&aNature Essence&r&r you need to toss the ingredients in the water located in lush caves biomes."
 				""
 				"What? You don't know where the lush caves are? Buy a map to the biome from the quest in previous chapter"
 			]
@@ -711,6 +735,7 @@
 		}
 		{
 			dependencies: ["0F250E08450A1BEC"]
+			description: ["Upgrade your AoE tools to double their durability and increase their speed by over 60%"]
 			icon: {
 				Count: 1
 				id: "kubejs:basic_mining_hammer"
@@ -822,6 +847,11 @@
 		}
 		{
 			dependencies: ["0F250E08450A1BEC"]
+			description: [
+				"With the power of &2The Terraformer&r you can instantly turn basic stone like and  dirt like blocks into compost."
+				""
+				"Very nice for shaping terrain around your base"
+			]
 			id: "6FDF956447A362ED"
 			rewards: [{
 				id: "4743A218CA3C5CFD"
