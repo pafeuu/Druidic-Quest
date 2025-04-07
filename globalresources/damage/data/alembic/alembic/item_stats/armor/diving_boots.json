@@ -1,0 +1,13 @@
+{
+  "id": "thermal:diving_boots",
+  "modifiers": [
+    {
+      "type": "append",
+      "attribute": "alembic:ice_damage.resistance",
+      "value": 2,
+      "operation": "ADDITION",
+      "uuid": "e4dfa891-f3ff-4207-b273-f9860c8c82e5"
+    }
+  ],
+  "equipment_slot": "FEET"
+}

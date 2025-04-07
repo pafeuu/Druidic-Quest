@@ -240,13 +240,15 @@ StartupEvents.registry('item', item => {
   item.create("unstable_ivy_quartz").displayName("Unstable Ivy Quartz").tag("forge:gems")
 
   ///===================================================DUSTS============================================================
-
-  item.create("sulfur_quartz_blend").displayName("Sulfuric Quartz Blend").tag("forge:dusts").tag("dq:tier1/component")
-  item.create('alchemical_dust').displayName('Alchemical Dust').tag('forge:dusts')
-  item.create('improved_alchemical_dust').displayName('Improved Alchemical Dust').tag('forge:dusts')
-  item.create('zinc_dust').tag('forge:dusts').tag('forge:dusts/zinc')
   
-
+  item.create('zinc_dust').tag('forge:dusts').tag('forge:dusts/zinc')
+  item.create("sulfur_quartz_blend").displayName("Sulfuric Quartz Blend").tag("forge:dusts").tag("dq:tier1/component")
+  item.create("primitive_alchemical_dust").tag("forge:dusts").tag("dq:tier1/component").tag("dq:alchemical_dust").texture("thermal:item/emerald_dust").glow(true)
+  item.create('basic_alchemical_dust').tag('forge:dusts').tag('dq:alchemical_dust').tag("dq:tier2/component").texture("thermal:item/diamond_dust").glow(true)
+  item.create('improved_alchemical_dust').tag('forge:dusts').tag('dq:alchemical_dust').tag("dq:tier3/component").texture("thermal:item/sapphire_dust").glow(true)
+  item.create('advanced_alchemical_dust').tag('forge:dusts').tag('dq:alchemical_dust').tag("dq:tier4/component").texture("thermal:item/ruby_dust").glow(true)
+  item.create('ultimate_alchemical_dust').tag('forge:dusts').tag('dq:alchemical_dust').tag("dq:tier5/component").texture("thermal:item/ender_pearl_dust").glow(true)
+  
   ///===================================================ESSENCE==========================================================
 
   item.create('nature_essence').displayName('Nature essence').tag('forge:essences').tag("dq:tier2/component")

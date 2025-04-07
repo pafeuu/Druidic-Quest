@@ -4,9 +4,9 @@
     {
       "type": "append",
       "attribute": "alembic:alchemical_damage.resistance",
-      "value": 1,
+      "value": 2,
       "operation": "ADDITION",
-      "uuid": "e4dfa891-f3ff-4207-b273-f9860c8c82e5"
+      "uuid": "60fe5fb3-2094-4e47-8b79-509b7ebd76b9"
     }
   ],
   "equipment_slot": "FEET"

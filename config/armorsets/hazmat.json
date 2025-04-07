@@ -1,0 +1,65 @@
+{
+  "armorSetName": "hazmat",
+  "performanceMode": true,
+  "head": {
+    "itemKey": "thermal:hazmat_helmet",
+    "mustBeEmpty": false
+  },
+  "chest": {
+    "itemKey": "thermal:hazmat_chestplate",
+    "mustBeEmpty": false
+  },
+  "legs": {
+    "itemKey": "thermal:hazmat_leggings",
+    "mustBeEmpty": false
+  },
+  "boots": {
+    "itemKey": "thermal:hazmat_boots",
+    "mustBeEmpty": false
+  },
+  "fullSetBonuses": [
+    {
+      "type": "effect",
+      "name": "aether:inebriation",
+      "interactionType": "immunity",
+      "description": "Inebriation immunity"
+    },
+    {
+      "type": "effect",
+      "name": "minecraft:blindness",
+      "interactionType": "immunity",
+      "description": "Blindness immunity"
+    },
+    {
+      "type": "effect",
+      "name": "minecraft:darkness",
+      "interactionType": "immunity",
+      "description": "Darkness immunity"
+    },
+    {
+      "type": "effect",
+      "name": "minecraft:mining_fatigue",
+      "interactionType": "immunity",
+      "description": "Mining Fatigue immunity"
+    },
+    {
+      "type": "effect",
+      "name": "minecraft:slowness",
+      "interactionType": "immunity",
+      "description": "Slowness immunity"
+    },
+    {
+      "type": "effect",
+      "name": "minecraft:weakness",
+      "interactionType": "immunity",
+      "description": "Weakness immunity"
+    },
+    {
+      "type": "effect",
+      "name": "naturesaura:breathless",
+      "interactionType": "immunity",
+      "description": "Breathless immunity"
+    }
+  ],
+  "hideGeneratedTooltip": false
+}

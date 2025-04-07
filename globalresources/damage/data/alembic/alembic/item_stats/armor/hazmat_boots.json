@@ -1,0 +1,27 @@
+{
+  "id": "thermal:hazmat_boots",
+  "modifiers": [
+    {
+      "type": "append",
+      "attribute": "alembic:ice_damage.resistance",
+      "value": 2,
+      "operation": "ADDITION",
+      "uuid": "7be006c7-9b7a-4fe0-a769-f0e1e790aa90"
+    },
+    {
+      "type": "append",
+      "attribute": "alembic:fire_damage.resistance",
+      "value": 2,
+      "operation": "ADDITION",
+      "uuid": "a3e0c7e9-beb4-4be4-aea1-b7649d19668a"
+    },
+    {
+      "type": "append",
+      "attribute": "alembic:arcane_damage.resistance",
+      "value": 2,
+      "operation": "ADDITION",
+      "uuid": "8fa767d6-28eb-4cd9-a1de-b8b67a78603e"
+    }
+  ],
+  "equipment_slot": "FEET"
+}

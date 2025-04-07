@@ -1,0 +1,27 @@
+{
+  "id": "thermal:hazmat_leggings",
+  "modifiers": [
+    {
+      "type": "append",
+      "attribute": "alembic:ice_damage.resistance",
+      "value": 6,
+      "operation": "ADDITION",
+      "uuid": "3389f4e9-cc37-479b-ad9b-8b17d694056b"
+    },
+    {
+      "type": "append",
+      "attribute": "alembic:fire_damage.resistance",
+      "value": 6,
+      "operation": "ADDITION",
+      "uuid": "b989e93f-b596-4b11-91b6-063a2795f012"
+    },
+    {
+      "type": "append",
+      "attribute": "alembic:arcane_damage.resistance",
+      "value": 6,
+      "operation": "ADDITION",
+      "uuid": "8ac7ba31-d402-4122-90b3-addf2a7959ca"
+    }
+  ],
+  "equipment_slot": "LEGS"
+}

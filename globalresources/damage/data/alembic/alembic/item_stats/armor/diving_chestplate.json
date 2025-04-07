@@ -1,0 +1,13 @@
+{
+  "id": "thermal:diving_chestplate",
+  "modifiers": [
+    {
+      "type": "append",
+      "attribute": "alembic:ice_damage.resistance",
+      "value": 6,
+      "operation": "ADDITION",
+      "uuid": "9fb52de2-22e3-4a5e-9b31-8fb7d1d144ba"
+    }
+  ],
+  "equipment_slot": "CHEST"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "thermal:hazmat_chestplate",
+  "modifiers": [
+    {
+      "type": "append",
+      "attribute": "alembic:ice_damage.resistance",
+      "value": 8,
+      "operation": "ADDITION",
+      "uuid": "22c249d8-05bb-4f2f-9b8c-64050dfa1132"
+    },
+    {
+      "type": "append",
+      "attribute": "alembic:fire_damage.resistance",
+      "value": 8,
+      "operation": "ADDITION",
+      "uuid": "91684095-34a3-4adb-ba7c-f98d41c2bb72"
+    },
+    {
+      "type": "append",
+      "attribute": "alembic:arcane_damage.resistance",
+      "value": 8,
+      "operation": "ADDITION",
+      "uuid": "f5fc5e6f-4595-4e85-857f-e3ad51cc2c01"
+    }
+  ],
+  "equipment_slot": "CHEST"
+}

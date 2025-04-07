@@ -1,0 +1,27 @@
+{
+  "id": "thermal:hazmat_helmet",
+  "modifiers": [
+    {
+      "type": "append",
+      "attribute": "alembic:ice_damage.resistance",
+      "value": 4,
+      "operation": "ADDITION",
+      "uuid": "4896244c-816a-4c75-b396-6ae543d871f7"
+    },
+    {
+      "type": "append",
+      "attribute": "alembic:fire_damage.resistance",
+      "value": 4,
+      "operation": "ADDITION",
+      "uuid": "7bf5dc6d-ce52-49c6-a640-30ce3993fffc"
+    },
+    {
+      "type": "append",
+      "attribute": "alembic:arcane_damage.resistance",
+      "value": 4,
+      "operation": "ADDITION",
+      "uuid": "cdb41cb9-8105-426d-a0b1-4a1ea87f479d"
+    }
+  ],
+  "equipment_slot": "HEAD"
+}
