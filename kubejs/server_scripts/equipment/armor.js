@@ -1,0 +1,236 @@
+ServerEvents.recipes(event => {
+
+    const armorslot = ["helmet","chestplate","leggings","boots"]
+
+    function naturearmorup(input,output,smith,material)
+	{
+		// Upgrades the armor
+		event.smithing("naturesaura:"+output+"_helmet","kubejs:"+smith+"_upgrade_smithing_template",Item.of(input+"_helmet").ignoreNBT()    ,"naturesaura:"+material)
+		event.smithing("naturesaura:"+output+"_chest" ,"kubejs:"+smith+"_upgrade_smithing_template",Item.of(input+"_chestplate").ignoreNBT(),"naturesaura:"+material)
+		event.smithing("naturesaura:"+output+"_pants" ,"kubejs:"+smith+"_upgrade_smithing_template",Item.of(input+"_leggings").ignoreNBT()  ,"naturesaura:"+material)
+		event.smithing("naturesaura:"+output+"_shoes" ,"kubejs:"+smith+"_upgrade_smithing_template",Item.of(input+"_boots").ignoreNBT()     ,"naturesaura:"+material)
+		
+		// Removes the old recipes
+		event.remove([{output:"naturesaura"+output+"_helmet", output:"naturesaura:"+output+"_chest", output:"naturesaura:"+output+"_pants",output:"naturesaura:"+output+"_shoes"}])
+		event.remove({output:"naturesaura:"+output+"_shoes"})
+	}
+
+    naturearmorup("diamond","sky","skyseeker","sky_ingot")
+	naturearmorup("iron","infused_iron","botanist","infused_iron")
+
+	event.remove({output:[
+        "naturesaura:sky_helmet",
+        "naturesaura:sky_chest",
+        "naturesaura:sky_pants",
+        "naturesaura:sky_shoes"]})
+
+	event.remove({output:[
+        "naturesaura:infused_iron_helmet",
+        "naturesaura:infused_iron_chest",
+        "naturesaura:infused_iron_pants",
+        "naturesaura:infused_iron_shoes"]})
+
+
+    function simplearmor(material,helmet,chest,leg,boots)
+	{
+		event.shaped(
+			Item.of(helmet), 
+			[
+			  'FFF',
+			  'F F'
+			],
+			{
+			  F: material
+			}
+		)
+		event.shaped(
+			Item.of(chest), 
+			[
+			  'F F',
+			  'FFF', 
+			  'FFF'
+			],
+			{
+			  F: material
+			}
+		)
+		event.shaped(
+			Item.of(leg), 
+			[
+			  'FFF',
+			  'F F', 
+			  'F F'
+			],
+			{
+			  F: material
+			}
+		)
+
+		event.shaped(
+			Item.of(boots), 
+			[
+			  'F F', 
+			  'F F'
+			],
+			{
+			  F: material
+			}
+		  )
+	}
+
+    simplearmor("thermal:beekeeper_fabric","thermal:beekeeper_helmet","thermal:beekeeper_chestplate","thermal:beekeeper_leggings","thermal:beekeeper_boots")
+
+    simplearmor("#forge:plates/copper","kubejs:copper_helmet","kubejs:copper_chestplate","kubejs:copper_leggings","kubejs:copper_boots")
+	
+    simplearmor("#forge:plates/lead","kubejs:lead_helmet","kubejs:lead_chestplate","kubejs:lead_leggings","kubejs:lead_boots")
+	
+    simplearmor("#forge:plates/silver","kubejs:silver_helmet","kubejs:silver_chestplate","kubejs:silver_leggings","kubejs:silver_boots")
+
+    simplearmor("#forge:plates/iron","iron_helmet","iron_chestplate","iron_leggings","iron_boots")
+	simplearmor("#forge:plates/diamond","diamond_helmet","diamond_chestplate","diamond_leggings","diamond_boots")
+	simplearmor("minecraft:chain","chainmail_helmet","chainmail_chestplate","chainmail_leggings","chainmail_boots")
+
+    simplearmor('immersiveengineering:hemp_fabric',"immersiveengineering:armor_faraday_helmet","immersiveengineering:armor_faraday_chestplate","immersiveengineering:armor_faraday_leggings","immersiveengineering:armor_faraday_boots")
+
+    event.remove([
+        {output:"iron_helmet"},
+        {output:"iron_chestplate"},
+        {output:"iron_leggings"},
+        {output:"iron_boots"},
+        {output:"diamond_helmet"},
+        {output:"diamond_chestplate"},
+        {output:"diamond_leggings"},
+        {output:"diamond_boots"},
+		{output:"chainmail_helmet"},
+        {output:"chainmail_chestplate"},
+        {output:"chainmail_leggings"},
+        {output:"chainmail_boots"},
+        {output:"immersiveengineering:armor_faraday_helmet"},
+        {output:"immersiveengineering:armor_faraday_chestplate"},
+        {output:"immersiveengineering:armor_faraday_leggings"},
+        {output:"immersiveengineering:armor_faraday_boots"}])
+
+
+	function SimpleArmorUpgrade(material,helmet,chest,leg,boots,helmet2,chest2,leg2,boots2)
+	{
+		event.shaped(
+			Item.of(helmet2), 
+			[
+			  'FFF',
+			  'FXF'
+			],
+			{
+			  F: material,
+			  X: helmet
+			}
+		)
+		event.shaped(
+			Item.of(chest2), 
+			[
+			  'FXF',
+			  'FFF', 
+			  'FFF'
+			],
+			{
+			  F: material,
+			  X: chest
+			}
+		)
+		event.shaped(
+			Item.of(leg2), 
+			[
+			  'FFF',
+			  'FXF', 
+			  'F F'
+			],
+			{
+			  F: material,
+			  X: leg
+			}
+		)
+
+		event.shaped(
+			Item.of(boots2), 
+			[
+			  'F F', 
+			  'FXF'
+			],
+			{
+			  F: material,
+			  X: boots
+			}
+		  )
+		
+	}
+
+    SimpleArmorUpgrade("#forge:gems/zanite","iron_helmet","iron_chestplate","iron_leggings","iron_boots","aether:zanite_helmet","aether:zanite_chestplate","aether:zanite_leggings","aether:zanite_boots")
+	
+    SimpleArmorUpgrade("#forge:gems/skyjade","iron_helmet","iron_chestplate","iron_leggings","iron_boots","deep_aether:skyjade_helmet","deep_aether:skyjade_chestplate","deep_aether:skyjade_leggings","deep_aether:skyjade_boots")
+
+    event.remove([
+        {output:"aether:zanite_helmet"},
+        {output:"aether:zanite_chestplate"},
+        {output:"aether:zanite_leggings"},
+        {output:"aether:zanite_boots"}])
+
+	event.remove([
+        {output:"deep_aether:skyjade_helmet"},
+        {output:"deep_aether:skyjade_chestplate"},
+        {output:"deep_aether:skyjade_leggings"},
+        {output:"deep_aether:skyjade_boots"}])
+
+    armorslot.forEach(id=>{
+        
+        event.smithing("immersiveengineering:armor_steel_"+id,"kubejs:steel_upgrade_smithing_template",Item.of("netherite_"+id).ignoreNBT(),"#forge:plates/steel").id("immersiveengineering:crafting/armor_steel_"+id)
+    
+        event.smithing("golden_"+id,"kubejs:gold_upgrade_smithing_template",Item.of("kubejs:silver_"+id).ignoreNBT(),"kubejs:gold_upgrade_parts").id("minecraft:golden_"+id)
+    })
+
+    /// Thermal Diving Suit
+
+    event.shaped("thermal:diving_helmet", 
+    [
+        " G ",
+        "GBG",
+        "FBF"
+    ],
+    {
+        G: "#forge:plates/gold",
+        B: "quark:gold_bars",
+        F: "thermal:diving_fabric"
+    }).id("thermal:armor/diving_helmet")
+
+    event.shaped("thermal:diving_chestplate",
+    [
+        "G G",
+        "FGF",
+        "FFF"
+    ],
+    {
+        G: "#forge:plates/gold",
+        F: "thermal:diving_fabric"
+    }).id("thermal:armor/diving_chestplate")
+
+    event.shaped("thermal:diving_leggings",
+    [
+        "FFF",
+        "G G",
+        "F F"
+    ],
+    {
+        G: "#forge:plates/gold",
+        F: "thermal:diving_fabric"
+    }).id("thermal:armor/diving_leggings")
+
+    event.shaped("thermal:diving_boots",
+    [
+        "G G",
+        "F F",
+        "G G"
+    ],
+    {
+        G: "#forge:plates/gold",
+        F: "thermal:diving_fabric"
+    }).id("thermal:armor/diving_boots")
+
+})

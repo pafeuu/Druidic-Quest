@@ -3,8 +3,6 @@ ServerEvents.recipes(event => {
   
 	const tooltype = ['hoe','sword','pickaxe','axe','shovel'];
 
-	const armorslot = ["helmet","chestplate","leggings","boots"]
-
 	let DimenstionalTools = ['twilightforest:ironwood_hoe','twilightforest:ironwood_sword','twilightforest:ironwood_pickaxe','twilightforest:ironwood_axe','twilightforest:ironwood_shovel',
 	'twilightforest:steeleaf_hoe','twilightforest:steeleaf_sword','twilightforest:steeleaf_pickaxe','twilightforest:steeleaf_axe','twilightforest:steeleaf_shovel','aether:zanite_hoe',
 	'aether:zanite_sword','aether:zanite_pickaxe','aether:zanite_axe','aether:zanite_shovel','aether:gravitite_hoe','aether:gravitite_sword','aether:gravitite_pickaxe','aether:gravitite_axe',
@@ -28,21 +26,7 @@ ServerEvents.recipes(event => {
 	event.remove({output:'#minecraft:hoes'})
 	event.remove({output:'#minecraft:swords'})
 
-	event.remove({output:/simple_weapons:corinthium*/})
 	//==================================================Functions==================================================
-
-	function naturearmorup(input,output,smith,material)
-	{
-		// Upgrades the armor
-		event.smithing("naturesaura:"+output+"_helmet","kubejs:"+smith+"_upgrade_smithing_template",Item.of(input+"_helmet").ignoreNBT()    ,"naturesaura:"+material)
-		event.smithing("naturesaura:"+output+"_chest" ,"kubejs:"+smith+"_upgrade_smithing_template",Item.of(input+"_chestplate").ignoreNBT(),"naturesaura:"+material)
-		event.smithing("naturesaura:"+output+"_pants" ,"kubejs:"+smith+"_upgrade_smithing_template",Item.of(input+"_leggings").ignoreNBT()  ,"naturesaura:"+material)
-		event.smithing("naturesaura:"+output+"_shoes" ,"kubejs:"+smith+"_upgrade_smithing_template",Item.of(input+"_boots").ignoreNBT()     ,"naturesaura:"+material)
-		
-		// Removes the old recipes
-		event.remove([{output:"naturesaura"+output+"_helmet", output:"naturesaura:"+output+"_chest", output:"naturesaura:"+output+"_pants",output:"naturesaura:"+output+"_shoes"}])
-		event.remove({output:"naturesaura:"+output+"_shoes"})
-	}   
 
 	function tool(output,material,rod,binding){// Creates simple workbench recipes with bindings and tool rods
 
@@ -120,108 +104,11 @@ ServerEvents.recipes(event => {
 		  )
 	}
 
-	function simplearmor(material,helmet,chest,leg,boots)
-	{
-		event.shaped(
-			Item.of(helmet), 
-			[
-			  'FFF',
-			  'F F'
-			],
-			{
-			  F: material
-			}
-		)
-		event.shaped(
-			Item.of(chest), 
-			[
-			  'F F',
-			  'FFF', 
-			  'FFF'
-			],
-			{
-			  F: material
-			}
-		)
-		event.shaped(
-			Item.of(leg), 
-			[
-			  'FFF',
-			  'F F', 
-			  'F F'
-			],
-			{
-			  F: material
-			}
-		)
-
-		event.shaped(
-			Item.of(boots), 
-			[
-			  'F F', 
-			  'F F'
-			],
-			{
-			  F: material
-			}
-		  )
-	}
-
-	function SimpleArmorUpgrade(material,helmet,chest,leg,boots,helmet2,chest2,leg2,boots2)
-	{
-		event.shaped(
-			Item.of(helmet2), 
-			[
-			  'FFF',
-			  'FXF'
-			],
-			{
-			  F: material,
-			  X: helmet
-			}
-		)
-		event.shaped(
-			Item.of(chest2), 
-			[
-			  'FXF',
-			  'FFF', 
-			  'FFF'
-			],
-			{
-			  F: material,
-			  X: chest
-			}
-		)
-		event.shaped(
-			Item.of(leg2), 
-			[
-			  'FFF',
-			  'FXF', 
-			  'F F'
-			],
-			{
-			  F: material,
-			  X: leg
-			}
-		)
-
-		event.shaped(
-			Item.of(boots2), 
-			[
-			  'F F', 
-			  'FXF'
-			],
-			{
-			  F: material,
-			  X: boots
-			}
-		  )
-		
-	}
+	
 
 	//===============================================Tool Functionality=============================================
 
-	//Saw
+	//Chisel
 	event.custom({
 		"type": "lychee:block_interacting",
 		"post": [
@@ -252,7 +139,7 @@ ServerEvents.recipes(event => {
 	  })
 
 
-	//Chisel
+	//Saw
 	function CuttingLogs(planks,log)
 	{
 		event.custom({
@@ -714,8 +601,6 @@ ServerEvents.recipes(event => {
 
 	///=============================================================== Tier 0 Tools ==========================================================
 
-	simplearmor("thermal:beekeeper_fabric","thermal:beekeeper_helmet","thermal:beekeeper_chestplate","thermal:beekeeper_leggings","thermal:beekeeper_boots")
-
 	event.shaped("kubejs:primitive_saw",
 		[
 			"F  ",
@@ -883,18 +768,8 @@ ServerEvents.recipes(event => {
 	  )
 
 	
-	event.remove({output:"immersiveengineering:armor_faraday_helmet"})
-	event.remove({output:"immersiveengineering:armor_faraday_chestplate"})
-	event.remove({output:"immersiveengineering:armor_faraday_leggings"})
-	event.remove({output:"immersiveengineering:armor_faraday_boots"})
 
-	
-	
-	simplearmor('immersiveengineering:hemp_fabric',"immersiveengineering:armor_faraday_helmet","immersiveengineering:armor_faraday_chestplate","immersiveengineering:armor_faraday_leggings","immersiveengineering:armor_faraday_boots")
-	
-
-	  
-	
+		  	
 	  event.remove({output:"archers_paradox:lightning_arrow"})
 	  event.shaped(
 		Item.of('2x archers_paradox:lightning_arrow'), 
@@ -1550,10 +1425,6 @@ ServerEvents.recipes(event => {
 		  X: "effortlessbuilding:golden_randomizer_bag"
 		}
 	  )
-
-	simplearmor("#forge:plates/copper","kubejs:copper_helmet","kubejs:copper_chestplate","kubejs:copper_leggings","kubejs:copper_boots")
-	simplearmor("#forge:plates/lead","kubejs:lead_helmet","kubejs:lead_chestplate","kubejs:lead_leggings","kubejs:lead_boots")
-	simplearmor("#forge:plates/silver","kubejs:silver_helmet","kubejs:silver_chestplate","kubejs:silver_leggings","kubejs:silver_boots")
 	
 	event.custom({
 		"type": "rubinated_nether:freezing",
@@ -2258,13 +2129,6 @@ ServerEvents.recipes(event => {
 		  "pedestalItems": [],
 		  "source": 5000
 	})
-
-	event.remove([{output:"iron_helmet"},{output:"iron_chestplate"},{output:"iron_leggings"},{output:"iron_boots"},{output:"diamond_helmet"},{output:"diamond_chestplate"},{output:"diamond_leggings"},{output:"diamond_boots"},
-		{output:"chainmail_helmet"},{output:"chainmail_chestplate"},{output:"chainmail_leggings"},{output:"chainmail_boots"}])
-	
-	simplearmor("#forge:plates/iron","iron_helmet","iron_chestplate","iron_leggings","iron_boots")
-	simplearmor("#forge:plates/diamond","diamond_helmet","diamond_chestplate","diamond_leggings","diamond_boots")
-	simplearmor("minecraft:chain","chainmail_helmet","chainmail_chestplate","chainmail_leggings","chainmail_boots")
 	
 	tool('minecraft:diamond','#forge:gems/diamond','kubejs:zinc_tool_handle','alexsmobs:shed_snake_skin')
 
@@ -2456,13 +2320,6 @@ ServerEvents.recipes(event => {
 		)	
 	});
 	
-	SimpleArmorUpgrade("#forge:gems/zanite","iron_helmet","iron_chestplate","iron_leggings","iron_boots","aether:zanite_helmet","aether:zanite_chestplate","aether:zanite_leggings","aether:zanite_boots")
-	SimpleArmorUpgrade("#forge:gems/skyjade","iron_helmet","iron_chestplate","iron_leggings","iron_boots","deep_aether:skyjade_helmet","deep_aether:skyjade_chestplate","deep_aether:skyjade_leggings","deep_aether:skyjade_boots")
-	
-	event.remove([{output:"aether:zanite_helmet"},{output:"aether:zanite_chestplate"},{output:"aether:zanite_leggings"},{output:"aether:zanite_boots"}])
-	event.remove([{output:"deep_aether:skyjade_helmet"},{output:"deep_aether:skyjade_chestplate"},{output:"deep_aether:skyjade_leggings"},{output:"deep_aether:skyjade_boots"}])
-
-
 	event.shaped("aether:zanite_ring",
 		[
 		  ' I ',
@@ -2534,21 +2391,6 @@ ServerEvents.recipes(event => {
 	event.remove({output:"irons_spellbooks:diamond_spell_book"})
 	event.smithing("irons_spellbooks:diamond_spell_book","irons_spellbooks:energized_core","irons_spellbooks:gold_spell_book","irons_spellbooks:mana_ring")
                     	   
-    naturearmorup("diamond","sky","skyseeker","sky_ingot")
-	naturearmorup("iron","infused_iron","botanist","infused_iron")
-	event.remove({output:["naturesaura:sky_helmet","naturesaura:sky_chest","naturesaura:sky_pants","naturesaura:sky_shoes"]})
-	event.remove({output:["naturesaura:infused_iron_helmet","naturesaura:infused_iron_chest","naturesaura:infused_iron_pants","naturesaura:infused_iron_shoes"]})
-
-
-	armorslot.forEach(id=>{
-		event.smithing("immersiveengineering:armor_steel_"+id,"kubejs:steel_upgrade_smithing_template",Item.of("netherite_"+id).ignoreNBT(),"#forge:plates/steel").id("immersiveengineering:crafting/armor_steel_"+id)
-
-		event.smithing("golden_"+id,"kubejs:gold_upgrade_smithing_template",Item.of("kubejs:silver_"+id).ignoreNBT(),"kubejs:gold_upgrade_parts").id("minecraft:golden_"+id)
-
-	})
-	
-	
-	
     tooltype.forEach(id => {
         event.smithing(
             'naturesaura:infused_iron_'+id,
