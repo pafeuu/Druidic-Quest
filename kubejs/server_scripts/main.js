@@ -508,6 +508,32 @@ ServerEvents.recipes(event => {
 	
 	
 	/// ======================================================================= Tier 1 components =======================================================================
+	event.shaped('3x kubejs:pipe_sealant',
+		[
+			"XYX",
+			"YZY",
+			"XYX"
+		],
+		{
+			X: "quark:moss_paste",
+			Y: "thermal:rubber",
+			Z: "string"
+		}
+	)
+
+	event.shaped('kubejs:pipe_sealant',
+		[
+			"XYX",
+			"YZY",
+			"XYX"
+		],
+		{
+			X: "quark:moss_paste",
+			Y: "slime_ball",
+			Z: "string"
+		}
+	)
+
 	event.shaped('thermal:beekeeper_fabric',
 		[
 			"XSX",
@@ -518,6 +544,17 @@ ServerEvents.recipes(event => {
 			S:"string",
 			X:"honeycomb"
 	})
+
+	event.shaped('thermal:diving_fabric',
+		[
+			"XSX",
+			"SXS",
+			"XSX"
+		],
+		{
+			S:"immersiveengineering:hemp_fabric",
+			X:"kubejs:pipe_sealant"
+	}).id("thermal:diving_fabric")
 
 	clickb("glass","thermal:slag","immersiveengineering:slag_glass")
 
@@ -1866,6 +1903,17 @@ ServerEvents.recipes(event => {
 	  }
 	)
 
+	event.shaped(
+	  Item.of('6x quark:gold_bars'), 
+	  [
+		'CCC',
+		'CCC'
+	  ],
+	  {
+		C: '#forge:rods/gold',
+	  }
+	).id("quark:building/crafting/gold_bars")
+
 	function smithingtemplate(block,material,name)
 	{
 		event.shaped(
@@ -2236,6 +2284,19 @@ ServerEvents.recipes(event => {
 	)
 	
 	clickb("vintagedelight:fermenting_jar","kubejs:arcane_alloy_ingot","ars_nouveau:source_jar")
+
+	event.shaped('elementalcraft:small_container',
+		[
+			' P ',
+			'PXP',
+			' P '
+		],
+		{
+			P: 'elementalcraft:elementpipe_impaired',
+			X: 'ars_nouveau:source_jar'
+		}
+	).id('elementalcraft:small_container')
+	
 	event.remove({output:"ars_nouveau:mob_jar"})
 	event.shapeless("ars_nouveau:mob_jar",["ars_nouveau:source_jar","supplementaries:cage"])
 	event.shaped(
