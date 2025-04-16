@@ -132,7 +132,7 @@
 		{
 			dependencies: ["23878BB2C97470D0"]
 			description: [
-				"If this is somehow your first modpack you are really gonna need to read that."
+				"If this is somehow your first modpack you are really gonna need to read the &lTips&r chapter that."
 				""
 				"But even if you are a veteran you might not know everything there so make sure to check it out!"
 			]
@@ -149,7 +149,7 @@
 				id: "76585DF65787623E"
 				type: "checkmark"
 			}]
-			title: "Random tips chapter"
+			title: "Tips chapter"
 			x: 2.0d
 			y: -2.0d
 		}

@@ -7,7 +7,7 @@
     "ttsMode": "PRESS",
     "fluidMode": "NONE",
     "reachDistance": 0.0,
-    "displayEntities": false,
+    "displayEntities": true,
     "displayBosses": true,
     "displayMode": "TOGGLE",
     "displayTooltip": true,
@@ -20,20 +20,20 @@
     "previewOverlay": true
   },
   "overlay": {
-    "alpha": 0.7,
-    "iconMode": "TOP",
+    "alpha": 0.5,
+    "iconMode": "CENTERED",
     "animation": true,
     "disappearingDelay": 0.0,
     "overlaySquare": false,
     "flipMainHand": false,
     "autoScaleThreshold": 0.4,
-    "overlayPosY": 1.0,
-    "overlayScale": 1.0,
-    "overlayAnchorX": 0.5,
-    "overlayAnchorY": 0.0,
+    "overlayPosY": 0.65,
+    "overlayScale": 0.9,
+    "overlayAnchorX": 0.3,
+    "overlayAnchorY": 0.1,
     "activeTheme": "jade:dark",
     "themesHash": -328442023,
-    "overlayPosX": 0.5
+    "overlayPosX": 0.9
   },
   "formatting": {
     "modName": "§9§o%s"

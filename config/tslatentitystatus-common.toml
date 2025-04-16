@@ -9,7 +9,7 @@
 
 ["HUD Settings"]
 	#Whether the TES HUD should be enabled or not
-	hudEnabled = true
+	hudEnabled = false
 	#What position the TES HUD should render in
 	#Allowed Values: TOP_LEFT, CENTER_TOP, TOP_RIGHT, CENTER_RIGHT, BOTTOM_RIGHT, BOTTOM_LEFT, CENTER_LEFT
 	hudRenderPosition = "TOP_LEFT"

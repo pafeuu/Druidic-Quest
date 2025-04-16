@@ -5,6 +5,8 @@
 	default_repeatable_quest: true
 	filename: "market"
 	group: ""
+	hide_quest_until_deps_complete: true
+	hide_quest_until_deps_visible: true
 	icon: { Count: 64, id: "thermal:gold_coin" }
 	id: "37D0225A9D849EF0"
 	images: [
@@ -459,7 +461,10 @@
 			y: -2.0d
 		}
 		{
-			dependencies: ["682CA83814F08244"]
+			dependencies: [
+				"682CA83814F08244"
+				"682CA83814F08244"
+			]
 			icon: "minecraft:oak_sapling"
 			id: "5392C3F6E6B30DA1"
 			rewards: [{
@@ -898,6 +903,7 @@
 		}
 		{
 			dependencies: ["682CA83814F08244"]
+			hide_until_deps_complete: true
 			icon: "minecraft:acacia_sapling"
 			id: "240336F6F8B65AA8"
 			rewards: [{
@@ -915,7 +921,10 @@
 			y: -4.5d
 		}
 		{
-			dependencies: ["682CA83814F08244"]
+			dependencies: [
+				"682CA83814F08244"
+				"4676E5CD619B4194"
+			]
 			icon: "quark:ancient_sapling"
 			id: "0F7A580BCFDD74BD"
 			rewards: [{

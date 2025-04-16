@@ -241,6 +241,11 @@
 					item: "minecraft:dropper"
 					type: "item"
 				}
+				{
+					id: "7E41B878CD727327"
+					item: "minecraft:furnace"
+					type: "item"
+				}
 			]
 			title: "Exploration "
 			x: -3.0d

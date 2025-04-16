@@ -290,9 +290,6 @@
 			blighted_skyroot = true
 			fieldsproot = true
 
-		[types.leaves_type.twilightdelight]
-			ironwood = true
-
 #Disables specific entries
 [entries]
 

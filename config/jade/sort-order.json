@@ -1,4 +1,6 @@
 {
+  "alembic:damage_types": null,
+  "alembic:resistances": null,
   "ars_nouveau:mob_jar": null,
   "astages:block_component_provider": null,
   "balm:jade": null,
