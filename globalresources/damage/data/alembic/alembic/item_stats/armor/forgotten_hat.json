@@ -1,0 +1,28 @@
+{
+  "id": "quark:forgotten_hat",
+  "modifiers": [
+    {
+      "type": "append",
+      "attribute": "alembic:true_damage.resistance",
+      "value": 2,
+      "operation": "ADDITION",
+      "uuid": "6dd0fb52-1a49-1111-97ce-16de55ff1a2e"
+    },
+    {
+      "type": "remove",
+      "target": "forge:entity_reach"
+    },
+    {
+      "type": "remove",
+      "target": "forge:block_reach"
+    },
+    {
+      "type": "append",
+      "attribute": "puffish_attributes:fortune",
+      "value": 1,
+      "operation": "ADDITION",
+      "uuid": "6333fb52-1a49-4433-97ce-16d225ff1a2e"
+    }
+  ],
+  "equipment_slot": "HEAD"
+}

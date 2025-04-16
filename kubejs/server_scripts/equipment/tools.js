@@ -601,6 +601,34 @@ ServerEvents.recipes(event => {
 
 	///=============================================================== Tier 0 Tools ==========================================================
 
+	event.shaped("create:sand_paper",
+		[
+			"SFS",
+			"SPS",
+			"SFS"
+		],
+		{
+			S: "sand",
+			P: "paper",
+			F: "flint"
+		}
+	).id("create:crafting/materials/sand_paper")
+
+	event.shaped("create:red_sand_paper",
+		[
+			"SFS",
+			"SPS",
+			"SFS"
+		],
+		{
+			S: "red_sand",
+			P: "paper",
+			F: "flint"
+		}
+	).id("create:crafting/materials/red_sand_paper")
+
+	event.remove({id:"create:sandpaper_polishing/rose_quartz"})
+	
 	event.shaped("kubejs:primitive_saw",
 		[
 			"F  ",

@@ -165,6 +165,10 @@ ItemEvents.modification(event => {
   
   //========================================Armor
 
+  event.modify("quark:forgotten_hat", item=>{
+    item.maxDamage = 110
+  })
+
   event.modify("deep_aether:skyjade_helmet", item=>{
     item.maxDamage = 165
   })
@@ -217,5 +221,13 @@ ItemEvents.modification(event => {
     item.armorProtection = 4,
     item.armorToughness = 3
   })
-   
+  ///======================================== Other
+
+  event.modify("create:sand_paper", item=>{
+    item.maxDamage = 128
+  })
+
+  event.modify("create:red_sand_paper", item=>{
+    item.maxDamage = 128
+  })
 })

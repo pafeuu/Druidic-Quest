@@ -270,6 +270,20 @@ StartupEvents.registry("block", (event) => {
     .box(14,3,0,16,6,16)
     .box(0,3,14,16,6,16)
 
+    event.create("sacrificial_altar")
+    .soundType("basalt")
+    .hardness("3")
+    .resistance("6")
+    .tagBlock("mineable/pickaxe")
+    .tagBlock('minecraft:needs_iron_tool')
+    .textureAll("minecraft:block/polished_blackstone")
+    .renderType('cutout')
+    .box(0,0,0,16,3,16)
+    .box(0,3,0,2,6,16)
+    .box(0,3,0,16,6,2)
+    .box(14,3,0,16,6,16)
+    .box(0,3,14,16,6,16)
+
     
 
 	

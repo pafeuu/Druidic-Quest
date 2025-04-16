@@ -1312,7 +1312,7 @@ Patch 0.3.2.1
     -Deep Aether
 
  ### Added Mods:
-    -
+    -Alembic Jade Addon
 
  ### Removed Mods:
     -Cogs of Carminite
@@ -1380,6 +1380,10 @@ Patch 0.3.2.1
     -Changed for steam engine
     -Added for Scoria
     -Added for Limestone
+    -Changed for small elemental container
+    -Changed for sand paper
+    -Changed for red sand paper
+    -Removed on of the recipes for polished rose quartz
 
 
  ### New Items:
@@ -1507,6 +1511,8 @@ Patch 0.3.2.1
     -Balanced effortless building upgrades
     -Buffed each part of Beekeeper Set and added Beekeeper Set bonus
     -Buffed Copper diving armor parts
+    -Doubled durability of forgotten hat and added fortune attribute while removing block and entity reach
+    -Massively increased the durability of create's sandpapers
 
  ### Changed Textures:
     -Infused Sapphire
