@@ -1487,6 +1487,8 @@ Patch 0.3.2.1
     -Basic Excavator
     -Sturdy Excavator
     -Reinforced tool handle
+    -Lead Waraxe
+    -Silver Katana
 
  ### Removed Items:
     -Obsidian Ingot

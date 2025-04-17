@@ -1,0 +1,24 @@
+{
+  "armorSetName": "lead_waraxe",
+  "performanceMode": false,
+  "mainHand": {
+    "itemKey": "kubejs:lead_waraxe"
+  },
+  "fullSetBonuses": [
+    {
+      "type": "effect",
+      "name": "minecraft:slowness",
+      "value": 0.0,
+      "interactionType": "attack",
+      "interactionDuration": 120
+    },
+    {
+      "type": "effect",
+      "name": "minecraft:weakness",
+      "value": 1.0,
+      "interactionType": "attack",
+      "interactionDuration": 120
+    }
+  ],
+  "hideGeneratedTooltip": true
+}
