@@ -29,4 +29,11 @@ Kriz,
 CzarnaLili,
 Chunkyz,
 Teksturopako,
-Tilles
+Tilles,
+Bali,
+Zonko,
+MilshSchnitte,
+Jikushirin,
+Deepa,
+Uni,
+LaloSalamanca
