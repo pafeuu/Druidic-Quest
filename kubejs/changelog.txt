@@ -1513,6 +1513,7 @@ Patch 0.3.2.1
     -Buffed Copper diving armor parts
     -Doubled durability of forgotten hat and added fortune attribute while removing block and entity reach
     -Massively increased the durability of create's sandpapers
+    -Massively Buffed The Sombrero
 
  ### Changed Textures:
     -Infused Sapphire

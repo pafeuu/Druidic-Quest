@@ -334,7 +334,6 @@ StartupEvents.registry('item', item => {
   item.create('chill_blade','sword').displayName("Chilled Blade").tier('ice').tag('minecraft:sword').tag("forge:tools/iron").tag('minecraft:tools').tag("dq:tier1/weapon")
   item.create('blade_of_grass','irons_spells_js:magic_sword').tier('grass').tag('minecraft:sword').tag("forge:tools/iron").tag('minecraft:tools').glow(true).addDefaultSpell("irons_spellbooks:poison_splash",3).tag("dq:tier2/weapon")
   item.create('ice_blade','irons_spells_js:magic_sword').tier('ice').tag('minecraft:sword').tag("forge:tools/iron").tag('minecraft:tools').glow(true).addDefaultSpell("irons_spellbooks:icicle",3).tag("dq:tier1/weapon")
-  item.create('rusty_trident','sword').tier('fire').tag('minecraft:sword').tag("forge:tools/copper").tag('minecraft:tools').speedBaseline(-2.9).tag("dq:tier0/weapon")
   item.create('primitive_spear','sword').tier('wood').tag('minecraft:sword').tag("forge:tools/flint").tag('minecraft:tools').speedBaseline(-2.9).tag("dq:tier0/weapon")
 
   item.create('golden_magic_feather','sword').tier('gold').glow(true).tag("minecraft:tools").tag("forge:tools/magic_feather").tag("dq:tier1/weapon").tag("dq:tier1/tool")
@@ -346,18 +345,21 @@ StartupEvents.registry('item', item => {
   item.create('copper_axe','axe').tier('copper').tag("minecraft:tools").tag("minecraft:tools/axe").tag("dq:tier1/tool")
   item.create('copper_shovel','shovel').tier('copper').tag("minecraft:tools").tag("minecraft:tools/shovel").tag("dq:tier1/tool")
   item.create('copper_hoe','hoe').tier('copper').tag("minecraft:tools").tag("minecraft:tools/hoe").tag("dq:tier1/tool")
+  item.create('copper_trident','sword').tier('copper').tag('minecraft:sword').tag("forge:tools/copper").tag('minecraft:tools').speedBaseline(-2.9).tag("dq:tier1/weapon")
 
   item.create('lead_pickaxe','pickaxe').tier('lead').tag("minecraft:tools").tag("minecraft:tools/pickaxe").tag("dq:tier1/tool")
   item.create('lead_sword','sword').tier('lead').tag("minecraft:tools").tag("dq:tier1/weapon")
   item.create('lead_axe','axe').tier('lead').tag("minecraft:tools").tag("minecraft:tools/axe").tag("dq:tier1/tool")
   item.create('lead_shovel','shovel').tier('lead').tag("minecraft:tools").tag("minecraft:tools/shovel").tag("dq:tier1/tool")
   item.create('lead_hoe','hoe').tier('lead').tag("minecraft:tools").tag("minecraft:tools/hoe").tag("dq:tier1/tool")
+  item.create('lead_waraxe','axe').tier('lead').tag("minecraft:tools").tag("minecraft:tools/axe").tag("dq:tier1/tool").speedBaseline(-3.2).tag("dq:tier1/weapon").attackDamageBaseline(10).tag("forge:tools/lead")
 
   item.create('silver_pickaxe','pickaxe').tier('silver').tag("minecraft:tools").tag("minecraft:tools/pickaxe").tag("dq:tier1/tool")
   item.create('silver_sword','sword').tier('silver').tag("minecraft:tools").tag("dq:tier1/weapon")
   item.create('silver_axe','axe').tier('silver').tag("minecraft:tools").tag("minecraft:tools/axe").tag("dq:tier1/tool")
   item.create('silver_shovel','shovel').tier('silver').tag("minecraft:tools").tag("minecraft:tools/shovel").tag("dq:tier1/tool")
   item.create('silver_hoe','hoe').tier('silver').tag("minecraft:tools").tag("minecraft:tools/hoe").tag("dq:tier1/tool")
+  item.create("silver_katana","sword").tier('silver').tag("minecraft:tools").tag("dq:tier1/weapon").tag("dq:tier1/tool").speedBaseline(-2.2).tag('forge:tools/silver')
 
   item.create('primitive_mining_hammer','pickaxe').tier('primitive').tag("minecraft:tools").tag('forge:tools/hammers').tag("dq:tier1/tool")
   item.create('basic_mining_hammer','pickaxe').tier('basic').tag("minecraft:tools").tag('forge:tools/hammers').tag("dq:tier2/tool")
@@ -386,8 +388,8 @@ StartupEvents.registry('item', item => {
   item.create('basic_mortar').maxDamage(64).tag("forge:tools/mortars").tag("dq:tier1/tool").unstackable()
   item.create('primitive_saw').maxDamage(64).unstackable().tag("forge:tools/saws").tag("dq:tier0/tool")
 
-  item.create('primitive_chisel').maxDamage(16).unstackable().tag("forge:tools/chisels").tag("dq:tier0/tool")
-  item.create('basic_chisel').maxDamage(128).tag("forge:tools/chisels").tag("dq:tier2/tool").unstackable()
+  item.create('primitive_chisel').maxDamage(16).unstackable().tag("forge:tools/chisels").tag("dq:tier0/tool").tag("forge:tools")
+  item.create('basic_chisel').maxDamage(128).tag("forge:tools/chisels").tag("dq:tier2/tool").unstackable().tag("forge:tools")
 
   ///==========================================================ARMOR====================================================
 

@@ -628,7 +628,7 @@ ServerEvents.recipes(event => {
 	).id("create:crafting/materials/red_sand_paper")
 
 	event.remove({id:"create:sandpaper_polishing/rose_quartz"})
-	
+
 	event.shaped("kubejs:primitive_saw",
 		[
 			"F  ",
@@ -1630,11 +1630,31 @@ ServerEvents.recipes(event => {
 			{"item": "oxidized_copper"}	
 		],
 		"sapling": {"item": "minecraft:oak_sapling"},
-		"output": {"item": 'kubejs:rusty_trident'},
+		"output": {"item": 'kubejs:copper_trident'},
 		"time": 200
 		})
-
-	  event.custom({
+	event.recipes.naturesaura.tree_ritual(Item.of('kubejs:silver_katana').enchant('minecraft:smite', 2).enchant('minecraft:sweeping', 1),[
+		"kubejs:silver_sword",
+		"tombstone:ankh_of_prayer",
+		"#forge:rods/gold",
+		"#forge:rods/gold",
+		"#forge:rods/silver",
+		"#forge:rods/silver",
+		"#forge:rods/silver",
+		"#forge:rods/silver"],
+		"minecraft:birch_sapling",200).id("kubejs:silver_katana")
+	
+	event.recipes.naturesaura.tree_ritual("kubejs:lead_waraxe",[
+		"quark:sturdy_stone",
+		"quark:sturdy_stone",
+		"fermented_spider_eye",
+		"fermented_spider_eye",
+		"kubejs:lead_axe",
+		"#forge:plates/lead",
+		"kubejs:lead_axe",
+		"#forge:plates/lead"],"minecraft:spruce_sapling",200).id("kubejs:lead_waraxe")
+	
+	event.custom({
 		"type": "naturesaura:tree_ritual",
 		"ingredients": [
 			{

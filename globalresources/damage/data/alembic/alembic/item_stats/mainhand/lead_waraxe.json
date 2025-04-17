@@ -1,0 +1,13 @@
+{
+  "id": "kubejs:lead_waraxe",
+  "modifiers": [
+      {
+          "type": "append",
+          "attribute": "alembic:alchemical_damage",
+          "value": 3,
+          "operation": "ADDITION",
+          "uuid": "a5834ca7-80e6-11a3-a987-e05293511144"
+      }
+  ],
+  "equipment_slot": "MAINHAND"
+}

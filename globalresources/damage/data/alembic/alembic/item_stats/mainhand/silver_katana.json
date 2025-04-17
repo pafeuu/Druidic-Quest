@@ -1,0 +1,13 @@
+{
+  "id": "kubejs:silver_katana",
+  "modifiers": [
+      {
+          "type": "append",
+          "attribute": "alembic:holy_damage",
+          "value": 2,
+          "operation": "ADDITION",
+          "uuid": "a5834ca7-80e6-11a3-a987-e0529351119b"
+      }
+  ],
+  "equipment_slot": "MAINHAND"
+}
