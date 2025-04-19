@@ -1,0 +1,20 @@
+{
+  "id": "immersiveengineering:armor_faraday_boots",
+  "modifiers": [
+    {
+      "type": "append",
+      "attribute": "alembic:fire_damage.resistance",
+      "value": 2,
+      "operation": "ADDITION",
+      "uuid": "1e3113ae-f776-4367-bc8a-0afd8410816b"
+    },
+    {
+      "type": "append",
+      "attribute": "alembic:ice_damage.resistance",
+      "value": 2,
+      "operation": "ADDITION",
+      "uuid": "fa8907ac-3714-4ac2-aed7-7a84df9b1130"
+    }
+  ],
+  "equipment_slot": "FEET"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "immersiveengineering:armor_faraday_chestplate",
+  "modifiers": [
+    {
+      "type": "append",
+      "attribute": "alembic:fire_damage.resistance",
+      "value": 5,
+      "operation": "ADDITION",
+      "uuid": "14fc924c-f7aa-493a-8474-61ea59b9f3ce"
+    },
+    {
+      "type": "append",
+      "attribute": "alembic:ice_damage.resistance",
+      "value": 5,
+      "operation": "ADDITION",
+      "uuid": "734ba5ce-cd87-4fd2-a5a7-8c3c5bd821e9"
+    }
+  ],
+  "equipment_slot": "CHEST"
+}

@@ -518,6 +518,19 @@ ServerEvents.recipes(event => {
 	
 	
 	/// ======================================================================= Tier 1 components =======================================================================
+	event.shaped('immersiveengineering:hemp_fabric',
+		[
+			"XYX",
+			"YSY",
+			"XYX"
+		],
+		{
+			X: "immersiveengineering:hemp_fiber",
+			Y: "farmersdelight:canvas",
+			S: "#forge:rods/treated_wood"
+		}
+	).id("immersiveengineering:crafting/hemp_fabric")
+	
 	event.shaped('3x kubejs:pipe_sealant',
 		[
 			"XYX",

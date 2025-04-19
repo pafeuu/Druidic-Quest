@@ -1,0 +1,20 @@
+{
+  "id": "immersiveengineering:armor_faraday_leggings",
+  "modifiers": [
+    {
+      "type": "append",
+      "attribute": "alembic:fire_damage.resistance",
+      "value": 3,
+      "operation": "ADDITION",
+      "uuid": "65de9104-1e0f-49bd-a570-b4409c002732"
+    },
+    {
+      "type": "append",
+      "attribute": "alembic:ice_damage.resistance",
+      "value": 3,
+      "operation": "ADDITION",
+      "uuid": "6b6b7873-b059-4b26-9a2f-b3c054565bf8"
+    }
+  ],
+  "equipment_slot": "LEGS"
+}

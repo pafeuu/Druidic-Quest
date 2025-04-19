@@ -23,8 +23,7 @@
       "type": "attribute",
       "name": "forge:block_reach",
       "value": 1.5,
-      "modifierUUID": "d5a7dc88-9405-4398-b1e5-250b2c2d2218",
-      "description": "Extra block reach",
+      "modifierUUID": "28a45669-1ffd-466e-b6bf-73ec6c7afd68",
       "interactionType": "self",
       "interactionDuration": 300,
       "hideBonusDescription": false,
@@ -32,7 +31,7 @@
     },
     {
       "type": "effect",
-      "name": "minecraft:glowing",
+      "name": "minecraft:night_vision",
       "value": 0.0,
       "interactionType": "self",
       "interactionDuration": 300,

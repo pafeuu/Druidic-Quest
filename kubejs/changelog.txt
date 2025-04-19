@@ -1383,7 +1383,8 @@ Patch 0.3.2.1
     -Changed for small elemental container
     -Changed for sand paper
     -Changed for red sand paper
-    -Removed on of the recipes for polished rose quartz
+    -Removed one of the recipes for polished rose quartz
+    -Changed for Tough Fabric
 
 
  ### New Items:
@@ -1517,6 +1518,7 @@ Patch 0.3.2.1
     -Doubled durability of forgotten hat and added fortune attribute while removing block and entity reach
     -Massively increased the durability of create's sandpapers
     -Massively Buffed The Sombrero
+    -Buffed Faraday armor pieces and set
 
  ### Changed Textures:
     -Infused Sapphire
