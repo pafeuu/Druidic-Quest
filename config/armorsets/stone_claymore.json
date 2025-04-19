@@ -1,0 +1,17 @@
+{
+  "armorSetName": "stone_claymore",
+  "performanceMode": false,
+  "mainHand": {
+    "itemKey": "kubejs:stone_claymore"
+  },
+  "fullSetBonuses": [
+    {
+      "type": "effect",
+      "name": "attributeslib:bleeding",
+      "value": 1.0,
+      "interactionType": "attack",
+      "interactionDuration": 300
+    }
+  ],
+  "hideGeneratedTooltip": true
+}
