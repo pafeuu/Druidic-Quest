@@ -186,7 +186,7 @@
 						display: {
 							Name: "{\"text\":\"Early game weapon\"}"
 						}
-						"ftbfiltersystem:filter": "or(item(minecraft:stone_sword)item(minecraft:wooden_sword)item(kubejs:mossy_sword)item(kubejs:primitive_spear)item(farmersdelight:flint_knife))"
+						"ftbfiltersystem:filter": "or(item(minecraft:stone_sword)item(kubejs:stone_claymore)item(minecraft:wooden_sword)item(kubejs:mossy_sword)item(kubejs:flint_spear)item(farmersdelight:flint_knife))"
 					}
 				}
 				type: "item"
@@ -510,6 +510,8 @@
 			dependency_requirement: "all_started"
 			description: [
 				""
+				"&2&lHoes now till blocks in 3x3! They do take 6 times more durability no matter how many block you till tho"
+				"&r&r"
 				"Tons of crops now have uses in progression for example you will need to grow:"
 				""
 				"-wheat to finish &3&ltier 0&r&r  "
@@ -898,10 +900,10 @@
 					type: "item"
 				}
 				{
-					icon: "naturesaura:wood_stand"
-					id: "0808C0083EAF8BE2"
-					title: "Carve a Wooden Stand"
-					type: "custom"
+					count: 8L
+					id: "5A3EA25913807A1A"
+					item: "naturesaura:wood_stand"
+					type: "item"
 				}
 			]
 			title: "Assemble the ritual"

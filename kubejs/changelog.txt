@@ -1489,6 +1489,7 @@ Patch 0.3.2.1
     -Reinforced tool handle
     -Lead Waraxe
     -Silver Katana
+    -Stone Claymore
 
  ### Removed Items:
     -Obsidian Ingot

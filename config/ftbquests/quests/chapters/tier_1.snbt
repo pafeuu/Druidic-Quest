@@ -1188,7 +1188,7 @@
 					exclude_from_claim_all: true
 					icon: {
 						Count: 1
-						id: "create_sa:copper_sword"
+						id: "irons_spellbooks:claymore"
 						tag: {
 							Damage: 0
 						}
@@ -1269,6 +1269,11 @@
 				}
 			}
 			id: "4A8886F5524F7811"
+			rewards: [{
+				id: "199D0F4EE18C3DB1"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "0469CE4C87A0C6A0"

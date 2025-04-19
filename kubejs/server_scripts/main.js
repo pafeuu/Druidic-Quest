@@ -206,7 +206,17 @@ ServerEvents.recipes(event => {
 		  },
 		  {
 			"type": "execute",
-			"command": "ftbquests change_progress @p complete 0808C0083EAF8BE2",
+			"command": 'particle irons_spellbooks:wisp ~ ~ ~ 0.3 0.3 0.3 0.1 50 force',
+			"hide": true
+		  },
+		  {
+			"type": "execute",
+			"command": "advancement grant @p only naturesaura:wood_stand",
+			"hide": true
+		  },
+		  {
+			"type": "execute",
+			"command": "ftbquests change_progress @p complete 5A3EA25913807A1A",
 			"hide": true
 		  }
 		],

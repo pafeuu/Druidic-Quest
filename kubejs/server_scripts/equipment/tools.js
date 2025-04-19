@@ -704,7 +704,7 @@ ServerEvents.recipes(event => {
 
 	
 
-	event.shaped("kubejs:primitive_spear",
+	event.shaped("kubejs:flint_spear",
 		[
 			"  F",
 			" S ",
@@ -713,6 +713,19 @@ ServerEvents.recipes(event => {
 		{
 			F: "minecraft:flint",
 			S: "minecraft:stick"
+		}
+	)
+
+	event.shaped("kubejs:stone_claymore",
+		[
+			" B ",
+			" B ",
+			"CSC"
+		],
+		{
+			C: "cobblestone",
+			S: "stick",
+			B: "quark:sturdy_stone"
 		}
 	)
 	

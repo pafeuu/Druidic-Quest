@@ -58,7 +58,38 @@ ServerEvents.tags('item', event => {
   let Tier1Accessory = []
   let Tier2Accessory = []
   let Tier3Accessory = []
+  
+  event.add("dq:primitive_hoes",[
+    "minecraft:flint_hoe",
+    "minecraft:stone_hoe",
+    "kubejs:copper_hoe",
+    "aether:holystone_hoe",
+    "immersiveengineering:steel_hoe"])
 
+  event.add("dq:basic_hoes",[
+    "kubejs:silver_hoe",
+    "kubejs:lead_hoe",
+    "minecraft:iron_hoe",
+    "minecraft:golden_hoe",
+    "minecraft:diamond_hoe",
+    "naturesaura:infused_iron_hoe",
+    "aether:zanite_hoe",
+    "aether:gravitite_hoe",
+    "deeperdarker:resonarium_hoe",
+    "twilightforest:ironwood_hoe",
+    "twilightforest:steeleaf_hoe",
+    "deep_aether:skyjade_hoe"])
+
+  event.add("dq:advanced_hoes",[
+    "minecraft:netherite_hoe",
+    "forbidden_arcanus:draco_arcanus_hoe",
+    "forbidden_arcanus:reinforced_deorum_hoe",
+    "naturesaura:depth_hoe",
+    "naturesaura:sky_hoe",
+    "aether:valkyrie_hoe",
+    "deep_aether:stratus_hoe",
+    "ancient_aether:valkyrum_hoe",
+    "ancient_aether:divine_hoe",])
   event.add("forge:tools/chisels","elementalcraft:chisel")
   event.add("forge:tools/hammers","immersiveengineering:hammer")
   event.add("forge:ingots/andesite_alloy","create:andesite_alloy")
@@ -193,9 +224,6 @@ ServerEvents.tags('item', event => {
 	tool('kubejs:copper')
 	tool('kubejs:silver')
   tool('kubejs:lead')
-  tool('create_sa:experience')
-  tool('create_sa:rose_quartz')
-  tool('create_sa:blazing')
   tool('enigmaticlegacy:etherium')
   tool('forbidden_arcanus:draco_arcanus')
   tool('forbidden_arcanus:reinforced_deorum')
