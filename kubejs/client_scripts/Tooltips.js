@@ -1,4 +1,5 @@
-ItemEvents.tooltip( tooltip => {
+ItemEvents.tooltip( tooltip => { 
+
   // ========================================== Texture Credits ==========================================
   tooltip.add(["kubejs:archers_glove"],Text.gray("Texture by Qwerty"))
 
@@ -50,7 +51,12 @@ ItemEvents.tooltip( tooltip => {
                'enigmaticlegacy:mending_mixture'],Text.green('Available through villager trading'))
   
   ///=========================================== Offhand ===============================================
-  tooltip.add(['kubejs:roadrunner_totem',
+  
+  tooltip.addAdvanced("#forge:tools/totems", (item, advanced, text) => {
+    text.add(1, Text.of('Only works in the offhand').gray()) 
+  })
+
+  /*tooltip.add(['kubejs:roadrunner_totem',
                "kubejs:tiger_totem",
                "kubejs:frog_totem",
                "kubejs:penguing_totem",
@@ -58,14 +64,16 @@ ItemEvents.tooltip( tooltip => {
                "kubejs:metal_crucifix",
                "kubejs:bejeweled_crucifix",
                "kubejs:penguin_totem",
-               "kubejs:bear_totem","#forge:tools/totem"],Text.gray("Works only in the offhand"))
+               "kubejs:bear_totem","#forge:tools/totem"],Text.gray("Works only in the offhand"))*/
 
   //=========================================== Upgrading =============================================
   
-  tooltip.add(["solonion:lunchbag",
+  tooltip.addAdvanced(["solonion:lunchbag",
                "solonion:lunchbox",
                "supplementaries:sack",
-               "immersiveengineering:crate"],Text.red("Make sure to empty it before upgrading!"))
+               "immersiveengineering:crate"],(item, advanced, text) => {
+                text.add(1, Text.of("Make sure to empty it before upgrading!").red())
+               })
   //======================================= Smithing Templates ==============================
 
   tooltip.add("kubejs:botanist_upgrade_smithing_template", [Text.gray("Botanist Upgrade"), Text.green(""), Text.gray("Applies to:"), Text.blue(" Iron Equipment"), Text.gray("Ingredients:"), Text.blue(" Infused Iron Ingot")])
@@ -73,20 +81,97 @@ ItemEvents.tooltip( tooltip => {
   tooltip.add("kubejs:gold_upgrade_smithing_template", [Text.gray("Gold Upgrade"), Text.green(""), Text.gray("Applies to:"), Text.blue(" Brass Equipment"), Text.gray("Ingredients:"), Text.blue(" Gold Upgrade Parts")])
   tooltip.add("kubejs:steel_upgrade_smithing_template", [Text.gray("Gold Upgrade"), Text.green(""), Text.gray("Applies to:"), Text.blue(" Netherite Equipment"), Text.gray("Ingredients:"), Text.blue(" Steel Upgrade Parts")])
   
-  //======================================= Custom Tools ======================================
+  //======================================= Custom Tools ====================================== 
+    
+
+  tooltip.addAdvanced("kubejs:golden_magic_feather", (item, advanced, text) => {
+    if (!tooltip.shift) {
+      text.add(1, [Text.of('Hold ').darkPurple(), Text.of('Shift ').gold(), Text.of('to see details').darkPurple()])
+    } else {
+      text.add(1, Text.gold('You can insta mine obsidian by right clicking'))
+    }
+  })
+
+  tooltip.addAdvanced("kubejs:fiery_magic_feather", (item, advanced, text) => {
+    if (!tooltip.shift) {
+      text.add(1, [Text.of('Hold ').darkPurple(), Text.of('Shift ').gold(), Text.of('to see details').darkPurple()])
+    } else {
+      text.add(1, Text.gold('You can insta mine obsidian by right clicking'))
+      text.add(2, Text.red('Right clicking netherrack in the nether will cause an explosion!'))
+    }
+  })
+
+  tooltip.addAdvanced("kubejs:rainbow_magic_feather", (item, advanced, text) => {
+    if (!tooltip.shift) {
+      text.add(1, [Text.of('Hold ').darkPurple(), Text.of('Shift ').gold(), Text.of('to see details').darkPurple()])
+    } else {
+      text.add(1, Text.gold('You can insta mine obsidian by right clicking'))
+      text.add(2, Text.red('Right clicking netherrack in the nether will cause an explosion!'))
+      text.add(3, Text.lightPurple('Right clicking bedrock on the nether roof will destroy it!'))
+    }
+  })
+
+  tooltip.addAdvanced("kubejs:the_terraformer", (item, advanced, text) => {
+    if (!tooltip.shift) {
+      text.add(1, [Text.of('Hold ').darkPurple(), Text.of('Shift ').gold(), Text.of('to see details').darkPurple()])
+    } else {
+      text.add(1, Text.green('Right clicking stone and dirt like blocks will turn them into compost!'))
+      text.add(2, Text.red('Only works above sea level!'))
+    }
+  })
+
+  tooltip.addAdvanced("kubejs:broken_key", (item, advanced, text) => {
+    if (!tooltip.shift) {
+      text.add(1, [Text.of('Hold ').darkPurple(), Text.of('Shift ').gold(), Text.of('to see details').darkPurple()])
+    } else {
+      text.add(2, Text.gold("Right click a spawner to destroy it and obtain infused ruby!"))
+    }
+  })
+
+  tooltip.addAdvanced("kubejs:twilight_key", (item, advanced, text) => {
+    if (!tooltip.shift) {
+      text.add(1, [Text.of('Hold ').darkPurple(), Text.of('Shift ').gold(), Text.of('to see details').darkPurple()])
+    } else {
+      text.add(2, Text.gold("Right click a spawner in The Twilight Forest to destroy it and obtain rare items and supplies!"))
+    }
+  })
+
+  tooltip.addAdvanced("kubejs:overworld_key", (item, advanced, text) => {
+    if (!tooltip.shift) {
+      text.add(1, [Text.of('Hold ').darkPurple(), Text.of('Shift ').gold(), Text.of('to see details').darkPurple()])
+    } else {
+      text.add(2, Text.gold("Right click a spawner in The Overworld to destroy it and obtain rare items and supplies!"))
+    }
+  })
   
-  tooltip.add(["kubejs:golden_magic_feather","kubejs:fiery_magic_feather","kubejs:rainbow_magic_feather"],Text.green("Right click obsidian to insta mine it!"))
-  tooltip.add(["kubejs:fiery_magic_feather","kubejs:rainbow_magic_feather"],Text.red("Right click netherrack in the nether to cause explosion!"))
-  tooltip.add(["kubejs:rainbow_magic_feather"],Text.lightPurple("Right click bedrock on the nether roof to destroy it!"))
-  tooltip.add("kubejs:the_terraformer",[Text.aqua("Turns basic blocks into compost"), Text.red("Only works above sea level")])
-  tooltip.add("kubejs:broken_key",Text.gold("Right click a spawner to destroy it and obtain infused ruby!"))
-  tooltip.add("kubejs:twilight_key",[Text.gold("Right click a spawner in Twilight Forest to destroy it and obtain rare items and supplies!")])
-  tooltip.add("kubejs:overworld_key",Text.gold("Right click a spawner in Overworld to destroy it and obtain rare items and supplies!"))
+  tooltip.addAdvanced("immersiveengineering:glider",(item, advanced, text) => {
+    text.add(1,Text.of("Weaker Elytra").red())
+  })
+
+  tooltip.addAdvanced("alexsmobs:tarantula_hawk_elytra",(item, advanced, text) => {
+    text.add(1,Text.of("Stronger Elytra").lightPurple())
+    text.add(2,Text.of("Accepts armor enchantments").gold())
+  })
   
-  tooltip.add("immersiveengineering:glider",Text.green("Weaker Elytra"))
-  tooltip.add("alexsmobs:tarantula_hawk_elytra",[Text.green("Stronger Elytra"), Text.blue("Accepts armor enchantments")])
-  tooltip.add("minecraft:enchanted_book",[Text.green("Right click to learn the enchantment!"),Text.red("Can't be used in anvil to apply enchantments!")])
-  tooltip.add("supplemenetaries:bellows",[Text.red("Speeds up furnaces"),Text.green("Speeds up copper aging"),Text.blue("Pushes entities away")])
+  tooltip.addAdvanced("minecraft:enchanted_book", (item, advanced, text) => {
+    if (!tooltip.shift) {
+      text.add(1, [Text.of('Hold ').darkPurple(), Text.of('Shift ').gold(), Text.of('to see details').darkPurple()])
+    } else {
+      text.add(1, Text.lightPurple("Right click to learn the enchantment!"))
+      text.add(2, Text.red("Can't be used in anvil to apply enchantments!"))
+    }
+  })
+
+  tooltip.addAdvanced("supplementaries:bellows", (item, advanced, text) => {
+    if (!tooltip.shift) {
+      text.add(1, [Text.of('Hold ').darkPurple(), Text.of('Shift ').gold(), Text.of('to see details').darkPurple()])
+    } else {
+      text.add(1, Text.lightPurple("Speeds up furnaces"))
+      text.add(2, Text.darkPurple("Speeds up copper aging"))
+      text.add(3, Text.lightPurple("Pushes entities away"))
+    }
+  })
+
   tooltip.add("elementalcraft:water_mill_wood_saw",Text.red("I can crash the game :("))
   tooltip.add("immersiveengineering:cushion",Text.green("Negates fall damage"))
   tooltip.add("quark:seed_pouch",Text.green("Shift-Right Click to plant in a 3x3!"))
@@ -145,4 +230,5 @@ ItemEvents.tooltip( tooltip => {
   //=======================Arrows=======================
 
   tooltip.add("forbidden_arcanus:boom_arrow",[Text.gold("Explodes on impact with entities!"),Text.gold("Deals massive amounts of damage!")])
+
 })

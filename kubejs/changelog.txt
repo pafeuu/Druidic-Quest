@@ -1576,3 +1576,4 @@ Patch 0.3.2.1
     -Changed the names of the magic feathers
     -Maximum speed for create is now 64RPM
     -Gravel no longer drops flint
+    -Fixed Broken Ars's glyph recipes

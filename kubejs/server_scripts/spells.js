@@ -1,6 +1,6 @@
 ServerEvents.recipes(e=>{
 
-    e.remove({id:"ars_nouveau:glyph_craft"})
+    
     e.custom({
         "type": "ars_nouveau:glyph",
         "count": 1,
@@ -13,9 +13,9 @@ ServerEvents.recipes(e=>{
           }
         ],
         "output": "ars_nouveau:glyph_craft"
-    })
+    }).id("ars_nouveau:glyph_craft")
 
-    e.remove({id:"ars_nouveau:glyph_ender_inventory"})
+   
     e.custom({
         "type": "ars_nouveau:glyph",
         "count": 1,
@@ -28,9 +28,9 @@ ServerEvents.recipes(e=>{
           }
         ],
         "output": "ars_nouveau:glyph_ender_inventory"
-    })
+    }).id("ars_nouveau:glyph_ender_inventory")
 
-    e.remove({id:"ars_nouveau:glyph_grow"})
+   
     e.custom({
         "type": "ars_nouveau:glyph",
         "count": 1,
@@ -43,9 +43,9 @@ ServerEvents.recipes(e=>{
           }
         ],
         "output": "ars_nouveau:glyph_grow"
-    })
+    }).id("ars_nouveau:glyph_grow")
 
-    e.remove({id:"ars_nouveau:glyph_harvest"})
+    
     e.custom({
         "type": "ars_nouveau:glyph",
         "count": 1,
@@ -58,9 +58,9 @@ ServerEvents.recipes(e=>{
           }
         ],
         "output": "ars_nouveau:glyph_harvest"
-    })
+    }).id("ars_nouveau:glyph_harvest")
 
-    e.remove({id:"ars_nouveau:glyph_crush"})
+    
     e.custom({
         "type": "ars_nouveau:glyph",
         "count": 1,
@@ -73,9 +73,9 @@ ServerEvents.recipes(e=>{
           }
         ],
         "output": "ars_nouveau:glyph_crush"
-    })
+    }).id("ars_nouveau:glyph_crush")
 
-    e.remove({id:"ars_nouveau:glyph_heal"})
+    
     e.custom({
         "type": "ars_nouveau:glyph",
         "count": 1,
@@ -88,9 +88,9 @@ ServerEvents.recipes(e=>{
           }
         ],
         "output": "ars_nouveau:glyph_heal"
-    })
+    }).id("ars_nouveau:glyph_heal")
 
-    e.remove({id:"ars_nouveau:glyph_glide"})
+    
     e.custom({
         "type": "ars_nouveau:glyph",
         "count": 1,
@@ -103,9 +103,9 @@ ServerEvents.recipes(e=>{
           }
         ],
         "output": "ars_nouveau:glyph_glide"
-    })
+    }).id("ars_nouveau:glyph_glide")
 
-    e.remove({id:"ars_nouveau:glyph_explosion"})
+    
     e.custom({
         "type": "ars_nouveau:glyph",
         "count": 1,
@@ -113,14 +113,14 @@ ServerEvents.recipes(e=>{
         "inputItems": [
           {
             "item": {
-              "item": "kubejs:rainbow_feather"
+              "item": "kubejs:fiery_magic_feather"
             }
           }
         ],
         "output": "ars_nouveau:glyph_explosion"
-    })
+    }).id("ars_nouveau:glyph_explosion")
 
-    e.remove({id:"ars_nouveau:glyph_wololo"})
+    
     e.custom({
         "type": "ars_nouveau:glyph",
         "count": 1,
@@ -135,7 +135,7 @@ ServerEvents.recipes(e=>{
         "output": "ars_nouveau:wololo"
     }).id("ars_nouveau:wololo")
 
-    e.remove({id:"ars_nouveau:glyph_light"})
+    
     e.custom({
         "type": "ars_nouveau:glyph",
         "count": 1,
@@ -148,9 +148,9 @@ ServerEvents.recipes(e=>{
           }
         ],
         "output": "ars_nouveau:glyph_light"
-    })
+    }).id("ars_nouveau:glyph_light")
 
-    e.remove({id:"ars_nouveau:glyph_break"})
+    
     e.custom({
         "type": "ars_nouveau:glyph",
         "count": 1,
@@ -168,9 +168,9 @@ ServerEvents.recipes(e=>{
           }
         ],
         "output": "ars_nouveau:glyph_break"
-    })
+    }).id("ars_nouveau:glyph_break")
 
-    e.remove({id:"ars_nouveau:glyph_fell"})
+    
     e.custom({
         "type": "ars_nouveau:glyph",
         "count": 1,
@@ -188,9 +188,9 @@ ServerEvents.recipes(e=>{
           }
         ],
         "output": "ars_nouveau:glyph_fell"
-    })
+    }).id("ars_nouveau:glyph_fell")
 
-    e.remove({id:"ars_nouveau:glyph_fortune"})
+    
     e.custom({
       "type": "ars_nouveau:glyph",
       "count": 1,
@@ -228,5 +228,5 @@ ServerEvents.recipes(e=>{
         }
       ],
       "output": "ars_nouveau:glyph_fortune"
-    })
+    }).id("ars_nouveau:glyph_fortune")
 })
