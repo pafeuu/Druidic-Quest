@@ -1263,7 +1263,7 @@ Patch 0.3.2.1
     -Fixed Stainless Steel Tags
 
 
- Patch 1.0.0
+ Patch 1.0
   
  ### Updated Mods:
     -Drippy Loading Screen
@@ -1577,3 +1577,13 @@ Patch 0.3.2.1
     -Maximum speed for create is now 64RPM
     -Gravel no longer drops flint
     -Fixed Broken Ars's glyph recipes
+
+# Patch 1.0.1
+
+### Recipes
+    -Changed for gold powder
+    -Added recipe to change thermal plates to create sheets
+
+### Other
+    - TO DO fix furnace ponder
+    - Thermal plates replaced with create sheets in loottables

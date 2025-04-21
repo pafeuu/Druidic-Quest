@@ -94,7 +94,9 @@ ServerEvents.recipes(event => {
     )
 
     MillingWithExtras(1, 'create:wheat_flour', 2, 1, 'create:wheat_flour', 0.5, 'minecraft:wheat', 2, 'create:milling/wheat')
-   
+
+    MillingWithExtras(2, 'naturesaura:gold_powder', 4, 2, 'create:wheat_flour', 0.5, 'naturesaura:gold_leaf', 2, 'naturesaura:gold_powder')
+    event.remove({id:"naturesaura:altar/gold_powder"})
 
 
     MillingNoExtras(9, 'bone_meal', 'regions_unexplored:overgrown_bone_block', 6, 'regions_unexplored:bone_meal_from_overgrown_bone_block')
