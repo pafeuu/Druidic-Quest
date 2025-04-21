@@ -26,40 +26,41 @@ Ponder.tags((event) => {
 
 Ponder.registry((event) => {
 
-    event.create("minecraft:furnace").scene("set_replace_modify_tutorial", "Magical Generator Crafting","kubejs:furnace", (scene, util) => {
-        scene.showStructure();
+    event.create("minecraft:furnace").scene("furnace_crafting", "Furnace Crafting","kubejs:furnace", (scene, util) => {
+        scene.world.showSection([0, 0, 0, 4, 0, 4], Facing.DOWN);
+        scene.idle(10);
+        
+        for(let i = 1; i < 4; i++){
+        scene.world.showSection([i, 1, 1, i, 1, 4], Facing.DOWN);
+        scene.idle(5)
+        }
 
-        scene.world.setBlocks([1, 1, 1, 3, 1, 3], "kubejs:arcane_alloy_block", true);
-        scene.world.setBlock([1, 1, 1], "kubejs:inert_alloy_block", true);
-        scene.world.setBlock([3, 1, 1], "kubejs:inert_alloy_block", true);
-        scene.world.setBlock([1, 1, 3], "kubejs:inert_alloy_block", true);
-        scene.world.setBlock([3, 1, 3], "kubejs:inert_alloy_block", true);
-
-        scene.text(20,"Drop Lemon Quartz in the middle",[3.0,1.5,3.0]).attachKeyFrame();
-        scene.showControls(20,[3.0,1.5,3.0],"down").withItem("kubejs:lemon_quartz");
+        scene.text(20,"Drop Coke in the middle",[3.0,1.5,3.0]).attachKeyFrame();
+        scene.showControls(20,[3.0,1.5,3.0],"down").withItem("thermal:coal_coke");
     
         scene.idle(30);
 
         //scene.text(40,"testt",[3.0,2.5,3.0])//.attachKeyFrame();
-        scene.showControls(15,[3.0,1.5,3.0],"down").withItem("thermal:lightning_charge");
-        scene.text(20,"Summon Lightning to finish crafting!",[3.0,1.5,3.0]).attachKeyFrame();
+        scene.showControls(15,[3.0,1.5,3.0],"down").withItem("minecraft:tnt");
+        scene.text(20,"Cause an explosion to finish crafting!",[3.0,1.5,3.0]).attachKeyFrame();
 
         scene.idle(30);
 
         scene.world.replaceBlocks([1, 1, 1, 3, 1, 3], "minecraft:air", false);
-        scene.world.createItemEntity(util.vector.topOf(2.5, 1.5, 2.5), util.vector.of(0, 0, 0), "kubejs:magical_generator_block");
+        scene.world.createItemEntity(util.vector.topOf(2.5, 1.5, 2.5), util.vector.of(0, 0, 0), "minecraft:furnace");
 
         scene.idle(20);
     });
 
-    event.create("kubejs:magical_generator_block").scene("set_replace_modify_tutorial", "Magical Generator Crafting", (scene, util) => {
-        scene.showStructure();
-
-        scene.world.setBlocks([1, 1, 1, 3, 1, 3], "kubejs:arcane_alloy_block", true);
-        scene.world.setBlock([1, 1, 1], "kubejs:inert_alloy_block", true);
-        scene.world.setBlock([3, 1, 1], "kubejs:inert_alloy_block", true);
-        scene.world.setBlock([1, 1, 3], "kubejs:inert_alloy_block", true);
-        scene.world.setBlock([3, 1, 3], "kubejs:inert_alloy_block", true);
+    event.create("kubejs:magical_generator_block").scene("magical_generator_crafting", "Magical Generator Crafting","kubejs:magical_generator", (scene, util) => {
+        
+        scene.world.showSection([0, 0, 0, 4, 0, 4], Facing.DOWN);
+        scene.idle(10);
+        
+        for(let i = 1; i < 4; i++){
+        scene.world.showSection([i, 1, 1, i, 1, 4], Facing.DOWN);
+        scene.idle(5)
+        }
 
         scene.text(20,"Drop Lemon Quartz in the middle",[3.0,1.5,3.0]).attachKeyFrame();
         scene.showControls(20,[3.0,1.5,3.0],"down").withItem("kubejs:lemon_quartz");
@@ -105,21 +106,33 @@ Ponder.registry((event) => {
 
     event.create(["naturesaura:nature_altar","naturesaura:gold_brick"]).scene("nature_altar","Building nature altar in the overworld","kubejs:natural_altar",(scene, util)=>{
         
-        scene.world.showSection([0, 0, 0, 8, 1, 8], Facing.DOWN);
-        scene.idle(20);
-        scene.world.showSection([0, 2, 0, 8, 5, 8], Facing.DOWN);
+        scene.world.showSection([0, 0, 0, 8, 0, 8], Facing.DOWN);
+        for(let i = 1; i < 8; i++){
+            scene.world.showSection([i, 1, 1, i, 1, 8], Facing.DOWN);
+            scene.idle(3)
+        }
+        for(let y = 2; y < 5; y++){
+            scene.world.showSection([0,y , 1, 8, y, 8], Facing.DOWN);
+            scene.idle(5)
+        }
+        
     });
 
     event.create(["naturesaura:animal_spawner"]).scene("animal_spawner","Building Animal Spawner","kubejs:animal_spawner",(scene, util)=>{
-        scene.world.showSection([0, 0, 0, 6, 1, 6], Facing.DOWN);
-        scene.idle(20);
+        scene.world.showSection([0, 0, 0, 6, 0, 6], Facing.DOWN);
+        for(let i = 0; i < 7; i++){
+            scene.world.showSection([i, 1, 0, i, 1, 6], Facing.DOWN);
+            scene.idle(3)
+        }
         scene.world.showSection([0, 2, 0, 6, 2, 6], Facing.DOWN);
     });
 
-    event.create(["naturesaura:auto_crafter"]).scene("animal_spawner","Building Animal Spawner","kubejs:automatic_constructor",(scene, util)=>{
+    event.create(["naturesaura:auto_crafter"]).scene("autocrafter","Building Animal Spawner","kubejs:automatic_constructor",(scene, util)=>{
         scene.world.showSection([0, 0, 0, 6, 0, 6], Facing.DOWN);
-        scene.idle(20);
-        scene.world.showSection([0, 1, 0, 6, 2, 6], Facing.DOWN);
+        for(let i = 0; i < 7; i++){
+            scene.world.showSection([i, 1, 0, i, 1, 6], Facing.DOWN);
+            scene.idle(3)
+        }
     });
 
 });

@@ -254,6 +254,9 @@ ServerEvents.recipes(event => {
 	event.remove({id:"quark:building/crafting/compressed/potato_crate"})
 	event.remove({id:"thermal:storage/potato_block"})
 
+	event.shapeless("create:iron_sheet",["thermal:iron_plate"])
+	event.shapeless("create:golden_sheet",["thermal:gold_plate"])
+
 	function StorageCompacting(big,small)
 	{
 		event.shapeless(big,"9x "+small)

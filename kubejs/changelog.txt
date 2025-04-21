@@ -1585,5 +1585,8 @@ Patch 0.3.2.1
     -Added recipe to change thermal plates to create sheets
 
 ### Other
-    - TO DO fix furnace ponder
-    - Thermal plates replaced with create sheets in loottables
+    -fixed furnace ponder
+    -Thermal plates replaced with create sheets in loot chests
+    -Actually removed the mods removed in 1.0.0
+    -Adjusted some ponders
+
