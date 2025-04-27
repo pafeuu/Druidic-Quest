@@ -257,4 +257,51 @@ ServerEvents.recipes(event => {
 		}
 	).id("twilightforest:equipment/naga_leggings")
 
+	event.replaceInput([{id:"irons_spellbooks:wandering_magician_helmet"},{id:"irons_spellbooks:wandering_magician_chestplate"},{id:"irons_spellbooks:wandering_magician_leggings"},{id:"irons_spellbooks:wandering_magician_boots"}], "irons_spellbooks:arcane_essence","kubejs:arcane_leather")
+
+	event.shaped("irons_spellbooks:wandering_magician_helmet",
+		[
+			"LAL",
+			"L L"
+		],
+		{
+			A: "kubejs:arcane_leather",
+			L: "leather"
+		}
+	)
+
+	event.shaped("irons_spellbooks:wandering_magician_chestplate",
+		[
+			"L L",
+			"LAL",
+			"LLL"
+		],
+		{
+			A: "kubejs:arcane_leather",
+			L: "leather"
+		}
+	)
+
+	event.shaped("irons_spellbooks:wandering_magician_leggings",
+		[
+			"LAL",
+			"L L",
+			"L L"
+		],
+		{
+			A: "kubejs:arcane_leather",
+			L: "leather"
+		}
+	)
+
+	event.shaped("irons_spellbooks:wandering_magician_helmet",
+		[
+			"A L",
+			"L L"
+		],
+		{
+			A: "kubejs:arcane_leather",
+			L: "leather"
+		}
+	)
 })

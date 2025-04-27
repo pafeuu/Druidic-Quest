@@ -1596,11 +1596,18 @@ Patch 0.3.2.1
     -Changed for Naga Chestplate
     -Changed for Naga Leggings
     -Added for Naga Scale
+    -Changed and Added for Wandering Magician Helmet
+    -Changed and Added for Wandering Magician Chestplate
+    -Changed and Added for Wandering Magician Leggings
+    -Changed and Added for Wandering Magician Boots
 
 ### New Items:
     -Sacrificial Dagger
     -Infused Diamond
     -Infused Emerald
+
+### Balance:
+    -Decresead the amount of armor for wandering armor pieces and added ice and arcane resistance
 
 ### Loot tables:
     -Adjusted twilight forest maze loottables

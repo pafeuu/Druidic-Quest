@@ -440,7 +440,5 @@ StartupEvents.registry('item', item => {
   item.create('magic_book').displayName('Magical Book')
   item.create('fiery_clay_blend').displayName('Fiery Clay Blend')
   item.create('basic_token').displayName('Basic Token')
-
-  
   
 })
