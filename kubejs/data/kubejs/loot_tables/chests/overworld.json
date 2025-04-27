@@ -33,7 +33,7 @@
               {
                 "type": "item",
                 "weight": 1,
-                "name": "create_sa:brass_sword",
+                "name": "kubejs:lead_sword",
                 "functions": [
                   {
                     "function": "set_count",
@@ -206,7 +206,7 @@
             "functions": [
               {
                 "function": "set_count",
-                "count": 3
+                "count": 8
               }
             ]
           },
@@ -217,7 +217,7 @@
             "functions": [
               {
                 "function": "set_count",
-                "count": 3
+                "count": 8
               }
             ]
           },
@@ -228,7 +228,7 @@
             "functions": [
               {
                 "function": "set_count",
-                "count": 3
+                "count": 8
               }
             ]
           },
@@ -239,7 +239,7 @@
             "functions": [
               {
                 "function": "set_count",
-                "count": 3
+                "count": 8
               }
             ]
           },
@@ -250,7 +250,7 @@
             "functions": [
               {
                 "function": "set_count",
-                "count": 6
+                "count": 12
               }
             ]
           },

@@ -202,55 +202,55 @@
           {
             "type": "item",
             "weight": 1,
-            "name": "twilightdelight:chocolate_wafer",
+            "name": "vintagedelight:cheese_pasta",
             "functions": [
               {
                 "function": "set_count",
-                "count": 3
+                "count": 8
               }
             ]
           },
           {
             "type": "item",
             "weight": 1,
-            "name": "twilightdelight:chocolate_wafer",
+            "name": "vintagedelight:cheese_burger",
             "functions": [
               {
                 "function": "set_count",
-                "count": 3
+                "count": 8
               }
             ]
           },
           {
             "type": "item",
             "weight": 1,
-            "name": "twilightdelight:meef_wrap",
+            "name": "vintagedelight:pickle_soup",
             "functions": [
               {
                 "function": "set_count",
-                "count": 3
+                "count": 8
               }
             ]
           },
           {
             "type": "item",
             "weight": 1,
-            "name": "twilightdelight:milky_113",
+            "name": "vintagedelight:salted_salmon",
             "functions": [
               {
                 "function": "set_count",
-                "count": 3
+                "count": 8
               }
             ]
           },
           {
             "type": "item",
             "weight": 1,
-            "name": "twilightdelight:cooked_tomahawk_smeak",
+            "name": "vintagedelight:pickled_beetroot",
             "functions": [
               {
                 "function": "set_count",
-                "count": 6
+                "count": 12
               }
             ]
           },
