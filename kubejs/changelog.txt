@@ -1590,3 +1590,23 @@ Patch 0.3.2.1
     -Actually removed the mods removed in 1.0.0
     -Adjusted some ponders
 
+# Patch 1.0.2
+
+### Recipes:
+    -Changed for Naga Chestplate
+    -Changed for Naga Leggings
+    -Added for Naga Scale
+
+### New Items:
+    -Sacrificial Dagger
+    -Infused Diamond
+    -Infused Emerald
+
+### Loot tables:
+    -Adjusted twilight forest maze loottables
+    -Fixed dimensional keys loottables
+
+### Worldgen
+    -Added sapphire ore generation to the twilight forest
+    -Removed Diamond Ore generation in twilight forest
+

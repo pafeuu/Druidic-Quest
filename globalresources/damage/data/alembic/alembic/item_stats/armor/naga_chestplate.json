@@ -1,0 +1,20 @@
+{
+  "id": "twilightforest:naga_chestplate",
+  "modifiers": [
+    {
+      "type": "append",
+      "attribute": "alembic:alchemical_damage.resistance",
+      "value": 6,
+      "operation": "ADDITION",
+      "uuid": "b54037d0-78e4-407a-9f24-8c088a9e55c1"
+    },
+    {
+      "type": "append",
+      "attribute": "alembic:arcane_damage.resistance",
+      "value": 4,
+      "operation": "ADDITION",
+      "uuid": "a9ced5f0-7c0a-47bb-8807-32f7d4071a9a"
+    }
+  ],
+  "equipment_slot": "CHEST"
+}

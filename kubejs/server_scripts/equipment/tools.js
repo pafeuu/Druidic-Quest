@@ -529,7 +529,7 @@ ServerEvents.recipes(event => {
 		  {type: "delay", s: 0.5},
 		  {type: "execute", command: "playsound minecraft:entity.experience_orb.pickup neutral @p"},
 		  {type: "execute", command: "particle irons_spellbooks:unstable_ender ~ ~ ~ 0.5 0.5 0.5 0.1 80 force"},
-		  {type: "execute", command: "loot spawn ~ ~ ~ loot kubejs:key/overworld"},
+		  {type: "execute", command: "loot spawn ~ ~ ~ loot kubejs:chests/overworld"},
 		  {type: "delay", s: 1},
 		  {type: "execute", command: "playsound minecraft:block.ender_chest.close neutral @p", hide: true}
 		],
@@ -544,7 +544,7 @@ ServerEvents.recipes(event => {
 		contextual:{
 			type: "location",
 			predicate:{
-				dimension: "twilight_forest"
+				dimension: "twilightforest:twilight_forest"
 			}
 		},
 		post: [
@@ -554,7 +554,7 @@ ServerEvents.recipes(event => {
 		  {type: "delay", s: 0.5},
 		  {type: "execute", command: "playsound minecraft:entity.experience_orb.pickup neutral @p"},
 		  {type: "execute", command: "particle irons_spellbooks:unstable_ender ~ ~ ~ 0.5 0.5 0.5 0.1 80 force"},
-		  {type: "execute", command: "loot spawn ~ ~ ~ loot kubejs:key/twilight"},
+		  {type: "execute", command: "loot spawn ~ ~ ~ loot kubejs:chests/twilight"},
 		  {type: "delay", s: 1},
 		  {type: "execute", command: "playsound minecraft:block.ender_chest.close neutral @p", hide: true}
 		],
@@ -1299,6 +1299,19 @@ ServerEvents.recipes(event => {
 		"time": 200
 	}).id("thermal:tools/xp_crystal")
 	/// ======================================================================= Tier 1 Tools ============================================================================
+	
+	event.shaped("kubejs:sacrificial_dagger",
+		[
+			"  O",
+			"GO ",
+			"RG "
+		],
+		{
+			O: "obsidian",
+			G: "#forge:plates/gold",
+			R: "#forge:rods/gold"
+		}
+	).id("kubejs:sacrificial_dagger")
 	
 	event.shaped("create:clipboard",
 		[

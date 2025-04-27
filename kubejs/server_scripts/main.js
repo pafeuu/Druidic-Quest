@@ -518,6 +518,40 @@ ServerEvents.recipes(event => {
 	
 	
 	/// ======================================================================= Tier 1 components =======================================================================
+
+	event.shapeless('kubejs:primitive_alchemical_dust',["#forge:tools/mortars","#forge:dusts/arcane_crystal","#forge:dusts/gold","kubejs:infused_emerald"]).damageIngredient("#forge:tools/mortars", 4).id("kubejs:primitive_alchemical_dust")
+	
+	event.custom({
+		type: "lychee:lightning_channeling",
+		item_in: [
+			{item: "kubejs:primitive_alchemical_dust"},
+			{tag: "forge:plates/silver"},
+			{tag: "forge:insect"}
+		],
+		contextual: [
+			{type: "location",predicate:{dimension: "twilightforest:twilight_forest"}},
+		],
+		post: [
+			{
+				type: "delay",
+				s: 1
+			},
+			{
+				type: "drop_item",
+				item: "twilightforest:naga_scale",
+			},
+			{
+				type: "execute",
+				command: "playsound forbidden_arcanus:item.mundabitur_dust.use neutral @p",
+				hide: "true"
+			},
+			{
+				type: "execute",
+				command: "particle deep_aether:poison_bubbles ~ ~2 ~ 0 0 0 0.1 20",
+				hide: "true"
+			}
+		]
+	})
 	event.shaped('immersiveengineering:hemp_fabric',
 		[
 			"XYX",

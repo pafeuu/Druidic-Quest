@@ -1,0 +1,36 @@
+{
+  "armorSetName": "naga",
+  "performanceMode": true,
+  "chest": {
+    "itemKey": "twilightforest:naga_chestplate",
+    "mustBeEmpty": false
+  },
+  "legs": {
+    "itemKey": "twilightforest:naga_leggings",
+    "mustBeEmpty": false
+  },
+  "fullSetBonuses": [
+    {
+      "type": "effect",
+      "name": "fruitsdelight:leaf_piercing",
+      "value": 0.0,
+      "interactionType": "self",
+      "interactionDuration": 300
+    },
+    {
+      "type": "effect",
+      "name": "fruitsdelight:shrinking",
+      "value": 0.0,
+      "interactionType": "self",
+      "interactionDuration": 300
+    },
+    {
+      "type": "effect",
+      "name": "alexsmobs:bug_pheromones",
+      "value": 0.0,
+      "interactionType": "self",
+      "interactionDuration": 300
+    }
+  ],
+  "hideGeneratedTooltip": false
+}
