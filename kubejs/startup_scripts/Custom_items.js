@@ -238,6 +238,8 @@ StartupEvents.registry('item', item => {
   item.create("ivy_quartz").displayName("Ivy Quartz").tag("forge:gems")
   item.create("sapphire").tag("forge:gems").tag("dq:tier1/component").tag("forge:gems/sapphire")
   item.create("unstable_ivy_quartz").displayName("Unstable Ivy Quartz").tag("forge:gems")
+  item.create("infused_emerald").tag("forge:gems").tag("dq:tier1/component")
+  item.create("infused_diamond").tag("forge:gems").tag("dq:tier1/component")
 
   ///===================================================DUSTS============================================================
   
@@ -376,7 +378,8 @@ StartupEvents.registry('item', item => {
 
   item.create('the_terraformer','shovel').glow(true).rarity("epic").tier("terraformer").tag("minecraft:tools").tag("dq:tier2/tool")
   
-
+  item.create('sacrificial_dagger','sword').tier('gold').tag("minecraft:tools").tag("dq:tier1/weapon").tag("dq:tier1/tool").speedBaseline(-2.0).attackDamageBaseline(1)
+  
   item.createCustom('primitive_shears',() => new $ShearsItem(new $ItemProperties().defaultDurability(8)))
 
   item.createCustom('primitive_firestarter',() => new $FlintAndSteelItem(new $ItemProperties().defaultDurability(8)))
@@ -423,7 +426,7 @@ StartupEvents.registry('item', item => {
   item.create('cosmic_spice')
 
   ///===================================================MISC===========================================================
-
+  item.create('arcane_leather').tag('dq:tier0/component')
   item.create('recipe_changed')
   item.create('primitive_handle')
   item.create('pipe_sealant')

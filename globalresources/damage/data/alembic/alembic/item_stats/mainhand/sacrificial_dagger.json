@@ -1,0 +1,13 @@
+{
+  "id": "kubejs:sacrificial_dagger",
+  "modifiers": [
+      {
+          "type": "append",
+          "attribute": "alembic:true_damage",
+          "value": 4,
+          "operation": "ADDITION",
+          "uuid": "a5834ca7-82e6-43a3-7987-e052935e479b"
+      }
+  ],
+  "equipment_slot": "MAINHAND"
+}

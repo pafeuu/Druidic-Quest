@@ -863,6 +863,29 @@
 			x: 4.0d
 			y: -4.0d
 		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "76B3F9D4B2183167"
+			rewards: [{
+				count: 2
+				id: "6C63446077D9722E"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0E9ABC2B9A6C62AA"
+				item: {
+					Count: 1
+					id: "deep_aether:storm_bow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 4.0d
+		}
 	]
 	title: "Sharpshooter"
 }

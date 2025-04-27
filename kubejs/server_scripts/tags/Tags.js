@@ -103,7 +103,7 @@ ServerEvents.tags('item', event => {
   event.remove("curios:head","immersive_weathering:flower_crown")
   
 
-  event.add("forge:insect","alexsmobs:maggot")
+  event.add("forge:insect",["alexsmobs:maggot",'twilightforest:firefly', 'twilightforest:cicada', 'twilightforest:moonworm'])
   
   event.add("quark:seed_pouch_holdable","forge:seeds")
   event.add("quark:seed_pouch_holdable","minecraft:saplings")
