@@ -1,16 +1,16 @@
 {
-  "feature": "twilightforest:legacy_diamond_ore",
+  "feature": "twilightforest:legacy_redstone_ore",
   "placement": [
     {
       "type": "minecraft:count",
-      "count": 20
+      "count": 5
     },
     {
       "type": "minecraft:height_range",
       "height": {
         "type": "minecraft:uniform",
         "max_inclusive": {
-          "absolute": -15
+          "absolute": -10
         },
         "min_inclusive": {
           "absolute": -30
@@ -20,5 +20,6 @@
     {
       "type": "minecraft:in_square"
     }
+    
   ]
 }

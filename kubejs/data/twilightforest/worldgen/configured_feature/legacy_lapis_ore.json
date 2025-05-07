@@ -6,7 +6,7 @@
     "targets": [
       {
         "state": {
-          "Name": "thermal:sapphire_ore"
+          "Name": "forbidden_arcanus:runic_stone"
         },
         "target": {
           "predicate_type": "minecraft:tag_match",

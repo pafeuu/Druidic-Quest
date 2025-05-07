@@ -1,5 +1,5 @@
 {
-  "feature": "twilightforest:legacy_diamond_ore",
+  "feature": "twilightforest:legacy_coal_ore",
   "placement": [
     {
       "type": "minecraft:count",
@@ -10,10 +10,10 @@
       "height": {
         "type": "minecraft:uniform",
         "max_inclusive": {
-          "absolute": -15
+          "absolute": 127
         },
         "min_inclusive": {
-          "absolute": -30
+          "absolute": -15
         }
       }
     },
