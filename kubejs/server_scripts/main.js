@@ -284,6 +284,18 @@ ServerEvents.recipes(event => {
 	
 	
 	/// ======================================================================= Tier 0 Components ========================================================================
+	
+	event.shaped("kubejs:arcane_leather",
+		[
+			" F ",
+			"FLF",
+			" F "
+		],
+		{
+			F:"irons_spellbooks:arcane_essence",
+			L:"leather"
+		}
+	)
 
 	event.shaped("kubejs:primitive_handle",
 		[
@@ -519,6 +531,32 @@ ServerEvents.recipes(event => {
 	
 	/// ======================================================================= Tier 1 components =======================================================================
 
+	event.shaped('3x immersiveengineering:fluid_pipe',
+		[
+			"III",
+			"SSS",
+			"III"
+		],
+		{
+			I: "#forge:plates/iron",
+			S: "kubejs:pipe_sealant"
+		}
+	).id("immersiveengineering:crafting/fluid_pipe")
+
+	event.shaped('2x create:fluid_pipe',
+		[
+			"III",
+			"SSS",
+			"III"
+		],
+		{
+			I: "#forge:plates/copper",
+			S: "kubejs:pipe_sealant"
+		}
+	).id("create:crafting/kinetics/fluid_pipe")
+
+	event.remove({id:"create:crafting/kinetics/fluid_pipe_vertical"})
+
 	event.shapeless('kubejs:primitive_alchemical_dust',["#forge:tools/mortars","#forge:dusts/arcane_crystal","#forge:dusts/gold","kubejs:infused_emerald"]).damageIngredient("#forge:tools/mortars", 4).id("kubejs:primitive_alchemical_dust")
 	
 	event.custom({
@@ -552,6 +590,8 @@ ServerEvents.recipes(event => {
 			}
 		]
 	})
+
+	
 	event.shaped('immersiveengineering:hemp_fabric',
 		[
 			"XYX",

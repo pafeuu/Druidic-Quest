@@ -294,7 +294,7 @@ ServerEvents.recipes(event => {
 		}
 	)
 
-	event.shaped("irons_spellbooks:wandering_magician_helmet",
+	event.shaped("irons_spellbooks:wandering_magician_boots",
 		[
 			"A L",
 			"L L"
