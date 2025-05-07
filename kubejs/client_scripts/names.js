@@ -10,4 +10,15 @@ ClientEvents.lang('en_us', event => {
     event.renameItem('enigmaticlegacy:infinimeal', 'Eternal Fertilizer')
     event.renameItem('enigmaticlegacy:evil_essence', 'Aspect of Evil')
 
+    event.renameItem("immersiveengineering:fluid_pipe", "Iron Fluid Pipe")
+    //event.renameItem("immmersiveengineering:dust_steel","Stainless Steel Dust")
+    event.renameItem("immmersiveengineering:plate_steel","Stainless Steel Plate")
+    event.renameItem("immmersiveengineering:nugget_steel","Stainless Steel Nugget")
+    event.renameItem("immmersiveengineering:storage_steel","Stainless Steel Block")
+    event.renameItem("immmersiveengineering:slab_storage_steel","Stainless Steel Slab")
+    event.renameItem("immmersiveengineering:stick_steel","Stainless Steel Rod")
+    event.renameItem("create:fluid_pipe", "Copper Fluid Pipe")
+    event.renameItem("quark:copper_pipe", "Copper Item Pipe")
+    event.renameItem("prettypipes:pipe", "Steel Item Pipe")
+
 })

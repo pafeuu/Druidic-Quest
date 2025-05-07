@@ -1605,6 +1605,7 @@ Patch 0.3.2.1
     -Sacrificial Dagger
     -Infused Diamond
     -Infused Emerald
+    -Arcane Leather
 
 ### Balance:
     -Decresead the amount of armor for wandering armor pieces and added ice and arcane resistance
