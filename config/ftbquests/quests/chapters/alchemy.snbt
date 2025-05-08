@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "alchemy"
+	group: "23A1FEBD04C34E2E"
+	icon: "kubejs:ultimate_alchemical_dust"
+	id: "7B57308B4628B310"
+	order_index: 8
+	quest_links: [ ]
+	quests: [ ]
+	title: "Alchemy"
+}

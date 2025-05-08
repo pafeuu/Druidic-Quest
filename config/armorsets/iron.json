@@ -38,17 +38,6 @@
       "interactionDuration": 300,
       "hideBonusDescription": false,
       "onlyImmuneToNewEffects": false
-    },
-    {
-      "type": "attribute",
-      "name": "minecraft:generic.movement_speed",
-      "value": -0.005,
-      "modifierUUID": "d5a7dc38-3405-4398-b1e5-250b4c6dd218",
-      "description": "Slightly slower movement speed",
-      "interactionType": "self",
-      "interactionDuration": 300,
-      "hideBonusDescription": false,
-      "onlyImmuneToNewEffects": false
     }
   ],
   "hideGeneratedTooltip": false
