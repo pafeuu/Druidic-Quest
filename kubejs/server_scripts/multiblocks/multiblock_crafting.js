@@ -309,6 +309,7 @@ ServerEvents.recipes(event => {
   function Sacrificing(entity,input,result,amount){
     event.custom({
       "type": "lychee:block_interacting",
+      "comment": "Needs the sacrifice of "+entity,
       "contextual": 
         [
           {"type": "execute", "command": `execute if entity @e[distance=..5, type=${entity}]`, "hide": true },
@@ -319,7 +320,7 @@ ServerEvents.recipes(event => {
       "post":[
         {
           "type": "execute",
-          "command": 'kill @e[distance=..5, type=minecraft:villager, limit=1]',
+          "command": `kill @e[distance=..5, type=${entity}, limit=1]`,
           "hide": true
         },
         {
@@ -355,6 +356,12 @@ ServerEvents.recipes(event => {
   }
 
   Sacrificing("minecraft:villager","minecraft:emerald","kubejs:infused_emerald",1)
+
+  Sacrificing("minecraft:wandering_trader","minecraft:diamond_block","kubejs:infused_diamond",4)
+
+  Sacrificing("minecraft:enderman","minecraft:diamond_block","kubejs:infused_diamond",1)
+
+  Sacrificing("minecraft:zombie","minecraft:glass_bottle","irons_spellbooks:blood_vial",1)
 
   Infusing("thermal:ruby",1,[
     { type: 'item', name: 'rubinated_nether:ruby' },

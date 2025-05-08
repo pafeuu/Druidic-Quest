@@ -531,6 +531,17 @@ ServerEvents.recipes(event => {
 	
 	/// ======================================================================= Tier 1 components =======================================================================
 
+	event.custom({
+		"type": "lychee:block_crushing",
+		"post": [
+			{"type": "place","block": "air"},
+			{"type": "drop_item","item": "irons_spellbooks:blood_vial"}
+		],
+		"item_in": [
+			{"item": "minecraft:glass_bottle"}
+		],
+		"landing_block": "architects_palette:rotten_flesh_block"
+	})
 	event.shaped('3x immersiveengineering:fluid_pipe',
 		[
 			"III",
@@ -557,8 +568,51 @@ ServerEvents.recipes(event => {
 
 	event.remove({id:"create:crafting/kinetics/fluid_pipe_vertical"})
 
-	event.shapeless('kubejs:primitive_alchemical_dust',["#forge:tools/mortars","#forge:dusts/arcane_crystal","#forge:dusts/gold","kubejs:infused_emerald"]).damageIngredient("#forge:tools/mortars", 4).id("kubejs:primitive_alchemical_dust")
+	event.shapeless('kubejs:primitive_alchemical_dust',[
+		"#forge:tools/mortars",
+		"#forge:dusts/arcane_crystal",
+		"#forge:dusts/gold",
+		"kubejs:infused_emerald"]).damageIngredient("#forge:tools/mortars", 4).id("kubejs:primitive_alchemical_dust")
 	
+	event.shapeless('kubejs:basic_alchemical_dust',[
+		"#forge:tools/mortars",
+		"kubejs:primitive_alchemical_dust",
+		"#forge:dusts/silver",
+		"kubejs:infused_diamond"]).damageIngredient("#forge:tools/mortars", 8).id("kubejs:basic_alchemical_dust")
+
+	event.custom({
+			type: "lychee:lightning_channeling",
+			item_in: [
+				{tag: "twilightforest:fiery_vial"},
+				{tag: "twilightforest:fiery_vial"},
+				{tag: "twilightforest:fiery_vial"},
+				{tag: "forge:ingots/inert_alloy"}
+			],
+			contextual: [
+				{type: "location",predicate:{dimension: "twilightforest:twilight_forest"}},
+			],
+			post: [
+				{
+					type: "delay",
+					s: 1
+				},
+				{
+					type: "drop_item",
+					item: "twilightforest:fiery_ingot",
+				},
+				{
+					type: "execute",
+					command: "playsound forbidden_arcanus:item.mundabitur_dust.use neutral @p",
+					hide: "true"
+				},
+				{
+					type: "execute",
+					command: "particle deep_aether:poison_bubbles ~ ~2 ~ 0 0 0 0.1 20",
+					hide: "true"
+				}
+			]
+	})
+
 	event.custom({
 		type: "lychee:lightning_channeling",
 		item_in: [
@@ -577,6 +631,38 @@ ServerEvents.recipes(event => {
 			{
 				type: "drop_item",
 				item: "twilightforest:naga_scale",
+			},
+			{
+				type: "execute",
+				command: "playsound forbidden_arcanus:item.mundabitur_dust.use neutral @p",
+				hide: "true"
+			},
+			{
+				type: "execute",
+				command: "particle deep_aether:poison_bubbles ~ ~2 ~ 0 0 0 0.1 20",
+				hide: "true"
+			}
+		]
+	})
+
+	event.custom({
+		type: "lychee:lightning_channeling",
+		item_in: [
+			{item: "kubejs:basic_alchemical_dust"},
+			{item: "irons_spellbooks:blood_vial"},
+			{item: "elementalcraft:firecrystal"}
+		],
+		contextual: [
+			{type: "location",predicate:{dimension: "twilightforest:twilight_forest"}},
+		],
+		post: [
+			{
+				type: "delay",
+				s: 1
+			},
+			{
+				type: "drop_item",
+				item: "twilightforest:fiery_blood",
 			},
 			{
 				type: "execute",
@@ -671,13 +757,14 @@ ServerEvents.recipes(event => {
 
 	event.custom({
 		type: "lychee:block_interacting",
-		item_in: [{tag:"forge:dusts/iron"}],
+		comment: "works 10% of times",
+		item_in: [{item:"kubejs:basic_alchemical_dust"}],
 		block_in: "infested_stone",
 		post: [
 			{type: "place", block: "air"},
 			{type: "if", contextual:{type: "chance", chance: 0.1}, 
 			then: {type: "drop_item", item: "thermal:silver_dust"},
-			else: {type: "execute", command: "summon minecraft:silverfish ~ ~ ~"}}		
+			else: {type: "execute", command: "summon minecraft:silverfish ~ ~ ~", hide: "true"}}		
 		]
 	})
 
@@ -1020,6 +1107,20 @@ ServerEvents.recipes(event => {
 	)
 	
 	/// ======================================================================= Tier 1 Machines =======================================================================
+
+	event.shaped("kubejs:sacrificial_altar",
+		[
+			"ZDZ",
+			"XMX",
+			"ZDZ"
+		],
+		{
+			Z: "#forge:plates/zinc",
+			M: "kubejs:primitive_machine",
+			X: "irons_spellbooks:blood_vial",
+			D: "kubejs:sturdy_deepslate"
+		}
+	)
 	
 	event.shaped("create:pulse_repeater",
 		[
@@ -2029,8 +2130,9 @@ ServerEvents.recipes(event => {
 	}
 	smithingtemplate("minecraft:mossy_stone_bricks","naturesaura:infused_iron","botanist")
 	smithingtemplate("elementalcraft:whiterock","naturesaura:sky_ingot","skyseeker")
-	smithingtemplate("basalt","thermal:gold_plate","gold")
+	smithingtemplate("basalt","#forge:plates/gold","gold")
 	smithingtemplate("end_stone","#forge:ingots/steel","steel")
+	smithingtemplate("deep_aether:aseterite","#forge:ingots/phoenix","phoenix")
 
 	event.recipes.naturesaura.tree_ritual("naturesaura:token_joy",
 	["#forge:gems/lapis","kubejs:basic_token","create:bar_of_chocolate","create:bar_of_chocolate","create:bar_of_chocolate","create:bar_of_chocolate","create:bar_of_chocolate","create:bar_of_chocolate"],"quark:yellow_blossom_sapling",100).id("naturesaura:tree_ritual/token_joy")
