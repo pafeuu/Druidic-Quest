@@ -290,6 +290,15 @@ StartupEvents.registry('item', item => {
   item.create("archers_glove").displayName("Archer's Glove").unstackable().tag("curios:hands")
   item.create('mittens').displayName('Mittens').tag("curios:hands").unstackable()
 
+  //===================================================FEET========================================================
+
+  item.create("bouncy_boots_cover").tag("curios:feet").unstackable()
+  item.create("silent_boots_cover").tag("curios:feet").unstackable()
+  item.create("fall_boots_cover").tag("curios:feet").unstackable()
+  item.create("gravity_boots_cover").tag("curios:feet").unstackable()
+  item.create("sturdy_boots_cover").tag("curios:feet").unstackable()
+
+
   ///===================================================TOTEMS
   
   item.create('roadrunner_totem').unstackable().tag("forge:tools/totems")
@@ -319,6 +328,7 @@ StartupEvents.registry('item', item => {
   item.create('gold_upgrade_smithing_template').displayName('Smithing Template').tag("dq:tier2/component")
   item.create('steel_upgrade_smithing_template').displayName('Smithing Template').tag("dq:tier3/component")
   item.create('skyseeker_upgrade_smithing_template').displayName('Smithing Template').tag("dq:tier3/component")
+  item.create('phoenix_upgrade_smithing_template').displayName('Smithing Template').tag("dq:tier3/component")
 
   ///===================================================KEYS===========================================================
 

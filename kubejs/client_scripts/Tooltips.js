@@ -76,10 +76,11 @@ ItemEvents.tooltip( tooltip => {
                })
   //======================================= Smithing Templates ==============================
 
-  tooltip.add("kubejs:botanist_upgrade_smithing_template", [Text.gray("Botanist Upgrade"), Text.green(""), Text.gray("Applies to:"), Text.blue(" Iron Equipment"), Text.gray("Ingredients:"), Text.blue(" Infused Iron Ingot")])
-  tooltip.add("kubejs:skyseeker_upgrade_smithing_template", [Text.gray("Skyseeker Upgrade"), Text.green(""), Text.gray("Applies to:"), Text.blue(" Diamond Equipment"), Text.gray("Ingredients:"), Text.blue(" Ingot of the Skies")])
-  tooltip.add("kubejs:gold_upgrade_smithing_template", [Text.gray("Gold Upgrade"), Text.green(""), Text.gray("Applies to:"), Text.blue(" Brass Equipment"), Text.gray("Ingredients:"), Text.blue(" Gold Upgrade Parts")])
-  tooltip.add("kubejs:steel_upgrade_smithing_template", [Text.gray("Gold Upgrade"), Text.green(""), Text.gray("Applies to:"), Text.blue(" Netherite Equipment"), Text.gray("Ingredients:"), Text.blue(" Steel Upgrade Parts")])
+  tooltip.add("kubejs:botanist_upgrade_smithing_template", [Text.gray("Botanist Upgrade"), Text.green(""), Text.gray("Applies to:"), Text.darkGreen(" Iron Equipment"), Text.gray("Ingredients:"), Text.darkGreen(" Infused Iron Ingot")])
+  tooltip.add("kubejs:skyseeker_upgrade_smithing_template", [Text.gray("Skyseeker Upgrade"), Text.green(""), Text.gray("Applies to:"), Text.aqua(" Diamond Equipment"), Text.gray("Ingredients:"), Text.aqua(" Ingot of the Skies")])
+  tooltip.add("kubejs:gold_upgrade_smithing_template", [Text.gray("Gold Upgrade"), Text.green(""), Text.gray("Applies to:"), Text.gold(" Brass Equipment"), Text.gray("Ingredients:"), Text.gold(" Gold Upgrade Parts")])
+  tooltip.add("kubejs:steel_upgrade_smithing_template", [Text.gray("Steel Upgrade"), Text.green(""), Text.gray("Applies to:"), Text.blue(" Netherite Equipment"), Text.gray("Ingredients:"), Text.blue(" Steel Upgrade Parts")])
+  tooltip.add("kubejs:phoenix_upgrade_smithing_template", [Text.gray("Phoenix Upgrade"), Text.green(""), Text.gray("Applies to:"), Text.red(" Fiery Equipment"), Text.gray("Ingredients:"), Text.red(" Phoenix Ingot")])
   
   //======================================= Custom Tools ====================================== 
     
@@ -169,6 +170,14 @@ ItemEvents.tooltip( tooltip => {
       text.add(1, Text.lightPurple("Speeds up furnaces"))
       text.add(2, Text.darkPurple("Speeds up copper aging"))
       text.add(3, Text.lightPurple("Pushes entities away"))
+    }
+  })
+
+  tooltip.addAdvanced("kubejs:bouncy_boots_cover", (item, advanced, text) => {
+    if (!tooltip.shift) {
+      text.add(1, [Text.of('Hold ').darkPurple(), Text.of('Shift ').gold(), Text.of('to see details').darkPurple()])
+    } else {
+      text.add(1, Text.lightPurple("Grants the Bounce effect while wearing light boots"))
     }
   })
 

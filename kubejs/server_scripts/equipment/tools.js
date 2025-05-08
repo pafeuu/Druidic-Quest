@@ -1298,6 +1298,7 @@ ServerEvents.recipes(event => {
 		},
 		"time": 200
 	}).id("thermal:tools/xp_crystal")
+	
 	/// ======================================================================= Tier 1 Tools ============================================================================
 	
 	event.shaped("kubejs:sacrificial_dagger",
