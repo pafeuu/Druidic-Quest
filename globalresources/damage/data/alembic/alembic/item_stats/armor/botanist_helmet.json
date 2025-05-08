@@ -7,6 +7,13 @@
       "value": 1,
       "operation": "ADDITION",
       "uuid": "6dd0fb52-1a49-4433-97ce-16de55ff1a2e"
+    },
+    {
+      "type": "append",
+      "attribute": "alembic:alchemical_damage",
+      "value": 0.20,
+      "operation": "ADDITION",
+      "uuid": "a58316d9-654d-422f-9f9b-9f32001c4ed3"
     }
   ],
   "equipment_slot": "HEAD"
