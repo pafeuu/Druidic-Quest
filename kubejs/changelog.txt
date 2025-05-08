@@ -1590,22 +1590,47 @@ Patch 0.3.2.1
     -Actually removed the mods removed in 1.0.0
     -Adjusted some ponders
 
-# Patch 1.0.2
+# Patch 1.1.0
 
 ### Recipes:
     -Changed for Naga Chestplate
     -Changed for Naga Leggings
     -Added for Naga Scale
+    -Added for Fiery Gloves
+    -Added for Phoenix Gloves
+    -Added for Phoenix Helmet
+    -Added for Phoenix Chestplate
+    -Added for Phoenix Leggings
+    -Added for Phoenix Helmet
     -Changed and Added for Wandering Magician Helmet
     -Changed and Added for Wandering Magician Chestplate
     -Changed and Added for Wandering Magician Leggings
     -Changed and Added for Wandering Magician Boots
+    -Added for fiery blood
+    -Added for primitive alchemical dust
+    -Added for basic alchemical dust
+    -Added for blood vial
+    -Added for Infused Emerald
+    -Changed for silver dust
 
 ### New Items:
     -Sacrificial Dagger
     -Infused Diamond
     -Infused Emerald
     -Arcane Leather
+    -Pheonix Smithing Upgrade Template
+
+### Removed Items:
+    -Valkyrie Lance
+    -Valkyrie Pickaxe
+    -Valkyrie Shovel
+    -Valkyrie Sword
+    -Valkyrie Axe
+    -Valkyrie Hoe
+    -Valkyrie Helmet
+    -Valkyrie Chestplate
+    -Valkyrie Leggings
+    -Valkyrie Boots
 
 ### Balance:
     -Decresead the amount of armor for wandering armor pieces and added ice and arcane resistance
@@ -1617,4 +1642,8 @@ Patch 0.3.2.1
 ### Worldgen
     -Added sapphire ore generation to the twilight forest
     -Removed Diamond Ore generation in twilight forest
+
+### Other:
+    -Adjusted Curios Slots
+    -Tagged all the armor(I hope) for the appriopriate tier for easier search
 
