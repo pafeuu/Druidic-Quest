@@ -304,4 +304,38 @@ ServerEvents.recipes(event => {
 			L: "leather"
 		}
 	)
+
+	SimpleArmorUpgrade("twilightforest:fiery_ingot",
+		"iron_helmet",
+		"iron_chestplate",
+		"iron_leggings",
+		"iron_boots",
+		"twilightforest:fiery_helmet",
+		"twilightforest:fiery_chestplate",
+		"twilightforest:fiery_leggings",
+		"twilightforest:fiery_boots")
+		
+	event.shaped("umbral_skies:fiery_gloves",
+		[
+			" F ",
+			"FXF",
+			" F "
+		],
+		{
+			F: "twilightforest:fiery_ingot",
+			X: "aether:iron_gloves"
+		}
+	)
+
+	event.remove([
+		{output:"twilightforest:fiery_helmet"},
+		{output:"twilightforest:fiery_chestplate"},
+		{output:"twilightforest:fiery_leggings"},
+		{output:"twilightforest:fiery_boots"}
+	])
+	armorslot.forEach(id => {
+		event.smithing("aether:phoenix_"+id,"kubejs:phoenix_upgrade_smithing_template","twilightforest:fiery_"+id,"kubejs:phoenix_ingot").id("aether:crafting/armor/phoenix_"+id)
+	})
+
+	event.smithing("aether:phoenix_gloves","kubejs:phoenix_upgrade_smithing_template","umbral_skies:fiery_gloves","kubejs:phoenix_ingot").id("aether:crafting/armor/phoenix_gloves")
 })

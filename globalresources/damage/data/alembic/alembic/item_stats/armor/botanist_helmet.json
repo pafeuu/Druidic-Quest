@@ -4,7 +4,7 @@
     {
       "type": "append",
       "attribute": "alembic:alchemical_damage.resistance",
-      "value": 1,
+      "value": 2,
       "operation": "ADDITION",
       "uuid": "6dd0fb52-1a49-4433-97ce-16de55ff1a2e"
     },

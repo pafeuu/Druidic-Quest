@@ -165,6 +165,26 @@ ItemEvents.modification(event => {
   
   //========================================Armor
 
+  event.modify("twilightforest:fiery_helmet", item=>{
+    item.armorProtection = 2,
+    item.armorToughness = 0
+  })
+
+  event.modify("twilightforest:fiery_chestplate", item=>{
+    item.armorProtection = 6,
+    item.armorToughness = 0
+  })
+
+  event.modify("twilightforest:fiery_leggings", item=>{
+    item.armorProtection = 5,
+    item.armorToughness = 0
+  })
+
+  event.modify("twilightforest:fiery_boots", item=>{
+    item.armorProtection = 2,
+    item.armorToughness = 0
+  })
+
   event.modify("quark:forgotten_hat", item=>{
     item.maxDamage = 110
   })
