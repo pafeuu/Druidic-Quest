@@ -1614,6 +1614,7 @@ Patch 0.3.2.1
     -Added for Infused Diamond
     -Changed for silver dust
     -Added for Sacrificial Altar
+    -Changed for Basic Chisel
 
 ### New Items:
     -Sacrificial Dagger
@@ -1643,6 +1644,7 @@ Patch 0.3.2.1
     -Slightly Buffed Botanist set pieces
     -Added fiery armor set bonus
     -Slightly Buffed Iron armor set bonus
+    -Nerfed Primitive Shears dig speed
 
 ### Loot tables:
     -Adjusted twilight forest maze loottables

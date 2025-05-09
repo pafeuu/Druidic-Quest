@@ -93,6 +93,10 @@ ItemEvents.modification(event => {
   event.modify('elementalcraft:chisel', item=>{
     item.maxDamage = 512
   })
+
+  event.modify("kubejs:primitive_shears", item=>{
+    item.digSpeed = 7
+  })
   
   tooltype.forEach((id) => {
     
