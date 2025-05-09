@@ -2341,13 +2341,17 @@ ServerEvents.recipes(event => {
 			A: "kubejs:mossy_sword"
 		}
 	)
+
+	
 	event.shaped("kubejs:basic_chisel",
 		[
-			' A',
-			'X '
+			'  A',
+			' X ',
+			'H  '
 		],
 		{
-			X: "kubejs:zinc_tool_handle",
+			H: "kubejs:zinc_tool_handle",
+			X: "kubejs:primitive_chisel",
 			A: "kubejs:arcane_alloy_ingot"
 		}
 	)
