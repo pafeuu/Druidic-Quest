@@ -78,6 +78,16 @@
         }
       ],
       "rolls": 1.0
+    },
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "kubejs:twilight_key"
+        }
+      ],
+      "rolls": 1.0
     }
   ],
   "random_sequence": "twilightforest:entities/naga"
