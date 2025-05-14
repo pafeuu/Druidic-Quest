@@ -93,10 +93,6 @@ ItemEvents.modification(event => {
   event.modify('elementalcraft:chisel', item=>{
     item.maxDamage = 512
   })
-
-  event.modify("kubejs:primitive_shears", item=>{
-    item.digSpeed = 7
-  })
   
   tooltype.forEach((id) => {
     
@@ -114,25 +110,9 @@ ItemEvents.modification(event => {
       item.maxDamage = 128
     })
 
-    event.modify('create_sa:copper_'+id, item=> {
-      item.digSpeed = 4,
-      item.maxDamage = 1024
-    })
-
     event.modify('minecraft:iron_'+id, item=>{
       item.maxDamage = 512
       // +0.5 block range
-    })
-
-    event.modify('create_sa:zinc_'+id, item=>{
-      item.maxDamage = 512
-      // +20% movement speed
-    })
-
-    event.modify('create_sa:brass_'+id, item=>{
-      item.digSpeed = 7,
-      item.maxDamage = 1024
-      // +1 Luck and 50% knockback resistance
     })
 
     event.modify('naturesaura:infused_iron_'+id, item=>{
@@ -148,11 +128,6 @@ ItemEvents.modification(event => {
 
     event.modify('aether:zanite_'+id, item=>{
       item.maxDamage = 1024
-      // +1 block range
-    })
-
-    event.modify('create_sa:experience_'+id, item=>{
-      item.maxDamage = 256
       // +1 block range
     })
 
