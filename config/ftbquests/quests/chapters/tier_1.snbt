@@ -1222,6 +1222,11 @@
 		}
 		{
 			dependencies: ["30B689B22757873D"]
+			description: [
+				"If you dont like fighting the twilight forest bosses there is a way to synthesize their drops using alchemy!"
+				""
+				"Check out the alchemy quest tab"
+			]
 			hide_until_deps_visible: false
 			id: "41FA7D0AD437E6FB"
 			rewards: [{

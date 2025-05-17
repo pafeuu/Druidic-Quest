@@ -101,6 +101,12 @@ ServerEvents.recipes(event => {
 		}
 	).id("minecraft:chest2")*/
 
+	event.recipes.farmersdelight.cutting(
+		"ender_pearl",
+		"#forge:tools/knives",
+		["2x forbidden_arcanus:ender_pearl_fragment",
+		Item.of("forbidden_arcanus:ender_pearl_fragment").withChance(0.25)]).id("forbidden_arcanus:ender_pearl_fragment")
+
 	event.shaped("minecraft:crafting_table",
 		[
 			"PP",
@@ -579,6 +585,20 @@ ServerEvents.recipes(event => {
 		"kubejs:primitive_alchemical_dust",
 		"#forge:dusts/silver",
 		"kubejs:infused_diamond"]).damageIngredient("#forge:tools/mortars", 8).id("kubejs:basic_alchemical_dust")
+
+	event.shapeless('kubejs:improved_alchemical_dust',[
+		"#forge:tools/mortars",
+		"kubejs:basic_alchemical_dust",
+		"tombstone:grave_dust",
+		"tombstone:essence_of_undeath",
+		"thermal:sapphire"]).damageIngredient("#forge:tools/mortars", 12).id("kubejs:improved_alchemical_dust")
+
+	event.shapeless('kubejs:advanced_alchemical_dust',[
+		"#forge:tools/mortars",
+		"kubejs:improved_alchemical_dust",
+		"#forge:ingots/fiery",
+		"kubejs:life_essence",
+		"thermal:ruby"]).damageIngredient("#forge:tools/mortars", 16).id("kubejs:advanced_alchemical_dust")
 
 	event.custom({
 			type: "lychee:lightning_channeling",

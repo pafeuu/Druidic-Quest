@@ -7,6 +7,234 @@
 	id: "7B57308B4628B310"
 	order_index: 8
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			description: [
+				"To get your &d&lfirst alchemical dust&r&r you are going to need some infused gems."
+				""
+				"Craft &4&lthe sacrificial altar&r&r for a way of obtaining &a&linfused emeralds&r&r and &b&ldiamonds&r&r"
+			]
+			id: "0FE985C7CD170DA6"
+			rewards: [
+				{
+					id: "12C376E31A2BC961"
+					item: "thermal:ruby"
+					type: "item"
+				}
+				{
+					id: "370F4BB2DE72FD1C"
+					item: "thermal:gold_coin"
+					type: "item"
+				}
+			]
+			size: 2.0d
+			tasks: [{
+				id: "2928517A9B893655"
+				item: "kubejs:sacrificial_altar"
+				type: "item"
+			}]
+			title: "Alchemical Begining"
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"0FE985C7CD170DA6"
+				"2499384C33421ED7"
+			]
+			id: "0024030A8C170534"
+			rewards: [{
+				count: 4
+				id: "4CEE3AB29DC89572"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "14DEE45E7D9470F6"
+				item: "kubejs:infused_emerald"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"0FE985C7CD170DA6"
+				"2499384C33421ED7"
+			]
+			id: "1BD83B6AB63F3178"
+			rewards: [{
+				id: "4D57803712779BE5"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2E5F9F08AB633FC7"
+				item: "kubejs:infused_diamond"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["0024030A8C170534"]
+			id: "1F1B1BF62C2E14CA"
+			rewards: [{
+				id: "6D5696CFACA1C29B"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "45E822BB18DC678F"
+				item: "kubejs:primitive_alchemical_dust"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"1BD83B6AB63F3178"
+				"1F1B1BF62C2E14CA"
+			]
+			id: "72B159FFE63F8CFA"
+			rewards: [{
+				count: 3
+				id: "57209BD55FA16B84"
+				item: "thermal:silver_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "442CBE61BADF69D1"
+				item: "kubejs:basic_alchemical_dust"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["0FE985C7CD170DA6"]
+			id: "7E552E2451203E0D"
+			tasks: [{
+				id: "54D13159A37BD090"
+				item: "thermal:sapphire"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["0FE985C7CD170DA6"]
+			id: "25D88EC6C72E5D78"
+			tasks: [{
+				id: "02F992CFD77F1F6D"
+				item: "thermal:ruby"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -8.5d
+		}
+		{
+			dependencies: [
+				"7E552E2451203E0D"
+				"72B159FFE63F8CFA"
+			]
+			id: "271C298B958B7602"
+			tasks: [{
+				id: "13D11DD56F3635BC"
+				item: "kubejs:improved_alchemical_dust"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -6.5d
+		}
+		{
+			dependencies: [
+				"25D88EC6C72E5D78"
+				"271C298B958B7602"
+			]
+			id: "5812063B29B992B5"
+			tasks: [{
+				id: "2CC05CEB95FF5B63"
+				item: "kubejs:advanced_alchemical_dust"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["1F1B1BF62C2E14CA"]
+			id: "7F24612EF01F5466"
+			rewards: [
+				{
+					id: "19FA00F7AAF68821"
+					item: "twilightforest:naga_scale"
+					type: "item"
+				}
+				{
+					id: "62C1E9BD3BCEDB97"
+					item: "thermal:silver_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "56D09B2259D33104"
+				item: "twilightforest:naga_scale"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["72B159FFE63F8CFA"]
+			id: "07EB636C6BF2BC33"
+			tasks: [{
+				id: "58BE83C027F1CEE4"
+				item: "thermal:silver_dust"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["72B159FFE63F8CFA"]
+			id: "743A87F1349B4C28"
+			tasks: [{
+				id: "76612EEC81F839FC"
+				item: "twilightforest:fiery_blood"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["0FE985C7CD170DA6"]
+			id: "2499384C33421ED7"
+			rewards: [{
+				id: "7E6DF66154AC3301"
+				item: {
+					Count: 1
+					id: "kubejs:basic_mortar"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3C583B733778C4F9"
+				item: {
+					Count: 1
+					id: "kubejs:sacrificial_dagger"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: -0.5d
+		}
+	]
 	title: "Alchemy"
 }
