@@ -338,4 +338,5 @@ ServerEvents.recipes(event => {
 	})
 
 	event.smithing("aether:phoenix_gloves","kubejs:phoenix_upgrade_smithing_template","umbral_skies:fiery_gloves","kubejs:phoenix_ingot").id("aether:crafting/armor/phoenix_gloves")
+	event.remove({output:"thermal:hazmat_fabric"})
 })
