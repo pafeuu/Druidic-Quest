@@ -1,0 +1,27 @@
+{
+  "id": "alexsmobs:fedora",
+  "modifiers": [
+    {
+      "type": "append",
+      "attribute": "alembic:alchemical_damage.resistance",
+      "value": 2,
+      "operation": "ADDITION",
+      "uuid": "711b1b08-0c12-4721-b23f-5da8d696d59b"
+    },
+    {
+      "type": "append",
+      "attribute": "alembic:fire_damage.resistance",
+      "value": 2,
+      "operation": "ADDITION",
+      "uuid": "2ca619f6-3a94-4e56-b86c-69e66c9957a0"
+    },
+    {
+      "type": "append",
+      "attribute": "alembic:arcane_damage.resistance",
+      "value": 2,
+      "operation": "ADDITION",
+      "uuid": "75d35001-3270-44d0-a82f-24e06d052e7e"
+    }
+  ],
+  "equipment_slot": "HEAD"
+}

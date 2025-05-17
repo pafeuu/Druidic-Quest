@@ -1,0 +1,20 @@
+{
+  "id": "alexsmobs:emu_leggings",
+  "modifiers": [
+    {
+      "type": "append",
+      "attribute": "alembic:ice_damage.resistance",
+      "value": 3,
+      "operation": "ADDITION",
+      "uuid": "6f0d1d49-f683-41d1-989d-12069ae6adf6"
+    },
+    {
+      "type": "append",
+      "attribute": "alembic:fire_damage.resistance",
+      "value": 4,
+      "operation": "ADDITION",
+      "uuid": "736b1812-46d1-47d9-ae0e-e8743e858448"
+    }
+  ],
+  "equipment_slot": "LEGS"
+}
