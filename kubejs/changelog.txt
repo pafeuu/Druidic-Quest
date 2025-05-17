@@ -1615,6 +1615,10 @@ Patch 0.3.2.1
     -Changed for silver dust
     -Added for Sacrificial Altar
     -Changed for Basic Chisel
+    -Removed recipe for the Protective Fabric (For now)
+    -Added for Improved Alchemical Dust
+    -Added for Advanced Alchemical Dust
+    -Changed for the enderpearl fragment
 
 ### New Items:
     -Sacrificial Dagger
@@ -1622,9 +1626,13 @@ Patch 0.3.2.1
     -Infused Emerald
     -Arcane Leather
     -Pheonix Smithing Upgrade Template
+    -Silent Boots Cover
+    -Featherfall Boots Cover
 
 ### Changed Textures:
     -Sacrificial Altar
+    -Light Essence
+    -Dark Essence
 
 ### Removed Items:
     -Valkyrie Lance
@@ -1649,6 +1657,8 @@ Patch 0.3.2.1
 ### Loot tables:
     -Adjusted twilight forest maze loottables
     -Fixed dimensional keys loottables
+    -Reworked Lich loot table
+    -Added the twilight key to the naga loot table
 
 ### Worldgen
     -Added sapphire ore generation to the twilight forest
@@ -1661,8 +1671,15 @@ Patch 0.3.2.1
     -Removed Copper Ore generation in twilight forest
     -Removed Lapis Ore generation in twilight forest
     -Removed Redstone Ore generation in twilight forest
+    -Removed Xpetrified Ore generation in the overworld
+    -Removed Arcane Crystal Ore generation in the overworld
 
 ### Other:
     -Adjusted Curios Slots
     -Tagged all the armor(I hope) for the appriopriate tier for easier search
 
+# Patch 1.2
+
+### Added Mods:
+    -Fluffy Fur API
+    -Wizards Reborn

@@ -177,7 +177,23 @@ ItemEvents.tooltip( tooltip => {
     if (!tooltip.shift) {
       text.add(1, [Text.of('Hold ').darkPurple(), Text.of('Shift ').gold(), Text.of('to see details').darkPurple()])
     } else {
-      text.add(1, Text.lightPurple("Grants the Bounce effect while wearing light boots"))
+      text.add(1, Text.lightPurple("Grants the Bounce effect when worn"))
+    }
+  })
+
+  tooltip.addAdvanced("kubejs:sturdy_boots_cover", (item, advanced, text) => {
+    if (!tooltip.shift) {
+      text.add(1, [Text.of('Hold ').darkPurple(), Text.of('Shift ').gold(), Text.of('to see details').darkPurple()])
+    } else {
+      text.add(1, Text.lightPurple("Grants the Knockback Resistance effect when worn"))
+    }
+  })
+
+  tooltip.addAdvanced("kubejs:silent_boots_cover", (item, advanced, text) => {
+    if (!tooltip.shift) {
+      text.add(1, [Text.of('Hold ').darkPurple(), Text.of('Shift ').gold(), Text.of('to see details').darkPurple()])
+    } else {
+      text.add(1, Text.lightPurple("Grants the Sculk Affinity effect when worn"))
     }
   })
 

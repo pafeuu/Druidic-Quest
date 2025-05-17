@@ -1,0 +1,28 @@
+{
+  "id": "kubejs:fall_boots_cover",
+  "modifiers": [
+    {
+      "type": "append",
+      "attribute": "puffish_attributes:fall_reduction",
+      "value": 1,
+      "operation": "MULTIPLY_TOTAL",
+      "uuid": "d94db739-24f5-4216-9fe2-f6ea69d5384c"
+    },
+    {
+      "type": "append",
+      "attribute": "alembic:fire_damage.resistance",
+      "value": -2,
+      "operation": "ADDITION",
+      "uuid": "84e9fde3-90dc-40cf-89a3-f93f8c08bbd6"
+    },
+    {
+      "type": "append",
+      "attribute": "alembic:true_damage.resistance",
+      "value": -3,
+      "operation": "ADDITION",
+      "uuid": "bd51ae4f-8a98-4f8d-b356-8aaf7b9e7e0e"
+    }
+    
+  ],
+  "equipment_slot": "feet"
+}

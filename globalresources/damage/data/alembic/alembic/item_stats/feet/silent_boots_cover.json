@@ -1,0 +1,27 @@
+{
+  "id": "kubejs:silent_boots_cover",
+  "modifiers": [
+    {
+      "type": "append",
+      "attribute": "alembic:ice_damage.resistance",
+      "value": 2,
+      "operation": "ADDITION",
+      "uuid": "92f2eea6-c78d-4ae1-8db6-f54d8ea8ace6"
+    },
+    {
+      "type": "append",
+      "attribute": "alembic:fire_damage.resistance",
+      "value": -2,
+      "operation": "ADDITION",
+      "uuid": "79a69bc2-2448-4d03-8b5d-8797f3ac75ba"
+    },
+    {
+      "type": "append",
+      "attribute": "alembic:arcane_damage.resistance",
+      "value": -3,
+      "operation": "ADDITION",
+      "uuid": "f05ca9dc-6c6f-49d9-8bda-12c4eafff46c"
+    }
+  ],
+  "equipment_slot": "feet"
+}

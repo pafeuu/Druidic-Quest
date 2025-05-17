@@ -1,0 +1,19 @@
+{
+  "armorSetName": "sturdy_boots",
+  "performanceMode": false,
+  "additionalSetPieces":[
+   {
+    "itemKey": "kubejs:sturdy_boots_cover"
+   }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "effect",
+      "name": "alexsmobs:knockback_resistance",
+      "value": 0.0,
+      "interactionType": "self",
+      "interactionDuration": 100
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

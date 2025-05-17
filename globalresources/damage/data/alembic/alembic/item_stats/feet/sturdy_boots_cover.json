@@ -1,0 +1,34 @@
+{
+  "id": "kubejs:sturdy_boots_cover",
+  "modifiers": [
+    {
+      "type": "append",
+      "attribute": "minecraft:generic.max_health",
+      "value": 0.05,
+      "operation": "MULTIPLY_TOTAL",
+      "uuid": "1af93f61-03a2-477e-890e-178035dda7c0"
+    },
+    {
+      "type": "append",
+      "attribute": "minecraft:generic.movement_speed",
+      "value": -0.1,
+      "operation": "MULTIPLY_TOTAL",
+      "uuid": "8fa17398-f0c8-475d-998d-870b98bed488"
+    },
+    {
+      "type": "append",
+      "attribute": "minecraft:generic.armor_toughness",
+      "value": 0.1,
+      "operation": "MULTIPLY_TOTAL",
+      "uuid": "94b4e0bf-3bfd-400f-b608-07c7107e1882"
+    },
+    {
+      "type": "append",
+      "attribute": "forge:entity_gravity",
+      "value": 0.3,
+      "operation": "MULTIPLY_TOTAL",
+      "uuid": "31c13e59-1333-4f41-968e-09a4e10cfcf0"
+    }
+  ],
+  "equipment_slot": "feet"
+}

@@ -1,0 +1,19 @@
+{
+  "armorSetName": "bouncy_boots",
+  "performanceMode": false,
+  "additionalSetPieces":[
+   {
+    "itemKey": "kubejs:silent_boots_cover"
+   }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "effect",
+      "name": "deeperdarker:sculk_affinity",
+      "value": 0.0,
+      "interactionType": "self",
+      "interactionDuration": 100
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

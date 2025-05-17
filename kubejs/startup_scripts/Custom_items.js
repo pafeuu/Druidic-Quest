@@ -294,7 +294,7 @@ StartupEvents.registry('item', item => {
 
   item.create("bouncy_boots_cover").tag("curios:feet").unstackable()
   item.create("silent_boots_cover").tag("curios:feet").unstackable()
-  item.create("fall_boots_cover").tag("curios:feet").unstackable()
+  item.create("fall_boots_cover").tag("curios:feet").unstackable().displayName("Featherfall Boots Cover")
   item.create("gravity_boots_cover").tag("curios:feet").unstackable()
   item.create("sturdy_boots_cover").tag("curios:feet").unstackable()
 

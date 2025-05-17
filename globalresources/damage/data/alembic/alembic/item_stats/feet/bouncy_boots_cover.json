@@ -1,0 +1,20 @@
+{
+  "id": "kubejs:bouncy_boots_cover",
+  "modifiers": [
+    {
+      "type": "append",
+      "attribute": "alembic:alchemical_damage.resistance",
+      "value": 2,
+      "operation": "ADDITION",
+      "uuid": "cd0ed463-7383-43b1-b288-05fb01e7faf3"
+    },
+    {
+      "type": "append",
+      "attribute": "alembic:fire_damage.resistance",
+      "value": -5,
+      "operation": "ADDITION",
+      "uuid": "cb813581-dfd0-40e7-97c8-11e8ae091faf"
+    }
+  ],
+  "equipment_slot": "feet"
+}

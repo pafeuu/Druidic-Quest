@@ -1,0 +1,20 @@
+{
+  "id": "kubejs:gravity_boots_cover",
+  "modifiers": [
+    {
+      "type": "append",
+      "attribute": "forge:entity_gravity",
+      "value": -0.5,
+      "operation": "MULTIPLY_TOTAL",
+      "uuid": "31c13e59-1ac5-4f41-968e-09a4e10cfcf0"
+    },
+    {
+      "type": "append",
+      "attribute": "alembic:arcane_damage.resistance",
+      "value": 3,
+      "operation": "ADDITION",
+      "uuid": "91ead226-b151-44f7-b91f-4abc4dd5ce01"
+    }
+  ],
+  "equipment_slot": "feet"
+}

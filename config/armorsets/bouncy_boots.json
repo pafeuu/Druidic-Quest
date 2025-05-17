@@ -1,0 +1,19 @@
+{
+  "armorSetName": "bouncy_boots",
+  "performanceMode": false,
+  "additionalSetPieces":[
+   {
+    "itemKey": "kubejs:bouncy_boots_cover"
+   }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "effect",
+      "name": "ars_nouveau:bounce",
+      "value": 0.0,
+      "interactionType": "self",
+      "interactionDuration": 100
+    }
+  ],
+  "hideGeneratedTooltip": true
+}
