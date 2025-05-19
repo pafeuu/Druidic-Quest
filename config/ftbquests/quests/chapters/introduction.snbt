@@ -803,6 +803,7 @@
 			shape: "rsquare"
 			subtitle: "Explosion Crafting!"
 			tasks: [{
+				icon: "handcrafted:creeper_trophy"
 				id: "509547F8D00897E5"
 				observe_type: 5
 				timer: 0L

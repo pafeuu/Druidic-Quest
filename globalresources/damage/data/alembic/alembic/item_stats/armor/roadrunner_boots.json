@@ -1,0 +1,20 @@
+{
+  "id": "alexsmobs:roadrunner_boots",
+  "modifiers": [
+    {
+      "type": "append",
+      "attribute": "alembic:fire_damage.resistance",
+      "value": 2,
+      "operation": "ADDITION",
+      "uuid": "4073faa8-b016-4da1-bf3e-b9817da5c95d"
+    },
+    {
+      "type": "append",
+      "attribute": "alembic:alchemical_damage.resistance",
+      "value": 2,
+      "operation": "ADDITION",
+      "uuid": "5f2889eb-bfec-4b5b-bd18-4d44eabeb0dd"
+    }
+  ],
+  "equipment_slot": "FEET"
+}

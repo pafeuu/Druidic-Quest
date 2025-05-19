@@ -1,0 +1,20 @@
+{
+  "id": "alexsmobs:flying_fish_boots",
+  "modifiers": [
+    {
+      "type": "append",
+      "attribute": "alembic:arcane_damage.resistance",
+      "value": 2,
+      "operation": "ADDITION",
+      "uuid": "0fccd5b3-4b7e-4ede-83eb-c2c526b01e66"
+    },
+    {
+      "type": "append",
+      "attribute": "alembic:ice_damage.resistance",
+      "value": 2,
+      "operation": "ADDITION",
+      "uuid": "1faf4063-74a7-4f7a-9c29-432b0e7b2a38"
+    }
+  ],
+  "equipment_slot": "FEET"
+}
