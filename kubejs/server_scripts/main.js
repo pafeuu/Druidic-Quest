@@ -1128,6 +1128,51 @@ ServerEvents.recipes(event => {
 	
 	/// ======================================================================= Tier 1 Machines =======================================================================
 
+	event.shaped("thermal:item_buffer",
+		[
+			"TZT",
+			"LML",
+			"TXT"
+		],
+		{
+			T: "#forge:plates/tin",
+			L: "#forge:plates/lead",
+			M: "kubejs:primitive_machine",
+			Z: "create:attribute_filter",
+			X: "woodenhopper:wooden_hopper"
+		}
+	).id("thermal:item_buffer")
+
+	event.shaped("thermal:device_water_gen",
+		[
+			"LZL",
+			"CMC",
+			"LXL"
+		],
+		{
+			C: "#forge:gears/copper",
+			L: "#forge:plates/lead",
+			M: "kubejs:primitive_machine",
+			Z: "immersiveengineering:fluid_pipe",
+			X: "immersiveengineering:fluid_pump"
+		}
+	).id("thermal:device_water_gen")
+
+	event.shaped("thermal:device_xp_condenser",
+		[
+			"LZL",
+			"CMC",
+			"LXL"
+		],
+		{
+			C: "#forge:gears/infused_iron",
+			L: "#forge:plates/lead",
+			M: "kubejs:basic_magic_machine",
+			Z: "sculk_catalyst",
+			X: "thermal:xp_crystal"
+		}
+	).id("thermal:device_xp_condenser")
+
 	event.shaped("kubejs:sacrificial_altar",
 		[
 			"ZDZ",
@@ -3244,6 +3289,90 @@ ServerEvents.recipes(event => {
 	
 	///======================================== Tier 3 Machines =======================================================================
 
+	event.shaped("create:mechanical_arm",
+		[
+			"GRA",
+			" B ",
+			"CMC"
+		],
+		{
+			G: "ars_nouveau:glyph_interact",
+			R: "#forge:rods/brass",
+			A: "#forge:gears/andesite",
+			B: "#forge:gears/brass",
+			C: "create:brass_casing",
+			M: "kubejs:andesite_machine"
+		}
+	).id("create:crafting/kinetics/mechanical_arm")
+
+	event.shaped("create:mechanical_piston",
+		[
+			"P",
+			"M",
+			"R"
+		],
+		{
+			P: "piston",
+			M: "kubejs:andesite_machine",
+			R: "create:piston_extension_pole"
+		}
+	).id("create:crafting/kinetics/mechanical_piston")
+
+	event.shaped("create:sticky_mechanical_piston",
+		[
+			"P",
+			"M",
+			"R"
+		],
+		{
+			P: "sticky_piston",
+			M: "kubejs:andesite_machine",
+			R: "create:piston_extension_pole"
+		}
+	)
+
+	event.shaped("create:sticker",
+		[
+			"CSC",
+			"CMC",
+			"CRC"
+		],
+		{
+			C: "#c:cobblestones",
+			M: "kubejs:primitive_machine",
+			S: "slime_block",
+			R: "supplementaries:cog_block"
+		}
+	).id("create:crafting/kinetics/sticker")
+
+	event.shaped("create:rotation_speed_controller",
+		[
+			"PGP",
+			"AMD",
+			"PPP"
+		],
+		{
+			P: "#forge:plates/brass",
+			G: "#forge:gears/brass",
+			A: "ars_nouveau:glyph_accelerate",
+			D: "ars_nouveau:glyph_decelerate",
+			M: "kubejs:andesite_machine"
+		}
+	).id("create:crafting/kinetics/rotation_speed_controller")
+
+	event.shaped("create:andesite_funnel",
+		[
+			" A ",
+			"ACA",
+			" A "
+		],
+		{
+			A: "andesite",
+			C: "immersiveengineering:conveyor_extract"
+		}
+	).id("create:crafting/logistics/andesite_funnel")
+
+	
 	event.shaped("create:steam_engine",
 		[
 			"PAP",

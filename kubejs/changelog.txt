@@ -1680,6 +1680,18 @@ Patch 0.3.2.1
 
 # Patch 1.2
 
+### Recipes:
+    -Changed for Insightful Condenser
+    -Changed for Aqueous Accumulator
+    -Changed for logistical Item Buffer
+    -Changed for Rotation Speed Controller
+    -Changed for Mechanical Arm
+    -Changed for Mechanical Piston
+    -Changed for Mechanical Sticky Piston
+
+
+# Patch 2.0
+
 ### Added Mods:
     -Fluffy Fur API
     -Wizards Reborn
