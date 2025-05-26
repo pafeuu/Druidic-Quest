@@ -1680,14 +1680,52 @@ Patch 0.3.2.1
 
 # Patch 1.2
 
+### New Mods:
+    -Configured
+    -TerraBlender Fix
+    
 ### Recipes:
     -Changed for Insightful Condenser
     -Changed for Aqueous Accumulator
-    -Changed for logistical Item Buffer
+    -Changed for Logistical Item Buffer
     -Changed for Rotation Speed Controller
     -Changed for Mechanical Arm
     -Changed for Mechanical Piston
     -Changed for Mechanical Sticky Piston
+    -Changed for Andesite Funnel
+    -Changed for Sticker
+    -Changed for Dimension Ripper
+    -Added Planks recipes for Stripped Log into the Saw block
+
+### Balance:
+    -Buffed Cave Centipede Leggings
+    -Buffed Fedora
+    -Buffed Unsettling Kimono
+    -Buffed Emu Leggings
+    -Buffed Roadrunner Boots
+    -Buffed Flying Fish Boots
+
+
+### Textures:
+    -Changed for hotbar
+
+### Other:
+    -Added tooltip to the Stone Claymore
+    -Fixed Beekeeper armour not appearing in the quests
+    -Fixed Eukalyptus wood recipes
+
+# Patch 1.2.1
+
+### Recipes:
+    -Removed for Sticks from Logs
+    -Changed for Boom Arrows
+    -Changed for Crates from farmersdelight, quark and thermal
+    -Changed for Ancient Tall Door and Ancient Short Door
+    -Added for Overgrown Ancient Door
+    -Fixed for Gunpowder Block
+
+### Removed items
+    -Removed a couple of duplicate blocks
 
 
 # Patch 2.0
@@ -1695,3 +1733,5 @@ Patch 0.3.2.1
 ### Added Mods:
     -Fluffy Fur API
     -Wizards Reborn
+
+
