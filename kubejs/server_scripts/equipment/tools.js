@@ -211,6 +211,15 @@ ServerEvents.recipes(event => {
 			],
 			"block_in": log
 		  })// Adds recipe for planks > Clicking stripped logs with a sam will drop 3 planks and remove the block
+		  event.custom({
+			type: "sawmill:woodcutting",
+			count: 3,
+			ingredient: {
+				item: log
+			},
+			result: planks
+		})
+
 
 		event.remove({output:planks, type:"minecraft:crafting_shapeless"}) // Removes default shapeless recipe recipe
 	}
@@ -254,7 +263,7 @@ ServerEvents.recipes(event => {
 	CuttingLogs("regions_unexplored:cobalt_planks","regions_unexplored:stripped_cobalt_log")
 	CuttingLogs("regions_unexplored:cypress_planks","regions_unexplored:stripped_cypress_log")
 	CuttingLogs("regions_unexplored:dead_planks","regions_unexplored:stripped_dead_log")
-	CuttingLogs("regions_unexplored:eucaulyptus_planks","regions_unexplored:stripped_eucaulyptus_log")
+	CuttingLogs("regions_unexplored:eucalyptus_planks","regions_unexplored:stripped_eucalyptus_log")
 	CuttingLogs("regions_unexplored:joshua_planks","regions_unexplored:stripped_joshua_log")
 	CuttingLogs("regions_unexplored:kapok_planks","regions_unexplored:stripped_kapok_log")
 	CuttingLogs("regions_unexplored:larch_planks","regions_unexplored:stripped_larch_log")
