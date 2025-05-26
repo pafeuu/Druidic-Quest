@@ -261,7 +261,10 @@ global.nukelist = ["twigs:calcite_wall",
 	'tombstone:scroll_of_lightning_resistance',
 	'tombstone:scroll_of_frost_resistance',
 	'tombstone:scroll_of_aquatic_life',
-	'tombstone:scroll_of_mercy']/*,
+	'tombstone:scroll_of_mercy',
+	'everycomp:tf/twilightforest/mangrove_banister',
+	"everycomp:tf/aether/skyroot_banister",
+	"twigs:tuff_stairs"]/*,
 	'thermal:constantan_dust',
 	'thermal:bronze_dust',
 	'thermal:enderium_dust',
@@ -274,6 +277,59 @@ global.nukelist = ["twigs:calcite_wall",
 	'thermal:invar_dust']*/
 
 ServerEvents.recipes(event => {
+
+	let RemoveById = ["thermal:compat/immersiveengineering/press_ie_steel_ingot_to_plate",
+		"vintageimprovements:pressing/uranium_ingot",
+		"immersiveengineering:metalpress/plate_uranium",
+		"thermal:compat/immersiveengineering/press_ie_uranium_ingot_to_plate",
+		"create:pressing/gold_ingot",
+		"thermal:machines/press/press_gold_ingot_to_plate",
+		"immersiveengineering:metalpress/plate_brass",
+		"vintageimprovements:pressing/nickel_ingot",
+		"vintageimprovements:pressing/rose_gold_ingot",
+		"vintageimprovements:pressing/signalum_ingot",
+		"vintageimprovements:pressing/vanadium_ingot",
+		"create:pressing/copper_ingot",
+		"create:pressing/brass_ingot",
+		"create:pressing/iron_ingot",
+		"vintageimprovements:pressing/bronze_ingot",
+		"vintageimprovements:pressing/constantan_ingot",
+		"vintageimprovements:pressing/enderium_ingot",
+		"vintageimprovements:pressing/fiery_ingot",
+		"vintageimprovements:pressing/invar_ingot",
+		"vintageimprovements:pressing/ironwood_ingot",
+		"vintageimprovements:pressing/knightmetal_ingot",
+		"vintageimprovements:pressing/lead_ingot",
+		"vintageimprovements:pressing/lumium_ingot",
+		"vintageimprovements:pressing/silver_ingot",
+		"vintageimprovements:pressing/tin_ingot",
+		"immersiveengineering:metalpress/plate_zinc",
+		"vintageimprovements:pressing/andesite_alloy",
+		"thermal:compat/immersiveengineering/press_ie_aluminum_ingot_to_plate",
+		"immersiveengineering:metalpress/plate_steel",
+		"immersiveengineering:metalpress/plate_silver",
+		"thermal:machines/press/press_netherite_ingot_to_plate",
+		"immersiveengineering:metalpress/plate_electrum",
+		"vintageimprovements:hammering/netherite_ingot",
+		"thermal:storage/carrot_block",
+		"thermal:storage/apple_block",
+		"thermal:machines/press/packing3x3/press_potato_packing",
+		"thermal:storage/beetroot_block",
+		"thermal:storage/sugar_cane_block",
+		"thermal:machines/press/packing3x3/press_beetroot_packing",
+		"thermal:machines/press/packing3x3/press_beetroot_packing",
+		"thermal:machines/press/packing3x3/press_carrot_packing",
+		"thermal:machines/press/packing3x3/press_sugar_cane_packing",
+		"thermal:machines/press/packing3x3/press_apple_packing",
+		"quark:building/crafting/compressed/beetroot_crate",
+		"quark:building/crafting/compressed/carrot_crate",
+		"quark:building/crafting/compressed/apple_crate",
+		"thermal:storage/gunpowder_block",
+		"thermal:storage/gunpowder_from_block"]
+	
+	RemoveById.forEach(id => {
+		event.remove({id:id})
+	});
 
 	event.remove({output:[global.nukelist]})
 	event.remove({input:[global.nukelist]})
@@ -291,11 +347,75 @@ ServerEvents.recipes(event => {
 	
 	event.stonecutting("farmersdelight:potato_crate","thermal:potato_block")
 	event.stonecutting("farmersdelight:potato_crate","quark:potato_crate")
+
+	event.stonecutting("thermal:potato_block","farmersdelight:potato_crate")
+	event.stonecutting("thermal:potato_block","quark:potato_crate")
+
+	event.stonecutting("quark:potato_crate","farmersdelight:potato_crate")
+	event.stonecutting("quark:potato_crate","thermal:potato_block")
+
+	event.stonecutting("quark:beetroot_crate","thermal:beetroot_block")
+	event.stonecutting("quark:beetroot_crate","farmersdelight:beetroot_crate")
+
+	event.stonecutting("thermal:beetroot_block","quark:beetroot_crate")
+	event.stonecutting("thermal:beetroot_block","farmersdelight:beetroot_crate")
+
+	event.stonecutting("farmersdelight:beetroot_crate","quark:beetroot_crate")
+	event.stonecutting("farmersdelight:beetroot_crate","thermal:beetroot_block")
+
+	event.stonecutting("quark:apple_crate","fruitsdelight:apple_crate")
+	event.stonecutting("quark:apple_crate","thermal:apple_block")
+
+	event.stonecutting("thermal:apple_block","fruitsdelight:apple_crate")
+	event.stonecutting("thermal:apple_block","quark:apple_crate")
+
+	event.stonecutting("fruitsdelight:apple_crate","quark:apple_crate")
+	event.stonecutting("fruitsdelight:apple_crate","thermal:apple_block")
+
+	event.stonecutting("quark:carrot_crate","farmersdelight:carrot_crate")
+	event.stonecutting("quark:carrot_crate","thermal:carrot_block")
+
+	event.stonecutting("thermal:carrot_block","farmersdelight:carrot_crate")
+	event.stonecutting("thermal:carrot_block","quark:carrot_crate")
+
+	event.stonecutting("farmersdelight:carrot_crate","quark:carrot_crate")
+	event.stonecutting("farmersdelight:carrot_crate","thermal:carrot_block")
+
+	event.stonecutting("quark:sugar_cane_block","thermal:sugar_cane_block")
+	event.stonecutting("thermal:sugar_cane_block","quark:sugar_cane_block")
+
+	
 	event.remove({id:"quark:building/crafting/compressed/potato_crate"})
+	event.remove({id:"quark:tweaks/crafting/utility/misc/easy_sticks"})
 	event.remove({id:"thermal:storage/potato_block"})
+	event.replaceInput({id:"forbidden_arcanus:boom_arrow"},"arrow","archers_paradox:explosive_arrow")
 
 	event.shapeless("create:iron_sheet",["thermal:iron_plate"])
 	event.shapeless("create:golden_sheet",["thermal:gold_plate"])
+
+	event.shaped("3x everycomp:ch/naturesaura/overgrown_ancient_door",
+		[
+			"AA",
+			"AA",
+			"AA"
+		],
+		{
+			A: "naturesaura:ancient_planks"
+		}
+	)
+
+	event.shaped("2x everycomp:dd/naturesaura/tall_ancient_door",
+		[
+			"A",
+			"A",
+			"A"
+		],
+		{
+			A: "everycomp:ch/naturesaura/overgrown_ancient_door"
+		}
+	).id("everycomp:dd/naturesaura/tall_ancient_door")
+
+	event.stonecutting("everycomp:dd/naturesaura/short_ancient_door","everycomp:ch/naturesaura/overgrown_ancient_door").id("everycomp:dd/naturesaura/short_ancient_door")
 
 	function StorageCompacting(big,small)
 	{
@@ -765,44 +885,6 @@ ServerEvents.recipes(event => {
 	plates("forge:ingots/tainted_gold","kubejs:tainted_gold_sheet","naturesaura:tainted_gold_block")
 	plates("forge:ingots/sky","kubejs:sky_sheet","naturesaura:sky_ingot_block")
 	plates("forge:ingots/depth","kubejs:depth_sheet","naturesaura:depth_ingot_block")
-
-	let RemoveById = ["thermal:compat/immersiveengineering/press_ie_steel_ingot_to_plate",
-		"vintageimprovements:pressing/uranium_ingot",
-		"immersiveengineering:metalpress/plate_uranium",
-		"thermal:compat/immersiveengineering/press_ie_uranium_ingot_to_plate",
-		"create:pressing/gold_ingot",
-		"thermal:machines/press/press_gold_ingot_to_plate",
-		"immersiveengineering:metalpress/plate_brass",
-		"vintageimprovements:pressing/nickel_ingot",
-		"vintageimprovements:pressing/rose_gold_ingot",
-		"vintageimprovements:pressing/signalum_ingot",
-		"vintageimprovements:pressing/vanadium_ingot",
-		"create:pressing/copper_ingot",
-		"create:pressing/brass_ingot",
-		"create:pressing/iron_ingot",
-		"vintageimprovements:pressing/bronze_ingot",
-		"vintageimprovements:pressing/constantan_ingot",
-		"vintageimprovements:pressing/enderium_ingot",
-		"vintageimprovements:pressing/fiery_ingot",
-		"vintageimprovements:pressing/invar_ingot",
-		"vintageimprovements:pressing/ironwood_ingot",
-		"vintageimprovements:pressing/knightmetal_ingot",
-		"vintageimprovements:pressing/lead_ingot",
-		"vintageimprovements:pressing/lumium_ingot",
-		"vintageimprovements:pressing/silver_ingot",
-		"vintageimprovements:pressing/tin_ingot",
-		"immersiveengineering:metalpress/plate_zinc",
-		"vintageimprovements:pressing/andesite_alloy",
-		"thermal:compat/immersiveengineering/press_ie_aluminum_ingot_to_plate",
-		"immersiveengineering:metalpress/plate_steel",
-		"immersiveengineering:metalpress/plate_silver",
-		"thermal:machines/press/press_netherite_ingot_to_plate",
-		"immersiveengineering:metalpress/plate_electrum",
-		"vintageimprovements:hammering/netherite_ingot"]
-	
-	RemoveById.forEach(id => {
-		event.remove({id:id})
-	});
 	
 
 
