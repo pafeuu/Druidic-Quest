@@ -806,7 +806,7 @@ ServerEvents.recipes(event => {
 			  item: "quark:diamond_heart"
 			},
 			{
-			  item: "forbidden_arcanus:arcane_crystal"
+			  item: "forbidden_arcanus:ender_pearl_fragment"
 			},
 			{
 			  item:  "diamond"
@@ -1911,7 +1911,7 @@ ServerEvents.recipes(event => {
 	  ],
 	  {
 		P: "#minecraft:planks",
-		M: '#forge:ingots/iron',
+		M: '#forge:ingots/iron'
 	  }
 	)
 	
