@@ -84,6 +84,35 @@ ServerEvents.recipes(event => {
     AoeHoe("minecraft:dirt", "minecraft:farmland")
     AoeHoe("minecraft:coarse_dirt", "minecraft:dirt")
     AoeHoe("minecraft:dirt_path", "minecraft:farmland")
+
+    AoeHoe("farmersdelight:rich_soil","farmersdelight:rich_soil_farmland")
+    AoeHoe("vintagedelight:lush_grass_block","farmersdelight:rich_soil_farmland")
+
+    AoeHoe("immersive_weathering:grassy_earthen_clay","immersive_weathering:earthen_clay_farmland")
+    AoeHoe("immersive_weathering:earthen_clay","immersive_weathering:earthen_clay_farmland")
+
+    AoeHoe("immersive_weathering:loam","immersive_weathering:loamy_farmland")
+
+    AoeHoe("aether_redux:coarse_aether_dirt","aether:aether_dirt")
+    AoeHoe("deep_aether:aether_coarse_dirt","aether:aether_dirt")
+    AoeHoe("aether:aether_dirt","aether:aether_farmland")
+
+    AoeHoe("immersive_weathering:sandy_dirt","immersive_weathering:sandy_farmland")
+    AoeHoe("immersive_weathering:grassy_sandy_dirt","immersive_weathering:sandy_farmland")
+
+    AoeHoe("immersive_weathering:silt","immersive_weathering:silty_farmland")
+    AoeHoe("immersive_weathering:grassy_silt","immersive_weathering:silty_farmland")
+
+    AoeHoe("regions_unexplored:peat_dirt","regions_unexplored:peat_farmland")
+    AoeHoe("regions_unexplored:peat_grass_block","regions_unexplored:peat_farmland")
+    AoeHoe("regions_unexplored:peat_coarse_dirt","regions_unexplored:peat_dirt")
+
+    AoeHoe("regions_unexplored:silt_dirt","regions_unexplored:silt_farmland")
+    AoeHoe("regions_unexplored:silt_grass_block","regions_unexplored:silt_farmland")
+    AoeHoe("regions_unexplored:silt_coarse_dirt","regions_unexplored:silt_dirt")
+
+    AoeHoe("mynethersdelight:resurgent_soil","mynethersdelight:resurgent_soil_farmland")
+    
     //AoeHoe("minecraft:podzol", "minecraft:dirt")
     
 })
