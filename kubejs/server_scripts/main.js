@@ -2353,6 +2353,18 @@ ServerEvents.recipes(event => {
 	event.replaceInput({id:'naturescompass:natures_compass'},'#minecraft:saplings','kubejs:nature_essence')
 	/// ======================================== Tier 2 Machines ================================================================
 
+	event.shaped("thermal:filter_attachment",
+		[ 
+			"ISI",
+			"IFI"
+		],
+		{
+			I: "#forge:plates/iron",
+			S: "#forge:gems/sapphire",
+			F: "create:filter"
+		}
+	).id("thermal:filter_attachment_2")
+
 	event.shaped("thermal:device_collector",
 		[
 			"LYL",
@@ -3759,7 +3771,118 @@ ServerEvents.recipes(event => {
 	  )
 
 
+	//======================================================== Tier 5 Machines
 
+	function dynamo(dynamo,plateUp,plateDown,middle)
+	{
+		event.shaped(dynamo,
+			[
+				" C ",
+				"PMP",
+				"SGS"
+			],
+			{
+				C: "thermal:rf_coil",
+				P: plateUp,
+				S: plateDown,
+				G: "immersiveengineering:generator",
+				M: middle
+			}
+		).id(dynamo)
+	}
+
+	dynamo("thermal:dynamo_stirling","#forge:plates/iron","#forge:plates/steel","ars_nouveau:fire_essence")
+	dynamo("thermal:dynamo_magmatic","#forge:plates/silver","#forge:plates/steel","ars_nouveau:volcanic_sourcelink")
+	dynamo("thermal:dynamo_compression","#forge:plates/bronze","#forge:plates/steel","vintageimprovements:vacuum_chamber")
+	dynamo("thermal:dynamo_numismatic","#forge:plates/constantan","#forge:plates/steel","thermal:gold_coin")
+	dynamo("thermal:dynamo_lapidary","#forge:plates/gold","#forge:plates/steel","thermal:ruby")
+	dynamo("thermal:dynamo_disenchantment","#forge:plates/lead","#forge:plates/steel","enchanted_golden_apple")
+	dynamo("thermal:dynamo_gourmand","#forge:plates/tin","#forge:plates/steel","farmersdelight:cooking_pot")
+
+	event.shaped("thermal:energy_cell_frame",
+		[
+			"LEL",
+			"EXE",
+			"LEL"
+		],
+		{
+			E: "#forge:plates/electrum",
+			L: "#forge:plates/lead",
+			X: "kubejs:electricity_essence"
+		}
+	).id("thermal:energy_cell_frame")
+
+	event.shaped("immersiveengineering:capacitor_lv",
+		[
+			"LEL",
+			"SXS",
+			"LEL"
+		],
+		{
+			S: "#forge:plates/steel",
+			E: "thermal:rf_coil",
+			L: "#forge:plates/wooden",
+			X: "thermal:energy_cell_frame"
+		}
+	).id("immersiveengineering:crafting/capacitor_lv")
+
+	event.shaped("immersiveengineering:capacitor_mv",
+		[
+			"LEL",
+			"SXS",
+			"LEL"
+		],
+		{
+			S: "immersiveengineering:capacitor_lv",
+			E: "thermal:rf_coil",
+			L: "#forge:gears/electrum",
+			X: "thermal:sapphire"
+		}
+	).id("immersiveengineering:crafting/capacitor_mv")
+
+	event.shaped("immersiveengineering:capacitor_hv",
+		[
+			"LEL",
+			"SXS",
+			"LEL"
+		],
+		{
+			S: "immersiveengineering:capacitor_mv",
+			E: "thermal:rf_coil",
+			L: "#forge:gears/aluminum",
+			X: "thermal:sapphire"
+		}
+	).id("immersiveengineering:crafting/capacitor_hv")
+
+	event.shaped("thermal:energy_cell",
+		[
+			"LEL",
+			"SXS",
+			"LEL"
+		],
+		{
+			S: "immersiveengineering:capacitor_hv",
+			E: "thermal:rf_coil",
+			L: "#forge:gears/uranium",
+			X: "thermal:ruby"
+		}
+	).id("thermal:energy_cell")
+
+	event.shaped("thermal:rf_coil",
+		[
+			" RG",
+			"RER",
+			"GR "
+		],
+		{
+			R: "#forge:storage_blocks/redstone",
+			E: "kubejs:electricity_essence",
+			G: "#forge:gears/gold"
+		}
+	).id("thermal:rf_coil")
+
+	
+	
 	//======================================================== placeholder endgame
 
 	event.remove({output:"thermal:machine_frame"})
