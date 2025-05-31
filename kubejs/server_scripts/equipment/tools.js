@@ -610,6 +610,16 @@ ServerEvents.recipes(event => {
 
 	///=============================================================== Tier 0 Tools ==========================================================
 
+	event.shaped("kubejs:primitive_firestarter",
+		[
+			" F",
+			"F "
+		],
+		{
+			F: "flint"
+		}
+	)
+
 	event.shaped("create:sand_paper",
 		[
 			"SFS",
@@ -1310,6 +1320,18 @@ ServerEvents.recipes(event => {
 	
 	/// ======================================================================= Tier 1 Tools ============================================================================
 	
+	event.shaped("flint_and_steel",
+		[
+			"III",
+			"IFI",
+			"III"
+		],
+		{
+			I: "#forge:ingots/iron",
+			F: "kubejs:primitive_firestarter"
+		}
+	).id("minecraft:flint_and_steel")
+
 	event.shaped("kubejs:sacrificial_dagger",
 		[
 			"  O",
@@ -2107,7 +2129,7 @@ ServerEvents.recipes(event => {
 			  "item": "minecraft:glowstone",
 			},
 			{
-			  "item": "twilightdelight:torchberries_crate",
+			  "item": "farmersdelight:glow_berry_custard",
 			},
 			{
 			  "item": "naturesaura:ancient_stick",
@@ -2623,5 +2645,9 @@ ServerEvents.recipes(event => {
 			"sourceCost": 0
 		  }
 	)
+
+	//=======================================================================Tier 4
+
+	event.shapeless(Item.of('minecraft:flint_and_steel', '{Damage:0,Unbreakable:1b}'),["kubejs:primitive_firestarter","4x #forge:plates/steel"])
 	
 })
