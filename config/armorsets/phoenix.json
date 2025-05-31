@@ -1,0 +1,62 @@
+{
+  "armorSetName": "fiery",
+  "performanceMode": true,
+  "head": {
+    "itemKey": "aether:phoenix_helmet",
+    "mustBeEmpty": false
+  },
+  "chest": {
+    "itemKey": "aether:phoenix_chestplate",
+    "mustBeEmpty": false
+  },
+  "legs": {
+    "itemKey": "aether:phoenix_leggings",
+    "mustBeEmpty": false
+  },
+  "boots": {
+    "itemKey": "aether:phoenix_boots",
+    "mustBeEmpty": false
+  },
+  "fullSetBonuses": [
+    {
+      "type": "effect",
+      "name": "minecraft:strength",
+      "value": 0.0,
+      "interactionType": "self",
+      "interactionDuration": 300,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    },
+    {
+      "type": "effect",
+      "name": "minecraft:fire_resistance",
+      "value": 0.0,
+      "interactionType": "self",
+      "interactionDuration": 300
+    },
+    {
+      "type": "effect",
+      "name": "supplementaries:flammable",
+      "value": 0.0,
+      "interactionType": "self",
+      "interactionDuration": 60
+    },
+    {
+      "type": "effect",
+      "name": "alembic:fire",
+      "value": 0.0,
+      "interactionType": "self",
+      "interactionDuration": 60
+    },
+    {
+      "type": "effect",
+      "name": "alexsmobs:lava_vision",
+      "value": 0.0,
+      "interactionType": "self",
+      "interactionDuration": 300
+    }
+    
+
+  ],
+  "hideGeneratedTooltip": false
+}

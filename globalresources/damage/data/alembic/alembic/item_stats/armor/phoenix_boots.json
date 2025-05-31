@@ -1,0 +1,41 @@
+{
+  "id": "aether:phoenix_boots",
+  "modifiers": [
+    {
+      "type": "append",
+      "attribute": "minecraft:generic.movement_speed",
+      "value": -0.001,
+      "operation": "ADDITION",
+      "uuid": "db6d95c5-fb69-405d-a93b-b7a96e10c8e5"
+    },
+    {
+      "type": "append",
+      "attribute": "alembic:fire_damage",
+      "value": 0.05,
+      "operation": "MULTIPLY_TOTAL",
+      "uuid": "f880e0ff-1641-4277-b360-b5134921497e"
+    },
+    {
+      "type": "append",
+      "attribute": "alembic:fire_damage.resistance",
+      "value": 3,
+      "operation": "ADDITION",
+      "uuid": "ab39aa82-bc2f-405a-8d3a-4ed392c17a9b"
+    },
+    {
+      "type": "append",
+      "attribute": "alembic:arcane_damage.resistance",
+      "value": 2,
+      "operation": "ADDITION",
+      "uuid": "a443e067-104b-459f-90ac-e73909f5725b"
+    },
+    {
+      "type": "append",
+      "attribute": "alembic:holy_damage.resistance",
+      "value": 2,
+      "operation": "ADDITION",
+      "uuid": "17bc4305-4215-4fae-9bbf-e5bcb7dc3e2f"
+    }
+  ],
+  "equipment_slot": "FEET"
+}
