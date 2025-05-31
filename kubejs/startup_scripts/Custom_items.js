@@ -259,6 +259,8 @@ StartupEvents.registry('item', item => {
   item.create('dark_essence').displayName('Dark Essence').tag('forge:essences').tag("dq:tier3/component")
   item.create('life_essence').displayName('Life Essence').tag('forge:essences').tag("dq:tier3/component")
   item.create('death_essence').displayName('Death Essence').tag('forge:essences').tag("dq:tier3/component")
+  item.create('lightning_essence').tag("forge:essences").tag("dq:tier3/component")
+  item.create('electricity_essence').tag("forge:essences").tag("dq:tier4/component")
 
   ///===================================================RUNES===========================================================
   
@@ -348,6 +350,7 @@ StartupEvents.registry('item', item => {
   item.create('ice_blade','irons_spells_js:magic_sword').tier('ice').tag('minecraft:sword').tag("forge:tools/iron").tag('minecraft:tools').glow(true).addDefaultSpell("irons_spellbooks:icicle",3).tag("dq:tier1/weapon")
   item.create('flint_spear','sword').tier('wood').tag('minecraft:sword').tag("forge:tools/flint").tag('minecraft:tools').speedBaseline(-2.9).tag("dq:tier0/weapon")
   item.create('stone_claymore','sword').tier('stone').tag('minecraft:sword').tag("forge:tools/stone").tag('minecraft:tools').speedBaseline(-2.7).tag("dq:tier0/weapon").attackDamageBaseline(7)
+  item.create('iron_scythe','sword').tier('iron').tag('minecraft:sword').tag("forge:tools/iron").tag("minecraft:tools").tag("dq:tier1/weapon")
 
   item.create('golden_magic_feather','sword').tier('gold').glow(true).tag("minecraft:tools").tag("forge:tools/magic_feather").tag("dq:tier1/weapon").tag("dq:tier1/tool")
   item.create('fiery_magic_feather','sword').tier('diamond').glow(true).tag("minecraft:tools").tag("forge:tools/magic_feather").tag("forge:tools/tier2_magic_feather").tag("dq:tier2/weapon").tag("dq:tier2/tool")
