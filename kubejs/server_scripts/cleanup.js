@@ -264,7 +264,9 @@ global.nukelist = ["twigs:calcite_wall",
 	'tombstone:scroll_of_mercy',
 	'everycomp:tf/twilightforest/mangrove_banister',
 	"everycomp:tf/aether/skyroot_banister",
-	"twigs:tuff_stairs"]/*,
+	"twigs:tuff_stairs",
+	"quark:charcoal_block",
+	"immersiveengineering:slag"]/*,
 	'thermal:constantan_dust',
 	'thermal:bronze_dust',
 	'thermal:enderium_dust',
@@ -325,7 +327,26 @@ ServerEvents.recipes(event => {
 		"quark:building/crafting/compressed/carrot_crate",
 		"quark:building/crafting/compressed/apple_crate",
 		"thermal:storage/gunpowder_block",
-		"thermal:storage/gunpowder_from_block"]
+		"thermal:storage/gunpowder_from_block",
+		"architects_palette:vslabs/iron_ore_brick_vertical_slab",
+		"architects_palette:vertslabs/myonite_brick_vertical_slab",
+		"architects_palette:vertslabs/coal_ore_brick_vertical_slab_revert",
+		"architects_palette:vertslabs/lapis_ore_brick_vertical_slab_revert",
+		"architects_palette:vslabs/redstone_ore_brick_vertical_slab_revert",
+		"architects_palette:vslabs/lapis_ore_brick_vertical_slab",
+		"architects_palette:vertslabs/iron_ore_brick_vertical_slab_revert",
+		"architects_palette:vertslabs/gold_ore_brick_vertical_slab",
+		"architects_palette:vertslabs/diamond_ore_brick_vertical_slab_revert",
+		"architects_palette:vslabs/diamond_ore_brick_vertical_slab",
+		"architects_palette:vertslabs/coal_ore_brick_vertical_slab",
+		"architects_palette:vslabs/redstone_ore_brick_vertical_slab",
+		"architects_palette:vertslabs/emerald_ore_brick_vertical_slab_revert",
+		"architects_palette:vertslabs/emerald_ore_brick_vertical_slab",
+		"architects_palette:vertslabs/myonite_vertical_slab_revert",
+		"regions_unexplored:magenta_dye_from_cactus_flower",
+		"architects_palette:vslabs/gold_ore_brick_vertical_slab_revert",
+		"architects_palette:tuff_bricks",
+		"regions_unexplored:yellow_dye_from_tall_yellow_bioshroom"]
 	
 	RemoveById.forEach(id => {
 		event.remove({id:id})
@@ -343,6 +364,7 @@ ServerEvents.recipes(event => {
 	event.remove({output:"#aether:accessories_gloves"})
 
 	event.replaceOutput({id:"vintageimprovements:craft/sulfur_nuggets_to_item"},"vintageimprovements:sulfur","thermal:sulfur")
+	event.replaceInput({id:"elementalcraft:air_mill_wood_saw"},"grindstone","thermal:saw_blade")
 
 	
 	event.stonecutting("farmersdelight:potato_crate","thermal:potato_block")
@@ -920,6 +942,15 @@ ServerEvents.recipes(event => {
 	
 	///=======================================Building blocks=======================================///
 
+	event.shaped("immersiveengineering:sawdust",
+		[
+			"SS"
+		],
+		{
+			S: "#forge:dusts/wood"
+		}
+	).id("immersiveengineering:crafting/sawdust")
+
 	event.recipes.thermal.rock_gen("create:limestone","air","create:honey",30)
 
 	event.recipes.thermal.rock_gen("create:scoria","air","create:chocolate",30)
@@ -939,6 +970,18 @@ ServerEvents.recipes(event => {
 			X: "kubejs:brick_glue"
 		}
 	).damageIngredient("kubejs:brick_glue",8).id("twigs:gravel_bricks")
+
+	event.shaped("8x immersiveengineering:slag_brick",
+		[
+			"GGG",
+			"GXG",
+			"GGG"
+		],
+		{
+			G: "#forge:slag",
+			X: "kubejs:brick_glue"
+		}
+	).damageIngredient("kubejs:brick_glue",8).id("immersiveengineering:crafting/slag_brick")
 
 	event.shaped("2x kubejs:polished_planks",
 		[
@@ -1164,18 +1207,6 @@ ServerEvents.recipes(event => {
 		],
 		{
 			X: "#forge:dyes/yellow",
-			Z: "quark:glow_shroom",
-			R: "kubejs:shapeshifting_root"
-	})
-
-	event.shaped("regions_unexplored:pink_bioshroom",
-		[
-			"ZXZ",
-			"XRX",
-			"ZXZ"
-		],
-		{
-			X: "#forge:dyes/pink",
 			Z: "quark:glow_shroom",
 			R: "kubejs:shapeshifting_root"
 	})
