@@ -526,6 +526,7 @@
 		}
 		{
 			dependencies: ["0C52DC15B58FA6DF"]
+			description: ["Craft a saw and submit an empty sack to get a new sack with some goodies inside"]
 			icon: "sawmill:sawmill"
 			id: "4572DC8C9535CB74"
 			rewards: [{
@@ -553,6 +554,7 @@
 		}
 		{
 			dependencies: ["0C52DC15B58FA6DF"]
+			description: ["Craft a stonecutter and submit an empty sack to get a new sack with some goodies inside"]
 			icon: "minecraft:stonecutter"
 			id: "1F4A354510D73811"
 			rewards: [{
@@ -914,7 +916,7 @@
 		}
 		{
 			dependencies: ["37E717454A7E8792"]
-			description: ["Allow the creation of new spells!"]
+			description: ["Allow the creation of new combat spells!"]
 			id: "1B9897EF3A4960B4"
 			rewards: [
 				{
@@ -1023,7 +1025,7 @@
 		}
 		{
 			dependencies: ["5C199D8DE803D331"]
-			description: ["&8&lFaucet&r&r can transport fluid from the side to the container below!"]
+			description: ["&8&lFaucet&r&r can transport fluid from the side of the container  to the container below!"]
 			icon: "supplementaries:faucet"
 			id: "5AA3FEC64480E95D"
 			rewards: [{

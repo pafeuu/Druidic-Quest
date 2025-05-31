@@ -150,13 +150,7 @@
 		}
 		{
 			dependencies: ["69B93BA4460E5F95"]
-			description: [
-				"At the start of the game you are extremely weak from starvation, finding stable food sources should be priority"
-				""
-				"&l&4Mobs in this modpack can spawn with almost any equipment in the game. But they will not drop any of that equipment!&r&r"
-				""
-				"So take that into consideration before you try to fight your opponent"
-			]
+			description: ["At the start of the game you are extremely weak from starvation, finding stable food sources should be priority"]
 			icon: {
 				Count: 1
 				id: "minecraft:wooden_sword"
@@ -289,7 +283,7 @@
 			}]
 			title: "New Fishing!"
 			x: -4.5d
-			y: 3.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["118A5A467C0FEA36"]
@@ -301,11 +295,9 @@
 				""
 				"&4Leather armour&r gives you +30% movement speed"
 				""
-				"&6Copper armour&r gives you +30% mining speed"
+				"&eBeekeeper Set&r provides you with few immunities to negative effects"
 				""
 				"For the &8Mortem Set&r you get slight increases in different stats and armour itself is quite strong"
-				""
-				"&4&lDue to a bug the quest does not show that you can also craft beekeeper armor to finish it.&r&r"
 			]
 			icon: {
 				Count: 1
@@ -1158,7 +1150,9 @@
 			description: [
 				"&lCongratulations on finishing your first chapter!"
 				""
+				"&9If you are enjoying the pack so far make sure to visit our discord to share your thoughts about it."
 				"&r"
+				"&dYour feedback and bug reports are crucial to the pack development!&r"
 			]
 			hide_details_until_startable: false
 			hide_until_deps_visible: false
@@ -1250,6 +1244,45 @@
 			}]
 			x: -2.5d
 			y: -1.0d
+		}
+		{
+			dependencies: ["118A5A467C0FEA36"]
+			description: [
+				"Difficulty is increased once you get material from the next tier so make sure you upgrade your equipment to survive in this cruel world"
+				""
+				"&l&4Mobs in this modpack can spawn with almost any equipment in the game. But they will not drop any of that equipment!&r&r"
+			]
+			icon: "minecraft:skeleton_skull"
+			id: "2910627A1D09A447"
+			rewards: [
+				{
+					id: "6B2B03600720894F"
+					item: "minecraft:skeleton_skull"
+					type: "item"
+				}
+				{
+					id: "1BD16562C95B3912"
+					item: "thermal:gold_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "minecraft:zombie"
+					id: "3499CBA076EC3435"
+					type: "kill"
+					value: 5L
+				}
+				{
+					entity: "minecraft:skeleton"
+					id: "4D030493E77E07D6"
+					type: "kill"
+					value: 5L
+				}
+			]
+			title: "Mob Difficulty changes"
+			x: -7.0d
+			y: 2.0d
 		}
 	]
 	title: "Tier 0 - Wooden Age"
