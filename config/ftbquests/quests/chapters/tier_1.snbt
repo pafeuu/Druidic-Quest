@@ -4,9 +4,6 @@
 	default_quest_shape: ""
 	filename: "tier_1"
 	group: "23A1FEBD04C34E2E"
-	hide_quest_details_until_startable: true
-	hide_quest_until_deps_complete: true
-	hide_quest_until_deps_visible: true
 	icon: "ars_nouveau:source_gem"
 	id: "0BDEC92C5378176F"
 	order_index: 1
@@ -47,7 +44,11 @@
 		}
 		{
 			dependencies: ["1651F797382E34A2"]
-			hide_details_until_startable: false
+			description: [
+				"To craft a furnace you are going to need 8 sturdy stones and 1 coal block."
+				""
+				"Check the ponder for more details!"
+			]
 			hide_until_deps_visible: false
 			id: "00F6FC5B3A511000"
 			rewards: [{
@@ -69,7 +70,7 @@
 		}
 		{
 			dependencies: ["00F6FC5B3A511000"]
-			description: ["You know how to use bucket dont you?"]
+			description: ["You know how to use a bucket dont you?"]
 			hide_details_until_startable: false
 			hide_until_deps_visible: false
 			id: "6CDE2D6E743FAAA5"

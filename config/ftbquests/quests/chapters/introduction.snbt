@@ -11,8 +11,8 @@
 		{
 			dependencies: ["4FF8CB3EF0206C93"]
 			description: [
-				"You can sometimes find this materials laying on the ground. If you cant find any"
-				"you can destroy leaves for a chance to drop twigs and punch stone with a empty hand to get pebbles or just mine some gravel for a chance to drop pebbles."
+				"You can sometimes find this materials laying on the ground. "
+				"If you cant find any you can destroy leaves for a chance to drop twigs and punch stone with a empty hand to get pebbles or just mine some gravel for a chance to drop pebbles."
 				""
 				"&2If you dont want to chop down the whole tree you need to sneak while destroying the logs, your first axe only had 8 durability so it might not be able to chop down bigger trees&r"
 			]
@@ -858,7 +858,9 @@
 		{
 			dependencies: ["474D50C2F74737EE"]
 			description: [
-				"Right click a stripped log  with golden leaf in one hand and knife in the other to turn it into wooden stand"
+				"Right click a stripped log  with golden leaf in one hand and knife in the other to turn it into wooden stand."
+				""
+				"This packs include custom ponders, holding w while hovering over an item with available ponder will show you a scene  with explanation on how to use it."
 				""
 				"To get the result out of recipe the tree in the middle has to grow, you need to replace golden powder after each recipe."
 				"Items dont have  to be in a specific order like in JEI"
@@ -1220,7 +1222,7 @@
 			description: [
 				"&4Remember that flint does not drop from gravel anymore and you will have to craft it using 4 gravel in the crafting grid."
 				"&r"
-				"Saw allows you to make planks in a more efficient way. To get planks right click stripped log but this time you will get twice as much planks as before."
+				"Saw allows you to make planks in a more efficient way. To get planks right click stripped log but this time you will get three times as much planks as before."
 			]
 			id: "6814EBB8BDED9EEE"
 			rewards: [{
