@@ -7,7 +7,8 @@ ServerEvents.recipes(event => {
 
     event.custom({
       "type": "lychee:lightning_channeling",
-      "hide_in_viewer": false,
+      "hide_in_viewer": true,
+      "comment": "Needs additional blocks below the item to work. Check the ponder for details",
       "item_in": {
         "item": catalyst // Item that needs to be on top of the structure in the middle
       },
@@ -104,13 +105,30 @@ ServerEvents.recipes(event => {
         }
       ]
     })
+
+    event.custom({
+      "type": "lychee:lightning_channeling",
+      "hide_in_viewer": false,
+      "ghost":true,
+      "comment": "Needs additional blocks below the item to work. Check the ponder for details",
+      "item_in": {
+        "item": catalyst // Item that needs to be on top of the structure in the middle
+      },
+      "post": [
+        {
+          "type": "drop_item",
+          "item": output
+        }
+      ]
+    })
   }
 
   function ExplosionSquareCrafting(catalyst, output, sides, corners, middle){
 
     event.custom({
       "type": "lychee:item_exploding",
-      "hide_in_viewer": false,
+      "hide_in_viewer": true,
+      "comment": "Needs additional blocks below the item to work. Check the ponder for details",
       "item_in": {
         "item": catalyst // Item that needs to be on top of the structure in the middle
       },
@@ -204,6 +222,22 @@ ServerEvents.recipes(event => {
           "type": "execute",
           "command": "playsound forbidden_arcanus:item.mundabitur_dust.use neutral @a",
           "hide": true
+        }
+      ]
+    })
+
+    event.custom({
+      "type": "lychee:item_exploding",
+      "hide_in_viewer": false,
+      "ghost":true,
+      "comment": "Needs additional blocks below the item to work. Check the ponder for details",
+      "item_in": {
+        "item": catalyst // Item that needs to be on top of the structure in the middle
+      },
+      "post": [
+        {
+          "type": "drop_item",
+          "item": output
         }
       ]
     })
