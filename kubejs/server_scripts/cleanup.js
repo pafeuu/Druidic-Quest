@@ -266,7 +266,8 @@ global.nukelist = ["twigs:calcite_wall",
 	"everycomp:tf/aether/skyroot_banister",
 	"twigs:tuff_stairs",
 	"quark:charcoal_block",
-	"immersiveengineering:slag"]/*,
+	"immersiveengineering:slag",
+	"twilightforest:mangrove_chest"]/*,
 	'thermal:constantan_dust',
 	'thermal:bronze_dust',
 	'thermal:enderium_dust',
@@ -346,7 +347,9 @@ ServerEvents.recipes(event => {
 		"regions_unexplored:magenta_dye_from_cactus_flower",
 		"architects_palette:vslabs/gold_ore_brick_vertical_slab_revert",
 		"architects_palette:tuff_bricks",
-		"regions_unexplored:yellow_dye_from_tall_yellow_bioshroom"]
+		"regions_unexplored:yellow_dye_from_tall_yellow_bioshroom",
+		"minecraft:bamboo_mosaic_slab"
+		]
 	
 	RemoveById.forEach(id => {
 		event.remove({id:id})
