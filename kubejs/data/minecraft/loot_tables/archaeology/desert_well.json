@@ -1,0 +1,40 @@
+{
+  "type": "minecraft:archaeology",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:arms_up_pottery_sherd",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:brewer_pottery_sherd",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "vintagedelight:century_egg",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "thermal:sapphire",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "kubejs:overworld_key",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "kubejs:underground_spice"
+        }
+      ]
+    }
+  ],
+  "random_sequence": "minecraft:archaeology/desert_well"
+}

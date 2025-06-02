@@ -1743,6 +1743,9 @@ Patch 0.3.2.1
     -Changed for every Wooden Slab
     -Changed for every Wooden Stair
 
+### Loottables:
+    -Changed for every suspicious block
+    
 ### New Items:
     -Lightning Essence
     -Electricity Essence
