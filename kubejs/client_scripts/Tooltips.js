@@ -92,6 +92,14 @@ ItemEvents.tooltip( tooltip => {
     }
   })
 
+  tooltip.addAdvanced("kubejs:iron_scythe", (item, advanced, text) => {
+    if (!tooltip.shift) {
+      text.add(1, [Text.of('Hold ').darkPurple(), Text.of('Shift ').gold(), Text.of('to see details').darkPurple()])
+    } else {
+      text.add(1, Text.gold('Applies Bleeding on hit'))
+    }
+  })
+
   tooltip.addAdvanced("kubejs:golden_magic_feather", (item, advanced, text) => {
     if (!tooltip.shift) {
       text.add(1, [Text.of('Hold ').darkPurple(), Text.of('Shift ').gold(), Text.of('to see details').darkPurple()])

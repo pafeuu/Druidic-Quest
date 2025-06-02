@@ -2,7 +2,7 @@
   "armorSetName": "stone_claymore",
   "performanceMode": false,
   "mainHand": {
-    "itemKey": "kubejs:stone_claymore"
+    "itemKey": "kubejs:iron_scythe"
   },
   "fullSetBonuses": [
     {

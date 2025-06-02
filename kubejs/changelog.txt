@@ -1714,7 +1714,10 @@ Patch 0.3.2.1
     -Fixed Beekeeper armour not appearing in the quests
     -Fixed Eukalyptus wood recipes
 
-# Patch 1.2.1
+# Patch 1.3
+
+### Removed Mods:
+    -Polymorph
 
 ### Recipes:
     -Removed for Sticks from Logs
@@ -1723,9 +1726,41 @@ Patch 0.3.2.1
     -Changed for Ancient Tall Door and Ancient Short Door
     -Added for Overgrown Ancient Door
     -Fixed for Gunpowder Block
+    -Changed for all the thermal dynamos
+    -Changed for all IE Accumulators
+    -Changed for Redstone Flux Cell Frame
+    -Changed for Redstone Flux Cell
+    -Changed for Redstone Flux Coil
+    -Added for Primitive Firestarter
+    -Changed for Flint and Steel
+    -Fixed for Staff of Baldur
+    -Changed for Iron Drillhead
+    -Changed for Steel Drillhead
+    -Changed for Fluxsaw
+    -Changed for Fluxbore
+    -Changed for Redstone Servo
+    -Changed for Furnace
+    -Changed for every Wooden Slab
+    -Changed for every Wooden Stair
+
+### New Items:
+    -Lightning Essence
+    -Electricity Essence
+
+### Balance:
+    -Added Phoenix Armor Set Bonus
+    -Buffed each piece of the Phoenix Armor
+    -Buffed Rocky Shell Chestplate
+    -Buffed Crocodile Chestplate
+    -Changed the base capacity of Fluxsaw and Fluxbore and increased the cost to break blocks
 
 ### Removed items
     -Removed a couple of duplicate blocks
+
+### Other:
+    -Changed the transfer rate of IE cables
+    -Changed the transfer rate and capacity of IE Accumulators
+    -Added more dirt types to the Aoe Tilling script
 
 
 # Patch 2.0
@@ -1733,5 +1768,15 @@ Patch 0.3.2.1
 ### Added Mods:
     -Fluffy Fur API
     -Wizards Reborn
+    -Macaw's trapdoors
+    -Dynamic Lights
+
+### Removed Mods:
+    -Dramatic Doors
+    -Regions Unexplored
+    -Corail Tombstone
+    -Architect's Pallete
+    -Chipped
+    -Oculus
 
 
