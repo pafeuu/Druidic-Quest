@@ -1575,28 +1575,6 @@ ServerEvents.recipes(event => {
 	)
 	
 	event.remove({output:'minecraft:furnace'})
-	event.custom({
-		type: "lychee:block_interacting",
-    item_in: {
-        tag: "forge:coal_coke"
-    },
-    block_in: "stone",
-    post: [
-        {
-            type: "place",
-            block: "minecraft:furnace",
-            "contextual": {
-                type: "chance",
-                "chance": 0.25
-            }
-        },
-		{
-			type: "execute",
-			command: "playsound create:steam neutral @p",
-			hide: "true"
-		}
-    ]
-	})
 	
 	event.remove({output:'quark:deepslate_furnace'})
 	event.remove({output:'quark:blackstone_furnace'})
@@ -3626,8 +3604,46 @@ ServerEvents.recipes(event => {
 		{ A:"create:andesite_casing",X:"create:chute",Y:"kubejs:andesite_machine",}).id("create:crafting/kinetics/portable_storage_interface")
 	
 	//============================================ Tier 4 Components ========================================================================================
+	
+	event.shaped("thermal:redstone_servo",
+		[
+			"RGR",
+			"PGP",
+			"RGR"
+		],
+		{
+			R: "repeater",
+			P: "create:mechanical_piston",
+			G: "#forge:gears/iron"
+		}	
+	).id("thermal:redstone_servo")
 
 	event.recipes.create.mixing("create:rose_quartz",["kubejs:salmon_quartz","4x forbidden_arcanus:mundabitur_dust","wither_rose"]).id("create:crafting/materials/rose_quartz").heated()
+	
+	event.shaped('immersiveengineering:drillhead_iron',
+		[
+			"DP ",
+			"PGP",
+			" PP"
+		],
+		{
+			D: "thermal:drill_head",
+			P: "#forge:plates/iron",
+			G: "ars_nouveau:glyph_break"
+		}
+	).id("immersiveengineering:crafting/drillhead_iron")
+
+	event.shaped("immersiveengineering:drillhead_steel",
+		[
+			"SSS",
+			"SDS",
+			"SSS"
+		],
+		{
+			S: "#forge:plates/steel",
+			D: "immersiveengineering:drillhead_iron"
+		}
+	).id("immersiveengineering:crafting/drillhead_steel")
 
 	event.remove({id:'immersiveengineering:blastfurnace/steel'})
 

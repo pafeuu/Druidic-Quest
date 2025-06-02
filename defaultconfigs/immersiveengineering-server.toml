@@ -22,7 +22,7 @@
 		loss = 0.05
 		#In- and output rates of copper wire connectors. This is independant of the transferrate of the wires.
 		#Range: > 0
-		wireConnectorInput = 256
+		wireConnectorInput = 64
 
 	[wires.electrum]
 		#The maximum length of electrum wires
@@ -36,7 +36,7 @@
 		loss = 0.025
 		#In- and output rates of electrum wire connectors. This is independant of the transferrate of the wires.
 		#Range: > 0
-		wireConnectorInput = 1024
+		wireConnectorInput = 256
 
 	[wires.hv]
 		#The maximum length of hv wires
@@ -50,7 +50,7 @@
 		loss = 0.025
 		#In- and output rates of hv wire connectors. This is independant of the transferrate of the wires.
 		#Range: > 0
-		wireConnectorInput = 4096
+		wireConnectorInput = 1024
 
 	[wires.rope]
 		#The maximum length of rope wires
@@ -112,13 +112,25 @@
 			storage = 100000
 			#Maximum energy input (Flux/tick)
 			#Range: > 1
+			input = 64
+			#Maximum energy output (Flux/tick)
+			#Range: > 1
+			output = 64
+
+		#Configuration for the medium voltage capacitor
+		[machines.capacitors.mv]
+			#Maximum energy stored (Flux)
+			#Range: > 1
+			storage = 250000
+			#Maximum energy input (Flux/tick)
+			#Range: > 1
 			input = 256
 			#Maximum energy output (Flux/tick)
 			#Range: > 1
 			output = 256
 
-		#Configuration for the medium voltage capacitor
-		[machines.capacitors.mv]
+		#Configuration for the high voltage capacitor
+		[machines.capacitors.hv]
 			#Maximum energy stored (Flux)
 			#Range: > 1
 			storage = 1000000
@@ -128,18 +140,6 @@
 			#Maximum energy output (Flux/tick)
 			#Range: > 1
 			output = 1024
-
-		#Configuration for the high voltage capacitor
-		[machines.capacitors.hv]
-			#Maximum energy stored (Flux)
-			#Range: > 1
-			storage = 4000000
-			#Maximum energy input (Flux/tick)
-			#Range: > 1
-			input = 4096
-			#Maximum energy output (Flux/tick)
-			#Range: > 1
-			output = 4096
 
 	[machines.external_heater]
 		#The Flux per tick consumed to add one heat to a furnace. Creates up to 4 heat in the startup time and then 1 heat per tick to keep it running
