@@ -137,7 +137,7 @@ StartupEvents.registry('item', item => {
   item.create('diamond_plate').tag('forge:plates/diamond').tag("dq:tier1/component")
 
   item.create('arcane_alloy_plate').tag('forge:plates').tag('forge:plates/arcane_alloy').tag("dq:tier2/component")
-  item.create('inert_alloy_plate').tag('forge:plates').tag('forge:plates/inert_alloy').tag("dq:tier2/component")
+  //item.create('inert_alloy_plate').tag('forge:plates').tag('forge:plates/inert_alloy').tag("dq:tier2/component")
   item.create('infused_iron_plate').tag('forge:plates').tag('forge:plates/infused_iron').tag("dq:tier2/component")
   item.create('tainted_gold_sheet').tag('forge:plates').tag('forge:plates/tainted_gold').tag("dq:tier2/component")
 
@@ -156,7 +156,7 @@ StartupEvents.registry('item', item => {
   item.create('zinc_gear').tag('forge:gears/zinc').tag('forge:gears').tag("dq:tier1/component")
 
   item.create('arcane_alloy_gear').tag('forge:gears/arcane_alloy').tag('forge:gears').tag("dq:tier2/component")
-  item.create('inert_alloy_gear').tag('forge:gears/inert_alloy').tag('forge:gears').tag("dq:tier2/component")
+  //item.create('inert_alloy_gear').tag('forge:gears/inert_alloy').tag('forge:gears').tag("dq:tier2/component")
   item.create('infused_iron_gear').tag('forge:gears/infused_iron').tag('forge:gears').tag("dq:tier2/component")
   item.create('tainted_gold_gear').tag('forge:gears/tainted_gold').tag('forge:gears').tag("dq:tier2/component")
   item.create('ironwood_gear').tag('forge:gears/ironwood').tag('forge:gears').tag("dq:tier2/component")
@@ -187,27 +187,27 @@ StartupEvents.registry('item', item => {
   item.create("diamond_rod").tag("forge:rods").tag("forge:rods/diamond").tag("dq:tier1/component")
 
   item.create("electrum_rod").tag("forge:rods").tag("forge:rods/electrum").tag("dq:tier2/component")
-  item.create("inert_alloy_rod").tag("forge:rods").tag("forge:rods/inert_alloy").tag("dq:tier2/component")
+  //item.create("inert_alloy_rod").tag("forge:rods").tag("forge:rods/inert_alloy").tag("dq:tier2/component")
   item.create("arcane_alloy_rod").tag("forge:rods").tag("forge:rods/arcane_alloy").tag("dq:tier2/component")
   item.create("infused_iron_rod").tag("forge:rods").tag("forge:rods/infused_iron").tag("dq:tier2/component")
   item.create("tainted_gold_rod").tag("forge:rods").tag("forge:rods/tainted_gold").tag("dq:tier2/component")
 
   item.create("brass_rod").tag("forge:rods").tag("forge:rods/brass").tag("dq:tier3/component")
   item.create('fiery_rod').tag("forge:rods").tag("forge:rods/fiery").tag("dq:tier3/component")
-  item.create("drenched_iron_rod").tag("forge:rods").tag("forge:rods/drenched_iron").tag("dq:tier3/component")
+  //item.create("drenched_iron_rod").tag("forge:rods").tag("forge:rods/drenched_iron").tag("dq:tier3/component")
 
   item.create("sky_rod").tag("forge:rods").tag("forge:rods/sky").tag("dq:tier4/component")
-  item.create("swift_alloy_rod").tag("forge:rods").tag("forge:rods/swift_alloy").tag("dq:tier4/component")
+  //item.create("swift_alloy_rod").tag("forge:rods").tag("forge:rods/swift_alloy").tag("dq:tier4/component")
 
   item.create("depth_rod").tag("forge:rods").tag("forge:rods/depth").tag("dq:tier5/component")
-  item.create("fireite_rod").tag("forge:rods").tag("forge:rods/fireite").tag("dq:tier5/component")
+  //item.create("fireite_rod").tag("forge:rods").tag("forge:rods/fireite").tag("dq:tier5/component")
   
   item.create("carbon_infused_sturdy_handle").displayName("Carbon Infused Sturdy Handle").tag("forge:rods").tag("dq:tier2/component")
 
   ///===================================================INGOTS===========================================================
 
   item.create('arcane_alloy_ingot').tag('forge:ingots').tag('forge:ingots/arcane_alloy').tag("dq:tier1/component")
-  item.create('inert_alloy_ingot').tag('forge:ingots').tag('forge:ingots/inert_alloy').tag("dq:tier1/component")
+  //item.create('inert_alloy_ingot').tag('forge:ingots').tag('forge:ingots/inert_alloy').tag("dq:tier1/component")
   item.create('wrought_iron_ingot').tag('forge:ingots').tag('forge:ingots/wrought_iron')
   item.create('neptun_ingot').tag('forge:ingots').tag('forge:ingots/neptun')
   item.create('phoenix_ingot').tag('forge:ingots').tag('forge:ingots/phoenix')
@@ -217,7 +217,7 @@ StartupEvents.registry('item', item => {
 
   item.create('ironwood_nugget').tag('forge:nuggets').tag('forge:nuggets/ironwood').tag("dq:tier2/component")
   item.create('infused_iron_nugget').tag('forge:nuggets').tag('forge:nuggets/infused_iron').tag("dq:tier2/component")
-  item.create('inert_alloy_nugget').tag('forge:nuggets').tag('forge:nuggets/inert_alloy').tag("dq:tier2/component")
+  //item.create('inert_alloy_nugget').tag('forge:nuggets').tag('forge:nuggets/inert_alloy').tag("dq:tier2/component")
   item.create('arcane_alloy_nugget').tag('forge:nuggets').tag('forge:nuggets/arcane_alloy').tag("dq:tier2/component")
   item.create('tainted_gold_nugget').tag('forge:nuggets').tag('forge:nuggets/tainted_gold').tag("dq:tier2/component")
 
