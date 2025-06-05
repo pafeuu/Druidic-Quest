@@ -65,9 +65,6 @@
     "resistances": true,
     "damage_types": true
   },
-  "tombstone": {
-    "graves": true
-  },
   "immersiveengineering": {
     "multiblock_icon": true
   },
@@ -90,6 +87,9 @@
   },
   "jadeaddons": {
     "equipment_requirement": ""
+  },
+  "aether_redux": {
+    "logicator": true
   },
   "twilightforest": {
     "quest_ram_wool": true

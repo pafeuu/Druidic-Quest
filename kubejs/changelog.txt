@@ -1745,7 +1745,7 @@ Patch 0.3.2.1
 
 ### Loottables:
     -Changed for every suspicious block
-    
+
 ### New Items:
     -Lightning Essence
     -Electricity Essence
@@ -1772,7 +1772,64 @@ Patch 0.3.2.1
     -Fluffy Fur API
     -Wizards Reborn
     -Macaw's trapdoors
+    -Macaw's doors
     -Dynamic Lights
+    -FastItemFrames
+
+### Updated Mods:
+    -PuzzlesLib
+    -FTBChunks
+    -FTBQuests
+    -FTBEssentials
+    -FTBFilterSystem
+    -FTBXModCompat
+    -Amendments
+    -AncientAether
+    -AStages
+    -Astrological
+    -BiomeMusic
+    -Collective
+    -ChatHeads
+    -CuriosAPI
+    -DarkModeEverywhere
+    -DeepAether
+    -FancyMenu
+    -DrippyLoadingScreen
+    -e4mc
+    -EntityJS
+    -farmersdelight
+    -FastSuite
+    -Fusion
+    -FzzyConfig
+    -GeckoLib
+    -HopoBetterMineshaft
+    -IDAS
+    -IntegratedAPI
+    -ImmediatelyFast
+    -ImprovedMobs
+    -IronsSPellsNSpellbooks
+    -Jade
+    -LegendaryCreatures
+    -LithoStitched
+    -LootJS
+    -Lootr
+    //-LycheeTweaker
+    -ModernFix
+    -MyNetherDelight
+    -MoreJS
+    -Octolib
+    -Placebo
+    -Zeta
+    -XaeroMinimap
+    -XaeroWorldMap
+    -Quark
+    -PufferfishAttributes
+    -SophisticatedBackpacks
+    -SophisticatedCore
+    -SophisticatedStorage
+    -StructureEssential
+    -AetherRedux
+    -Tide
 
 ### Removed Mods:
     -Dramatic Doors
@@ -1781,5 +1838,15 @@ Patch 0.3.2.1
     -Architect's Pallete
     -Chipped
     -Oculus
+    -OculusFlywheelCompat
+    -ChoiceTheoremOverhauledVillage
+    -DecorativeBlocks
+    -Elementalcraft
+    -Datapack Anvil
+    -Gilded Sherds
+    -StructuresCredits
+
+### Other:
+    -Fixed flint hoes not tilling ground in a 3x3
 
 
