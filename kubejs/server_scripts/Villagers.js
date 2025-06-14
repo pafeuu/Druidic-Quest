@@ -39,8 +39,8 @@ MoreJSEvents.villagerTrades((event) => {
 	event.addTrade("librarian", 4, [TradeItem.of("thermal:silver_coin", 2, 6)], "minecraft:name_tag");
 	event.addTrade("librarian", 4, [TradeItem.of("thermal:gold_coin", 2, 6)], "irons_spellbooks:common_ink");
 	
-	
-	event.addTrade("librarian", 5, [TradeItem.of("thermal:enderium_coin", 2, 4)], "enigmaticlegacy:thicc_scroll");
+	event.addTrade("librarian", 5, [TradeItem.of("thermal:silver_coin", 2, 4)], "enigmaticlegacy:thicc_scroll");
+	event.addTrade("librarian", 5, [TradeItem.of("thermal:enderium_coin", 2, 4)], "ars_nouveau:stable_warp_scroll");
 
 	///========================================================Shepherd
 
@@ -90,7 +90,7 @@ MoreJSEvents.villagerTrades((event) => {
 	event.addTrade("armorer", 2, [TradeItem.of("#forge:coal_coke", 2, 8)], "4x thermal:copper_coin");
 	event.addTrade("armorer", 2, [TradeItem.of("#forge:ingots/iron", 8, 12)], "4x thermal:copper_coin");
 	
-	event.addTrade("armorer", 3, [TradeItem.of("thermal:copper_coin", 4, 12)], "decorative_blocks:chain");
+	//event.addTrade("armorer", 3, [TradeItem.of("thermal:copper_coin", 4, 12)], "decorative_blocks:chain");
 	event.addTrade("armorer", 3, [TradeItem.of("thermal:copper_coin", 8, 24)], "16x minecraft:chain");
 	event.addTrade("armorer", 3, [TradeItem.of("thermal:gold_coin", 2, 12)], 'irons_spellbooks:heavy_chain_necklace');
 	
@@ -117,7 +117,7 @@ MoreJSEvents.villagerTrades((event) => {
 	event.addTrade("cleric", 4, [TradeItem.of("thermal:gold_coin", 10, 20)], Item.of('ars_nouveau:potion_flask', '{Damage:8,an_potion_flask:{PotionData:{Potion:"minecraft:night_vision",includedPotions:["minecraft:strong_strength"]},count:8}}'));
 	
 	
-	event.addTrade("cleric", 5, [TradeItem.of("thermal:gold_coin", 3, 6)], 'enigmaticlegacy:mending_mixture');
+	event.addTrade("cleric", 5, [TradeItem.of("thermal:gold_coin", 4, 8)], '2x enigmaticlegacy:mending_mixture');
 	event.addTrade("cleric", 5, [TradeItem.of("thermal:gold_coin", 1, 2)], 'enigmaticlegacy:cosmic_cake');
 
 	///==============================================================Mason
@@ -273,4 +273,22 @@ MoreJSEvents.villagerTrades((event) => {
 
 	event.addTrade("leatherworker",5,"thermal:netherite_coin","immersiveengineering:glider")
 	event.addTrade("leatherworker",5,"6x thermal:gold_coin","alexsmobs:shed_snake_skin")
+
+	//=============================================================Shady Wizard
+
+	event.addTrade("ars_nouveau:shady_wizard",1,"8x ars_nouveau:sourceberry_bush","2x thermal:copper_coin")
+	event.addTrade("ars_nouveau:shady_wizard",1,"wizards_reborn:arcane_linen_hay","2x thermal:copper_coin")
+
+	event.addTrade("ars_nouveau:shady_wizard",2,"4x ars_nouveau:bastion_pod","4x thermal:copper_coin")
+	event.addTrade("ars_nouveau:shady_wizard",2,"4x ars_nouveau:frostaya_pod","4x thermal:copper_coin")
+	event.addTrade("ars_nouveau:shady_wizard",2,"4x ars_nouveau:bombegranate_pod","4x thermal:copper_coin")
+	event.addTrade("ars_nouveau:shady_wizard",2,"4x ars_nouveau:mendosteen_pod","4x thermal:copper_coin")
+
+	/*event.addTrade("ars_nouveau:shady_wizard",3,"4x thermal:silver_coin",)
+	event.addTrade("ars_nouveau:shady_wizard",3,"4x thermal:silver_coin",)
+	event.addTrade("ars_nouveau:shady_wizard",3,"4x thermal:silver_coin",)*/
+
+	event.addTrade("ars_nouveau:shady_wizard",5,"8x thermal:gold_coin","ars_nouveau:music_disc_aria_biblio")
+	event.addTrade("ars_nouveau:shady_wizard",5,"8x thermal:gold_coin","ars_nouveau:music_disc_firel_the_wild_hunt")
+	event.addTrade("ars_nouveau:shady_wizard",5,"8x thermal:gold_coin","ars_nouveau:music_disc_thistle_the_sound_of_glass")
 });
