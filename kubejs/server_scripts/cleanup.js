@@ -267,7 +267,11 @@ global.nukelist = ["twigs:calcite_wall",
 	"twigs:tuff_stairs",
 	"quark:charcoal_block",
 	"immersiveengineering:slag",
-	"twilightforest:mangrove_chest"]/*,
+	"twilightforest:mangrove_chest",
+	'twigs:mossy_bricks',
+	'twigs:mossy_brick_stairs',
+	'twigs:mossy_brick_slab',
+	'twigs:mossy_brick_wall']/*,
 	'thermal:constantan_dust',
 	'thermal:bronze_dust',
 	'thermal:enderium_dust',
@@ -328,7 +332,7 @@ ServerEvents.recipes(event => {
 		"quark:building/crafting/compressed/carrot_crate",
 		"quark:building/crafting/compressed/apple_crate",
 		"thermal:storage/gunpowder_block",
-		"thermal:storage/gunpowder_from_block",
+		"thermal:storage/gunpowder_from_block"/*,
 		"architects_palette:vslabs/iron_ore_brick_vertical_slab",
 		"architects_palette:vertslabs/myonite_brick_vertical_slab",
 		"architects_palette:vertslabs/coal_ore_brick_vertical_slab_revert",
@@ -347,7 +351,7 @@ ServerEvents.recipes(event => {
 		"regions_unexplored:magenta_dye_from_cactus_flower",
 		"architects_palette:vslabs/gold_ore_brick_vertical_slab_revert",
 		"architects_palette:tuff_bricks",
-		"regions_unexplored:yellow_dye_from_tall_yellow_bioshroom",
+		"regions_unexplored:yellow_dye_from_tall_yellow_bioshroom"*/,
 		"minecraft:bamboo_mosaic_slab"
 		]
 	
@@ -418,7 +422,8 @@ ServerEvents.recipes(event => {
 	event.shapeless("create:iron_sheet",["thermal:iron_plate"])
 	event.shapeless("create:golden_sheet",["thermal:gold_plate"])
 
-	event.shaped("3x everycomp:ch/naturesaura/overgrown_ancient_door",
+	///Needs Chipped to work
+	/*event.shaped("3x everycomp:ch/naturesaura/overgrown_ancient_door",
 		[
 			"AA",
 			"AA",
@@ -440,7 +445,7 @@ ServerEvents.recipes(event => {
 		}
 	).id("everycomp:dd/naturesaura/tall_ancient_door")
 
-	event.stonecutting("everycomp:dd/naturesaura/short_ancient_door","everycomp:ch/naturesaura/overgrown_ancient_door").id("everycomp:dd/naturesaura/short_ancient_door")
+	event.stonecutting("everycomp:dd/naturesaura/short_ancient_door","everycomp:ch/naturesaura/overgrown_ancient_door").id("everycomp:dd/naturesaura/short_ancient_door")*/
 
 	function StorageCompacting(big,small)
 	{
@@ -462,9 +467,9 @@ ServerEvents.recipes(event => {
 	StorageCompacting("naturesaura:infused_iron","kubejs:infused_iron_nugget")
 	StorageCompacting("kubejs:sapphire_block","kubejs:sapphire")
 	StorageCompacting("thermal:gunpowder_block","quark:gunpowder_sack")
-	StorageCompacting("kubejs:inert_alloy_block","kubejs:inert_alloy_ingot")
+	//StorageCompacting("kubejs:inert_alloy_block","kubejs:inert_alloy_ingot")
 	StorageCompacting("kubejs:arcane_alloy_block","kubejs:arcane_alloy_ingot")
-	StorageCompacting("kubejs:inert_alloy_ingot","kubejs:inert_alloy_nugget")
+	//StorageCompacting("kubejs:inert_alloy_ingot","kubejs:inert_alloy_nugget")
 	StorageCompacting("kubejs:arcane_alloy_ingot","kubejs:arcane_alloy_nugget")
 	StorageCompacting("twilightforest:ironwood_ingot","kubejs:ironwood_nugget")
 	StorageCompacting("twilightforest:knightmetal_ingot","kubejs:knightmetal_nugget")
@@ -604,7 +609,7 @@ ServerEvents.recipes(event => {
 	ThermalGears("diamond")
 	CustomGears("infused_iron","kubejs:infused_iron_gear")
 	CustomGears("arcane_alloy","kubejs:arcane_alloy_gear")
-	CustomGears("inert_alloy","kubejs:inert_alloy_gear")
+	//CustomGears("inert_alloy","kubejs:inert_alloy_gear")
 	CustomGears("aluminum","kubejs:aluminum_gear")
 	CustomGears("andesite","kubejs:andesite_gear")
 	CustomGears("zinc","kubejs:zinc_gear")
@@ -612,14 +617,27 @@ ServerEvents.recipes(event => {
 	CustomGears("stainless_steel","kubejs:stainless_steel_gear")
 	CustomGears("ironwood","kubejs:ironwood_gear")
 	CustomGears("knightmetal","kubejs:knightmetal_gear")
-	CustomGears("drenched_iron","kubejs:drenched_iron_gear")
-	CustomGears("swift_alloy","kubejs:swift_alloy_gear")
+	//CustomGears("drenched_iron","kubejs:drenched_iron_gear")
+	//CustomGears("swift_alloy","kubejs:swift_alloy_gear")
 	CustomGears("tainted_gold","kubejs:tainted_gold_gear")
 	CustomGears("sky","kubejs:sky_gear")
 	CustomGears("depth","kubejs:depth_gear")
 	CustomGears("brass","kubejs:brass_gear")
-	CustomGears("fireite","kubejs:fireite_gear")
+	//CustomGears("fireite","kubejs:fireite_gear")
 	CustomGears("fiery","kubejs:fiery_gear")
+
+	event.custom({
+		"type": "lychee:block_clicking",
+		"post": [
+			{
+			"type": "prevent_default"
+			}
+		],
+		"item_in": {
+			"item": "wizards_reborn:arcanum_dust"
+		},
+		"block_in": "minecraft:gold_ore"
+	})
 
 
 	//-------------------Rods-----------------------
@@ -653,18 +671,18 @@ ServerEvents.recipes(event => {
 
 	rods("infused_iron","kubejs:infused_iron_rod")
 	rods("arcane_alloy","kubejs:arcane_alloy_rod")
-	rods("inert_alloy","kubejs:inert_alloy_rod")
+	//rods("inert_alloy","kubejs:inert_alloy_rod")
 	rods("copper","kubejs:copper_rod")
 	rods("electrum","kubejs:electrum_rod")
 	rods("diamond","kubejs:diamond_rod")
 	rods("gold","kubejs:gold_rod")
-	rods("drenched_iron","kubejs:drenched_iron_rod")
-	rods("swift_alloy","kubejs:swift_alloy_rod")
+	//rods("drenched_iron","kubejs:drenched_iron_rod")
+	//rods("swift_alloy","kubejs:swift_alloy_rod")
 	rods("tainted_gold","kubejs:tainted_gold_rod")
 	rods("sky","kubejs:sky_rod")
 	rods("depth","kubejs:depth_rod")
 	rods("brass","kubejs:brass_rod")
-	rods("fireite","kubejs:fireite_rod")
+	//rods("fireite","kubejs:fireite_rod")
 
 	event.remove({id:"vintageimprovements:craft/fiery_rod"})
 	
@@ -869,13 +887,13 @@ ServerEvents.recipes(event => {
 
 	plates("forge:ingots/arcane_alloy","kubejs:arcane_alloy_plate","kubejs:arcane_alloy_block")
 	plates("forge:ingots/infused_iron","kubejs:infused_iron_plate","naturesaura:infused_iron_block")
-	plates("forge:ingots/inert_alloy","kubejs:inert_alloy_plate","kubejs:inert_alloy_block")
+	//plates("forge:ingots/inert_alloy","kubejs:inert_alloy_plate","kubejs:inert_alloy_block")
 	plates("forge:gems/diamond","kubejs:diamond_plate","minecraft:diamond_block")
 	
 	plates("forge:ingots/ironwood","vintageimprovements:ironwood_sheet","twilightforest:ironwood_block")
 	plates("forge:ingots/knightmetal","vintageimprovements:knightmetal_sheet","twilightforest:knightmetal_block")
 	plates("forge:ingots/fiery","vintageimprovements:fiery_sheet","twilightforest:fiery_block")
-	plates("forge:ingots/fireite","kubejs:fireite_sheet","elementalcraft:fireite_block")
+	//plates("forge:ingots/fireite","kubejs:fireite_sheet","elementalcraft:fireite_block")
 
 	plates("forge:ingots/tin","vintageimprovements:tin_sheet","thermal:tin_block")
 	plates("forge:ingots/silver","vintageimprovements:silver_sheet","thermal:silver_block")
@@ -905,8 +923,8 @@ ServerEvents.recipes(event => {
 	plates("forge:ingots/netherite","vintageimprovements:netherite_sheet","minecraft:netherite_block")
 	plates("forge:ingots/brass","create:brass_sheet","create:brass_block")
 
-	plates("forge:ingots/drenched_iron","kubejs:drenched_iron_sheet","elementalcraft:drenched_iron_block")
-	plates("forge:ingots/swift_alloy","kubejs:swift_alloy_sheet","elementalcraft:swift_alloy_block")
+	//plates("forge:ingots/drenched_iron","kubejs:drenched_iron_sheet","elementalcraft:drenched_iron_block")
+	//plates("forge:ingots/swift_alloy","kubejs:swift_alloy_sheet","elementalcraft:swift_alloy_block")
 	plates("forge:ingots/tainted_gold","kubejs:tainted_gold_sheet","naturesaura:tainted_gold_block")
 	plates("forge:ingots/sky","kubejs:sky_sheet","naturesaura:sky_ingot_block")
 	plates("forge:ingots/depth","kubejs:depth_sheet","naturesaura:depth_ingot_block")
@@ -1062,25 +1080,28 @@ ServerEvents.recipes(event => {
 	event.remove({output:"twigs:mossy_bricks"})
 	event.remove({id:"immersive_weathering:charred_log"})
 
-	event.shapeless("regions_unexplored:blackstone_cluster","blackstone").id("regions_unexplored:blackstone_cluster")
-	event.shapeless("twigs:polished_basalt_bricks","architects_palette:basalt_tiles").id("twigs:polished_basalt_bricks")
-	event.shapeless("architects_palette:basalt_tiles","twigs:polished_basalt_bricks")
+	//Regions Unexplored
+	//event.shapeless("regions_unexplored:blackstone_cluster","blackstone").id("regions_unexplored:blackstone_cluster")
+
+	//event.shapeless("twigs:polished_basalt_bricks","architects_palette:basalt_tiles").id("twigs:polished_basalt_bricks")
+	//event.shapeless("architects_palette:basalt_tiles","twigs:polished_basalt_bricks")
 	event.shapeless("twigs:mossy_bricks","immersive_weathering:mossy_bricks")
 	
 	
 	event.shapeless("quark:mossy_cobblestone_bricks","twigs:mossy_cobblestone_bricks").id("quark:building/crafting/mossy_cobblestone_bricks")
 
-	event.shaped("architects_palette:hadaline_tiles",["XX","XX"],{"X":"architects_palette:hadaline_bricks"}).id("architects_palette:hadaline_tiles")
+	//event.shaped("architects_palette:hadaline_tiles",["XX","XX"],{"X":"architects_palette:hadaline_bricks"}).id("architects_palette:hadaline_tiles")
 	event.shaped("ancient_aether:carved_tiles",["XX","XX"],{"X":"aether_redux:carved_base"}).id("ancient_aether:carved_tiles")
 
-	event.shapeless("regions_unexplored:mossy_stone","immersive_weathering:mossy_stone").id("regions_unexplored:mossy_stone")
-	event.shapeless("immersive_weathering:mossy_stone","regions_unexplored:mossy_stone")
+	//Regions Unexplored
+	//event.shapeless("regions_unexplored:mossy_stone","immersive_weathering:mossy_stone").id("regions_unexplored:mossy_stone")
+	//event.shapeless("immersive_weathering:mossy_stone","regions_unexplored:mossy_stone")
 
-	event.shapeless("quark:dripstone_bricks","architects_palette:dripstone_bricks").id("architects_palette:dripstone_bricks")
-	event.shapeless("architects_palette:dripstone_bricks","quark:dripstone_bricks")
+	//event.shapeless("quark:dripstone_bricks","architects_palette:dripstone_bricks").id("architects_palette:dripstone_bricks")
+	//event.shapeless("architects_palette:dripstone_bricks","quark:dripstone_bricks")
 
-	event.shapeless("quark:calcite_bricks","architects_palette:calcite_bricks").id("architects_palette:calcite_bricks")
-	event.shapeless("architects_palette:calcite_bricks","quark:calcite_bricks")
+	//event.shapeless("quark:calcite_bricks","architects_palette:calcite_bricks").id("architects_palette:calcite_bricks")
+	//event.shapeless("architects_palette:calcite_bricks","quark:calcite_bricks")
 
 	event.shapeless("twigs:cobblestone_bricks","quark:cobblestone_bricks").id("twigs:cobblestone_bricks")
 	event.shapeless("quark:cobblestone_bricks","twigs:cobblestone_bricks")
@@ -1091,9 +1112,10 @@ ServerEvents.recipes(event => {
 
 	event.remove({id:"immersiveengineering:crafting/toolbox"})
 
+	/* Regions Unexplored
 	event.shapeless("4x regions_unexplored:blue_magnolia_flowers","4x regions_unexplored:blue_magnolia_leaves").id("regions_unexplored:blue_magnolia_flowers")
 	event.shapeless("4x regions_unexplored:pink_magnolia_flowers","4x regions_unexplored:pink_magnolia_leaves").id("regions_unexplored:pink_magnolia_flowers")
-	event.shapeless("4x regions_unexplored:white_magnolia_flowers","4x regions_unexplored:white_magnolia_leaves").id("regions_unexplored:white_magnolia_flowers")
+	event.shapeless("4x regions_unexplored:white_magnolia_flowers","4x regions_unexplored:white_magnolia_leaves").id("regions_unexplored:white_magnolia_flowers")*/
 
 	
 	event.replaceInput({id:"immersiveengineering:crafting/wirecutter"},"#forge:rods/wooden","immersiveengineering:stick_treated")
@@ -1166,7 +1188,7 @@ ServerEvents.recipes(event => {
 			R: "kubejs:shapeshifting_root"
 	})
 
-	event.shaped("regions_unexplored:blue_bioshroom",
+	/*event.shaped("regions_unexplored:blue_bioshroom",
 		[
 			"ZXZ",
 			"XRX",
@@ -1213,6 +1235,7 @@ ServerEvents.recipes(event => {
 			Z: "quark:glow_shroom",
 			R: "kubejs:shapeshifting_root"
 	})
+	*/
 
 	event.shaped("quark:glow_shroom",
 		[

@@ -284,7 +284,7 @@ LootJS.modifiers((event) => {
     })
     .addLoot("kubejs:twilight_key")
     //================================================ BLOCKS
-
+    
     event.addBlockLootModifier("#forge:tall_grass")
         .matchMainHand("#forge:tools/knives")
         .randomChanceWithEnchantment("minecraft:looting", [0.1, 0.15, 0.2, 0.25]) 
@@ -295,9 +295,5 @@ LootJS.modifiers((event) => {
 
     event.addBlockLootModifier("gravel")
         .replaceLoot("flint","gravel")
-    
-
-
-
    
 });

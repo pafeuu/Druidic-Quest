@@ -11,7 +11,7 @@ ServerEvents.tags('item', event => {
 
 
 
-  let flower = ['minecraft:sunflower','minecraft:dandelion','naturesaura:aura_bloom','bloomingnature:wild_sunflower','regions_unexplored:yellow_snowbelle','bloomingnature:freesia_yellow','bloomingnature:golden_rod','regions_unexplored:alpha_dandelion']
+  let flower = ['minecraft:sunflower','minecraft:dandelion','naturesaura:aura_bloom','bloomingnature:wild_sunflower',/*'regions_unexplored:yellow_snowbelle',*/'bloomingnature:freesia_yellow','bloomingnature:golden_rod'/*,'regions_unexplored:alpha_dandelion'*/]
 
   /*let wiring = ['minecraft:repeater', 'minecraft:calibrated_sculk_sensor', 'minecraft:tripwire_hook', 'minecraft:daylight_detector', 'minecraft:string', 'minecraft:activator_rail', 'minecraft:detector_rail', 'minecraft:powered_rail', 'minecraft:rail', 
                 'minecraft:redstone', 'minecraft:piston', 'minecraft:composter', 'create:redstone_link', 'minecraft:sticky_piston', 'minecraft:dispenser', 'minecraft:redstone_lamp', 'minecraft:redstone_torch', 'minecraft:dropper',
@@ -274,7 +274,7 @@ ServerEvents.tags('item', event => {
   let Tier3Accessory = []
   
   event.add("dq:primitive_hoes",[
-    "minecraft:flint_hoe",
+    "minecraft:wooden_hoe",
     "minecraft:stone_hoe",
     "kubejs:copper_hoe",
     "aether:holystone_hoe",
@@ -453,6 +453,7 @@ ServerEvents.tags('block', event => {
   event.add("druidic_quest:terraformer","#minecraft:dirt")
   event.add("druidic_quest:terraformer","#minecraft:sand")
 
+
   event.add("forge:stripped_logs",['thermal:stripped_rubberwood_log',
     'twilightforest:stripped_sorting_log',
     'twilightforest:stripped_mining_log',
@@ -490,10 +491,20 @@ ServerEvents.tags('block', event => {
 
   event.add("irons_spellbooks:spectral_hammer_mineable",["twigs:schist","twigs:rhyolite","immersiveweathering:mossy_stone"])
 
-  let grass =["regions_unexplored:medium_grass","regions_unexplored:ashen_grass","regions_unexplored:bladed_grass","regions_unexplored:frozen_grass","regions_unexplored:sandy_grass","regions_unexplored:steppe_grass",
-    "regions_unexplored:mycotoxic_grass","regions_unexplored:bladed_tall_grass","regions_unexplored:sandy_tall_grass","regions_unexplored:steppe_tall_grass","regions_unexplored:windswept_grass","immersive_weathering:frosty_grass","immersive_weathering:dune_grass"]
+  let grass =[/*"regions_unexplored:medium_grass",
+    "regions_unexplored:ashen_grass",
+    "regions_unexplored:bladed_grass",
+    "regions_unexplored:frozen_grass",
+    "regions_unexplored:sandy_grass",
+    "regions_unexplored:steppe_grass",
+    "regions_unexplored:mycotoxic_grass",
+    "regions_unexplored:bladed_tall_grass",
+    "regions_unexplored:sandy_tall_grass",
+    "regions_unexplored:steppe_tall_grass",
+    "regions_unexplored:windswept_grass",*/"immersive_weathering:frosty_grass","immersive_weathering:dune_grass"]
+  
 
-  let pickaxeable = ["#forge:glass","#forge:glass_panes","#chipped:glass","beacon","skeleton_skull","wither_skeleton_skull","player_head","elementalcraft:burnt_glass"]
+  let pickaxeable = ["#forge:glass","#forge:glass_panes","#chipped:glass","beacon","skeleton_skull","wither_skeleton_skull","player_head"/*,"elementalcraft:burnt_glass"*/]
 
   let axeable = ["skeleton_skull","wither_skeleton_skull","player_head","supplementaries:sack","quark:bonded_leather"]
 

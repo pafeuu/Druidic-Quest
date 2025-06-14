@@ -103,13 +103,13 @@ ServerEvents.recipes(event => {
     AoeHoe("immersive_weathering:silt","immersive_weathering:silty_farmland")
     AoeHoe("immersive_weathering:grassy_silt","immersive_weathering:silty_farmland")
 
-    AoeHoe("regions_unexplored:peat_dirt","regions_unexplored:peat_farmland")
+    /*AoeHoe("regions_unexplored:peat_dirt","regions_unexplored:peat_farmland")
     AoeHoe("regions_unexplored:peat_grass_block","regions_unexplored:peat_farmland")
     AoeHoe("regions_unexplored:peat_coarse_dirt","regions_unexplored:peat_dirt")
 
     AoeHoe("regions_unexplored:silt_dirt","regions_unexplored:silt_farmland")
     AoeHoe("regions_unexplored:silt_grass_block","regions_unexplored:silt_farmland")
-    AoeHoe("regions_unexplored:silt_coarse_dirt","regions_unexplored:silt_dirt")
+    AoeHoe("regions_unexplored:silt_coarse_dirt","regions_unexplored:silt_dirt")*/
 
     AoeHoe("mynethersdelight:resurgent_soil","mynethersdelight:resurgent_soil_farmland")
     

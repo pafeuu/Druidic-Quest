@@ -860,7 +860,7 @@ ServerEvents.recipes(event => {
 	)
 	
 	event.shaped(
-	  Item.of('minecraft:stone_axe', '{Damage:119}'), 
+	  Item.of('minecraft:stone_axe', '{Damage:110}'), 
 	  [
 		'FF',
 		'FS', 
@@ -1420,7 +1420,7 @@ ServerEvents.recipes(event => {
 		  'AIA' 
 		],
 		{
-		  A: 'regions_unexplored:blue_bioshroom',
+		  A: 'naturesaura:aura_shroom',
 		  Y: '#forge:gems/sapphire',
 		  I: 'quark:glow_shroom',
 		  X: 'aether_redux:enchanted_ring'
@@ -1546,7 +1546,7 @@ ServerEvents.recipes(event => {
 		})
 	event.recipes.naturesaura.tree_ritual(Item.of('kubejs:silver_katana').enchant('minecraft:smite', 2).enchant('minecraft:sweeping', 1),[
 		"kubejs:silver_sword",
-		"tombstone:ankh_of_prayer",
+		"thermal:gold_gear",
 		"#forge:rods/gold",
 		"#forge:rods/gold",
 		"#forge:rods/silver",
@@ -1695,7 +1695,7 @@ ServerEvents.recipes(event => {
 			
 		],
 		"sapling": {
-			"item": "regions_unexplored:golden_larch_sapling"
+			"item": "wizardsreborn:arcane_wood_sapling"
 		},
 		"output": {
 			"item": 'enigmaticlegacy:mining_charm',
@@ -1735,7 +1735,7 @@ ServerEvents.recipes(event => {
 			
 		],
 		"sapling": {
-			"item": "regions_unexplored:brimwood_sapling"
+			"item": "minecraft:crimson_fungus"
 		},
 		"output": {
 			"item": 'enigmaticlegacy:monster_charm',
@@ -2352,7 +2352,7 @@ ServerEvents.recipes(event => {
 		  'NSN'
 		],
 		{
-			S: 'tombstone:strange_scroll',
+			S: 'enigmaticlegacy:thicc_scroll',
 			X: 'minecraft:ender_pearl',
 			N: '#forge:nuggets/gold'
 		}
