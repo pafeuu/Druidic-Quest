@@ -187,7 +187,7 @@ ServerEvents.recipes(event =>{
 	CuttingLogs("mangrove_planks","stripped_mangrove_log")
 	CuttingLogs("cherry_planks","stripped_cherry_log")
 	CuttingLogs("bamboo_planks","stripped_bamboo_block")
-	CuttingLogs("architects_palette:twisted_planks","architects_palette:stripped_twisted_log")
+	//CuttingLogs("architects_palette:twisted_planks","architects_palette:stripped_twisted_log")
 	CuttingLogs("ancient_aether:highsproot_planks","ancient_aether:stripped_highsproot_log")
 	CuttingLogs("ancient_aether:sakura_planks","ancient_aether:stripped_sakura_log")
 	CuttingLogs("deep_aether:yagroot_planks","deep_aether:stripped_yagroot_log")
@@ -202,7 +202,8 @@ ServerEvents.recipes(event =>{
 	CuttingLogs("quark:ancient_planks","quark:stripped_ancient_log")
 	CuttingLogs("quark:azalea_planks","quark:stripped_azalea_log")
 	CuttingLogs("quark:blossom_planks","quark:stripped_blossom_log")
-	CuttingLogs("minecraft:bamboo_planks","regions_unexplored:stripped_bamboo_log")
+
+	/*CuttingLogs("minecraft:bamboo_planks","regions_unexplored:stripped_bamboo_log")
 	CuttingLogs("minecraft:oak_planks","regions_unexplored:stripped_small_oak_log")
 	CuttingLogs("regions_unexplored:baobab_planks","regions_unexplored:stripped_baobab_log")
 	CuttingLogs("regions_unexplored:alpha_planks","regions_unexplored:alpha_log")
@@ -226,7 +227,7 @@ ServerEvents.recipes(event =>{
 	CuttingLogs("regions_unexplored:pine_planks","regions_unexplored:stripped_pine_log")
 	CuttingLogs("regions_unexplored:redwood_planks","regions_unexplored:stripped_redwood_log")
 	CuttingLogs("regions_unexplored:socotra_planks","regions_unexplored:stripped_socotra_log")
-	CuttingLogs("regions_unexplored:willow_planks","regions_unexplored:stripped_willow_log")
+	CuttingLogs("regions_unexplored:willow_planks","regions_unexplored:stripped_willow_log")*/
 	CuttingLogs("aether:skyroot_planks","aether:stripped_skyroot_log")
 	CuttingLogs("aether_redux:fieldsproot_planks","aether_redux:stripped_fieldsproot_log")
 	CuttingLogs("aether_redux:blightwillow_planks","aether_redux:stripped_blightwillow_log")
@@ -248,6 +249,8 @@ ServerEvents.recipes(event =>{
 	CuttingLogs("ars_nouveau:archwood_planks","ars_nouveau:stripped_green_archwood_log")
 	CuttingLogs("ars_nouveau:archwood_planks","ars_nouveau:stripped_red_archwood_log")
 	CuttingLogs("ars_nouveau:archwood_planks","ars_nouveau:stripped_purple_archwood_log")
+	CuttingLogs("wizards_reborn:innocent_wood_planks","wizards_reborn:stripped_innocent_wood_log")
+	CuttingLogs("wizards_reborn:arcane_wood_planks","wizards_reborn:stripped_arcane_wood_log")
 
     SlabsAndStairs("minecraft","oak")
 	SlabsAndStairs("minecraft","spruce")
@@ -260,7 +263,7 @@ ServerEvents.recipes(event =>{
 	SlabsAndStairs("minecraft","mangrove")
 	SlabsAndStairs("minecraft","cherry")
 	SlabsAndStairs("minecraft","bamboo")
-	SlabsAndStairs("architects_palette","twisted")
+	//SlabsAndStairs("architects_palette","twisted")
 	SlabsAndStairs("ancient_aether","highsproot")
 	SlabsAndStairs("ancient_aether","sakura")
 	SlabsAndStairs("deep_aether","yagroot")
@@ -276,7 +279,7 @@ ServerEvents.recipes(event =>{
 	QuarkSlabsAndStairs("quark","azalea")
 	QuarkSlabsAndStairs("quark","blossom")
 	SlabsAndStairs("minecraft","bamboo")
-	SlabsAndStairs("regions_unexplored","baobab")
+	/*SlabsAndStairs("regions_unexplored","baobab")
 	SlabsAndStairs("regions_unexplored","alpha")
 	SlabsAndStairs("regions_unexplored","blackwood")
 	SlabsAndStairs("regions_unexplored","blue_bioshroom")
@@ -302,7 +305,7 @@ ServerEvents.recipes(event =>{
 	var colors = ['red','blue','white','gray','light_gray','black','purple','magenta','yellow','green','lime','light_blue','cyan','orange','pink','brown']
 	colors.forEach(color => {
 		SlabsAndStairs("regions_unexplored",color+"_painted")
-	});
+	});*/
 	
 	SlabsAndStairs("aether","skyroot")
 	SlabsAndStairs("aether_redux","fieldsproot")
@@ -322,6 +325,8 @@ ServerEvents.recipes(event =>{
 	SlabsAndStairs("twilightforest","time")
 	SlabsAndStairs("thermal","rubberwood")
 	SlabsAndStairs("ars_nouveau","archwood")
+	SlabsAndStairs("wizards_reborn","innocent_wood")
+	SlabsAndStairs("wizards_reborn","arcane_wood")
 
     
 })
