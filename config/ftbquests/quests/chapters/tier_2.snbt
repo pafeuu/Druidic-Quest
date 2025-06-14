@@ -28,7 +28,7 @@
 			size: 2.0d
 			tasks: [{
 				id: "3AD0E0A9B87DBD1E"
-				item: "kubejs:arcane_alloy_ingot"
+				item: "kubejs:source_alloy_ingot"
 				type: "item"
 			}]
 			x: -11.0d
@@ -154,11 +154,6 @@
 			}]
 			shape: "rsquare"
 			tasks: [
-				{
-					id: "6E40E434C5496E4B"
-					item: "elementalcraft:extractor"
-					type: "item"
-				}
 				{
 					id: "0022BEBB10A64B0B"
 					item: "elementalcraft:evaporator"

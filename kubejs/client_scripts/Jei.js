@@ -9,7 +9,7 @@ JEIEvents.removeRecipes(event => {
 })
 
 JEIEvents.information(event => {
-    event.addItem(['regions_unexplored:alpha_slab',
+    /*event.addItem(['regions_unexplored:alpha_slab',
                    'regions_unexplored:baobab_slab',
                    'regions_unexplored:larch_slab',
                    'regions_unexplored:magnolia_slab',
@@ -32,7 +32,7 @@ JEIEvents.information(event => {
                    'regions_unexplored:pink_bioshroom_slab',
                    'regions_unexplored:pine_slab',
                    'regions_unexplored:palm_slab',
-                   'ars_nouveau:archwood_slab'], ['If you cant see recipe for this', 'Try restarting your game', "It's a known issue, Sorry for the inconvenience"])
+                   'ars_nouveau:archwood_slab'], ['If you cant see recipe for this', 'Try restarting your game', "It's a known issue, Sorry for the inconvenience"])*/
 
     event.addItem("kubejs:charged_copper_block",["Created when Copper Block or Waxed Copper Block is struck by lightning"])
   })

@@ -31,9 +31,9 @@ LootJS.modifiers((event) => {
         .replaceLoot("minecraft:stone", "kubejs:stone_plate")
         .replaceLoot("minecraft:smooth_stone", "kubejs:stone_plate")
         .replaceLoot("minecraft:stone_bricks", "kubejs:stone_plate")
-        .replaceLoot("minecraft:snow_block", "elementalcraft:water_shard")
-        .replaceLoot("minecraft:clay_ball", "elementalcraft:earth_shard")
-        .replaceLoot("minecraft:brick", "elementalcraft:earth_shard")
+        .replaceLoot("minecraft:snow_block", "kubejs:water_infused_arcanum")
+        .replaceLoot("minecraft:clay_ball", "kubejs:earth_infused_arcanum")
+        .replaceLoot("minecraft:brick", "kubejs:earth_infused_arcanum")
         .replaceLoot("create:andesite_alloy", "architects_palette:algal_blend")
         .replaceLoot("minecraft:iron_horse_armor", "create:iron_sheet")
         .replaceLoot("minecraft:golden_horse_armor", "create:iron_sheet")
@@ -42,8 +42,8 @@ LootJS.modifiers((event) => {
         .replaceLoot("minecraft:yellow_dye",Item.of('fruitsdelight:jelly_bread', '{JellyEffectRoot:["PINEAPPLE"]}'))
         .replaceLoot("minecraft:diamond_horse_armor", "create:iron_sheet")
         .replaceLoot("large_fern","kubejs:infused_iron_nugget")
-        .replaceLoot("spruce_sign","elementalcraft:earth_shard")
-        .replaceLoot("supplementaries:ash","elementalcraft:fire_shard")
+        .replaceLoot("spruce_sign","kubejs:earth_infused_arcanum")
+        .replaceLoot("supplementaries:ash","kubejs:fire_infused_arcanum")
         .replaceLoot("minecraft:golden_sword","create:golden_sheet")
         .replaceLoot("minecraft:golden_shovel","create:golden_sheet")
         .replaceLoot("minecraft:golden_pickaxe","create:golden_sheet")
@@ -93,14 +93,6 @@ LootJS.modifiers((event) => {
     event.addLootTableModifier(/idas:chests\/desert_pyramid.*/)
         .randomChance(0.9)
         .addLoot("vintageimprovements:redstone_module");
-
-    // ====================================================Elemental Craft
-
-    event.addLootTableModifier(/.*elementalcraft:chests.*/)
-        .replaceLoot(["elementalcraft:swift_alloy_nugget","elementalcraft:drenched_iron_nugget","elementalcraft:drenched_iron_ingot","elementalcraft:rune","elementalcraft:scroll","elementalcraft:scroll_paper"],"kubejs:infused_iron_nugget")
-        .replaceLoot("elementalcraft:swift_alloy_ingot","naturesaura:infused_ingot")
-        .randomChance(0.7)
-        .addLoot("8x elementalcraft:inert_crystal");
 
     //======================================================== Dungeons Arise
     event.addLootTableModifier(/.*dungeons_arise:chests.*/)

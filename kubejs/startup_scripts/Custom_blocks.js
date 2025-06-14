@@ -208,14 +208,14 @@ StartupEvents.registry("block", (event) => {
     .tagBlock("mineable/pickaxe")
     .tagBlock('minecraft:needs_iron_tool')
 
-    /*event.create("inert_alloy_block")
+    event.create("source_alloy_block")
     .soundType("metal")
     .hardness("2")
     .resistance("6")
     .tagBlock("mineable/pickaxe")
-    .tagBlock('minecraft:needs_iron_tool')*/
+    .tagBlock('minecraft:needs_iron_tool')
 
-    event.create("arcane_alloy_block")
+    event.create("arcanum_alloy_block")
     .soundType("metal")
     .hardness("2")
     .resistance("6")

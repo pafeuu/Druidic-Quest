@@ -1876,13 +1876,14 @@ Patch 0.3.2.1
     -Gilded Sherds
     -StructuresCredits
 
-### New Items:
-    -Infused Amethyst
-    -Earth Infused Arcanum
-    -Water Infused Arcanum
-    -Fire Infused Arcanum
-    -Air Infused Arcanum
-    -
+### Items:
+    -Added Infused Amethyst
+    -Added Earth Infused Arcanum
+    -Added Water Infused Arcanum
+    -Added Fire Infused Arcanum
+    -Added Air Infused Arcanum
+    -Replaced Arcane Alloy related items with Source Alloy
+    -Replaced Inert Alloy related items with Arcanum Alloy
 
 
 ### Recipes:

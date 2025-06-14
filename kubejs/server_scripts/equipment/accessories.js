@@ -41,10 +41,10 @@ ServerEvents.recipes(event => {
         "kubejs:fall_boots_cover",
         "thermal:sapphire",
         "thermal:sapphire",
-        "#forge:plates/arcane_alloy",
-        "#forge:plates/arcane_alloy",
-        "#forge:plates/arcane_alloy",
-        "#forge:plates/arcane_alloy"],
+        "#forge:plates/source_alloy",
+        "#forge:plates/source_alloy",
+        "#forge:plates/source_alloy",
+        "#forge:plates/source_alloy"],
         "quark:ancient_sapling",200)
     
     event.recipes.naturesaura.tree_ritual("kubejs:bouncy_boots_cover", [

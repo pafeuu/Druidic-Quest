@@ -23,10 +23,9 @@ ServerEvents.recipes(event => {
 	event.remove({output:'#minecraft:shovels'})
 	event.remove({output:'#minecraft:hoes'})
 	event.remove({output:'#minecraft:swords'})
-	//event.remove({output:"elementalcraft:spell_desk"})
 	
-	event.replaceInput({mod:'ars_nouveau', not:{type:"minecraft:stonecutting"}}, 'ars_nouveau:sourcestone','kubejs:arcane_alloy_ingot')
-	//event.replaceInput({mod:'elementalcraft'}, 'minecraft:iron_ingot','kubejs:inert_alloy_ingot')
+	event.replaceInput({mod:'ars_nouveau', not:{type:"minecraft:stonecutting"}}, 'ars_nouveau:sourcestone','kubejs:source_alloy_ingot')
+	
 	event.replaceInput({mod:'crafting_on_a_stick'}, 'minecraft:stick','kubejs:zinc_tool_handle')
 	event.shapeless("2x minecraft:rooted_dirt",["minecraft:dirt","minecraft:mangrove_roots"])
 	event.shapeless("minecraft:rooted_dirt",["minecraft:dirt","minecraft:hanging_roots"])
@@ -606,7 +605,7 @@ ServerEvents.recipes(event => {
 				{tag: "twilightforest:fiery_vial"},
 				{tag: "twilightforest:fiery_vial"},
 				{tag: "twilightforest:fiery_vial"},
-				{tag: "forge:ingots/inert_alloy"}
+				{tag: "forge:ingots/arcanum_alloy"}
 			],
 			contextual: [
 				{type: "location",predicate:{dimension: "twilightforest:twilight_forest"}},
@@ -670,7 +669,7 @@ ServerEvents.recipes(event => {
 		item_in: [
 			{item: "kubejs:basic_alchemical_dust"},
 			{item: "irons_spellbooks:blood_vial"},
-			{item: "elementalcraft:firecrystal"}
+			{item: "kubejs:fire_infused_arcanum"}
 		],
 		contextual: [
 			{type: "location",predicate:{dimension: "twilightforest:twilight_forest"}},
@@ -823,7 +822,7 @@ ServerEvents.recipes(event => {
 		 post: [
 		   {
 			 type: "drop_item",
-			 item: "elementalcraft:inert_crystal"
+			 item: "wizards_reborn:arcanum"
 		   },
 		   {
 			   type: "execute",
@@ -1962,7 +1961,7 @@ ServerEvents.recipes(event => {
 		   
 		  "result": {
 			"base_ingredient": {
-			  item: "kubejs:arcane_alloy_ingot"
+			  item: "kubejs:source_alloy_ingot"
 			},
 			"count": 2
 		  },
@@ -1973,7 +1972,7 @@ ServerEvents.recipes(event => {
 		type: "immersiveengineering:alloy",
 		  "input0": {
 			base_ingredient: {
-				item: "elementalcraft:contained_crystal"
+				item: "wizards_reborn:arcanum"
 			},
 			count: 3
 		  },
@@ -1986,7 +1985,7 @@ ServerEvents.recipes(event => {
 		   
 		  "result": {
 			"base_ingredient": {
-			  item: "kubejs:inert_alloy_ingot"
+			  item: "kubejs:arcanum_alloy_ingot"
 			},
 			"count": 2
 		  },
@@ -2036,7 +2035,7 @@ ServerEvents.recipes(event => {
 		],
 		item_in: [
 			{ item: "forbidden_arcanus:arcane_crystal_dust" },
-			{ item: "kubejs:arcane_alloy_ingot" },
+			{ item: "kubejs:source_alloy_ingot" },
 			{ item: "wither_rose" },
 			{ tag: "forge:gems/cinnabar" }
 		]
@@ -2050,7 +2049,7 @@ ServerEvents.recipes(event => {
 		],
 		item_in: [
 			{ item: "forbidden_arcanus:arcane_crystal_dust" },
-			{ item: "kubejs:arcane_alloy_ingot" },
+			{ item: "kubejs:source_alloy_ingot" },
 			{ item: "wither_rose" },
 			{ tag: "forge:gems/ruby" }
 		]
@@ -2064,7 +2063,7 @@ ServerEvents.recipes(event => {
 		],
 		item_in: [
 			{ item: "forbidden_arcanus:arcane_crystal_dust" },
-			{ item: "kubejs:arcane_alloy_ingot" },
+			{ item: "kubejs:source_alloy_ingot" },
 			{ item: "wither_rose" },
 			{ item: "thermal:ruby" }
 		]
@@ -2085,14 +2084,6 @@ ServerEvents.recipes(event => {
 		{ item: "forbidden_arcanus:rune" }
 	]
 	}).id("forbidden_arcanus:corrupti_dust")
-
-	event.custom({
-			type: "elementalcraft:infusion",
-			element_amount: 500,
-			element_type: "earth",
-			input: {item: "quark:sturdy_stone"},
-			output: {item: "elementalcraft:whiterock"}
-	}).id("elementalcraft:infusion/whiterock")
 
 	event.shaped(
 	  Item.of('kubejs:magic_machine'), 
@@ -2172,8 +2163,8 @@ ServerEvents.recipes(event => {
 			}
 		  )
 	}
-	smithingtemplate("minecraft:mossy_stone_bricks","naturesaura:infused_iron","botanist")
-	smithingtemplate("elementalcraft:whiterock","naturesaura:sky_ingot","skyseeker")
+	smithingtemplate("mossy_stone_bricks","naturesaura:infused_iron","botanist")
+	smithingtemplate("calcite","naturesaura:sky_ingot","skyseeker")
 	smithingtemplate("basalt","#forge:plates/gold","gold")
 	smithingtemplate("end_stone","#forge:ingots/steel","steel")
 	smithingtemplate("deep_aether:aseterite","#forge:ingots/phoenix","phoenix")
@@ -2219,16 +2210,6 @@ ServerEvents.recipes(event => {
 		pedestalItems: [],
 		source: 1000
 	})
-
-	event.remove({output:'elementalcraft:contained_crystal'})
-	event.custom({
-		type: "ars_nouveau:imbuement",
-		count: 1,
-		input: {item: "elementalcraft:inert_crystal"},
-		output: "elementalcraft:contained_crystal",
-		pedestalItems: [],
-		source: 500
-	})
 	
 	event.custom({
 		type: "lychee:item_inside",
@@ -2241,7 +2222,7 @@ ServerEvents.recipes(event => {
 		  ],
 		  item_in: [
 			{item: "kubejs:nature_essence"},
-			{item: "elementalcraft:aircrystal"},
+			{item: "kubejs:air_infused_arcanum"},
 			{item:  "ars_nouveau:source_gem"},
 			{item: "minecraft:feather"}
 		  ],
@@ -2263,7 +2244,7 @@ ServerEvents.recipes(event => {
 		  ],
 		  item_in: [
 			{item: "kubejs:nature_essence"},
-			{item: "elementalcraft:watercrystal"},
+			{item: "kubejs:water_infused_arcanum"},
 			{item:  "ars_nouveau:source_gem"},
 			{tag: "minecraft:fishes"}
 		  ],
@@ -2281,7 +2262,7 @@ ServerEvents.recipes(event => {
 		  ],
 		  item_in: [
 			{item: "kubejs:nature_essence"},
-			{item: "elementalcraft:earthcrystal"},
+			{item: "kubejs:earth_infused_arcanum"},
 			{item:  "ars_nouveau:source_gem"},
 			{item: "minecraft:bone"}
 		  ]
@@ -2298,7 +2279,7 @@ ServerEvents.recipes(event => {
 		  ],
 		  item_in: [
 			{item: "kubejs:nature_essence"},
-			{item: "elementalcraft:firecrystal"},
+			{item: "kubejs:fire_infused_arcanum"},
 			{item:  "ars_nouveau:source_gem"},
 			{item: "minecraft:blaze_rod"}
 		  ]
@@ -2319,15 +2300,15 @@ ServerEvents.recipes(event => {
 		],
 		{
 		  X: 'irons_spellbooks:pedestal',
-		  W: 'kubejs:arcane_alloy_ingot',
+		  W: 'kubejs:source_alloy_ingot',
 		  G: "#forge:rods/gold"
 
 		}
 	)
 
-	event.recipes.naturesaura.tree_ritual("2x kubejs:arcane_alloy_ingot",["ars_nouveau:source_gem","ars_nouveau:source_gem","ars_nouveau:source_gem","#forge:dusts/gold","#forge:dusts/gold","#forge:dusts/gold"],"ars_nouveau:purple_archwood_sapling",100)
+	event.recipes.naturesaura.tree_ritual("2x kubejs:source_alloy_ingot",["ars_nouveau:source_gem","ars_nouveau:source_gem","ars_nouveau:source_gem","#forge:dusts/gold","#forge:dusts/gold","#forge:dusts/gold"],"ars_nouveau:purple_archwood_sapling",100)
 	
-	event.recipes.naturesaura.tree_ritual("2x kubejs:inert_alloy_ingot",["elementalcraft:contained_crystal","elementalcraft:contained_crystal","elementalcraft:contained_crystal","#forge:dusts/iron","#forge:dusts/iron","#forge:dusts/iron"],"birch_sapling",100)
+	event.recipes.naturesaura.tree_ritual("2x kubejs:arcanum_alloy_ingot",["wizards_reborn:arcanum","wizards_reborn:arcanum",'wizards_reborn:arcanum',"#forge:dusts/iron","#forge:dusts/iron","#forge:dusts/iron"],"birch_sapling",100)
 
 	event.replaceInput({id:'naturescompass:natures_compass'},'#minecraft:saplings','kubejs:nature_essence')
 	/// ======================================== Tier 2 Machines ================================================================
@@ -2439,23 +2420,9 @@ ServerEvents.recipes(event => {
 	SourceGeneratorsRecipe("mycelial","quark:glow_shroom")
 	SourceGeneratorsRecipe("alchemical",'immersive_weathering:golden_moss_clump')
 	
-	event.recipes.naturesaura.tree_ritual("kubejs:pressing_catalyst",["#forge:gears/arcane_alloy","#forge:gears/inert_alloy","anvil","anvil","immersiveengineering:hammer","immersiveengineering:hammer","anvil","anvil"],"architects_palette:twisted_sapling")
+	event.recipes.naturesaura.tree_ritual("kubejs:pressing_catalyst",["#forge:gears/source_alloy","#forge:gears/arcanum_alloy","anvil","anvil","immersiveengineering:hammer","immersiveengineering:hammer","anvil","anvil"],"architects_palette:twisted_sapling")
 	
-	/*event.shaped("elementalcraft:water_mill_grindstone",
-		[
-			"CXC",
-			"AMA",
-			"XGX"
-		],
-		{
-			X: "elementalcraft:whiterock",
-			C: "kubejs:carbon_infused_sturdy_handle",
-			A: "ars_nouveau:water_essence",
-			M: "kubejs:basic_magic_machine",
-			G: "create:millstone"
-		}
-	).id("elementalcraft:water_mill_grindstone")
-
+	/*
 	event.shaped("elementalcraft:evaporator",
 		[
 			"CXC",
@@ -2467,21 +2434,22 @@ ServerEvents.recipes(event => {
 			X: "#forge:glass",
 			M: "kubejs:basic_magic_machine",
 			C: "kubejs:carbon_infused_sturdy_handle",
-			G: "elementalcraft:elementpipe_impaired"
+			G: "#forge:plates/arcanum_alloy"
 		}
 	).id("elementalcraft:evaporator")
 
 	event.shaped(
 		Item.of('elementalcraft:extractor'), 
 		[
-		  ' X ',
-		  ' C ',
-		  'CMC'
+		  'CAC',
+		  'AMA',
+		  'CXC'
 		],
 		{
 		  M: "kubejs:basic_magic_machine",
-		  X: 'hopper',
-		  C: 'kubejs:carbon_infused_sturdy_handle'
+		  X: "immersiveengineering:fluid_pump",
+		  C: 'kubejs:carbon_infused_sturdy_handle',
+		  A: '#forge:plates/arcanum_alloy',
 		}
 	).id("elementalcraft:extractor")
 
@@ -2494,7 +2462,7 @@ ServerEvents.recipes(event => {
 		],
 		{
 		  M: "kubejs:basic_magic_machine",
-		  I: 'kubejs:inert_alloy_ingot',
+		  I: '#forge:plates/arcanum_alloy',
 		  C: 'kubejs:carbon_infused_sturdy_handle'
 		}
 	).id("elementalcraft:infuser")
@@ -2511,7 +2479,7 @@ ServerEvents.recipes(event => {
 		  M: "kubejs:basic_magic_machine",
 		  X: "quark:diamond_heart",
 		  R: '#forge:rods/gold',
-		  A: 'kubejs:arcane_alloy_ingot'
+		  A: 'kubejs:source_alloy_ingot'
 		}
 	).id("ars_nouveau:arcane_core")
 
@@ -2563,21 +2531,6 @@ ServerEvents.recipes(event => {
 	  }
 	)
 
-	/*event.remove('elementalcraft:sorter')
-	event.shaped(
-	  Item.of('elementalcraft:sorter'), 
-	  [
-		'RRR',
-		'RFR',
-		' H '
-	  ],
-	  {
-		R: "elementalcraft:whiterock",
-		F: "minecraft:comparator",
-		H: 'elementalcraft:instrument_retriever',
-	  }
-	)*/
-
 	event.remove({output:'create:schematicannon'})
 	event.shaped(
 	  Item.of('create:schematicannon'), 
@@ -2595,19 +2548,7 @@ ServerEvents.recipes(event => {
 	  }
 	)
 	
-	clickb("vintagedelight:fermenting_jar","kubejs:arcane_alloy_ingot","ars_nouveau:source_jar")
-
-	/*event.shaped('elementalcraft:small_container',
-		[
-			' P ',
-			'PXP',
-			' P '
-		],
-		{
-			P: 'elementalcraft:elementpipe_impaired',
-			X: 'ars_nouveau:source_jar'
-		}
-	).id('elementalcraft:small_container')*/
+	clickb("vintagedelight:fermenting_jar","kubejs:source_alloy_ingot","ars_nouveau:source_jar")
 	
 	event.remove({output:"ars_nouveau:mob_jar"})
 	event.shapeless("ars_nouveau:mob_jar",["ars_nouveau:source_jar","supplementaries:cage"])
@@ -2618,7 +2559,7 @@ ServerEvents.recipes(event => {
 	  ],
 	  {
 		C: '#forge:ingots/copper',
-		G: 'elementalcraft:burnt_glass'
+		G: 'wizards_reborn:alchemy_glass'
 	  }
 	)
 	
@@ -2634,21 +2575,6 @@ ServerEvents.recipes(event => {
 		G: 'kubejs:nature_essence'
 	  }
 	)
-	
-	/*event.remove({output:'elementalcraft:elementpipe_impaired'})
-	event.shaped(
-	  Item.of('12x elementalcraft:elementpipe_impaired'), 
-	  [
-	    'GGG',
-		'CMC',
-		'GGG'
-	  ],
-	  {
-		C: 'elementalcraft:contained_crystal',
-		M: 'kubejs:basic_magic_machine',
-		G: '#forge:glass'
-	  }
-	)*/
 	
 	event.remove({output:'irons_spellbooks:arcane_anvil'})
 	event.shaped(
@@ -2710,12 +2636,12 @@ ServerEvents.recipes(event => {
 		ingredients: [
 			{item: "enchanted_book"},
 			{tag: "forge:storage_blocks/diamond"},
-			{item: "kubejs:arcane_alloy_ingot"},
-			{item: "kubejs:arcane_alloy_ingot"},
+			{item: "kubejs:source_alloy_ingot"},
+			{item: "kubejs:source_alloy_ingot"},
 			{tag: "forge:storage_blocks/gold"},
 			{tag: "forge:storage_blocks/gold"},
-			{item: "kubejs:arcane_alloy_ingot"},
-			{item: "kubejs:arcane_alloy_ingot"}
+			{item: "kubejs:source_alloy_ingot"},
+			{item: "kubejs:source_alloy_ingot"}
 		],
 		"sapling": {item: "ars_nouveau:blue_archwood_sapling"},
 		"output": {item: "ars_nouveau:enchanting_apparatus","count": 1},
@@ -3091,16 +3017,16 @@ ServerEvents.recipes(event => {
 			item: "ars_nouveau:water_essence"
 		  },
 		  "input1": {
-			item: "kubejs:inert_alloy_ingot"
+			item: "kubejs:arcanum_alloy_ingot"
 		  },
 		  "result": {
 			"base_ingredient": {
-			  item: "elementalcraft:drenched_iron_ingot"
+			  item: "kubejs:aquatic_ingot"
 			},
 			"count": 2
 		  },
 		  "time": 200
-	}).id("elementalcraft:infusion/drenched_iron_ingot")
+	})
 
 	event.custom({
 		type: "immersiveengineering:alloy",

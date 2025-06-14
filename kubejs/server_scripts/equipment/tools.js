@@ -434,7 +434,7 @@ ServerEvents.recipes(event => {
 		],
 		{
 			X: "twilightforest:knightmetal_shield",
-			P: "#forge:plates/arcane_alloy",
+			P: "#forge:plates/source_alloy",
 			Y: "#forge:plates/gold"
 		}
 	)
@@ -2208,8 +2208,8 @@ ServerEvents.recipes(event => {
 			"IAI",
 			"IXI"
 		],
-		{A:"#forge:ingots/arcane_alloy",
-		 I:"#forge:ingots/inert_alloy",
+		{A:"#forge:ingots/source_alloy",
+		 I:"#forge:ingots/arcanum_alloy",
 		 X:"kubejs:primitive_mortar"}
 	).id("kubejs:basic_mortar")
 
@@ -2248,7 +2248,7 @@ ServerEvents.recipes(event => {
 		{
 			H: "kubejs:zinc_tool_handle",
 			X: "kubejs:primitive_chisel",
-			A: "kubejs:arcane_alloy_ingot"
+			A: "kubejs:source_alloy_ingot"
 		}
 	)
 

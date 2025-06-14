@@ -395,6 +395,8 @@ ServerEvents.recipes(event => {
 
   Sacrificing("minecraft:enderman","minecraft:diamond_block","kubejs:infused_diamond",1)
 
+  Sacrificing("minecraft:allay","kubejs:infused_amethyst","kubejs:infused_amethyst",2)
+
   Sacrificing("minecraft:zombie","minecraft:glass_bottle","irons_spellbooks:blood_vial",1)
 
   Infusing("thermal:ruby",1,[
@@ -415,7 +417,7 @@ ServerEvents.recipes(event => {
 
   ExplosionSquareCrafting("thermal:coal_coke","minecraft:furnace","quark:sturdy_stone","quark:sturdy_stone","minecraft:coal_block")
   
-  LightningSquareCrafting("kubejs:lemon_quartz","kubejs:magical_generator_block","kubejs:arcane_alloy_block","kubejs:inert_alloy_block","kubejs:arcane_alloy_block")
+  LightningSquareCrafting("kubejs:lemon_quartz","kubejs:magical_generator_block","kubejs:source_alloy_block","kubejs:arcanum_alloy_block","kubejs:source_alloy_block")
   
 
 })
