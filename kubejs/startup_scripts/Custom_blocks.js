@@ -22,6 +22,18 @@ StartupEvents.registry("block", (event) => {
     .tagBlock('minecraft:needs_stone_tool') 
 	.texture('up', 'kubejs:block/basic_magic_machine_top')
 	.texture('down', 'kubejs:block/basic_magic_machine_top')
+
+    event.create("vine_generator") 
+    .soundType("vine") 
+    .hardness(1.0) 
+    .resistance(6.0) 
+    .tagBoth("tier3/machine") 
+    .requiresTool(true) 
+    .tagBlock("mineable/hoe")
+    .tagBlock("mineable/pickaxe") 
+    .tagBlock('minecraft:needs_iron_tool')
+    .texture('up','kubejs:block/vine_generator_top')
+    .texture('down','kubejs:block/vine_generator_top')
 	
 
     event.create("magical_generator_block") 

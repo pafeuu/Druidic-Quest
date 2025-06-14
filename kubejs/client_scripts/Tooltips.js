@@ -43,8 +43,7 @@ ItemEvents.tooltip( tooltip => {
                "kubejs:lead_boots"],Text.gray("Texture by Farland1ng"))
 
   // ========================================== Villager Trading =========================================
-  tooltip.add(['enigmaticlegacy:thicc_scroll',
-               'irons_spellbooks:common_ink',
+  tooltip.add(['irons_spellbooks:common_ink',
                'ars_nouveau:potion_flask',
                'explorerscompass:explorerscompass',
                'enigmaticlegacy:cosmic_cake',

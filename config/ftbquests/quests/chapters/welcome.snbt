@@ -52,7 +52,7 @@
 			description: [
 				"Welcome to &2Druidic Quest!&r"
 				""
-				"The modpack is focused on improving and balancing all aspects of the game!"
+				"The modpack is focused on advanture and automation through magic as well as balancing most of  the other aspects of the game!"
 				""
 				"For example many recipes are changed and require you to setup automation for certain materials using a different mechanics from different mods."
 				""
@@ -70,7 +70,7 @@
 				{
 					count: 24
 					id: "27E0DA17B7722F2D"
-					item: "everycomp:ch/forbidden_arcanus/edelwood_torch"
+					item: "wizards_reborn:arcane_salt_torch"
 					type: "item"
 				}
 			]
@@ -132,11 +132,11 @@
 		{
 			dependencies: ["23878BB2C97470D0"]
 			description: [
-				"If this is somehow your first modpack you are really gonna need to read the &lTips&r chapter that."
+				"If this is somehow your first modpack you are really gonna need to read the &lTips&r chapter ."
 				""
 				"But even if you are a veteran you might not know everything there so make sure to check it out!"
 			]
-			icon: "tombstone:impregnated_diamond"
+			icon: "kubejs:infused_diamond"
 			id: "6F5C7CA9C74F13E9"
 			rewards: [{
 				count: 5

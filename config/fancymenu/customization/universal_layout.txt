@@ -3,18 +3,18 @@ type = fancymenu_layout
 layout-meta {
   identifier = %fancymenu:universal_layout%
   render_custom_elements_behind_vanilla = false
-  last_edited_time = 1740488504972
+  last_edited_time = 1749307861173
   is_enabled = true
   randommode = false
   randomgroup = 1
   randomonlyfirsttime = false
   layout_index = 0
   universal_layout_whitelist = level_loading_screen;receiving_level_screen;progress_screen;connect_screen;
-  [loading_requirement_container_meta:923c2320-8bf4-49a5-b03c-8e7a6014a0b9-1740488415720] = [groups:][instances:]
+  [loading_requirement_container_meta:e904357f-5d1b-4a8d-8a2b-de180c64c28a-1749307052801] = [groups:][instances:]
 }
 
 menu_background {
-  image_path = [source:local]/config/fancymenu/assets/dark_rune_block.png
+  image_path = [source:local]/config/fancymenu/assets/mossy_stone_bricks.png
   slide = false
   repeat_texture = true
   parallax = false

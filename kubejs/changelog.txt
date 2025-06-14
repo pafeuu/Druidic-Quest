@@ -1765,6 +1765,32 @@ Patch 0.3.2.1
     -Changed the transfer rate and capacity of IE Accumulators
     -Added more dirt types to the Aoe Tilling script
 
+# Patch 1.3.1
+
+### Recipes:
+    -Changed for Basic Spell Turret
+    -Changed for Enchanted Spell Turret
+    -Changed for Adjustable Spell Turret
+    -Changed for Timer Spell Turret
+    -Added for Whirlisprig in animal spawner
+    -Added for Drygmyy in animal spawner
+    -Added for Allay in animal spawner
+    -Added for starbuncle in animal spawner
+
+### Balance:
+    -Gold tools mining lvl increased to 3
+
+### New Items:
+    -Vine Generator
+
+### Quest:
+    -Fixed the Acacia Sapling Quest in the Market
+    -Fixed the dependencies on Blaze Rod Quest in the Market
+
+### Other:
+    -Added JEI info to the Ivy
+    -Added JEI info to the Spirit of Birthing
+    -Added Ponder info to the Vine Generator
 
 # Patch 2.0
 
@@ -1775,6 +1801,11 @@ Patch 0.3.2.1
     -Macaw's doors
     -Dynamic Lights
     -FastItemFrames
+    -EMI
+    -TooManyRecipeViewers
+    -William Wythers' OverhauledOverworld
+    -Multiblocked2
+    -Ldlib
 
 ### Updated Mods:
     -PuzzlesLib
@@ -1813,7 +1844,6 @@ Patch 0.3.2.1
     -LithoStitched
     -LootJS
     -Lootr
-    //-LycheeTweaker
     -ModernFix
     -MyNetherDelight
     -MoreJS
@@ -1846,7 +1876,34 @@ Patch 0.3.2.1
     -Gilded Sherds
     -StructuresCredits
 
+### New Items:
+    -Infused Amethyst
+    -Earth Infused Arcanum
+    -Water Infused Arcanum
+    -Fire Infused Arcanum
+    -Air Infused Arcanum
+    -
+
+
+### Recipes:
+    -Buffed the output of an early stone axe recipe for more durability
+
+### Quests:
+    -Mending Mixture quest in the market now only gives 2
+    -Fixed the Dendrologist quest chapter to fit the new and removed mods
+
+### Villagers:
+    -Changed blank scroll trade to be much cheaper
+    -Rebalanced the mending mixture trade
+    -Added the Stable Warp Scroll trade to the librarian
+
 ### Other:
     -Fixed flint hoes not tilling ground in a 3x3
+    -Buffed the silver output from alchemical powder and infested stone
+    -Added baked in enchantment for iron scythe
+    -KeepInventory gamerule is now on by default
+    -All the mossy blocks now work with swamp homi and botanist pickaxe
+
+
 
 

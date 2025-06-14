@@ -14,11 +14,7 @@ Regular dmg:
     
 
 other dmg:
-    -attributeslib:crit_chance
-    -attributeslib:crit_damage
     -attributeslib:current_hp_damage
-    -attributeslib:armor_pierce
-    -attributeslib:armor_shred
     -attributeslib:arrow_damage
     -minecraft:generic.attack_speed
     -puffish_attributes:player.melee_damage

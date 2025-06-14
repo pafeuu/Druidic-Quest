@@ -5,16 +5,12 @@
   },
   "trackCount": 20,
   "resetOnDeath": false,
-  "limitProgressionToSurvival": false,
+  "limitProgressionToSurvival": true,
   "minFoodsToActivate": 0,
   "benefits": [
     {
       "threshold": 0,
       "benefit": "{key:\"minecraft:generic.movement_speed\",op:0,type:\"att\",val:-0.01d}"
-    },
-    {
-      "threshold": 0,
-      "benefit": "{key:\"puffish_attributes:player.axe_speed\",op:0,type:\"att\",val:-2.0d}"
     },
     {
       "threshold": 0,

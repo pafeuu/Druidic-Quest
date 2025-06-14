@@ -886,6 +886,30 @@
 			x: 1.0d
 			y: 4.0d
 		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "1E3D4B90E0369D4F"
+			rewards: [{
+				count: 2
+				id: "0A488A98432C4621"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4AC1CE245380C3CC"
+				item: {
+					Count: 1
+					id: "wizards_reborn:arcane_wood_bow"
+					tag: {
+						Damage: 0
+						arcaneEnchantments: { }
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 5.0d
+		}
 	]
 	title: "Sharpshooter"
 }

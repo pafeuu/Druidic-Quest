@@ -9,11 +9,13 @@
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["5C199D8DE803D331"]
 			description: [
 				"To get your &d&lfirst alchemical dust&r&r you are going to need some infused gems."
 				""
 				"Craft &4&lthe sacrificial altar&r&r for a way of obtaining &a&linfused emeralds&r&r and &b&ldiamonds&r&r"
 			]
+			hide_until_deps_complete: true
 			id: "0FE985C7CD170DA6"
 			rewards: [
 				{

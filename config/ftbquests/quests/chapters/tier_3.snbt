@@ -37,14 +37,14 @@
 			rewards: [{
 				count: 3
 				id: "530DDFE393BCE4F6"
-				item: "elementalcraft:drenched_iron_ingot"
+				item: "wizards_reborn:arcane_gold_ingot"
 				type: "item"
 			}]
 			shape: "rsquare"
 			size: 2.0d
 			tasks: [{
-				id: "6F801D5323ED8B11"
-				item: "elementalcraft:drenched_iron_ingot"
+				id: "234BDBF7774E979A"
+				item: "wizards_reborn:arcane_gold_ingot"
 				type: "item"
 			}]
 			x: -6.0d

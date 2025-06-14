@@ -3,6 +3,7 @@
 	default_quest_shape: ""
 	filename: "introduction"
 	group: "23A1FEBD04C34E2E"
+	hide_quest_details_until_startable: true
 	icon: "minecraft:flint"
 	id: "0C8FBF701F2CC12E"
 	order_index: 0
@@ -16,6 +17,7 @@
 				""
 				"&2If you dont want to chop down the whole tree you need to sneak while destroying the logs, your first axe only had 8 durability so it might not be able to chop down bigger trees&r"
 			]
+			hide_until_deps_complete: true
 			icon: {
 				Count: 1
 				id: "minecraft:stone_axe"
@@ -1191,6 +1193,7 @@
 			y: -1.0d
 		}
 		{
+			dependencies: ["4E4E7EFB7FFC688B"]
 			description: ["To get planks you will need to right click stripped log with an axe."]
 			icon: "minecraft:spruce_planks"
 			id: "4138D0D9B6F11604"

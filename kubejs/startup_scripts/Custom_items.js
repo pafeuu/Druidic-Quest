@@ -141,14 +141,14 @@ StartupEvents.registry('item', item => {
   item.create('infused_iron_plate').tag('forge:plates').tag('forge:plates/infused_iron').tag("dq:tier2/component")
   item.create('tainted_gold_sheet').tag('forge:plates').tag('forge:plates/tainted_gold').tag("dq:tier2/component")
 
-  item.create('drenched_iron_sheet').tag('forge:plates').tag('forge:plates/drenched_iron').tag("dq:tier3/component")
+  //item.create('drenched_iron_sheet').tag('forge:plates').tag('forge:plates/drenched_iron').tag("dq:tier3/component")
   
 
   item.create('sky_sheet').tag('forge:plates').tag('forge:plates/sky').tag("dq:tier4/component")
-  item.create('swift_alloy_sheet').tag('forge:plates').tag('forge:plates/swift_alloy').tag("dq:tier4/component")
+  //item.create('swift_alloy_sheet').tag('forge:plates').tag('forge:plates/swift_alloy').tag("dq:tier4/component")
 
   item.create('depth_sheet').tag('forge:plates').tag('forge:plates/depth').tag("dq:tier5/component")
-  item.create('fireite_sheet').tag('forge:plates').tag('forge:plates/fireite').tag("dq:tier5/component")
+  //item.create('fireite_sheet').tag('forge:plates').tag('forge:plates/fireite').tag("dq:tier5/component")
 
   ///===================================================GEARS===========================================================
   item.create('wooden_gear').tag('forge:gears/wooden').tag('forge:gears').tag("dq:tier1/component")
@@ -161,20 +161,20 @@ StartupEvents.registry('item', item => {
   item.create('tainted_gold_gear').tag('forge:gears/tainted_gold').tag('forge:gears').tag("dq:tier2/component")
   item.create('ironwood_gear').tag('forge:gears/ironwood').tag('forge:gears').tag("dq:tier2/component")
 
-  item.create('drenched_iron_gear').tag('forge:gears/drenched_iron').tag('forge:gears').tag("dq:tier3/component")
+  //item.create('drenched_iron_gear').tag('forge:gears/drenched_iron').tag('forge:gears').tag("dq:tier3/component")
   item.create('andesite_gear').tag('forge:gears/andesite').tag('forge:gears').tag("dq:tier3/component")
   item.create('brass_gear').tag('forge:gears/brass').tag('forge:gears').tag("dq:tier3/component")
   item.create('knightmetal_gear').tag('forge:gears/knightmetal').tag('forge:gears').tag("dq:tier3/component")
   item.create('fiery_gear').tag('forge:gears/fiery').tag('forge:gears').tag("dq:tier3/component")
 
-  item.create('swift_alloy_gear').tag('forge:gears/swift_alloy').tag('forge:gears').tag("dq:tier4/component")
+  //item.create('swift_alloy_gear').tag('forge:gears/swift_alloy').tag('forge:gears').tag("dq:tier4/component")
   item.create('sky_gear').tag('forge:gears/sky').tag('forge:gears').tag("dq:tier4/component")
   item.create('uranium_gear').tag('forge:gears/uranium').tag('forge:gears').tag("dq:tier4/component")
   item.create('aluminum_gear').tag('forge:gears/aluminum').tag('forge:gears').tag("dq:tier4/component")
   item.create('stainless_steel_gear').tag('forge:gears/stainless_steel').tag('forge:gears').tag("dq:tier4/component")
 
   item.create('depth_gear').tag('forge:gears/depth').tag('forge:gears').tag("dq:tier5/component")
-  item.create('fireite_gear').tag('forge:gears/fireite').tag('forge:gears').tag("dq:tier5/component")  
+  //item.create('fireite_gear').tag('forge:gears/fireite').tag('forge:gears').tag("dq:tier5/component")  
   
 
   ///===================================================RODS=================================================================
@@ -240,6 +240,12 @@ StartupEvents.registry('item', item => {
   item.create("unstable_ivy_quartz").displayName("Unstable Ivy Quartz").tag("forge:gems")
   item.create("infused_emerald").tag("forge:gems").tag("dq:tier1/component")
   item.create("infused_diamond").tag("forge:gems").tag("dq:tier1/component")
+  item.create("infused_amethyst").tag("forge:gems").tag("dq:tier1/component")
+  
+  item.create("air_infused_arcanum").tag("forge:gems").tag("dq:tier2/component")
+  item.create("earth_infused_arcanum").tag("forge:gems").tag("dq:tier2/component")
+  item.create("fire_infused_arcanum").tag("forge:gems").tag("dq:tier2/component")
+  item.create("water_infused_arcanum").tag("forge:gems").tag("dq:tier2/component")
 
   ///===================================================DUSTS============================================================
   

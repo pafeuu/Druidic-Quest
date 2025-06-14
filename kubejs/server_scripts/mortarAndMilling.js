@@ -78,28 +78,13 @@ ServerEvents.recipes(event => {
         })  
     }
 
-    event.custom(
-        {
-            "type": "elementalcraft:grinding",
-            "element_amount": 1000,
-            "ingredient": {
-                "item": "minecraft:stone"
-            },
-            "luck_ratio": 5,
-            "output": {
-                "Count": 6,
-                "id": "minecraft:dirt"
-            }
-        } 
-    )
-
     MillingWithExtras(1, 'create:wheat_flour', 2, 1, 'create:wheat_flour', 0.5, 'minecraft:wheat', 2, 'create:milling/wheat')
 
     MillingWithExtras(2, 'naturesaura:gold_powder', 4, 2, 'create:wheat_flour', 0.5, 'naturesaura:gold_leaf', 2, 'naturesaura:gold_powder')
     event.remove({id:"naturesaura:altar/gold_powder"})
 
 
-    MillingNoExtras(9, 'bone_meal', 'regions_unexplored:overgrown_bone_block', 6, 'regions_unexplored:bone_meal_from_overgrown_bone_block')
+    //MillingNoExtras(9, 'bone_meal', 'regions_unexplored:overgrown_bone_block', 6, 'regions_unexplored:bone_meal_from_overgrown_bone_block')
     MillingNoExtras(9, 'bone_meal', 'bone_block', 6,'minecraft:bone_meal_from_bone_block')
     MillingNoExtras(1, 'thermal:ender_pearl_dust', 'ender_pearl', 2,'thermal:earth_charge/ender_pearl_dust_from_ender_pearl')
 

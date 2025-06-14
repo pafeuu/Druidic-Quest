@@ -12,7 +12,7 @@
 	images: [
 		{
 			height: 1.5d
-			image: "chipped:block/gold_block/ancient_gold_block"
+			image: "supplementaries:block/gold_trapdoor"
 			rotation: 0.0d
 			width: 1.5d
 			x: 1.0d
@@ -20,7 +20,7 @@
 		}
 		{
 			height: 1.5d
-			image: "chipped:block/gold_block/ancient_gold_block"
+			image: "supplementaries:block/gold_trapdoor"
 			rotation: 0.0d
 			width: 1.5d
 			x: 2.5d
@@ -28,7 +28,7 @@
 		}
 		{
 			height: 1.5d
-			image: "chipped:block/gold_block/ancient_gold_block"
+			image: "supplementaries:block/gold_trapdoor"
 			rotation: 0.0d
 			width: 1.5d
 			x: 4.0d
@@ -36,7 +36,7 @@
 		}
 		{
 			height: 1.5d
-			image: "chipped:block/gold_block/ancient_gold_block"
+			image: "supplementaries:block/gold_trapdoor"
 			rotation: 0.0d
 			width: 1.5d
 			x: 5.5d
@@ -44,7 +44,7 @@
 		}
 		{
 			height: 1.5d
-			image: "chipped:block/gold_block/ancient_gold_block"
+			image: "supplementaries:block/gold_trapdoor"
 			rotation: 0.0d
 			width: 1.5d
 			x: 5.5d
@@ -52,7 +52,7 @@
 		}
 		{
 			height: 1.5d
-			image: "chipped:block/gold_block/ancient_gold_block"
+			image: "supplementaries:block/gold_trapdoor"
 			rotation: 0.0d
 			width: 1.5d
 			x: 4.0d
@@ -60,7 +60,7 @@
 		}
 		{
 			height: 1.5d
-			image: "chipped:block/gold_block/ancient_gold_block"
+			image: "supplementaries:block/gold_trapdoor"
 			rotation: 0.0d
 			width: 1.5d
 			x: 2.5d
@@ -68,7 +68,7 @@
 		}
 		{
 			height: 1.5d
-			image: "chipped:block/gold_block/ancient_gold_block"
+			image: "supplementaries:block/gold_trapdoor"
 			rotation: 0.0d
 			width: 1.5d
 			x: 1.0d
@@ -76,7 +76,7 @@
 		}
 		{
 			height: 1.5d
-			image: "chipped:block/gold_block/ancient_gold_block"
+			image: "supplementaries:block/gold_trapdoor"
 			rotation: 0.0d
 			width: 1.5d
 			x: 1.0d
@@ -84,7 +84,7 @@
 		}
 		{
 			height: 1.5d
-			image: "chipped:block/gold_block/ancient_gold_block"
+			image: "supplementaries:block/gold_trapdoor"
 			rotation: 0.0d
 			width: 1.5d
 			x: 2.5d
@@ -92,7 +92,7 @@
 		}
 		{
 			height: 1.5d
-			image: "chipped:block/gold_block/ancient_gold_block"
+			image: "supplementaries:block/gold_trapdoor"
 			rotation: 0.0d
 			width: 1.5d
 			x: 2.5d
@@ -100,7 +100,7 @@
 		}
 		{
 			height: 1.5d
-			image: "chipped:block/gold_block/ancient_gold_block"
+			image: "supplementaries:block/gold_trapdoor"
 			rotation: 0.0d
 			width: 1.5d
 			x: 1.0d
@@ -108,7 +108,7 @@
 		}
 		{
 			height: 1.5d
-			image: "chipped:block/gold_block/ancient_gold_block"
+			image: "supplementaries:block/gold_trapdoor"
 			rotation: 0.0d
 			width: 1.5d
 			x: 4.0d
@@ -116,7 +116,7 @@
 		}
 		{
 			height: 1.5d
-			image: "chipped:block/gold_block/ancient_gold_block"
+			image: "supplementaries:block/gold_trapdoor"
 			rotation: 0.0d
 			width: 1.5d
 			x: 4.0d
@@ -124,7 +124,7 @@
 		}
 		{
 			height: 1.5d
-			image: "chipped:block/gold_block/ancient_gold_block"
+			image: "supplementaries:block/gold_trapdoor"
 			rotation: 0.0d
 			width: 1.5d
 			x: 5.5d
@@ -132,7 +132,7 @@
 		}
 		{
 			height: 1.5d
-			image: "chipped:block/gold_block/ancient_gold_block"
+			image: "supplementaries:block/gold_trapdoor"
 			rotation: 0.0d
 			width: 1.5d
 			x: 5.5d
@@ -140,7 +140,7 @@
 		}
 		{
 			height: 1.5d
-			image: "chipped:block/netherite_block/polished_netherite_block"
+			image: "minecraft:block/netherite_block"
 			rotation: 0.0d
 			width: 1.5d
 			x: 7.0d
@@ -148,7 +148,7 @@
 		}
 		{
 			height: 1.5d
-			image: "chipped:block/netherite_block/polished_netherite_block"
+			image: "minecraft:block/netherite_block"
 			rotation: 0.0d
 			width: 1.5d
 			x: 7.0d
@@ -156,7 +156,7 @@
 		}
 		{
 			height: 1.5d
-			image: "chipped:block/netherite_block/polished_netherite_block"
+			image: "minecraft:block/netherite_block"
 			rotation: 0.0d
 			width: 1.5d
 			x: 7.0d
@@ -164,7 +164,7 @@
 		}
 		{
 			height: 1.5d
-			image: "chipped:block/netherite_block/polished_netherite_block"
+			image: "minecraft:block/netherite_block"
 			rotation: 0.0d
 			width: 1.5d
 			x: 7.0d
@@ -172,7 +172,7 @@
 		}
 		{
 			height: 1.5d
-			image: "chipped:block/gold_block/ancient_gold_block"
+			image: "supplementaries:block/gold_trapdoor"
 			rotation: 0.0d
 			width: 1.5d
 			x: 1.0d
@@ -188,7 +188,7 @@
 		}
 		{
 			height: 1.5d
-			image: "chipped:block/gold_block/ancient_gold_block"
+			image: "supplementaries:block/gold_trapdoor"
 			rotation: 0.0d
 			width: 1.5d
 			x: 4.0d
@@ -196,7 +196,7 @@
 		}
 		{
 			height: 1.5d
-			image: "chipped:block/gold_block/ancient_gold_block"
+			image: "supplementaries:block/gold_trapdoor"
 			rotation: 0.0d
 			width: 1.5d
 			x: 5.5d
@@ -204,7 +204,7 @@
 		}
 		{
 			height: 1.5d
-			image: "chipped:block/gold_block/ancient_gold_block"
+			image: "supplementaries:block/gold_trapdoor"
 			rotation: 0.0d
 			width: 1.5d
 			x: 7.0d
@@ -220,7 +220,7 @@
 		}
 		{
 			height: 1.5d
-			image: "chipped:block/gold_block/ancient_gold_block"
+			image: "supplementaries:block/gold_trapdoor"
 			rotation: 0.0d
 			width: 1.5d
 			x: 2.5d
@@ -228,7 +228,7 @@
 		}
 		{
 			height: 1.5d
-			image: "chipped:block/netherite_block/polished_netherite_block"
+			image: "minecraft:block/netherite_block"
 			rotation: 0.0d
 			width: 1.5d
 			x: 8.5d
@@ -236,7 +236,7 @@
 		}
 		{
 			height: 1.5d
-			image: "chipped:block/gold_block/ancient_gold_block"
+			image: "supplementaries:block/gold_trapdoor"
 			rotation: 0.0d
 			width: 1.5d
 			x: 8.5d
@@ -252,7 +252,7 @@
 		}
 		{
 			height: 1.5d
-			image: "chipped:block/netherite_block/polished_netherite_block"
+			image: "minecraft:block/netherite_block"
 			rotation: 0.0d
 			width: 1.5d
 			x: 8.5d
@@ -260,7 +260,7 @@
 		}
 		{
 			height: 1.5d
-			image: "chipped:block/netherite_block/polished_netherite_block"
+			image: "minecraft:block/netherite_block"
 			rotation: 0.0d
 			width: 1.5d
 			x: 8.5d
@@ -268,7 +268,7 @@
 		}
 		{
 			height: 1.5d
-			image: "chipped:block/netherite_block/polished_netherite_block"
+			image: "minecraft:block/netherite_block"
 			rotation: 0.0d
 			width: 1.5d
 			x: 8.5d
@@ -518,12 +518,12 @@
 				"682CA83814F08244"
 				"769C5B75D85F81FC"
 			]
-			icon: { Count: 16, id: "elementalcraft:inert_crystal" }
+			icon: { Count: 8, id: "wizards_reborn:arcanum" }
 			id: "2F2A00482EC0526A"
 			rewards: [{
-				count: 16
-				id: "29B355BE831FFFB3"
-				item: "elementalcraft:inert_crystal"
+				count: 8
+				id: "7B243B5080DDD31C"
+				item: "wizards_reborn:arcanum"
 				type: "item"
 			}]
 			tasks: [{
@@ -1309,7 +1309,7 @@
 			icon: "enigmaticlegacy:mending_mixture"
 			id: "369F2CA9B00535CD"
 			rewards: [{
-				count: 16
+				count: 2
 				id: "713C1E3C327AF3C8"
 				item: "enigmaticlegacy:mending_mixture"
 				type: "item"
@@ -1472,13 +1472,12 @@
 		}
 		{
 			dependencies: ["682CA83814F08244"]
-			icon: "regions_unexplored:salmonberry"
+			icon: "minecraft:glow_berries"
 			id: "3D4DD93D7719FD2F"
 			rewards: [{
-				auto: "disabled"
 				count: 4
-				id: "6C76A24FFC24B312"
-				item: "regions_unexplored:salmonberry"
+				id: "4AB99C518B088C0F"
+				item: "minecraft:glow_berries"
 				type: "item"
 			}]
 			tasks: [{

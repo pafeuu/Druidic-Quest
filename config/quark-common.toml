@@ -618,11 +618,11 @@
 		#Allowed values: [0,)
 		"Fortune Level" = 2
 		#Allowed values: [0,4]
-		"Harvest Level" = 2
+		"Harvest Level" = 3
 		"Display Baked Enchantments In Tooltip" = true
 		"Italic Tooltip" = true
 		#Enchantments other than Gold's Fortune/Looting to bake into items. Format is "item+enchant@level", such as "minecraft:stick+sharpness@10".
-		"Baked Enchantments" = ["kubejs:silver_katana+smite@2"]
+		"Baked Enchantments" = ["kubejs:silver_katana+smite@2", "kubejs:iron_scythe+bane_of_arthropods@2"]
 
 	[tweaks.grab_chickens]
 		"Needs No Helmet" = true

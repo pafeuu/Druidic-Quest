@@ -164,6 +164,11 @@
 					item: "elementalcraft:evaporator"
 					type: "item"
 				}
+				{
+					id: "60937A56BF39052A"
+					item: "mbd2:elemental_extractor"
+					type: "item"
+				}
 			]
 			title: "Means of getting the elements"
 			x: -6.0d
@@ -172,7 +177,7 @@
 		{
 			dependencies: ["7EBD23E275E837F2"]
 			description: ["After getting to &5The Nether&r you will need to slay some blazes for their rods as it will be needed for further creation of magical machines."]
-			icon: "chipped:nether_carved_pumpkin"
+			icon: "minecraft:netherrack"
 			id: "23D3902848A335F6"
 			rewards: [
 				{
@@ -200,43 +205,43 @@
 		}
 		{
 			dependencies: ["5CB418E959BA9BC4"]
-			icon: "elementalcraft:firecrystal"
+			icon: "kubejs:water_infused_arcanum"
 			id: "6B18370E82275EED"
 			rewards: [{
 				count: 8
 				id: "3C1A481F21BC3647"
-				item: "elementalcraft:inert_crystal"
+				item: "wizards_reborn:arcanum"
 				type: "item"
 			}]
 			shape: "rsquare"
 			tasks: [
 				{
-					id: "6C2B986956CBDCCF"
-					item: "elementalcraft:firecrystal"
+					id: "168A9CB95C4F8D0E"
+					item: "mbd2:elemental_infuser"
 					type: "item"
 				}
 				{
-					id: "4D6353AC030503CD"
-					item: "elementalcraft:aircrystal"
+					id: "7675163E911B513B"
+					item: "kubejs:earth_infused_arcanum"
 					type: "item"
 				}
 				{
-					id: "6CAB2995574AD7A6"
-					item: "elementalcraft:watercrystal"
+					id: "003EB205EE1FCF51"
+					item: "kubejs:fire_infused_arcanum"
 					type: "item"
 				}
 				{
-					id: "04C4600221F273E7"
-					item: "elementalcraft:earthcrystal"
+					id: "069D7BBF6A5CD409"
+					item: "kubejs:water_infused_arcanum"
 					type: "item"
 				}
 				{
-					id: "484E57C96F5D4F58"
-					item: "elementalcraft:infuser"
+					id: "36E69F2D2B8C0E33"
+					item: "kubejs:air_infused_arcanum"
 					type: "item"
 				}
 			]
-			title: "Elemental Crystal"
+			title: "Elemental Arcanum"
 			x: -3.5d
 			y: 4.0d
 		}
