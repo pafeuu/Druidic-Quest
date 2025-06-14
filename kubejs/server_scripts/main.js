@@ -23,10 +23,10 @@ ServerEvents.recipes(event => {
 	event.remove({output:'#minecraft:shovels'})
 	event.remove({output:'#minecraft:hoes'})
 	event.remove({output:'#minecraft:swords'})
-	event.remove({output:"elementalcraft:spell_desk"})
+	//event.remove({output:"elementalcraft:spell_desk"})
 	
 	event.replaceInput({mod:'ars_nouveau', not:{type:"minecraft:stonecutting"}}, 'ars_nouveau:sourcestone','kubejs:arcane_alloy_ingot')
-	event.replaceInput({mod:'elementalcraft'}, 'minecraft:iron_ingot','kubejs:inert_alloy_ingot')
+	//event.replaceInput({mod:'elementalcraft'}, 'minecraft:iron_ingot','kubejs:inert_alloy_ingot')
 	event.replaceInput({mod:'crafting_on_a_stick'}, 'minecraft:stick','kubejs:zinc_tool_handle')
 	event.shapeless("2x minecraft:rooted_dirt",["minecraft:dirt","minecraft:mangrove_roots"])
 	event.shapeless("minecraft:rooted_dirt",["minecraft:dirt","minecraft:hanging_roots"])
@@ -120,7 +120,7 @@ ServerEvents.recipes(event => {
 
 	event.remove({output:'minecraft:crafting_table'})
 	
-	event.shaped("supplementaries:bellows",["SSS","ABA","SSS"],{S:"#minecraft:wooden_slabs",A:"elementalcraft:air_shard",B:"bundle"}).id("supplementaries:bellows")
+	event.shaped("supplementaries:bellows",["SSS","ABA","SSS"],{S:"#minecraft:wooden_slabs",A:"quark:bottled_cloud",B:"bundle"}).id("supplementaries:bellows")
 	
 	event.shaped("minecraft:beehive",
 		[
@@ -777,13 +777,14 @@ ServerEvents.recipes(event => {
 
 	event.custom({
 		type: "lychee:block_interacting",
-		comment: "works 10% of times",
+		comment: "works 25% of times",
 		item_in: [{item:"kubejs:basic_alchemical_dust"}],
 		block_in: "infested_stone",
 		post: [
 			{type: "place", block: "air"},
-			{type: "if", contextual:{type: "chance", chance: 0.1}, 
-			then: {type: "drop_item", item: "thermal:silver_dust"},
+			{type: "execute", command: "summon minecraft:silverfish ~ ~ ~", hide: "true"},
+			{type: "if", contextual:{type: "chance", chance: 0.25}, 
+			then: {type: "drop_item", item: "thermal:silver_dust", "count": 8},
 			else: {type: "execute", command: "summon minecraft:silverfish ~ ~ ~", hide: "true"}}		
 		]
 	})
@@ -2209,12 +2210,12 @@ ServerEvents.recipes(event => {
 	})
 	
 	
-	event.remove({output:'tombstone:strange_scroll'})
+	
 	event.custom({
 		type: "ars_nouveau:imbuement",
 		count: 1,
 		input: {item: "farmersdelight:canvas"},
-		output: 'tombstone:strange_scroll',
+		output: 'enigmaticlegacy:thicc_scroll',
 		pedestalItems: [],
 		source: 1000
 	})
@@ -2331,6 +2332,62 @@ ServerEvents.recipes(event => {
 	event.replaceInput({id:'naturescompass:natures_compass'},'#minecraft:saplings','kubejs:nature_essence')
 	/// ======================================== Tier 2 Machines ================================================================
 
+	event.shaped('ars_nouveau:basic_spell_turret',
+			[
+				"RDR",
+				"GMG",
+				"RBR"
+			],
+			{
+				R: "#forge:rods/gold",
+				D: "dispenser",
+				G: "#forge:gears/gold",
+				M: "kubejs:basic_magic_machine",
+				B: "#forge:storage_blocks/source"
+			}
+		).id('ars_nouveau:basic_spell_turret')
+	
+		event.remove({id:'ars_nouveau:rotating_turret_to_basic_spell_turret'})
+	
+		event.shaped('ars_nouveau:rotating_spell_turret',
+			[
+				" G ",
+				"GMG",
+				" G "
+			],
+			{
+				G: "#forge:gears/stone",
+				M: "ars_nouveau:basic_spell_turret"
+			}
+		).id('ars_nouveau:rotating_spell_turret')
+	
+		event.shaped('ars_nouveau:spell_turret',
+			[
+				"XXX",
+				"GMG",
+				"XXX"
+			],
+			{
+				G: "#forge:gears/tainted_gold",
+				M: "ars_nouveau:basic_spell_turret",
+				X: 'forbidden_arcanus:xpetrified_orb'
+			}
+		).id('ars_nouveau:spell_turret')
+	
+		event.shaped('ars_nouveau:timer_spell_turret',
+			[
+				"CRC",
+				"CMC",
+				"CHC"
+			],
+			{
+				C: "supplementaries:cog_block",
+				M: "ars_nouveau:basic_spell_turret",
+				H: 'supplementaries:hourglass',
+				R: "create:pulse_repeater"
+			}
+		).id('ars_nouveau:timer_spell_turret')
+
 	event.shaped("thermal:filter_attachment",
 		[ 
 			"ISI",
@@ -2384,7 +2441,7 @@ ServerEvents.recipes(event => {
 	
 	event.recipes.naturesaura.tree_ritual("kubejs:pressing_catalyst",["#forge:gears/arcane_alloy","#forge:gears/inert_alloy","anvil","anvil","immersiveengineering:hammer","immersiveengineering:hammer","anvil","anvil"],"architects_palette:twisted_sapling")
 	
-	event.shaped("elementalcraft:water_mill_grindstone",
+	/*event.shaped("elementalcraft:water_mill_grindstone",
 		[
 			"CXC",
 			"AMA",
@@ -2441,6 +2498,7 @@ ServerEvents.recipes(event => {
 		  C: 'kubejs:carbon_infused_sturdy_handle'
 		}
 	).id("elementalcraft:infuser")
+	*/
 
 	event.shaped(
 		Item.of('ars_nouveau:arcane_core'), 
@@ -2475,7 +2533,7 @@ ServerEvents.recipes(event => {
 
 	event.remove({output:"ars_nouveau:source_jar"})
 
-	event.remove('elementalcraft:instrument_retriever')
+	/*event.remove('elementalcraft:instrument_retriever')
 	event.shaped(
 	  Item.of('elementalcraft:instrument_retriever'), 
 	  [
@@ -2488,7 +2546,7 @@ ServerEvents.recipes(event => {
 		F: "create:filter",
 		H: 'woodenhopper:wooden_hopper'
 	  }
-	)
+	)*/
 
 	event.remove('irons_spellbooks:pedestal')
 	event.shaped(
@@ -2505,7 +2563,7 @@ ServerEvents.recipes(event => {
 	  }
 	)
 
-	event.remove('elementalcraft:sorter')
+	/*event.remove('elementalcraft:sorter')
 	event.shaped(
 	  Item.of('elementalcraft:sorter'), 
 	  [
@@ -2518,7 +2576,7 @@ ServerEvents.recipes(event => {
 		F: "minecraft:comparator",
 		H: 'elementalcraft:instrument_retriever',
 	  }
-	)
+	)*/
 
 	event.remove({output:'create:schematicannon'})
 	event.shaped(
@@ -2539,7 +2597,7 @@ ServerEvents.recipes(event => {
 	
 	clickb("vintagedelight:fermenting_jar","kubejs:arcane_alloy_ingot","ars_nouveau:source_jar")
 
-	event.shaped('elementalcraft:small_container',
+	/*event.shaped('elementalcraft:small_container',
 		[
 			' P ',
 			'PXP',
@@ -2549,7 +2607,7 @@ ServerEvents.recipes(event => {
 			P: 'elementalcraft:elementpipe_impaired',
 			X: 'ars_nouveau:source_jar'
 		}
-	).id('elementalcraft:small_container')
+	).id('elementalcraft:small_container')*/
 	
 	event.remove({output:"ars_nouveau:mob_jar"})
 	event.shapeless("ars_nouveau:mob_jar",["ars_nouveau:source_jar","supplementaries:cage"])
@@ -2577,7 +2635,7 @@ ServerEvents.recipes(event => {
 	  }
 	)
 	
-	event.remove({output:'elementalcraft:elementpipe_impaired'})
+	/*event.remove({output:'elementalcraft:elementpipe_impaired'})
 	event.shaped(
 	  Item.of('12x elementalcraft:elementpipe_impaired'), 
 	  [
@@ -2590,7 +2648,7 @@ ServerEvents.recipes(event => {
 		M: 'kubejs:basic_magic_machine',
 		G: '#forge:glass'
 	  }
-	)
+	)*/
 	
 	event.remove({output:'irons_spellbooks:arcane_anvil'})
 	event.shaped(
@@ -2792,7 +2850,7 @@ ServerEvents.recipes(event => {
 				type: "create:deploying",
 				ingredients: [
 				  {item: "kubejs:unstable_ivy_quartz"},
-				  {item: "regions_unexplored:salmonberry" }
+				  {item: "forge:raw_fishes/salmon" }
 				],
 				results: [
 				  {item: "kubejs:unstable_ivy_quartz"}
@@ -2802,7 +2860,7 @@ ServerEvents.recipes(event => {
 				type: "create:deploying",
 				ingredients: [
 				  {item: "kubejs:unstable_ivy_quartz"},
-				  {item: "regions_unexplored:salmonberry"}
+				  {item: "forge:raw_fishes/salmon"}
 				],
 				results: [
 				  {item: "kubejs:unstable_ivy_quartz"}
@@ -2812,7 +2870,7 @@ ServerEvents.recipes(event => {
 			type: "create:deploying",
 			ingredients: [
 			  {item: "kubejs:unstable_ivy_quartz"},
-			  {tag: "forge:raw_fishes/salmon"}
+			  {item: "farmersdelight:salmon_roll"}
 			],
 			results: [
 			  {item: "kubejs:unstable_ivy_quartz"}
@@ -2822,7 +2880,7 @@ ServerEvents.recipes(event => {
 			type: "create:deploying",
 			ingredients: [
 			  {item: "kubejs:unstable_ivy_quartz"},
-			  {item: "regions_unexplored:salmonberry"}
+			  {item: "farmersdelight:grilled_salmon"}
 			],
 			results: [
 			  {item: "kubejs:unstable_ivy_quartz"}
@@ -2832,7 +2890,7 @@ ServerEvents.recipes(event => {
 		"transitionalItem": {item: "kubejs:unstable_ivy_quartz"}
 	})
 
-	event.recipes.naturesaura.altar("naturesaura:infused_stone","elementalcraft:whiterock",7500,40).id("naturesaura:altar/infused_stone")
+	event.recipes.naturesaura.altar("naturesaura:infused_stone","kubejs:sturdy_deepslate",7500,40).id("naturesaura:altar/infused_stone")
 	event.remove({output:"minecraft:clock"})
 	event.custom({
 		type: "create:sequenced_assembly",
@@ -3279,6 +3337,22 @@ ServerEvents.recipes(event => {
 	
 	///======================================== Tier 3 Machines =======================================================================
 
+
+	event.shaped("kubejs:vine_generator",
+			[
+				"MGM",
+				"SXS",
+				"MZM"
+			],
+			{
+				M: "kubejs:ivy_block",
+				G: "immersive_weathering:golden_moss_clump",
+				X: "kubejs:magic_machine",
+				Z: "#forge:gears/tainted_gold",
+				S: "shears"
+			}
+		)
+	
 	event.shaped("create:mechanical_arm",
 		[
 			"GRA",
