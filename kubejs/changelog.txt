@@ -1875,6 +1875,7 @@ Patch 0.3.2.1
     -Datapack Anvil
     -Gilded Sherds
     -StructuresCredits
+    -Noisium
 
 ### Items:
     -Added Infused Amethyst
@@ -1888,6 +1889,13 @@ Patch 0.3.2.1
 
 ### Recipes:
     -Buffed the output of an early stone axe recipe for more durability
+    -Fixed the diamond backpack recipe
+    -Changed the golden backpack recipe
+    -You can now also use wood to craft planks
+    -Mortar now takes 4 times less damage when used to craft flint
+
+### Loot:
+    -Buffed chance of finding dimensional keys in lootchests
 
 ### Quests:
     -Mending Mixture quest in the market now only gives 2
@@ -1903,7 +1911,9 @@ Patch 0.3.2.1
     -Buffed the silver output from alchemical powder and infested stone
     -Added baked in enchantment for iron scythe
     -KeepInventory gamerule is now on by default
+    -Players now lose all the xp on death
     -All the mossy blocks now work with swamp homi and botanist pickaxe
+
 
 
 
