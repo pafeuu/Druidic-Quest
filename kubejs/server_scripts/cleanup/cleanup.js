@@ -271,7 +271,16 @@ global.nukelist = ["twigs:calcite_wall",
 	'twigs:mossy_bricks',
 	'twigs:mossy_brick_stairs',
 	'twigs:mossy_brick_slab',
-	'twigs:mossy_brick_wall']/*,
+	'twigs:mossy_brick_wall',
+	"wizards_reborn:arcane_wood_mortar",
+	"wizards_reborn:arcane_wood_scythe",
+	"wizards_reborn:arcane_wood_knife",
+	"wizards_reborn:arcane_wood_sword",
+	"wizards_reborn:innocent_wood_mortar",
+	"wizards_reborn:innocent_wood_knife",
+	"wizards_reborn:innocent_wood_sword",
+	"wizards_reborn:innocent_wood_scythe",
+	"wizards_reborn:arcane_gold_scythe"]/*,
 	'thermal:constantan_dust',
 	'thermal:bronze_dust',
 	'thermal:enderium_dust',
@@ -462,6 +471,7 @@ ServerEvents.recipes(event => {
 	};
 
 	StorageCompacting("kubejs:gold_leaf_block","naturesaura:gold_leaf")
+	StorageCompacting("kubejs:rotten_flesh_block","rotten_flesh")
 	StorageCompacting("kubejs:ivy_block","immersive_weathering:ivy")
 	StorageCompacting("kubejs:sturdy_deepslate","minecraft:deepslate")
 	StorageCompacting("naturesaura:infused_iron","kubejs:infused_iron_nugget")
