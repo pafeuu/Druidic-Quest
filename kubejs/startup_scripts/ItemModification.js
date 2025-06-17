@@ -140,6 +140,12 @@ ItemEvents.modification(event => {
       item.maxDamage = 4096
       // ??+1 block range
     })
+
+    event.modify('wizards_reborn:arcane_wood_'+id, item=>{
+      item.digSpeed = 3,
+      item.maxDamage = 16
+      // ??+1 block range
+    })
   })
   
   //========================================Armor

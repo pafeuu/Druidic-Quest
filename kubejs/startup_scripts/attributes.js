@@ -56,6 +56,11 @@ ForgeEvents.onEvent('net.minecraftforge.event.ItemAttributeModifierEvent', event
 		event.addModifier("forge:block_reach", new $AttributeModifier(UUID.fromString('55420437-4ad0-4664-92bb-b313b2a87a2b'), 'Tool modifier', -0.5, 'addition'))
 	};
 
+	if (event.itemStack.hasTag("forge:tools/arcane_wood") && event.slotType == 'mainhand') {
+					
+		event.addModifier("forge:block_reach", new $AttributeModifier(UUID.fromString('55420437-4ad0-4664-92bb-b313b2a87a2b'), 'Tool modifier', -1, 'addition'))
+	};
+
 	
 	if (event.itemStack.hasTag("forge:tools/silver") && event.slotType == 'mainhand') {
 		
