@@ -80,13 +80,20 @@ ServerEvents.recipes(event => {
 
     MillingWithExtras(1, 'create:wheat_flour', 2, 1, 'create:wheat_flour', 0.5, 'minecraft:wheat', 2, 'create:milling/wheat')
 
-    MillingWithExtras(2, 'naturesaura:gold_powder', 4, 2, 'create:wheat_flour', 0.5, 'naturesaura:gold_leaf', 2, 'naturesaura:gold_powder')
+    MillingWithExtras(2, 'naturesaura:gold_powder', 4, 2, 'naturesaura:gold_powder', 0.5, 'naturesaura:gold_leaf', 2, 'naturesaura:gold_powder')
     event.remove({id:"naturesaura:altar/gold_powder"})
 
 
-    //MillingNoExtras(9, 'bone_meal', 'regions_unexplored:overgrown_bone_block', 6, 'regions_unexplored:bone_meal_from_overgrown_bone_block')
     MillingNoExtras(9, 'bone_meal', 'bone_block', 6,'minecraft:bone_meal_from_bone_block')
     MillingNoExtras(1, 'thermal:ender_pearl_dust', 'ender_pearl', 2,'thermal:earth_charge/ender_pearl_dust_from_ender_pearl')
+
+    MillingNoExtras(1, 'wizards_reborn:ground_brown_mushroom', 'brown_mushroom', 1,'wizards_reborn:mortar/ground_brown_mushroom')
+    MillingNoExtras(1, 'wizards_reborn:ground_red_mushroom', 'red_mushroom', 1,'wizards_reborn:mortar/ground_red_mushroom')
+    MillingNoExtras(1, 'wizards_reborn:ground_crimson_fungus', 'crimson_fungus', 1,'wizards_reborn:mortar/ground_crimson_fungus')
+    MillingNoExtras(1, 'wizards_reborn:ground_warped_fungus', 'warped_fungus', 1,'wizards_reborn:mortar/ground_warped_fungus')
+    MillingNoExtras(1, 'wizards_reborn:ground_elder_mor', 'wizards_reborn:elder_mor', 1,'wizards_reborn:mortar/ground_elder_mor')
+    MillingNoExtras(1, 'wizards_reborn:ground_mor', 'wizards_reborn:mor', 1,'wizards_reborn:mortar/ground_mor')
+    
 
 
     MillingNoExtras(1, 'kubejs:zinc_dust', 'create:zinc_ingot', 8, 'kubejs:zinc_dust_from_zinc_ingot')
@@ -113,33 +120,6 @@ ServerEvents.recipes(event => {
     MillingNoExtras(1, 'thermal:lapis_dust', 'lapis_lazuli', 3, 'thermal:machines/pulverizer/pulverizer_lapis')
     MillingNoExtras(1, 'thermal:quartz_dust', 'quartz', 3, 'thermal:machines/pulverizer/pulverizer_quartz')
 
-    /*function MillingWithExtras(count, output, input, damage, id)
-    {
-        event.shapeless(count+"x "+output, [input, '#forge:tools/mortars']).damageIngredient('#forge:tools/mortars', damage).id(id)
-
-        event.recipes.naturesaura.altar(count+"x "+output, input,50,20,'naturesaura:crushing_catalyst')
-
-        event.recipes.create.crushing(count+"x "+output, input)
-
-        event.recipes.create.milling(count+"x "+output, input)
-
-        event.recipes.thermal.pulverizer(count+"x "+output, input)
-
-        event.custom({
-            "type": "immersiveengineering:crusher",
-            "energy": 1600,
-            "input": {
-                "item": input
-            },
-            "result": {
-                "base_ingredient": {
-                    "item": output
-                },
-                "count": count
-            },
-            "secondaries": []
-        })  
-    }*/
 
 
     
@@ -159,7 +139,7 @@ ServerEvents.recipes(event => {
 
 	event.shapeless('2x bone_meal', ['alexsmobs:fish_bones','#forge:tools/mortars']).damageIngredient('#forge:tools/mortars',1).id('alexsmobs:bonemeal_from_fish_bones')
 
-	event.shapeless('flint', ['gravel','#forge:tools/mortars']).damageIngredient('#forge:tools/mortars',4)
+	event.shapeless('flint', ['gravel','#forge:tools/mortars']).damageIngredient('#forge:tools/mortars',1)
 
 	event.shaped("flint",["GG","GG"],{G:"minecraft:gravel"})
 
