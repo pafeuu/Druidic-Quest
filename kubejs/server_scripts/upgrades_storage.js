@@ -190,7 +190,7 @@ ServerEvents.recipes(e=>{
     ],
     "key": {
       "G": {
-        "item": "naturesaura:tainted_gold"
+        "tag": "forge:plates/tainted_gold"
       },
       "B": {
         "item": "sophisticatedbackpacks:iron_backpack"
@@ -244,7 +244,7 @@ ServerEvents.recipes(e=>{
     ],
     "key": {
       "D": {
-        "tag": "kubejs:diamond_plate"
+        "tag": "forge:plates/diamond"
       },
       "B": {
         "item": "sophisticatedbackpacks:gold_backpack"

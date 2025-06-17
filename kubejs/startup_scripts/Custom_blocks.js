@@ -175,6 +175,12 @@ StartupEvents.registry("block", (event) => {
     .resistance("6")
     .tagBlock("mineable/pickaxe")
 
+    event.create("rotten_flesh_block")
+    .soundType("honey_block")
+    .hardness("0.5")
+    .resistance("1")
+    .tagBlock("mineable/hoe")
+
     event.create("polished_planks")
     .textureAll("minecraft:block/beehive_end")
     .displayName("Polished Planks")

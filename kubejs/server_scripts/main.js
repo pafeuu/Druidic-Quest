@@ -536,6 +536,7 @@ ServerEvents.recipes(event => {
 	
 	/// ======================================================================= Tier 1 components =======================================================================
 
+	event.shaped("6x torch",["C","S"],{C:"#forge:coal_coke",S:"#c:rods/wooden"})
 	event.custom({
 		"type": "lychee:block_crushing",
 		"post": [
@@ -545,8 +546,9 @@ ServerEvents.recipes(event => {
 		"item_in": [
 			{"item": "minecraft:glass_bottle"}
 		],
-		"landing_block": "architects_palette:rotten_flesh_block"
+		"landing_block": "kubejs:rotten_flesh_block"
 	})
+	
 	event.shaped('3x immersiveengineering:fluid_pipe',
 		[
 			"III",
@@ -2420,10 +2422,19 @@ ServerEvents.recipes(event => {
 	SourceGeneratorsRecipe("mycelial","quark:glow_shroom")
 	SourceGeneratorsRecipe("alchemical",'immersive_weathering:golden_moss_clump')
 	
-	event.recipes.naturesaura.tree_ritual("kubejs:pressing_catalyst",["#forge:gears/source_alloy","#forge:gears/arcanum_alloy","anvil","anvil","immersiveengineering:hammer","immersiveengineering:hammer","anvil","anvil"],"architects_palette:twisted_sapling")
+	event.recipes.naturesaura.tree_ritual("kubejs:pressing_catalyst",[
+		"#forge:gears/source_alloy",
+		"#forge:gears/arcanum_alloy",
+		"anvil",
+		"anvil",
+		"immersiveengineering:hammer",
+		"immersiveengineering:hammer",
+		"anvil",
+		"anvil"],
+		"wizards_reborn:arcane_wood_sapling")
 	
-	/*
-	event.shaped("elementalcraft:evaporator",
+	
+	event.shaped("mbd2:elemental_evaporator",
 		[
 			"CXC",
 			"GFG",
@@ -2436,8 +2447,9 @@ ServerEvents.recipes(event => {
 			C: "kubejs:carbon_infused_sturdy_handle",
 			G: "#forge:plates/arcanum_alloy"
 		}
-	).id("elementalcraft:evaporator")
+	)
 
+	/*
 	event.shaped(
 		Item.of('elementalcraft:extractor'), 
 		[
@@ -2452,9 +2464,10 @@ ServerEvents.recipes(event => {
 		  A: '#forge:plates/arcanum_alloy',
 		}
 	).id("elementalcraft:extractor")
+	*/
 
 	event.shaped(
-		Item.of('elementalcraft:infuser'), 
+		Item.of('mbd2:elemental_infuser'), 
 		[
 		  'CIC',
 		  'IMI',
@@ -2466,7 +2479,7 @@ ServerEvents.recipes(event => {
 		  C: 'kubejs:carbon_infused_sturdy_handle'
 		}
 	).id("elementalcraft:infuser")
-	*/
+	
 
 	event.shaped(
 		Item.of('ars_nouveau:arcane_core'), 
@@ -2973,10 +2986,8 @@ ServerEvents.recipes(event => {
 	  }
 	)
 	
-	
-	event.remove({output:'architects_palette:algal_blend'})
 	event.shaped(
-	  Item.of('4x architects_palette:algal_blend'), 
+	  Item.of('4x kubejs:natural_clay_blend'), 
 	  [
 	    'IGI',
 		'CXC',
@@ -2996,7 +3007,7 @@ ServerEvents.recipes(event => {
 	event.custom({
 		type: "immersiveengineering:alloy",
 		  "input0": {
-			item: "architects_palette:algal_blend"
+			item: "kubejs:natural_clay_blend"
 		  },
 		  "input1": {
 			item: "minecraft:andesite"
@@ -3176,88 +3187,6 @@ ServerEvents.recipes(event => {
 	  }
 	)
 
-	event.remove({id:"vintageimprovements/sequenced_assembly/redstone_module"})
-	event.remove({output:"vintageimprovements:redstone_module"})
-	event.custom({
-		type: "elementalcraft:binding",
-		"element_amount": 1250,
-		"element_type": "air",
-		ingredients: [
-			{
-			tag: "forge:plates/gold"
-			},
-			{
-			item: "thermal:redstone_servo"
-			},
-			{
-			item: "minecraft:comparator"
-			},
-			{
-			item: "create:pulse_repeater"
-			},
-			{
-			item: "elementalcraft:firecrystal"
-			}
-		],
-		"output": {
-			"Count": 1,
-			item: "vintageimprovements:redstone_module"
-		}
-	})
-
-	event.custom({
-		type: "elementalcraft:binding",
-		"element_amount": 1250,
-		"element_type": "air",
-		ingredients: [
-			{
-			item: "ars_nouveau:earth_essence"
-			},
-			{
-			item: "ars_nouveau:water_essence"
-			},
-			{
-			item: "minecraft:ender_eye"
-			},
-			{
-			item: "minecraft:crying_obsidian"
-			},
-			{
-			item: "minecraft:crying_obsidian"
-			}
-		],
-		"output": {
-			"Count": 1,
-			item: "kubejs:ender_essence"
-		}
-	})
-
-	event.custom({
-		type: "elementalcraft:binding",
-		"element_amount": 1250,
-		"element_type": "water",
-		ingredients: [
-			{
-			item: "ars_nouveau:fire_essence"
-			},
-			{
-			item: "ars_nouveau:air_essence"
-			},
-			{
-			item: "quark:glowberry_sack"
-			},
-			{
-			tag: "forge:froglights"
-			},
-			{
-			item: "minecraft:glow_ink_sac"
-			}
-		],
-		"output": {
-			"Count": 1,
-			item: "kubejs:light_essence"
-		}
-	})
 
 	
 	
@@ -3486,82 +3415,6 @@ ServerEvents.recipes(event => {
 		F: 'ars_nouveau:fire_essence'
 	  }
 	)
-
-	event.remove({id:"vintageimprovements/sequenced_assembly/redstone_module"})
-	event.remove({output:"create:smart_chute"})
-	event.custom({
-		type: "elementalcraft:binding",
-		"element_amount": 250,
-		"element_type": "water",
-		ingredients: [
-			{
-			tag: "forge:plates/brass"
-			},
-			{
-			item: "create:filter"
-			},
-			{
-			item: "vintageimprovements:redstone_module"
-			},
-			{
-			item: "create:chute"
-			}
-		],
-		"output": {
-			"Count": 1,
-			item: "create:smart_chute"
-		}
-	})
-
-	event.remove({output:"create:brass_tunnel"})
-	event.custom({
-		type: "elementalcraft:binding",
-		"element_amount": 250,
-		"element_type": "water",
-		ingredients: [
-			{
-			tag: "forge:plates/brass"
-			},
-			{
-			item: "create:filter"
-			},
-			{
-			item: "vintageimprovements:redstone_module"
-			},
-			{
-			item: "create:andesite_tunnel"
-			}
-		],
-		"output": {
-			"Count": 1,
-			item: "create:brass_tunnel"
-		}
-	})
-
-	event.remove({output:"create:brass_funnel"})
-	event.custom({
-		type: "elementalcraft:binding",
-		"element_amount": 250,
-		"element_type": "water",
-		ingredients: [
-			{
-			tag: "forge:plates/brass"
-			},
-			{
-			item: "create:filter"
-			},
-			{
-			item: "vintageimprovements:redstone_module"
-			},
-			{
-			item: "create:andesite_funnel"
-			}
-		],
-		"output": {
-			"Count": 1,
-			item: "create:brass_funnel"
-		}
-	})
 
 	event.shaped("create:mechanical_drill",
 		[ "AXA","AYA","AZA" ],
