@@ -387,7 +387,7 @@
 				""
 				"&8Iron Tools&r are not as durable but they gain a little bit of reach and they are also faster than copper tools."
 				""
-				"&7Zinc Tools&r are the most brittle of the 3 but in exchange they are fastest on this stage and they also give the user movement speed boost!"
+				"&7Silver Tools&r are the most brittle of the 3 but in exchange they are fastest on this stage and they also give the user movement speed boost!"
 			]
 			icon: {
 				Count: 1
@@ -1253,11 +1253,18 @@
 			description: ["To get &l&bHeart of Diamond&r&r you need to sneak up to a &8stoneling&r which you can find in underground caves. Use it to craft the &5&lDimension Ripper&r&r"]
 			icon: "kubejs:dimension_ripper"
 			id: "0E40C9B32E05AC51"
-			rewards: [{
-				id: "666A5F5D61E4B77E"
-				item: "minecraft:diamond"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "666A5F5D61E4B77E"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					id: "35E89D466BE8B00F"
+					item: "enigmaticlegacy:recall_potion"
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			tasks: [{
 				id: "4E96E7386E2835C4"

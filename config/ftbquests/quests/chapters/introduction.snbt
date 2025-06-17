@@ -408,7 +408,7 @@
 			}]
 			title: "Before a furnace humanity used campfires"
 			x: -0.5d
-			y: -5.0d
+			y: -5.5d
 		}
 		{
 			dependencies: ["2BB4A388858E481A"]
@@ -425,7 +425,7 @@
 				{
 					count: 16
 					id: "7350AF715A9EDD4C"
-					item: "everycomp:ch/forbidden_arcanus/edelwood_torch"
+					item: "wizards_reborn:arcane_salt_torch"
 					type: "item"
 				}
 				{
@@ -657,11 +657,18 @@
 			dependencies: ["2A0A25E7A7AA7334"]
 			description: ["To craft primitve mortar you will need to right click a stone slab with chisel in one hand and a flint in the other"]
 			id: "0E5A981A32056DDC"
-			rewards: [{
-				id: "6466B5F4990C5F6E"
-				item: "fruitsdelight:mango_salad"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "6466B5F4990C5F6E"
+					item: "fruitsdelight:mango_salad"
+					type: "item"
+				}
+				{
+					id: "68FCDB2E2664865F"
+					item: "minecraft:flint"
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			tasks: [{
 				id: "0998F8E68E163D34"
@@ -680,11 +687,18 @@
 		{
 			dependencies: ["2BB4A388858E481A"]
 			id: "2A0A25E7A7AA7334"
-			rewards: [{
-				id: "7CCA13CD53E8C684"
-				item: "thermal:silver_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "7CCA13CD53E8C684"
+					item: "thermal:silver_coin"
+					type: "item"
+				}
+				{
+					id: "51F6918B9397BDBD"
+					item: "minecraft:flint"
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			subtitle: "Shaping stones"
 			tasks: [{
@@ -1288,6 +1302,125 @@
 			title: "Mob Difficulty changes"
 			x: -7.0d
 			y: 2.0d
+		}
+		{
+			dependencies: ["090099B8B3800BAE"]
+			id: "3D782DAACBB5DE87"
+			rewards: [
+				{
+					id: "3E9F05E2B2AE959F"
+					item: "wizards_reborn:arcanemicon"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "471DFA1BF2720868"
+					item: "enigmaticlegacy:recall_potion"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "5B2D4312E78561FC"
+					item: "wizards_reborn:arcanum_dust"
+					type: "item"
+				}
+				{
+					id: "2D54182CC4077FCF"
+					item: "wizards_reborn:arcanum"
+					type: "item"
+				}
+			]
+			title: "Arcanum Ore"
+			x: -2.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["3D782DAACBB5DE87"]
+			id: "093161CA8E0381C0"
+			rewards: [{
+				count: 4
+				id: "272D3683672164AE"
+				item: "wizards_reborn:arcane_wood_branch"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7074DE574DB6E3F8"
+				item: "wizards_reborn:arcane_wood_sapling"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["093161CA8E0381C0"]
+			icon: {
+				Count: 1
+				id: "wizards_reborn:arcane_wood_pickaxe"
+				tag: {
+					Damage: 0
+					arcaneEnchantments: { }
+				}
+			}
+			id: "36E8803252843028"
+			rewards: [{
+				id: "3D317275358458EE"
+				item: "thermal:gold_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "1E37D420682B21CD"
+					item: {
+						Count: 1
+						id: "wizards_reborn:arcane_wood_pickaxe"
+						tag: {
+							Damage: 0
+							arcaneEnchantments: { }
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3331129BA9585B19"
+					item: {
+						Count: 1
+						id: "wizards_reborn:arcane_wood_axe"
+						tag: {
+							Damage: 0
+							arcaneEnchantments: { }
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3A1CD3EF744D18D4"
+					item: {
+						Count: 1
+						id: "wizards_reborn:arcane_wood_shovel"
+						tag: {
+							Damage: 0
+							arcaneEnchantments: { }
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "79699028CB509BF5"
+					item: {
+						Count: 1
+						id: "wizards_reborn:arcane_wood_hoe"
+						tag: {
+							Damage: 0
+							arcaneEnchantments: { }
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Arcane Tools"
+			x: -0.5d
+			y: -8.0d
 		}
 	]
 	title: "Tier 0 - Wooden Age"

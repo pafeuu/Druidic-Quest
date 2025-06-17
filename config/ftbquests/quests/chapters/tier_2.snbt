@@ -155,13 +155,13 @@
 			shape: "rsquare"
 			tasks: [
 				{
-					id: "0022BEBB10A64B0B"
-					item: "elementalcraft:evaporator"
+					id: "60937A56BF39052A"
+					item: "mbd2:elemental_extractor"
 					type: "item"
 				}
 				{
-					id: "60937A56BF39052A"
-					item: "mbd2:elemental_extractor"
+					id: "1FD91F231C58F791"
+					item: "mbd2:elemental_evaporator"
 					type: "item"
 				}
 			]
