@@ -112,7 +112,7 @@ Ponder.registry((event) => {
             scene.idle(3)
         }
         for(let y = 2; y < 5; y++){
-            scene.world.showSection([0,y , 1, 8, y, 8], Facing.DOWN);
+            scene.world.showSection([0,y , 0, 8, y, 8], Facing.DOWN);
             scene.idle(5)
         }
         
