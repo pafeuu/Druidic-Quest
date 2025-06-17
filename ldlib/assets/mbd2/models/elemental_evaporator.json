@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/orientable",
+  "textures": {
+    "front": "ldlib:block/elemental_evaporator_front",
+    "side": "ldlib:block/elemental_evaporator_side",
+    "top": "ldlib:block/elemental_evaporator_top"
+  }
+}
