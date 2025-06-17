@@ -3,18 +3,24 @@ LootJS.modifiers((event) => {
     
     ///================================ Removing ===================================
 
-    event.addLootTableModifier([LootType.CHEST])
+    event.addLootTypeModifier(LootType.CHEST)
         .removeLoot(/.*effortless.*/)
   
     ///=======================================Replacing Junk
 
-    event.addLootTableModifier(/.*chests.*/)
+    event.addLootTypeModifier(LootType.CHEST)
         .replaceLoot("minecraft:stick","8x thermal:compost")
         .replaceLoot("minecraft:ice","fruitsdelight:hamimelon_popsicle")
         .replaceLoot("minecraft:snow","fruitsdelight:kiwi_popsicle")
         .replaceLoot("minecraft:flower_pot","immersive_weathering:mulch_block")
-        .replaceLoot("minecraft:snowball",Item.of('minecraft:tipped_arrow', 3, '{CustomPotionColor:-6231318,CustomPotionEffects:[{Ambient:0b,Amplifier:0b,CurativeItems:[{Count:1b,id:"minecraft:milk_bucket"}],Duration:3200,Id:112,ShowIcon:1b,ShowParticles:1b,"forge:id":"tombstone:frostbite"}],enchanted_arrow:1b}'))
-        .replaceLoot("#minecraft:saplings","immersive_weathering:mulch_block")
+        .replaceLoot("minecraft:snowball","fruitsdelight:hamimelon_shaved_ice")
+        .replaceLoot("minecraft:oak_sapling","immersive_weathering:mulch_block")
+        .replaceLoot("minecraft:dark_oak_sapling","2x immersive_weathering:mulch_block")
+        .replaceLoot("minecraft:acacia_sapling","3x immersive_weathering:mulch_block")
+        .replaceLoot("minecraft:spruce_sapling","2x immersive_weathering:mulch_block")
+        .replaceLoot("minecraft:birch_sapling","immersive_weathering:mulch_block")
+        .replaceLoot("minecraft:jungle_sapling","2x immersive_weathering:mulch_block")
+        .replaceLoot("minecraft:cherry_sapling","3x immersive_weathering:mulch_block")
         .replaceLoot("minecraft:cobbled_deepslate","alexsmobs:rocky_shell")
         .replaceLoot(/.*carpet.*/,"immersiveengineering:hemp_fabric")
         .replaceLoot("minecraft:rotten_flesh","immersive_weathering:mulch_block")
@@ -34,7 +40,7 @@ LootJS.modifiers((event) => {
         .replaceLoot("minecraft:snow_block", "kubejs:water_infused_arcanum")
         .replaceLoot("minecraft:clay_ball", "kubejs:earth_infused_arcanum")
         .replaceLoot("minecraft:brick", "kubejs:earth_infused_arcanum")
-        .replaceLoot("create:andesite_alloy", "architects_palette:algal_blend")
+        .replaceLoot("create:andesite_alloy", "kubejs:natural_clay_blend")
         .replaceLoot("minecraft:iron_horse_armor", "create:iron_sheet")
         .replaceLoot("minecraft:golden_horse_armor", "create:iron_sheet")
         .replaceLoot("minecraft:dead_bush", Item.of('fruitsdelight:jelly_bread', '{JellyEffectRoot:["PEAR"]}'))
@@ -59,9 +65,10 @@ LootJS.modifiers((event) => {
         .replaceLoot("create:andesite_ladder","thermal:silver_ingot")
         .replaceLoot("create:brass_ladder","thermal:lead_ingot")
         .replaceLoot("trident","kubejs:rusty_trident");
+
     // ====================================================Iron's
     event.addLootTableModifier("irons_spellbooks:chests/filler_storage_loot")
-        .randomChance(0.9).addLoot("9x elementalcraft:inert_crystal")
+        .randomChance(0.9).addLoot("9x wizards_reborn:arcanum")
         .randomChance(0.1).addLoot("2x thermal:ruby");
 
     event.addLootTableModifier("irons_spellbooks:chests/wheat")
@@ -70,7 +77,7 @@ LootJS.modifiers((event) => {
         .randomChance(0.8).addLoot("4x vintagedelight:oatmeal")
         .randomChance(0.01).addLoot("vintagedelight:magic_peanut")
         .randomChance(0.05).addLoot("vintagedelight:century_egg");
-
+    
     event.addLootTableModifier(/.*irons_spellbooks.*/)
         .replaceLoot(Item.of('minecraft:potion', '{Potion:"minecraft:water"}'), "quark:bottled_cloud");
 
@@ -118,84 +125,84 @@ LootJS.modifiers((event) => {
         .randomChance(0.05)
         .addLoot("kubejs:frog_totem")
 
-    event.addLootTableModifier(/.*chests.*/)
+    event.addLootTypeModifier(LootType.CHEST)
         .anyBiome("#forge:is_swamp","#forge:is_wet") 
         .randomChance(0.05)
         .addLoot(Item.of('supplementaries:cage', '{BlockEntityTag:{MobHolder:{EntityData:{Pos:[0.5d,0.20009998807907103d,0.5d],id:"alexsmobs:anaconda"},Name:"Anaconda",UUID:[I;719858050,1469468379,-1314582237,-2119634646]}}}'));
 
-    event.addLootTableModifier(/.*chests.*/)
-    .anyBiome("#forge:is_plains","minecraft:is_forest") 
+    event.addLootTypeModifier(LootType.CHEST) 
+        .anyBiome("#forge:is_plains","minecraft:is_forest") 
         .randomChance(0.05)
         .addLoot(Item.of('supplementaries:cage', '{BlockEntityTag:{MobHolder:{EntityData:{Pos:[0.5d,0.20009998807907103d,0.5d],id:"minecraft:sheep"},Name:"Sheep",UUID:[I;719838050,1469468379,-1314582237,-2119634646]}}}'));
     
-    event.addLootTableModifier(/.*chests.*/)
+    event.addLootTypeModifier(LootType.CHEST)
         .anyBiome("#forge:is_plains","minecraft:is_forest") 
         .randomChance(0.05)
         .addLoot(Item.of('supplementaries:cage', '{BlockEntityTag:{MobHolder:{EntityData:{Pos:[0.5d,0.20009998807907103d,0.5d],id:"minecraft:chicken"},Name:"Chicken",UUID:[I;719838050,1469468379,-1314582237,-2119634646]}}}'));
     
-    event.addLootTableModifier(/.*chests.*/)
+    event.addLootTypeModifier(LootType.CHEST)
         .anyBiome("#forge:is_plains","minecraft:is_forest")  
         .randomChance(0.05)
         .addLoot(Item.of('supplementaries:cage', '{BlockEntityTag:{MobHolder:{EntityData:{Pos:[0.5d,0.20009998807907103d,0.5d],id:"minecraft:pig"},Name:"Pig",UUID:[I;719838050,1469468379,-1314582237,-2119634646]}}}'));
     
-    event.addLootTableModifier(/.*chests.*/)
+    event.addLootTypeModifier(LootType.CHEST)
         .anyBiome("#forge:is_plains","minecraft:is_forest")  
         .randomChance(0.05)
         .addLoot(Item.of('supplementaries:cage', '{BlockEntityTag:{MobHolder:{EntityData:{Pos:[0.5d,0.20009998807907103d,0.5d],id:"minecraft:cow"},Name:"Cow",UUID:[I;719828050,1469468379,-1314582237,-2119634646]}}}'));
 
-    event.addLootTableModifier(/.*chests.*/)
+    event.addLootTypeModifier(LootType.CHEST)
         .randomChance(0.02)
         .addLoot(Item.of('naturesaura:aura_cache', '{aura:200000}'));
     
     
-    event.addLootTableModifier(/.*chests.*/)
+    event.addLootTypeModifier(LootType.CHEST)
         .anyDimension("minecraft:overworld") 
         .randomChance(0.02)
         .addLoot("kubejs:botanist_upgrade_smithing_template");
     
-     event.addLootTableModifier(/.*chests.*/)
+     event.addLootTypeModifier(LootType.CHEST)
         .biome("#minecraft:is_forest") 
         .randomChance(0.05)
         .addLoot("sophisticatedstorage:upgrade_base");
 
     ///============================================= END REMASTERED
 
-    event.addLootTableModifier(/.*chests.*/)
+    event.addLootTypeModifier(LootType.CHEST)
         .biome("#minecraft:is_beach") 
         .randomChance(0.025)
         .addLoot("endrem:black_eye");
 
-    event.addLootTableModifier(/.*chests.*/)
+    event.addLootTypeModifier(LootType.CHEST)
         .biome("#minecraft:is_deep_ocean") 
         .randomChance(0.025)
         .addLoot("endrem:exotic_eye");
 
-    event.addLootTableModifier(/.*chests.*/)
+    event.addLootTypeModifier(LootType.CHEST)
         .biome("#minecraft:is_forest") 
         .randomChance(0.025)
         .addLoot("endrem:corrupted_eye");
 
-    event.addLootTableModifier(/.*chests.*/)
+    event.addLootTypeModifier(LootType.CHEST)
         .biome("#forge:is_cave") 
         .randomChance(0.025)
         .addLoot("endrem:lost_eye");
 
-     event.addLootTableModifier(/.*chests.*/)
+     event.addLootTypeModifier(LootType.CHEST)
         .anyDimension("minecraft:the_nether") 
         .randomChance(0.025)
         .addLoot("endrem:nether_eye");
         
-    event.addLootTableModifier(/.*chests.*/)
+    event.addLootTypeModifier(LootType.CHEST)
         .anyDimension("minecraft:the_nether") 
         .randomChance(0.025)
         .addLoot("endrem:cursed_eye");
 
-    event.addLootTableModifier(/.*chests.*/)
+    event.addLootTypeModifier(LootType.CHEST)
         .biome("#forge:is_sandy") 
         .randomChance(0.025)
         .addLoot("endrem:old_eye");
 
-    event.addLootTableModifier(/.*chests.*/)
+    event.addLootTypeModifier(LootType.CHEST)
         .biome("#minecraft:is_jungle") 
         .randomChance(0.025)
         .addLoot("endrem:rouge_eye");
@@ -229,13 +236,20 @@ LootJS.modifiers((event) => {
     
     event.addLootTypeModifier([LootType.CHEST])
         .and((and) => {
-            and.anyDimension("minecraft:the_nether").randomChance(0.008)
+            and.anyDimension("minecraft:overworld").randomChance(0.02)
+    })
+    .addLoot("kubejs:overworld_key"
+
+    )
+    event.addLootTypeModifier([LootType.CHEST])
+        .and((and) => {
+            and.anyDimension("minecraft:the_nether").randomChance(0.02)
     })
     .addLoot("kubejs:nether_key")
 
     event.addLootTypeModifier([LootType.CHEST])
         .and((and) => {
-            and.anyDimension("twilightforest:twilight_forest").randomChance(0.008)
+            and.anyDimension("twilightforest:twilight_forest").randomChance(0.02)
     })
     .addLoot("kubejs:twilight_key")
      //================================================ MOBS
@@ -287,5 +301,6 @@ LootJS.modifiers((event) => {
 
     event.addBlockLootModifier("gravel")
         .replaceLoot("flint","gravel")
-   
-});
+  
+
+})
