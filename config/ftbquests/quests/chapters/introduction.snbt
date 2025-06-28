@@ -926,7 +926,7 @@
 			description: [
 				"&dAncient Sapling&r will help you maintain a healthy amount of aura in the area around. Right now you are not using any aura so you dont have to worry about it for now. Wood from this tree is also used in some recipes."
 				""
-				"You can read more about aura in the book."
+				"You can read more about aura in the Book of Natural Aura."
 			]
 			id: "32A61115C0AD8C45"
 			rewards: [{
@@ -942,10 +942,10 @@
 				type: "item"
 			}]
 			x: 8.0d
-			y: 4.0d
+			y: 6.0d
 		}
 		{
-			dependencies: ["3795DEE8A3FE6814"]
+			dependencies: ["7846743FB0D30EAD"]
 			description: [
 				"Jewelry is a big part of the modpack, getting good set of curios might be necessary to survive in this cruel world."
 				""
@@ -978,10 +978,10 @@
 			]
 			title: "First jewelry"
 			x: 11.5d
-			y: 0.5d
+			y: 3.5d
 		}
 		{
-			dependencies: ["3795DEE8A3FE6814"]
+			dependencies: ["7846743FB0D30EAD"]
 			description: ["Used to store &aexperience&r!"]
 			id: "713CFFFD93BE4076"
 			rewards: [
@@ -1008,11 +1008,11 @@
 				type: "item"
 			}]
 			title: "Keeping your xp safe!"
-			x: 11.5d
-			y: 3.5d
+			x: 14.5d
+			y: 2.0d
 		}
 		{
-			dependencies: ["3795DEE8A3FE6814"]
+			dependencies: ["7846743FB0D30EAD"]
 			description: ["Right click to activate it. Active eye gives +1.5 block reach for the cost of some unholy resistance and one heart"]
 			id: "4B5BA7BEE6643B4C"
 			rewards: [{
@@ -1050,8 +1050,8 @@
 				item: "ars_nouveau:ritual_cloudshaping"
 				type: "item"
 			}]
-			x: 10.0d
-			y: 4.0d
+			x: 6.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["08BFA7B9435D7DCC"]
@@ -1159,11 +1159,14 @@
 				}
 				type: "item"
 			}]
-			x: 10.5d
+			x: 11.5d
 			y: -1.0d
 		}
 		{
-			dependencies: ["78441BFCAC4CA22B"]
+			dependencies: [
+				"78441BFCAC4CA22B"
+				"22940C5D29764070"
+			]
 			dependency_requirement: "one_completed"
 			description: [
 				"&lCongratulations on finishing your first chapter!"
@@ -1204,7 +1207,7 @@
 			]
 			title: "The Big Oven"
 			x: 14.0d
-			y: -1.0d
+			y: -0.25d
 		}
 		{
 			dependencies: ["4E4E7EFB7FFC688B"]
@@ -1304,7 +1307,8 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["090099B8B3800BAE"]
+			dependencies: ["3795DEE8A3FE6814"]
+			description: ["&bArcanum Ore&r spawns between y70 and y-40 in the overworld."]
 			id: "3D782DAACBB5DE87"
 			rewards: [
 				{
@@ -1332,8 +1336,8 @@
 				}
 			]
 			title: "Arcanum Ore"
-			x: -2.0d
-			y: -4.5d
+			x: 8.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["3D782DAACBB5DE87"]
@@ -1349,11 +1353,12 @@
 				item: "wizards_reborn:arcane_wood_sapling"
 				type: "item"
 			}]
-			x: -2.0d
-			y: -6.5d
+			x: 10.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["093161CA8E0381C0"]
+			description: ["&5Arcane Wood Tools&r are extremely slow and brittle but they have innate silk touch ability and can harvest most of the blocks"]
 			icon: {
 				Count: 1
 				id: "wizards_reborn:arcane_wood_pickaxe"
@@ -1368,6 +1373,7 @@
 				item: "thermal:gold_coin"
 				type: "item"
 			}]
+			subtitle: "Early Silk Touch"
 			tasks: [
 				{
 					id: "1E37D420682B21CD"
@@ -1419,8 +1425,68 @@
 				}
 			]
 			title: "Arcane Tools"
-			x: -0.5d
-			y: -8.0d
+			x: 10.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"3795DEE8A3FE6814"
+				"093161CA8E0381C0"
+			]
+			id: "7846743FB0D30EAD"
+			rewards: [{
+				count: 3
+				id: "2A869F5DCC16ACC7"
+				item: "wizards_reborn:arcanum"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "67052489F773D9A1"
+					item: "wizards_reborn:arcane_workbench"
+					type: "item"
+				}
+				{
+					id: "260B5F41FB5BBDE9"
+					item: "wizards_reborn:wissen_altar"
+					type: "item"
+				}
+				{
+					id: "465CF53EFA404580"
+					item: "wizards_reborn:wissen_translator"
+					type: "item"
+				}
+				{
+					id: "31FB1AD6BF4832D2"
+					item: {
+						Count: 1
+						id: "wizards_reborn:wissen_wand"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7846743FB0D30EAD"]
+			id: "22940C5D29764070"
+			shape: "rsquare"
+			tasks: [{
+				id: "4AEB70C69BA35CA1"
+				item: {
+					Count: 1
+					id: "immersiveengineering:hammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 11.5d
+			y: 0.5d
 		}
 	]
 	title: "Tier 0 - Wooden Age"

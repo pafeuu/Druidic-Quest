@@ -347,9 +347,9 @@
 			description: ["Now that you can craft redstone torches, a lot of cool stuff opens up for your usage."]
 			id: "42453AA97CCD3970"
 			rewards: [{
-				count: 3
-				id: "658E66C60F20A241"
-				item: "thermal:copper_coin"
+				count: 4
+				id: "64F2A2A0E48BE59F"
+				item: "minecraft:redstone"
 				type: "item"
 			}]
 			tasks: [{
@@ -387,7 +387,9 @@
 				""
 				"&8Iron Tools&r are not as durable but they gain a little bit of reach and they are also faster than copper tools."
 				""
-				"&7Silver Tools&r are the most brittle of the 3 but in exchange they are fastest on this stage and they also give the user movement speed boost!"
+				"&7Silver Tools&r are the most brittle of the 4 but in exchange they are fastest on this stage and they also give the user movement speed boost!"
+				""
+				"&9Lead Tools&r are similar to iron when it comes to durability and mining speed but they also gain knockback resistance and have the highest mining lvl out of all 4"
 			]
 			icon: {
 				Count: 1
@@ -547,6 +549,7 @@
 					consume_items: true
 					id: "130131B728B839B6"
 					item: "supplementaries:sack"
+					match_nbt: true
 					type: "item"
 				}
 			]
@@ -575,6 +578,7 @@
 					consume_items: true
 					id: "0D0124C6D8019124"
 					item: "supplementaries:sack"
+					match_nbt: true
 					type: "item"
 				}
 			]
@@ -1251,7 +1255,7 @@
 		{
 			dependencies: ["6CDE2D6E743FAAA5"]
 			description: ["To get &l&bHeart of Diamond&r&r you need to sneak up to a &8stoneling&r which you can find in underground caves. Use it to craft the &5&lDimension Ripper&r&r"]
-			icon: "kubejs:dimension_ripper"
+			icon: "quark:diamond_heart"
 			id: "0E40C9B32E05AC51"
 			rewards: [
 				{

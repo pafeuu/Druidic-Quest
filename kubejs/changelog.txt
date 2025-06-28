@@ -1803,9 +1803,12 @@ Patch 0.3.2.1
     -FastItemFrames
     -EMI
     -TooManyRecipeViewers
-    -William Wythers' OverhauledOverworld
+    -William Wythers' OverhauledOverworld?
     -Multiblocked2
     -Ldlib
+    -Oh the Biomes We've Gone
+    -Oh the Trees you will grow
+    -CorgiLib
 
 ### Updated Mods:
     -PuzzlesLib
@@ -1876,6 +1879,8 @@ Patch 0.3.2.1
     -Gilded Sherds
     -StructuresCredits
     -Noisium
+    -BlockGradients
+    -Forbidden&Arcanus?
 
 ### Items:
     -Added Infused Amethyst
@@ -1885,7 +1890,17 @@ Patch 0.3.2.1
     -Added Air Infused Arcanum
     -Replaced Arcane Alloy related items with Source Alloy
     -Replaced Inert Alloy related items with Arcanum Alloy
+    -Added Elemental Binder
+    -Added Elemental Evaporator
+    -Added Elemental Extractor
+    -Added Elemental Infuser
 
+### Textures:
+    -Changed for Flint Pickaxe
+    -Changed for Flint Sword
+    -Changed for Flint Shovel
+    -Changed for Flint Hoe
+    -Changed for Flint Axe
 
 ### Recipes:
     -Buffed the output of an early stone axe recipe for more durability
@@ -1893,6 +1908,7 @@ Patch 0.3.2.1
     -Changed the golden backpack recipe
     -You can now also use wood to craft planks
     -Mortar now takes 4 times less damage when used to craft flint
+    -Changed recipes for the enchanging runes
 
 ### Loot:
     -Buffed chance of finding dimensional keys in lootchests
@@ -1900,6 +1916,7 @@ Patch 0.3.2.1
 ### Quests:
     -Mending Mixture quest in the market now only gives 2
     -Fixed the Dendrologist quest chapter to fit the new and removed mods
+    -Adjusted the ending of tier 0
 
 ### Villagers:
     -Changed blank scroll trade to be much cheaper

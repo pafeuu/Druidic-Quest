@@ -76,6 +76,9 @@
     "registry_name": "OFF",
     "mod_name": true
   },
+  "create_mob_spawners": {
+    "spawner_progress": true
+  },
   "lootr": {
     "info": true
   },

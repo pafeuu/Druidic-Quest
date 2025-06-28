@@ -4,7 +4,7 @@
     "parent": "block/block",
     "textures": {
         "particle": "ldlib:block/elemental_evaporator_top",
-        "north": "ldlib:block/elemental_evaporator_front",
+        "north": "ldlib:block/elemental_extractor_front",
         "east": "ldlib:block/elemental_evaporator_side",
         "south": "ldlib:block/elemental_evaporator_side",
         "west": "ldlib:block/elemental_evaporator_side",
