@@ -909,19 +909,6 @@ ServerEvents.recipes(event => {
 	})
 	event.remove({id:"enigmaticlegacy:magnet_ring"})
 	event.remove({id:"enigmaticlegacy:golden_ring"})
-	event.shaped(
-	  Item.of('immersiveengineering:hammer', '{Damage:50}'), 
-	  [
-		' CB',
-		' SC', 
-		'S  '
-	  ],
-	  {
-		C: 'quark:sturdy_stone',
-		B: 'minecraft:string',
-		S: 'minecraft:stick'
-	  }
-	)
 	
 	event.shaped(
 	  Item.of('minecraft:stone_axe', '{Damage:110}'), 

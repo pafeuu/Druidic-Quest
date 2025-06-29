@@ -144,7 +144,7 @@
 				"4E1801454590B2B2"
 			]
 			hide_until_deps_complete: true
-			icon: "elementalcraft:artificial_fire_source_seed"
+			icon: "mbd2:elemental_evaporator"
 			id: "5CB418E959BA9BC4"
 			rewards: [{
 				count: 2
@@ -719,17 +719,55 @@
 		}
 		{
 			dependencies: ["00AEA38F60CAAE90"]
+			icon: {
+				Count: 1
+				id: "create:copper_diving_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "757242D72869D9B3"
 			rewards: [{
 				id: "7116CA88E0B1B595"
 				item: "thermal:silver_coin"
 				type: "item"
 			}]
-			tasks: [{
-				id: "5F7C87BDBF5B1AD3"
-				item: "elementalcraft:water_mill_grindstone"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "043C246BC3541B09"
+					item: {
+						Count: 1
+						id: "create:copper_diving_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3643473B82F91FB4"
+					item: {
+						Count: 1
+						id: "create:copper_diving_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "16AD43BDC03AE556"
+					item: {
+						Count: 1
+						id: "create:copper_backtank"
+						tag: {
+							Air: 900
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Copper Diving Set"
 			x: 1.0d
 			y: 4.0d
 		}

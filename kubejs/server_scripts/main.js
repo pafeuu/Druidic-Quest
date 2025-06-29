@@ -72,6 +72,34 @@ ServerEvents.recipes(event => {
 	 
 
 	/// ======================================================================= Tier 0 Machines ========================================================================
+	event.shaped("wizards_reborn:wissen_altar",
+		[
+			"GAG",
+			"SPS",
+			"GAG"
+		],
+		{
+			G: "naturesaura:gold_powder",
+			S: "wizards_reborn:arcane_wood_slab",
+			P: "wizards_reborn:arcane_pedestal",
+			A: "wizards_reborn:arcanum"
+		}
+	).id("wizards_reborn:shaped/wissen_altar")
+
+	event.shaped("wizards_reborn:wissen_translator",
+		[
+			" G ",
+			"DPD",
+			"SPS"
+		],
+		{
+			G: "wizards_reborn:arcanum",
+			D: "naturesaura:gold_powder",
+			P: "wizards_reborn:arcane_wood_planks",
+			S: "wizards_reborn:arcane_wood_slab"
+		}
+	).id("wizards_reborn:shaped/wissen_translator")
+	
 	/*event.shaped("minecraft:chest",
 		[
 			"BLB",
@@ -1926,22 +1954,27 @@ ServerEvents.recipes(event => {
 	event.custom({
 		type: "lychee:lightning_channeling",
 		post: [
-			{ type: "drop_item", item: "kubejs:small_enchanting_rune", count: 4 },
-			{ type: "execute", command: "playsound forbidden_arcanus:item.mundabitur_dust.use neutral @P", hide: true }
+			{ type: "drop_item", item: "kubejs:big_enchanting_rune", count: 4 },
+			{ type: "execute", command: "playsound forbidden_arcanus:item.mundabitur_dust.use neutral @p", hide: true }
 		],
 		item_in: [
 			{ item: "kubejs:deepslate_rune" },
+			{ item: "kubejs:deepslate_rune" },
+			{ item: "kubejs:deepslate_rune" },
+			{ item: "kubejs:deepslate_rune" },
 			{ item: "aether:zanite_gemstone" },
-			{ item: "deep_aether:skyjade" },
-			{ item: "ars_nouveau:source_gem_block" },
-			{ item: "ars_nouveau:source_gem_block" },
-			{ item: "ars_nouveau:source_gem_block" }
+			{ item: "kubejs:improved_alchemical_dust"},
+			{ item: "ars_nouveau:source_gem_block"},
+			{ item: "ars_nouveau:source_gem_block"}
 		]
 	})
 
 	event.shaped("kubejs:medium_enchanting_rune",["AA","AA"],{A:"kubejs:small_enchanting_rune"})
 	event.shaped("kubejs:big_enchanting_rune",["AA","AA"],{A:"kubejs:medium_enchanting_rune"})
 	event.shaped("kubejs:large_enchanting_rune",["AA","AA"],{A:"kubejs:big_enchanting_rune"})
+	event.shapeless("4x kubejs:big_enchanting_rune","kubejs:large_enchanting_rune")
+	event.shapeless("4x kubejs:medium_enchanting_rune","4x kubejs:big_enchanting_rune")
+	event.shapeless("4x kubejs:small_enchanting_rune","4x kubejs:medium_enchanting_rune")
 
 	event.recipes.naturesaura.altar("aether:zanite_gemstone","diamond",7500,40)
 	event.recipes.naturesaura.altar("deep_aether:skyjade","emerald",7500,40)

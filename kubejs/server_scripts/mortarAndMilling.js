@@ -127,11 +127,7 @@ ServerEvents.recipes(event => {
 
 	event.shapeless('3x bone_meal', ['#twigs:seashells','#forge:tools/mortars']).damageIngredient('#forge:tools/mortars',1).id('twigs:bone_meal_from_seashells')
 
-	
-
 	event.shapeless('3x bone_meal', ['ars_nouveau:wilden_horn','#forge:tools/mortars']).damageIngredient('#forge:tools/mortars',2).id('ars_nouveau:horn_to_bonemeal')
-
-	event.shapeless('3x bone_meal', ['architects_palette:withered_bone','#forge:tools/mortars']).damageIngredient('#forge:tools/mortars',3).id('architects_palette:bone_meal')
 
 	event.shapeless('6x bone_meal', ['tide:fish_bone','#forge:tools/mortars']).damageIngredient('#forge:tools/mortars',1).id('tide:bone_meal_from_fish_bone')
 

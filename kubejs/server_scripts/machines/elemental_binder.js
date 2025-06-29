@@ -3,7 +3,7 @@ ServerEvents.recipes(event=>{
     function binding(output,element,amount,input1,input2,input3,input4,input5,input6,input7,input8,id){
 
         event.recipes.mbd2.elemental_binding()
-        .inputFluids(amount+"x kubejs:"+element+"_element_fluid")
+        .inputFluids("kubejs:"+element+"_element_fluid "+amount)
         .slotName("1", builder=> builder.inputItems(input1))
         .slotName("2", builder=> builder.inputItems(input2))
         .slotName("3", builder=> builder.inputItems(input3))
@@ -75,7 +75,7 @@ ServerEvents.recipes(event=>{
         "funnel"
     )
 
-    binding("kubejs:rainbow_magic_feather","fire",2500,
+    binding("kubejs:rainbow_magic_feather","water",250,
         "ars_nouveau:fire_essence",
         "ars_nouveau:water_essence",
         "ars_nouveau:air_essence",

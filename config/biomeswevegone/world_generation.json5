@@ -3,7 +3,7 @@
 	"enabled_biomes": {
 		"biomeswevegone:bayou": true,
 		"biomeswevegone:ironwood_gour": true,
-		"biomeswevegone:dead_sea": true,
+		"biomeswevegone:dead_sea": false,
 		"biomeswevegone:aspen_boreal": true,
 		"biomeswevegone:atacama_outback": true,
 		"biomeswevegone:skyrise_vale": true,

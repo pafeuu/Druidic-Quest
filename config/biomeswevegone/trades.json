@@ -2,7 +2,7 @@
   "trades": {
     "disableTrades": {
       "comment": "Disable All BWG Trades, If this is set to true none of the values below will matter",
-      "value": false
+      "value": true
     }
   },
   "villagerTrades": {
