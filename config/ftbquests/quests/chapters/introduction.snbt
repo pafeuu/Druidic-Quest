@@ -15,7 +15,7 @@
 				"You can sometimes find this materials laying on the ground. "
 				"If you cant find any you can destroy leaves for a chance to drop twigs and punch stone with a empty hand to get pebbles or just mine some gravel for a chance to drop pebbles."
 				""
-				"&2If you dont want to chop down the whole tree you need to sneak while destroying the logs, your first axe only had 8 durability so it might not be able to chop down bigger trees&r"
+				"&2If you dont want to chop down the whole tree you need to sneak while destroying the logs, your first axe has very little durability so it might not be able to chop down bigger trees&r"
 			]
 			hide_until_deps_complete: true
 			icon: {
@@ -39,11 +39,13 @@
 					count: 3L
 					id: "7D44DD370F1534B1"
 					item: "twigs:pebble"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "33AF9CE4F1ECF96C"
 					item: "twigs:twig"
+					optional_task: true
 					type: "item"
 				}
 				{
@@ -397,6 +399,11 @@
 					count: 4
 					id: "1EEF4F647DB9FDBD"
 					item: "thermal:gold_coin"
+					type: "item"
+				}
+				{
+					id: "1E36666E1469BDCB"
+					item: "solcarrot:food_book"
 					type: "item"
 				}
 			]
@@ -1078,7 +1085,7 @@
 							"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:sand)"
 						}
 					}
-					title: "Any #minecraft:sand"
+					title: "Any sand"
 					type: "item"
 				}
 				{
@@ -1341,6 +1348,7 @@
 		}
 		{
 			dependencies: ["3D782DAACBB5DE87"]
+			icon: "kubejs:arcanum_pylon"
 			id: "093161CA8E0381C0"
 			rewards: [{
 				count: 4
@@ -1348,11 +1356,19 @@
 				item: "wizards_reborn:arcane_wood_branch"
 				type: "item"
 			}]
-			tasks: [{
-				id: "7074DE574DB6E3F8"
-				item: "wizards_reborn:arcane_wood_sapling"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "04635584CE7DCF6A"
+					item: "kubejs:arcanum_pylon"
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "31BC8EFBE25D2D59"
+					item: { Count: 4, id: "wizards_reborn:arcane_wood_log" }
+					type: "item"
+				}
+			]
 			x: 10.0d
 			y: 4.0d
 		}
@@ -1433,6 +1449,7 @@
 				"3795DEE8A3FE6814"
 				"093161CA8E0381C0"
 			]
+			icon: "wizards_reborn:arcane_workbench"
 			id: "7846743FB0D30EAD"
 			rewards: [{
 				count: 3
@@ -1467,6 +1484,7 @@
 					type: "item"
 				}
 			]
+			title: "Arcane Arts"
 			x: 10.0d
 			y: 2.0d
 		}

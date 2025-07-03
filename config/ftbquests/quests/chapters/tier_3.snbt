@@ -62,7 +62,7 @@
 			shape: "rsquare"
 			tasks: [{
 				id: "56B99B07BDA1CC47"
-				item: "elementalcraft:binder"
+				item: "mbd2:elemental_binder"
 				type: "item"
 			}]
 			x: -3.0d

@@ -54,7 +54,7 @@
 				""
 				"The modpack is focused on advanture and automation through magic as well as balancing most of  the other aspects of the game!"
 				""
-				"For example many recipes are changed and require you to setup automation for certain materials using a different mechanics from different mods."
+				"Many recipes are changed and require you to setup automation for certain materials using a different mechanics from different mods."
 				""
 				"&eQuests&r will help guide you through progression so make sure to read them."
 			]
@@ -110,7 +110,7 @@
 			description: [
 				"There are many chapters which have nothing to do with progression."
 				""
-				"For example there are quests to collect every music disk."
+				"&l&2Ultimate Collector&r tab will show you all the different collectibles in the pack"
 			]
 			icon: "supplementaries:statue"
 			id: "4CCE1DF1DF0C35DB"
@@ -265,7 +265,7 @@
 			description: [
 				"As you might have already realized a lot of player attributes are nerfed you can choose a custom totem to negate one of those nerfs."
 				""
-				"Totems are new items custom made for the pack they will give you special effects when hold in the offhand"
+				"Totems are new items custom made for the pack they will give you special effects when held in the offhand"
 			]
 			icon: {
 				Count: 1
@@ -294,9 +294,13 @@
 		{
 			dependencies: ["23878BB2C97470D0"]
 			description: [
-				"As you probably noticed your character is quite nerfed at the start."
+				"This modpack uses both Spice of Life Onion and Carrot Editions."
 				""
-				"To make sure you get strong you should invest in variety of good food."
+				"&6&lCarrot Edition&r gives you additional hearts. You will get your first extra heart after eating 5 new foods and after that every 25 new foods eaten."
+				""
+				"While &l&eOnion Edition&r&r depends on how diverse and nutritious your diet is, so eating bigger meals and cycling between different foods will get your extra buffs:"
+				""
+				"like extra reach, movement speed, resistances and extra hearts. It is setup in a way that it only takes a bit of effort to be as strong as regular player in other packs"
 			]
 			icon: "farmersdelight:pasta_with_mutton_chop"
 			id: "236F52C9E0815D19"
