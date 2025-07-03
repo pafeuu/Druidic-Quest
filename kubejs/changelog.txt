@@ -1798,17 +1798,18 @@ Patch 0.3.2.1
     -Fluffy Fur API
     -Wizards Reborn
     -Macaw's trapdoors
-    -Macaw's doors
     -Dynamic Lights
     -FastItemFrames
     -EMI
     -TooManyRecipeViewers
-    -William Wythers' OverhauledOverworld?
     -Multiblocked2
     -Ldlib
     -Oh the Biomes We've Gone
     -Oh the Trees you will grow
     -CorgiLib
+    -EpicTerrainCompatible
+    -AdvancedLootInfo
+    -Mana Unification
 
 ### Updated Mods:
     -PuzzlesLib
@@ -1880,7 +1881,6 @@ Patch 0.3.2.1
     -StructuresCredits
     -Noisium
     -BlockGradients
-    -Forbidden&Arcanus?
 
 ### Items:
     -Added Infused Amethyst
@@ -1909,6 +1909,9 @@ Patch 0.3.2.1
     -You can now also use wood to craft planks
     -Mortar now takes 4 times less damage when used to craft flint
     -Changed recipes for the enchanging runes
+    -Nerfed sticks from twigs
+    -Changed for Depot
+    -Changed for Dormant Eye
 
 ### Loot:
     -Buffed chance of finding dimensional keys in lootchests
@@ -1923,6 +1926,16 @@ Patch 0.3.2.1
     -Rebalanced the mending mixture trade
     -Added the Stable Warp Scroll trade to the librarian
 
+### Item Balance:
+    -Carved Pumpkin now gives armor and resistances when worn
+    -Mob heads now give resistances when worn
+    -Twilight Forest's Boss Trophies now give resistances and other attributes when worn
+    -Twilight Forest's Worms now give resistances and other attributes when worn
+    -Umbral Skies Boss Trophies now give resistances and other attributes when worn
+    -Earmuffs now give cold resistance when worn
+    -Fixed doubled nature resistance on turtle helmet
+    -Buffed Spiked Turtle Shell and added it to the Hunter armor set
+
 ### Other:
     -Fixed flint hoes not tilling ground in a 3x3
     -Buffed the silver output from alchemical powder and infested stone
@@ -1930,6 +1943,9 @@ Patch 0.3.2.1
     -KeepInventory gamerule is now on by default
     -Players now lose all the xp on death
     -All the mossy blocks now work with swamp homi and botanist pickaxe
+    -Added back early forge loading screen
+    -Adjusted Main Menu of the pack
+    -Adjusted other loading screens
 
 
 

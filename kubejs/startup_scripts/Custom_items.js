@@ -447,6 +447,7 @@ StartupEvents.registry('item', item => {
   ///===================================================MISC===========================================================
 
   item.create('natural_clay_blend').tag('dq:tier3/component')
+  item.create('blast_brick').tag('dq:tier3/component')
   item.create('arcane_leather').tag('dq:tier0/component')
   item.create('recipe_changed')
   item.create('primitive_handle')
