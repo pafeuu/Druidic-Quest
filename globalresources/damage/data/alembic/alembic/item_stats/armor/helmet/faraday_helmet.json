@@ -1,0 +1,20 @@
+{
+  "id": "immersiveengineering:armor_faraday_helmet",
+  "modifiers": [
+    {
+      "type": "append",
+      "attribute": "alembic:fire_damage.resistance",
+      "value": 2,
+      "operation": "ADDITION",
+      "uuid": "8f8a305d-315e-4d7d-8e10-2f7ac15e343b"
+    },
+    {
+      "type": "append",
+      "attribute": "alembic:ice_damage.resistance",
+      "value": 2,
+      "operation": "ADDITION",
+      "uuid": "3dd1398e-ca80-47fb-bf13-93ca50cc5f76"
+    }
+  ],
+  "equipment_slot": "HEAD"
+}

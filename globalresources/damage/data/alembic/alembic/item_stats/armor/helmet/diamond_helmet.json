@@ -1,0 +1,13 @@
+{
+  "id": "minecraft:diamond_helmet",
+  "modifiers": [
+    {
+      "type": "append",
+      "attribute": "alembic:arcane_damage.resistance",
+      "value": 1,
+      "operation": "ADDITION",
+      "uuid": "2a08c8da-fe07-4e49-9747-04caf1f785e9"
+    }
+  ],
+  "equipment_slot": "HEAD"
+}

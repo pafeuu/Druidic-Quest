@@ -1,0 +1,41 @@
+{
+  "id": "minecraft:dragon_head",
+  "modifiers": [
+    {
+      "type": "append",
+      "attribute": "irons_spellbooks:eldritch_spell_power",
+      "value": 0.25,
+      "operation": "MULTIPLY_TOTAL",
+      "uuid": "04d40e51-333e-42e2-8d84-90604cfb24c2"
+    },
+    {
+      "type": "append",
+      "attribute": "minecraft:generic.armor",
+      "value": 6,
+      "operation": "ADDITION",
+      "uuid": "8c860942-16c1-4441-9b0b-8361bf9fc39a"
+    },
+    {
+      "type": "append",
+      "attribute": "alembic:true_damage.resistance",
+      "value": 6,
+      "operation": "ADDITION",
+      "uuid": "8c860942-16c1-4441-9b0b-8361bf9fc39a"
+    },
+    {
+      "type": "append",
+      "attribute": "alembic:fire_damage.resistance",
+      "value": 3,
+      "operation": "ADDITION",
+      "uuid": "8c860942-16c1-4441-9b0b-8361bf9fc11a"
+    },
+    {
+      "type": "append",
+      "attribute": "alembic:arcane_damage.resistance",
+      "value": 6,
+      "operation": "ADDITION",
+      "uuid": "8c822942-16c1-4441-922b-8361bf9fc39a"
+    }
+  ],
+  "equipment_slot": "HEAD"
+}

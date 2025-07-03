@@ -1,0 +1,27 @@
+{
+  "id": "twilightforest:fiery_helmet",
+  "modifiers": [
+    {
+      "type": "append",
+      "attribute": "minecraft:generic.movement_speed",
+      "value": -0.001,
+      "operation": "ADDITION",
+      "uuid": "d41c1b68-8131-418c-abe8-b1897bd79770"
+    },
+    {
+      "type": "append",
+      "attribute": "alembic:fire_damage",
+      "value": 0.20,
+      "operation": "ADDITION",
+      "uuid": "82e40dec-ef26-4bc1-87af-bd8166a3a107"
+    },
+    {
+      "type": "append",
+      "attribute": "alembic:fire_damage.resistance",
+      "value": 2,
+      "operation": "ADDITION",
+      "uuid": "ef7f99e3-1841-4e86-af6e-80af9a80b223"
+    }
+  ],
+  "equipment_slot": "HEAD"
+}

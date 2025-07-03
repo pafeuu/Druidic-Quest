@@ -1,0 +1,13 @@
+{
+  "id": "minecraft:diamond_boots",
+  "modifiers": [
+    {
+      "type": "append",
+      "attribute": "alembic:arcane_damage.resistance",
+      "value": 1,
+      "operation": "ADDITION",
+      "uuid": "cfbfddd0-1071-47bc-af79-e568af83b2f5"
+    }
+  ],
+  "equipment_slot": "FEET"
+}

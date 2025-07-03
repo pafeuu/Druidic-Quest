@@ -1,0 +1,20 @@
+{
+  "id": "deeperdarker:warden_leggings",
+  "modifiers": [
+    {
+      "type": "append",
+      "attribute": "alembic:arcane_damage.resistance",
+      "value": 5,
+      "operation": "ADDITION",
+      "uuid": "27df17de-88f7-42cb-8ce8-9a5e56f4b4fe"
+    },
+    {
+      "type": "append",
+      "attribute": "alembic:true_damage.resistance",
+      "value": 5,
+      "operation": "ADDITION",
+      "uuid": "27df17de-88f7-42cb-8ce8-9a5e56f4b4f1"
+    }
+  ],
+  "equipment_slot": "LEGS"
+}

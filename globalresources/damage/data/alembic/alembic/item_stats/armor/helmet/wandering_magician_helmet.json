@@ -1,0 +1,31 @@
+{
+  "id": "irons_spellbooks:wandering_magician_helmet",
+  "modifiers": [
+    {
+      "type": "append",
+      "attribute": "alembic:ice_damage.resistance",
+      "value": 0.5,
+      "operation": "ADDITION",
+      "uuid": "8dae752c-7be6-4fd9-afbf-44145cdd4fe2"
+    },
+    {
+      "type": "append",
+      "attribute": "alembic:arcane_damage.resistance",
+      "value": 0.5,
+      "operation": "ADDITION",
+      "uuid": "5bf45711-9469-4c03-a266-1afaa3f14f5f"
+    },
+    {
+      "type": "remove",
+      "target": "minecraft:generic.armor"
+    },
+    {
+      "type": "append",
+      "attribute": "minecraft:generic.armor",
+      "value": 2,
+      "operation": "ADDITION",
+      "uuid": "a12428b4-1a23-4f62-9517-9c9550d5c681"
+    }
+  ],
+  "equipment_slot": "HEAD"
+}

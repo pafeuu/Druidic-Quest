@@ -1,0 +1,13 @@
+{
+  "id": "minecraft:leather_boots",
+  "modifiers": [
+    {
+      "type": "append",
+      "attribute": "alembic:ice_damage.resistance",
+      "value": 0.5,
+      "operation": "ADDITION",
+      "uuid": "136b1812-46d1-17d9-ae0e-e8743e858448"
+    }
+  ],
+  "equipment_slot": "FEET"
+}

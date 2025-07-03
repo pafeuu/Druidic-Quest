@@ -1,0 +1,20 @@
+{
+  "id": "deeperdarker:warden_boots",
+  "modifiers": [
+    {
+      "type": "append",
+      "attribute": "alembic:arcane_damage.resistance",
+      "value": 4,
+      "operation": "ADDITION",
+      "uuid": "210c2ddd-8f2a-4a8b-97b7-dd3d14985251"
+    },
+    {
+      "type": "append",
+      "attribute": "alembic:true_damage.resistance",
+      "value": 4,
+      "operation": "ADDITION",
+      "uuid": "210cbddd-8f2a-4a8b-97b7-dd3d14985251"
+    }
+  ],
+  "equipment_slot": "FEET"
+}

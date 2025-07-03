@@ -1,0 +1,20 @@
+{
+  "id": "naturesaura:infused_iron_shoes",
+  "modifiers": [
+    {
+      "type": "append",
+      "attribute": "alembic:alchemical_damage.resistance",
+      "value": 2,
+      "operation": "ADDITION",
+      "uuid": "e4dfa891-f3ff-4207-b273-f9860c8c82e5"
+    },
+    {
+      "type": "append",
+      "attribute": "alembic:alchemical_damage",
+      "value": 0.15,
+      "operation": "ADDITION",
+      "uuid": "f880e0ff-1641-4277-b360-b5134921497e"
+    }
+  ],
+  "equipment_slot": "FEET"
+}

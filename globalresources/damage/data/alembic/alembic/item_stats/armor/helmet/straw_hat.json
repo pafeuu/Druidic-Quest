@@ -1,0 +1,27 @@
+{
+  "id": "legendarycreatures:straw_hat",
+  "modifiers": [
+    {
+      "type": "append",
+      "attribute": "puffish_attributes:natural_regeneration",
+      "value": 1,
+      "operation": "MULTIPLY_TOTAL",
+      "uuid": "2b9473ac-b9f5-4795-9fd8-1bf608570769"
+    },
+    {
+      "type": "append",
+      "attribute": "ars_nouveau:ars_nouveau.perk.mana_regen",
+      "value": 0.20,
+      "operation": "MULTIPLY_TOTAL",
+      "uuid": "ab2c8eb8-0221-4c99-92c1-89b148eef365"
+    },
+    {
+      "type": "append",
+      "attribute": "puffish_attributes:healing",
+      "value": 0.2,
+      "operation": "MULTIPLY_TOTAL",
+      "uuid": "df739ee7-0fb3-4a43-86e3-7cc18d06b265"
+    }
+  ],
+  "equipment_slot": "HEAD"
+}

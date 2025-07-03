@@ -1,0 +1,20 @@
+{
+  "id": "minecraft:iron_leggings",
+  "modifiers": [
+    {
+      "type": "append",
+      "attribute": "minecraft:generic.movement_speed",
+      "value": -0.001,
+      "operation": "ADDITION",
+      "uuid": "b0caeaf4-8bd6-4796-a045-ec094aaadb90"
+    },
+    {
+      "type": "append",
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 0.2,
+      "operation": "ADDITION",
+      "uuid": "2c0a0440-af55-4333-a23a-5c7d0e3c2225"
+    }
+  ],
+  "equipment_slot": "LEGS"
+}

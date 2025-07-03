@@ -1,0 +1,20 @@
+{
+  "id": "minecraft:iron_helmet",
+  "modifiers": [
+    {
+      "type": "append",
+      "attribute": "minecraft:generic.movement_speed",
+      "value": -0.001,
+      "operation": "ADDITION",
+      "uuid": "70de7171-4d0b-471e-82ef-e01d832e89ea"
+    },
+    {
+      "type": "append",
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 0.15,
+      "operation": "ADDITION",
+      "uuid": "9c0a0440-af55-4333-a63a-5c7d0e3c2225"
+    }
+  ],
+  "equipment_slot": "HEAD"
+}

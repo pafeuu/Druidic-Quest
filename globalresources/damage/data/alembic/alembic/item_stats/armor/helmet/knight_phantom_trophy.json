@@ -1,0 +1,41 @@
+{
+  "id": "twilightforest:knight_phantom_trophy",
+  "modifiers": [
+    {
+      "type": "append",
+      "attribute": "minecraft:generic.armor",
+      "value": 6,
+      "operation": "ADDITION",
+      "uuid": "2b9473ac-b9f5-4795-9fd8-1bf608570769"
+    },
+    {
+      "type": "append",
+      "attribute": "minecraft:generic.armor_toughness",
+      "value": 4,
+      "operation": "ADDITION",
+      "uuid": "42c44a14-84c4-4cde-8f58-7cfc5c7bbac1"
+    },
+    {
+      "type": "append",
+      "attribute": "alembic:true_damage.resistance",
+      "value": 6,
+      "operation": "ADDITION",
+      "uuid": "42c44a14-84c4-4cde-8f58-7c335c7b7ac1"
+    },
+    {
+      "type": "append",
+      "attribute": "alembic:holy_damage.resistance",
+      "value": -6,
+      "operation": "ADDITION",
+      "uuid": "42244a14-84c4-4c33-8f58-7c335c7b7ac1"
+    },
+    {
+      "type": "append",
+      "attribute": "minecraft:generic.armor",
+      "value": 0.25,
+      "operation": "MULTIPLY_TOTAL",
+      "uuid": "df739ee7-0fb3-4a43-86e3-7cc18d06b265"
+    }
+  ],
+  "equipment_slot": "HEAD"
+}

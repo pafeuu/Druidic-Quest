@@ -1,0 +1,20 @@
+{
+  "id": "alexsmobs:moose_headgear",
+  "modifiers": [
+    {
+      "type": "append",
+      "attribute": "alembic:alchemical_damage.resistance",
+      "value": 4,
+      "operation": "ADDITION",
+      "uuid": "1c112df9-01a5-486f-9eb1-df3109a84700"
+    },
+    {
+      "type": "append",
+      "attribute": "alembic:ice_damage.resistance",
+      "value": 4,
+      "operation": "ADDITION",
+      "uuid": "04d40e51-3b5e-42e2-8d84-90604cfb24c2"
+    }
+  ],
+  "equipment_slot": "HEAD"
+}

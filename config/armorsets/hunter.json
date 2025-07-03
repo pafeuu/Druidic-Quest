@@ -4,7 +4,11 @@
   "head": {
     "itemKey": "alexsmobs:frontier_cap",
     "mixAndMatch": [
-      "alexsmobs:fedora"
+      "alexsmobs:fedora",
+      "minecraft:turtle_helmet",
+      "alexsmobs:spiked_turtle_shell",
+      "alexsmobs:sombrero",
+      "alexsmobs:moose_headgear"
     ],
     "mustBeEmpty": false
   },

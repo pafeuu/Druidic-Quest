@@ -1,0 +1,20 @@
+{
+  "id": "alexsmobs:rocky_chestplate",
+  "modifiers": [
+    {
+      "type": "append",
+      "attribute": "alembic:alchemical_damage.resistance",
+      "value": 4,
+      "operation": "ADDITION",
+      "uuid": "bd5a1008-aa81-478b-afd4-7bff0132117e"
+    },
+    {
+      "type": "append",
+      "attribute": "alembic:true_damage.resistance",
+      "value": 4,
+      "operation": "ADDITION",
+      "uuid": "5376e891-4909-49e8-b1c9-f3d2617c5924"
+    }
+  ],
+  "equipment_slot": "CHEST"
+}

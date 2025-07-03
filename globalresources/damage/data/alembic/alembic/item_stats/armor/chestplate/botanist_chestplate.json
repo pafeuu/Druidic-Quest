@@ -1,0 +1,20 @@
+{
+  "id": "naturesaura:infused_iron_chest",
+  "modifiers": [
+    {
+      "type": "append",
+      "attribute": "alembic:alchemical_damage.resistance",
+      "value": 4,
+      "operation": "ADDITION",
+      "uuid": "9fb52de2-cbe3-4a5e-9b31-8fb7d7d544ba"
+    },
+    {
+      "type": "append",
+      "attribute": "alembic:alchemical_damage",
+      "value": 0.30,
+      "operation": "ADDITION",
+      "uuid": "c592b756-e12e-4dc3-8750-61fc4edb62fb"
+    }
+  ],
+  "equipment_slot": "CHEST"
+}

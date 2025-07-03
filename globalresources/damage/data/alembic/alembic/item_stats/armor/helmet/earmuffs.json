@@ -1,0 +1,13 @@
+{
+  "id": "immersiveengineering:earmuffs",
+  "modifiers": [
+    {
+      "type": "append",
+      "attribute": "alembic:ice_damage.resistance",
+      "value": 3,
+      "operation": "ADDITION",
+      "uuid": "6dd0fb52-1a49-4433-97ce-16de55ff1a2e"
+    }
+  ],
+  "equipment_slot": "HEAD"
+}

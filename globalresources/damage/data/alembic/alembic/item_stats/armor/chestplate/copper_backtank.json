@@ -1,0 +1,27 @@
+{
+  "id": "create:copper_backtank",
+  "modifiers": [
+    {
+      "type": "append",
+      "attribute": "alembic:arcane_damage.resistance",
+      "value": 4,
+      "operation": "ADDITION",
+      "uuid": "80c2b1fa-8bd4-467f-ac8c-823e9d2391f2"
+    },
+    {
+      "type": "append",
+      "attribute": "alembic:ice_damage.resistance",
+      "value": 4,
+      "operation": "ADDITION",
+      "uuid": "23059fcf-06dc-492c-b88e-2c3f0d499715"
+    },
+    {
+      "type": "append",
+      "attribute": "attributeslib:mining_speed",
+      "value": 0.1,
+      "operation": "MULTIPLY_TOTAL",
+      "uuid": "9c0a0110-af23-4333-a63a-5c7d0e3c1225"
+    }
+  ],
+  "equipment_slot": "CHEST"
+}

@@ -1,0 +1,41 @@
+{
+  "id": "twilightforest:alpha_yeti_trophy",
+  "modifiers": [
+    {
+      "type": "append",
+      "attribute": "minecraft:generic.armor",
+      "value": 4,
+      "operation": "ADDITION",
+      "uuid": "2b9473ac-b9f5-4795-9fd8-1bf608570769"
+    },
+    {
+      "type": "append",
+      "attribute": "alembic:ice_damage.resistance",
+      "value": 4,
+      "operation": "ADDITION",
+      "uuid": "28ded058-5502-4638-8722-42a081e30830"
+    },
+    {
+      "type": "append",
+      "attribute": "alembic:fire_damage.resistance",
+      "value": -4,
+      "operation": "ADDITION",
+      "uuid": "9e718a5f-7cc8-45dd-975c-47bf682d4889"
+    },
+    {
+      "type": "append",
+      "attribute": "alembic:ice_damage",
+      "value": 2,
+      "operation": "ADDITION",
+      "uuid": "d2422fa6-6791-4f70-a454-dc2e02c80304"
+    },
+    {
+      "type": "append",
+      "attribute": "minecraft:generic.max_health",
+      "value": 0.1,
+      "operation": "MULTIPLY_TOTAL",
+      "uuid": "df739ee7-0fb3-4a43-86e3-7cc18d06b265"
+    }
+  ],
+  "equipment_slot": "HEAD"
+}

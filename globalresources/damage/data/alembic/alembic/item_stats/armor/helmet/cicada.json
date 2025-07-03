@@ -1,0 +1,20 @@
+{
+  "id": "twilightforest:cicada",
+  "modifiers": [
+    {
+      "type": "append",
+      "attribute": "alembic:alchemical_damage.resistance",
+      "value": 2,
+      "operation": "ADDITION",
+      "uuid": "5b35b2a7-56c3-4dbb-b436-b45c713091b1"
+    },
+    {
+      "type": "append",
+      "attribute": "alembic:alchemical_damage",
+      "value": 0.5,
+      "operation": "ADDITION",
+      "uuid": "8142988b-5431-4e3d-8b62-d65e49c09119"
+    }
+  ],
+  "equipment_slot": "HEAD"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "deep_aether:skyjade_leggings",
+  "modifiers": [
+    {
+      "type": "append",
+      "attribute": "alembic:arcane_damage.resistance",
+      "value": 2,
+      "operation": "ADDITION",
+      "uuid": "9b09dd40-f1a0-47be-a4d6-c2de46ea547a"
+    },
+    {
+      "type": "append",
+      "attribute": "alembic:true_damage.resistance",
+      "value": 1,
+      "operation": "ADDITION",
+      "uuid": "9b09dd40-f0a0-47be-a4d6-c2de46ea547a"
+    }
+  ],
+  "equipment_slot": "LEGS"
+}

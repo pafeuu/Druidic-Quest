@@ -1,0 +1,34 @@
+{
+  "id": "twilightforest:lich_trophy",
+  "modifiers": [
+    {
+      "type": "append",
+      "attribute": "alembic:arcane_damage.resistance",
+      "value": 2,
+      "operation": "ADDITION",
+      "uuid": "2b9473ac-b9f5-4795-9fd8-1bf608570769"
+    },
+    {
+      "type": "append",
+      "attribute": "irons_spellbooks:spell_power",
+      "value": 0.15,
+      "operation": "MULTIPLY_TOTAL",
+      "uuid": "ab2c8eb8-0221-4c99-92c1-89b148eef365"
+    },
+    {
+      "type": "append",
+      "attribute": "irons_spellbooks:max_mana",
+      "value": 0.2,
+      "operation": "MULTIPLY_TOTAL",
+      "uuid": "df739ee7-0fb3-4a43-86e3-7cc18d06b265"
+    },
+    {
+      "type": "append",
+      "attribute": "ars_nouveau:ars_nouveau.perk.max_mana",
+      "value": 0.2,
+      "operation": "MULTIPLY_TOTAL",
+      "uuid": "4958f7c1-88b4-4606-81ee-c74109ff258a"
+    }
+  ],
+  "equipment_slot": "HEAD"
+}

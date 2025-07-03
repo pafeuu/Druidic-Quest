@@ -1,0 +1,20 @@
+{
+  "id": "twilightforest:naga_leggings",
+  "modifiers": [
+    {
+      "type": "append",
+      "attribute": "alembic:alchemical_damage.resistance",
+      "value": 4,
+      "operation": "ADDITION",
+      "uuid": "789ebd47-6c1c-4baf-b8f0-a94af4db2a24"
+    },
+    {
+      "type": "append",
+      "attribute": "alembic:arcane_damage.resistance",
+      "value": 2,
+      "operation": "ADDITION",
+      "uuid": "7e737215-e247-42e3-87ff-b0900e7535cb"
+    }
+  ],
+  "equipment_slot": "LEGS"
+}

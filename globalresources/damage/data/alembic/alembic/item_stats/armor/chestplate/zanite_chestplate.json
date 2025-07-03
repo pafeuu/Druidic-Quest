@@ -1,0 +1,20 @@
+{
+  "id": "aether:zanite_chestplate",
+  "modifiers": [
+    {
+      "type": "append",
+      "attribute": "alembic:arcane_damage.resistance",
+      "value": 3,
+      "operation": "ADDITION",
+      "uuid": "38e5e9a5-3be0-4697-bcf3-2ae73ce81111"
+    },
+    {
+      "type": "append",
+      "attribute": "alembic:holy_damage.resistance",
+      "value": 3,
+      "operation": "ADDITION",
+      "uuid": "17519fd5-ee18-478a-93b0-ef9e8c80d830"
+    }
+  ],
+  "equipment_slot": "CHEST"
+}

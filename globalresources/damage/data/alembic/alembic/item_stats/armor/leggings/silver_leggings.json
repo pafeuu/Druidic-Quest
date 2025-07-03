@@ -1,0 +1,20 @@
+{
+  "id": "kubejs:silver_leggings",
+  "modifiers": [
+    {
+      "type": "append",
+      "attribute": "alembic:true_damage.resistance",
+      "value": 2,
+      "operation": "ADDITION",
+      "uuid": "6a750611-8ba8-46d2-951b-0331bcfa438c"
+    },
+    {
+      "type": "append",
+      "attribute": "minecraft:generic.movement_speed",
+      "value": 0.004,
+      "operation": "ADDITION",
+      "uuid": "ac06a627-ffdf-44bf-9cb4-abc3fe61708f"
+    }
+  ],
+  "equipment_slot": "LEGS"
+}

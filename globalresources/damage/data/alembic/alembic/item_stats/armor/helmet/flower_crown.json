@@ -1,0 +1,13 @@
+{
+  "id": "immersive_weathering:flower_crown",
+  "modifiers": [
+    {
+      "type": "append",
+      "attribute": "alembic:alchemical_damage.resistance",
+      "value": 6,
+      "operation": "ADDITION",
+      "uuid": "6dd0fb52-1a49-4433-97ce-16de33ff1a2e"
+    }
+  ],
+  "equipment_slot": "HEAD"
+}

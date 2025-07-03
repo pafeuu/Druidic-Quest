@@ -1,0 +1,27 @@
+{
+  "id": "twilightforest:fiery_leggings",
+  "modifiers": [
+    {
+      "type": "append",
+      "attribute": "minecraft:generic.movement_speed",
+      "value": -0.001,
+      "operation": "ADDITION",
+      "uuid": "b9ea3cba-e72e-4ac0-82b8-6f6012dd2c6f"
+    },
+    {
+      "type": "append",
+      "attribute": "alembic:fire_damage",
+      "value": 0.25,
+      "operation": "ADDITION",
+      "uuid": "2d96d6d9-97a0-41a5-ae15-e5809d0406f0"
+    },
+    {
+      "type": "append",
+      "attribute": "alembic:fire_damage.resistance",
+      "value": 3,
+      "operation": "ADDITION",
+      "uuid": "7104ff33-322a-4434-8fe2-bf9bea4f60ae"
+    }
+  ],
+  "equipment_slot": "LEGS"
+}

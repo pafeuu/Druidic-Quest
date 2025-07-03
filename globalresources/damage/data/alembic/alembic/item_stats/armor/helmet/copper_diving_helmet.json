@@ -1,0 +1,27 @@
+{
+  "id": "create:copper_diving_helmet",
+  "modifiers": [
+    {
+      "type": "append",
+      "attribute": "alembic:arcane_damage.resistance",
+      "value": 3,
+      "operation": "ADDITION",
+      "uuid": "bda57329-f034-4134-9cf5-e976d30b9d25"
+    },
+    {
+      "type": "append",
+      "attribute": "alembic:ice_damage.resistance",
+      "value": 3,
+      "operation": "ADDITION",
+      "uuid": "8bcfc667-7c3e-4aa9-85f1-d98e4f5bb237"
+    },
+    {
+      "type": "append",
+      "attribute": "attributeslib:mining_speed",
+      "value": 0.05,
+      "operation": "MULTIPLY_TOTAL",
+      "uuid": "9c110132-af55-4333-a63a-5c7d0e3c1b05"
+    }
+  ],
+  "equipment_slot": "HEAD"
+}

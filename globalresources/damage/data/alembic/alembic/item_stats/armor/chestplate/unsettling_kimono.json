@@ -1,0 +1,35 @@
+{
+  "id": "alexsmobs:unsettling_kimono",
+  "modifiers": [
+    {
+      "type": "append",
+      "attribute": "alembic:holy_damage.resistance",
+      "value": 4,
+      "operation": "ADDITION",
+      "uuid": "14924171-68f4-41ba-9bf6-33ccdf3d4f8c"
+    },
+    {
+      "type": "append",
+      "attribute": "alembic:true_damage.resistance",
+      "value": 4,
+      "operation": "ADDITION",
+      "uuid": "43b0f83d-3701-447d-98d6-8ac76debb655"
+    },
+    {
+      "type": "remove",
+      "target": "forge:entity_reach"
+    },
+    {
+      "type": "remove",
+      "target": "forge:block_reach"
+    },
+    {
+      "type": "append",
+      "attribute": "forge:block_reach",
+      "value": 1,
+      "operation": "ADDITION",
+      "uuid": "70b0f1aa-f0ac-4839-8ad6-88454d030d0a"
+    }
+  ],
+  "equipment_slot": "CHEST"
+}

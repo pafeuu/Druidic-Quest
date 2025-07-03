@@ -1,0 +1,20 @@
+{
+  "id": "kubejs:silver_helmet",
+  "modifiers": [
+    {
+      "type": "append",
+      "attribute": "alembic:true_damage.resistance",
+      "value": 1,
+      "operation": "ADDITION",
+      "uuid": "bda57329-f034-4134-9cf5-e976d30b9d25"
+    },
+    {
+      "type": "append",
+      "attribute": "minecraft:generic.movement_speed",
+      "value": 0.002,
+      "operation": "ADDITION",
+      "uuid": "24222011-db29-10b9-a4be-5551f83a3125"
+    }
+  ],
+  "equipment_slot": "HEAD"
+}

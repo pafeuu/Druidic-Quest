@@ -1,0 +1,13 @@
+{
+  "id": "thermal:diving_leggings",
+  "modifiers": [
+    {
+      "type": "append",
+      "attribute": "alembic:ice_damage.resistance",
+      "value": 5,
+      "operation": "ADDITION",
+      "uuid": "6fdf1d30-06d4-4169-aec9-5b8d12c2cc52"
+    }
+  ],
+  "equipment_slot": "LEGS"
+}

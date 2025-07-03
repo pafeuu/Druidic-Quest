@@ -1,0 +1,41 @@
+{
+  "id": "aether:phoenix_helmet",
+  "modifiers": [
+    {
+      "type": "append",
+      "attribute": "minecraft:generic.movement_speed",
+      "value": -0.001,
+      "operation": "ADDITION",
+      "uuid": "d41c1b68-8131-418c-abe8-b1897bd79770"
+    },
+    {
+      "type": "append",
+      "attribute": "alembic:fire_damage",
+      "value": 0.05,
+      "operation": "MULTIPLY_TOTAL",
+      "uuid": "a58316d9-654d-422f-9f9b-9f32001c4ed3"
+    },
+    {
+      "type": "append",
+      "attribute": "alembic:fire_damage.resistance",
+      "value": 3,
+      "operation": "ADDITION",
+      "uuid": "ef7f99e3-1841-4e86-af6e-80af9a80b223"
+    },
+    {
+      "type": "append",
+      "attribute": "alembic:arcane_damage.resistance",
+      "value": 2,
+      "operation": "ADDITION",
+      "uuid": "ed441c3f-0f86-46ff-80b6-c5b6cef0d3a6"
+    },
+    {
+      "type": "append",
+      "attribute": "alembic:holy_damage.resistance",
+      "value": 2,
+      "operation": "ADDITION",
+      "uuid": "9497ead9-879e-488d-908d-30434c43d37f"
+    }
+  ],
+  "equipment_slot": "HEAD"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "naturesaura:infused_iron_pants",
+  "modifiers": [
+    {
+      "type": "append",
+      "attribute": "alembic:alchemical_damage.resistance",
+      "value": 3,
+      "operation": "ADDITION",
+      "uuid": "6fdf1d30-06d4-4869-aec9-5b8d72c2cc52"
+    },
+    {
+      "type": "append",
+      "attribute": "alembic:alchemical_damage",
+      "value": 0.25,
+      "operation": "ADDITION",
+      "uuid": "2d96d6d9-97a0-41a5-ae15-e5809d0406f0"
+    }
+  ],
+  "equipment_slot": "LEGS"
+}

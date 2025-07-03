@@ -1,0 +1,13 @@
+{
+  "id": "minecraft:leather_leggings",
+  "modifiers": [
+    {
+      "type": "append",
+      "attribute": "alembic:ice_damage.resistance",
+      "value": 1,
+      "operation": "ADDITION",
+      "uuid": "736b1812-46d1-47d9-ae0e-e8743e858448"
+    }
+  ],
+  "equipment_slot": "LEGS"
+}

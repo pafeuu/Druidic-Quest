@@ -1,0 +1,20 @@
+{
+  "id": "kubejs:copper_leggings",
+  "modifiers": [
+    {
+      "type": "append",
+      "attribute": "alembic:arcane_damage.resistance",
+      "value": 2,
+      "operation": "ADDITION",
+      "uuid": "6a750611-8ba8-46d2-951b-0331bcfa438c"
+    },
+    {
+      "type": "append",
+      "attribute": "attributeslib:mining_speed",
+      "value": 0.1,
+      "operation": "MULTIPLY_TOTAL",
+      "uuid": "9c0a0110-af51-4733-a63a-527d0e3c1b05"
+    }
+  ],
+  "equipment_slot": "LEGS"
+}

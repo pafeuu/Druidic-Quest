@@ -1,0 +1,20 @@
+{
+  "id": "alexsmobs:centipede_leggings",
+  "modifiers": [
+    {
+      "type": "append",
+      "attribute": "alembic:true_damage.resistance",
+      "value": 3,
+      "operation": "ADDITION",
+      "uuid": "f4481f14-8556-4e06-a944-d51f6dead360"
+    },
+    {
+      "type": "append",
+      "attribute": "alembic:alchemical_damage.resistance",
+      "value": 4,
+      "operation": "ADDITION",
+      "uuid": "1368ecd1-3ffd-401e-9938-1cbb2171044b"
+    }
+  ],
+  "equipment_slot": "LEGS"
+}

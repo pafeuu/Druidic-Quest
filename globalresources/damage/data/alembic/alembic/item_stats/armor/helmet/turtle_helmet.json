@@ -1,0 +1,13 @@
+{
+  "id": "alexsmobs:spiked_turtle_shell",
+  "modifiers": [
+    {
+      "type": "append",
+      "attribute": "alembic:alchemical_damage.resistance",
+      "value": 6,
+      "operation": "ADDITION",
+      "uuid": "90a46fe7-cf57-4ba5-af3a-265670ba3910"
+    }
+  ],
+  "equipment_slot": "HEAD"
+}

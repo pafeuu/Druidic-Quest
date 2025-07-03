@@ -1,0 +1,20 @@
+{
+  "id": "deep_aether:skyjade_chestplate",
+  "modifiers": [
+    {
+      "type": "append",
+      "attribute": "alembic:arcane_damage.resistance",
+      "value": 3,
+      "operation": "ADDITION",
+      "uuid": "24328d1b-befd-48a1-8244-5dbf58ef4de2"
+    },
+    {
+      "type": "append",
+      "attribute": "alembic:true_damage.resistance",
+      "value": 1.5,
+      "operation": "ADDITION",
+      "uuid": "24328d1b-befd-48a1-8214-5dbf58ef4de2"
+    }
+  ],
+  "equipment_slot": "CHEST"
+}

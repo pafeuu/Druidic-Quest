@@ -1,0 +1,13 @@
+{
+  "id": "thermal:beekeeper_boots",
+  "modifiers": [
+    {
+      "type": "append",
+      "attribute": "alembic:alchemical_damage.resistance",
+      "value": 2,
+      "operation": "ADDITION",
+      "uuid": "60fe5fb3-2094-4e47-8b79-509b7ebd76b9"
+    }
+  ],
+  "equipment_slot": "FEET"
+}

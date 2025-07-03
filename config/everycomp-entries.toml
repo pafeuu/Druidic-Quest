@@ -301,29 +301,6 @@
 			hollow_log_horizontal = true
 			hollow_log_vertical = true
 
-		[entries.wood_type.mcwdoors]
-			nether_door = true
-			stable_head_door = true
-			japanese2_door = true
-			tropical_door = true
-			barn_glass_door = true
-			cottage_door = true
-			four_panel_door = true
-			western_door = true
-			paper_door = true
-			bamboo_door = true
-			swamp_door = true
-			glass_door = true
-			beach_door = true
-			barn_door = true
-			mystic_door = true
-			waffle_door = true
-			japanese_door = true
-			bark_glass_door = true
-			classic_door = true
-			stable_door = true
-			modern_door = true
-
 		[entries.wood_type.mcwtrpdoors]
 			ranch_trapdoor = true
 			classic_trapdoor = true

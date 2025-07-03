@@ -1,0 +1,20 @@
+{
+  "id": "minecraft:iron_chestplate",
+  "modifiers": [
+    {
+      "type": "append",
+      "attribute": "minecraft:generic.movement_speed",
+      "value": -0.002,
+      "operation": "ADDITION",
+      "uuid": "c19b4273-0016-415b-a05c-6be15e1f58e1"
+    },
+    {
+      "type": "append",
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 0.25,
+      "operation": "ADDITION",
+      "uuid": "9c0a0222-af55-4333-a63a-5c7d0e3c1b05"
+    }
+  ],
+  "equipment_slot": "CHEST"
+}
