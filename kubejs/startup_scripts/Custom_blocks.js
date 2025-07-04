@@ -307,6 +307,43 @@ StartupEvents.registry("block", (event) => {
     .box(14,3,0,16,6,16)
     .box(0,3,14,16,6,16)
 
+    event.create("arcanum_pylon")
+    .soundType("amethyst")
+    .hardness("2")
+    .resistance("4")
+    .tagBlock("mineable/pickaxe")
+    .tagBlock('minecraft:needs_stone_tool')
+    .textureAll("wizards_reborn:block/arcanum_block")
+    .renderType('cutout')
+    .box(4,3,4,12,14,12)
+    .box(1,0,1,15,3,15)
+
+    event.create("incomplete_blast_bricks")
+    .soundType("deepslate")
+    .hardness("3")
+    .resistance("4")
+    .tagBlock("mineable/pickaxe")
+    .tagBlock('minecraft:needs_stone_tool')
+    .textureAll("immersiveengineering:block/stone_decoration/blastbrick")
+    .renderType('cutout')
+    .box(0,0,0,16,8,16)
+    .box(3,8,0,16,12,16)
+    .box(9,12,0,16,16,16)
+    .tagItem("c:hidden_from_recipe_viewers")
+
+    event.create("incomplete_clibano_core")
+    .soundType("deepslate")
+    .hardness("3")
+    .resistance("4")
+    .tagBlock("mineable/pickaxe")
+    .tagBlock('minecraft:needs_stone_tool')
+    .textureAll("forbidden_arcanus:block/clibano_combustion/clibano_center_side")
+    .renderType('cutout')
+    .box(0,0,0,16,8,16)
+    .tagItem("c:hidden_from_recipe_viewers")
+
+
+
     
 
 	
