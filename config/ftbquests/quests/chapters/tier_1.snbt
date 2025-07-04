@@ -109,7 +109,7 @@
 				type: "item"
 			}]
 			title: "Basic automation material"
-			x: 6.0d
+			x: 7.0d
 			y: 0.0d
 		}
 		{
@@ -136,7 +136,7 @@
 					type: "item"
 				}
 			]
-			x: 12.0d
+			x: 19.0d
 			y: 0.0d
 		}
 		{
@@ -169,8 +169,8 @@
 				item: "ars_nouveau:imbuement_chamber"
 				type: "item"
 			}]
-			x: 14.0d
-			y: 0.0d
+			x: 21.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["118CF02B3B3C899C"]
@@ -213,7 +213,7 @@
 				}
 			]
 			title: "Plates"
-			x: 8.0d
+			x: 9.5d
 			y: 0.0d
 		}
 		{
@@ -236,7 +236,7 @@
 				type: "item"
 			}]
 			title: "First machine casing"
-			x: 10.0d
+			x: 14.0d
 			y: 0.0d
 		}
 		{
@@ -276,8 +276,8 @@
 				type: "item"
 			}]
 			title: "Lightning crafting"
-			x: 8.0d
-			y: 4.0d
+			x: 14.0d
+			y: 5.5d
 		}
 		{
 			dependencies: ["677C282E80275B53"]
@@ -297,8 +297,8 @@
 				item: "irons_spellbooks:lightning_bottle"
 				type: "item"
 			}]
-			x: 6.0d
-			y: 4.0d
+			x: 10.0d
+			y: 5.5d
 		}
 		{
 			dependencies: ["1767BADCC1133711"]
@@ -317,8 +317,8 @@
 				item: "quark:bottled_cloud"
 				type: "item"
 			}]
-			x: 5.0d
-			y: 3.0d
+			x: 6.0d
+			y: 5.5d
 		}
 		{
 			dependencies: ["00F6FC5B3A511000"]
@@ -339,8 +339,8 @@
 				item: "minecraft:glass"
 				type: "item"
 			}]
-			x: 4.0d
-			y: 2.0d
+			x: 2.0d
+			y: 5.5d
 		}
 		{
 			dependencies: ["118CF02B3B3C899C"]
@@ -358,8 +358,8 @@
 				type: "item"
 			}]
 			title: "Redstone Innovations!"
-			x: 4.0d
-			y: -2.0d
+			x: 5.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["5C199D8DE803D331"]
@@ -377,7 +377,7 @@
 				type: "item"
 			}]
 			title: "Easier block crafting"
-			x: 8.0d
+			x: 9.5d
 			y: -2.0d
 		}
 		{
@@ -456,7 +456,7 @@
 			]
 			title: "New tools"
 			x: 7.0d
-			y: -1.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["44B9FE4B80D14F6F"]
@@ -499,7 +499,7 @@
 				}
 			]
 			title: "Find an Amethyst Geode"
-			x: 12.0d
+			x: 19.0d
 			y: -2.0d
 		}
 		{
@@ -524,8 +524,8 @@
 				type: "item"
 			}]
 			title: "Basic entity transportation"
-			x: 10.0d
-			y: -2.0d
+			x: 12.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["0C52DC15B58FA6DF"]
@@ -553,8 +553,8 @@
 					type: "item"
 				}
 			]
-			x: 7.0d
-			y: -3.0d
+			x: 8.5d
+			y: -3.5d
 		}
 		{
 			dependencies: ["0C52DC15B58FA6DF"]
@@ -582,8 +582,8 @@
 					type: "item"
 				}
 			]
-			x: 9.0d
-			y: -3.0d
+			x: 10.5d
+			y: -3.5d
 		}
 		{
 			dependencies: ["2C7DD9A9CEA857D0"]
@@ -606,8 +606,8 @@
 				item: "minecraft:dispenser"
 				type: "item"
 			}]
-			x: 11.0d
-			y: -1.0d
+			x: 14.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["42453AA97CCD3970"]
@@ -624,7 +624,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: -4.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["42453AA97CCD3970"]
@@ -642,7 +642,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: -3.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["0F2FD265581372C2"]
@@ -659,8 +659,8 @@
 				item: "sophisticatedstorage:basic_to_copper_tier_upgrade"
 				type: "item"
 			}]
-			x: 3.0d
-			y: -5.0d
+			x: 2.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["62BB9932A2712DF2"]
@@ -677,7 +677,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: -6.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["118CF02B3B3C899C"]
@@ -695,8 +695,8 @@
 				title: "New functional furniture"
 				type: "item"
 			}]
-			x: 6.0d
-			y: -4.0d
+			x: 7.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["23FBA974E0F978E9"]
@@ -719,8 +719,8 @@
 				title: "Any #minecraft:beds"
 				type: "item"
 			}]
-			x: 6.0d
-			y: -6.0d
+			x: 8.5d
+			y: -6.5d
 		}
 		{
 			dependencies: ["23FBA974E0F978E9"]
@@ -766,7 +766,7 @@
 					type: "item"
 				}
 			]
-			x: 7.0d
+			x: 11.5d
 			y: -5.0d
 		}
 		{
@@ -784,7 +784,7 @@
 				item: "immersiveengineering:crate"
 				type: "item"
 			}]
-			x: 6.0d
+			x: 7.0d
 			y: -8.5d
 		}
 		{
@@ -821,7 +821,7 @@
 				item: "ars_nouveau:novice_spell_book"
 				type: "item"
 			}]
-			x: 14.0d
+			x: 23.0d
 			y: -5.0d
 		}
 		{
@@ -838,8 +838,8 @@
 				item: "vintagedelight:fermenting_jar"
 				type: "item"
 			}]
-			x: 15.5d
-			y: -2.0d
+			x: 17.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["2C7DD9A9CEA857D0"]
@@ -864,8 +864,8 @@
 				type: "item"
 			}]
 			title: "First autocrafter"
-			x: 11.0d
-			y: 1.0d
+			x: 15.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["37E717454A7E8792"]
@@ -890,8 +890,8 @@
 				item: "thermal:device_composter"
 				type: "item"
 			}]
-			x: 11.0d
-			y: -3.0d
+			x: 18.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["37E717454A7E8792"]
@@ -916,8 +916,8 @@
 				item: "thermal:device_fisher"
 				type: "item"
 			}]
-			x: 13.0d
-			y: -3.0d
+			x: 19.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["37E717454A7E8792"]
@@ -941,8 +941,8 @@
 				item: "irons_spellbooks:scroll_forge"
 				type: "item"
 			}]
-			x: 12.0d
-			y: -4.0d
+			x: 20.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["5C199D8DE803D331"]
@@ -964,7 +964,7 @@
 				}
 				type: "item"
 			}]
-			x: 9.0d
+			x: 10.5d
 			y: -1.0d
 		}
 		{
@@ -983,6 +983,7 @@
 				}
 				type: "item"
 			}]
+			size: 1.25d
 			tasks: [{
 				consume_items: true
 				count: 4L
@@ -991,8 +992,8 @@
 				type: "item"
 			}]
 			title: "Buy a location of the lush caves"
-			x: 15.5d
-			y: 0.0d
+			x: 23.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["42453AA97CCD3970"]
@@ -1009,8 +1010,8 @@
 				item: "supplementaries:cog_block"
 				type: "item"
 			}]
-			x: 5.0d
-			y: -3.0d
+			x: 6.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["769C5B75D85F81FC"]
@@ -1025,8 +1026,8 @@
 				item: "enigmaticlegacy:thicc_scroll"
 				type: "item"
 			}]
-			x: 14.0d
-			y: 1.5d
+			x: 22.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["5C199D8DE803D331"]
@@ -1061,8 +1062,8 @@
 				}
 			]
 			title: "Fluid transportation"
-			x: 9.0d
-			y: 1.0d
+			x: 10.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["19F860FA0B4324FB"]
@@ -1084,8 +1085,8 @@
 				item: "naturesaura:light_staff"
 				type: "item"
 			}]
-			x: 14.0d
-			y: 4.0d
+			x: 25.5d
+			y: 5.5d
 		}
 		{
 			dependencies: ["12A42D84CE4AB829"]
@@ -1105,7 +1106,7 @@
 				item: "ars_nouveau:scribes_table"
 				type: "item"
 			}]
-			x: 18.0d
+			x: 25.5d
 			y: -5.0d
 		}
 		{
@@ -1129,14 +1130,11 @@
 				item: "waystones:return_scroll"
 				type: "item"
 			}]
-			x: 14.0d
-			y: 3.0d
+			x: 23.5d
+			y: 4.5d
 		}
 		{
-			dependencies: [
-				"296B9FE094A5F55E"
-				"37E717454A7E8792"
-			]
+			dependencies: ["296B9FE094A5F55E"]
 			hide_until_deps_visible: true
 			id: "0E5FB7E6E204BD96"
 			tasks: [{
@@ -1144,8 +1142,8 @@
 				item: "torchmaster:feral_flare_lantern"
 				type: "item"
 			}]
-			x: 16.0d
-			y: 2.0d
+			x: 27.5d
+			y: 0.5d
 		}
 		{
 			dependencies: [
@@ -1159,8 +1157,8 @@
 				item: "ars_nouveau:glyph_light"
 				type: "item"
 			}]
-			x: 18.0d
-			y: 4.0d
+			x: 25.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["5C199D8DE803D331"]
@@ -1178,8 +1176,8 @@
 				type: "item"
 			}]
 			title: "Automation of plates!"
-			x: 7.0d
-			y: 1.0d
+			x: 8.5d
+			y: 1.5d
 		}
 		{
 			dependencies: [
@@ -1225,7 +1223,7 @@
 			]
 			title: "Visit the Twilight Forest!"
 			x: 6.0d
-			y: 2.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["30B689B22757873D"]
@@ -1249,7 +1247,7 @@
 				type: "item"
 			}]
 			title: "Slay the Naga "
-			x: 11.0d
+			x: 14.0d
 			y: 2.0d
 		}
 		{
@@ -1275,8 +1273,8 @@
 				item: "quark:diamond_heart"
 				type: "item"
 			}]
-			x: 5.0d
-			y: 1.0d
+			x: 4.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["41FA7D0AD437E6FB"]
@@ -1318,8 +1316,34 @@
 				}
 			]
 			title: "AoE tools"
-			x: 12.0d
-			y: 3.0d
+			x: 14.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["089147A7CE1A1DC6"]
+			id: "0616621E8A10711A"
+			tasks: [{
+				id: "62A690DAC9FADD8D"
+				item: {
+					Count: 1
+					id: "ars_nouveau:starbuncle_charm"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 12.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["55B81BBB0E85645E"]
+			id: "6EA8230FDC9F0A72"
+			tasks: [{
+				id: "2AE212EE7D48CA32"
+				item: "naturesaura:placer"
+				type: "item"
+			}]
+			x: 14.0d
+			y: -3.5d
 		}
 	]
 	title: "Tier 1 - Basic Magic"

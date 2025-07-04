@@ -875,7 +875,7 @@
 					type: "item"
 				}
 			]
-			x: 1.5d
+			x: 4.0d
 			y: 2.0d
 		}
 		{
@@ -1039,7 +1039,7 @@
 				type: "item"
 			}]
 			title: "Important part of the equipment"
-			x: 11.5d
+			x: 12.0d
 			y: 2.0d
 		}
 		{
@@ -1057,8 +1057,8 @@
 				item: "ars_nouveau:ritual_cloudshaping"
 				type: "item"
 			}]
-			x: 6.0d
-			y: 6.0d
+			x: 8.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["08BFA7B9435D7DCC"]
@@ -1315,7 +1315,8 @@
 		}
 		{
 			dependencies: ["3795DEE8A3FE6814"]
-			description: ["&bArcanum Ore&r spawns between y70 and y-40 in the overworld."]
+			description: ["&bArcanum Ore&r spawns between y90 and y-40 in the overworld."]
+			icon: "wizards_reborn:arcanum"
 			id: "3D782DAACBB5DE87"
 			rewards: [
 				{
@@ -1348,6 +1349,11 @@
 		}
 		{
 			dependencies: ["3D782DAACBB5DE87"]
+			description: [
+				"&b&lArcanum Pylon&r&r  takes exp from a player that right clicks it with a certain items in hand."
+				""
+				"It will take any log and approximetely 1lvl to obtain arcane wood log"
+			]
 			icon: "kubejs:arcanum_pylon"
 			id: "093161CA8E0381C0"
 			rewards: [{
