@@ -1894,6 +1894,7 @@ Patch 0.3.2.1
     -Added Elemental Evaporator
     -Added Elemental Extractor
     -Added Elemental Infuser
+    -Added Blast Brick
 
 ### Textures:
     -Changed for Flint Pickaxe
@@ -1912,9 +1913,16 @@ Patch 0.3.2.1
     -Nerfed sticks from twigs
     -Changed for Depot
     -Changed for Dormant Eye
+    -Changed for Fiery Clay Blend
 
 ### Loot:
     -Buffed chance of finding dimensional keys in lootchests
+    -Adjusted Golden Dungeon Loottables
+    -Fixed Lich Loottable
+    -Buffed Naga Loottable
+    -Fixed Abandoned Temple Loottables
+    -Fixed Mushroom Village Loottables
+
 
 ### Quests:
     -Mending Mixture quest in the market now only gives 2
@@ -1926,6 +1934,9 @@ Patch 0.3.2.1
     -Rebalanced the mending mixture trade
     -Added the Stable Warp Scroll trade to the librarian
 
+### Tooltips:
+    -Added tooltip to the Ice Pendant
+
 ### Item Balance:
     -Carved Pumpkin now gives armor and resistances when worn
     -Mob heads now give resistances when worn
@@ -1935,6 +1946,7 @@ Patch 0.3.2.1
     -Earmuffs now give cold resistance when worn
     -Fixed doubled nature resistance on turtle helmet
     -Buffed Spiked Turtle Shell and added it to the Hunter armor set
+    -The Magnetic Ring and The Dislocation Ring now decrease your mana regen when worn
 
 ### Other:
     -Fixed flint hoes not tilling ground in a 3x3

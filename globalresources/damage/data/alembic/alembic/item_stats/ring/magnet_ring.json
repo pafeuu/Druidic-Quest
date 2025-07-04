@@ -1,0 +1,13 @@
+{
+    "id": "enigmaticlegacy:magnet_ring",
+    "modifiers": [
+      {
+        "type": "append",
+        "attribute": "ars_nouveau:ars_nouveau.perk.mana_regen",
+        "value": -0.25,
+        "operation": "MULTIPLY_BASE",
+        "uuid": "04083330-d224-478c-9747-445120b932c3"
+      }
+    ],
+    "equipment_slot": "ring"
+  }
