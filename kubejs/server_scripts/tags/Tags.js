@@ -333,6 +333,7 @@ ServerEvents.tags('item', event => {
 
   event.add("immersiveengineering:toolbox/tools","#forge:tools")
   event.add("forge:storage_blocks/potato","farmersdelight:potato_crate")
+  event.add("forge:gems",["forbidden_arcanus:rune","forbidden_arcanus:dark_rune"])
   event.add("forge:gems/zanite","#aether:gems/zanite")
   event.add("forge:gems/skyjade","deep_aether:skyjade")
 
@@ -450,6 +451,20 @@ ServerEvents.tags('item', event => {
 
 ServerEvents.tags('block', event => {
 
+  event.add("minecraft:mineable/pickaxe",[
+    "mbd2:elemental_binder",
+    "mbd2:elemental_evaporator",
+    "mbd2:elemental_infuser",
+    "mbd2:elemental_extractor"
+  ])
+
+  event.add("minecraft:needs_iron_tool",[
+    "mbd2:elemental_binder",
+    "mbd2:elemental_evaporator",
+    "mbd2:elemental_infuser",
+    "mbd2:elemental_extractor"
+  ])
+  
   event.add("druidic_quest:terraformer","#forge:stone")
   event.add("druidic_quest:terraformer","#minecraft:dirt")
   event.add("druidic_quest:terraformer","#minecraft:sand")
@@ -502,7 +517,11 @@ ServerEvents.tags('block', event => {
     "regions_unexplored:bladed_tall_grass",
     "regions_unexplored:sandy_tall_grass",
     "regions_unexplored:steppe_tall_grass",
-    "regions_unexplored:windswept_grass",*/"immersive_weathering:frosty_grass","immersive_weathering:dune_grass"]
+    "regions_unexplored:windswept_grass",*/
+    "immersive_weathering:frosty_grass",
+    "immersive_weathering:dune_grass",
+    "biomeswevegone:prairie_grass",
+    "biomeswevegone:tall_prairie_grass"]
   
 
   let pickaxeable = ["#forge:glass","#forge:glass_panes","#chipped:glass","beacon","skeleton_skull","wither_skeleton_skull","player_head"/*,"elementalcraft:burnt_glass"*/]
