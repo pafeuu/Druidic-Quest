@@ -5,7 +5,7 @@ ServerEvents.loaded(event => {
 
 PlayerEvents.respawned(event =>{
 
-    event.player.runCommandSilent("/xp set @p 0 levels")
-    event.player.runCommandSilent("/xp set @p 0 points")
+    event.server.runCommandSilent("/xp set @p 0 levels")
+    event.server.runCommandSilent("/xp set @p 0 points")
     
 })

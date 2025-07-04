@@ -112,6 +112,9 @@ ServerEvents.recipes(event => {
     AoeHoe("regions_unexplored:silt_coarse_dirt","regions_unexplored:silt_dirt")*/
 
     AoeHoe("mynethersdelight:resurgent_soil","mynethersdelight:resurgent_soil_farmland")
+    AoeHoe("biomeswevegone:sandy_dirt","biomeswevegone:sandy_farmland")
+    AoeHoe("biomeswevegone:lush_dirt","biomeswevegone:lush_farmland")
+    AoeHoe("biomeswevegone:lush_grass_block","biomeswevegone:lush_farmland")
     
     //AoeHoe("minecraft:podzol", "minecraft:dirt")
     
