@@ -139,7 +139,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "create_sa:brass_sword"
+          "name": "kubejs:lead_sword"
         },
         {
           "type": "minecraft:tag",
@@ -199,7 +199,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "archers_paradox:explosice_arrow",
+          "name": "archers_paradox:explosive_arrow",
           "functions": [
             {
               "function": "minecraft:set_count",

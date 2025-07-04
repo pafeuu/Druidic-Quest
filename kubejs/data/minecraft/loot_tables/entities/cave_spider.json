@@ -11,8 +11,8 @@
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 11.0,
-                "min": 6.0
+                "max": 2.0,
+                "min": 0.0
               },
               "function": "minecraft:set_count"
             },
@@ -25,13 +25,18 @@
               "function": "minecraft:looting_enchant"
             }
           ],
-          "name": "twilightforest:naga_scale"
+          "name": "minecraft:string"
         }
       ],
       "rolls": 1.0
     },
     {
       "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:killed_by_player"
+        }
+      ],
       "entries": [
         {
           "type": "minecraft:item",
@@ -40,65 +45,45 @@
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 9.0,
-                "min": 3.0
+                "max": 1.0,
+                "min": -1.0
               },
               "function": "minecraft:set_count"
             },
             {
               "count": {
                 "type": "minecraft:uniform",
-                "max": 3.0,
+                "max": 1.0,
                 "min": 0.0
               },
               "function": "minecraft:looting_enchant"
             }
           ],
-          "name": "kubejs:infused_iron_nugget"
+          "name": "minecraft:spider_eye"
         }
       ],
       "rolls": 1.0
     },
-    {
-      "bonus_rolls": 0.0,
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "name": "twilightforest:naga_trophy"
-        }
-      ],
-      "rolls": 1.0
-    },
-    {
-      "bonus_rolls": 0.0,
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "name": "kubejs:botanist_upgrade_smithing_template"
-        }
-      ],
-      "rolls": 1.0
-    },
-    {
-      "bonus_rolls": 0.0,
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "name": "kubejs:twilight_key"
-        }
-      ],
-      "rolls": 1.0
-    },
-    {
-      "bonus_rolls": 0.0,
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "name": "endrem:rogue_eye"
-        }
-      ],
-      "rolls": 1.0
-    }
+      {
+        "bonus_rolls": 0,
+        "conditions": [
+          {
+            "condition": "minecraft:killed_by_player"
+          },
+          {
+            "chance": 0.01,
+            "condition": "minecraft:random_chance_with_looting",
+            "looting_multiplier": 0.02
+          }
+        ],
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "irons_spellbooks:poisonward_ring"
+          }
+        ],
+        "rolls": 1
+      }
   ],
-  "random_sequence": "twilightforest:entities/naga"
+  "random_sequence": "minecraft:entities/cave_spider"
 }

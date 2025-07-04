@@ -6,34 +6,48 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "aether:phoenix_helmet",
-          "weight": 2
+          "name": "kubejs:phoenix_ingot",
+          "weight": 20
         },
         {
           "type": "minecraft:item",
-          "name": "aether:phoenix_chestplate",
-          "weight": 2
+          "name": "ars_nouveau:fire_essence",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 32,
+                "max": 64
+              }
+            }
+          ],
+          "weight": 10
+          
         },
         {
           "type": "minecraft:item",
-          "name": "aether:phoenix_leggings",
-          "weight": 2
+          "name": "kubejs:phoenix_upgrade_smithing_template",
+          "weight": 4
         },
         {
           "type": "minecraft:item",
-          "name": "aether:phoenix_boots",
-          "weight": 2
-        },
-        {
-          "type": "minecraft:item",
-          "name": "aether:phoenix_gloves",
+          "name": "kubejs:death_essence",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 2,
+                "max": 4
+              }
+            }
+          ],
           "weight": 2
         }
       ],
       "rolls": {
         "type": "minecraft:uniform",
-        "max": 5.0,
-        "min": 2.0
+        "max": 10.0,
+        "min": 5.0
       }
     }
   ],

@@ -4,7 +4,7 @@
     {
       "rolls": {
         "min": 6,
-        "max": 8
+        "max": 10
       },
       "entries": [
         {
@@ -82,20 +82,8 @@
         },
         {
           "type": "minecraft:item",
-          "name": "elementalcraft:watercrystal",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 4,
-                "max": 8
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:sponge"
+          "name": "minecraft:sponge",
+          "weight": 10
         },
         {
           "type": "minecraft:item",
@@ -107,7 +95,8 @@
         },
         {
           "type": "minecraft:item",
-          "name": "elementalcraft:watercrystal",
+          "name": "ars_nouveau:water_essence",
+          "weight": 3,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -188,7 +177,7 @@
         {
           "type": "minecraft:item",
           "weight": 20,
-          "name": "elementalcraft:water_shard",
+          "name": "kubejs:water_infused_arcanum",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -219,7 +208,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "kubejs:stone_gear"
+          "name": "kubejs:overworld_key"
         }
       ]
     }
