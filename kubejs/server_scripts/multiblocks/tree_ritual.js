@@ -16,5 +16,16 @@ ServerEvents.recipes(event=>{
         "wizards_reborn:arcane_wood_planks",
         "red_wool",
         "wizards_reborn:arcane_wood_planks"],
-        "wizards_reborn:arcane_wood_sapling").id("wizards_reborn:shaped/arcane_workbench")
+        "birch_sapling").id("wizards_reborn:shaped/arcane_workbench")
+   
+   event.recipes.naturesaura.tree_ritual("ars_nouveau:starbuncle_charm",
+        ["ars_nouveau:starbuncle_shards",
+        "woodenhopper:wooden_hopper",
+        "immersiveengineering:conveyor_basic",
+        "immersiveengineering:conveyor_basic",
+        "#forge:ingots/gold",
+        "#forge:ingots/gold",
+        "#forge:ingots/gold",
+        "#forge:ingots/gold"],
+        "ars_nouveau:green_archwood_sapling").id("ars_nouveau:starbuncle_charm")
 })

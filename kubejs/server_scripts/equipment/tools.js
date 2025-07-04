@@ -1092,44 +1092,6 @@ ServerEvents.recipes(event => {
 	)
 	
 	
-	event.custom({
-		"type": "naturesaura:tree_ritual",
-		"ingredients": [
-			{
-				"tag": "forge:gems/lapis"
-			},
-			{
-				"tag": "forge:gems/lapis"
-			},
-			{
-				"item": "irons_spellbooks:arcane_essence"
-			},
-			{
-				"item": "irons_spellbooks:arcane_essence"
-			},
-			{
-				"tag": "forge:gems/emerald"
-			},
-			{
-				"tag": "forge:gems/emerald"
-			},
-			{
-				"tag": "forge:gems/emerald"
-			},
-			{
-				"tag": "forge:gems/emerald"
-			}
-		],
-		"sapling": {
-			"item": "ars_nouveau:blue_archwood_sapling"
-		},
-		"output": {
-			"item": "thermal:xp_crystal",
-			"count": 1
-		},
-		"time": 200
-	}).id("thermal:tools/xp_crystal")
-	
 	/// ======================================================================= Tier 1 Tools ============================================================================
 	
 	event.shaped("thermal:detonator",

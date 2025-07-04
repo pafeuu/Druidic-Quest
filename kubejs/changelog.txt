@@ -1914,6 +1914,13 @@ Patch 0.3.2.1
     -Changed for Depot
     -Changed for Dormant Eye
     -Changed for Fiery Clay Blend
+    -Changed for Clibano Core
+    -Changed for Blast Bricks
+    -Changed for Insightful Crystal
+    -Changed for Iron Ring
+    -Changed for Exquisite Ring
+    -Changed for Magnetic Ring
+    -Changed for Starbuncle Charm
 
 ### Loot:
     -Buffed chance of finding dimensional keys in lootchests

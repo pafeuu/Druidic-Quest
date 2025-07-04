@@ -122,4 +122,33 @@ ServerEvents.recipes(event=>{
     },
     "wissen": 500
     }).id("enigmaticlegacy:iron_ring")
+
+    event.custom({
+    "type": "wizards_reborn:arcane_workbench",
+    "pattern": [
+        "LEL",
+        "ECE",
+        "LEL",
+        "AAAA"
+    ],
+    "key": {
+        "E": {
+        "tag": "forge:gems/emerald"
+        },
+        "L": {
+        "tag": "forge:gems/lapis"
+        },
+        "A": {
+        "item": "forbidden_arcanus:xpetrified_orb"
+        },
+        "C":{
+        "item": "minecraft:amethyst_cluster"    
+        }
+    },
+    "output": {
+        "item": "thermal:xp_crystal",
+    },
+    "wissen": 500
+    }).id("thermal:tools/xp_crystal")
+    
 })
