@@ -35,4 +35,10 @@ MilshSchnitte,
 Jikushirin,
 Deepa,
 Uni,
-LaloSalamanca
+LaloSalamanca,
+Ascens,
+Chakyl,
+JohnGuffe,
+MrThomas,
+Excelsus,
+SeñorRandom

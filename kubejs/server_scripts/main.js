@@ -72,6 +72,7 @@ ServerEvents.recipes(event => {
 	 
 
 	/// ======================================================================= Tier 0 Machines ========================================================================
+	
 	event.shaped("kubejs:arcanum_pylon",
 		[
 			"GAG",
@@ -79,11 +80,12 @@ ServerEvents.recipes(event => {
 			"ATA"
 		],
 		{
-			G:"naturesaura:golden_leaves",
+			G:"naturesaura:golden_leaf",
 			A:"wizards_reborn:arcanum",
 			T:"naturesaura:wood_stand"
 		}
 	)
+
 	event.shaped("wizards_reborn:arcane_pedestal",
 		[
 			"SPS",

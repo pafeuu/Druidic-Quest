@@ -28,4 +28,27 @@ ServerEvents.recipes(event=>{
         "#forge:ingots/gold",
         "#forge:ingots/gold"],
         "ars_nouveau:green_archwood_sapling").id("ars_nouveau:starbuncle_charm")
+
+   event.recipes.naturesaura.tree_ritual("ars_nouveau:whirlisprig_charm",
+        ["ars_nouveau:whirlisprig_shards",
+        "enigmaticlegacy:infinimeal",
+        "kubejs:life_essence",
+        "kubejs:life_essence",
+        "kubejs:nature_essence",
+        "kubejs:nature_essence",
+        "kubejs:nature_essence",
+        "kubejs:nature_essence"],
+        "ars_nouveau:green_archwood_sapling").id("ars_nouveau:whirlisprig_charm")
+
+   
+   event.recipes.naturesaura.tree_ritual("ars_nouveau:drygmy_charm",
+        ["ars_nouveau:drygmy_shard",
+        "golden_sword",
+        "golden_sword",
+        "golden_sword",
+        "kubejs:death_essence",
+        "kubejs:death_essence",
+        "kubejs:death_essence",
+        "kubejs:death_essence"],
+        "ars_nouveau:green_archwood_sapling").id("ars_nouveau:drygmy_charm")
 })

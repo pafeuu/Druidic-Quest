@@ -1921,6 +1921,8 @@ Patch 0.3.2.1
     -Changed for Exquisite Ring
     -Changed for Magnetic Ring
     -Changed for Starbuncle Charm
+    -Changed for Drygmy Charm
+    -Changed for Whirlisprig Charm
 
 ### Loot:
     -Buffed chance of finding dimensional keys in lootchests
