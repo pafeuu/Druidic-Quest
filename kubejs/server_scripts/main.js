@@ -72,6 +72,57 @@ ServerEvents.recipes(event => {
 	 
 
 	/// ======================================================================= Tier 0 Machines ========================================================================
+	event.shaped("kubejs:arcanum_pylon",
+		[
+			"GAG",
+			"GAG",
+			"ATA"
+		],
+		{
+			G:"naturesaura:golden_leaves",
+			A:"wizards_reborn:arcanum",
+			T:"naturesaura:wood_stand"
+		}
+	)
+	event.shaped("wizards_reborn:arcane_pedestal",
+		[
+			"SPS",
+			" T ",
+			"SPS"
+		],
+		{
+			S:"wizards_reborn:arcane_wood_slab",
+			P:"wizards_reborn:arcane_wood_planks",
+			T:"naturesaura:wood_stand"
+		}
+	).id("wizards_reborn:shaped/arcane_pedestal")
+
+	event.shaped("wizards_reborn:innocent_pedestal",
+		[
+			"SPS",
+			" T ",
+			"SPS"
+		],
+		{
+			S:"wizards_reborn:innocent_wood_slab",
+			P:"wizards_reborn:innocent_wood_planks",
+			T:"naturesaura:wood_stand"
+		}
+	).id("wizards_reborn:shaped/innocent_pedestal")
+
+	event.shaped("wizards_reborn:cork_bamboo_pedestal",
+		[
+			"SPS",
+			" T ",
+			"SPS"
+		],
+		{
+			S:"wizards_reborn:cork_bamboo_slab",
+			P:"wizards_reborn:cork_bamboo_planks",
+			T:"naturesaura:wood_stand"
+		}
+	).id("wizards_reborn:shaped/cork_bamboo_pedestal")
+	
 	event.shaped("wizards_reborn:wissen_altar",
 		[
 			"GAG",
@@ -416,8 +467,9 @@ ServerEvents.recipes(event => {
 	  }
 	)
 	event.shapeless('twigs:twig', ['#minecraft:saplings'])
+	event.shapeless('stick',"twigs:twig").id("twigs:stick_from_twig")
 	event.shapeless('4x twigs:pebble', ['minecraft:cobblestone'])
-	event.remove({output:'dungeonnowloading:cobblestone_pebble'})
+	
 	
 	event.remove({output:'immersive_weathering:mulch_block'})
 	event.shapeless('2x immersive_weathering:mulch_block', ['minecraft:dirt','#immersive_weathering:bark','immersive_weathering:moss_clump','minecraft:bone_meal'])
@@ -1430,11 +1482,12 @@ ServerEvents.recipes(event => {
 	  Item.of('create:depot'), 
 	  [
 		'III', 
-		'PPP'
+		'PSP'
 	  ],
 	  {
 		I: '#forge:ingots/iron',
-		P: "#minecraft:planks"
+		P: "#minecraft:planks",
+		S: "naturesaura:wood_stand"
 	  }
 	)
 	event.remove({output:'create:fluid_tank'})
@@ -3581,9 +3634,7 @@ ServerEvents.recipes(event => {
 
 	event.recipes.create.compacting("prettypipes:low_filter_module",["prettypipes:blank_module","sophisticatedstorage:filter_upgrade","3x prettypipes:pipe"]).id("prettypipes:low_filter_module")
 	
-	event.recipes.create.mixing("kubejs:fiery_clay_blend",["#forge:dusts/coal_coke","ars_nouveau:fire_essence","twigs:silt_ball","clay_ball","ars_nouveau:bombegranate_pod"]).heated()
-
-	event.recipes.create.compacting("immersiveengineering:blastbrick","12x kubejs:fiery_clay_blend").id("immersiveengineering:crafting/blastbrick").heated()
+	event.recipes.create.mixing("2x kubejs:fiery_clay_blend",["8x #forge:dusts/coal_coke","4x ars_nouveau:fire_essence","4x ars_nouveau:earth_essence","2x clay_ball","8x wizards_reborn:nether_salt"]).heated()
 
 	
 	event.shaped(
