@@ -241,6 +241,7 @@ ItemEvents.tooltip( tooltip => {
   tooltip.add("aether:zanite_pendant",[Text.gold("When worn as ring:"),Text.blue("Allows you to mine faster"),Text.red("Does not last long!")])
   tooltip.add("deep_aether:skyjade_ring",[Text.gold("When worn as ring:"),Text.blue("Allows you to mine faster"),Text.red("Does not last long!")])
   tooltip.add("aether:ice_ring",[Text.gold("When worn as ring:"),Text.blue("Freezes water and lava beneath you")])
+  tooltip.add("aether:ice_ring",[Text.gold("When around neck:"),Text.blue("Freezes water and lava beneath you")])
 
   tooltip.add("aether:sentry_boots",Text.blue("Grants immunity to fall damage"))
   tooltip.add(["deep_aether:skyjade_boots",
