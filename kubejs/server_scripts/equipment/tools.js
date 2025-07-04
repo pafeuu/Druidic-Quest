@@ -747,48 +747,8 @@ ServerEvents.recipes(event => {
 		  X: 'thermal:lightning_charge'
 		}
 	  )
-	
-	event.custom({
-		"type": "naturesaura:tree_ritual",
-		"ingredients": [
-			{
-				"item": "ars_nouveau:ring_of_potential"
-			},
-			{
-				"tag": "forge:plates/iron"
-			},
-			
-			{
-				"tag": "immersive_weathering:bark"
-			},
-			{
-				"tag": "immersive_weathering:bark"
-			},
-			{
-				"tag": "immersive_weathering:bark"
-			},
-			{
-				"tag": "immersive_weathering:bark"
-			},
-			{
-				"tag": "immersive_weathering:bark"
-			},
-			{
-				"tag": "immersive_weathering:bark"
-			}
-			
-		],
-		"sapling": {
-			"item": "minecraft:cherry_sapling"
-		},
-		"output": {
-			"item": "enigmaticlegacy:iron_ring",
-			"count": 1
-		},
-		"time": 200
-	})
 
-	event.remove({id:"enigmaticlegacy:iron_ring"})
+	
 	event.custom({
 		"type": "naturesaura:tree_ritual",
 		"ingredients": [
@@ -824,45 +784,6 @@ ServerEvents.recipes(event => {
 		},
 		"output": {
 			"item": "enigmaticlegacy:magnet_ring",
-			"count": 1
-		},
-		"time": 200
-	})
-
-	event.custom({
-		"type": "naturesaura:tree_ritual",
-		"ingredients": [
-			{
-				"item": "spider_eye"
-			},
-			{
-				"tag": "forge:gems/diamond"
-			},
-			{
-				"tag": "forge:storage_blocks/coal"
-			},
-			{
-				"tag": "forge:storage_blocks/coal"
-			},
-			{
-				"tag": "forge:storage_blocks/coal"
-			},
-			{
-				"tag": "forge:storage_blocks/coal"
-			},
-			{
-				"tag": "forge:storage_blocks/coal"
-			},
-			{
-				"tag": "forge:storage_blocks/coal"
-			}
-			
-		],
-		"sapling": {
-			"item": "minecraft:oak_sapling"
-		},
-		"output": {
-			"item": "enigmaticlegacy:enigmatic_eye",
 			"count": 1
 		},
 		"time": 200
