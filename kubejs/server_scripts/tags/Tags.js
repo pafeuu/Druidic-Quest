@@ -20,7 +20,7 @@ ServerEvents.tags('item', event => {
                  'create:piston_extension_pole', 'create:gantry_shaft', 'create:analog_lever', 'create:pulse_repeater', 'create:pulse_extender', 'create:powered_latch', 'create:powered_toggle_latch', 'create:track','supplementaries:hourglass', 'supplementaries:crank', 
                  'supplementaries:wind_vane', 'supplementaries:cog_block', 'supplementaries:turn_table', 'supplementaries:spring_launcher', 'supplementaries:faucet']*/
   
-  let froglights = ["#chipped:ochre_froglight","#chipped:verdant_froglight","#chipped:pearlescent_froglight",
+  let froglights = ["minecraft:ochre_froglight","minecraft:verdant_froglight","minecraft:pearlescent_froglight",
                     "swampier_swamps:white_froglight","swampier_swamps:orange_froglight","swampier_swamps:magenta_froglight",
                     "swampier_swamps:light_blue_froglight","swampier_swamps:lime_froglight","swampier_swamps:pink_froglight",
                     "swampier_swamps:gray_froglight","swampier_swamps:light_gray_froglight","swampier_swamps:cyan_froglight",
