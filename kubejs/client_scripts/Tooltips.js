@@ -265,7 +265,6 @@ ItemEvents.tooltip( tooltip => {
   tooltip.add("deep_aether:afterburner",Text.blue("Hold right click to shoot a barrage of fireballs!"))
 
   tooltip.add("#druidic_quest:dimensional_tools",[Text.darkPurple("Tool made from materials outside of the main realm!"),Text.blue("Combine it with extradimensional eye"),Text.blue("in the crafting grid to apply telekinesis enchant!")])
-  tooltip.add("enigmaticlegacy:extradimensional_eye",Text.blue("Combine it with dimensional tools in the crafting grid to apply telekinesis enchant!"))
 
   //=======================Arrows=======================
 
