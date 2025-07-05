@@ -18,6 +18,9 @@ ServerEvents.recipes(event=>{
         "wizards_reborn:arcane_wood_planks"],
         "birch_sapling").id("wizards_reborn:shaped/arcane_workbench")
    
+   
+   //event.recipes.ars_nouveau.enchanting_apparatus(['kubejs:recipe_changed'],'kubejs:recipe_changed',"ars_nouveau:starbuncle_charm").id("ars_nouveau:starbuncle_charm")
+
    event.recipes.naturesaura.tree_ritual("ars_nouveau:starbuncle_charm",
         ["ars_nouveau:starbuncle_shards",
         "woodenhopper:wooden_hopper",
@@ -27,8 +30,11 @@ ServerEvents.recipes(event=>{
         "#forge:ingots/gold",
         "#forge:ingots/gold",
         "#forge:ingots/gold"],
-        "ars_nouveau:green_archwood_sapling").id("ars_nouveau:starbuncle_charm")
-
+        "ars_nouveau:green_archwood_sapling")
+   
+   
+   //event.recipes.ars_nouveau.enchanting_apparatus(['kubejs:recipe_changed'],'kubejs:recipe_changed',"ars_nouveau:whirlisprig_charm").id("ars_nouveau:whirlisprig_charm")
+   
    event.recipes.naturesaura.tree_ritual("ars_nouveau:whirlisprig_charm",
         ["ars_nouveau:whirlisprig_shards",
         "enigmaticlegacy:infinimeal",
@@ -38,9 +44,10 @@ ServerEvents.recipes(event=>{
         "kubejs:nature_essence",
         "kubejs:nature_essence",
         "kubejs:nature_essence"],
-        "ars_nouveau:green_archwood_sapling").id("ars_nouveau:whirlisprig_charm")
+        "ars_nouveau:green_archwood_sapling")
 
-   
+   //event.recipes.ars_nouveau.enchanting_apparatus(['kubejs:recipe_changed'],'kubejs:recipe_changed',"ars_nouveau:drygmy_charm").id("ars_nouveau:drygmy_charm")
+
    event.recipes.naturesaura.tree_ritual("ars_nouveau:drygmy_charm",
         ["ars_nouveau:drygmy_shard",
         "golden_sword",
@@ -50,5 +57,5 @@ ServerEvents.recipes(event=>{
         "kubejs:death_essence",
         "kubejs:death_essence",
         "kubejs:death_essence"],
-        "ars_nouveau:green_archwood_sapling").id("ars_nouveau:drygmy_charm")
+        "ars_nouveau:green_archwood_sapling")
 })

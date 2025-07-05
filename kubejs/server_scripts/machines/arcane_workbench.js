@@ -150,5 +150,67 @@ ServerEvents.recipes(event=>{
     },
     "wissen": 500
     }).id("thermal:tools/xp_crystal")
-    
+
+    event.custom({
+    "type": "wizards_reborn:arcane_workbench",
+    "pattern": [
+        "NEN",
+        "NCN",
+        "NNN",
+        "AAAA"
+    ],
+    "key": {
+        "E": {
+        "item": "kubejs:infused_emerald"
+        },
+        "C": {
+        "item": "aether:golden_ring"
+        },
+        "A": {
+        "item": "forbidden_arcanus:xpetrified_orb"
+        },
+        "N":{
+        "tag": "forge:nuggets/gold"    
+        }
+    },
+    "output": {
+        "item": "irons_spellbooks:emerald_stoneplate_ring",
+    },
+    "wissen": 500
+    }).id("irons_spellbooks:curios/emerald_stoneplate_ring")
+
+    event.custom({
+    "type": "wizards_reborn:arcane_workbench",
+    "pattern": [
+        " Z ",
+        "NCN",
+        " X ",
+        "BBAA"
+    ],
+    "key": {
+        "Z": {
+        "item": "lodestone"
+        },
+        "X": {
+        "tag": "forge:gems/diamond"
+        },
+        "C": {
+        "item": "ars_nouveau:ring_of_potential"
+        },
+        "A": {
+        "tag": "forge:storage_blocks/lapis"
+        },
+        "B": {
+        "tag": "forge:storage_blocks/redstone"
+        },
+        "N":{
+        "tag": "forge:ingots/iron"    
+        }
+    },
+    "output": {
+        "item": 'enigmaticlegacy:magnet_ring',
+    },
+    "wissen": 500
+    }).id("enigmaticlegacy:magnet_ring")
+
 })
