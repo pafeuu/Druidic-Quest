@@ -1,5 +1,16 @@
 ServerEvents.recipes(event => {
 
+    event.shaped("immersiveengineering:earmuffs",[
+        " S ",
+        "S S",
+        "W W"
+    ],
+    {
+        S: "#forge:string",
+        W: "#minecraft:wool"
+    }
+    ).id("immersiveengineering:crafting/earmuffs")
+
     event.shaped("kubejs:sturdy_boots_cover",[
         "S S",
         "P P",
