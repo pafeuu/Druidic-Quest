@@ -1,7 +1,8 @@
 ServerEvents.recipes(event=>{
-    function pylonTag(output,input){
+    function pylonTag(output,input,exp){
         event.custom({  
         "type": "lychee:block_interacting",
+        "hide_in_viewer": true,
         "contextual": [
             {
                 "type": "execute",
@@ -17,7 +18,7 @@ ServerEvents.recipes(event=>{
             },
             {
                 "type": "execute",
-                "command": "experience add @p -10 points",
+                "command": "experience add @p -"+exp+" points",
                 "hide": true
             },
             {
@@ -36,8 +37,34 @@ ServerEvents.recipes(event=>{
         },
         "block_in": "kubejs:arcanum_pylon"
         })
+
+        // Second Recipe for better display in EMI
+        event.custom({  
+        "type": "lychee:block_interacting",
+        "ghost": true,
+        "post": [
+            {
+                "type": "drop_item",
+                "item": output,
+                "count": 1
+            },
+            {
+                "type": "drop_item",
+                "item": "experience_bottle",
+                "nbt": {
+                    "display":
+                        {"Name":"\"-10 experience points from the player\""}
+                },
+                "count": 1
+            }
+        ],
+        "item_in": {
+            tag: input
+        },
+        "block_in": "kubejs:arcanum_pylon"
+        })
     }
 
-    pylonTag("wizards_reborn:arcane_wood_log","minecraft:logs")
+    pylonTag("wizards_reborn:arcane_wood_log","minecraft:logs",10)
     
 })
