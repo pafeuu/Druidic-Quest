@@ -38,5 +38,11 @@ JEIEvents.information(event => {
     event.addItem("naturesaura:birth_spirit",["Obtained by breeding animals in an area with high aura"])
     event.addItem("immersive_weathering:ivy",["Found in forest biomes hanging from some trees"])
     event.addItem("enigmaticlegacy:extradimensional_eye",["Combine it with dimensional tool in the crafting grid to apply telekinesis enchant!"])
+    event.addItem("kubejs:wooden_crucifix",["Rare drop from undead creatures"])
+    event.addItem([
+        "kubejs:ring_travel",
+        "kubejs:travelers_belt"],["One of the drops from Overworld Key usage"])
+    event.addItem("kubejs:mittens",["Common loot in chests in snowy biomes"])
+    event.addItem("supplementaries:ash",["Created in world after blocks burn"])
     
   })
