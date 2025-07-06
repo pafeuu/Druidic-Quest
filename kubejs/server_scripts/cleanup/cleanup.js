@@ -217,8 +217,7 @@ global.nukelist = ["twigs:calcite_wall",
 	'create:cart_assembler', 
 	'create:mechanical_bearing',
 	'create:clockwork_bearing', 
-	'create:windmill_bearing', 
-	'create:large_water_wheel',
+	'create:windmill_bearing',
 	'immersiveengineering:dust_wood', 
 	'immersiveengineering:dust_sulfur', 
 	'vintageimprovements:sulfur', 
@@ -658,7 +657,7 @@ ServerEvents.recipes(event => {
 
 	rods("infused_iron","kubejs:infused_iron_rod")
 	rods("source_alloy","kubejs:source_alloy_rod")
-	//rods("arcanum_alloy","kubejs:arcanum_alloy_rod")
+	rods("arcanum_alloy","kubejs:arcanum_alloy_rod")
 	rods("copper","kubejs:copper_rod")
 	rods("electrum","kubejs:electrum_rod")
 	rods("diamond","kubejs:diamond_rod")
@@ -874,7 +873,7 @@ ServerEvents.recipes(event => {
 
 	plates("forge:ingots/source_alloy","kubejs:source_alloy_plate","kubejs:source_alloy_block")
 	plates("forge:ingots/infused_iron","kubejs:infused_iron_plate","naturesaura:infused_iron_block")
-	//plates("forge:ingots/arcanum_alloy","kubejs:arcanum_alloy_plate","kubejs:arcanum_alloy_block")
+	plates("forge:ingots/arcanum_alloy","kubejs:arcanum_alloy_plate","kubejs:arcanum_alloy_block")
 	plates("forge:gems/diamond","kubejs:diamond_plate","minecraft:diamond_block")
 	
 	plates("forge:ingots/ironwood","vintageimprovements:ironwood_sheet","twilightforest:ironwood_block")
@@ -1227,6 +1226,17 @@ ServerEvents.recipes(event => {
 			Z: "glow_berries",
 			R: "kubejs:shapeshifting_root"
 	})
+
+	event.shaped("lodestone",
+		[
+			"ZZZ",
+			"ZRZ",
+			"ZZZ"
+		],
+		{
+			Z: "chiseled_stone_bricks",
+			R: "#forge:ingots/iron"
+	}).id("minecraft:lodestone")
 
 })
 
