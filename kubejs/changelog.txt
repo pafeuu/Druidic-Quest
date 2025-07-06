@@ -1792,15 +1792,42 @@ Patch 0.3.2.1
     -Added JEI info to the Spirit of Birthing
     -Added Ponder info to the Vine Generator
 
+# Patch 1.3.2 Quick Bugfixes before a major update
+
+### Recipes:
+    -Changed for furnace
+
+### Loot:
+    -Replaced EffortlessBuilding loot with other treasure
+
+### Other:
+    -Fixed ArsNouveau Guide Book
+
 # Patch 2.0
+
+### Removed Mods:
+    -Dramatic Doors
+    -Regions Unexplored
+    -Corail Tombstone
+    -Architect's Pallete
+    -Chipped
+    -ChoiceTheoremOverhauledVillage
+    -DecorativeBlocks
+    -Elementalcraft
+    -Datapack Anvil
+    -Gilded Sherds
+    -StructuresCredits
+    -Noisium
+    -BlockGradients
+    -AdvancmentPlaque
+    -SwampierSwamps
 
 ### Added Mods:
     -Fluffy Fur API
     -Wizards Reborn
-    -Macaw's trapdoors
-    -Dynamic Lights
-    -FastItemFrames
     -EMI
+    -EMI Enchanting
+    -EMI Trades
     -TooManyRecipeViewers
     -Multiblocked2
     -Ldlib
@@ -1810,6 +1837,7 @@ Patch 0.3.2.1
     -EpicTerrainCompatible
     -AdvancedLootInfo
     -Mana Unification
+    -Biome Spawn Point
 
 ### Updated Mods:
     -PuzzlesLib
@@ -1865,23 +1893,6 @@ Patch 0.3.2.1
     -AetherRedux
     -Tide
 
-### Removed Mods:
-    -Dramatic Doors
-    -Regions Unexplored
-    -Corail Tombstone
-    -Architect's Pallete
-    -Chipped
-    -Oculus
-    -OculusFlywheelCompat
-    -ChoiceTheoremOverhauledVillage
-    -DecorativeBlocks
-    -Elementalcraft
-    -Datapack Anvil
-    -Gilded Sherds
-    -StructuresCredits
-    -Noisium
-    -BlockGradients
-
 ### Items:
     -Added Infused Amethyst
     -Added Earth Infused Arcanum
@@ -1895,6 +1906,7 @@ Patch 0.3.2.1
     -Added Elemental Extractor
     -Added Elemental Infuser
     -Added Blast Brick
+    -Added Rotten Flesh Block
 
 ### Textures:
     -Changed for Flint Pickaxe
@@ -1923,6 +1935,18 @@ Patch 0.3.2.1
     -Changed for Starbuncle Charm
     -Changed for Drygmy Charm
     -Changed for Whirlisprig Charm
+    -Changed for Wixie Charm
+    -Changed for Lodestone
+    -Changed for Emerald Stoneplate Ring
+    -Added for Dark Essence
+    -Added for Life Essence
+    -Added for Ender Essence
+    -Added for Lightning Essence
+    -Reverted for Create's Water Wheels
+    -Added for Create's Shaft
+    -Changed for Bejeweled Crucifix
+    -Changed for Imperceptible Builder
+    -Added for Wrought Iron Ingot
 
 ### Loot:
     -Buffed chance of finding dimensional keys in lootchests
@@ -1931,8 +1955,24 @@ Patch 0.3.2.1
     -Buffed Naga Loottable
     -Fixed Abandoned Temple Loottables
     -Fixed Mushroom Village Loottables
+    -Replaced Effortless Building treasure in loot chests
+    -Infused Amethyst now drops from budding amethyst
+    -Buffed Urn Loot
+    -Wisps now drop enchanted souls
+    -Mojos now drop souls
+    -Adjusted Piglin Bartering loottable
+    -Added Royal Guard Sword to the castle loottables
 
-
+### Create Balance Changes:
+    -Valve Handle and Handcrank now only accommodate 1 stress unit
+    -Water Wheels now generate 0 stress units(they can still power stuff that consumes no stress units)
+    -Weighted ejector no longer consumes any stress units
+    -Cuckoo Clocks no longer consume any stress units
+    -Turntable no longer consume any stress units
+    -Backtanks only consume 1 stress unit now(4times less)
+    -Millstone only consumes 1 stress unit now(4times less)
+    -Mechanical Pistons only consume 1 stress unit now(4times less)
+    -Mechanical fans now consume 8 stress units(4times more)
 ### Quests:
     -Mending Mixture quest in the market now only gives 2
     -Fixed the Dendrologist quest chapter to fit the new and removed mods
@@ -1946,6 +1986,12 @@ Patch 0.3.2.1
 ### Tooltips:
     -Added tooltip to the Ice Pendant
 
+### EMI info:
+    -Added for Ash
+    -Added for Mittens
+    -Added for Ring of Costly Travel
+    -Added for Traveler's Belt
+
 ### Item Balance:
     -Carved Pumpkin now gives armor and resistances when worn
     -Mob heads now give resistances when worn
@@ -1957,6 +2003,19 @@ Patch 0.3.2.1
     -Buffed Spiked Turtle Shell and added it to the Hunter armor set
     -The Magnetic Ring and The Dislocation Ring now decrease your mana regen when worn
 
+### Mob Balance:
+    -All the Bosses no longer scale with player difficulty
+    -Spiders no longer spawn with items in hand and armor slots
+    -Mobs can no longer mine blocks and steal items from containers
+    -Increased the amount of health mobs get per difficulty
+    -Decreased the amount of damage mobs get per difficulty
+    -Decreased the amount of speed mobs get per difficulty
+
+### Worldgen:
+    -You will always spawn in one of a few biomes when creating a new world
+    -Massively Increased the amount of pebbles and twigs on the ground
+    -Reverted changes to the Tinkers Citadel(for now)
+
 ### Other:
     -Fixed flint hoes not tilling ground in a 3x3
     -Buffed the silver output from alchemical powder and infested stone
@@ -1967,6 +2026,8 @@ Patch 0.3.2.1
     -Added back early forge loading screen
     -Adjusted Main Menu of the pack
     -Adjusted other loading screens
+    -Fixed ArsNouveau's guidebook
+
 
 
 

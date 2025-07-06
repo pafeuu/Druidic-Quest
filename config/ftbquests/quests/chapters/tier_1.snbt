@@ -624,7 +624,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: -3.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["42453AA97CCD3970"]
@@ -659,8 +659,8 @@
 				item: "sophisticatedstorage:basic_to_copper_tier_upgrade"
 				type: "item"
 			}]
-			x: 2.0d
-			y: -3.5d
+			x: 1.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["62BB9932A2712DF2"]
@@ -676,8 +676,8 @@
 				item: "farmersdelight:basket"
 				type: "item"
 			}]
-			x: 4.0d
-			y: -5.0d
+			x: 2.5d
+			y: -4.5d
 		}
 		{
 			dependencies: ["118CF02B3B3C899C"]
@@ -1010,7 +1010,7 @@
 				item: "supplementaries:cog_block"
 				type: "item"
 			}]
-			x: 6.0d
+			x: 5.5d
 			y: -3.5d
 		}
 		{
@@ -1322,6 +1322,11 @@
 		{
 			dependencies: ["089147A7CE1A1DC6"]
 			id: "0616621E8A10711A"
+			rewards: [{
+				id: "2183E2DBA95124CE"
+				item: "vintagedelight:golden_egg"
+				type: "item"
+			}]
 			tasks: [{
 				id: "62A690DAC9FADD8D"
 				item: {
@@ -1337,6 +1342,12 @@
 		{
 			dependencies: ["55B81BBB0E85645E"]
 			id: "6EA8230FDC9F0A72"
+			rewards: [{
+				count: 3
+				id: "43015CCB272A4BA4"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
 			tasks: [{
 				id: "2AE212EE7D48CA32"
 				item: "naturesaura:placer"

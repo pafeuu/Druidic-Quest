@@ -29,7 +29,7 @@
 				type: "item"
 			}]
 			x: -6.0d
-			y: 0.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["0628C1A97EB1A5DB"]
@@ -47,8 +47,8 @@
 				item: "wizards_reborn:arcane_gold_ingot"
 				type: "item"
 			}]
-			x: -6.0d
-			y: 3.0d
+			x: 0.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["720EAE83846D3178"]
@@ -66,8 +66,8 @@
 				type: "item"
 			}]
 			title: "Elemental Binder"
-			x: -3.0d
-			y: 3.0d
+			x: 0.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["0546AB4A107ED496"]
@@ -86,7 +86,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 1.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["0546AB4A107ED496"]
@@ -110,8 +110,8 @@
 				item: "kubejs:ender_essence"
 				type: "item"
 			}]
-			x: 0.0d
-			y: 3.0d
+			x: -1.5d
+			y: 1.5d
 		}
 		{
 			dependencies: [
@@ -143,8 +143,8 @@
 					type: "item"
 				}
 			]
-			x: 1.5d
-			y: 3.0d
+			x: -1.5d
+			y: 0.0d
 		}
 		{
 			dependencies: [
@@ -177,8 +177,8 @@
 				item: "kubejs:andesite_machine"
 				type: "item"
 			}]
-			x: 0.0d
-			y: 0.0d
+			x: -6.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["598CB97D6AAE242D"]
@@ -261,7 +261,7 @@
 			y: -3.0d
 		}
 		{
-			dependencies: ["0546AB4A107ED496"]
+			dependencies: ["5604F661A992D207"]
 			description: ["&d&lRainbow Magic Feather&r&r has the same abilities as the other two magic feathers but in addition it gains the ability to destroy the bedrock roof in the nether!"]
 			id: "46BDE50D5EE37574"
 			rewards: [{
@@ -281,8 +281,8 @@
 				}
 				type: "item"
 			}]
-			x: -3.0d
-			y: 4.5d
+			x: -4.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["6E30DFF0F2B9B811"]
@@ -296,13 +296,14 @@
 			}]
 			title: "Visit the Aether!"
 			x: 1.5d
-			y: 1.5d
+			y: 0.0d
 		}
 		{
 			dependencies: [
 				"598CB97D6AAE242D"
 				"3CEA1955266AEAB3"
 				"1A94843C9B0DD8FF"
+				"47CA7121501C2397"
 			]
 			icon: "forbidden_arcanus:clibano_core"
 			id: "3A94BCF22852A627"
@@ -340,6 +341,84 @@
 			title: "Clibano Oven"
 			x: 1.5d
 			y: -3.0d
+		}
+		{
+			dependencies: ["6E30DFF0F2B9B811"]
+			id: "19500538380DEC10"
+			tasks: [{
+				id: "0F772D7404698AEB"
+				item: "create:brass_funnel"
+				type: "item"
+			}]
+			title: "Brass Logistics"
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["166492730EA5EBBD"]
+			id: "792DD974C0AB477E"
+			tasks: [{
+				id: "6161DB68609DBFCF"
+				item: "kubejs:life_essence"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["0D87D09C792CBD96"]
+			id: "47CA7121501C2397"
+			tasks: [{
+				id: "5130862EBA313B50"
+				item: "kubejs:death_essence"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0546AB4A107ED496"]
+			id: "0D87D09C792CBD96"
+			tasks: [{
+				id: "62E442B4CD42EE7E"
+				item: "kubejs:dark_essence"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0546AB4A107ED496"]
+			id: "166492730EA5EBBD"
+			tasks: [{
+				id: "08C0226DA0196E7F"
+				item: "kubejs:light_essence"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["166492730EA5EBBD"]
+			id: "1AD18FEB552DB6BF"
+			tasks: [{
+				id: "5281653DC0962802"
+				item: "torchmaster:megatorch"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0546AB4A107ED496"]
+			id: "5604F661A992D207"
+			tasks: [{
+				id: "53086F7DD8F4B7BA"
+				item: "kubejs:lightning_essence"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 3.5d
 		}
 	]
 	title: "Tier 3 - Primitive Tech"

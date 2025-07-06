@@ -185,12 +185,20 @@
 		}
 		{
 			id: "7F12B835BB2BA131"
-			rewards: [{
-				command: "/tellraw @p [\"\",{\"text\":\"[Watcher]\",\"color\":\"dark_green\"},{\"text\":\" You wake up tired and malnourished. You feel like you are slower and weaker than usuall, suprisingly you even feel like you cant reach as far as before.\",\"color\":\"green\"},{\"text\":\"\\n\\n\"},{\"text\":\"[Watcher] \",\"color\":\"dark_green\"},{\"text\":\"Check your keybinds to open the Questbook\",\"color\":\"green\"}]"
-				elevate_perms: true
-				id: "165BBC22F9C2D9E3"
-				type: "command"
-			}]
+			rewards: [
+				{
+					command: "/tellraw @p [\"\",{\"text\":\"[Watcher]\",\"color\":\"dark_green\"},{\"text\":\" You wake up tired and malnourished. You feel like you are slower and weaker than usuall, suprisingly you even feel like you cant reach as far as before.\",\"color\":\"green\"},{\"text\":\"\\n\\n\"},{\"text\":\"[Watcher] \",\"color\":\"dark_green\"},{\"text\":\"Check your keybinds to open the Questbook\",\"color\":\"green\"}]"
+					elevate_perms: true
+					id: "165BBC22F9C2D9E3"
+					type: "command"
+				}
+				{
+					auto: "enabled"
+					id: "5148961A550356BD"
+					item: "ftbquests:book"
+					type: "item"
+				}
+			]
 			tasks: [{
 				advancement: "restrictedportals:root"
 				criterion: ""

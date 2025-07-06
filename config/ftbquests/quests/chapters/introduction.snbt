@@ -875,7 +875,7 @@
 					type: "item"
 				}
 			]
-			x: 4.0d
+			x: 3.5d
 			y: 2.0d
 		}
 		{
@@ -984,8 +984,8 @@
 				}
 			]
 			title: "First jewelry"
-			x: 11.5d
-			y: 3.5d
+			x: 12.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["7846743FB0D30EAD"]
@@ -1015,8 +1015,8 @@
 				type: "item"
 			}]
 			title: "Keeping your xp safe!"
-			x: 14.5d
-			y: 2.0d
+			x: 12.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["7846743FB0D30EAD"]
@@ -1039,8 +1039,8 @@
 				type: "item"
 			}]
 			title: "Important part of the equipment"
-			x: 12.0d
-			y: 2.0d
+			x: 13.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["32A61115C0AD8C45"]
@@ -1176,8 +1176,12 @@
 			]
 			dependency_requirement: "one_completed"
 			description: [
-				"&lCongratulations on finishing your first chapter!"
+				"Coke Oven is built by making a 3x3x3 cube of Coke Bricks. To form a multiblock right click it with engineer's hammer."
 				""
+				"It will take coal and transform it into coal coke and creosote oil necessary for further progression."
+				""
+				"&2&lCongratulations on finishing your first chapter!"
+				"&r"
 				"&9If you are enjoying the pack so far make sure to visit our discord to share your thoughts about it."
 				"&r"
 				"&dYour feedback and bug reports are crucial to the pack development!&r"
