@@ -213,4 +213,29 @@ ServerEvents.recipes(event=>{
     "wissen": 500
     }).id("enigmaticlegacy:magnet_ring")
 
+    event.custom({
+    "type": "wizards_reborn:arcane_workbench",
+    "pattern": [
+        "NNN",
+        "NCN",
+        "NNN",
+        "AAAA"
+    ],
+    "key": {
+        "C": {
+        "item": "kubejs:metal_crucifix"
+        },
+        "A": {
+        "item": "wizards_reborn:arcanum"
+        },
+        "N":{
+        "tag": "forge:plates/gold"    
+        }
+    },
+    "output": {
+        "item": "kubejs:bejeweled_crucifix",
+    },
+    "wissen": 500
+    })
+
 })
