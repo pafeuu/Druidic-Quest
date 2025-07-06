@@ -238,4 +238,42 @@ ServerEvents.recipes(event=>{
     "wissen": 500
     })
 
+    event.shaped("ars_nouveau:apprentice_spell_book",["   "," X ","   "],{X:"kubejs:recipe_changed"}).id("ars_nouveau:apprentice_spell_book_upgrade")
+    event.custom({
+    "type": "wizards_reborn:arcane_workbench",
+    "pattern": [
+        "RRR",
+        "RXS",
+        "SSS",
+        "ABCD"
+    ],
+    "key": {
+        "X": {
+        "item": "ars_nouveau:novice_spell_book"
+        },
+        "A": {
+        "item": "ars_nouveau:fire_essence"
+        },
+        "B": {
+        "item": "ars_nouveau:earth_essence"
+        },
+        "C": {
+        "item": "ars_nouveau:water_essence"
+        },
+        "D": {
+        "item": "ars_nouveau:air_essence"
+        },
+        "R":{
+        "item": "thermal:ruby"    
+        },
+        "S":{
+        "item": "thermal:sapphire"    
+        }
+    },
+    "output": {
+        "item": "ars_nouveau:apprentice_spell_book",
+    },
+    "wissen": 500
+    })
+
 })
