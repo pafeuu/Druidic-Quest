@@ -1,7 +1,8 @@
 ItemEvents.tooltip( tooltip => { 
 
   // ========================================== Texture Credits ==========================================
-  tooltip.add(["kubejs:archers_glove"],Text.gray("Texture by Qwerty"))
+  tooltip.add(["kubejs:archers_glove",
+               "kubejs:rotten_flesh_block"],Text.gray("Texture by Qwerty"))
 
   tooltip.add(["kubejs:inert_alloy_ingot",
                "kubejs:ring_travel",
@@ -96,6 +97,14 @@ ItemEvents.tooltip( tooltip => {
       text.add(1, [Text.of('Hold ').darkPurple(), Text.of('Shift ').gold(), Text.of('to see details').darkPurple()])
     } else {
       text.add(1, Text.gold('Applies Bleeding on hit'))
+    }
+  })
+
+  tooltip.addAdvanced("kubejs:royal_guard_sword", (item, advanced, text) => {
+    if (!tooltip.shift) {
+      text.add(1, [Text.of('Hold ').darkPurple(), Text.of('Shift ').gold(), Text.of('to see details').darkPurple()])
+    } else {
+      text.add(1, Text.gold('Right click on a carved pumpkin to summon a Guard for a cost of 100 durability'))
     }
   })
 
@@ -241,7 +250,7 @@ ItemEvents.tooltip( tooltip => {
   tooltip.add("aether:zanite_pendant",[Text.gold("When worn as ring:"),Text.blue("Allows you to mine faster"),Text.red("Does not last long!")])
   tooltip.add("deep_aether:skyjade_ring",[Text.gold("When worn as ring:"),Text.blue("Allows you to mine faster"),Text.red("Does not last long!")])
   tooltip.add("aether:ice_ring",[Text.gold("When worn as ring:"),Text.blue("Freezes water and lava beneath you")])
-  tooltip.add("aether:ice_ring",[Text.gold("When around neck:"),Text.blue("Freezes water and lava beneath you")])
+  tooltip.add("aether:ice_pendant",[Text.gold("When around neck:"),Text.blue("Freezes water and lava beneath you")])
 
   tooltip.add("aether:sentry_boots",Text.blue("Grants immunity to fall damage"))
   tooltip.add(["deep_aether:skyjade_boots",
