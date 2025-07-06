@@ -748,46 +748,7 @@ ServerEvents.recipes(event => {
 		}
 	  )
 
-	
-	event.custom({
-		"type": "naturesaura:tree_ritual",
-		"ingredients": [
-			{
-				"item": "ars_nouveau:ring_of_potential"
-			},
-			{
-				"tag": "forge:gems/diamond"
-			},
-			
-			{
-				"tag": "forge:plates/iron"
-			},
-			{
-				"tag": "forge:plates/iron"
-			},
-			{
-				"tag": "forge:storage_blocks/redstone"
-			},
-			{
-				"tag": "forge:storage_blocks/lapis"
-			},
-			{
-				"tag": "forge:plates/iron"
-			},
-			{
-				"tag": "forge:plates/iron"
-			}
-			
-		],
-		"sapling": {
-			"item": "minecraft:jungle_sapling"
-		},
-		"output": {
-			"item": "enigmaticlegacy:magnet_ring",
-			"count": 1
-		},
-		"time": 200
-	})
+
 
 	event.custom({
 		"type": "naturesaura:tree_ritual",
@@ -1198,8 +1159,6 @@ ServerEvents.recipes(event => {
 			W: "ars_nouveau:water_essence"
 		}
 	).id("create:crafting/appliances/copper_backtank")
-
-	event.smithing("kubejs:bejeweled_crucifix",'kubejs:gold_upgrade_smithing_template',Item.of("kubejs:metal_crucifix"),'kubejs:gold_upgrade_parts')
 
 	event.shaped("kubejs:cross_necklace",
 		[
@@ -2331,7 +2290,8 @@ ServerEvents.recipes(event => {
 			'naturesaura:sky_ingot'
 		)
 
-		event.smithing('golden_'+id,'kubejs:gold_upgrade_smithing_template',Item.of('kubejs:silver_'+id).ignoreNBT(),'kubejs:gold_upgrade_parts')
+		event.smithing('golden_'+id,'kubejs:gold_upgrade_smithing_template',Item.of('kubejs:silver_'+id),'kubejs:gold_upgrade_parts')
+		event.smithing("immersiveengineering:"+id+"_steel",'kubejs:steel_upgrade_smithing_template',"naturesaura:infused_iron_"+id,'kubejs:steel_upgrade_parts')
     });
 
 	event.remove({output:'immersiveengineering:glider'})

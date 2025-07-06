@@ -1,0 +1,34 @@
+{
+  "id": "immersiveengineering:armor_steel_chestplate",
+  "modifiers": [
+    {
+      "type": "append",
+      "attribute": "minecraft:generic.movement_speed",
+      "value": -0.002,
+      "operation": "ADDITION",
+      "uuid": "c19b4273-0016-415b-a05c-6be15e1f58e1"
+    },
+    {
+      "type": "append",
+      "attribute": "alembic:arcane_damage",
+      "value": 0.25,
+      "operation": "ADDITION",
+      "uuid": "9c0a0222-af55-4333-a63a-5c7d0e3c1b05"
+    },
+    {
+      "type": "append",
+      "attribute": "alembic:alchemical_damage.resistance",
+      "value": 4,
+      "operation": "ADDITION",
+      "uuid": "7ce41a3e-4c88-49e8-9ce7-ddac9e758474"
+    },
+    {
+      "type": "append",
+      "attribute": "alembic:fire_damage.resistance",
+      "value": 4,
+      "operation": "ADDITION",
+      "uuid": "a8a8c148-0cef-414f-9ff8-e7add75f0ebf"
+    }
+  ],
+  "equipment_slot": "CHEST"
+}

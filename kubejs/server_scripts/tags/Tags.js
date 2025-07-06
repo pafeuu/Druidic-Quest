@@ -444,6 +444,12 @@ ServerEvents.tags('item', event => {
   tool('forbidden_arcanus:draco_arcanus')
   tool('forbidden_arcanus:reinforced_deorum')
 
+  event.add('forge:tools/steel', "immersiveengineering:hoe_steel")  
+	event.add('forge:tools/steel', "immersiveengineering:pickaxe_steel")  
+	event.add('forge:tools/steel', "immersiveengineering:axe_steel")  
+	event.add('forge:tools/steel', "immersiveengineering:shovel_steel")  
+	event.add('forge:tools/steel', "immersiveengineering:sword_steel")  
+
   event.add('druidic_quest:dimensional_tools',['#forge:tools/ironwood',"#forge:tools/zanite","#forge:tools/gravitite","#forge:tools/holystone", 
     "#forge:tools/skyjade","#forge:tools/steeleaf","#forge:tools/ironwood","#forge:tools/blaze","#forge:tools/netherite"])
   

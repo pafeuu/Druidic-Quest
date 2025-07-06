@@ -5,10 +5,10 @@ ServerEvents.recipes(event => {
     function naturearmorup(input,output,smith,material)
 	{
 		// Upgrades the armor
-		event.smithing("naturesaura:"+output+"_helmet","kubejs:"+smith+"_upgrade_smithing_template",Item.of(input+"_helmet").ignoreNBT()    ,"naturesaura:"+material)
-		event.smithing("naturesaura:"+output+"_chest" ,"kubejs:"+smith+"_upgrade_smithing_template",Item.of(input+"_chestplate").ignoreNBT(),"naturesaura:"+material)
-		event.smithing("naturesaura:"+output+"_pants" ,"kubejs:"+smith+"_upgrade_smithing_template",Item.of(input+"_leggings").ignoreNBT()  ,"naturesaura:"+material)
-		event.smithing("naturesaura:"+output+"_shoes" ,"kubejs:"+smith+"_upgrade_smithing_template",Item.of(input+"_boots").ignoreNBT()     ,"naturesaura:"+material)
+		event.smithing("naturesaura:"+output+"_helmet","kubejs:"+smith+"_upgrade_smithing_template",Item.of(input+"_helmet"),"naturesaura:"+material)
+		event.smithing("naturesaura:"+output+"_chest" ,"kubejs:"+smith+"_upgrade_smithing_template",Item.of(input+"_chestplate"),"naturesaura:"+material)
+		event.smithing("naturesaura:"+output+"_pants" ,"kubejs:"+smith+"_upgrade_smithing_template",Item.of(input+"_leggings"),"naturesaura:"+material)
+		event.smithing("naturesaura:"+output+"_shoes" ,"kubejs:"+smith+"_upgrade_smithing_template",Item.of(input+"_boots"),"naturesaura:"+material)
 		
 		// Removes the old recipes
 		event.remove([{output:"naturesaura"+output+"_helmet", output:"naturesaura:"+output+"_chest", output:"naturesaura:"+output+"_pants",output:"naturesaura:"+output+"_shoes"}])
@@ -17,6 +17,11 @@ ServerEvents.recipes(event => {
 
     naturearmorup("diamond","sky","skyseeker","sky_ingot")
 	naturearmorup("iron","infused_iron","botanist","infused_iron")
+
+	event.smithing('immersiveengineering:armor_steel_helmet',"kubejs:steel_upgrade_smithing_template","naturesaura:infused_iron_helmet","kubejs:steel_upgrade_parts").id("immersiveengineering:crafting/armor_steel_helmet")
+	event.smithing('immersiveengineering:armor_steel_chestplate' ,"kubejs:steel_upgrade_smithing_template","naturesaura:infused_iron_chest","kubejs:steel_upgrade_parts").id("immersiveengineering:crafting/armor_steel_chestplate")
+	event.smithing('immersiveengineering:armor_steel_leggings' ,"kubejs:steel_upgrade_smithing_template","naturesaura:infused_iron_pants","kubejs:steel_upgrade_parts").id("immersiveengineering:crafting/armor_steel_leggings")
+	event.smithing('immersiveengineering:armor_steel_boots' ,"kubejs:steel_upgrade_smithing_template","naturesaura:infused_iron_shoes","kubejs:steel_upgrade_parts").id("immersiveengineering:crafting/armor_steel_boots")
 
 	event.remove({output:[
         "naturesaura:sky_helmet",
@@ -180,11 +185,10 @@ ServerEvents.recipes(event => {
         {output:"deep_aether:skyjade_boots"}])
 
     armorslot.forEach(id=>{
-        
-        event.smithing("immersiveengineering:armor_steel_"+id,"kubejs:steel_upgrade_smithing_template",Item.of("netherite_"+id).ignoreNBT(),"#forge:plates/steel").id("immersiveengineering:crafting/armor_steel_"+id)
     
         event.smithing("golden_"+id,"kubejs:gold_upgrade_smithing_template",Item.of("kubejs:silver_"+id).ignoreNBT(),"kubejs:gold_upgrade_parts").id("minecraft:golden_"+id)
-    })
+   
+	})
 
     /// Thermal Diving Suit
 

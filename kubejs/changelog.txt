@@ -1907,6 +1907,7 @@ Patch 0.3.2.1
     -Added Elemental Infuser
     -Added Blast Brick
     -Added Rotten Flesh Block
+    -Added Steel Upgrade Parts
 
 ### Textures:
     -Changed for Flint Pickaxe
@@ -1947,6 +1948,10 @@ Patch 0.3.2.1
     -Changed for Bejeweled Crucifix
     -Changed for Imperceptible Builder
     -Added for Wrought Iron Ingot
+    -Changed for Botanist Upgrade Smithing Template
+    -Changed for Steel Upgrade Smithing Template
+    -Changed for Steel Tools and Armor
+    -Changed for Mage's Spell Book
 
 ### Loot:
     -Buffed chance of finding dimensional keys in lootchests
@@ -1973,10 +1978,12 @@ Patch 0.3.2.1
     -Millstone only consumes 1 stress unit now(4times less)
     -Mechanical Pistons only consume 1 stress unit now(4times less)
     -Mechanical fans now consume 8 stress units(4times more)
+
 ### Quests:
     -Mending Mixture quest in the market now only gives 2
     -Fixed the Dendrologist quest chapter to fit the new and removed mods
     -Adjusted the ending of tier 0
+    -And Tons of other adjustments and fixes
 
 ### Villagers:
     -Changed blank scroll trade to be much cheaper

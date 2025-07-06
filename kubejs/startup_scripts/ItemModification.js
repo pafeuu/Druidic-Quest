@@ -144,6 +144,12 @@ ItemEvents.modification(event => {
     event.modify('wizards_reborn:arcane_wood_'+id, item=>{
       item.digSpeed = 3,
       item.maxDamage = 16
+      
+    })
+
+    event.modify("immersiveengineering:"+id+"_steel"+id, item=>{
+      item.digSpeed = 7.5,
+      item.maxDamage = -1
       // ??+1 block range
     })
   })
@@ -204,28 +210,29 @@ ItemEvents.modification(event => {
   })
 
   event.modify("immersiveengineering:armor_steel_helmet", item=>{
-    item.armorKnockbackResistance = 0.1,
-    item.armorProtection = 4,
-    item.armorToughness = 3
+    item.maxDamage = -1,
+    item.armorProtection = 3.
+    item.armorToughness = 0
   })
 
   event.modify("immersiveengineering:armor_steel_chestplate", item=>{
-    item.armorKnockbackResistance = 0.1,
-    item.armorProtection = 9,
-    item.armorToughness = 3
+    item.maxDamage = -1,
+    item.armorProtection = 7,
+    item.armorToughness = 0
   })
 
   event.modify("immersiveengineering:armor_steel_leggings", item=>{
-    item.armorKnockbackResistance = 0.1,
-    item.armorProtection = 7,
-    item.armorToughness = 3
+    item.maxDamage = -1,
+    item.armorProtection = 6,
+    item.armorToughness = 0
   })
 
   event.modify("immersiveengineering:armor_steel_boots", item=>{
-    item.armorKnockbackResistance = 0.1,
-    item.armorProtection = 4,
-    item.armorToughness = 3
+    item.maxDamage = -1,
+    item.armorProtection = 3,
+    item.armorToughness = 0
   })
+
   ///======================================== Other
 
   event.modify("create:sand_paper", item=>{

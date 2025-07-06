@@ -1,0 +1,34 @@
+{
+  "id": "immersiveengineering:armor_steel_boots",
+  "modifiers": [
+    {
+      "type": "append",
+      "attribute": "minecraft:generic.movement_speed",
+      "value": -0.001,
+      "operation": "ADDITION",
+      "uuid": "9c0a0440-af55-4d53-a63a-5c7d0e3c1b05"
+    },
+    {
+      "type": "append",
+      "attribute": "alembic:arcane_damage",
+      "value": 0.10,
+      "operation": "ADDITION",
+      "uuid": "706e6e01-f05e-482c-b726-89dcd4e512c2"
+    },
+    {
+      "type": "append",
+      "attribute": "alembic:alchemical_damage.resistance",
+      "value": 2,
+      "operation": "ADDITION",
+      "uuid": "6518acc0-04a6-41df-97f2-ae2f01df8fd4"
+    },
+    {
+      "type": "append",
+      "attribute": "alembic:fire_damage.resistance",
+      "value": 2,
+      "operation": "ADDITION",
+      "uuid": "58d2c433-eca7-4cdb-9a86-845ee0167f31"
+    }
+  ],
+  "equipment_slot": "FEET"
+}

@@ -455,6 +455,7 @@ StartupEvents.registry('item', item => {
   item.create('shapeshifting_root').displayName('Shapeshifting Root')
   item.create('greater_shapeshifting_root').displayName('Greater Shapeshifting Root')
   item.create("gold_upgrade_parts").displayName("Gold Upgrade Parts")
+  item.create("steel_upgrade_parts")
   item.create('unassembled_clock').displayName('Unassembled Clock')
   item.create('unassembled_compass').displayName('Unassembled Compass')
   item.create("dimension_ripper").displayName("Dimension Ripper").tag("twilightforest:portal/activator")

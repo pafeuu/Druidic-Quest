@@ -79,7 +79,7 @@ ItemEvents.tooltip( tooltip => {
   tooltip.add("kubejs:botanist_upgrade_smithing_template", [Text.gray("Botanist Upgrade"), Text.green(""), Text.gray("Applies to:"), Text.darkGreen(" Iron Equipment"), Text.gray("Ingredients:"), Text.darkGreen(" Infused Iron Ingot")])
   tooltip.add("kubejs:skyseeker_upgrade_smithing_template", [Text.gray("Skyseeker Upgrade"), Text.green(""), Text.gray("Applies to:"), Text.aqua(" Diamond Equipment"), Text.gray("Ingredients:"), Text.aqua(" Ingot of the Skies")])
   tooltip.add("kubejs:gold_upgrade_smithing_template", [Text.gray("Gold Upgrade"), Text.green(""), Text.gray("Applies to:"), Text.gold(" Brass Equipment"), Text.gray("Ingredients:"), Text.gold(" Gold Upgrade Parts")])
-  tooltip.add("kubejs:steel_upgrade_smithing_template", [Text.gray("Steel Upgrade"), Text.green(""), Text.gray("Applies to:"), Text.blue(" Netherite Equipment"), Text.gray("Ingredients:"), Text.blue(" Steel Upgrade Parts")])
+  tooltip.add("kubejs:steel_upgrade_smithing_template", [Text.gray("Steel Upgrade"), Text.green(""), Text.gray("Applies to:"), Text.green(" Botanist Equipment"), Text.gray("Ingredients:"), Text.green(" Steel Upgrade Parts")])
   tooltip.add("kubejs:phoenix_upgrade_smithing_template", [Text.gray("Phoenix Upgrade"), Text.green(""), Text.gray("Applies to:"), Text.red(" Fiery Equipment"), Text.gray("Ingredients:"), Text.red(" Phoenix Ingot")])
   
   //======================================= Custom Tools ====================================== 
@@ -274,7 +274,18 @@ ItemEvents.tooltip( tooltip => {
   tooltip.add("deep_aether:afterburner",Text.blue("Hold right click to shoot a barrage of fireballs!"))
 
   tooltip.add("#druidic_quest:dimensional_tools",[Text.darkPurple("Tool made from materials outside of the main realm!"),Text.blue("Combine it with extradimensional eye"),Text.blue("in the crafting grid to apply telekinesis enchant!")])
-
+  
+  tooltip.addAdvanced(["immersiveengineering:armor_steel_helmet",
+               "immersiveengineering:armor_steel_chestplate",
+               "immersiveengineering:armor_steel_leggings",
+               "immersiveengineering:armor_steel_boots",
+               "immersiveengineering:pickaxe_steel",
+               "immersiveengineering:shovel_steel",
+               "immersiveengineering:axe_steel",
+               "immersiveengineering:hoe_steel",
+               "immersiveengineering:sword_steel",],(item, advanced, text) => {
+                text.add(1, Text.of("Unbreakable").blue())
+               })
   //=======================Arrows=======================
 
   tooltip.add("forbidden_arcanus:boom_arrow",[Text.gold("Explodes on impact with entities!"),Text.gold("Deals massive amounts of damage!")])
