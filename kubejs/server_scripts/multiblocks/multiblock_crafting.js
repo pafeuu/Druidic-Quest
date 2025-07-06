@@ -123,12 +123,13 @@ ServerEvents.recipes(event => {
     })
   }
 
-  function ExplosionSquareCrafting(catalyst, output, sides, corners, middle){
+  function ClickingSquareCrafting(catalyst, output, sides, corners, middle){
 
     event.custom({
-      "type": "lychee:item_exploding",
+      "type": "lychee:block_interacting",
       "hide_in_viewer": true,
       "comment": "Needs additional blocks below the item to work. Check the ponder for details",
+      "block_in": middle,
       "item_in": {
         "item": catalyst // Item that needs to be on top of the structure in the middle
       },
@@ -137,47 +138,42 @@ ServerEvents.recipes(event => {
         "contextual": [ // Checks if the the blocks are in the correct position
           {
             "type": "execute",
-            "command": `execute if block ~ ~-1 ~ ${middle}`,
+            "command": `execute if block ~1 ~ ~1 ${corners}`,
             "hide": true
           },
           {
             "type": "execute",
-            "command": `execute if block ~1 ~-1 ~1 ${corners}`,
+            "command": `execute if block ~-1 ~ ~-1 ${corners}`,
             "hide": true
           },
           {
             "type": "execute",
-            "command": `execute if block ~-1 ~-1 ~-1 ${corners}`,
+            "command": `execute if block ~1 ~ ~-1 ${corners}`,
             "hide": true
           },
           {
             "type": "execute",
-            "command": `execute if block ~1 ~-1 ~-1 ${corners}`,
+            "command": `execute if block ~-1 ~ ~1 ${corners}`,
             "hide": true
           },
           {
             "type": "execute",
-            "command": `execute if block ~-1 ~-1 ~1 ${corners}`,
+            "command": `execute if block ~ ~ ~1 ${sides}`,
             "hide": true
           },
           {
             "type": "execute",
-            "command": `execute if block ~ ~-1 ~1 ${sides}`,
+            "command": `execute if block ~ ~ ~-1 ${sides}`,
             "hide": true
           },
           {
             "type": "execute",
-            "command": `execute if block ~ ~-1 ~-1 ${sides}`,
+            "command": `execute if block ~1 ~ ~ ${sides}`,
             "hide": true
           },
           {
             "type": "execute",
-            "command": `execute if block ~1 ~-1 ~ ${sides}`,
-            "hide": true
-          },
-          {
-            "type": "execute",
-            "command": `execute if block ~-1 ~-1 ~ ${sides}`,
+            "command": `execute if block ~-1 ~ ~ ${sides}`,
             "hide": true
           }
       
@@ -227,7 +223,7 @@ ServerEvents.recipes(event => {
     })
 
     event.custom({
-      "type": "lychee:item_exploding",
+      "type": "lychee:block_interacting",
       "hide_in_viewer": false,
       "ghost":true,
       "comment": "Needs additional blocks below the item to work. Check the ponder for details",
@@ -415,7 +411,7 @@ ServerEvents.recipes(event => {
     { type: 'item', name: 'kubejs:alchemical_dust' }
   ]);
 
-  ExplosionSquareCrafting("thermal:coal_coke","minecraft:furnace","quark:sturdy_stone","quark:sturdy_stone","minecraft:coal_block")
+  ClickingSquareCrafting("thermal:coal_coke","minecraft:furnace","quark:sturdy_stone","quark:sturdy_stone","minecraft:coal_block")
   
   LightningSquareCrafting("kubejs:lemon_quartz","kubejs:magical_generator_block","kubejs:source_alloy_block","kubejs:arcanum_alloy_block","kubejs:source_alloy_block")
   

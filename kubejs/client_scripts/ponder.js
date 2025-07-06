@@ -35,16 +35,10 @@ Ponder.registry((event) => {
         scene.idle(5)
         }
 
-        scene.text(20,"Drop Coke in the middle",[3.0,1.5,3.0]).attachKeyFrame();
-        scene.showControls(20,[3.0,1.5,3.0],"down").withItem("thermal:coal_coke");
-    
-        scene.idle(30);
+        scene.text(20,"Right click the middle block with Coal Coke in hand ",[3.0,1.5,3.0]).attachKeyFrame();
+        scene.showControls(20,[3.0,1.5,3.0],"down").withItem("thermal:coal_coke").rightClick();
 
-        //scene.text(40,"testt",[3.0,2.5,3.0])//.attachKeyFrame();
-        scene.showControls(15,[3.0,1.5,3.0],"down").withItem("minecraft:tnt");
-        scene.text(20,"Cause an explosion to finish crafting!",[3.0,1.5,3.0]).attachKeyFrame();
-
-        scene.idle(30);
+        scene.idle(80);
 
         scene.world.replaceBlocks([1, 1, 1, 3, 1, 3], "minecraft:air", false);
         scene.world.createItemEntity(util.vector.topOf(2.5, 1.5, 2.5), util.vector.of(0, 0, 0), "minecraft:furnace");
