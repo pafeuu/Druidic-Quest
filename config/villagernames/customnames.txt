@@ -41,4 +41,7 @@ Chakyl,
 JohnGuffe,
 MrThomas,
 Excelsus,
-SeñorRandom
+SeñorRandom,
+Alexzam,
+Gyldanword
+
