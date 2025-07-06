@@ -19,7 +19,7 @@ ServerEvents.recipes(event=>{
         "birch_sapling").id("wizards_reborn:shaped/arcane_workbench")
    
    
-   //event.recipes.ars_nouveau.enchanting_apparatus(['kubejs:recipe_changed'],'kubejs:recipe_changed',"ars_nouveau:starbuncle_charm").id("ars_nouveau:starbuncle_charm")
+   event.recipes.ars_nouveau.enchanting_apparatus(['kubejs:recipe_changed'],'kubejs:recipe_changed',"ars_nouveau:starbuncle_charm").id("ars_nouveau:starbuncle_charm")
 
    event.recipes.naturesaura.tree_ritual("ars_nouveau:starbuncle_charm",
         ["ars_nouveau:starbuncle_shards",
@@ -33,7 +33,7 @@ ServerEvents.recipes(event=>{
         "ars_nouveau:green_archwood_sapling")
    
    
-   //event.recipes.ars_nouveau.enchanting_apparatus(['kubejs:recipe_changed'],'kubejs:recipe_changed',"ars_nouveau:whirlisprig_charm").id("ars_nouveau:whirlisprig_charm")
+   event.recipes.ars_nouveau.enchanting_apparatus(['kubejs:recipe_changed'],'kubejs:recipe_changed',"ars_nouveau:whirlisprig_charm").id("ars_nouveau:whirlisprig_charm")
    
    event.recipes.naturesaura.tree_ritual("ars_nouveau:whirlisprig_charm",
         ["ars_nouveau:whirlisprig_shards",
@@ -46,7 +46,7 @@ ServerEvents.recipes(event=>{
         "kubejs:nature_essence"],
         "ars_nouveau:green_archwood_sapling")
 
-   //event.recipes.ars_nouveau.enchanting_apparatus(['kubejs:recipe_changed'],'kubejs:recipe_changed',"ars_nouveau:drygmy_charm").id("ars_nouveau:drygmy_charm")
+   event.recipes.ars_nouveau.enchanting_apparatus(['kubejs:recipe_changed'],'kubejs:recipe_changed',"ars_nouveau:drygmy_charm").id("ars_nouveau:drygmy_charm")
 
    event.recipes.naturesaura.tree_ritual("ars_nouveau:drygmy_charm",
         ["ars_nouveau:drygmy_shard",
@@ -58,4 +58,16 @@ ServerEvents.recipes(event=>{
         "kubejs:death_essence",
         "kubejs:death_essence"],
         "ars_nouveau:green_archwood_sapling")
+     
+   event.recipes.ars_nouveau.enchanting_apparatus(['kubejs:recipe_changed'],'kubejs:recipe_changed',"ars_nouveau:wixie_charm").id("ars_nouveau:wixie_charm")
+   event.recipes.naturesaura.tree_ritual("ars_nouveau:wixie_charm",
+        ["ars_nouveau:wixie_shards",
+        "naturesaura:auto_crafter",
+        "woodenhopper:wooden_hopper",
+        "woodenhopper:wooden_hopper",
+        "minecraft:amethyst_shard",
+        "minecraft:amethyst_shard",
+        "minecraft:amethyst_shard",
+        "minecraft:amethyst_shard"],
+        "ars_nouveau:purple_archwood_sapling")
 })
