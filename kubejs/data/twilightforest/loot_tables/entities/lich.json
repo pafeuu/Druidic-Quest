@@ -19,9 +19,37 @@
         {
           "type": "minecraft:item",
           "name": "twilightforest:fortification_scepter"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "kubejs:lesser_arcane_ring"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "kubejs:lesser_fire_ring"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "kubejs:lesser_ice_ring"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "kubejs:lesser_nature_ring"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "kubejs:lesser_lightning_ring"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "kubejs:lesser_blood_ring"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "kubejs:lesser_ender_ring"
         }
       ],
-      "rolls": 1.0
+      "rolls": 2.0
     },
     {
       "bonus_rolls": 0.0,

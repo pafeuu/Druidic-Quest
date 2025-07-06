@@ -1,10 +1,5 @@
 
 LootJS.modifiers((event) => {
-    
-    ///================================ Removing ===================================
-
-    event.addLootTypeModifier(LootType.CHEST)
-        .removeLoot(/.*effortless.*/)
   
     ///=======================================Replacing Junk
 
@@ -234,6 +229,12 @@ LootJS.modifiers((event) => {
          })
          .addLoot(Item.of('minecraft:leather_boots', '{AttributeModifiers:[{Amount:2,AttributeName:"generic.armor",Name:"generic.armor",Operation:0,Slot:"feet",UUID:[I;454154958,2103133474,-1242695491,-485396269]},{Amount:2,AttributeName:"alembic:ice_damage.resistance",Name:"generic.armor_toughness",Operation:0,Slot:"feet",UUID:[I;-429574747,642403351,-1679343235,-1987867171]},{Amount:1,AttributeName:"generic.max_health",Name:"generic.max_health",Operation:0,Slot:"feet",UUID:[I;1174972107,1056001029,-1625354475,-1180550624]}],Damage:0,display:{Name:\'{"text":"Cozy Boots","color":"light_purple","bold":true}\',color:16383998}}'))
     
+    event.addLootTypeModifier([LootType.CHEST])
+        .and((and) => {
+            and.biome("#forge:is_snowy").randomChance(0.25)
+         })
+         .addLoot("kubejs:mittens")
+         
     event.addLootTypeModifier([LootType.CHEST])
         .and((and) => {
             and.anyDimension("minecraft:overworld").randomChance(0.02)
