@@ -78,6 +78,10 @@ ServerEvents.recipes(event => {
         })  
     }
 
+    MillingWithExtras(4, "vintagedelight:salt", 6, 1, "coal", 0.9, "wizards_reborn:nether_salt", 4, "wizards_reborn:salt_crushing")
+    MillingWithExtras(1, "wizards_reborn:arcanum_dust", 2, 1, "wizards_reborn:arcanum_dust", 0.5, "wizards_reborn:arcanum", 4, "wizards_reborn:shapeless/arcanum_dust")
+    event.remove({id:"wizards_reborn:shapeless/arcanum_dust_with_redstone"})
+
     MillingWithExtras(1, 'create:wheat_flour', 2, 1, 'create:wheat_flour', 0.5, 'minecraft:wheat', 2, 'create:milling/wheat')
 
     MillingWithExtras(2, 'naturesaura:gold_powder', 4, 2, 'naturesaura:gold_powder', 0.5, 'naturesaura:gold_leaf', 2, 'naturesaura:gold_powder')
@@ -93,6 +97,7 @@ ServerEvents.recipes(event => {
     MillingNoExtras(1, 'wizards_reborn:ground_warped_fungus', 'warped_fungus', 1,'wizards_reborn:mortar/ground_warped_fungus')
     MillingNoExtras(1, 'wizards_reborn:ground_elder_mor', 'wizards_reborn:elder_mor', 1,'wizards_reborn:mortar/ground_elder_mor')
     MillingNoExtras(1, 'wizards_reborn:ground_mor', 'wizards_reborn:mor', 1,'wizards_reborn:mortar/ground_mor')
+    MillingNoExtras(1, "wizards_reborn:petals","wizards_reborn:flower_fertilizer",1,'wizards_reborn:petal_duping')
     
 
 
