@@ -37,7 +37,7 @@ ServerEvents.recipes(event=>{
 
     event.remove({id:"vintageimprovements:sequenced_assembly/redstone_module"})
 
-    binding("kubejs:light_essence","water",1250,
+    binding("kubejs:light_essence","fire",1250,
         "quark:glowberry_sack",
         "#forge:froglights",
         "glow_ink_sac",
@@ -47,6 +47,61 @@ ServerEvents.recipes(event=>{
         "ars_nouveau:air_essence",
         "ars_nouveau:fire_essence",
         "light_essence")
+
+    binding("kubejs:dark_essence","earth",1250,
+        "quark:nether_wart_sack",
+        "wither_skeleton_skull",
+        "ink_sac",
+        "ars_nouveau:earth_essence",
+        "ars_nouveau:water_essence",
+        "ars_nouveau:earth_essence",
+        "ars_nouveau:water_essence",
+        "ars_nouveau:earth_essence",
+        "dark_essence")
+
+    binding("kubejs:ender_essence","air",1250,
+        "ars_nouveau:air_essence",
+        "ender_pearl",
+        "ars_nouveau:air_essence",
+        "ender_pearl",
+        "ars_nouveau:air_essence",
+        "ender_pearl",
+        "ars_nouveau:air_essence",
+        "thermal:ruby",
+        "ender_essence")
+
+    binding("kubejs:lightning_essence","fire",1250,
+        "thermal:lightning_tnt",
+        "ars_nouveau:ritual_cloudshaping",
+        "thermal:lightning_tnt",
+        "minecraft:lightning_rod",
+        "thermal:lightning_tnt",
+        "ars_nouveau:fire_essence",
+        "thermal:lightning_tnt",
+        "thermal:ruby",
+        "lightning_essence")
+
+    binding("kubejs:life_essence","water",1250,
+        "kubejs:light_essence",
+        "vintagedelight:cheese_pizza",
+        "kubejs:light_essence",
+        "naturesaura:birth_spirit",
+        "kubejs:light_essence",
+        "naturesaura:birth_spirit",
+        "kubejs:light_essence",
+        "thermal:ruby",
+        "life_essence")
+
+    binding("kubejs:death_essence","fire",1250,
+        "kubejs:dark_essence",
+        "alexsdelight:maggot_salad",
+        "kubejs:dark_essence",
+        "forbidden_arcanus:corrupt_soul",
+        "kubejs:dark_essence",
+        "forbidden_arcanus:corrupt_soul",
+        "kubejs:dark_essence",
+        "thermal:ruby",
+        "death_essence")
     
     event.remove({output:"create:smart_chute"})
     binding4ingredients("create:smart_chute","water",250,
@@ -80,7 +135,7 @@ ServerEvents.recipes(event=>{
         "ars_nouveau:water_essence",
         "ars_nouveau:air_essence",
         "ars_nouveau:earth_essence",
-        "kubejs:nature_essence",
+        "kubejs:lightning_essence",
         "kubejs:nature_essence",
         "kubejs:nature_essence",
         "kubejs:fiery_magic_feather",
