@@ -10,7 +10,7 @@
     },
     {
       "type": "append",
-      "attribute": "alembic:arcane_damage.resistance",
+      "attribute": "alembic:arcane_damage",
       "value": 0.3,
       "operation": "ADDITION",
       "uuid": "2c0a0440-af55-4333-a23a-5c7d0e3c2225"

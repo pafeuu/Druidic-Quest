@@ -10,6 +10,7 @@ ServerEvents.recipes(event=>{
             "wissen": wissen
         })
     }
+    
 
     altar("kubejs:earth_infused_arcanum",1500)
     altar("kubejs:air_infused_arcanum",1500)
