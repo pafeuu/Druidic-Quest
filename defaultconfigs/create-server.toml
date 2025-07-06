@@ -209,12 +209,12 @@
 		#[in Revolutions per Minute]
 		#Minimum speed of rotation to be considered 'medium'
 		#Range: 0.0 ~ 4096.0
-		mediumSpeed = 30.0
+		mediumSpeed = 24.0
 		#.
 		#[in Revolutions per Minute]
 		#Minimum speed of rotation to be considered 'fast'
 		#Range: 0.0 ~ 65535.0
-		fastSpeed = 100.0
+		fastSpeed = 48.0
 		#.
 		#[in Stress Units]
 		#Minimum stress impact to be considered 'medium'
@@ -248,10 +248,10 @@
 			#Configure the individual stress impact of mechanical blocks. Note that this cost is doubled for every speed increase it receives.
 			[kinetics.stressValues.v2.impact]
 				deployer = 4.0
-				millstone = 4.0
-				cuckoo_clock = 1.0
+				millstone = 1.0
+				cuckoo_clock = 0.0
 				speedometer = 0.0
-				copper_backtank = 4.0
+				copper_backtank = 1.0
 				mechanical_saw = 4.0
 				flywheel = 0.0
 				adjustable_chain_gearshift = 0.0
@@ -269,25 +269,25 @@
 				shaft = 0.0
 				gearshift = 0.0
 				sequenced_gearshift = 0.0
-				weighted_ejector = 2.0
+				weighted_ejector = 0.0
 				andesite_encased_cogwheel = 0.0
 				gearbox = 0.0
 				elevator_pulley = 4.0
 				mechanical_crafter = 2.0
 				display_board = 0.0
-				mechanical_piston = 4.0
+				mechanical_piston = 0.0
 				mechanical_bearing = 4.0
 				clockwork_bearing = 4.0
 				encased_chain_drive = 0.0
 				clutch = 0.0
-				encased_fan = 2.0
+				encased_fan = 8.0
 				rope_pulley = 4.0
 				rotation_speed_controller = 0.0
 				netherite_backtank = 4.0
 				brass_encased_large_cogwheel = 0.0
-				mysterious_cuckoo_clock = 1.0
+				mysterious_cuckoo_clock = 0.0
 				brass_encased_shaft = 0.0
-				turntable = 4.0
+				turntable = 0.0
 				sticky_mechanical_piston = 4.0
 				cogwheel = 0.0
 				belt = 0.0
@@ -298,13 +298,13 @@
 			#[in Stress Units]
 			#Configure how much stress a source can accommodate for.
 			[kinetics.stressValues.v2.capacity]
-				copper_valve_handle = 8.0
-				hand_crank = 8.0
+				copper_valve_handle = 1.0
+				hand_crank = 1.0
 				steam_engine = 1024.0
 				creative_motor = 16384.0
-				large_water_wheel = 128.0
-				water_wheel = 32.0
-				windmill_bearing = 512.0
+				large_water_wheel = 0.0
+				water_wheel = 0.0
+				windmill_bearing = 0.0
 
 #.
 #Create's liquid manipulation tools
