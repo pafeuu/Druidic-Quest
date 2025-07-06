@@ -80,7 +80,7 @@ ServerEvents.recipes(event => {
 			"ATA"
 		],
 		{
-			G:"naturesaura:golden_leaf",
+			G:"naturesaura:gold_leaf",
 			A:"wizards_reborn:arcanum",
 			T:"naturesaura:wood_stand"
 		}
@@ -618,6 +618,19 @@ ServerEvents.recipes(event => {
 	
 	/// ======================================================================= Tier 1 components =======================================================================
 
+	event.shapeless("6x wizards_reborn:flower_fertilizer",["4x thermal:compost","5x wizards_reborn:petals"]).id("wizards_reborn:shapeless/flower_fertilizer")
+	event.shaped("6x create:shaft",
+		[
+			"ARA",
+			"ARA",
+			"ARA"
+		],
+		{
+			R: "#forge:rods/nickel",
+			A: "andesite"
+		}
+	)
+
 	event.shaped("6x torch",["C","S"],{C:"#forge:coal_coke",S:"#c:rods/wooden"})
 	event.custom({
 		"type": "lychee:block_crushing",
@@ -659,21 +672,21 @@ ServerEvents.recipes(event => {
 
 	event.shapeless('kubejs:primitive_alchemical_dust',[
 		"#forge:tools/mortars",
-		"#forge:dusts/arcane_crystal",
+		"wizards_reborn:arcanum_dust",
 		"#forge:dusts/gold",
 		"kubejs:infused_emerald"]).damageIngredient("#forge:tools/mortars", 4).id("kubejs:primitive_alchemical_dust")
 	
 	event.shapeless('kubejs:basic_alchemical_dust',[
 		"#forge:tools/mortars",
 		"kubejs:primitive_alchemical_dust",
-		"#forge:dusts/silver",
+		"#forge:dusts/arcane_crystal",
 		"kubejs:infused_diamond"]).damageIngredient("#forge:tools/mortars", 8).id("kubejs:basic_alchemical_dust")
 
 	event.shapeless('kubejs:improved_alchemical_dust',[
 		"#forge:tools/mortars",
 		"kubejs:basic_alchemical_dust",
-		"tombstone:grave_dust",
-		"tombstone:essence_of_undeath",
+		"#forge:dusts/silver",
+		"forbidden_arcanus:soul",
 		"thermal:sapphire"]).damageIngredient("#forge:tools/mortars", 12).id("kubejs:improved_alchemical_dust")
 
 	event.shapeless('kubejs:advanced_alchemical_dust',[
@@ -1211,6 +1224,21 @@ ServerEvents.recipes(event => {
 	)
 	
 	/// ======================================================================= Tier 1 Machines =======================================================================
+
+	event.shaped("naturesaura:placer",
+		[
+			"SES",
+			"GDG",
+			"SWS"
+		],
+		{
+			S: "cobblestone",
+			G: "kubejs:stone_gear",
+			E: "#forge:gems/emerald",
+			W: "woodenhopper:wooden_hopper",
+			D: "dispenser"
+		}
+	).id("naturesaura:placer")
 
 	event.shaped("thermal:item_buffer",
 		[
@@ -2028,8 +2056,8 @@ ServerEvents.recipes(event => {
 	event.shaped("kubejs:big_enchanting_rune",["AA","AA"],{A:"kubejs:medium_enchanting_rune"})
 	event.shaped("kubejs:large_enchanting_rune",["AA","AA"],{A:"kubejs:big_enchanting_rune"})
 	event.shapeless("4x kubejs:big_enchanting_rune","kubejs:large_enchanting_rune")
-	event.shapeless("4x kubejs:medium_enchanting_rune","4x kubejs:big_enchanting_rune")
-	event.shapeless("4x kubejs:small_enchanting_rune","4x kubejs:medium_enchanting_rune")
+	event.shapeless("4x kubejs:medium_enchanting_rune","kubejs:big_enchanting_rune")
+	event.shapeless("4x kubejs:small_enchanting_rune","kubejs:medium_enchanting_rune")
 
 	event.recipes.naturesaura.altar("aether:zanite_gemstone","diamond",7500,40)
 	event.recipes.naturesaura.altar("deep_aether:skyjade","emerald",7500,40)
@@ -2159,7 +2187,23 @@ ServerEvents.recipes(event => {
 		]
 	})
 
-   event.recipes.ars_nouveau.enchanting_apparatus(["kubejs:zinc_tool_handle","thermal:ruby","#forge:storage_blocks/gold","#forge:storage_blocks/gold","#forge:storage_blocks/gold","#forge:storage_blocks/gold"],"bundle","kubejs:gold_upgrade_parts")
+   event.recipes.ars_nouveau.enchanting_apparatus(
+	[
+		"kubejs:zinc_tool_handle",
+		"thermal:ruby",
+		"#forge:storage_blocks/gold",
+		"#forge:storage_blocks/gold",
+		"#forge:storage_blocks/gold",
+		"#forge:storage_blocks/gold"],
+		"bundle","kubejs:gold_upgrade_parts")
+
+	event.recipes.ars_nouveau.enchanting_apparatus(
+	[
+		"#forge:plates/steel",
+		"#forge:plates/steel",
+		"#forge:plates/steel",
+		"#forge:plates/steel"],
+		"bundle","kubejs:steel_upgrade_parts")
 
    event.custom({
 	type: "lychee:block_crushing",
@@ -2253,10 +2297,10 @@ ServerEvents.recipes(event => {
 			}
 		  )
 	}
-	smithingtemplate("mossy_stone_bricks","naturesaura:infused_iron","botanist")
+	smithingtemplate("mossy_stone_bricks","#forge:ingots/iron","botanist")
 	smithingtemplate("calcite","naturesaura:sky_ingot","skyseeker")
 	smithingtemplate("basalt","#forge:plates/gold","gold")
-	smithingtemplate("end_stone","#forge:ingots/steel","steel")
+	smithingtemplate("deepslate","#forge:ingots/infused_iron","steel")
 	smithingtemplate("deep_aether:aseterite","#forge:ingots/phoenix","phoenix")
 
 	event.recipes.naturesaura.tree_ritual("naturesaura:token_joy",
@@ -2403,6 +2447,8 @@ ServerEvents.recipes(event => {
 	event.replaceInput({id:'naturescompass:natures_compass'},'#minecraft:saplings','kubejs:nature_essence')
 	/// ======================================== Tier 2 Machines ================================================================
 
+	event.shaped('ars_nouveau:basic_spell_turret',["R"],{R:"kubejs:recipe_changed"}).id('ars_nouveau:basic_spell_turret')
+
 	event.shaped('ars_nouveau:basic_spell_turret',
 			[
 				"RDR",
@@ -2416,11 +2462,13 @@ ServerEvents.recipes(event => {
 				M: "kubejs:basic_magic_machine",
 				B: "#forge:storage_blocks/source"
 			}
-		).id('ars_nouveau:basic_spell_turret')
+		)
 	
-		event.remove({id:'ars_nouveau:rotating_turret_to_basic_spell_turret'})
-	
-		event.shaped('ars_nouveau:rotating_spell_turret',
+	event.remove({id:'ars_nouveau:rotating_turret_to_basic_spell_turret'})
+		
+	event.shaped('ars_nouveau:rotating_spell_turret',["R"],{R:"kubejs:recipe_changed"}).id('ars_nouveau:rotating_spell_turret')
+
+	event.shaped('ars_nouveau:rotating_spell_turret',
 			[
 				" G ",
 				"GMG",
@@ -2430,9 +2478,11 @@ ServerEvents.recipes(event => {
 				G: "#forge:gears/stone",
 				M: "ars_nouveau:basic_spell_turret"
 			}
-		).id('ars_nouveau:rotating_spell_turret')
-	
-		event.shaped('ars_nouveau:spell_turret',
+		)
+		
+	event.recipes.ars_nouveau.enchanting_apparatus("kubejs:recipe_changed","kubejs:recipe_changed",'ars_nouveau:spell_turret').id('ars_nouveau:spell_turret')
+
+	event.shaped('ars_nouveau:spell_turret',
 			[
 				"XXX",
 				"GMG",
@@ -2443,9 +2493,11 @@ ServerEvents.recipes(event => {
 				M: "ars_nouveau:basic_spell_turret",
 				X: 'forbidden_arcanus:xpetrified_orb'
 			}
-		).id('ars_nouveau:spell_turret')
-	
-		event.shaped('ars_nouveau:timer_spell_turret',
+		)
+		
+	event.recipes.ars_nouveau.enchanting_apparatus("kubejs:recipe_changed","kubejs:recipe_changed",'ars_nouveau:timer_spell_turret').id('ars_nouveau:timer_spell_turret')
+
+	event.shaped('ars_nouveau:timer_spell_turret',
 			[
 				"CRC",
 				"CMC",
@@ -2457,7 +2509,7 @@ ServerEvents.recipes(event => {
 				H: 'supplementaries:hourglass',
 				R: "create:pulse_repeater"
 			}
-		).id('ars_nouveau:timer_spell_turret')
+		)
 
 	event.shaped("thermal:filter_attachment",
 		[ 
@@ -2791,14 +2843,6 @@ ServerEvents.recipes(event => {
 		],
 		"sourceCost": 0
 	})
-	
-	event.remove({output:"create:water_wheel"})
-	event.shapeless("create:water_wheel", ["create:cogwheel","ars_nouveau:water_essence"])
-	
-	event.remove({output:"create:large_water_wheel"})
-	event.shapeless("create:large_water_wheel", ["create:large_cogwheel","2x ars_nouveau:water_essence"])
-	
-	
 	
 	///========================================= Tier 3 Components ================================================================
 
@@ -3545,7 +3589,8 @@ ServerEvents.recipes(event => {
 		{ A:"create:andesite_casing",X:"create:chute",Y:"kubejs:andesite_machine",}).id("create:crafting/kinetics/portable_storage_interface")
 	
 	//============================================ Tier 4 Components ========================================================================================
-	
+	event.remove({id:"immersiveengineering:blastfurnace/steel_block"})
+
 	event.shaped("thermal:redstone_servo",
 		[
 			"RGR",
@@ -3638,6 +3683,7 @@ ServerEvents.recipes(event => {
 	
 	event.recipes.create.mixing("2x kubejs:fiery_clay_blend",["8x #forge:dusts/coal_coke","4x ars_nouveau:fire_essence","4x ars_nouveau:earth_essence","2x clay_ball","8x wizards_reborn:nether_salt"]).heated()
 
+	event.recipes.create.mixing("kubejs:wrought_iron_ingot",["2x ars_nouveau:earth_essence","2x ars_nouveau:fire_essence","4x supplementaries:ash","#forge:ingots/iron"]).heated()
 	
 	event.shaped(
 		Item.of('create:empty_blaze_burner'), 
