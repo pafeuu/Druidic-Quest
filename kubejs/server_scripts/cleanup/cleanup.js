@@ -603,6 +603,7 @@ ServerEvents.recipes(event => {
 	CustomGears("stainless_steel","kubejs:stainless_steel_gear")
 	CustomGears("ironwood","kubejs:ironwood_gear")
 	CustomGears("knightmetal","kubejs:knightmetal_gear")
+	CustomGears("arcane_gold","kubejs:arcane_gold_gear")
 	//CustomGears("drenched_iron","kubejs:drenched_iron_gear")
 	//CustomGears("swift_alloy","kubejs:swift_alloy_gear")
 	CustomGears("tainted_gold","kubejs:tainted_gold_gear")
@@ -668,6 +669,7 @@ ServerEvents.recipes(event => {
 	rods("sky","kubejs:sky_rod")
 	rods("depth","kubejs:depth_rod")
 	rods("brass","kubejs:brass_rod")
+	rods("arcane_gold","kubejs:arcane_gold_rod")
 	//rods("fireite","kubejs:fireite_rod")
 
 	event.remove({id:"vintageimprovements:craft/fiery_rod"})
@@ -891,6 +893,7 @@ ServerEvents.recipes(event => {
 	plates("forge:ingots/stainless_steel",'immersiveengineering:plate_steel',"immersiveengineering:storage_steel")
 	plates("forge:ingots/steel","thermal:steel_plate","thermal:steel_block")
 	plates("forge:ingots/electrum","immersiveengineering:plate_electrum","thermal:electrum_block")
+	plates("forge:ingots/arcane_gold","wizards_reborn:arcane_gold_sheet","wizards_reborn:arcane_gold_block")
 
 	plates("forge:ingots/constantan",'vintageimprovements:constantan_sheet',"thermal:constantan_block")
 	plates("forge:ingots/enderium",'vintageimprovements:enderium_sheet','thermal:enderium_block')
