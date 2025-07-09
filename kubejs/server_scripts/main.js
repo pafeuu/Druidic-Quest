@@ -692,8 +692,8 @@ ServerEvents.recipes(event => {
 	event.shapeless('kubejs:advanced_alchemical_dust',[
 		"#forge:tools/mortars",
 		"kubejs:improved_alchemical_dust",
-		"#forge:ingots/fiery",
-		"kubejs:life_essence",
+		"forbidden_arcanus:mundabitur_dust",
+		"#forge:ingots/phoenix",
 		"thermal:ruby"]).damageIngredient("#forge:tools/mortars", 16).id("kubejs:advanced_alchemical_dust")
 
 	event.custom({
@@ -756,6 +756,39 @@ ServerEvents.recipes(event => {
 			{
 				type: "execute",
 				command: "particle deep_aether:poison_bubbles ~ ~2 ~ 0 0 0 0.1 20",
+				hide: "true"
+			}
+		]
+	})
+
+	event.custom({
+		type: "lychee:lightning_channeling",
+		item_in: [
+			{item: "kubejs:improved_alchemical_dust"},
+			{tag: "forge:ingots/fiery"},
+			{item: "kubejs:life_essence"},
+			{item: "kubejs:death_essence"}
+		],
+		contextual: [
+			{type: "location",predicate:{dimension: "aether:the_aether"}},
+		],
+		post: [
+			{
+				type: "delay",
+				s: 1
+			},
+			{
+				type: "drop_item",
+				item: "kubejs:phoenix_ingot",
+			},
+			{
+				type: "execute",
+				command: "playsound forbidden_arcanus:item.mundabitur_dust.use neutral @p",
+				hide: "true"
+			},
+			{
+				type: "execute",
+				command: "particle irons_spellbooks:fire ~ ~ ~ 0 0 0 0.02 15",
 				hide: "true"
 			}
 		]
@@ -2153,7 +2186,6 @@ ServerEvents.recipes(event => {
 		],
 		item_in: [
 			{ item: "forbidden_arcanus:arcane_crystal_dust" },
-			{ item: "kubejs:source_alloy_ingot" },
 			{ item: "wither_rose" },
 			{ tag: "forge:gems/cinnabar" }
 		]
@@ -2167,7 +2199,6 @@ ServerEvents.recipes(event => {
 		],
 		item_in: [
 			{ item: "forbidden_arcanus:arcane_crystal_dust" },
-			{ item: "kubejs:source_alloy_ingot" },
 			{ item: "wither_rose" },
 			{ tag: "forge:gems/ruby" }
 		]
@@ -2181,7 +2212,6 @@ ServerEvents.recipes(event => {
 		],
 		item_in: [
 			{ item: "forbidden_arcanus:arcane_crystal_dust" },
-			{ item: "kubejs:source_alloy_ingot" },
 			{ item: "wither_rose" },
 			{ item: "thermal:ruby" }
 		]
@@ -3180,16 +3210,19 @@ ServerEvents.recipes(event => {
 			count: 3
 		  },
 		  "input1": {
-			item: "minecraft:gold_ingot"
+			item: "naturesaura:tainted_gold"
 		  },
 		  "result": {
 			"base_ingredient": {
-			  item: "forbidden_arcanus:deorum_ingot"
+			  item: "wizards_reborn:arcane_gold_ingot"
 			},
 			"count": 1
 		  },
 		  "time": 200
 	}).id("forbidden_arcanus:deorum_ingot")
+
+	event.remove({id:"wizards_reborn:blasting/arcane_gold_ingot"})
+	event.remove({id:"wizards_reborn:smelting/arcane_gold_ingot"})
 
 	event.custom({
 		type: "immersiveengineering:alloy",
@@ -3324,6 +3357,19 @@ ServerEvents.recipes(event => {
 	
 	///======================================== Tier 3 Machines =======================================================================
 
+	event.shaped("mbd2:elemental_binder",
+		[
+			"PIP",
+			"RGR",
+			"PIP"
+		],
+		{
+			P: "#forge:plates/arcanum_alloy",
+			R: "kubejs:carbon_infused_sturdy_handle",
+			G: "#forge:gears/arcane_gold",
+			I: "mbd2:elemental_infuser"
+		}
+	)
 
 	event.shaped("kubejs:vine_generator",
 			[
@@ -3426,13 +3472,13 @@ ServerEvents.recipes(event => {
 	
 	event.shaped("create:steam_engine",
 		[
-			"PAP",
 			"PFP",
+			"PAP",
 			"PWP"
 		],
 		{
 			P: "#forge:plates/copper",
-			A: "#forge:rods/andesite",
+			A: "kubejs:andesite_machine",
 			F: "ars_nouveau:fire_essence",
 			W: "ars_nouveau:water_essence"
 		}
