@@ -263,7 +263,20 @@
 		{
 			dependencies: ["23878BB2C97470D0"]
 			description: [
-				"As you might have already realized a lot of player attributes are nerfed you can choose a custom totem to negate one of those nerfs."
+				"As you might have already realized this player attributes are nerfed:"
+				""
+				"-Movement Speed"
+				"-Mining Speed"
+				"-Block Reach"
+				"-Max Health"
+				""
+				"You can choose a custom totem to negate one of those nerfs."
+				""
+				"&6Roadrunner Totem&r for increased movement speed."
+				""
+				"&4Crab Totem&r for increased block reach."
+				""
+				"&eLeafcutter Ant&r Totem for increased axe speed."
 				""
 				"Totems are new items custom made for the pack they will give you special effects when held in the offhand"
 			]

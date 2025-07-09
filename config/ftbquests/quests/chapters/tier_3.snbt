@@ -28,7 +28,7 @@
 				item: "create:andesite_alloy"
 				type: "item"
 			}]
-			x: -6.0d
+			x: 6.0d
 			y: 1.0d
 		}
 		{
@@ -86,7 +86,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 0.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["0546AB4A107ED496"]
@@ -143,8 +143,8 @@
 					type: "item"
 				}
 			]
-			x: -1.5d
-			y: 0.0d
+			x: -3.0d
+			y: 0.5d
 		}
 		{
 			dependencies: [
@@ -177,11 +177,14 @@
 				item: "kubejs:andesite_machine"
 				type: "item"
 			}]
-			x: -6.0d
+			x: 6.0d
 			y: -3.0d
 		}
 		{
-			dependencies: ["598CB97D6AAE242D"]
+			dependencies: [
+				"598CB97D6AAE242D"
+				"309BD32733CE043D"
+			]
 			hide_until_deps_visible: false
 			id: "1A94843C9B0DD8FF"
 			rewards: [
@@ -234,7 +237,10 @@
 			y: -6.0d
 		}
 		{
-			dependencies: ["598CB97D6AAE242D"]
+			dependencies: [
+				"598CB97D6AAE242D"
+				"309BD32733CE043D"
+			]
 			hide_until_deps_visible: false
 			icon: "create:mechanical_mixer"
 			id: "35BF841735837D97"
@@ -296,7 +302,7 @@
 			}]
 			title: "Visit the Aether!"
 			x: 1.5d
-			y: 0.0d
+			y: 0.5d
 		}
 		{
 			dependencies: [
@@ -351,8 +357,8 @@
 				type: "item"
 			}]
 			title: "Brass Logistics"
-			x: 0.0d
-			y: -1.5d
+			x: -2.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["166492730EA5EBBD"]
@@ -374,7 +380,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: 0.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["0546AB4A107ED496"]
@@ -419,6 +425,29 @@
 			}]
 			x: -1.5d
 			y: 3.5d
+		}
+		{
+			dependencies: [
+				"598CB97D6AAE242D"
+				"47CA7121501C2397"
+			]
+			icon: "create:steam_engine"
+			id: "309BD32733CE043D"
+			tasks: [
+				{
+					id: "287944BA1BDF8D2E"
+					item: "create:steam_engine"
+					type: "item"
+				}
+				{
+					id: "475B3949AF141EAB"
+					item: "create:fluid_tank"
+					type: "item"
+				}
+			]
+			title: "Stress Unit Generator"
+			x: 4.0d
+			y: -3.0d
 		}
 	]
 	title: "Tier 3 - Primitive Tech"

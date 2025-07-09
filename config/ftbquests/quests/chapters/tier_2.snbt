@@ -153,18 +153,11 @@
 				type: "item"
 			}]
 			shape: "rsquare"
-			tasks: [
-				{
-					id: "60937A56BF39052A"
-					item: "mbd2:elemental_extractor"
-					type: "item"
-				}
-				{
-					id: "1FD91F231C58F791"
-					item: "mbd2:elemental_evaporator"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "1FD91F231C58F791"
+				item: "mbd2:elemental_evaporator"
+				type: "item"
+			}]
 			title: "Means of getting the elements"
 			x: -6.0d
 			y: 4.0d

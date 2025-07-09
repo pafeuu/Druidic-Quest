@@ -58,6 +58,17 @@
 			x: -6.5d
 			y: -2.0d
 		}
+		{
+			dependencies: ["0BC1E6E014D2F809"]
+			id: "24F667ABDE037B01"
+			tasks: [{
+				id: "68E3860A0EB3DA63"
+				item: "minecraft:end_portal_frame"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -1.0d
+		}
 	]
 	title: "Tier 4 - Basic Logistics"
 }

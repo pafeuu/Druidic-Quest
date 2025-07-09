@@ -1834,10 +1834,10 @@ Patch 0.3.2.1
     -Oh the Biomes We've Gone
     -Oh the Trees you will grow
     -CorgiLib
-    -EpicTerrainCompatible
     -AdvancedLootInfo
     -Mana Unification
     -Biome Spawn Point
+    -Load my F Tags
 
 ### Updated Mods:
     -PuzzlesLib
@@ -1908,6 +1908,8 @@ Patch 0.3.2.1
     -Added Blast Brick
     -Added Rotten Flesh Block
     -Added Steel Upgrade Parts
+    -Added Arcane Gold Rod
+    -Added Arcane Gold Gear
 
 ### Textures:
     -Changed for Flint Pickaxe
@@ -1952,10 +1954,16 @@ Patch 0.3.2.1
     -Changed for Steel Upgrade Smithing Template
     -Changed for Steel Tools and Armor
     -Changed for Mage's Spell Book
+    -Added for Builder's Belt
+    -Added for Phoenix Ingot
+    -Changed for Advanced Alchemical Dust
+    -Changed for Mundabitur Dust
 
 ### Loot:
     -Buffed chance of finding dimensional keys in lootchests
     -Adjusted Golden Dungeon Loottables
+    -Adjusted Silver Dungeon Loottables
+    -Adjusted Bronze Dungeon Loottables
     -Fixed Lich Loottable
     -Buffed Naga Loottable
     -Fixed Abandoned Temple Loottables
@@ -1967,6 +1975,10 @@ Patch 0.3.2.1
     -Mojos now drop souls
     -Adjusted Piglin Bartering loottable
     -Added Royal Guard Sword to the castle loottables
+    -Fixed shipwreck loottable
+    -Buffed loot from Hydra
+    -Buffed loot from Minoshroom
+    -Buffed loot from Knight Phantom Boss
 
 ### Create Balance Changes:
     -Valve Handle and Handcrank now only accommodate 1 stress unit
@@ -1992,6 +2004,7 @@ Patch 0.3.2.1
 
 ### Tooltips:
     -Added tooltip to the Ice Pendant
+    -Added tooltips to items that aren't yet properly implemented
 
 ### EMI info:
     -Added for Ash
@@ -2009,6 +2022,7 @@ Patch 0.3.2.1
     -Fixed doubled nature resistance on turtle helmet
     -Buffed Spiked Turtle Shell and added it to the Hunter armor set
     -The Magnetic Ring and The Dislocation Ring now decrease your mana regen when worn
+    -Completely Changed Blazing Swordfish
 
 ### Mob Balance:
     -All the Bosses no longer scale with player difficulty
@@ -2022,6 +2036,7 @@ Patch 0.3.2.1
     -You will always spawn in one of a few biomes when creating a new world
     -Massively Increased the amount of pebbles and twigs on the ground
     -Reverted changes to the Tinkers Citadel(for now)
+    -Reverted changes to villages(for now)
 
 ### Other:
     -Fixed flint hoes not tilling ground in a 3x3
@@ -2034,6 +2049,8 @@ Patch 0.3.2.1
     -Adjusted Main Menu of the pack
     -Adjusted other loading screens
     -Fixed ArsNouveau's guidebook
+    -Added Ponder info to the Sacrificial Altar
+    -Fixed loading screen tips(By Gyldanword)
 
 
 

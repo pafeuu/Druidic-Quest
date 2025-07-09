@@ -189,6 +189,11 @@
 		}
 		{
 			dependencies: ["72B159FFE63F8CFA"]
+			description: [
+				"Right clicking on infested stones might cause you to obtain silver dust."
+				""
+				"&o&8But beware of the consequences..&r&r"
+			]
 			id: "07EB636C6BF2BC33"
 			tasks: [{
 				id: "58BE83C027F1CEE4"

@@ -19,6 +19,7 @@
 	quests: [
 		{
 			dependencies: ["6F5C7CA9C74F13E9"]
+			description: ["You can double click the search bar while typed in the item you are looking for to highlight it in your inventory or opened containers!"]
 			icon: "handcrafted:stackable_book"
 			id: "0D9BE29FAE146910"
 			shape: "octagon"
@@ -26,7 +27,7 @@
 			subtitle: "Better recipe book"
 			tasks: [{
 				id: "480467DCCF9BDD25"
-				title: "REI tips"
+				title: "EMI tips"
 				type: "checkmark"
 			}]
 			title: "EMI tips"
@@ -58,36 +59,6 @@
 			}]
 			title: "FTB commands"
 			x: -6.0d
-			y: -1.0d
-		}
-		{
-			can_repeat: true
-			dependencies: ["6F5C7CA9C74F13E9"]
-			description: [
-				"Due to bug Loot is only shown in EMI after the reload."
-				""
-				"Claim the reward to reload your world but keep in mind it will cause some lag!"
-			]
-			icon: "lootr:lootr_chest"
-			id: "70FD10D253336B79"
-			rewards: [{
-				command: "/reload"
-				elevate_perms: true
-				exclude_from_claim_all: true
-				id: "18334AFAB3CF9E6B"
-				silent: true
-				type: "command"
-			}]
-			shape: "octagon"
-			size: 2.0d
-			subtitle: "Repeatable Reload"
-			tasks: [{
-				id: "7E5DDB99224E7C03"
-				title: "EMI Tips"
-				type: "checkmark"
-			}]
-			title: "EMI Loot Bug"
-			x: -2.0d
 			y: -1.0d
 		}
 	]
