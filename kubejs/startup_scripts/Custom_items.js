@@ -166,6 +166,7 @@ StartupEvents.registry('item', item => {
   item.create('brass_gear').tag('forge:gears/brass').tag('forge:gears').tag("dq:tier3/component")
   item.create('knightmetal_gear').tag('forge:gears/knightmetal').tag('forge:gears').tag("dq:tier3/component")
   item.create('fiery_gear').tag('forge:gears/fiery').tag('forge:gears').tag("dq:tier3/component")
+  item.create('arcane_gold_gear').tag('forge:gears/arcane_gold').tag('forge:gears').tag("dq:tier3/component")
 
   //item.create('swift_alloy_gear').tag('forge:gears/swift_alloy').tag('forge:gears').tag("dq:tier4/component")
   item.create('sky_gear').tag('forge:gears/sky').tag('forge:gears').tag("dq:tier4/component")
@@ -194,6 +195,7 @@ StartupEvents.registry('item', item => {
 
   item.create("brass_rod").tag("forge:rods").tag("forge:rods/brass").tag("dq:tier3/component")
   item.create('fiery_rod').tag("forge:rods").tag("forge:rods/fiery").tag("dq:tier3/component")
+  item.create("arcane_gold_rod").tag("forge:rods").tag("forge:rods/arcane_gold").tag("dq:tier3/component")
   //item.create("drenched_iron_rod").tag("forge:rods").tag("forge:rods/drenched_iron").tag("dq:tier3/component")
 
   item.create("sky_rod").tag("forge:rods").tag("forge:rods/sky").tag("dq:tier4/component")
