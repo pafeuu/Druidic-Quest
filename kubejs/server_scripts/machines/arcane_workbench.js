@@ -276,4 +276,85 @@ ServerEvents.recipes(event=>{
     "wissen": 500
     })
 
+    event.custom({
+    "type": "wizards_reborn:arcane_workbench",
+    "pattern": [
+        "RRR",
+        "RXR",
+        "RRR",
+        "__S_"
+    ],
+    "key": {
+        "X": {
+        "item": "ars_nouveau:mundane_belt"
+        },
+        "S": {
+        "item": "thermal:sapphire"
+        },
+        "R":{
+        "item": "minecraft:bricks"    
+        }
+    },
+    "output": {
+        "item": "kubejs:builders_belt",
+    },
+    "wissen": 500
+    })
+
+    /*event.custom({
+    "type": "wizards_reborn:arcane_workbench",
+    "pattern": [
+        "RXR",
+        " S ",
+        " S",
+        "NNN"
+    ],
+    "key": {
+        "X": {
+        "item": "minecraft:stone_shovel"
+        },
+        "S": {
+        "item": "immersiveengineering:stick_treated"
+        },
+        "N": {
+        "item": "twilightforest:naga_scale"
+        },
+        "R":{
+        "item": "quark:sturdy_stone"    
+        }
+    },
+    "output": {
+        "item": Item.of('kubejs:primitive_excavator', '{Damage:0,Modifier:"forbidden_arcanus:demolishing",display:{Name:\'{"italic":false,"text":"Primitive Excavator"}\'}}'),
+    },
+    "wissen": 500
+    })
+
+    event.custom({
+    "type": "wizards_reborn:arcane_workbench",
+    "pattern": [
+        "RXR",
+        " S ",
+        " S",
+        "NNN"
+    ],
+    "key": {
+        "X": {
+        "item": "minecraft:stone_shovel"
+        },
+        "S": {
+        "item": "immersiveengineering:stick_treated"
+        },
+        "N": {
+        "item": "twilightforest:naga_scale"
+        },
+        "R":{
+        "item": "quark:sturdy_stone"    
+        }
+    },
+    "output": {
+        "item": Item.of('kubejs:primitive_mining_hammer', '{Damage:0,Modifier:"forbidden_arcanus:demolishing",display:{Name:\'{"italic":false,"text":"Primitive Mining Hammer"}\'}}')
+    },
+    "wissen": 500
+    })*/
+
 })
