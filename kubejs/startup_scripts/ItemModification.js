@@ -85,6 +85,12 @@ ItemEvents.modification(event => {
   event.modify('minecraft:diamond_sword', item=>{
     item.maxDamage = 2048
   })
+
+  event.modify("tide:blazing_swordfish", item=>{
+    item.maxDamage = 1024,
+    item.attackSpeed = -2.0,
+    item.attackDamage = 2
+  })
   ////========================================Tools
   event.modify('aether:hammer_of_kingbdogz', item=>{
     item.maxDamage = 1024

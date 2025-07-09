@@ -1,0 +1,13 @@
+{
+  "id": "tide:blazing_swordfish",
+  "modifiers": [
+      {
+          "type": "append",
+          "attribute": "alembic:fire_damage",
+          "value": 5,
+          "operation": "ADDITION",
+          "uuid": "a5834ca7-80e6-49a3-a987-e052935e479b"
+      }
+  ],
+  "equipment_slot": "MAINHAND"
+}
