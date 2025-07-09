@@ -65,9 +65,9 @@ ServerEvents.recipes(event=>{
         "naturesaura:auto_crafter",
         "woodenhopper:wooden_hopper",
         "woodenhopper:wooden_hopper",
+        "kubejs:infused_amethyst",
         "minecraft:amethyst_shard",
-        "minecraft:amethyst_shard",
-        "minecraft:amethyst_shard",
+        "kubejs:infused_amethyst",
         "minecraft:amethyst_shard"],
         "ars_nouveau:purple_archwood_sapling")
 })
