@@ -5,7 +5,7 @@
     "color": "red"
   },
   "tip": {
-    "text": "Feeding through is a block that automatically feeds nearby animals, it is available in early tier2",
+    "text": "The feeding trough is a block that automatically feeds nearby animals. It is available in early tier2",
     "color": "green"
   }
 }

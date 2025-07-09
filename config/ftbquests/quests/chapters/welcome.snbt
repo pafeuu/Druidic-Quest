@@ -135,6 +135,8 @@
 				"If this is somehow your first modpack you are really gonna need to read the &lTips&r chapter ."
 				""
 				"But even if you are a veteran you might not know everything there so make sure to check it out!"
+				""
+				"&4&oWork in progress&r&r"
 			]
 			icon: "kubejs:infused_diamond"
 			id: "6F5C7CA9C74F13E9"
@@ -341,7 +343,7 @@
 				"- You take double the damage"
 				"- and more..."
 				""
-				"Oh and also you cant take the ring off,,,"
+				"&7&oOh and also you cant take the ring off...&r&r"
 			]
 			hide_dependency_lines: false
 			hide_until_deps_visible: true

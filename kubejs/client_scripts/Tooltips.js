@@ -72,6 +72,14 @@ ItemEvents.tooltip( tooltip => {
     text.add(1, Text.of('Not yet properly implemented').red()) 
   })
 
+  tooltip.addAdvanced([
+    "thermal:coal_coke",
+    "kubejs:nature_essence",
+    "wizards_reborn:arcane_gold_ingot",
+    "thermal:steel_ingot"], (item, advanced, text) => {
+    text.add(1, Text.of('Picking up this item for the first time increases the difficulty and unlocks new dimension').red()) 
+  })
+
   /*tooltip.add(['kubejs:roadrunner_totem',
                "kubejs:tiger_totem",
                "kubejs:frog_totem",
