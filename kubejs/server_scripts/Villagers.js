@@ -150,7 +150,8 @@ MoreJSEvents.villagerTrades((event) => {
 
 	///============================================================Weaponsmith
 
-	event.addTrade("weaponsmith", 1, [TradeItem.of("#forge:ingots/steel", 4, 8)], "2x thermal:silver_coin");
+	event.addTrade("weaponsmith", 1, [TradeItem.of("thermal:steel_ingot", 4, 8)], "2x thermal:silver_coin");
+	event.addTrade("weaponsmith", 1, ["thermal:netherite_coin","ars_nouveau:fire_essence"], "tide:blazing_swordfish");
 	
 	/*event.addTrade("weaponsmith", 2, [TradeItem.of("#forge:gems/lapis", 4, 8)], "4x thermal:copper_coin");
 	event.addTrade("weaponsmith", 2, [TradeItem.of("minecraft:nether_wart", 8, 12)], "4x thermal:copper_coin");
@@ -201,7 +202,7 @@ MoreJSEvents.villagerTrades((event) => {
 
 	event.addTrade("fisherman", 5, [TradeItem.of("thermal:gold_coin", 12, 24)], Item.of('minecraft:leather_helmet', '{AttributeModifiers:[{Amount:2,AttributeName:"minecraft:generic.luck",Name:"minecraft:generic.luck",Slot:"head",UUID:[I;-12465,23362,15254,-46124]}],Damage:0,Unbreakable:1,display:{Name:\'["",{"text":"Fisherman\\\'s Hat","italic":false}]\',color:3451000}}'));
 	event.addTrade("fisherman", 5, [TradeItem.of("thermal:gold_coin", 12, 24)], Item.of('alexsmobs:flying_fish_boots', '{AttributeModifiers:[{Amount:2,AttributeName:"minecraft:generic.armor",Name:"minecraft:generic.armor",Slot:"chest",UUID:[I;-12465,24062,53154,-46124]}],Damage:0,Unbreakable:1,display:{Name:\'["",{"text":"Fisherman\\\'s Shoes","italic":false}]\'}}'));
-	
+	event.addTrade("fisherman",5,"2x thermal:netherite_coin","tide:blazing_swordfish");
 	///==============================================================Butcher
 
 	event.addTrade("butcher", 1, [TradeItem.of("minecraft:porkchop", 2, 8)], "2x thermal:copper_coin");

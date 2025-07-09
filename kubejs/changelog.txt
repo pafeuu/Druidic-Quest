@@ -1958,6 +1958,7 @@ Patch 0.3.2.1
     -Added for Phoenix Ingot
     -Changed for Advanced Alchemical Dust
     -Changed for Mundabitur Dust
+    -Added for every animal Totem
 
 ### Loot:
     -Buffed chance of finding dimensional keys in lootchests
@@ -2001,6 +2002,7 @@ Patch 0.3.2.1
     -Changed blank scroll trade to be much cheaper
     -Rebalanced the mending mixture trade
     -Added the Stable Warp Scroll trade to the librarian
+    -Added Blazing Swordfish trade to the fisherman and weaponsmith
 
 ### Tooltips:
     -Added tooltip to the Ice Pendant

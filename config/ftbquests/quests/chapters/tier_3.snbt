@@ -293,6 +293,21 @@
 		{
 			dependencies: ["6E30DFF0F2B9B811"]
 			id: "3CEA1955266AEAB3"
+			rewards: [{
+				id: "3EEE2C824A2CE0DB"
+				item: {
+					Count: 1
+					id: "supplementaries:cartographers_quill"
+					tag: {
+						RepairCost: 0
+						display: {
+							Name: "{\"text\":\"Aether Gold Dungeon Map\"}"
+						}
+						targetStructure: "aether:gold_dungeon"
+					}
+				}
+				type: "item"
+			}]
 			shape: "rsquare"
 			tasks: [{
 				dimension: "aether:the_aether"
@@ -301,8 +316,8 @@
 				type: "dimension"
 			}]
 			title: "Visit the Aether!"
-			x: 1.5d
-			y: 0.5d
+			x: 0.0d
+			y: -1.25d
 		}
 		{
 			dependencies: [
@@ -357,7 +372,7 @@
 				type: "item"
 			}]
 			title: "Brass Logistics"
-			x: -2.0d
+			x: -1.5d
 			y: -1.0d
 		}
 		{
@@ -380,7 +395,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: 0.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["0546AB4A107ED496"]
