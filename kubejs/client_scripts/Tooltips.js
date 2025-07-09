@@ -56,6 +56,22 @@ ItemEvents.tooltip( tooltip => {
     text.add(1, Text.of('Only works in the offhand').gray()) 
   })
 
+  tooltip.addAdvanced(['mbd2:elemental_extractor', 
+    'kubejs:blasting_altar', 
+    'kubejs:alloying_altar', 
+    'kubejs:infusing_altar', 
+    'kubejs:nether_key', 
+    'kubejs:end_key', 
+    'kubejs:aether_key', 
+    'kubejs:dark_key', 
+    'kubejs:heavenly_spice', 
+    'kubejs:cosmic_spice',
+    'kubejs:electricity_essence',
+    'kubejs:ultimate_alchemical_dust',
+    'kubejs:berry_quartz'], (item, advanced, text) => {
+    text.add(1, Text.of('Not yet properly implemented').red()) 
+  })
+
   /*tooltip.add(['kubejs:roadrunner_totem',
                "kubejs:tiger_totem",
                "kubejs:frog_totem",
@@ -105,6 +121,14 @@ ItemEvents.tooltip( tooltip => {
       text.add(1, [Text.of('Hold ').darkPurple(), Text.of('Shift ').gold(), Text.of('to see details').darkPurple()])
     } else {
       text.add(1, Text.gold('Right click on a carved pumpkin to summon a Guard for a cost of 100 durability'))
+    }
+  })
+
+  tooltip.addAdvanced("tide:blazing_swordfish", (item, advanced, text) => {
+    if (!tooltip.shift) {
+      text.add(1, [Text.of('Hold ').darkPurple(), Text.of('Shift ').gold(), Text.of('to see details').darkPurple()])
+    } else {
+      text.add(1, Text.gold('Right click while sneaking to empower yourself with fire!'))
     }
   })
 
@@ -236,6 +260,7 @@ ItemEvents.tooltip( tooltip => {
 
   tooltip.add("aether:agility_cape",[Text.gold("When on back:"),Text.blue("+0.5 step height")])
   tooltip.add("aether:valkyrie_cape",[Text.gold("When on back:"),Text.blue("Grants slow falling")])
+  tooltip.add("aether:golden_feather",[Text.gold("When worn:"),Text.blue("Grants slow falling")])
   tooltip.add("aether:swet_cape",[Text.gold("When on back:"),Text.blue("Allows riding Swets")])
   tooltip.add("aether:invisibility_cloak",[Text.gold("When on back:"),Text.blue("Makes you invisible")])
 

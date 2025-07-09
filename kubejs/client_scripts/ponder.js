@@ -22,6 +22,17 @@ Ponder.tags((event) => {
             "naturesaura:gold_bricks",
         ]
     )
+
+    event.createTag("kubejs:wizards_reborn","naturesaura:wizards_reborn","Wizard's Reborn Machines","Usage of Wissen Machinery",
+        [
+            "naturesaura:nature_altar",
+            "naturesaura:animal_spawner",
+            "naturesaura:auto_crafter",
+            "naturesaura:wood_stand",
+            "naturesaura:gold_powder",
+            "naturesaura:gold_bricks",
+        ]
+    )
 });
 
 Ponder.registry((event) => {
@@ -121,12 +132,58 @@ Ponder.registry((event) => {
         scene.world.showSection([0, 2, 0, 6, 2, 6], Facing.DOWN);
     });
 
-    event.create(["naturesaura:auto_crafter"]).scene("autocrafter","Building Animal Spawner","kubejs:automatic_constructor",(scene, util)=>{
+    event.create(["naturesaura:auto_crafter"]).scene("autocrafter","Building the autocrafter structure","kubejs:automatic_constructor",(scene, util)=>{
         scene.world.showSection([0, 0, 0, 6, 0, 6], Facing.DOWN);
         for(let i = 0; i < 7; i++){
             scene.world.showSection([i, 1, 0, i, 1, 6], Facing.DOWN);
             scene.idle(3)
         }
+    });
+
+    event.create(['wizards_reborn:arcane_workbench','wizards_reborn:wissen_altar','wizards_reborn:wissen_translator']).scene("wissen_basics","Explaining the wissen basics","kubejs:wissen_basics",(scene, util)=>{
+        scene.world.showSection([0, 0, 0, 4, 0, 4], Facing.DOWN);
+        scene.idle(10)
+        scene.world.showSection([0, 1, 0, 4, 1, 4], Facing.DOWN);
+
+        scene.text(60,"Wissen altar creates Wissen from Arcanum and Arcanum Dust",[4,2,0]).placeNearTarget().attachKeyFrame()
+        scene.showControls(60,[4,2.5,0],"down").withItem("wizards_reborn:arcanum").rightClick()
+        scene.idle(70)
+        scene.text(60,"First use your wand in Recieve Connect Mode on the altar",[4,2,0]).placeNearTarget().attachKeyFrame()
+        scene.showControls(60,[4,2.5,0],"down").withItem("wizards_reborn:wissen_wand").rightClick()
+        scene.idle(70)
+        scene.text(60,"Then use your wand on Wissen Translator in the same mode",[2,2,2]).placeNearTarget().attachKeyFrame()
+        scene.showControls(60,[2,2.5,2],"down").withItem("wizards_reborn:wissen_wand").rightClick()
+        scene.idle(70)
+        scene.text(60,"Now lets do the same but with Arcane Workbench and Send Connect Mode",[0,2,4]).placeNearTarget().attachKeyFrame()
+        scene.showControls(60,[0,2.5,4],"down").withItem("wizards_reborn:wissen_wand").rightClick()
+        scene.idle(70)
+        scene.showControls(20,[2,2.5,2],"down").withItem("wizards_reborn:wissen_wand").rightClick()
+        scene.idle(30)
+        scene.text(50,"Arcane Workbench should be getting wissen now",[0,2,4]).placeNearTarget().attachKeyFrame()
+        scene.idle(55)
+        scene.text(50,"Now place your items like in normal workbench and right click it with a wand in a Functional Mode",[0,2,4]).placeNearTarget()
+        scene.showControls(60,[0,2.5,4],"down").withItem("wizards_reborn:wissen_wand").rightClick()
+            
+        
+    });
+
+    event.create(["kubejs:sacrificial_altar"]).scene("sacrificial_altar","Explaining the Sacrificial Altar Usage","kubejs:sacrificial_altar",(scene, util)=>{
+        scene.world.showSection([0, 0, 0, 2, 0, 2], Facing.DOWN);
+        scene.idle(10)
+        scene.world.showSection([0, 1, 0, 2, 1, 2], Facing.DOWN);
+        scene.world.createEntity("villager",[0.5,1,2.5])
+        scene.text(40,"For the altar to work we need a specific sacrifice",[0.5,2,2.5],).attachKeyFrame().placeNearTarget()
+        scene.idle(50)
+        scene.showControls(60,[1,1.5,1],"down").withItem("kubejs:sacrificial_dagger").rightClick()
+        scene.showControls(60,[1,2.7,1],"down").withItem("emerald")
+        scene.text(60,"Right click with the sacrificial dagger on the altar with the other item in your offhand",[1,2,1]).attachKeyFrame().placeNearTarget()
+        scene.idle(70)
+        scene.text(60,"It will result in new item created and the death of our sacrifice",[0.5,1,2.5]).attachKeyFrame().placeNearTarget()
+        scene.showControls(70,[0.5,2,2.5],"down").withItem("kubejs:death_essence")
+        scene.world.createItemEntity(util.vector.topOf(1, 1.5, 1), util.vector.of(0, 0, 0), "kubejs:infused_emerald");
+        scene.idle(70)
+        
+    
     });
 
 });
