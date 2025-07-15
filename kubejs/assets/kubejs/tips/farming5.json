@@ -2,10 +2,10 @@
   "title": {
     "text": "Farming",
     "bold": true,
-    "color": "red"
+    "color": "dark_aqua"
   },
   "tip": {
     "text": "There are tons of new generators similiar to cobble gen from vanilla. Check out the world interaction tab in EMI!",
-    "color": "green"
+    "color": "aqua"
   }
 }

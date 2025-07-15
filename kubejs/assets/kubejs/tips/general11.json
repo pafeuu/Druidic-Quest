@@ -2,10 +2,10 @@
     "title": {
       "text": "General",
       "bold": true,
-      "color": "red"
+      "color": "dark_aqua"
     },
     "tip": {
       "text": "Treat creators with respect. Most of us are doing it for free.",
-      "color": "green"
+      "color": "aqua"
     }
   }

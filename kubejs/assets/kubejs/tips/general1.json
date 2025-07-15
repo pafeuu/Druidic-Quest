@@ -2,10 +2,10 @@
     "title": {
       "text": "General",
       "bold": true,
-      "color": "red"
+      "color": "dark_aqua"
     },
     "tip": {
       "text": "There are tons of different armor sets in the pack, each with unique bonuses!",
-      "color": "green"
+      "color": "aqua"
     }
   }

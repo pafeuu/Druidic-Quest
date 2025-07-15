@@ -2,10 +2,10 @@
     "title": {
       "text": "Questbook",
       "bold": true,
-      "color": "red"
+      "color": "dark_aqua"
     },
     "tip": {
       "text": "Dont forget about the FTB commands! Find out more about it in the questbook.",
-      "color": "green"
+      "color": "aqua"
     }
   }

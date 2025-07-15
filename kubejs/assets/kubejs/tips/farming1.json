@@ -2,10 +2,10 @@
   "title": {
     "text": "Farming",
     "bold": true,
-    "color": "red"
+    "color": "dark_aqua"
   },
   "tip": {
     "text": "Anaconda can shed their skin after eating 3 small animals",
-    "color": "green"
+    "color": "aqua"
   }
 }

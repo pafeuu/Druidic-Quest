@@ -2,10 +2,10 @@
     "title": {
       "text": "General",
       "bold": true,
-      "color": "red"
+      "color": "dark_aqua"
     },
     "tip": {
       "text": "Alexs mobs is an important part of the progression. Getting familiar with the new mobs will help you immensely!",
-      "color": "green"
+      "color": "aqua"
     }
   }

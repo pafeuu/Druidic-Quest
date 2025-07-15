@@ -2,10 +2,10 @@
     "title": {
       "text": "Questbook",
       "bold": true,
-      "color": "red"
+      "color": "dark_aqua"
     },
     "tip": {
       "text": "Be sure to check out the shop chapter in your questbook. It offers a lot of useful items to skip the grind!",
-      "color": "green"
+      "color": "aqua"
     }
   }

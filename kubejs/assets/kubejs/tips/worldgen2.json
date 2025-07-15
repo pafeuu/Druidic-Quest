@@ -2,10 +2,10 @@
   "title": {
     "text": "Worldgen",
     "bold": true,
-    "color": "red"
+    "color": "dark_aqua"
   },
   "tip": {
     "text": "Lots of structures contain hidden loot exclusive to the modpack!",
-    "color": "green"
+    "color": "aqua"
   }
 }

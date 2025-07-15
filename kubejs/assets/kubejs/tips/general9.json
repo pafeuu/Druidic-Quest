@@ -2,10 +2,10 @@
     "title": {
       "text": "General",
       "bold": true,
-      "color": "red"
+      "color": "dark_aqua"
     },
     "tip": {
       "text": "There are lots of accessories availble. Creating your own unique set might be the key to survive.",
-      "color": "green"
+      "color": "aqua"
     }
   }

@@ -2,10 +2,10 @@
   "title": {
     "text": "Farming",
     "bold": true,
-    "color": "red"
+    "color": "dark_aqua"
   },
   "tip": {
     "text": "The feeding trough is a block that automatically feeds nearby animals. It is available in early tier2",
-    "color": "green"
+    "color": "aqua"
   }
 }

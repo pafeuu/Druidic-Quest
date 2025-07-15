@@ -2,10 +2,10 @@
   "title": {
     "text": "Farming",
     "bold": true,
-    "color": "red"
+    "color": "dark_aqua"
   },
   "tip": {
     "text": "Using a knife to harvest crops like wheat and flax will get more straw than breaking grass!",
-    "color": "green"
+    "color": "aqua"
   }
 }

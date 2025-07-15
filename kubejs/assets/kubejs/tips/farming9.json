@@ -2,10 +2,10 @@
   "title": {
     "text": "Farming",
     "bold": true,
-    "color": "red"
+    "color": "dark_aqua"
   },
   "tip": {
     "text": "Grizzly bears can be tamed with raw salmon after they have eaten some honey. Tamed grizzlies can be bred with raw salmon.",
-    "color": "green"
+    "color": "aqua"
   }
 }

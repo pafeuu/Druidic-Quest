@@ -2,10 +2,10 @@
     "title": {
       "text": "General",
       "bold": true,
-      "color": "red"
+      "color": "dark_aqua"
     },
     "tip": {
       "text": "There are many different weapons in the modpack, each with unique stats and/or effects.",
-      "color": "green"
+      "color": "aqua"
     }
   }

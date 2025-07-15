@@ -2,10 +2,10 @@
     "title": {
       "text": "General",
       "bold": true,
-      "color": "red"
+      "color": "dark_aqua"
     },
     "tip": {
       "text": "Dont try to rush it. Take your time and — most importantly — remember to have fun!",
-      "color": "green"
+      "color": "aqua"
     }
   }

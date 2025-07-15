@@ -2,10 +2,10 @@
     "title": {
       "text": "General",
       "bold": true,
-      "color": "red"
+      "color": "dark_aqua"
     },
     "tip": {
       "text": "Set up a farm early to secure steady supply of food, as well as resources needed for further progression.",
-      "color": "green"
+      "color": "aqua"
     }
   }

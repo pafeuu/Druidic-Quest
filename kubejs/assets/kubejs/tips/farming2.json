@@ -2,10 +2,10 @@
   "title": {
     "text": "Farming",
     "bold": true,
-    "color": "red"
+    "color": "dark_aqua"
   },
   "tip": {
     "text": "Frogs drop froglights after eating magma slimes",
-    "color": "green"
+    "color": "aqua"
   }
 }

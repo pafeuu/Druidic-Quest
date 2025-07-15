@@ -2,10 +2,10 @@
   "title": {
     "text": "Worldgen",
     "bold": true,
-    "color": "red"
+    "color": "dark_aqua"
   },
   "tip": {
     "text": "Many structures in the modpack have been changed to give you a unique experience!",
-    "color": "green"
+    "color": "aqua"
   }
 }

@@ -2,10 +2,10 @@
   "title": {
     "text": "Farming",
     "bold": true,
-    "color": "red"
+    "color": "dark_aqua"
   },
   "tip": {
     "text": "Get straw by breaking tall grass with a knife!",
-    "color": "green"
+    "color": "aqua"
   }
 }

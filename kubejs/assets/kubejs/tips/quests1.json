@@ -2,10 +2,10 @@
   "title": {
     "text": "Questbook",
     "bold": true,
-    "color": "red"
+    "color": "dark_aqua"
   },
   "tip": {
     "text": "The Ultimate Collector chapter group can provide you with some extra cash.",
-    "color": "green"
+    "color": "aqua"
   }
 }

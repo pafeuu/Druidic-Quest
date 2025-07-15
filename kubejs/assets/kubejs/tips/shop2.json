@@ -2,10 +2,10 @@
   "title": {
     "text": "Questbook",
     "bold": true,
-    "color": "red"
+    "color": "dark_aqua"
   },
   "tip": {
     "text": "Items in the shop unlock after certain quests are completed!",
-    "color": "green"
+    "color": "aqua"
   }
 }

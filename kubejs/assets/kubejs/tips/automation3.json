@@ -2,10 +2,10 @@
   "title": {
     "text": "Automation",
     "bold": true,
-    "color": "red"
+    "color": "dark_aqua"
   },
   "tip": {
     "text": "Ars Nouveau is extremely powerful! Spell turrets can automate many different tasks like breaking and placing blocks.",
-    "color": "green"
+    "color": "aqua"
   }
 }

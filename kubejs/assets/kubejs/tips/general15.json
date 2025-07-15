@@ -2,10 +2,10 @@
     "title": {
       "text": "General",
       "bold": true,
-      "color": "red"
+      "color": "dark_aqua"
     },
     "tip": {
       "text": "Only wrong way of playing the game is when you don't have fun.",
-      "color": "green"
+      "color": "aqua"
     }
   }

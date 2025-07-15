@@ -100,10 +100,10 @@ ItemEvents.tooltip( tooltip => {
                })
   //======================================= Smithing Templates ==============================
 
-  tooltip.add("kubejs:botanist_upgrade_smithing_template", [Text.gray("Botanist Upgrade"), Text.green(""), Text.gray("Applies to:"), Text.darkGreen(" Iron Equipment"), Text.gray("Ingredients:"), Text.darkGreen(" Infused Iron Ingot")])
+  tooltip.add("kubejs:botanist_upgrade_smithing_template", [Text.gray("Botanist Upgrade"), Text.green(""), Text.gray("Applies to:"), Text.white(" Iron Equipment"), Text.gray("Ingredients:"), Text.white(" Infused Iron Ingot")])
   tooltip.add("kubejs:skyseeker_upgrade_smithing_template", [Text.gray("Skyseeker Upgrade"), Text.green(""), Text.gray("Applies to:"), Text.aqua(" Diamond Equipment"), Text.gray("Ingredients:"), Text.aqua(" Ingot of the Skies")])
-  tooltip.add("kubejs:gold_upgrade_smithing_template", [Text.gray("Gold Upgrade"), Text.green(""), Text.gray("Applies to:"), Text.gold(" Brass Equipment"), Text.gray("Ingredients:"), Text.gold(" Gold Upgrade Parts")])
-  tooltip.add("kubejs:steel_upgrade_smithing_template", [Text.gray("Steel Upgrade"), Text.green(""), Text.gray("Applies to:"), Text.green(" Botanist Equipment"), Text.gray("Ingredients:"), Text.green(" Steel Upgrade Parts")])
+  tooltip.add("kubejs:gold_upgrade_smithing_template", [Text.gray("Gold Upgrade"), Text.green(""), Text.gray("Applies to:"), Text.gold(" Silver Equipment"), Text.gray("Ingredients:"), Text.gold(" Gold Upgrade Parts")])
+  tooltip.add("kubejs:steel_upgrade_smithing_template", [Text.gray("Steel Upgrade"), Text.green(""), Text.gray("Applies to:"), Text.darkGreen(" Botanist Equipment"), Text.gray("Ingredients:"), Text.darkGreen(" Steel Upgrade Parts")])
   tooltip.add("kubejs:phoenix_upgrade_smithing_template", [Text.gray("Phoenix Upgrade"), Text.green(""), Text.gray("Applies to:"), Text.red(" Fiery Equipment"), Text.gray("Ingredients:"), Text.red(" Phoenix Ingot")])
   
   //======================================= Custom Tools ====================================== 

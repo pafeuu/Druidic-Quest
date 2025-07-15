@@ -2,10 +2,10 @@
     "title": {
       "text": "General",
       "bold": true,
-      "color": "red"
+      "color": "dark_aqua"
     },
     "tip": {
       "text": "Finding lush caves early might prove extremely useful in the future!",
-      "color": "green"
+      "color": "aqua"
     }
   }

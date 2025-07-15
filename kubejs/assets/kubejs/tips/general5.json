@@ -2,10 +2,10 @@
     "title": {
       "text": "General",
       "bold": true,
-      "color": "red"
+      "color": "dark_aqua"
     },
     "tip": {
       "text": "Low reach sucks! Use blocks in your offhand while holding a tool to increase your building reach.",
-      "color": "green"
+      "color": "aqua"
     }
   }

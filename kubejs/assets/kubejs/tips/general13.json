@@ -2,10 +2,10 @@
     "title": {
       "text": "General",
       "bold": true,
-      "color": "red"
+      "color": "dark_aqua"
     },
     "tip": {
       "text": "Strength of enemies increases with each dimension unlocked!",
-      "color": "green"
+      "color": "aqua"
     }
   }
