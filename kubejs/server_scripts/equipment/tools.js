@@ -1996,61 +1996,6 @@ ServerEvents.recipes(event => {
 	
 	tool('minecraft:diamond','#forge:gems/diamond','kubejs:zinc_tool_handle','alexsmobs:shed_snake_skin')
 
-	  
-	event.remove({output:'ars_nouveau:dowsing_rod'})
-	event.custom({
-		"type": "lychee:block_interacting",
-    "item_in": {
-        "tag": "forge:dusts/gold"
-    },
-    "block_in": "ars_nouveau:archwood_planks",
-    "post": [
-		{
-			"type": "if",
-			"contextual":[
-			{
-				"type": "chance",
-				"chance": 0.25
-			}
-		],
-		"then":[
-			{
-				"type": "drop_item",
-            	"item": "ars_nouveau:dowsing_rod"
-			},
-			{
-				"type": "execute",
-				"command": "particle minecraft:happy_villager ~ ~ ~ 0.25 0.25 0.25 1 25 force",
-				"hide": "true"
-			},
-			{
-				"type": "execute",
-				"command": "playsound minecraft:block.amethyst_block.break neutral @p",
-				"hide": "true"
-			},
-			{
-				"type": "place",
-				"block": "air"
-			}
-		],
-		"else":[
-			{
-				"type": "execute",
-				"command": "particle minecraft:angry_villager ~ ~ ~ 0.25 0.25 0.25 1 10 force",
-				"hide": "true"
-			},
-			{
-				"type": "execute",
-				"command": "playsound minecraft:entity.villager.no neutral @p",
-				"hide": "true"
-			},
-			{
-				"type": "place",
-				"block": "air"
-			}
-		]
-	}]
-	})
 
 	event.custom({
 		"type": "naturesaura:tree_ritual",
@@ -2113,7 +2058,7 @@ ServerEvents.recipes(event => {
 			"CBC"
 		],
 		{
-			X: "effortlessbuilding:reach_upgrade3",
+			X: "effortlessbuilding:reach_upgrade2",
 			C: "#forge:storage_blocks/source",
 			B: "ghast_tear"
 		}

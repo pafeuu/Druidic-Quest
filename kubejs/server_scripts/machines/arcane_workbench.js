@@ -136,7 +136,7 @@ ServerEvents.recipes(event=>{
         "tag": "forge:gems/emerald"
         },
         "L": {
-        "tag": "forge:gems/lapis"
+        "item": "thermal:sapphire"
         },
         "A": {
         "item": "forbidden_arcanus:xpetrified_orb"
@@ -356,5 +356,83 @@ ServerEvents.recipes(event=>{
     },
     "wissen": 500
     })*/
+
+    event.custom({
+    "type": "wizards_reborn:arcane_workbench",
+    "pattern": [
+        "WTW",
+        " W ",
+        " W ",
+        "____"
+    ],
+    "key": {
+        "W": {
+        "item": "wizards_reborn:arcane_wood_planks"
+        },
+        "T": {
+        "item": "kubejs:roadrunner_totem"
+        }
+    },
+    "output": {
+        "item": "wizards_reborn:arcane_wood_cane",
+    },
+    "wissen": 500
+    }).id("wizards_reborn:arcane_workbench/arcane_wood_cane")
+
+    event.custom({
+    "type": "wizards_reborn:arcane_workbench",
+    "pattern": [
+        " PA",
+        "PRP",
+        "AP ",
+        "_G_G"
+    ],
+    "key": {
+        "A": {
+        "item": "wizards_reborn:arcanum"
+        },
+        "G": {
+        "tag": "forge:dusts/gold"
+        },
+        "R":{
+        "item": "stick"    
+        },
+        "P":{
+        "item": "ars_nouveau:archwood_planks"   
+        }
+    },
+    "output": {
+        "item": "ars_nouveau:dowsing_rod",
+    },
+    "wissen": 500
+    }).id("ars_nouveau:dowsing_rod")
+
+    event.custom({
+    "type": "wizards_reborn:arcane_workbench",
+    "pattern": [
+        "PBP",
+        "BCB",
+        "PBP",
+        "EEEE"
+    ],
+    "key": {
+        "C": {
+        "item": "thermal:xp_crystal"
+        },
+        "E": {
+        "item": "kubejs:infused_emerald"
+        },
+        "B":{
+        "item": "enigmaticlegacy:thicc_scroll"    
+        },
+        "P":{
+        "item": "forbidden_arcanus:xpetrified_orb"   
+        }
+    },
+    "output": {
+        "item": "enigmaticlegacy:xp_scroll",
+    },
+    "wissen": 500
+    }).id("enigmaticlegacy:xp_scroll")
 
 })
