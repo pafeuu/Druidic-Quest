@@ -2060,6 +2060,15 @@ Patch 0.3.2.1
 
 ### Added Mods:
     -Silly Oddities
+    -Sodium Dynamic Lights
+    -Carrascon Lib
+    -Structure Credits
+    -Polytone
+
+### Added Resourcepacks:
+    -Link's Font(Optional)
+    -Hellim Xaero's Maps Mob Icons
+    -Angel's Weather
 
 ### Removed Mods:
     -Traveler's Titles
@@ -2067,11 +2076,42 @@ Patch 0.3.2.1
 ### Updated Mods:
     -Fluffy Fur
 
+### Quests:
+    -Added missing quests in the dendrologist chapter for bwyg saplings and rubber sapling
+
 ### Recipes:
     -Added for Heart of the Earth
     -Fixed recipes related to ancient wood
     -Fixed recipes related to cork bamboo
+    -Fixed Reach Upgrade 3 recipe
+    -Changed for Arcane Wood Cane
+    -Changed for White Arcane Lumos
+    -Changed for Rainbow Arcane Lumos
+    -Changed for Cosmic Arcane Lumos
+    -Fixed Arcane Workbench recipe to use gold leaf instead of gold ingots
+    -Changed recipe for Insightful Crystal
+    -Changed for Dowsing Rod
+    -Changed for Scroll of Ageless Wisdom
+
+### Balance:
+    -Buffed Creeper Head
+    -Buffed Wither Skeleton Skull
+    -Buffed Zombie Head
+    -Buffed Pigling Head
+    -Buffed Skeleton Skull
+    -Buffed Moonworm
+    -Buffed Cicada
+    -Buffed Firefly
+
 
 ### Other:
     -Fixed Crashes while using Arcanemicon
-    -
+    -Fixed shipwreck loottable
+    -Netherite Smithing table now drops from Wither
+    -Fixed Overworld key loottable
+    -Primitive Firestarter now properly ignites tnt
+    -Jade now shows all of the resistances on entities
+    -Fixed Blaze rods dependencies in the market
+    -Added info to the goldenleaf berries
+    -Added info to salty lightsources about coloring them with arcane lumos
+    -Spectral Hammer can now mine darkstone, dacite, white dacite, redrock, rocky stone, mossy stone

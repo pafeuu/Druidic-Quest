@@ -92,13 +92,18 @@ Ponder.registry((event) => {
 
         scene.text(20,"Place items on the wooden stand",[5.5,0,5.5]).placeNearTarget().attachKeyFrame();
         scene.idle(25);
-        scene.showControls(30,[1,2,1],"down").withItem("minecraft:clay").rightClick()
-        scene.showControls(30,[4,2,0],"down").withItem("minecraft:clay").rightClick()
-        scene.showControls(30,[7,2,1],"down").withItem("minecraft:clay").rightClick()
-        scene.showControls(30,[8,2,4],"down").withItem("minecraft:sand").rightClick()
-        scene.showControls(30,[0,2,4],"down").withItem("minecraft:sand").rightClick()
-        scene.showControls(30,[1,2,7],"down").withItem("minecraft:ink_sac").rightClick()
+        scene.showControls(30,[1,2,1],"down").withItem("create:wheat_flour").rightClick()
+        scene.showControls(30,[4,2,0],"down").withItem("minecraft:ink_sac").rightClick()
+        scene.showControls(30,[7,2,1],"down").withItem("create:wheat_flour").rightClick()
+        scene.showControls(30,[8,2,4],"down").withItem("minecraft:ink_sac").rightClick()
+        scene.showControls(30,[1,2,7],"down").withItem("create:wheat_flour").rightClick()
+        scene.showControls(30,[0,2,4],"down").withItem("minecraft:ink_sac").rightClick()
+        scene.showControls(30,[4,2,8],"down").withItem("minecraft:ink_sac").rightClick()
+        scene.showControls(30,[7,2,7],"down").withItem("create:wheat_flour").rightClick()
+        
+
         scene.idle(40);
+
 
         scene.world.setBlock([4,1,4],"minecraft:spruce_sapling",false);
         scene.text(20,"Make the sapling grow to finish the craft!",[5.5,0,5.5]).placeNearTarget().attachKeyFrame();

@@ -511,7 +511,16 @@ ServerEvents.tags('block', event => {
     'minecraft:stripped_spruce_log',
     'minecraft:stripped_oak_log'])
 
-  event.add("irons_spellbooks:spectral_hammer_mineable",["twigs:schist","twigs:rhyolite","immersiveweathering:mossy_stone"])
+  event.add("irons_spellbooks:spectral_hammer_mineable",
+    ["twigs:schist",
+      "twigs:rhyolite",
+      "immersiveweathering:mossy_stone",
+      "forbidden_arcanus:darkstone",
+      'biomeswevegone:dacite',
+      'biomeswevegone:white_dacite',
+      'biomeswevegone:red_rock',
+      'biomeswevegone:rocky_stone',
+      'biomeswevegone:mossy_stone'])
 
   let grass =[/*"regions_unexplored:medium_grass",
     "regions_unexplored:ashen_grass",

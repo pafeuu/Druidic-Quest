@@ -921,6 +921,7 @@
 					count: 8L
 					id: "5A3EA25913807A1A"
 					item: "naturesaura:wood_stand"
+					optional_task: true
 					type: "item"
 				}
 			]
@@ -1502,6 +1503,20 @@
 		{
 			dependencies: ["7846743FB0D30EAD"]
 			id: "22940C5D29764070"
+			rewards: [
+				{
+					count: 8
+					id: "4E4080DAB9058F7A"
+					item: "minecraft:coal"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "2AB4A113C5F6829F"
+					item: "thermal:silver_coin"
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			tasks: [{
 				id: "4AEB70C69BA35CA1"

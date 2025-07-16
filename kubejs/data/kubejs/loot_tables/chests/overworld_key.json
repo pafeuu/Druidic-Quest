@@ -279,7 +279,7 @@
           {
             "type": "item",
             "weight": 1,
-            "name": "everycomp:ch/forbidden_arcanus/edelwood_torch",
+            "name": "wizards_reborn:wisestone_salt_torch",
             "functions": [
               {
                 "function": "set_count",
