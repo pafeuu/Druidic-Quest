@@ -44,5 +44,54 @@ JEIEvents.information(event => {
         "kubejs:travelers_belt"],["One of the drops from Overworld Key usage"])
     event.addItem("kubejs:mittens",["Common loot in chests in snowy biomes"])
     event.addItem("supplementaries:ash",["Created in world after blocks burn"])
+    event.addItem("minecraft:netherite_upgrade_smithing_template",["Drops from The Wither"])
+    event.addItem(['wizards_reborn:arcane_salt_torch',
+        'wizards_reborn:innocent_salt_torch',
+        'wizards_reborn:cork_bamboo_salt_torch',
+        'wizards_reborn:wisestone_salt_torch',
+        'wizards_reborn:arcane_salt_lantern',
+        'wizards_reborn:innocent_salt_lantern',
+        'wizards_reborn:cork_bamboo_salt_lantern',
+        'wizards_reborn:wisestone_salt_lantern',
+        'wizards_reborn:arcane_salt_campfire',
+        'wizards_reborn:innocent_salt_campfire',
+        'wizards_reborn:cork_bamboo_salt_campfire',
+        'wizards_reborn:wisestone_salt_campfire',
+        'silly_oddities:oak_salt_torch',
+        'silly_oddities:oak_salt_lantern',
+        'silly_oddities:acacia_salt_lantern',
+        'silly_oddities:acacia_salt_torch',
+        'silly_oddities:jungle_salt_campfire',
+        'silly_oddities:jungle_salt_lantern',
+        'silly_oddities:jungle_salt_torch',
+        'silly_oddities:birch_salt_campfire',
+        'silly_oddities:birch_salt_lantern',
+        'silly_oddities:birch_salt_torch',
+        'silly_oddities:spruce_salt_campfire',
+        'silly_oddities:spruce_salt_lantern',
+        'silly_oddities:spruce_salt_torch',
+        'silly_oddities:oak_salt_campfire',
+        'silly_oddities:acacia_salt_campfire',
+        'silly_oddities:dark_oak_salt_torch',
+        'silly_oddities:dark_oak_salt_lantern',
+        'silly_oddities:dark_oak_salt_campfire',
+        'silly_oddities:mangrove_salt_torch',
+        'silly_oddities:mangrove_salt_lantern',
+        'silly_oddities:mangrove_salt_campfire',
+        'silly_oddities:cherry_salt_torch',
+        'silly_oddities:cherry_salt_lantern',
+        'silly_oddities:cherry_salt_campfire',
+        'silly_oddities:bamboo_salt_torch',
+        'silly_oddities:bamboo_salt_lantern',
+        'silly_oddities:bamboo_salt_campfire',
+        'silly_oddities:crimson_salt_torch',
+        'silly_oddities:crimson_salt_lantern',
+        
+        'silly_oddities:crimson_salt_campfire',
+        'silly_oddities:warped_salt_torch',
+        'silly_oddities:warped_salt_lantern',
+        'silly_oddities:warped_salt_campfire'],["Can be dyed with Arcane Lumos"])
+
+    event.addItem("deep_aether:goldenleaf_berries",["Found growing on Quicksoil in Golden Heights biome"])
     
   })
