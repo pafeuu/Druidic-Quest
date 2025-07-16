@@ -349,6 +349,10 @@ ServerEvents.recipes(event =>{
 	CuttingLogs("biomeswevegone:palm_planks","biomeswevegone:stripped_palm_wood")
 	CuttingLogs("biomeswevegone:maple_planks","biomeswevegone:stripped_maple_wood")
 	CuttingLogs("biomeswevegone:florus_planks","biomeswevegone:stripped_florus_wood")
+	CuttingLogs("naturesaura:ancient_planks","naturesaura:ancient_log")
+	CuttingLogs("naturesaura:ancient_planks","naturesaura:ancient_bark")
+	event.remove([{id:"naturesaura:ancient_planks"},{id:"naturesaura:ancient_planks_from_bark"}])
+	CuttingLogs("wizards_reborn:cork_bamboo_planks","wizards_reborn:cork_bamboo_block")
 	
 
 
@@ -451,6 +455,10 @@ ServerEvents.recipes(event =>{
 	SlabsAndStairs("biomeswevegone","willow")
 	SlabsAndStairs("biomeswevegone","witch_hazel")
 	SlabsAndStairs("biomeswevegone","zelkova")
+	SlabsAndStairs("naturesaura","ancient")
+	SlabsAndStairs("wizards_reborn","cork_bamboo")
+	SlabsAndStairs("wizards_reborn","cork_bamboo_chiseled")
+
 
 	///F&A fixes
 
@@ -548,6 +556,13 @@ ServerEvents.recipes(event =>{
 	torch("innocent","innocent_wood_planks")
 	torch("cork_bamboo","cork_bamboo_planks")
 	torch("wisestone","wisestone")
+
+	const woodtype = ["oak","spruce","cherry","dark_oak","birch","jungle","bamboo","mangrove","acacia","warped","crimson"]
+
+	woodtype.forEach(id => {
+		
+		event.shapeless("silly_oddities:"+id+"_pedestal",["wizards_reborn:arcane_pedestal","minecraft:"+id+"_planks"]).id("silly_oddities:integration/wizards_reborn/shaped/"+id+"/"+id+"_pedestal")
+	});
 	//event.shaped("6x wizards_reborn:arcane_salt_torch")
 
     
