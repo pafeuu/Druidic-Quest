@@ -3,9 +3,9 @@
   "modifiers": [
     {
       "type": "append",
-      "attribute": "alembic:fire_damage.resistance",
-      "value": 1,
-      "operation": "ADDITION",
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 0.1,
+      "operation": "MULTIPLY_TOTAL",
       "uuid": "04d40e51-333e-42e2-8d84-90604cfb24c2"
     },
     {

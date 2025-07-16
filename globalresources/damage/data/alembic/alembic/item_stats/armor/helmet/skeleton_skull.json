@@ -14,7 +14,15 @@
       "value": 1,
       "operation": "ADDITION",
       "uuid": "8c860942-16c1-4441-9b0b-8361bf9fc39a"
+    },
+    {
+      "type": "append",
+      "attribute": "attributeslib:draw_speed",
+      "value": 0.4,
+      "operation": "MULTIPLY_TOTAL",
+      "uuid": "8c860942-16c1-4441-9b0b-8361bf9fc39a"
     }
+    
   ],
   "equipment_slot": "HEAD"
 }

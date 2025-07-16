@@ -28,6 +28,13 @@
       "value": 2,
       "operation": "ADDITION",
       "uuid": "8c860942-16c1-4441-9b0b-8361bf9fc39a"
+    },
+    {
+      "type": "append",
+      "attribute": "irons_spellbooks:blood_spell_power",
+      "value": 0.15,
+      "operation": "MULTIPLY_TOTAL",
+      "uuid": "a4dfa48e-f1c9-401b-8b66-4fa10abdf5a9"
     }
   ],
   "equipment_slot": "HEAD"

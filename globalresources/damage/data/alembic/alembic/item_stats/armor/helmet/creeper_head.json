@@ -21,6 +21,13 @@
       "value": 3,
       "operation": "ADDITION",
       "uuid": "8c822942-16c1-4441-922b-8361bf9fc39a"
+    },
+    {
+      "type": "append",
+      "attribute": "ars_nouveau:ars_nouveau.perk.mana_regen",
+      "value": 0.2,
+      "operation": "MULTIPLY_TOTAL",
+      "uuid": "dc6656d4-75fa-43e5-9e7f-1f9cf5e15c9b"
     }
   ],
   "equipment_slot": "HEAD"
