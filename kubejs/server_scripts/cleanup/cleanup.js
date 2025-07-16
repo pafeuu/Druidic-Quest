@@ -256,7 +256,19 @@ global.nukelist = ["twigs:calcite_wall",
 	'wizards_reborn:nether_arcane_gold_ore',
 	'wizards_reborn:raw_arcane_gold_block',
 	'wizards_reborn:crushed_raw_arcane_gold',
-	'wizards_reborn:raw_arcane_gold']/*,
+	'wizards_reborn:raw_arcane_gold',
+	'silly_oddities:tuff_slab',
+	'silly_oddities:tuff_stairs',
+	'silly_oddities:tuff_bricks_wall',
+	'silly_oddities:tuff_bricks_slab',
+	'silly_oddities:tuff_bricks_stairs',
+	'silly_oddities:tuff_bricks',
+	'silly_oddities:polished_tuff_wall',
+	'silly_oddities:polished_tuff_slab',
+	'silly_oddities:polished_tuff',
+	'silly_oddities:polished_tuff_stairs',
+	"silly_oddities:tuff_wall"
+]/*,
 	'thermal:constantan_dust',
 	'thermal:bronze_dust',
 	'thermal:enderium_dust',
@@ -612,19 +624,6 @@ ServerEvents.recipes(event => {
 	CustomGears("brass","kubejs:brass_gear")
 	//CustomGears("fireite","kubejs:fireite_gear")
 	CustomGears("fiery","kubejs:fiery_gear")
-
-	event.custom({
-		"type": "lychee:block_clicking",
-		"post": [
-			{
-			"type": "prevent_default"
-			}
-		],
-		"item_in": {
-			"item": "wizards_reborn:arcanum_dust"
-		},
-		"block_in": "minecraft:gold_ore"
-	})
 
 
 	//-------------------Rods-----------------------
