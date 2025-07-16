@@ -595,7 +595,10 @@
 			y: -4.5d
 		}
 		{
-			dependencies: ["682CA83814F08244"]
+			dependencies: [
+				"682CA83814F08244"
+				"23D3902848A335F6"
+			]
 			icon: { Count: 2, id: "minecraft:blaze_rod" }
 			id: "45093A9956B74B90"
 			rewards: [{
@@ -1291,9 +1294,11 @@
 			icon: "waystones:waystone"
 			id: "29E1BA7E7C50F113"
 			rewards: [{
-				id: "341FD7BC0128F560"
-				item: "waystones:waystone"
-				type: "item"
+				exclude_from_claim_all: true
+				icon: "waystones:waystone"
+				id: "12207624A52FDD42"
+				table_id: 1208925981311075483L
+				type: "choice"
 			}]
 			tasks: [{
 				count: 2L

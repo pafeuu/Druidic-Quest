@@ -1,0 +1,12 @@
+{
+	icon: "minecraft:chest"
+	id: "10C6F7C65BC9849B"
+	loot_size: 1
+	order_index: 10
+	rewards: [
+		{ item: "waystones:sandy_waystone" }
+		{ item: "waystones:mossy_waystone" }
+		{ item: "waystones:waystone" }
+	]
+	title: "waystone"
+}

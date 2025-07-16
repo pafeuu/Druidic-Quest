@@ -468,11 +468,7 @@
 		}
 		{
 			dependencies: ["44B9FE4B80D14F6F"]
-			description: [
-				"To find a &l&5Geode&r&r craft &5&lDowsing Rod&r&r by rightclicking an &8&lArchwood Plank&r&r with &6&lGold Dust&r&r"
-				""
-				"Right clicking with &5&lDowsing Rod&r&r will highlight &5&lAmethyst&r&r related blocks near you"
-			]
+			description: ["Right clicking with &5&lDowsing Rod&r&r will highlight &5&lAmethyst&r&r related blocks near you"]
 			icon: "minecraft:amethyst_cluster"
 			id: "37E717454A7E8792"
 			rewards: [
@@ -1267,7 +1263,7 @@
 		}
 		{
 			dependencies: ["6CDE2D6E743FAAA5"]
-			description: ["To get &l&bHeart of Diamond&r&r you need to sneak up to a &8stoneling&r which you can find in underground caves. Use it to craft the &5&lDimension Ripper&r&r"]
+			description: ["To get &l&bHeart of Diamond&r&r you need to sneak up to a &8stoneling&r which you can find in underground caves.Stonelings might get scared away if you dont kill them in a single blow."]
 			icon: "quark:diamond_heart"
 			id: "0E40C9B32E05AC51"
 			rewards: [

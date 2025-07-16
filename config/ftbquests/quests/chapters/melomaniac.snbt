@@ -929,6 +929,125 @@
 			x: 6.0d
 			y: 3.0d
 		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "58E90376551EB9FB"
+			rewards: [{
+				count: 3
+				id: "1BCA89F77AA33727"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5BB0F00FD0E73B84"
+				item: "wizards_reborn:music_disc_arcanum"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "7C9A1B54A083DF8F"
+			rewards: [{
+				count: 3
+				id: "1262A56B69520677"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "28DE48D628A8F794"
+				item: "wizards_reborn:music_disc_mor"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "1451DD5ECFF01A5E"
+			rewards: [{
+				count: 3
+				id: "679B38B5DCDCD8C5"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "77A1FD80DC65318D"
+				item: "wizards_reborn:music_disc_reborn"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "0A67306E052852D9"
+			rewards: [{
+				count: 3
+				id: "6C39D752B13533B7"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4C06685C795462E7"
+				item: "wizards_reborn:music_disc_shimmer"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "1B1FBBBC7ACCD9DB"
+			rewards: [{
+				count: 3
+				id: "36C54AB78B889901"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "03CD82AEF07BD1E7"
+				item: "wizards_reborn:music_disc_capitalism"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "41FDA2598B32252B"
+			rewards: [{
+				count: 3
+				id: "5332C2E390A2C75E"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4026D48BAEDDEF70"
+				item: "wizards_reborn:music_disc_panache"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "23F5997E58E8EC24"
+			rewards: [{
+				count: 3
+				id: "1C19634402C9C3E8"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "49BDAE0B8D3DAF1B"
+				item: "wizards_reborn:music_disc_disco"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 3.0d
+		}
 	]
 	title: "Melomaniac"
 }
