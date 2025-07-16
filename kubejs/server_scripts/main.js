@@ -371,6 +371,85 @@ ServerEvents.recipes(event => {
 	
 	/// ======================================================================= Tier 0 Components ========================================================================
 	
+	event.custom({
+	"type": "lychee:block_interacting",
+	"post": [
+		{
+		"type": "drop_item",
+		"item": "wizards_reborn:white_arcane_lumos",
+		"count": 16
+		},
+		{
+			"type": "place",
+			"block": "air"
+		},
+		{
+		"type": "execute",
+		"command": "playsound wizards_reborn:arcanum_dust_transmutation neutral @p",
+		"hide": true
+		}
+	],
+	"item_in": {
+		"item": "wizards_reborn:arcanum_dust"
+	},
+	"block_in": "coal_block"
+	}
+	).id("wizards_reborn:wissen_crystallizer/white_arcane_lumos")
+
+	event.custom({
+		"type": "lychee:lightning_channeling",
+		"post": [
+			{
+			"type": "drop_item",
+			"item": "wizards_reborn:cosmic_arcane_lumos",
+			"count": 2
+			},
+			{
+			"type": "execute",
+			"command": "playsound wizards_reborn:arcanum_dust_transmutation neutral @p",
+			"hide": true
+			}
+		],
+		"item_in": [
+			{
+			"item": "wizards_reborn:white_arcane_lumos"
+			},
+			{
+			"item": "minecraft:amethyst_shard"
+			},
+			{
+			"item": "minecraft:lapis_lazuli"
+			}
+		]
+	}).id("wizards_reborn:wissen_crystallizer/cosmic_arcane_lumos")
+
+	event.custom({
+		"type": "lychee:lightning_channeling",
+		"post": [
+			{
+			"type": "drop_item",
+			"item": "wizards_reborn:rainbow_arcane_lumos",
+			"count": 3
+			},
+			{
+			"type": "execute",
+			"command": "playsound wizards_reborn:arcanum_dust_transmutation neutral @p",
+			"hide": true
+			}
+		],
+		"item_in": [
+			{
+			"item": "wizards_reborn:red_arcane_lumos"
+			},
+			{
+			"item": "wizards_reborn:green_arcane_lumos"
+			},
+			{
+			"item": "wizards_reborn:blue_arcane_lumos"
+			}
+		]
+	}).id("wizards_reborn:wissen_crystallizer/rainbow_arcane_lumos")
+	
 	event.shaped("kubejs:arcane_leather",
 		[
 			" F ",
@@ -395,8 +474,8 @@ ServerEvents.recipes(event => {
 		}
 	)
 	event.recipes.create.milling("2x forbidden_arcanus:spawner_scrap","kubejs:broken_spawner")
-	event.recipes.naturesaura.tree_ritual("2x naturesaura:ancient_sapling",["#forge:storage_blocks/redstone","#minecraft:saplings","#forge:gems/arcane_crystal","#forge:gems/arcane_crystal","#forge:gems/arcane_crystal","#forge:gems/arcane_crystal","#forge:gems/arcane_crystal","#forge:gems/arcane_crystal"],"quark:red_blossom_sapling").id("naturesaura:tree_ritual/ancient_sapling")
-	event.recipes.naturesaura.tree_ritual("2x naturesaura:ancient_sapling",["#forge:storage_blocks/redstone","#minecraft:saplings","#forge:gems/arcane_crystal","#forge:gems/arcane_crystal","#forge:gems/arcane_crystal","#forge:gems/arcane_crystal","#forge:gems/arcane_crystal","#forge:gems/arcane_crystal"],"quark:ancient_sapling")
+	event.recipes.naturesaura.tree_ritual("2x naturesaura:ancient_sapling",["#forge:storage_blocks/redstone","#minecraft:saplings","wizards_reborn:arcanum","wizards_reborn:arcanum","wizards_reborn:arcanum","wizards_reborn:arcanum","wizards_reborn:arcanum","wizards_reborn:arcanum"],"quark:red_blossom_sapling").id("naturesaura:tree_ritual/ancient_sapling")
+	event.recipes.naturesaura.tree_ritual("2x naturesaura:ancient_sapling",["#forge:storage_blocks/redstone","#minecraft:saplings","wizards_reborn:arcanum","wizards_reborn:arcanum","wizards_reborn:arcanum","wizards_reborn:arcanum","wizards_reborn:arcanum","wizards_reborn:arcanum"],"quark:ancient_sapling")
 	
 
 	event.custom({
@@ -3221,8 +3300,8 @@ ServerEvents.recipes(event => {
 		  "time": 200
 	}).id("forbidden_arcanus:deorum_ingot")
 
-	event.remove({id:"wizards_reborn:blasting/arcane_gold_ingot"})
-	event.remove({id:"wizards_reborn:smelting/arcane_gold_ingot"})
+	//event.remove({id:"wizards_reborn:blasting/arcane_gold_ingot"})
+	//event.remove({id:"wizards_reborn:smelting/arcane_gold_ingot"})
 
 	event.custom({
 		type: "immersiveengineering:alloy",
