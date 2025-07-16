@@ -9,7 +9,7 @@ ServerEvents.recipes(event=>{
     evaporating("#forge:mushrooms","earth",50)
 
     evaporating("feather","air",50)
-    evaporating("quark:cloud","air",10)
+    evaporating("quark:bottled_cloud","air",10)
 
     evaporating("#minecraft:logs","fire",10)
     evaporating("coal","fire",20)

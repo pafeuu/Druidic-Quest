@@ -6,7 +6,7 @@ ServerEvents.recipes(e=>{
 		output: "wizards_reborn:arcane_wood_sapling",
 		pedestalItems: [],
 		source: 10000
-	}).id("wizards_reborn:arcanum_dust_transmutation/arcane_wood_sapling")
+	})//.id("wizards_reborn:arcanum_dust_transmutation/arcane_wood_sapling")
     
     
 })

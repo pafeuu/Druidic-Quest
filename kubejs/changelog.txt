@@ -2076,6 +2076,9 @@ Patch 0.3.2.1
 ### Updated Mods:
     -Fluffy Fur
 
+### Updated Resourcepacks:
+    -Hellim's Xaero's maps mob icons
+
 ### Quests:
     -Added missing quests in the dendrologist chapter for bwyg saplings and rubber sapling
 
