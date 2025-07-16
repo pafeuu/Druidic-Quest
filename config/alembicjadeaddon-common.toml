@@ -5,7 +5,7 @@
 	maxDamageTypesDisplayed = 3
 	#Maximum number of resistances/weaknesses to display in the tooltip
 	#Range: 0 ~ 20
-	maxResistancesDisplayed = 5
+	maxResistancesDisplayed = 7
 	#List of damage types that should not be displayed in tooltips
 	#Format: 'modid:damage_type'
 	blacklistedDamageTypes = []

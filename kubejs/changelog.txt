@@ -1,3 +1,4 @@
+@ -1,2061 +0,0 @@
 Patch 0.6 Beta part 1
 
 -Maximum time_for_phantom_spawn increased to 144000
@@ -2055,7 +2056,22 @@ Patch 0.3.2.1
     -Fixed loading screen tips(By Gyldanword)
 
 
+# Patch 2.1
 
+### Added Mods:
+    -Silly Oddities
 
+### Removed Mods:
+    -Traveler's Titles
 
+### Updated Mods:
+    -Fluffy Fur
 
+### Recipes:
+    -Added for Heart of the Earth
+    -Fixed recipes related to ancient wood
+    -Fixed recipes related to cork bamboo
+
+### Other:
+    -Fixed Crashes while using Arcanemicon
+    -
