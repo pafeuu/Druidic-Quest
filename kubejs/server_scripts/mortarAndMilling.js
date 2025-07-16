@@ -78,7 +78,7 @@ ServerEvents.recipes(event => {
         })  
     }
 
-    MillingWithExtras(4, "vintagedelight:salt", 6, 1, "coal", 0.9, "wizards_reborn:nether_salt", 4, "wizards_reborn:salt_crushing")
+    MillingWithExtras(4, "vintagedelight:salt_dust", 6, 1, "coal", 0.9, "wizards_reborn:nether_salt", 4, "wizards_reborn:salt_crushing")
     MillingWithExtras(1, "wizards_reborn:arcanum_dust", 2, 1, "wizards_reborn:arcanum_dust", 0.5, "wizards_reborn:arcanum", 4, "wizards_reborn:shapeless/arcanum_dust")
     event.remove({id:"wizards_reborn:shapeless/arcanum_dust_with_redstone"})
 

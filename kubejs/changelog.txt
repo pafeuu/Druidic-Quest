@@ -2092,6 +2092,7 @@ Patch 0.3.2.1
     -Changed recipe for Insightful Crystal
     -Changed for Dowsing Rod
     -Changed for Scroll of Ageless Wisdom
+    -Fixed nether salt milling recipe
 
 ### Balance:
     -Buffed Creeper Head
