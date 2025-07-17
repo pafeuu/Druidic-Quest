@@ -859,7 +859,7 @@
 				type: "item"
 			}]
 			x: -12.5d
-			y: 3.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -876,7 +876,7 @@
 				type: "item"
 			}]
 			x: -12.5d
-			y: 5.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["4CCE1DF1DF0C35DB"]
@@ -1047,6 +1047,40 @@
 			}]
 			x: 7.5d
 			y: 3.0d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "0F0EE4AFEA96173C"
+			rewards: [{
+				count: 3
+				id: "345408A3DE08670B"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4B9B9D1070A95721"
+				item: "biomeswevegone:music_disc_better_days"
+				type: "item"
+			}]
+			x: -12.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4CCE1DF1DF0C35DB"]
+			id: "405D2F24EEF8C4C9"
+			rewards: [{
+				count: 3
+				id: "10BE806D361981FC"
+				item: "thermal:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6670FE619690E8D0"
+				item: "biomeswevegone:music_disc_pixie_club"
+				type: "item"
+			}]
+			x: -12.5d
+			y: 5.0d
 		}
 	]
 	title: "Melomaniac"
