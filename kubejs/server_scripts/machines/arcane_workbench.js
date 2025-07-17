@@ -435,4 +435,29 @@ ServerEvents.recipes(event=>{
     "wissen": 500
     }).id("enigmaticlegacy:xp_scroll")
 
+    event.custom({
+    "type": "wizards_reborn:arcane_workbench",
+    "pattern": [
+        "  A",
+        " S ",
+        "A  ",
+        "GGGG"
+    ],
+    "key": {
+        "A": {
+        "item": "minecraft:amethyst_shard"
+        },
+        "S": {
+        "item": "immersiveengineering:stick_treated"
+        },
+        "G":{
+        "tag": "forge:ingots/gold"    
+        }
+    },
+    "output": {
+        "item": "ars_nouveau:dominion_wand",
+    },
+    "wissen": 1000
+    })
+
 })
