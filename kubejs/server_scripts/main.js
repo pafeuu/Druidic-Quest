@@ -3836,12 +3836,7 @@ ServerEvents.recipes(event => {
 		{ A:"create:andesite_casing",Z:"vintageimprovements:grinder_belt",Y:"kubejs:andesite_machine",X:"#forge:gears/steel"}).id("vintageimprovements:craft/belt_grinder")
 	
 
-	event.shaped("2x create:white_sail",
-		[ "AYA","XYX","AYA" ],
-		{ A:"#forge:rods/treated_wood",X:"create:andesite_alloy",Y:"immersiveengineering:windmill_sail"}).id("create:crafting/kinetics/white_sail")
-	
-
-		event.remove({id:'ars_nouveau:storage_lectern'})
+	event.remove({id:'ars_nouveau:storage_lectern'})
 		event.custom({
 			type: "ars_nouveau:imbuement",
 			"count": 1,
@@ -3896,7 +3891,19 @@ ServerEvents.recipes(event => {
 		}
 	  )
 
-
+	event.shaped("ars_creo:starbuncle_wheel",
+		[
+			"PSP",
+			"SCS",
+			"PSP"
+		],
+		{
+			S: "#forge:plates/steel",
+			P: "#forge:plates/wooden",
+			C: "ars_nouveau:starbuncle_charm"
+		}
+	).id("ars_creo:starbuncle_wheel")
+	
 	//======================================================== Tier 5 Machines
 
 	function dynamo(dynamo,plateUp,plateDown,middle)
