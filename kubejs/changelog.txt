@@ -2119,3 +2119,41 @@ Patch 0.3.2.1
     -Added info to the goldenleaf berries
     -Added info to salty lightsources about coloring them with arcane lumos
     -Spectral Hammer can now mine darkstone, dacite, white dacite, redrock, rocky stone, mossy stone
+
+# Patch 2.2 Enchanting Overhaul
+
+### New Mods:
+    -
+
+### Removed Mods:
+    -
+
+### Recipes:
+    -Changed for Starbuncle Wheel
+    -Changed for Dominion Wand
+
+### Removed Items:
+    -Small Enchanting Rune
+
+### Added Items:
+    -Enchanting Rune of Curses
+    -Enchanting Rune of Fire
+    -Enchanting Rune of Ice
+    -Enchanting Rune of Water
+    -Enchanting Rune of Mana
+    -Enchanting Rune of Speed
+    -Enchanting Rune of Agility
+    -Enchanting Rune of Horror
+    -Big Enchantning Rune of Horror
+    -Enchanting Rune of Pain
+    -Big Enchanting Rune of Pain
+    -Enchanting Rune of Nature
+    -Enchanting Rune of Repulsion
+    -Big Enchanting Rune of Steel
+    -Big Enchanting Rune of Cosmos
+    -Big Enchanting Rune of Wisdom
+    -Large Enchanting Rune of Wisdom
+    -Large Enchanting Rune of Luck
+    -Large Enchanting Rune of Infinity
+    
+
