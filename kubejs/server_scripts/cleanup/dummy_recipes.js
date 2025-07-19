@@ -54,4 +54,5 @@ ServerEvents.recipes(event=>{
     event.blasting("wizards_reborn:raw_arcane_gold","wizards_reborn:arcane_gold_ore").id("wizards_reborn:blasting/arcane_gold_ingot_from_raw")
 
     event.recipes.ars_nouveau.enchanting_apparatus("ars_nouveau:dominion_wand","kubejs:recipe_changed","kubejs:recipe_changed").id("ars_nouveau:dominion_wand")
+    
 })

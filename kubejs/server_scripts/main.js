@@ -2146,30 +2146,7 @@ ServerEvents.recipes(event => {
 		}
 	  ).id("forbidden_arcanus:golden_orchid_seeds")
 
-	event.custom({
-		type: "lychee:lightning_channeling",
-		post: [
-			{ type: "drop_item", item: "kubejs:big_enchanting_rune", count: 4 },
-			{ type: "execute", command: "playsound forbidden_arcanus:item.mundabitur_dust.use neutral @p", hide: true }
-		],
-		item_in: [
-			{ item: "kubejs:deepslate_rune" },
-			{ item: "kubejs:deepslate_rune" },
-			{ item: "kubejs:deepslate_rune" },
-			{ item: "kubejs:deepslate_rune" },
-			{ item: "aether:zanite_gemstone" },
-			{ item: "kubejs:improved_alchemical_dust"},
-			{ item: "ars_nouveau:source_gem_block"},
-			{ item: "ars_nouveau:source_gem_block"}
-		]
-	})
-
-	event.shaped("kubejs:medium_enchanting_rune",["AA","AA"],{A:"kubejs:small_enchanting_rune"})
-	event.shaped("kubejs:big_enchanting_rune",["AA","AA"],{A:"kubejs:medium_enchanting_rune"})
-	event.shaped("kubejs:large_enchanting_rune",["AA","AA"],{A:"kubejs:big_enchanting_rune"})
-	event.shapeless("4x kubejs:big_enchanting_rune","kubejs:large_enchanting_rune")
-	event.shapeless("4x kubejs:medium_enchanting_rune","kubejs:big_enchanting_rune")
-	event.shapeless("4x kubejs:small_enchanting_rune","kubejs:medium_enchanting_rune")
+	
 
 	event.recipes.naturesaura.altar("aether:zanite_gemstone","diamond",7500,40)
 	event.recipes.naturesaura.altar("deep_aether:skyjade","emerald",7500,40)
@@ -2556,6 +2533,20 @@ ServerEvents.recipes(event => {
 	event.replaceInput({id:'naturescompass:natures_compass'},'#minecraft:saplings','kubejs:nature_essence')
 	/// ======================================== Tier 2 Machines ================================================================
 
+	event.shaped("ars_nouveau:relay",
+		[
+			"GPG",
+			"RTR",
+			"GPG"
+		],
+		{
+			P: "#forge:plates/source_alloy",
+			G: "#forge:plates/gold",
+			R: "#forge:rods/gold",
+			T: "wizards_reborn:wissen_translator"
+		}
+	).id("ars_nouveau:relay")
+
 	event.shaped('ars_nouveau:basic_spell_turret',["R"],{R:"kubejs:recipe_changed"}).id('ars_nouveau:basic_spell_turret')
 
 	event.shaped('ars_nouveau:basic_spell_turret',
@@ -2890,24 +2881,6 @@ ServerEvents.recipes(event => {
 		}
 	  ],
 	  "source": 500	
-	})
-
-	event.remove({output:"ars_nouveau:enchanting_apparatus"})
-	event.custom({
-		type: "naturesaura:tree_ritual",
-		ingredients: [
-			{item: "enchanted_book"},
-			{tag: "forge:storage_blocks/diamond"},
-			{item: "kubejs:source_alloy_ingot"},
-			{item: "kubejs:source_alloy_ingot"},
-			{tag: "forge:storage_blocks/gold"},
-			{tag: "forge:storage_blocks/gold"},
-			{item: "kubejs:source_alloy_ingot"},
-			{item: "kubejs:source_alloy_ingot"}
-		],
-		"sapling": {item: "ars_nouveau:blue_archwood_sapling"},
-		"output": {item: "ars_nouveau:enchanting_apparatus","count": 1},
-		"time": 200
 	})
 
 	event.remove({output:"naturesaura:nature_altar"})
@@ -3903,7 +3876,7 @@ ServerEvents.recipes(event => {
 			C: "ars_nouveau:starbuncle_charm"
 		}
 	).id("ars_creo:starbuncle_wheel")
-	
+
 	//======================================================== Tier 5 Machines
 
 	function dynamo(dynamo,plateUp,plateDown,middle)
