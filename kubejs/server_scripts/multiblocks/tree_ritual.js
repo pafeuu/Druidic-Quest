@@ -70,4 +70,17 @@ ServerEvents.recipes(event=>{
         "kubejs:infused_amethyst",
         "minecraft:amethyst_shard"],
         "ars_nouveau:purple_archwood_sapling")
+
+     event.remove({output:"ars_nouveau:enchanting_apparatus"})
+     event.recipes.naturesaura.tree_ritual("ars_nouveau:enchanting_apparatus",
+          ["quark:diamond_heart",
+          "#forge:plates/diamond",
+          "#forge:gears/gold",
+          "#forge:gears/gold",
+          "#forge:ingots/source_alloy",
+          "#forge:ingots/source_alloy",
+          "#forge:ingots/source_alloy",
+          "#forge:ingots/source_alloy"],
+          "ars_nouveau:blue_archwood_sapling"
+     )
 })
