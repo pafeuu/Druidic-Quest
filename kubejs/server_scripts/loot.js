@@ -1,6 +1,19 @@
 
 LootJS.modifiers((event) => {
-  
+    
+
+    ///==================================Enchanted Books==========================
+
+    event.addLootTableModifier([
+        LootType.ADVANCEMENT_ENTITY,
+        LootType.ADVANCEMENT_REWARD,
+        LootType.CHEST,
+        LootType.ENTITY,
+        LootType.FISHING,
+        LootType.GIFT,
+        LootType.PIGLIN_BARTER,
+        LootType.UNKNOWN]).removeLoot("minecraft:enchanted_book")
+
     ///=======================================Replacing Junk
 
     event.addLootTypeModifier(LootType.CHEST)
