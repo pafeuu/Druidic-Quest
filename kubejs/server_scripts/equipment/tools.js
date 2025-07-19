@@ -1055,6 +1055,20 @@ ServerEvents.recipes(event => {
 	
 	/// ======================================================================= Tier 1 Tools ============================================================================
 	
+	event.shaped("thermal:fluid_reservoir",
+		[
+			"CRC",
+			"TBT",
+			"TTT"
+		],
+		{
+			C: "#forge:gears/copper",
+			R: "thermal:cured_rubber",
+			T: "create:fluid_tank",
+			B: "bucket"
+		}
+	).id("thermal:fluid_reservoir")
+
 	event.shaped("thermal:detonator",
 		[
 			" R ",
