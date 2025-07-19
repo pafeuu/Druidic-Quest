@@ -1337,6 +1337,19 @@ ServerEvents.recipes(event => {
 	
 	/// ======================================================================= Tier 1 Machines =======================================================================
 
+	event.shaped("thermal:fluid_cell",
+		[
+			"RTR",
+			"TCT",
+			"RTR"
+		],
+		{
+			R: "thermal:rubber",
+			T: "create:fluid_tank",
+			C: "thermal:fluid_cell_frame"
+		}
+	).id("thermal:fluid_cell")
+
 	event.shaped("naturesaura:placer",
 		[
 			"SES",
