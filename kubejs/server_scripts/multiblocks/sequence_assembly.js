@@ -1,4 +1,5 @@
 ServerEvents.recipes(e=>{
+    
     e.recipes.create.sequenced_assembly("immersiveengineering:blastbrick","kubejs:blast_brick",
         [
         e.recipes.create.deploying("kubejs:incomplete_blast_bricks",["kubejs:incomplete_blast_bricks","kubejs:brick_glue"]),

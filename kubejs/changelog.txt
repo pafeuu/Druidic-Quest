@@ -2123,17 +2123,28 @@ Patch 0.3.2.1
 # Patch 2.2 Enchanting Overhaul
 
 ### New Mods:
-    -
+    -Raw's Visual Keybinder
 
 ### Removed Mods:
-    -
+    -Enchanting System Overhaul
 
 ### Recipes:
     -Changed for Starbuncle Wheel
     -Changed for Dominion Wand
+    -Changed for Enchanting Apparatus
+    -Changed for Source Relay
+    -Changed for Dark Rune
+    -Changed for Big Enchanting Rune
+
 
 ### Removed Items:
     -Small Enchanting Rune
+    -Enchanting Table
+
+### Textures:
+    -Changed for Enchanting Rune
+    -Changed for Big Enchanting Rune
+    -Changed for Large Enchanting Rune
 
 ### Added Items:
     -Enchanting Rune of Curses
@@ -2155,5 +2166,13 @@ Patch 0.3.2.1
     -Large Enchanting Rune of Wisdom
     -Large Enchanting Rune of Luck
     -Large Enchanting Rune of Infinity
-    
+
+### Loot:
+    -Enchanted Books no longer appear in loottables
+
+
+### Other:
+    -Removed Enchanting Books tooltip
+    -You can use enchanted books in anvil once again
+
 

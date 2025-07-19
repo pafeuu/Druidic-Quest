@@ -272,10 +272,10 @@ StartupEvents.registry('item', item => {
 
   ///===================================================RUNES===========================================================
   
-  item.create('large_enchanting_rune').displayName('Large Enchanting Runestone').tag("dq:tier2/component")
-  item.create('big_enchanting_rune').displayName('Big Enchanting Runestone').tag("dq:tier2/component")
-  item.create('medium_enchanting_rune').displayName('Medium Enchanting Runestone').tag("dq:tier2/component")
-  item.create('small_enchanting_rune').displayName('Small Enchanting Runestone').tag("dq:tier2/component")
+  item.create('large_enchanting_rune').displayName('Large Enchanting Rune').tag("dq:tier3/component")
+  item.create('big_enchanting_rune').displayName('Big Enchanting Rune').tag("dq:tier3/component")
+  item.create('enchanting_rune').displayName('Enchanting Rune').tag("dq:tier3/component")
+  
   item.create('enchanting_rune_of_curses').tag("dq:tier3/component")
   item.create('enchanting_rune_of_fire').tag("dq:tier3/component")
   item.create('enchanting_rune_of_ice').tag("dq:tier3/component")

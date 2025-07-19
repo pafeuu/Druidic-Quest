@@ -20,7 +20,10 @@ ItemEvents.tooltip( tooltip => {
                "kubejs:lead_pickaxe",
                "kubejs:lead_shovel",
                "kubejs:lead_hoe",
-               "kubejs:lead_axe"],Text.gray("Texture by MalcomRiley"))
+               "kubejs:lead_axe",
+               "kubejs:enchanting_rune",
+               "kubejs:big_enchanting_rune",
+               "kubejs:large_enchanting_rune"],Text.gray("Texture by MalcomRiley"))
 
   tooltip.add(["kubejs:travelers_belt"],Text.gray("Texture by Futureazoo"))
 
@@ -207,15 +210,6 @@ ItemEvents.tooltip( tooltip => {
   tooltip.addAdvanced("alexsmobs:tarantula_hawk_elytra",(item, advanced, text) => {
     text.add(1,Text.of("Stronger Elytra").lightPurple())
     text.add(2,Text.of("Accepts armor enchantments").gold())
-  })
-  
-  tooltip.addAdvanced("minecraft:enchanted_book", (item, advanced, text) => {
-    if (!tooltip.shift) {
-      text.add(1, [Text.of('Hold ').darkPurple(), Text.of('Shift ').gold(), Text.of('to see details').darkPurple()])
-    } else {
-      text.add(1, Text.lightPurple("Right click to learn the enchantment!"))
-      text.add(2, Text.red("Can't be used in anvil to apply enchantments!"))
-    }
   })
 
   tooltip.addAdvanced("supplementaries:bellows", (item, advanced, text) => {
