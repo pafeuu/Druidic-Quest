@@ -109,8 +109,69 @@ ServerEvents.recipes(event=>{
         "silk_touch_1"
 
     ]
+    const WizardsRebornRemoveById =[
+        "wizards_reborn:integration/farmers_delight/arcane_iterator/enchantments/backstabbing",
+        "wizards_reborn:integration/create/arcane_iterator/enchantments/potato_recovery",
+        "wizards_reborn:integration/create/arcane_iterator/enchantments/capacity",
+        "wizards_reborn:arcane_iterator/enchantments/unbreaking",
+        "wizards_reborn:arcane_iterator/enchantments/vanishing_curse",
+        "wizards_reborn:arcane_iterator/enchantments/sweeping",
+        "wizards_reborn:arcane_iterator/enchantments/thorns",
+        "wizards_reborn:arcane_iterator/enchantments/silk_touch",
+        "wizards_reborn:arcane_iterator/enchantments/smite",
+        "wizards_reborn:arcane_iterator/enchantments/riptide",
+        "wizards_reborn:arcane_iterator/enchantments/sharpness",
+        "wizards_reborn:arcane_iterator/enchantments/quick_charge",
+        "wizards_reborn:arcane_iterator/enchantments/respiration",
+        "wizards_reborn:arcane_iterator/enchantments/quick_charge",
+        "wizards_reborn:arcane_iterator/enchantments/protection",
+        "wizards_reborn:arcane_iterator/enchantments/punch",
+        "wizards_reborn:arcane_iterator/enchantments/power",
+        "wizards_reborn:arcane_iterator/enchantments/projectile_protection",
+        "wizards_reborn:arcane_iterator/enchantments/multishot",
+        "wizards_reborn:arcane_iterator/enchantments/piercing",
+        "wizards_reborn:arcane_iterator/enchantments/luck_of_the_sea",
+        "wizards_reborn:arcane_iterator/enchantments/lure",
+        "wizards_reborn:arcane_iterator/enchantments/looting",
+        "wizards_reborn:arcane_iterator/enchantments/loyalty",
+        "wizards_reborn:arcane_iterator/enchantments/infinity",
+        "wizards_reborn:arcane_iterator/enchantments/knockback",
+        "wizards_reborn:arcane_iterator/enchantments/frost_walker",
+        "wizards_reborn:arcane_iterator/enchantments/impaling",
+        "wizards_reborn:arcane_iterator/enchantments/flame",
+        "wizards_reborn:arcane_iterator/enchantments/fortune",
+        "wizards_reborn:arcane_iterator/enchantments/fire_aspect",
+        "wizards_reborn:arcane_iterator/enchantments/fire_protection",
+        "wizards_reborn:arcane_iterator/enchantments/efficiency",
+        "wizards_reborn:arcane_iterator/enchantments/feather_falling",
+        "wizards_reborn:arcane_iterator/enchantments/channeling",
+        "wizards_reborn:arcane_iterator/enchantments/depth_strider",
+        "wizards_reborn:arcane_iterator/enchantments/binding_curse",
+        "wizards_reborn:arcane_iterator/enchantments/blast_protection",
+        "wizards_reborn:arcane_iterator/enchantments/aqua_affinity",
+        "wizards_reborn:arcane_iterator/enchantments/bane_of_arthropods"
+    ]
 
     ArsRemoveById.forEach(id => {
 		event.remove({id:"ars_nouveau:"+id})
 	});
+
+    WizardsRebornRemoveById.forEach(id => {
+		event.remove({id:id})
+	});
+
+    event.custom({
+        "type": "lychee:block_interacting",
+        "hide_in_viewer": true,
+        "post": [
+            {
+            "type": "prevent_default"
+            }
+        ],
+        "item_in": {
+            "type": "lychee:always_true"
+        },
+        "block_in": "minecraft:enchanting_table"
+    })
+    
 })
