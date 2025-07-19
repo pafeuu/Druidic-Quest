@@ -10,13 +10,13 @@
 	#EG: modname:modsound.boing
 	#
 	#If you want to use external sounds, consider looking into the mods that add resources
-	name = "entity.lightning_bolt.thunder"
+	name = "wizards_reborn:crystal_shimmer"
 	#Volume of the volume (when Minecraft loads)
 	#Range: 0.0 ~ 10.0
-	volume = 1
+	volume = 2
 	#Pitch of the sound (when Minecraft loads)
 	#Range: 0.0 ~ 10.0
-	pitch = 1.0
+	pitch = 2.0
 	#Sound category for the sound played when Minecraft finishes loading. EG: "ambient" or "music". Defaults to "master" if Ding cannot find your category.
 	category = "master"
 

@@ -2135,6 +2135,9 @@ Patch 0.3.2.1
     -Changed for Source Relay
     -Changed for Dark Rune
     -Changed for Big Enchanting Rune
+    -Changed for Fluid Cell
+    -Changed for Fluid Reservoir
+    -Changed for Time in a Bottle
 
 
 ### Removed Items:
@@ -2168,11 +2171,16 @@ Patch 0.3.2.1
     -Large Enchanting Rune of Infinity
 
 ### Loot:
-    -Enchanted Books no longer appear in loottables
+    -Enchanted Books no longer appear in loot chests
+
+### Item Balance:
+    -Buffed Durability of each golden armor piece to match iron
 
 
 ### Other:
     -Removed Enchanting Books tooltip
     -You can use enchanted books in anvil once again
+    -Starbuncle Wheel is now faster by default but no longer gets faster with gold block
+    -Spells now deal correct dmg type(Color display still breaks sometimes)
 
 

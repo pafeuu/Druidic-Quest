@@ -460,4 +460,35 @@ ServerEvents.recipes(event=>{
     "wissen": 1000
     })
 
+    event.custom({
+    "type": "wizards_reborn:arcane_workbench",
+    "pattern": [
+        " G ",
+        "DWD",
+        " B ",
+        "SSSS"
+    ],
+    "key": {
+        "W": {
+        "item": "minecraft:clock"
+        },
+        "B": {
+        "item": "minecraft:glass_bottle"
+        },
+        "S": {
+        "item": "forbidden_arcanus:stellarite_piece"
+        },
+        "G":{
+        "tag": "forge:plates/gold"    
+        },
+        "D":{
+        "tag": "forge:gears/diamond"    
+        }
+    },
+    "output": {
+        "item": "tiab:time_in_a_bottle",
+    },
+    "wissen": 5000
+    }).id("tiab:time_in_a_bottle")
+
 })
