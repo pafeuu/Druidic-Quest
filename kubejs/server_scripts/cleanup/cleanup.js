@@ -267,7 +267,8 @@ global.nukelist = ["twigs:calcite_wall",
 	'silly_oddities:polished_tuff_slab',
 	'silly_oddities:polished_tuff',
 	'silly_oddities:polished_tuff_stairs',
-	"silly_oddities:tuff_wall"
+	"silly_oddities:tuff_wall",
+	"minecraft:enchanting_table"
 ]/*,
 	'thermal:constantan_dust',
 	'thermal:bronze_dust',
